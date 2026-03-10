@@ -1,0 +1,1711 @@
+NATIONAL RESEARCH UNIVERSITY
+HIGHER SCHOOL OF ECONOMICS
+
+Department of Mathematics, Informatics and Computer Science
+Chair of Fundamental Mathematics
+Master’s Programme in Mathematics
+
+Chilina Ekaterina Evgenevna
+
+Master Thesis
+
+CLASSIFICATION OF HOMEOMORPHISMS ON
+THREE(cid:21)DIMENSIONAL MANIFOLDS WITH PSEUDO(cid:21)ANOSOV
+ATTRACTORS AND REPELLERS
+
+Scienti(cid:28)c Adviser:
+O.V.
+Professor
+
+Pochinka
+
+Nizhny Novgorod
+2025
+
+Contents
+
+1 Introduction
+
+1.1 History of the issue . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . .
+1.2 De(cid:28)nition of the considered class of mappings
+1.3 Main results . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+2 Auxiliary Statements
+
+3
+
+3
+3
+4
+
+9
+
+2.1 Generalized pseudo-Anosov homeomorphisms
+. . . . . . . . . . . .
+2.2 Group action on a topological space . . . . . . . . . . . . . . . . . .
+2.3 Foliations and bundles
+
+9
+9
+. . . . . . . . . . . . . . . . . . . . . . . . . 11
+
+3 Model Mappings
+
+4 Mappings with Invariant One-dimensional Foliations
+
+5 Generalized Pseudo-Anosov Dynamics
+
+References
+
+13
+
+21
+
+30
+
+32
+
+1
+
+Abstract
+
+The thesis is devoted to the study of orientation-preserving homeomorphisms
+of three-dimensional manifolds with a nonwandering set consisting of a (cid:28)nite num-
+ber of two-dimensional attractors and repellers, each of which is a disjoint union
+of cylindrically embedded closed surfaces, the restriction of some power to each
+of which is topologically conjugate to an orientation-preserving pseudo-Anosov
+homeomorphism. Topological classi(cid:28)cation of model homeomorphisms realized on
+each manifold admitting homeomorphisms of the class under study is obtained. It
+is proved that a homeomorphism of the class under consideration is topologically
+conjugate to a model mapping if and only if it has a one-dimensional invariant
+foliation.
+
+2
+
+1
+
+Introduction
+
+1.1 History of the issue
+
+In works by V.Z. Grines, Yu. A. Levchenko, V. S. Medvedev and O. V.
+Pochinka [1], [2], [3] the dynamics of A-di(cid:27)eomorphisms of three-dimensional man-
+ifolds with a two-dimensional surface nonwandering set was studied. For such map-
+pings the topology of the supporting manifold was investigated, model mappings
+were constructed, the ambient Ω-conjugacy of an arbitrary di(cid:27)eomorphism of the
+class under consideration with the model mapping and the topological conjugacy
+of a structurally stable di(cid:27)eomorphism of the class under consideration with the
+model mapping were proved. According to V.Z. Grines, V.S. Medvedev, E.V.
+Zhuzhoma [4], the number of connected components of the nonwandering set of
+mappings of the studied class is (cid:28)nite and each of them is a cylindrically embedded
+two-dimensional torus ([4, Theorem 1]) such that the restriction of some degree
+of the mapping to it is topologically conjugate to an Anosov di(cid:27)eomorphism (æ(cid:236).
+It follows from the work by R.V. Plykin [5] that with such a
+[4, Theorem 2]).
+structure of the nonwandering set, each of its connected components is either an
+attractor or a repeller (æ(cid:236). [5, Theorem 3]).
+
+This thesis is a generalization of the results of works [1], [2], [3] to the class of
+
+mappings G, which is introduced below.
+
+1.2 De(cid:28)nition of the considered class of mappings
+
+Denote by Sg a closed orientable surface of genus g.
+A homeomorphism P : Sg → Sg is called a generalized pseudo-Anosov home-
+omorphism with dilatation λ > 1 if on the surface Sg there exists a pair of P -
+invariant transverse foliations F s
+P with a (cid:28)nite set of saddle singularities S and
+transverse measures µs, µu such that µs(P (α)) = λµs(α) (µu(P (α)) = λ−1µu(α))
+for any arc α transverse to F s
+P do not have saddle
+singularities with one separatrix, then the homeomorphism P : Sg → Sg is called
+pseudo-Anosov. It follows from the Euler-Poincare formula (see Propositions 2.1
+and 2.2) that pseudo-Anosov homeomorphisms exist only on surfaces of genus
+greater than one.
+
+P ). If the foliations F s
+
+P (F u
+
+P , F u
+
+P , F u
+
+3
+
+A subspace X of a topological space Y is called a cylindrical embedding in
+Y of a topological space ¯X if there exists a homeomorphism onto the image h :
+¯X × [−1, 1] → Y such that X = h( ¯X × {0}).
+
+An invariant set B of a homeomorphism f is called an attractor if there exists a
+f j(U ) = B. An attractor
+
+closed neighborhood U of B such that f (U ) ⊂ int U , (cid:84)
+
+j≥0
+
+for a homeomorphism f −1 is called a repeller of the homeomorphism f .
+
+Let us denote by G the set of orientation-preserving homeomorphisms f of
+a closed orientable topological 3-manifold M 3, the nonwandering set N W (f ) of
+which consists of a (cid:28)nite number of connected components B0, . . . , Bm−1 satisfying
+for any i ∈ {0, . . . , m − 1} the following conditions:
+
+1. Bi is a cylindrical embedding of a closed orientable surface of genus greater
+
+than one;
+
+2. there exists a natural number ki such that f ki(Bi) = Bi, f k(Bi) ̸= Bi for any
+k ≤ ki and the restriction of the mapping f ki|Bi is topologically conjugate to
+an orientation-preserving pseudo-Anosov homeomorphism;
+
+3. Bi is either an attractor or a repeller of the homeomorphism f ki.
+
+A number of results related to the dynamics of mappings of class G have been
+
+obtained previously (Propositions 1.1-1.5).
+
+1.3 Main results
+
+The main results of the thesis are Theorems 1-2. To begin with, let us introduce
+
+the necessary notation.
+
+Let J : Sg → Sg be a homeomorphism. We de(cid:28)ne the homeomorphism
+
+by the formula
+
+γ : Sg × R → Sg × R
+
+γ(z, r) = (J(z), r − 1).
+
+Denote by MJ the quotient space of Sg × R by the action of the group
+
+Γ = {γi, i ∈ Z}
+
+4
+
+with the natural projection
+
+pJ : Sg × R → MJ .
+
+Proposition 1.1. [6, Theorem 1.1] A topological manifold admits a homeomor-
+phism from the class G if and only if it is homeomorphic to MJ , where J : Sg → Sg
+is an orientation-preserving homeomorphism1, commuting with a pseudo-Anosov
+homeomorphism.
+
+A homeomorphism f : X → X is called periodic if there exists m ∈ N such that
+
+f m = idX.
+
+Proposition 1.2. [7, Theorem 1] A homeomorphism commuting with a pseudo-
+Anosov map is either pseudo-Anosov or periodic homeomorphism.
+
+The simplest representatives of the class G are homeomorphisms of the set Φ,
+
+which are constructed as follows.
+
+Let us represent the circle as a subset of the complex plane
+
+S1 = {ei2πθ|0 ≤ θ < 1}.
+
+We de(cid:28)ne the covering
+
+by the formula p(r) = ei2πr.
+
+p : R → S1
+
+A set of numbers (n, k, l) is called correct if the following conditions hold:
+
+1. n, k ∈ N;
+
+2. if k = 1, then l = 0;
+
+3. if k > 1, then l ∈ {1, . . . , k − 1} and is coprime to k.
+
+For each correct set (n, k, l) we de(cid:28)ne a di(cid:27)eomorphism ¯φn,k,l : R → R by the
+
+formula
+
+¯φn,k,l(r) = r +
+
+1
+4πnk
+
+sin(2πnkr) +
+
+l
+k
+
+.
+
+1The statement of Theorem 1.1 in [6] omits the fact that J preserves the orientation of Sg,
+
+but it is necessary since homeomorphisms of class G are de(cid:28)ned on orientable manifolds.
+
+5
+
+Since ¯φn,k,l(r) + 1 = ¯φn,k,l(r + 1), the di(cid:27)eomorphism ¯φn,k,l is a lift of the circle
+di(cid:27)eomorphism φn,k,l(s) = p( ¯φn,k,l(p−1(s))), where p−1(s) is the full preimage of
+the point s ∈ S1 [8, Proposition 10.2.26].
+
+Consider a pseudo-Anosov homeomorphism P : Sg → Sg, an orientation-
+preserving homeomorphism J : Sg → Sg that commutes with it, and a correct set
+of numbers n, k, l such that the homeomorphism J lP k is an orientation-preserving
+pseudo-Anosov homeomorphism.
+
+Let us de(cid:28)ne the mapping ¯φP,J,n,k,l : Sg × R → Sg × R by the formula
+
+¯φP,J,n,k,l(z, r) = (P (z), ¯φn,k,l(r)).
+
+It is directly veri(cid:28)ed that ¯φP,J,n,k,lγ = γ ¯φP,J,n,k,l. Then, according to [8, Propo-
+sition 10.2.26], the orientation-preserving homeomorphism φP,J,n,k,l : MJ → MJ is
+well de(cid:28)ned and given by the formula
+
+φP,J,n,k,l(w) = pJ ( ¯φP,J,n,k,l(p−1
+
+J
+
+(w))),
+
+where w ∈ MJ and p−1
+phisms of the form φP,J,n,k,l will be called model.
+
+J
+
+(w) is the full preimage of the point w ∈ MJ . Homeomor-
+
+Let Φ denote the set of all model homeomorphisms.
+
+Proposition 1.3. [7, Theorem 2] Φ ⊂ G.
+
+For φP,J,n,k,l ∈ Φ and i ∈ {0, 1, . . . , 2nk − 1}, we set
+
+Bi = pJ
+
+(cid:16)
+
+Sg ×
+
+(cid:110) i
+
+(cid:111)(cid:17)
+
+2nk
+
+.
+
+It follows from the proof of [7, Theorem 2] that the following statement is true:
+
+Proposition 1.4. Let φ = φP,J,n,k,l ∈ Φ. Then the following statements hold:
+
+1. the nonwandering set N W (φ) of the homeomorphism φ consists of 2nk con-
+nected components B0, B1, . . . , B2nk−1 of period k (i.e. φk(Bi) = Bi and
+φk′(Bi) ̸= Bi for any i ∈ {0, . . . , 2nk − 1} and a natural k′ < k);
+
+6
+
+2. for any i ∈ {0, 1, . . . , 2nk − 1} the restriction of φ|Bi to the connected com-
+ponent Bi is topologically conjugate to the orientation-preserving pseudo-
+Anosov homeomorphism J lP k.
+
+Homeomorphisms f : X → X and f ′ : X ′ → X ′ are called topologically conju-
+
+gate if there exists a homeomorphism h : X → X ′ such that hf = f ′h.
+
+Theorem 1. 2 Homeomorphisms φP,J,n,k,l and φP ′,J′,n′,k′,l′ are topologically conju-
+gate if and only if n = n′, k = k′ and there exists a homeomorphism H : Sg → Sg
+such that one of the following conditions holds:
+
+1. l = l′ ≥ 0, HP = P ′H and HJ = J ′H;
+
+2. l = l′ = 0, HP = P ′H and HJ = J ′−1H;
+
+3. l + l′ = k, HP = J ′P ′H and HJ = J ′−1H.
+
+Homeomorphisms f : X → X and f ′ : X ′ → X ′ are called ambient Ω-conjugate
+if there exists a homeomorphism h : X → X ′ such that h(N W (f )) = N W (f ′) and
+hf |N W (f ) = f ′h|N W (f ).
+
+Proposition 1.5. Let f : M 3 → M 3 be a homeomorphism from the class G. Then
+the following statements hold:
+
+1. [6, Lemma 2.1] the boundary of each connected component of the set M 3 \
+(N W (f )) consists of exactly one connected component of the attractor f and
+one connected component of the repeller f ;
+
+2. [7, Theorem 3] f is ambient Ω-conjugate to a homeomorphism from the class
+
+Φ.
+
+It follows from Propositions 1.4 and 1.5 that the nonwandering set N W (f )
+of the homeomorphism f ∈ G consists of 2nk connected components of period
+k (n, k ∈ N) and the boundary of each connected component of the set M 3 \
+N W (f ) consists of exactly two connected components. Denote by G∗ ⊂ G the
+
+2In the work [6], in the classi(cid:28)cation of model mappings in point 3, an inaccuracy was made.
+
+Theorem 1 is a corrected version of it.
+
+7
+
+subset of homeomorphisms f such that in each connected component V of the
+set M 3 \ N W (f ) there exists a one-dimensional f k-invariant foliation, each leaf of
+which is an open arc having exactly two boundary points lying on two di(cid:27)erent
+connected components of the set ∂V . The union of the closures of all such arcs on
+all connected components of M 3 \ N W (f ) forms an f -invariant one-dimensional
+foliation on M 3, which we denote by Lf .
+Note that, by construction, Φ ⊂ G∗.
+
+Theorem 2. A homeomorphism f ∈ G is topologically conjugate to a homeomor-
+phism from the class Φ if and only if f ∈ G∗.
+
+The results known for pseudo-Anosov homeomorphisms made it possible to
+prove that the dynamics of mappings of the class G on a nonwandering set, up to
+topological conjugacy, has the same structure as the dynamics of model mappings
+of the set Φ. If an invariant one-dimensional foliation exists, then the dynamics
+of mappings of the class G coincides with the dynamics of model mappings on
+the entire manifold. In particular, it follows from Propositions 1.4 and 1.5 that
+the restrictions of a mapping from class G to di(cid:27)erent connected components of
+its nonwandering set are topologically conjugate homeomorphisms (for the same
+power, equal to the period of the connected components of the nonwandering
+set of the homeomorphism).
+If we assume conjugacy with generalized pseudo-
+Anosov homeomorphisms on the connected components of a nonwandering set of
+homeomorphisms of the class under consideration, then we can obtain pairwise
+topologically non-conjugate mappings on each connected component. In section 5
+such example is constructed.
+
+8
+
+2 Auxiliary Statements
+
+2.1 Generalized pseudo-Anosov homeomorphisms
+
+This section contains propositions related to generalized pseudo-Anosov home-
+omorphisms, which are necessary for proving the main theorems (for more details
+on generalized pseudo-Anosov homeomorphisms, see [9] and [10]). Let P : Sg → Sg
+be a generalized pseudo-Anosov homeomorphism. For q ∈ N, let dq denote the
+number of saddle singularities of invariant foliations of a pseudo-Anosov homeo-
+morphism P that have exactly q separatrices. The sequence DP = {dq : q ∈ N} is
+called the singular type of P . Since the sequence DP contains only a (cid:28)nite number
+of nonzero elements, for brevity we will indicate only the nonzero elements of this
+sequence below.
+
+Proposition 2.1. Euler-Poincare formula [9, Theorem 5.4] Let DP = {dq : q ∈ N}
+be the singular type of the generalized pseudo-Anosov homeomorphism P : Sg → Sg.
+Then
+
+(cid:88)
+
+d1 −
+
+(q − 2)dq = 2(2 − 2g).
+
+q≥3
+
+Proposition 2.2. [11] For an orientable surface, there exists a generalized pseudo-
+Anosov homeomorphism of any singular type admitted by the Euler-Poincare for-
+mula, with the exception of the singular types {d1 = d3 = 1} and {d3 = d5 = 1} in
+the case of surfaces of genus 1 and 2, respectively.
+
+Proposition 2.3. [10, Theorem 12.5] Two homotopic pseudo-Anosov homeomor-
+phisms are topologically conjugate by a homeomorphism isotopic to the identity.
+
+Proposition 2.4. [12, Corollary] Let P1, P2 : Sg → Sg be pseudo-Anosov homeo-
+morphisms and there exist homeomorphisms H1, H2 : Sg → Sg such that H1P1 =
+P2H1, H2P1 = P2H2. Then if the homeomorphism H1 is homotopic to the homeo-
+morphism H2, then H1 = H2.
+
+2.2 Group action on a topological space
+
+Let us recall some facts related to the group action on a topological space (for
+
+more details, see [8]).
+
+9
+
+A path c ⊂ X is a continuous image of a segment [0, 1] in X. Denote by c(t)
+the image of t ∈ [0, 1] in X. A path c is called a loop if c(0) = c(1). Denote by
+[c] ∈ π1(X, x) the class of loops homotopic to the loop c ⊂ X with the beginning
+and end at the point x ∈ X.
+
+For a continuous mapping f : X → Y of a topological space X to a topological
+space Y , we set f −1(V ) = {x ∈ X|h(x) ∈ V } (the full preimage of the set
+V ⊂ Y ) and denote by f∗ the fundamental group homomorphism f∗ : π1(X, x) →
+π1(Y, f (x)) induced by the mapping f at x ∈ X.
+
+Let the group Γ act freely and discontinuously on a Hausdor(cid:27) space X such
+that the orbit space X/Γ is connected. From the de(cid:28)nition of the projection
+pX/Γ : X → X/Γ it follows that p−1
+(x). Let
+c be some loop in X/Γ such that c(0) = c(1) = x. By the monodromy theorem,
+there exists a unique path ¯c in X starting at ¯x (¯c(0) = ¯x), which is a lift of c.
+Therefore, there exists an element ˜γ ∈ Γ such that ¯c(1) = ˜γ(¯x) and the mapping
+ηX/Γ,¯x : π1(X/Γ, x) → Γ is well de(cid:28)ned by the formula ηX/Γ,¯x([c]) = ˜γ.
+
+(x) is the orbit of some point ¯x ∈ p−1
+
+X/Γ
+
+X/Γ
+
+The mapping ηX/Γ,¯x : π1(X/Γ, x) → Γ is a nontrivial homomorphism ([8, Propo-
+sition 10.2.23]), called the homomorphism induced by the covering pX/Γ : X → X/Γ.
+Let Γ be an abelian group and ¯c′ be the lift of the path c ∈ π1(X/Γ, x) starting
+at ¯x′ = ¯c′(0) (¯x′ ̸= ¯x) and ˜γ′(¯x′) = ¯c′(1). Since there is a unique element ˜γ′′ ∈ Γ
+such that ˜γ′′(¯x) = ¯x′, by the monodromy theorem ˜γ′′(¯c) = ¯c′. Then ˜γ′′˜γ = ˜γ′˜γ′′
+and, consequently, ˜γ′ = ˜γ. Thus, ηX/Γ,¯x = ηX/Γ,¯x′ . Therefore, we will omit the
+index ¯x in the notation of the epimorphism ηX/Γ,¯x in the case of an Abelian group
+Γ and write ηX/Γ.
+
+Proposition 2.5. [8, Proposition 10.2.26] Let Γ and Γ′ be cyclic groups acting
+freely and discontinuously on a Γ, Γ′-space X, γ be a generator of Γ, and let there
+exist an isomorphism τ : Γ → Γ′. Then the following statements are true:
+
+1. If ¯h : X → X is a homeomorphism such that ¯h(γ(¯x)) = τ (γ(¯h(¯x))) for
+any ¯x ∈ X, then the mapping h : X/Γ → X/Γ′ given by the formula
+h = pX/Γ′ (¯h(p−1
+
+(x))) is a homeomorphism and τ ηX/Γ = ηX/Γ′ h∗;
+
+X/Γ
+
+2. If h : X/Γ → X/Γ′ is a homeomorphism such that τ ηX/Γ = ηX/Γ′ h∗, then
+there exists a unique homeomorphism ¯h : X → X that is a lift of h such
+
+10
+
+that ¯h(γ(¯x)) = τ (γ(¯h(¯x))), ¯h(¯x) = ¯x′ for ¯x ∈ X and ¯x′ ∈ p−1
+x′ = h(pX/Γ(¯x)).
+
+X/Γ′ (x′), where
+
+A group G is called a semidirect product of subgroups H ⊂ G and N ⊂ G if N
+is a normal subgroup and any element g ∈ G is uniquely represented as g = hn,
+where h ∈ H, n ∈ N . We will write G = H ⋉ N .
+
+Let J : Sg → Sg be a homeomorphism. Recall that B0 = pJ (Sg × {0}) and the
+manifold MJ = Sg ×R/Γ is the quotient space of the manifold Sg ×R by the action
+of the cyclic group of homeomorphisms Γ with the generator γ : Sg × R → Sg × R
+given by the formula γ(z, r) = (J(z), r − 1).
+
+The epimorphism induced by the covering pJ : Sg × R → MJ will be denoted
+
+by
+
+Denote by ιJ the inclusion map
+
+ηJ : MJ → Γ.
+
+ιJ : B0 → MJ .
+
+Proposition 2.6. Let J : Sg → Sg be a homeomorphism. Then the following
+statements hold:
+
+1. [13, Theorem 17.7] there exists an element [a] ∈ π1(MJ ) of in(cid:28)nite order
+
+such that π1(MJ ) = ⟨[a]⟩ ⋉ ιJ∗(π1(B0));
+
+2. if [c] = [a]k[b] ∈ π1(MJ ), where k ∈ Z, [b] ∈ ιJ∗(π1(B0)), then
+
+ηJ ([c]) = γ±k.
+
+2.3 Foliations and bundles
+
+Let us recall the de(cid:28)nitions related to foliations and bundles (for more details,
+
+see [14]).
+
+A family F = {Li; i ∈ Υ} of path-connected subsets of a topological manifold
+X of dimension n is called a k-dimensional foliation if it satis(cid:28)es the following
+three conditions:
+
+11
+
+(cid:136) Li ∩ Lj = ∅ for any i, j ∈ Υ such that i ̸= j;
+
+(cid:136) (cid:83)
+i∈Υ
+
+Li = X;
+
+(cid:136) for any point x ∈ X we can choose a local map (Ux, φx), x ∈ Ux, such
+that if Ux ∩ Li ̸= ∅, i ∈ Υ, then the path-connected components of the set
+φx(Ux ∩ Li) have the form {(x1, x2, . . . , xn) ∈ φx(Ux); xk+1 = ck+1, xk+2 =
+ck+2, . . . , xn = cn}, where ck+1, ck+2, . . . , cn are constants.
+
+An element of the foliation F is called a leaf.
+A foliation F is called invariant under a homeomorphism f : X → X if f maps
+
+a leaf of F to a leaf of F.
+
+Let X be a topological manifold of dimension n. Then a k-dimensional foliation
+F1 is called transversal to a (n − k)-dimensional foliation F2 if for any point x ∈ X
+there exists a local chart (Ux, φx) such that φx(L1
+x ∩ Ux) = {(x1, x2, . . . , xn) ∈
+φx(Ux); xk+1 = xk+2 = · · · = xn = 0} and φx(L2
+x ∩ Ux) = {(x1, x2, . . . , xn) ∈
+φx(Ux); x1 = x2 = · · · = xk = 0}, where L1
+x) is the leaf of the foliation F1 (F2)
+containing the point x.
+
+x (L2
+
+A bundle of a topological manifold X over a space B with projection ξ is a triple
+of the form (X, ξ, B), where ξ : X → B is a continuous mapping. The preimage
+ξ−1(b) is called a leaf of the bundle (X, ξ, B) over the point b ∈ B.
+
+An isomorphism of bundles (X, ξ, B) and (X ′, ξ′, B′) is a pair of homeomor-
+phisms h : X → X ′, H : B → B′ such that ξ′h = Hξ. The homeomorphism h
+maps the leaf of (X, ξ, B) to the leaf of (X ′, ξ′, B′).
+
+A triple of the form (B × F, pB, B), where pB : B × F → B is the canonical
+
+projection, is called the standard trivial bundle.
+
+12
+
+3 Model Mappings
+
+Recall that the homeomorphism φ = φP,J,n,k,l ∈ Φ is given by the formula
+
+φ(w) = pJ ( ¯φ(p−1
+
+J
+
+(w))),
+
+where
+
+¯φ(z, r) = (P (z), ¯φn,k,l(r)),
+
+(1)
+
+and is de(cid:28)ned on the manifold MJ = Sg × R/Γ with the natural projection
+
+where
+
+pJ : Sg × R → MJ ,
+
+Γ = {γi|i ∈ Z},
+
+γ(z, r) = (J(z), r − 1).
+
+(2)
+
+The covering pJ induces a homomorphism ηJ : π1(MJ ) → Γ.
+For i ∈ {0, . . . , 2nk − 1} we assume that Bi = pJ (Sg × { i
+
+2nk }) and ιJ : B0 → MJ
+
+is an inclusion map.
+
+Everywhere below it is assumed that for a homeomorphism φ′ = φP ′,J′,n′,k′,l′ ∈ Φ
+
+all objects associated with it have similar notations with a prime.
+
+Lemma 3.1. Let homeomorphisms φ and φ′ be topologically conjugate. Then the
+following statements are true:
+
+1. g = g′, n = n′, k = k′;
+
+2. there exist homeomorphisms h : MJ → MJ ′ and its lift ¯h : Sg × R → Sg × R
+
+such that hφ = φ′h, ¯h(Sg × {0}) = Sg × {0} and ¯hγ = γ′±1¯h.
+
+Proof. Let homeomorphisms φ and φ′ be topologically conjugate by a homeomor-
+phism h′ : MJ → MJ ′, i.e.
+
+h′φ = φ′h′.
+
+(3)
+
+The nonwandering set N W (φ) (N W (φ′)) of the homeomorphism φ (φ′) consists
+of 2nk (2n′k′) connected components of period k (k′) homeomorphic to Sg (Sg′)
+
+13
+
+(see Proposition 1.4). Since the conjugating homeomorphism maps orbits to orbits
+and a nonwandering set to a nonwandering set, g = g′, n = n′, and k = k′. Item
+1 is proved.
+
+We prove item 2. Recall that N W (φ) = B0 ⊔ · · · ⊔ B2nk−1 and N W (φ′) =
+
+B′
+
+0 ⊔ · · · ⊔ B′
+
+2nk−1 (see Proposition 1.4).
+
+The homeomorphism h′ maps the connected components of the nonwander-
+ing set N W (φ) of the homeomorphism φ to the connected components of the
+nonwandering set N W (φ′) of the homeomorphism φ′. Let h′(B0) = B′
+We de(cid:28)ne a homeomorphism ¯α : Sg × R → Sg × R by the formula
+
+m.
+
+¯α(z, r) =
+
+(cid:16)
+
+z, r −
+
+(cid:17)
+
+.
+
+m
+2nk
+
+(4)
+
+It is directly veri(cid:28)ed that ¯αγ′ = γ′ ¯α, ¯α ¯φ′ = ¯φ′ ¯α. Consequently, the mapping
+¯α : Sg × R → Sg × R projects into a homeomorphism α : MJ ′ → MJ ′, commuting
+with φ′ by the formula α(w) = pJ ′(¯α(p−1
+J ′ (w))) (see Proposition 2.5). Thus, ¯α(Sg ×
+2nk }) (4)= Sg × {0} and α(B′
+{ m
+
+0. We put
+
+m) = B′
+
+h = αh′
+
+(5)
+
+and obtain that h(B0) = B′
+
+0, hφh−1 = φ′.
+
+Consider the point w ∈ B0. It follows from Proposition 2.6 that there exists
+an element [a] ∈ π1(MJ , w) such that any element [c] ∈ π1(MJ , w) is uniquely
+represented as
+
+where k ∈ Z, [b] ∈ ιJ∗(π1(B0, w)), and
+
+[c] = [a]k[b],
+
+ηJ ([c]) = γk.
+
+(6)
+
+J
+
+(w) ∩ (Sg × {0}) and ¯w′ = p−1
+
+Let us put w′ = h(w), ¯w = p−1
+
+J ′ (w′) ∩ (Sg ×
+{0}). Homeomorphisms h : MJ → MJ ′, h|B0 : B0 → B′
+0 induce isomorphisms
+h∗ : π1(MJ , w) → π1(MJ ′, w′), h∗|ιJ∗ (π1(B0,w)) : ιJ∗(π1(B0, w)) → ιJ′∗(π1(B′
+0, w′)).
+Then it is directly veri(cid:28)ed that any element of [c′] ∈ π1(MJ ′) is uniquely rep-
+resented as [c′] = [a′]k[b′], where [a′]k ∈ h∗(⟨[a]⟩), [b′] ∈ h∗(ιJ′∗(π1(B′
+0, w′))). There-
+
+14
+
+fore, π1(MJ ′) = ⟨[a′]⟩ ⋉ ιJ′∗(π1(B′
+
+0)). By Proposition 2.6,
+
+ηJ ([c′]) = γ′±k.
+
+Let τ be an isomorphism τ : Γ → Γ′ such that
+
+τ (γ) = γ′±1.
+
+(7)
+
+(8)
+
+Then τ (ηJ ([c])) (6)= τ (γk) (8)= γ′±k and ηJ′ (h∗([c])) = ηJ′ ([c′]) (7)= γ′±k. Therefore,
+τ ηJ = ηJ′ h∗ and, by Proposition 2.5, there exists a unique homeomorphism ¯h : Sg ×
+R → Sg×R that is a lift of h such that ¯h( ¯w) = ¯w′ and ¯hγ = γ′±1¯h. Since h(B0) = B′
+and ¯w, ¯w′ ∈ Sg × {0}, we get that ¯h(Sg × {0}) = Sg × {0}.
+
+0
+
+Everywhere below, if homeomorphisms φ and φ′ are topologically conjugate by
+assumption, then we will assume that homeomorphisms J and J ′ are de(cid:28)ned on
+the same surface Sg.
+We de(cid:28)ne the set
+
+(cid:110) i
+
+I =
+
+(cid:12)
+(cid:111)
+(cid:12)i ∈ Z
+(cid:12)
+.
+
+2nk
+Lemma 3.2. Let homeomorphisms φ and φ′ be topologically conjugate. Then
+either l = l′ or k = l + l′. Moreover, if h : MJ → MJ ′ is a homeomorphism
+such that hφ = φ′h and it has a lift ¯h : Sg × R → Sg × R that has the property
+¯h(Sg × {0}) = Sg × {0}, then one of the following statements is true:
+
+1. l = l′ ≥ 0, ¯hγ = γ′¯h, ¯φ′ = ¯h ¯φ¯h−1 and ¯h(Sg × {r}) = Sg × {r} ∀r ∈ I;
+
+2. l = l′ = 0, ¯hγ = γ′−1¯h, ¯φ′ = ¯h ¯φ¯h−1 and ¯h(Sg × {r}) = Sg × {−r} ∀r ∈ I;
+
+3. l + l′ = k, ¯hγ = γ′−1¯h, γ′ ¯φ′ = ¯h ¯φ¯h−1 and ¯h(Sg × {r}) = Sg × {−r} ∀r ∈ I.
+
+Proof. Let homeomorphisms φ and φ′ be topologically conjugate. Then, by item 2
+of Lemma 3.1, there exists the homeomorphism h : MJ → MJ ′ and its lift ¯h : Sg ×
+R → Sg × R such that hφ = φ′h and ¯h(Sg × {0}) = Sg × {0}.
+
+Consider the lift ¯φ of the homeomorphism φ. Then the map
+
+0 = ¯h ¯φ¯h−1
+¯φ′
+
+15
+
+(9)
+
+is a lift of φ′. Since ¯φ′
+to the covering pJ′ , it follows that
+
+0 is a lift of the homeomorphism φ′ onto Sg × R with respect
+
+0 = γ′j ¯φ′,
+¯φ′
+
+where j ∈ Z. Then
+
+0(Sg × {0}) = γ′j( ¯φ′(Sg × {0})) (1),(2)= Sg ×
+¯φ′
+
+(cid:111)
+.
+
+− j
+
+(cid:110)l′
+k
+
+(10)
+
+(11)
+
+Since the conjugating homeomorphism h maps the connected components of
+the nonwandering set N W (φ) to the connected components of the nonwandering
+set N W (φ′) and the wandering set to the wandering set, then for any r ∈ I one
+of cases is possible: a) ¯h(Sg × {r}) = Sg × {r}, b) ¯h(Sg × {r}) = Sg × {−r}.
+
+Let us consider case a):
+
+¯h(Sg × {r}) = Sg × {r}.
+
+(12)
+
+0(Sg×{0}) (9)= ¯h( ¯φ(¯h−1(Sg×{0}))) (12)= ¯h( ¯φ(Sg×{0})) (1)= ¯h(Sg×{ l
+k }. Taking into account the formula (11), we obtain that Sg × { l
+k − j}. Since l
+
+k }) (12)=
+k } =
+k is satis(cid:28)ed only for j = 0,
+
+k ∈ [0, 1), the equality l′
+
+k − j = l
+
+k , l′
+
+Note that ¯φ′
+Sg × { l
+Sg × { l′
+that is, for
+
+0 = ¯φ′.
+¯φ′
+
+(13)
+
+Consequently, l = l′.
+
+Since ¯h(γ(¯h−1(Sg ×{0}))) (12)= ¯h(γ(Sg ×{0})) (2)= ¯h(Sg ×{−1}) (12)= Sg ×{−1} (2)=
+γ′(Sg × {0}) and, according to Lemma 3.1, either ¯hγ¯h−1 = γ′, or ¯hγ¯h−1 = γ′−1,
+then in the case under consideration ¯hγ¯h−1 = γ′.
+
+Let us consider case b):
+
+¯h(Sg × {r}) = Sg × {−r}.
+
+(14)
+
+Note that ¯φ′
+Sg × {− l
+Sg × { l′
+
+0(Sg×{0}) (9)= ¯h( ¯φ(¯h−1(Sg×{0}))) (14)= ¯h( ¯φ(Sg×{0})) (1)= ¯h(Sg×{ l
+k }. Taking into account the formula (11), we obtain that Sg × {− l
+k − j = − l
+
+k ∈ [0, 1), then the equality l′
+
+k ∈ (−0, 1] and l′
+
+k − j}. Since − l
+
+k }) (14)=
+k } =
+k for
+
+16
+
+l > 0 is satis(cid:28)ed in the case of j = 1, that is,
+
+0 = γ′ ¯φ′.
+¯φ′
+
+If l = l′ = 0, then we get that j = 0, that is,
+
+0 = ¯φ′.
+¯φ′
+
+(15)
+
+(16)
+
+Therefore, either l + l′ = k or l = l′ = 0.
+
+Since ¯h(γ(¯h−1(Sg × {0}))) (14)= ¯h(γ(Sg × {0})) (2)= ¯h(Sg × { − 1}) (14)= Sg × {1} (2)=
+γ′−1(Sg × {0}) and, according to Lemma 3.1, either ¯hγ¯h−1 = γ′, or ¯hγ¯h−1 = γ′−1,
+then in the case under consideration ¯hγ¯h−1 = γ′−1.
+
+Denote by
+
+pSg : Sg × R → Sg
+
+the canonical projection de(cid:28)ned by the formula pSg (z, r) = z.
+
+We prove Theorem 1 which states that homeomorphisms φ and φ′ are topolog-
+ically conjugate if and only if n = n′, k = k′ and there exists a homeomorphism
+H : Sg → Sg such that one of the following conditions holds:
+
+1. l = l′ ≥ 0, HP = P ′H and HJ = J ′H;
+
+2. l = l′ = 0, HP = P ′H and HJ = J ′−1H;
+
+3. l + l′ = k, HP = J ′P ′H and HJ = J ′−1H.
+
+Proof. Necessity. Let homeomorphisms φ and φ′ be topologically conjugate.
+Then, by Lemma 3.1, there exists the homeomorphism h : MJ → MJ ′ and its lift
+¯h : Sg × R → Sg × R such that hφ = φ′h and ¯h(Sg × {0}) = Sg × {0}. By item 1
+of Lemma 3.1, k = k′, n = n′. Therefore, p−1
+J′ (N W (φ′)) = Sg × I.
+Since the homeomorphism h maps the connected components of the nonwandering
+set N W (φ) to the connected components of the nonwandering set N W (φ′), for
+any r ∈ I there exists r′ ∈ I such that ¯h(Sg × {r}) = Sg × {r′}. Then for any
+
+(N W (φ)) = p−1
+
+J
+
+17
+
+r ∈ I the homeomorphism
+
+Hr = pSg |¯h(Sg×{r′})
+
+¯hp−1
+
+Sg
+
+|Sg×{r} : Sg → Sg
+
+is well de(cid:28)ned. That is, ¯h(z, r) = (Hr, r′), where r, r′ ∈ I.
+
+We will prove that the homeomorphism Hr is isotopic to H0 for any r ∈ I.
+We de(cid:28)ne a family of continuous mappings Fr,t : Sg → Sg by the formula
+Fr,t(z) = pSg (¯h(z, rt)), where t ∈ [0, 1], r ∈ I. Then Fr,t de(cid:28)nes a homotopy
+connecting the mappings Fr,0 = H0 and Fr,1 = Hr. Thus, the homeomorphisms
+H0 and Hr are homotopic, and hence are isotopic [15, Sec. 5.15] for any r ∈ I.
+
+According to Lemma 3.2, three cases are possible. Let us consider each of them
+
+separately.
+
+Consider item 1 of Lemma 3.2: l = l′ ≥ 0,
+
+¯hγ = γ′¯h,
+
+¯φ′ = ¯h ¯φ¯h−1
+
+(17)
+
+(18)
+
+and ¯h(Sg × {r}) = Sg × {r} for any r ∈ I.
+
+Since γ′l( ¯φ′k(Sg × {r})) (13),(1)= γ′l(Sg × {r + l}) (2)= Sg × {r} for any r ∈ I and
+γ′l ¯φ′k (18)= γ′l¯h ¯φk¯h−1 (17)= ¯hγl ¯φk¯h−1, then HrJ lP kH −1
+r = J ′lP ′k for any r ∈ I. Since
+the homeomorphisms J lP k, J ′lP ′k are pseudo-Anosov, Hr is isotopic to H0 for any
+r ∈ I, then from Proposition 2.4 it follows that Hr = H0 for any r ∈ I. Put
+H = H0.
+
+Since ¯h( ¯φ(z, 0)) = (H(P (z)), l
+
+k ), ¯φ′(¯h(z, 0)) = (P ′(H(z)), l
+
+k ) and ¯h ¯φ = ¯φ′¯h,
+
+then HP = P ′H.
+
+Since ¯h(γ(z, 0)) = (H(J(z)), −1), γ′(¯h(z, 0)) = (J ′(H(z)), −1) and ¯hγ = γ′¯h,
+
+then HJ = J ′H.
+
+Thus, it is proved that the condition 1 of the theorem is necessary for l = l′ ≥ 0
+
+and ¯hγ = γ′¯h.
+
+Consider item 2 of Lemma 3.2: l = l′ = 0,
+
+¯hγ = γ′−1¯h,
+
+18
+
+¯φ′ = ¯h ¯φ¯h−1
+
+and ¯h(Sg × {r}) = Sg × {−r} for any r ∈ I;
+
+Since ¯h( ¯φ(z, r)) = (Hr(P (z)), −r), ¯φ′(¯h(z, 0)) = (P ′(Hr(z)), −r) for any r ∈ I
+and ¯h ¯φ = ¯φ′¯h, then HrP = P ′Hr for any r ∈ I . Since the homeomorphisms P , P ′
+are pseudo-Anosov, Hr is isotopic to H0 for any r ∈ I, it follows from Proposition
+2.4 that Hr = H0 for any r ∈ I. Put H = H0.
+
+Since ¯h( ¯φ(z, 0)) = (H(P (z)), l
+
+k ), ¯φ′(¯h(z, 0)) = (P ′(H(z)), l
+
+k ) and ¯h ¯φ = ¯φ′¯h,
+
+then HP = P ′H.
+
+Since ¯h(γ(z, 0)) = (H(J(z)), 1), γ′−1(¯h(z, 0)) = (J ′−1(H(z)), 1) and ¯hγ =
+
+γ′−1¯h, then HJ = J ′−1H.
+
+Thus, it is proved that the condition 2 of the theorem is necessary for l = l′ = 0
+
+and ¯hγ = γ′−1¯h.
+
+Consider item 3 of Lemma 3.2: l + l′ = k,
+
+¯hγ = γ′−1¯h,
+
+γ′ ¯φ′ = ¯h ¯φ¯h−1
+
+(19)
+
+(20)
+
+and ¯h(Sg × {r}) = Sg × {−r} for any r ∈ I.
+
+Since γ′k−l( ¯φ′k(Sg ×{r})) (1)= γ′k−l(Sg ×{r +k −l}) (2)= Sg ×{r} for any r ∈ I and
+γ′k−l ¯φ′k (20)= γ′−l¯h ¯φk¯h−1 (19)= ¯hγl ¯φk¯h−1, then HrJ lP kH −1
+r = J ′k−lP ′k for any r ∈ I.
+Since the homeomorphisms J lP k, J ′k−lP ′k are pseudo-Anosov, Hr is isotopic to
+H0 for any r, ∈ I, then Proposition 2.4 implies that Hr = H0 for any r ∈ I. Put
+H = H0.
+
+Since ¯h( ¯φ(z, 0)) = (H(P (z)), l
+
+k ), γ′( ¯φ′(¯h(z, 0))) = (J ′(P ′(H(z))), l
+
+k ) and ¯h ¯φ =
+
+γ′ ¯φ′¯h, then HP = J ′P ′H.
+
+Since ¯h(γ(z, 0)) = (H(J(z)), −1), γ′−1(¯h(z, 0)) = (J ′(H(z)), −1) and ¯hγ =
+
+γ′−1¯h, then HJ = J ′−1H.
+
+Thus, it is proved that the condition 3 of the theorem is necessary for l + l′ = k.
+Su(cid:30)ciency. Let n = n′, k = k′ and there exists a homeomorphism H : Sg →
+Sg such that l = l′ ≥ 0, HP = P ′H and HJ = J ′H. We de(cid:28)ne a homeomorphism
+¯h : Sg × R → Sg × R by the formula ¯h(z, r) = (H(z), r). Then it is directly
+veri(cid:28)ed that ¯h ¯φ = ¯h ¯φ′ and ¯hγ = γ′¯h. Thus, according to Proposition 2.5, the
+
+19
+
+homeomorphism ¯h projects into a homeomorphism h : MJ → MJ ′ and hφ = φ′h.
+The su(cid:30)ciency of condition 1 of the theorem is proved.
+
+Let us prove the su(cid:30)ciency of conditions 2 and 3 of the theorem. We de(cid:28)ne a
+homeomorphism ¯h : Sg × R → Sg × R by the formula ¯h(z, r) = (H(z), −r). Similar
+to condition 1, under condition 2 (3) the equalities ¯h ¯φ = ¯h ¯φ′, ¯hγ = γ′−1¯h (¯h ¯φ =
+¯hγ′ ¯φ′, ¯hγ = γ′−1¯h) hold and the homeomorphism ¯h projects to a homeomorphism
+h : MJ → MJ ′ such that hφ = φ′h.
+
+20
+
+4 Mappings with Invariant One-dimensional Foli-
+
+ations
+
+This section contains the proof of Theorem 2 and the auxiliary Lemma.
+Let f ∈ G∗. Note that from the ambient Ω-conjugacy of the homeomorphism
+f with a homeomorphism of class Φ (see Proposition 1.5) it follows that the con-
+nected components of the nonwandering set N W (f ) of the homeomorphism f are
+homeomorphic to a surface Sg of the same genus g and have the same period k.
+We put
+
+f0 = f k.
+
+Recall that G∗ ⊂ G is a subset of homeomorphisms satisfying the following con-
+dition. If f ∈ G∗ is a homeomorphism on M 3, then on each connected component
+V of M 3 \ N W (f ) there exists a one-dimensional f0-invariant foliation, each leaf
+of which is an open arc having exactly two boundary points lying on two di(cid:27)er-
+ent connected components of ∂V . The union of the closures of all such arcs on
+all connected components of M 3 \ N W (f ) forms an f -invariant one-dimensional
+foliation on M 3, which we denote by Lf .
+
+Lemma 4.1. Let f ∈ G∗ and V be a connected component of M 3 \ (N W (f )).
+Then on cl V there exists a two-dimensional f0-invariant foliation PV , each leaf of
+which is homeomorphic to the surface Sg and intersects any leaf of Lf at exactly
+one point.
+
+Proof. Let f ∈ G∗ be a homeomorphism with nonwandering set N W (f ) consisting
+of connected components homeomorphic to Sg and let V be a connected component
+of M 3 \ N W (f ). Denote by LV the one-dimensional foliation on V , each leaf of
+which is a connected component of the intersection of a leaf of Lf with V .
+
+By Proposition 1.5, the boundary of V consists of an attractor A and a repeller
+R of the homeomorphism f0. Let lz be the leaf of LV that contains the point z ∈ A
+in its closure and w ∈ V ∩ lz. Since the boundary of any leaf of the foliation LV
+consists of exactly two points, one of which lies on the attractor A and the other
+on the repeller R, then a continuous mapping ξ : V → A is de(cid:28)ned by the formula
+ξ(w) = z.
+
+21
+
+Thus, the triple (V, ξ, A) de(cid:28)nes an orientable bundle of the total space V with
+projection ξ over the compact space A and a leaf homeomorphic to the interval
+(0, 1). It is known (see [16, Chapter 4, Theorem 4.3]) that an orientable bundle
+over a compact surface A with leaf homeomorphic to R at every point of A is
+isomorphic to the standard trivial bundle (Sg × R, pSg , Sg), where
+
+pSg : Sg × R → Sg
+
+is the canonical projection. Obviously, the standard trivial bundles (Sg ×R, pSg , Sg)
+and (Sg × (0, 1), pSg , Sg) are isomorphic. Therefore, the bundle (V, ξ, A) is isomor-
+phic to the standard trivial bundle (Sg × (0, 1), pSg , Sg) and there exist homeomor-
+phisms h : V → Sg × (0, 1) and H : A → Sg such that pSg h = Hξ. We de(cid:28)ne the
+foliation ˜L = {p−1
+(z) ∩ Sg × [0, 1]|z ∈ Sg}. Since the boundary of each leaf of the
+foliation LV consists of two points lying on di(cid:27)erent connected components of the
+boundary of the set V , the homeomorphism h can be extended to the homeomor-
+phism h : cl V → Sg × [0, 1] such that h maps the closure of each leaf lz ∈ LV to a
+leaf of the foliation ˜L.
+
+Sg
+
+We de(cid:28)ne a homeomorphism ˜f = hf0h−1 : Sg ×[0, 1] → Sg ×[0, 1] and construct
+on the space Sg × [0, 1] ˜f - invariant foliation ˜P such that each leaf of the foliation
+˜P is homeomorphic to Sg and intersects any leaf of the foliation ˜L at a unique
+point.
+
+Without loss of generality, we can assume that h(A) = Sg × {0}. Then the
+set ˜A = h(A) is an attractor of the homeomorphism ˜f , h(R) = Sg × {1} and the
+set ˜R = h(R) is a repeller of the homeomorphism ˜f . Since the foliation LV is
+invariant under f0 and h maps the closure of each leaf of the foliation LV to a leaf
+of the foliation ˜L, the foliation ˜L is invariant under ˜f .
+
+Let us prove that there exists a surface ˜Σ ⊂ Sg ×(0, 1) of genus g that intersects
+each leaf of the foliation ˜L at a unique point and satis(cid:28)es the condition ˜f ( ˜Σ) ∩ ˜Σ =
+∅.
+
+We put Σ = Sg ×
+
+. If ˜f (Σ) ∩ Σ = ∅, then ˜Σ = Σ. If ˜f (Σ) ∩ Σ ̸= ∅, then we
+
+(cid:111)
+
+(cid:110) 1
+2
+
+construct the surface ˜Σ as follows.
+
+Let U be the closed subset of Sg × [0, 1] bounded by the surfaces Σ and ˜A.
+Since ˜A is an attractor of the homeomorphism ˜f , there exists a number r ∈ N
+
+22
+
+such that ˜f 2r(U ) ⊂ int U . We prove the existence of the surface ˜Σ by induction
+on r ∈ N.
+
+1) Let r = 1. Then
+
+˜f 2(Σ) ∩ Σ = ∅ and ˜f 2(Σ) ⊂ int U.
+
+(21)
+
+Let U ′ = U ∪ ˜f (U ), ¯Σ = ∂(U ′) (in Fig. 1 the surface ¯Σ is shown by a solid line),
+Σ′ = ˜f (Σ), Λ = Σ ∩ ¯Σ and Λ′ = Σ′ ∩ ¯Σ (see Fig. 1). Then ¯Σ = Λ ∪ Λ′.
+
+Figure 1: Surfaces Σ Ł Σ′.
+
+We prove that the surface ¯Σ intersects each leaf of the foliation ˜L at a unique
+point. Assume the contrary. Let there exist a leaf ˜l of the foliation ˜L intersecting
+the surface ¯Σ at more than one point. Since the foliation ˜L is invariant under ˜f and
+the surface Σ intersects each leaf of the foliation ˜L transversally and at a unique
+point, the surface Σ′ also intersects each leaf of the foliation ˜L transversally and at
+a unique point. Therefore, the intersection ˜l ∩ ¯Σ consists of two points ˜w = ˜l ∩ Λ
+and ˜w′ = ˜l ∩ Λ′. Then the leaf ˜l is divided into 3 curves. The (cid:28)rst curve has
+boundary points ˜l ∩ ˜A, ˜w and is contained in the domain U ′. The second curve has
+boundary points ˜w, ˜w′ and lies outside the domain U ′. Since the (cid:28)ber ˜l intersects
+the surface ¯Σ transversally and, by assumption, at exactly two distinct points, the
+third curve with boundary points ˜w′ and ˜l ∩ ˜R is contained in the domain U ′. We
+obtain a contradiction with the fact that U ′ ∩ ˜R = ∅.
+
+We will show that the surface ¯Σ is transformed by continuous perturbation
+
+along the leaves into a surface ˜Σ of genus g such that ˜f ( ˜Σ) ∩ ˜Σ = ∅.
+
+We set U ′′ = ˜f (U ) ∪ ˜f 2(U ), ¯Σ′ = ∂U ′′ (In Fig. 2 the surface ¯Σ′ is depicted by
+
+23
+
+a solid line). As for the surface ¯Σ, it can be proven that the surface ¯Σ′ intersects
+each leaf of the foliation ˜L at a unique point.
+
+Let
+
+pR : Sg × R → R
+
+denote the canonical projection. For each leaf ˜l intersecting the set Λ and the
+surface ¯Σ′ at points ˜w and ˜w′, respectively, let ˜w∗ denote the point on the leaf ˜l
+such that pR( ˜w∗) = 1
+2(pR( ˜w)+pR( ˜w′)). The point ˜w∗ is the midpoint of the segment
+lying on the leaf ˜l with endpoints ˜w and ˜w′. Let Λ∗ denote the set of all midpoints
+of segments lying on the leaves of the foliation ˜L with endpoints on the surfaces
+Λ and ¯Σ′ (see Fig. 2).
+
+Figure 2: The set Λ∗.
+
+We put ˜Σ = Λ∗ ∪ Λ′. By construction, the surface ˜Σ is homeomorphic to the
+surface Σ′ of genus g and intersects each leaf of the foliation ˜L at a unique point.
+Denote by ˜U the subspace of Sg × [0, 1] bounded by the surfaces ˜A and ˜Σ.
+If ˜w ∈ Λ′, then ˜f ( ˜w) ∈ Σ′′ ⊂ int ˜U . If ˜w ∈ Λ∗, then ˜w ∈ int U and ˜f ( ˜w) ∈
+int ˜f (U ) ⊂ int ˜U . Thus, ˜f ( ˜Σ) ⊂ int ˜U and ˜f ( ˜Σ) ∩ ˜Σ = ∅. The induction base is
+proved.
+
+2) Suppose that for r = k there exists a surface ˜Σ of genus g that intersects
+
+each leaf of the foliation ˜L at a unique point and ˜f ( ˜Σ) ∩ ˜Σ = ∅.
+
+3) Let r = k + 1. Put ˜g = ˜f 2k
+
+. Then ˜g2(Σ) ∩ Σ = ∅ and, by the induction base
+(r = 1), there exists a surface ˜Σ′ ⊂ Sg × (0, 1) of genus g such that ˜Σ′ intersects
+each leaf of the foliation ˜L at a unique point and ˜g( ˜Σ′) ∩ ˜Σ′ = ∅. Consequently,
+˜f 2k( ˜Σ′) ∩ ˜Σ′ = ∅.
+It follows from the induction hypothesis that there exists a
+
+24
+
+surface ˜Σ ⊂ Sg × (0, 1) of genus g such that ˜Σ intersects each leaf of the foliation
+˜L at a unique point and ˜f ( ˜Σ) ∩ ˜Σ = ∅. The statement of induction is proven.
+
+Let us construct the foliation ˜P. Let ˜Σ ⊂ Sg ×(0, 1) be a surface of genus g that
+intersects each leaf of the foliation ˜L at a unique point and satis(cid:28)es the condition
+˜f ( ˜Σ) ∩ ˜Σ = ∅, ˜U be a closed subset of Sg × [0, 1] bounded by the surfaces ˜A and
+˜Σ. Then ˜f ( ˜Σ) ⊂ int ˜U and the set K = ˜U \ ˜f ( ˜U ) is the fundamental domain of ˜f
+on Sg × (0, 1), that is, (cid:83)
+˜f i(K) = Sg × (0, 1) and ˜f i(K) ∩ ˜f j(K) = ∅ for i ̸= j. For
+i∈Z
+the leaf ˜l ∈ ˜L we put ˜lK = ˜l ∩ cl K, ˜w0 = ˜l ∩ ˜f ( ˜Σ) and ˜w1 = ˜l ∩ ˜Σ. We parametrize
+the curve ˜lK by assigning to the point ˜w ∈ ˜lK the parameter t = pR ( ˜w)−pR ( ˜w0)
+pR ( ˜w1)−pR ( ˜w0),
+equal to the ratio of the length of the segment between the points ˜w0 and ˜w to
+the length of the segment ˜lK. We denote this parametrization by ρ : cl K → [0, 1].
+Then { ˜A, ˜R, ˜f i(ρ−1(t))|i ∈ Z, t ∈ [0, 1]} is the desired foliation of ˜P.
+
+Since the homeomorphisms f0|cl V and ˜f are topologically conjugate by the
+homeomorphism h, then PV = h−1( ˜P) is a two-dimensional f0-invariant foliation,
+each leaf of which is homeomorphic to the surface Sg and intersects the leaves of
+the foliation Lf at exactly one point.
+
+Let us prove Theorem 2 which states that a homeomorphism f ∈ G is topolog-
+
+ically conjugate to a homeomorphism from the class Φ if and only if f ∈ G∗.
+
+Proof. Since the homeomorphism φ ∈ Φ has a one-dimensional invariant foliation
+Lφ = {pJ (z × R)|z ∈ Sg}, then Φ ⊂ G∗.
+
+We will prove that the homeomorphism f ∈ G∗ is topologically conjugate to
+
+some homeomorphism from the class Φ.
+
+Let f be a homeomorphism from the class G∗. According to Proposition
+1.5, without loss of generality we can assume that f is de(cid:28)ned on the man-
+ifold MJ with the natural projection pJ and coincides with some homeomor-
+phism φ = φP,J,n,k,l : MJ → MJ from the class Φ on their common nonwander-
+ing set. Moreover, its lift ¯f : Sg × R → Sg × R coincides with the homeomor-
+phism ¯φ = ¯φP,J,n,k,l : Sg × R → Sg × R on the set p−1
+(N W (f )) = Sg × I, where
+I = { i
+
+J
+
+2nk , i ∈ Z}.
+
+Let us construct a homeomorphism ¯h : Sg × R → Sg × R such that ¯hγ = γ¯h
+
+and ¯h ¯f = ¯φP,J,n,k,l
+
+¯h.
+
+25
+
+First let us consider the case k = 1, i.e. the homeomorphism φP,n,1,0.
+It follows from Lemma 4.1 that the homeomorphism f has an f -invariant two-
+dimensional foliation Pf , each leaf of which is homeomorphic to Sg and intersects
+the connected components of the foliation Lf ∩ (MJ \ N W (f )) at a unique point.
+Then the lifts P ¯f and L ¯f of the foliations Pf and Lf to Sg × R are invariant under
+the homeomorphism ¯f and the leaves of these foliations intersect at a unique point.
+Note that the connected components of the set Sg × I are leaves of the foliation
+P ¯f .
+
+For i ∈ {0, 1, . . . , 2n − 1}, we set ¯Vi = Sg × ( i
+
+2n }. We
+construct a homeomorphism Hi : cl ¯Vi → cl ¯Vi, i ∈ {0, 1, . . . , 2n − 1}, conjugating
+the mappings ¯f |cl ¯Vi and ¯φ|cl ¯Vi. We denote by Li, Pi the restriction of the foliations
+L ¯f , P ¯f to cl ¯Vi. Let ˜Li = {z × [ i
+2n ]. The
+foliations ˜Li and ˜Pi are invariant under the homeomorphism ¯φ.
+
+2n ]}z∈Sg , ˜Pi = {Sg × {r}}r∈[ i
+
+2n ) and ¯Bi = Sg × { i
+
+2n , i+1
+
+2n , i+1
+
+2n , i+1
+
+For a point z ∈ ¯Bi, let lz be the leaf of the foliation Li such that z ∈ cl lz. Fix
+a point z ∈ ¯Bi. Let Σx be the leaf of the foliation Pi passing through the point
+x ∈ cl lz. Fix a point x ∈ lz. Put y = lz ∩ ¯f (Σx). Denote by σ ⊂ lz the closed
+arc bounded by the points x and y. Introduce similar notations with a wavy line
+for the homeomorphism ¯φ, choosing ˜z = z. Let µσ : σ → ˜σ be a homeomorphism
+such that µσ(x) = ˜x (see Fig. 3).
+
+Figure 3: The homeomorphism µσ.
+
+Since the topological space bounded by the leaves Σx, ¯f (Σx) = Σy and con-
+taining the arc σ, is a fundamental domain of the action of f on ¯Vi, then for any
+point w ∈ lz there exists a unique integer m such that ( ¯f )m(Σw) ∩ (σ \ {y}) ̸= ∅.
+We de(cid:28)ne the homeomorphism µ : lz → ˜lz by the formula
+
+µ(w) = ¯φ−m( ˜Σµσ( ¯f m(Σw)∩σ)) ∩ ˜lz
+
+26
+
+and, by continuity, extend the constructed mapping to the homeomorphism
+µ : cl lz → cl ˜lz (see Fig. 4).
+
+Figure 4: The homeomorphism µ.
+
+Note that for any point a ∈ cl ¯Vi there exists a unique pair of points za ∈ ¯Bi,
+wa ∈ cl lz such that a = lza ∩ Σwa. We de(cid:28)ne a homeomorphism ¯hi : cl ¯Vi → cl ¯Vi
+by the formula
+
+(see Fig. 5). It is directly veri(cid:28)ed that ¯hi
+
+¯f |cl ¯Vi = ¯φ|cl ¯Vi
+
+¯hi.
+
+¯hi(a) = ˜lza ∩ ˜Σµ(wa)
+
+Figure 5: The homeomorphism ¯hi.
+
+We de(cid:28)ne homeomorphisms Hi, Hi+1 : Sg → Sg by the formulas
+
+Hi = pSg |¯h(Sg×{ i
+
+2n })
+
+¯hip−1
+
+Sg
+
+|Sg×{ i
+
+2n },
+
+Hi+1 = pSg |¯h(Sg×{ i+1
+where pSg : Sg × R → Sg is the natural projection. That is, ¯hi(z, i
+and ¯hi(z, i+1
+
+2n ) = (Hi+1(z), i+1
+
+|Sg×{ i+1
+
+2n },
+
+2n ).
+
+2n })
+
+Sg
+
+¯hip−1
+
+2n ) = (Hi(z), i
+
+2n )
+
+By construction, Hi = idSg . Let us show that Hi+1 = idSg .
+First, let us prove that the homeomorphism Hi is homotopic to Hi+1. We de(cid:28)ne
+
+27
+
+a family of continuous mappings Ft : Sg → Sg (t ∈ [0, 1]) by the formula
+
+Ft(z) = pSg
+
+(cid:16)
+
+(cid:16)¯hi
+
+z,
+
+1
+2nk
+
+(cid:17)(cid:17)
+
+(i + t)
+
+.
+
+(cid:16)
+
+(cid:16)
+
+(cid:16)
+
+¯φ
+
+(cid:17)(cid:17)
+
+= ¯hi
+
+z, i+1
+2n
+(cid:16)
+(cid:17)
+
+Since ¯hi
+Hi+1(z), i+1
+2n
+
+Then the family Ft de(cid:28)nes a homotopy connecting the mappings F0 = Hi and
+F1 = Hi+1. Thus, the homeomorphisms Hi and Hi+1 are homotopic.
+(cid:16)¯hi
+P (z), i+1
+2n
+(cid:17)
+
+=
+(cid:16)
+¯hi,
+¯f
+then Hi+1P = P Hi+1. Since the homeomorphism Hi+1 is homotopic to the iden-
+tity mapping idSg and the homeomorphism P is a pseudo-Anosov mapping, then,
+according to Proposition 2.4, Hi+1 = idSg .
+
+, i+1
+2n
+and, by construction, ¯hi ¯φ|cl ¯Vi = ¯f |cl ¯Vi
+
+Hi+1(z)
+
+z, i+1
+2n
+
+, i+1
+2n
+
+Hi+1
+
+P (z)
+
+, ¯f
+
+(cid:17)(cid:17)
+
+=
+
+=
+
+P
+
+(cid:16)
+
+(cid:16)
+
+(cid:16)
+
+(cid:17)
+
+(cid:17)
+
+(cid:17)
+
+(cid:16)
+
+(cid:17)
+
+Let ¯H : Sg × [0, 1] → Sg × [0, 1] be the homeomorphism coinciding with ¯hi on
+cl ¯Vi for any i ∈ {0, 1, . . . , 2n − 1} and let [r] be the integer part of r ∈ R. We
+de(cid:28)ne the homeomorphism ¯h by the formula
+
+¯h(z, r) = γ−[r] ¯Hγ[r](z, r).
+
+Since ¯hγ = γ¯h, the homeomorphism ¯h : Sg ×R → Sg ×R projects to the homeomor-
+phism h : MJ → MJ (see Proposition 2.5). By construction, the homeomorphism
+¯H conjugates the homeomorphisms ¯f and ¯φ on Sg × [0, 1]. It is directly veri(cid:28)ed
+that ¯h ¯f = ¯φ¯h. Consequently, hf = φh.
+
+Consider the homeomorphism φ = φP,J,n,k,l for k > 1. Homeomorphisms
+
+γl ¯f k, γl ¯φk : Sg × R → Sg × R
+
+are lifts of homeomorphisms
+
+f k, φk : MJ → MJ
+
+and γl( ¯f k(z, r)) = γl( ¯φk(z, r)) = (J l(P k(z)), r) for any r ∈ I, where J lP k : Sg →
+Sg is a pseudo-Anosov homeomorphism. By the previous point (k = 1) there exists
+a homeomorphism ˜h : Sg × R → Sg × R such that ˜hγ = γ˜h and ˜hγl ¯f k = γl ¯φk˜h. It
+follows immediately that ˜h ¯f k = ¯φk˜h.
+
+For j = 0, . . . , k − 1 we de(cid:28)ne the sets ¯Wj = Sg × [ jl
+
+k , jl
+
+k + 1
+
+k ] and the homeomor-
+
+28
+
+phism ¯hj : ¯Wj → ¯Wj by the formula ¯hj = ¯φj˜h( ¯f )−j. We set ¯W = ¯W0 ∪ · · · ∪ ¯Wk−1
+and denote by ¯H : ¯W → ¯W the homeomorphism coinciding with ¯hj on ¯Wj for
+j = 0, . . . , k − 1.
+
+For r ∈ R, let m(r) be an integer such that (z, r − m(r)) ∈ ¯W . We de(cid:28)ne a
+
+homeomorphism ¯h : Sg × R → Sg × R by the formula
+
+¯h(z, r) = γ−m(r) ¯Hγm(r)(z, r).
+
+It is directly veri(cid:28)ed that ¯h ¯f = ¯φ¯h. Since ¯hγ = γ¯h, the homeomorphism ¯h : Sg ×
+R → Sg × R projects onto the homeomorphism h : MJ → MJ (see Proposition
+2.5). Therefore, hf = φh.
+
+29
+
+5 Generalized Pseudo-Anosov Dynamics
+
+Denote by P0 : S2 → S2 the orientation-preserving generalized pseudo-Anosov
+homeomorphism of the two-dimensional sphere with dilatation λ (the existence of
+such a homeomorphism follows from Proposition 2.2). Then the homeomorphism
+P1 = P 2
+0 is an orientation-preserving generalized pseudo-Anosov homeomorphism
+of the two-dimensional sphere with dilatation λ2.
+
+Since the dilatation of generalized pseudo-Anosov homeomorphisms is a topo-
+logical invariant and there exist exactly two isotopy classes of homeomorphisms
+on the sphere S2 (one of which consists of all orientation-preserving maps, and the
+other of all orientation-reversing maps), then P0, P1 : S2 → S2 are topologically
+disjoint but isotopic generalized pseudo-Anosov homeomorphisms. Consequently,
+there exists an isotopy Ft : S2 → S2 (t ∈ [0, 1]) such that F0 = P0 and F1 = P1.
+
+Let us associate each point s ∈ S1 with the parameter r ∈ [0, 1) such that r ∈
+p−1(s(r)), where p : R → S1 is the covering and s(r) ∈ S1 is the point corresponding
+to the parameter r. We de(cid:28)ne a homeomorphism f : S2 × S1 → S2 × S1 by the
+formula
+
+f (z, s(r)) =
+
+
+
+
+(F2r(z), φ1,1,0(s(r))),
+
+if r ∈
+
+
+
+(F−2r+2(z), φ1,1,0(s(r))),
+
+if r ∈
+
+(cid:104) 1
+2
+
+(cid:104)
+0,
+
+1
+2
+
+(cid:17)
+
+.
+
+(cid:17)
+
+, 1
+
+(cid:17)(cid:111)
+
+(cid:110)
+p
+
+(cid:16) 1
+2
+
+Since the di(cid:27)eomorphism φ1,1,0 : S1 → S1 is a source-sink mapping with source
+2), it is directly veri(cid:28)ed that the nonwandering set of the
+R = S2 ×
+such that the sphere S2
+R is a repeller for f and
+R → S2
+: S2
+R is topologically
+A is topologically conjugate to P1.
+
+at p(0) and sink at p( 1
+constructed mapping f consists of two cylindrically embedded spheres S2
+{p(0)} and S2
+the sphere S2
+conjugate to P0 and the mapping f |S2
+Therefore, homeomorphisms f |S2
+
+A = S2 ×
+A is an attractor for f . The mapping f |S2
+
+are not topologically conjugate.
+
+: S2
+and f |S2
+
+A
+The constructed example shows that homeomorphisms of three-dimensional
+manifolds with generalized pseudo-Anosov mappings in the nonwandering set have
+more complicated dynamics, di(cid:27)erent from the dynamics of mappings of class G
+with pseudo-Anosov homeomorphisms in the nonwandering set.
+
+A → S2
+
+A
+
+R
+
+R
+
+30
+
+Conclusion
+
+This work completely describes the dynamics of orientation-preserving homeo-
+morphisms on three-dimensional manifolds with a nonwandering set consisting of
+a (cid:28)nite number of cylindrically embedded two-dimensional surfaces, the restriction
+of some power of mapping to each of which is an orientation-preserving pseudo-
+Anosov homeomorphism. It is proved that the dynamics of homeomorphisms of
+the class under study is similar to the dynamics of model mappings. The main
+result of the thesis is the (cid:28)nding of necessary and su(cid:30)cient conditions for the
+topological conjugacy of such homeomorphisms with model mappings. It is shown
+that the obtained results do not generalize to homeomorphisms with generalized
+pseudo-Anosov homeomorphisms in a nonwandering set.
+
+31
+
+References
+
+[1] Grines V., Levchenko Yu., Medvedev V., Pochinka O., (cid:16)On the Dynamical
+Coherence of Structurally Stable 3-di(cid:27)eomorphisms(cid:17), Regular and Chaotic
+Dynamics, 19:4, 506(cid:21)512, 2014
+
+[2] Grines V. Z., Levchenko Yu. A., Pochinka O. V., (cid:16)On the topological classi-
+(cid:28)cation of di(cid:27)eomorphisms on 3-manifolds with surface two-dimensional at-
+tractors and repellers(cid:17), Nelineinaya Dinamika, 10:1, 17(cid:21)33, 2014 (Rus.)
+
+[3] Grines V., Levchenko Yu., Medvedev V., Pochinka O. (cid:16)The topological clas-
+si(cid:28)cation of structurally stable 3-di(cid:27)eomorphisms with two-dimensional basic
+sets(cid:17), Nonlinearity, 28:11, 4081, 2015
+
+[4] Grines V.Z., Medvedev V.S., Zhuzhoma E.V., (cid:16)On Surface Attractors and
+
+Repellers in 3-Manifolds(cid:17), Math Notes 78, 757(cid:21)767, 2005
+
+[5] Plykin R. V., (cid:16)The topology of basis sets for Smale di(cid:27)eomorphisms(cid:17), Math.
+
+USSR-Sb., 13:2, 297(cid:21)307, 1971
+
+[6] Grines V. Z., Pochinka O. V., Chilina E. E., (cid:16)Dynamics of 3-Homeomorphisms
+with Two-Dimensional Attractors and Repellers(cid:17), Journal of Mathematical
+Sciences, 1(cid:21)10, 2023
+
+[7] Grines V. Z., Pochinka O. V., Chilina E. E., (cid:16)On homeomorphisms of three-
+dimensional manifolds with pseudo-Anosov attractors and repellers(cid:17), Regular
+and Chaotic Dynamics, 29:1, 156(cid:21)173, 2024
+
+[8] Grines V. Z., Pochinka O. V., Introduction to the topological classi(cid:28)cation of
+cascades on manifolds of dimensions two and three, Research Center (cid:16)Regular
+and Chaotic Dynamics, Institute of Computer Research, M.-Izhevsk, 2011
+(Rus.)
+
+[9] Zhirov A.Yu. Topological conjugacy of pseudo-Anosov homeomorphisms.
+
+Moscow: MCCME, 2014 (Rus.)
+
+[10] Fathi A., Laudenbach F., Poenaru V., Thurston’s Work on Surfaces (MN-48),
+
+Princeton University Press, 2021
+
+32
+
+[11] Masur H., Smillie J., (cid:16)Quadratic di(cid:27)erentials with prescribed singularities
+and pseudo-Anosov di(cid:27)eomorphisms(cid:17), Commentarii Mathematici Helvetici,
+68, 289(cid:21)307, 1993
+
+[12] Chilina E. E., (cid:16)On the Centralizer and Conjugacy of Pseudo-Anosov Homeo-
+
+morphisms(cid:17), Rus. J. Nonlin. Dyn., 21:1, 103(cid:21)116, 2025
+
+[13] Steenrod N., Topology of skew products, 1953 (Rus.)
+
+[14] Rokhlin V. A., Basic course in topology, Ripol Classic, 1977 (Rus.)
+
+[15] Zieschang H., Vogt E., Coldewey H. D., Surfaces and planar discontinuous
+
+groups, Springer, 2006
+
+[16] Hirsch M. W., Di(cid:27)erential topology, Springer Science and Business Media,
+
+2012
+
+33
+
+

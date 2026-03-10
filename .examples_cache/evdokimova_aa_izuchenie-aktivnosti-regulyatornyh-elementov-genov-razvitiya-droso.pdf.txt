@@ -1,0 +1,3794 @@
+FEDERAL STATE AUTONOMOUS EDUCATIONAL INSITUTION FOR 
+
+HIGHER PROFESSIONAL EDUCATION NATIONAL RESEARCH 
+
+UNIVERSITY  
+
+«HIGHER SCHOOL OF ECONOMICS» 
+
+Faculty of Computer Science 
+
+Evdokimova Alexandra 
+
+Изучение активности регуляторных элементов генов развития Drosophila 
+
+melanogaster в тканях личинки 
+
+Exploring the Activity of Regulatory Elements in Drosophila Developmental Genes in 
+
+Larval Tissues 
+
+Qualification paper – Master of Science Dissertation 
+
+Field of study 01.04.02 «Applied Mathematics and Informatics» 
+
+Program: Data Analysis in Biology and Medicine 
+
+Supervisor 
+
+Vorobyeva Nadezhda Evgen’evna 
+
+Evdokimova Alexandra Alexeevna 
+
+Student 
+
+Moscow, 2025 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ФЕДЕРАЛЬНОЕ ГОСУДАРСТВЕННОЕ АВТОНОМНОЕ ОБРАЗОВАТЕЛЬНОЕ 
+УЧРЕЖДЕНИЕ ВЫСШЕГО ОБРАЗОВАНИЯ  
+"НАЦИОНАЛЬНЫЙ ИССЛЕДОВАТЕЛЬСКИЙ УНИВЕРСИТЕТ  
+"ВЫСШАЯ ШКОЛА ЭКОНОМИКИ" 
+ФАКУЛЬТЕТ КОМПЬЮТЕРНЫХ НАУК 
+
+Евдокимова Александра Алексеевна 
+
+МАГИСТЕРСКАЯ ДИССЕРТАЦИЯ 
+
+ИЗУЧЕНИЕ АКТИВНОСТИ РЕГУЛЯТОРНЫХ ЭЛЕМЕНТОВ ГЕНОВ РАЗВИТИЯ 
+
+DROSOPHILA MELANOGASTER В ТКАНЯХ ЛИЧИНКИ 
+
+Exploring the Activity of Regulatory Elements in Drosophila Developmental 
+
+Genes in Larval Tissues 
+
+по направлению подготовки 01.04.02 Прикладная математика и информатика 
+
+образовательная программа «Анализ данных в биологии и медицине» 
+
+к.ф.м.н., доцент, руководитель международной  
+
+Научный руководитель 
+
+лаборатории биоинформатики 
+
+Попцова Мария Сергеевна 
+
+д-р биологических наук, ведущий научный сотрудник группы динамики 
+
+транскрипционных комплексов в Институте биологии Гена Российской 
+
+Соруководитель 
+
+академии наук, 
+
+руководитель группы 
+
+Воробьёва Надежда Евгеньевна 
+
+Евдокимова Александра Алексеевна 
+
+Студент 
+
+Москва 2025 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Abstract 
+
+Drosophila melanogaster serves as an excellent model for studying tissue-
+
+specific gene transcription. In this study, we aimed to identify and characterize 
+
+regulatory DNA elements controlling tissue-specific transcription in Drosophila 
+
+larvae using whole-genome sequencing data. RNA-Seq, ChIP-Seq, FAIRE-Seq, 
+
+and  ATAC-Seq  were  employed  to  identify  tissue-specific  transcripts,  map 
+
+protein-DNA binding profiles, and analyze chromatin accessibility in wandering 
+
+larvae. We focused on two major classes of regulatory elements: enhancers and 
+
+promoters. Tissue-specific enhancers were identified in the salivary glands and 
+
+brain using ATAC-Seq. The presence of enhancer proteins, such as H3K27Ac, 
+
+CBP/p300,  and  EcR,  confirmed  their  enhancer  nature.  Additionally,  these 
+
+markers  exhibited  tissue-specific  enrichment  at  the  defined  sets  of  enhancers, 
+
+indicating that the regulatory elements function only in the target tissue and they 
+
+are not "poised" in non-target tissues.  These enhancers showed enrichment of 
+
+tissue-specific transcription factor motifs. In parallel, hundreds of tissue-specific 
+
+promoters were identified both for salivary glands and brain of wandering larvae. 
+
+Tissue-specific  promoters  were  found  enriched  for  TATA-box  motif.    Unlike 
+
+stable gene promoters, which function consistently across tissues, tissue-specific 
+
+promoters showed selective recruitment of RNA polymerase II subunit Rpb3 in 
+
+the tissue where they are active. Notably, tissue-specific enhancers and promoters 
+
+exhibited distinct transcription factor motif enrichment, indicating independent 
+
+regulatory programs controlling tissue-specific transcription. Furthermore, genes 
+
+regulated  by  tissue-specific  promoters  showed  minimal  overlap  with  those 
+
+controlled  by  tissue-specific  enhancers,  revealing  two  separate  mechanisms 
+
+underlying  tissue-specific  transcription.  The  task  of  future  research  is  to 
+
+determine why different groups of Drosophila genes utilize distinct approaches 
+
+to achieve tissue-specific transcription. 
+
+ 
+ 
+Аннотация 
+
+Drosophila melanogaster - отличная модельная система для изучения 
+
+тканеспецифической  транскрипции  генов.  В  данном  исследовании  мы 
+
+выявили 
+
+и 
+
+охарактеризовали 
+
+регуляторные 
+
+элементы 
+
+ДНК, 
+
+контролирующие 
+
+тканеспецифическую 
+
+транскрипцию 
+
+у 
+
+личинок 
+
+Drosophila. Для этого были применены методы RNA-Seq, ChIP-Seq, FAIRE-
+
+Seq  и  ATAC-Seq,  чтобы  идентифицировать  тканеспецифические  гены, 
+
+картировать  профили  связывания  белков  с  ДНК  и  анализировать 
+
+доступность  хроматина.  Мы  сосредоточились  на  двух  основных  классах 
+
+регуляторных  элементов:  энхансерах  и  промоторах.  Тканеспецифические 
+
+энхансеры были выявлены в слюнных железах и мозге с помощью ATAC-
+
+Seq.  Энхансерная  природа  этих  элементов  была  подтверждена  их 
+
+обогащением  по  H3K27Ac,  CBP/p300  и  EcR,  которые  демонстрировали 
+
+тканеспецифическое  обогащение  на  энхансерах.  Это  указывает  на 
+
+активность  энхансеров  только  в  целевой  ткани  и  отсутствие  их 
+
+транскрипционной  "готовности"  в  нецелевых  тканях.  Кроме того, данные 
+
+энхансеры показали обогащение мотивами тканеспецифических факторов 
+
+транскрипции. Параллельно были идентифицированы тканеспецифические 
+
+промоторы  для  слюнных  желез  и  мозга  личинок,  обогащённые  мотивом 
+
+TATA-box. В отличие от стабильных промоторов, активных в обоих тканях, 
+
+тканеспецифические 
+
+промоторы 
+
+демонстрировали 
+
+избирательное 
+
+привлечение  РНК-полимеразы  II  только  в  тех  тканях,  где  они  активны. 
+
+Тканеспецифические  энхансеры  и  промоторы  показали  различное 
+
+обогащение  мотивами  факторов 
+
+транскрипции, 
+
+что 
+
+указывает 
+
+нанезависимые 
+
+регуляторные 
+
+программы, 
+
+контролирующие 
+
+тканеспецифическую  транскрипцию.  Более  того,  гены,  регулируемые 
+
+тканеспецифическими промоторами, показали минимальное перекрытие с 
+
+генами, 
+
+регулируемыми 
+
+тканеспецифическими 
+
+энхансерами, 
+
+что 
+
+ 
+ 
+свидетельствует о существовании двух отдельных механизмов, лежащих в 
+
+основе тканеспецифической транскрипции. Задачей будущих исследований 
+
+является  выяснение  причин,  по  которым  различные  группы  генов 
+
+Drosophila 
+
+используют 
+
+разные 
+
+подходы 
+
+для 
+
+реализации 
+
+тканеспецифической транскрипции. 
+
+ 
+ 
+Table of Contents 
+
+Abstract ................................................................................................................ 3 
+
+Аннотация ......................................................................................................... 4 
+
+Introduction ......................................................................................................... 8 
+
+Literature Review............................................................................................... 11 
+
+1. Drosophila melanogaster as a Model to study Tissue-Specific Transcription ........................ 11 
+
+2. General Mechanisms of Transcriptional Regulation in Eukaryotes ...................................... 12 
+The concept of tissue-specific and housekeeping gene regulation in Drosophila........................................ 13 
+
+3. Current Understanding of Tissue-specific Enhancer Functioning in Drosophila ................. 14 
+
+4. Core Promoters of Tissue-specific and Broadly Expressed Genes .......................................... 18 
+RNA Polymerase II behavior at promoters of developmental and tissue-specific genes ............................. 20 
+
+3. Proteins associated with Drosophila regulatory elements and their functions ...................... 22 
+Ecdysone receptor EcR ................................................................................................................................. 22 
+Sage .............................................................................................................................................................. 23 
+Combgap....................................................................................................................................................... 24 
+Cropped (Crp) and BEAF-32 ....................................................................................................................... 24 
+Cooperative interplay between the cis-regulatory elements and transcription factors ................................. 25 
+
+Results and discussion ....................................................................................... 26 
+
+Chapter 1: Features of gene regulation by tissue-specific enhancers ......................................... 26 
+Identification of tissue-specific enhancers by ATAC-Seq in Drosophila ..................................................... 26 
+Selected tissue-specific enhancers are distinct between the tissues with different developmental fate ....... 28 
+Drosophila salivary gland and brain enhancers identified by ATAC-Seq are active in a tissue-specific 
+manner and not poised in tissues where they are inactive ............................................................................ 31 
+Enhancers are tissue-specifically enriched with the protein peaks .............................................................. 34 
+Salivary gland-specific and brain-specific enhancers are enriched with binding motifs for distinct 
+transcription factors ...................................................................................................................................... 37 
+Tissue-specific enhancers defined by ATAC-Seq present at the gene’s loci with a tissue-specific 
+transcription .................................................................................................................................................. 40 
+Activity of salivary gland- and brain-specific enhancers contributes to tissue-specific gene activation ..... 45 
+
+Results and Conclusion for Chapter 1 ........................................................................................... 51 
+
+Chapter 2: Features of tissue-specific promoters ......................................................................... 52 
+RNA-Seq from tissues helped to identify salivary gland- and brain-specific transcripts, as well as a set of 
+stable transcripts ........................................................................................................................................... 52 
+Promoters of tissue-specific genes are bound with transcriptional complexes only in a tissue where the 
+gene is transcribed ........................................................................................................................................ 59 
+Tissue-specific promoters selectively bind proteins that regulate their activity........................................... 61 
+Tissue-specific and stable promoters are enriched with distinct promoter-associated motifs ...................... 65 
+A model illustrating tissue-specific and stable promoter regulation in salivary glands and brain ............... 69 
+
+Results and Conclusion for Chapter 2 ........................................................................................... 73 
+
+Conclusion ......................................................................................................... 74 
+
+Findings ............................................................................................................. 78 
+
+ 
+ 
+Materials and Methods ...................................................................................... 80 
+
+Antibodies......................................................................................................................................... 80 
+
+Samples used in the study ............................................................................................................... 80 
+
+ATAC-Seq procedure ...................................................................................................................... 81 
+ATAC-Seq raw data preprocessing ............................................................................................................... 82 
+Tissue-specific and stable enhancer analysis ................................................................................................ 83 
+Selection of promoters regulated by tissue-specific and stable enhancers ................................................... 84 
+
+RNA-Seq procedure ........................................................................................................................ 84 
+RNA-Seq raw data preprocessing ................................................................................................................ 84 
+Tissue-specific and stable promoters’ selection............................................................................................ 85 
+
+ChIP-Seq and FAIRE-Seq procedures .......................................................................................... 85 
+ChIP-Seq raw data preprocessing ................................................................................................................. 86 
+
+Motif analysis ................................................................................................................................... 86 
+
+Bibliograhpy ...................................................................................................... 88 
+
+ 
+ 
+ 
+Introduction 
+
+Object of the study: The object of this study is Drosophila melanogaster. 
+
+This  organism  serves  as  an  excellent  model  for  studying  tissue  specific  gene 
+
+transcription.  During  metamorphosis  Drosophila  tissues  undergo  distinct 
+
+developmental  programs:  salivary  glands  experience  autophagy  and  apoptosis 
+
+[1], larval  brain tissue  goes through  neurogenesis,  axon  and  dendritic  pruning, 
+
+arbor outgrowth and cell death that result in the establishment of the adult nervous 
+
+system [2], wing imaginal discs differentiate into adult wings and carcass [3].  
+
+Aim of the study: The aim of this study was to identify regulatory elements 
+
+of  DNA  that  control  the  programs  of  tissue-specific  genes  transcription  in 
+
+Drosophila larvae using whole-genome sequencing data. In addition, we aimed 
+
+to characterize the features of these regulatory elements by analyzing the binding 
+
+levels of transcriptional proteins and motif enrichment.  
+
+Methodology: To achieve these objectives, we utilized the sequencing data 
+
+generated  in  our  laboratory.  RNA-Seq  from  wandering  larvae  and  12-14-hour 
+
+pupae  was  employed  to  identify  target  transcripts,  ChIP-Seq  from  wandering 
+
+larvae  was  used  to  map  profiles  of  protein  binding  to  DNA,  FAIRE-Seq  and 
+
+ATAC-Seq from wandering larvae was utilized to build the profiles of accessible 
+
+chromatin.  The  obtained  sequence  reads  were  preprocessed  using  standard 
+
+pipelines and analyzed with complex bioinformatics approaches to characterize 
+
+features of regulatory elements.  
+
+Since the major regulatory elements controlling transcription are enhancers 
+
+and  promoters,  the  work  was  divided  into  two  major  parts  with  the  aim  of 
+
+identifying and characterizing tissue-specific elements belonging to each of the 
+
+regulatory classes. 
+
+Results: 
+
+(1) Our analysis identified pools of tissue-specific enhancers in the salivary 
+
+glands  and  brain  at  the  wandering  larval  stage.  Contrary  to  previous  findings 
+
+8 
+
+ 
+suggesting that enhancers are common to all tissues at a particular developmental 
+
+stage [4], our study showed that tissues with distinct developmental fates have a 
+
+number  of  different  enhancers.   Defined  salivary  gland-  and  brain-specific 
+
+enhancers showed tissue-specific enrichment in H3K27Ac, CBP/p300 and EcR 
+
+proving  their  enhancer  nature.  The  activity  of  these  tissue-specific  sites  was 
+
+proposed  to  be  driven  by  selective  transcription  factor  binding.  Distinct 
+
+transcription factor motifs were found enriched within tissue-specific enhancers, 
+
+corresponding to transcription factors predominantly expressed in the respective 
+
+tissues. 
+
+(2)  RNA-Seq  data  from  wandering  larvae  let  us  to  identify  hundreds  of 
+
+salivary  gland-  and  brain-specific  promoters  involved  in  tissue-specific 
+
+regulatory  pathways.  Tissue-specific  promoters  were  found  enriched  with  the 
+
+TATA-box motif, a hallmark of tissue-specific regulation. In contrast, promoters 
+
+of stable genes - active across tissues - exhibited features of housekeeping genes, 
+
+such as enrichment for Dref, Ohler 1, and Ohler 6 motifs. Notably, we observed 
+
+tissue-specific  binding  of  tissue-specific  promoters  with  RNA  polymerase  II 
+
+subunit  Rpb3,  demonstrating  that  these  classes  of  regulatory  elements  are  not 
+
+maintained  in  a  paused  state  in  tissues  where  they  are  inactive.  The  identified 
+
+tissue-specific  promoters  were  found  to  be  enriched  for  transcription  factor 
+
+binding motifs that differ from those found in tissue-specific enhancers. 
+
+Conclusion: This study demonstrates that tissue-specific transcription in 
+
+Drosophila  wandering  larva  can  be  carried  out  by  different  mechanisms  in 
+
+different groups of genes. At one group, tissue-specific transcription is enabled 
+
+by tissue-specific enhancers, which are active only at the target tissue. Notably, 
+
+promoters of this genes group do not work tissue-specifically. They recruit TFIID 
+
+and  RNA  polymerase  II  even  in  tissues  where  they  are  inactive.  In  contrast, 
+
+another  group  of  genes  is  regulated  by  promoters  that  act  in  a  tissue-specific 
+
+manner (demonstrate tissue-specific recruitment of TFIID and RNA polymerase 
+
+II).  Interestingly,  the  identified  tissue-specific  promoters  and  enhancers  were 
+
+9 
+
+ 
+  
+found  to  be  enriched  in  binding  motifs  for  different  transcription  factors, 
+
+demonstrating the existence of completely different programs controlling tissue-
+
+specific transcription in Drosophila larvae. 
+
+10 
+
+ 
+Literature Review 
+
+1.  Drosophila  melanogaster as  a  Model  to  study  Tissue-Specific 
+
+Transcription 
+
+Drosophila  melanogaster  is  an  excellent  model  to  study  genetics, 
+
+development, and gene regulation. Its compact genome and short  development 
+
+time  make  it  an  ideal  system  for  dissecting  complex  biological  processes, 
+
+including  tissue-specific  transcription.  The  fly’s  developmental  stages  - 
+
+embryonic, larval, pupal, and adult - are well-characterized [5], with each phase 
+
+exhibiting  precise  spatiotemporal  gene  expression  patterns  that  drive  tissue 
+
+differentiation and organogenesis [6] (Figure 1). For instance, larval tissues such 
+
+as salivary glands, brain, and wing imaginal discs are interesting to study because 
+
+they  undergo  distinct  developmental  programs.  For  instance,  salivary  glands 
+
+degrade via autophagy and apoptosis during metamorphosis [7]. Larval neurons 
+
+in CNS remodel synapses during metamorphosis (axon pruning and arborization) 
+
+[2]. Furthermore, two waves of apoptosis (early pupa and adult emergence) sculpt 
+
+the CNS (programmed cell death in CNS) [3]. Finally, adult neurogenesis takes 
+
+place for brain tissue [8, 9]. Wing imaginal discs take part in such developmental 
+
+processes  as  patterning  [10]  and  metamorphic  differentiation  (discs  evert  and 
+
+differentiate into adult wings/body wall during pupation) [11]. These processes 
+
+are controlled by tissue-specific DNA regulatory elements, making Drosophila a 
+
+powerful  model  to  study  how  gene  expression  is  controlled  by  these  tissue-
+
+specific regions. 
+
+11 
+
+ 
+Figure 1. Salivary gland, wing imaginal disc, brain tissues’ fates during Drosophila 
+transition from larval to pupal stage. (A) taken from [36], (B) taken from [12]. 
+
+2. General Mechanisms of Transcriptional Regulation in Eukaryotes 
+
+In  the  current  research  we  investigated  the  fundamental  transcriptional 
+
+mechanisms  underlying  tissue-specific  gene  transcription.  In  eukaryotes,  gene 
+
+expression  is  controlled  by  a  complex  interplay  of  cis-regulatory  elements 
+
+(enhancers, promoters) and trans-acting factors (transcription factors, chromatin 
+
+remodelers). Enhancers are distal regulatory elements that activate transcription 
+
+via transcription factor binding, often in a tissue-specific manner [13]. Promoters 
+
+are proximal regions initiating transcription, containing core motifs (TATA-box, 
+
+Initiator  (Inr)) for  RNA  polymerase II  recruitment  [14].  Pol  II assembles  with 
+
+general  transcription  factors  (GTFs)  at  promoters,  forming  the  pre-initiation 
+
+complex  (PIC).  Critical to  this  process  is TFIID,  a  multi-subunit  complex  that 
+
+includes TATA-binding  protein  (TBP),  which  recognizes  the  TATA-box  and 
+
+bends DNA to facilitate PIC assembly [15].  
+
+Genome wide chromatin accessibility (e.g., via ATAC-Seq) marks active 
+
+regulatory  elements  such  as  promoters  and  enhancers  [16].  Additionally, 
+
+enhancers and promoters are marked by histone modifications and coactivators. 
+
+12 
+
+ 
+ 
+For instance, H3K27Ac marks active enhancers and promoters and distinguishes 
+
+poised versus activated elements [17]; CBP/p300 acetylate histones and bridge 
+
+transcription factors to the transcriptional machinery [18]. 
+
+To study the tissue-specific gene regulation in this research, we first needed 
+
+to identify the regions of interest. Dividing drosophila genes into tissue-specific 
+
+and broadly expressed sets was challenging but we managed to do this using the 
+
+previously published scientific concepts.  
+
+The concept of tissue-specific and housekeeping gene regulation in Drosophila 
+
+The  genome  organization  of  Drosophila  melanogaster  provides  a  good 
+
+model for understanding the relationship between chromatin structure and gene 
+
+activity. Drosophila polytene chromosomes in salivary glands exhibit a distinct 
+
+and reproducible banding pattern. Polytene chromosomes have densely packed 
+
+dark bands and less condensed interbands that reflect differences in chromatin 
+
+organization, gene content, and functional activity. It was shown that interbands 
+
+predominantly contain the 5′ ends of housekeeping genes, which are ubiquitously 
+
+expressed  across  various tissues and  developmental  stages [19].  These  regions 
+
+are characterized by open chromatin, enrichment of transcription-related proteins, 
+
+active  histone  modifications,  and  replication  origins.  In  contrast,  dense  black 
+
+bands  are  associated  with  tissue-specific  genes  that  exhibit restricted  temporal 
+
+and spatial expression [20]. Interestingly, that tissue-specific and developmental 
+
+gene regulation is proposed to differ from housekeeping gene regulation.  
+
+The  activity  of  individual  enhancers  and  enhancer  pairs  in  relation  to 
+
+housekeeping  and  developmental  core  promoters  was  investigated  using  the 
+
+STARR-Seq method [21] (Figure 2A). The findings reveal that housekeeping and 
+
+developmental enhancers possess intrinsic properties that operate independently 
+
+of the core promoters they regulate. These enhancers exhibit different modes of 
+
+cooperativity:  housekeeping  enhancers  demonstrate  an  additive  mode,  while 
+
+developmental enhancers function in a super-additive manner (Figure 2B).  
+
+13 
+
+ 
+Figure 2. (A) Overview of the STARR-seq reporter assay for measuring the activities of 
+enhancers. (B) Scheme of an additive model (the number of RNA molecules produced by 
+each enhancer are summed) and a multiplicative model (the number of RNAs are combined 
+multiplicatively). All schemes are taken from [21].  
+
+Furthermore,  specific  motifs,  such  as  Trl  and  Twist  in  enhancers,  are 
+
+responsible  for  super-additivity,  which  is  crucial  for  the  activation  of  tissue-
+
+specific  genes.  In  contrast,  no  particular  transcription  factor  motifs  were 
+
+identified  as  responsible  for  the  additive  effects  observed  with  housekeeping 
+
+enhancers.  Different  types  of  enhancers  were  also  described  using  chromatin 
+
+accessibility profiling.  
+
+3. Current Understanding of Tissue-specific Enhancer Functioning in 
+Drosophila 
+
+Chromatin  accessibility  profiling  is  an  excellent  approach  used  for 
+
+mapping genome regulatory elements. Various methods have been employed to 
+
+identify these elements. An effective strategy involves identifying nucleosome-
+
+depleted or accessible chromatin regions using DNase I hypersensitivity mapping 
+
+[22] and FAIRE [23]. Both methods display identical results [24] (Figure 3).  
+
+14 
+
+ 
+ 
+Figure 3. DNaseI and FAIRE data from different human cell lines within the HNF4A locus. 
+Accessible chromatin sites obtained bt both methods are identical. Image is taken from [24]. 
+One more effective approach based on detecting regions accessible to the 
+
+Tn5  transposase  was  recently  used to  map the  DNA  regulatory  elements [25]. 
+
+ATAC-Seq method was used in this work to detect the ‘open’ chromatin regions 
+
+and would be described in the following chapter (Figure 4).  
+
+15 
+
+ 
+ 
+Figure 4. (A) General overview of ATAC-Seq procedure. (B) Detailed demonstration of Tn5 
+acting at the DNA and the detailed description of following library preparation steps. (C) 
+Schematic visualization of results obtained from ATAC-Seq experiment. The image is taken 
+from [89].  
+Chromatin accessibility profiling is well-suited for comparing how transcription 
+
+factors  and  regulatory  proteins  interpret  the  genome  across  different  tissues, 
+
+independent of the specific identity of those factors. For establishing the specific 
+
+binding sites of particular proteins bound to the accessible DNA the ChIP-Seq 
+
+method can be used [26].  
+
+Accessible  chromatin  regions  of  Drosophila  have  been  investigated  by 
+
+many scientists. One of the most remarkable research projects in this field was 
+
+performed  by  scientists  Daniel  J.  McKay  and  Jason  D.  Lieb  in  2013  [4].  For 
+
+mapping ‘open’ chromatin they took Drosophila thoracic appendages (wing, leg 
+
+and haltere imaginal discs) that give rise to different morphological structures in 
+
+adult fly. The main idea of this work was that profiles of accessible chromatin 
+
+that correlate with enhancer activity are nearly identical across the imaginal disc 
+
+16 
+
+ 
+ 
+tissues  at  a  given  developmental  stage  except  the  Ubx  locus.  The  changes  in 
+
+‘open’ chromatin landscape appear only over the time of development (Figure 5).  
+
+Figure 5. (A) Scheme displaying that master regulators shape the distinct morphology of 
+Drosophila appendages by differentially influencing the function of shared DNA regulatory 
+modules. (B) PCA plot representing similar chromatin accessibility across appendages at a 
+given developmental stage. The images are taken from [4].  
+
+Approximately  the  same  results  were  obtained  in  research  made  on 
+
+Drosophila  cell  lineages  [27].  It  was  asserted  that  the  same  DNA  regions  are 
+
+accessible  in  different  tissues  at  the  larval  developmental  stage.  And  tissue-
+
+specific transcription is realized not through these accessible enhancers, but due 
+
+to  the  fact  that  they  are  associated  with  different  sets  of  transcription  factors 
+
+(which makes them active in one tissue bur not in another tissue). Additionally, 
+
+they discovered that the process of cellular differentiation is primarily driven by 
+
+a transcriptional program that is shared among various tissues. 
+
+Overall, these results underscore that chromatin accessibility profiles are 
+
+shared  across  the  tissues  at  one  developmental  stage  and  change  only  during 
+
+developmental time. That indicates that different tissues possess same enhancers 
+
+in active state at one stage of development. Understanding the interplay between 
+
+enhancers and their associated core promoters is important for understanding the 
+
+17 
+
+ 
+ 
+entire mechanism of such regulation. Notably, that promotors of housekeeping, 
+
+tissue-specific and developmental genes are different. What are the specific traits 
+
+of different genes core promoters? 
+
+4. Core Promoters of Tissue-specific and Broadly Expressed Genes 
+
+Housekeeping  and  developmental  gene  transcription  is  released  through 
+
+the activation of distinct types of core promoters. Core promoters in metazoa are 
+
+categorized  into  three  types  based  on  initiation  patterns,  sequence  motifs, 
+
+chromatin configuration, and gene function. Actively transcribed tissue-specific 
+
+genes  have  promoters  with  sharp  initiation  with  imprecisely  positioned 
+
+nucleosomes.  These  promoters  contain  TATA-box  and  initiator  (Inr)  motifs. 
+
+Sharp  initiation  promoters  are  active  in  differentiated  cells  and  marked  by 
+
+H3K4me3 and H3K27ac, which indicate active transcription. Housekeeping gene 
+
+promoters are characterized by dispersed initiation, nucleosome-depleted regions 
+
+flanked by positioned nucleosomes, and marked by H3K4me3 and H3K27ac. In 
+
+flies these promoters include motifs like Ohler 1, Ohler 6, and DRE [28]. The 
+
+third  group  is  developmental  gene  promoters  marked  with  H3K4me3  and 
+
+H3K27me3 in embryonic stem cells. In flies, they contain DPE motif and have 
+
+focused initiation [29] (Figure 6).  
+
+18 
+
+ 
+Figure 6. A graphical description of three types of core promoters in metazoa: tissue-specific 
+(enriched for TATA-bow and Inr motifs), housekeeping (containing Ohler1, Ohler6, Dref) 
+and developmental (with Inr and DPE). The scheme is taken from [28].  
+
+Furthermore,  using  in  vitro  DNA  affinity  purification  in  Drosophila  S2 
+
+cells  it  was  shown  that  functionally  distinct  promoters  bind  different  proteins 
+
+[30]. Core promoters that regulate tissue-specific genes and contain TATA-box 
+
+motif were enriched for the canonical RNA Pol II preinitiation complex (PIC), 
+
+including TBP, GTFs and TFIID, most Mediator subunits. DRE-containing core 
+
+promoters  (that  regulate  housekeeping  genes)  were  enriched  for  the  core 
+
+promoter-element binding factor DREF, BEAF-32, and Ibf1/2 (Figure 7). These 
+
+findings highlight the diversity in promoter architecture and the corresponding 
+
+recruitment of distinct regulatory complexes at tissue-specific and housekeeping 
+
+(broadly expressed) genes. 
+
+19 
+
+ 
+ 
+Figure 7. (A) Protein enrichment identified through MS on a set of TATA-box promoters 
+compared to control DNA sequences.  (B) Protein enrichment assessed on a pool of Dref 
+promoters relative to control sequences. (C) Comparison of protein enrichment between Dref 
+promoters and TATA-box promoters. Plots are taken from [30]. 
+
+RNA Polymerase II behavior at promoters of developmental and tissue-specific 
+genes 
+
+As an example of differential protein recruitment to promoters of tissue-
+
+specific and housekeeping genes, we can describe RNA Polymerase II (Pol II) 
+
+recruitment  and  stalling  that  play  crucial  role  in  gene  transcription  regulation 
+
+during  development.  Pol  II  recruitment  is  traditionally  considered  the  rate-
+
+limiting factor in transcription activation. Recently three distinct Pol II binding 
+
+behaviours  were  identified  using  Drosophila  embryos:  active  binding  across 
+
+transcription units, no binding, and stalled binding at transcription start sites [31]. 
+
+Stalling Pol II is highly enriched only at 10% of genes that are responsible for 
+
+developmental control. That is needed to enable rapid and synchronous activation 
+
+of developmental genes during temporal stages. Further analysis of stalled Pol II 
+
+reveals that during muscle differentiation in Drosophila embryos, stalled Pol II is 
+
+recruited de novo at many genes stage-specifically rather than tissue-specifically, 
+
+whereas  Polycomb  group-mediated  repression  is  highly  tissue-specific  [32] 
+
+(Figure 8).  
+
+20 
+
+ 
+ 
+Figure 8. Pol II presence at the TSSs was analysed across a set of genes (n = 1,434) that 
+exhibit poised Pol II at least once during the time course. Among these genes, 60% (n = 867) 
+consistently retain Pol II occupancy throughout all time points, while 40% alternate between 
+being occupied or unoccupied by Pol II. The majority of genes that switch states begin 
+without Pol II occupancy and progressively gain it over time (referred to as the "opening set," 
+n = 502).  A smaller subset of genes (the "closing set," n = 65) starts with Pol II occupancy 
+but loses it as the time course progresses (0 indicates no enrichment, while 1 represents the 
+highest level of enrichment). Taken from [32]. 
+
+More detailed research describing RNA Pol II binding and others protein 
+
+distribution  at  promoters  was  performed  using  different  stages  of  Drosophila 
+
+development  [33].  It  was  shown 
+
+that  during  mid-embryogenesis  and 
+
+metamorphosis, Pol II binds to gene promoters prior to their active transcription. 
+
+But the properties of stalled Pol II complexes differ between these stages. In mid-
+
+embryogenesis, Pol II exhibits a "post-pause" state, with its CTD phosphorylated 
+
+at both Ser5 and Ser2. During metamorphosis, Pol II undergoes the traditional 
+
+stalled  condition,  marked  by  high  Ser5  and  low  Ser2  phosphorylation. 
+
+Additionally,  the  composition  of  paused  Pol  II  complexes  varies:  embryonic 
+
+21 
+
+ 
+ 
+complexes lack Brd4/Fs(1)h due to its low expression. Elongation regulators like 
+
+NELF, DSIF, and PAF are involved in pausing at both stages.  
+
+That is very important what regulatory proteins  and transcription factors 
+
+are responsible for supporting the chromatin architecture and functionality over 
+
+transcription. Many proteins are bound to regulatory elements of tissue-specific 
+
+and broadly expressed genes and some of these transcription factors are particular 
+
+hallmarks of distinct gene types.  
+
+3.  Proteins  associated  with  Drosophila  regulatory  elements  and  their 
+functions 
+
+Different  transcription  factors  are  associated  with  DNA  regulatory 
+
+elements. Their coordinative operating is responsible for activating or repressing 
+
+gene  transcription.  In  this  study  ChIP-Seq  analysis  for  some  of  the  known 
+
+Drosophila  transcription-regulation  proteins  was  performed.  In  this  review 
+
+chapter the description of these proteins is provided.  
+
+Ecdysone receptor EcR 
+
+The ecdysone  receptor  (EcR) is  a  nuclear  hormone  receptor  that  plays  a 
+
+crucial role in Drosophila development by mediating responses to its ligand - the 
+
+steroid hormone ecdysone (20-hydroxyecdysone). EcR forms a heterodimer with 
+
+Ultraspiracle  (USP)  and  binds  to  ecdysone  response  elements  (EcREs)  in 
+
+regulatory regions of target genes, modulating their transcription [34].  EcR is 
+
+essential  for  metamorphosis,  tissue  remodelling,  and  stage-specific  gene 
+
+expression  [35].  Nonetheless,  EcR  role  in  tissue-specific  gene  regulation  is 
+
+controversial. Thus, one group of scientists showed that EcR knockdown did not 
+
+reduce the chromatin accessibility in wing imaginal discs [36], another research 
+
+revealed that in  condition  with  low  ligand  concentration,  binding  of  EcR  with 
+
+salivary  gland’s  regulatory  elements  was  reduced  as  well  as  the  chromatin 
+
+accessibility [37] (Figure 9).  
+
+22 
+
+ 
+Figure 9. (A) Average binding profiles of EcR (Wing C&R) and FAIRE (Wing FAIRE) at 
+wandering larval stage. FAIRE profiles of WT (wild type) and EcRi samples are identical (as 
+EcRi did not have impact on chromatin state). (B) Average signal for EcR and FAIRE (WT 
+and EcRi) at EcR binding sites. Taken from [37]. 
+
+In  this  research,  EcR  was  found  enriched  at tissue-specific  enhancers, 
+
+particularly in salivary glands and brain, suggesting its role in modulating tissue-
+
+specific transcriptional responses to developmental signals. 
+
+Sage 
+
+Sage is  a  transcription  factor  (TF)  specifically  expressed  in  the salivary 
+
+glands of Drosophila larvae  [38].  It  regulates  genes  involved  in  secretory 
+
+function and gland development. Sage binds to enhancers driving salivary gland-
+
+specific gene expression, often co-localizing with other TFs like Fork head (Fkh) 
+
+23 
+
+ 
+ 
+[39].  In  this  study,  Sage  was  identified  as  a  key  regulator  of salivary  gland 
+
+enhancers,  with  its  binding  sites  enriched  near  tissue-specific  open  chromatin 
+
+regions marked by H3K27Ac and CBP/p300. 
+
+Combgap 
+
+Combgap is a zinc finger protein that regulates neuronal development and 
+
+brain-specific gene expression in Drosophila. It acts as a transcriptional repressor 
+
+or  activator  depending  on  the  context  and  is  involved  in  maintaining  neural 
+
+progenitor identity [40].  For instance, Cg functions as a tissue-specific repressor 
+
+of Wg signaling in the visual cortex of CNS, where its downregulation by Wg 
+
+permits  target  gene  activation  [41].  In  this  study, Combgap  binding  sites  were 
+
+enriched  in  brain-specific  enhancers,  suggesting  its  role  in  establishing  brain-
+
+specific  transcriptional  programs.  Its  presence  alongside  H3K27Ac  and  EcR 
+
+marks indicates a combinatorial regulatory mechanism in neural tissues. 
+
+Cropped (Crp) and BEAF-32 
+
+Cropped (Crp) is a transcription factor associated with housekeeping gene 
+
+regulation in Drosophila. It binds to promoters of constitutively expressed genes, 
+
+often co-localizing with general transcription machinery [42, 43]. In our research 
+
+Crp was found at stable promoters (associated with housekeeping genes) rather 
+
+than at tissue-specific ones.  
+
+BEAF-32 (Boundary Element-Associated Factor of 32 kDa) is an essential 
+
+insulator protein in Drosophila that regulates genome organization, transcription, 
+
+and cellular homeostasis [44]. Found near gene promoters, it separates closely 
+
+apposed genes with distinct regulation modes. Mutations in BEAF-32 are lethal, 
+
+causing  developmental  defects  like  epithelial  loss  and  neoplastic  growth  in 
+
+imaginal  discs.  These  mutations  misregulate  genes  involved  in  cell  polarity, 
+
+proliferation, differentiation, and key pathways like Wingless [45]. In this study, 
+
+BEAF-32 was found near constitutively active promoters in brain tissue.  
+
+24 
+
+ 
+Cooperative  interplay  between  the  cis-regulatory  elements  and  transcription 
+factors 
+
+The  regulatory  landscape  of Drosophila is  characterized  by the  dynamic 
+
+binding of thousands of transcription factors (TFs) to genomic elements, where 
+
+their precise combinatorial interactions controll tissue-specific and housekeeping 
+
+gene  expression.  High-throughput  studies  have  revealed  that  TFs  bind 
+
+extensively  across  the  genome,  targeting  both  known  and  novel  enhancers, 
+
+promoters,  and  insulators,  often  in  a  highly  overlapping  manner  [46].  The 
+
+cooperative  binding  of  TFs  facilitates  communication  between  promoters  and 
+
+enhancers,  enabling 
+
+the 
+
+spatiotemporal  gene  expression.  Large-scale 
+
+modENCODE  efforts  elucidated  the  complexity  of  the Drosophila regulatory 
+
+genome, revealing dense TF-binding hubs and extensive co-binding relationships 
+
+that form intricate regulatory networks [47]. These findings underscore that gene 
+
+regulation by enhancers and promoters is not controlled by  individual TF binding 
+
+but emerge from the collective activity of multiple factors working in concert.  
+
+25 
+
+ 
+ 
+ 
+Results and discussion 
+
+Chapter 1: Features of gene regulation by tissue-specific enhancers 
+
+This  chapter  of  the  results  section  focuses  on  the  tissue-specific 
+
+characteristics  of  enhancer  activity  in  Drosophila  melanogaster.  Chromatin 
+
+accessibility  mapping  is  a  widely  used  method  for  identifying  regulatory 
+
+elements. ATAC-Seq, based on integration of adapters by a Tn5 transposase into 
+
+accessible  chromatin,  allows  to  capture  the  accessibility  of    chromatin  at 
+
+regulatory  regions,  including  promoters  and  enhancers  [48].  To  identify 
+
+enhancers this way, promoters must be removed from the dataset. Using ATAC-
+
+Seq data from the salivary gland, brain, and wing imaginal discs at the wandering 
+
+larval stage, generated in our laboratory, we identified a set of salivary gland- and 
+
+brain-specific enhancers. We then analysed their characteristics  to uncover the 
+
+key features of these elements that enable tissue-specific gene regulation.  
+
+Identification of tissue-specific enhancers by ATAC-Seq in Drosophila  
+
+The goal of this study was to describe the mechanisms underlying tissue-
+
+specific  transcription  that  is  realized  through  the  cooperative  work  of  genome 
+
+regulatory  elements.  For  that,  we  needed  to  define  the  pool  of  transcriptional 
+
+regulatory  elements  from  different  tissues  that  could  be  used  for  the  analysis. 
+
+Three tissues that have different fate in Drosophila ontogenesis (salivary glands, 
+
+brain, wing imaginal discs) were chosen.  As it was mentioned in introduction, 
+
+salivary  glands  experience  autophagy  and  apoptosis,  larval  brain  tissue  goes 
+
+through neurogenesis, axon and dendritic pruning, arbor outgrowth and cell death 
+
+that result in the establishment of the adult nervous system, wing imaginal discs 
+
+differentiate into adult wings and carcass. We dissected tissues from wandering 
+
+larvae in two biological replicates and preformed ATAC-Seq procedure (Figure 
+
+1.1).  
+
+26 
+
+ 
+Figure 1.1. A scheme displaying tissue material collection from white pupa stage of 
+Drosophila development for ATAC procedure and following sequencing 
+
+We used our ATAC-Seq reads obtained from the salivary glands, brain and 
+
+wing  imaginal  discs  tissues  of  wandering  larvae  to  identify  tissue-specific 
+
+enhancers. For every pair of tissue contrast (salivary gland versus brain, salivary 
+
+gland  versus  wing  imaginal  disc,  wing  imaginal  disc  versus  brain)  we made  a 
+
+differential peak signal analysis of ATAC-Seq peak data. The peak calling was 
+
+performed  with  MACS2  callpeak  tool  [49]  and  differential  peak  analysis  was 
+
+performed with DiffBind package [50]. We took unique tissue-specific sites with 
+
+differential  signal  (|fold  change|>2,  FDR<0.05)  and  excluded  the  transcription 
+
+start site (TSS) regions. Finally, 1131 brain-specific, 117 salivary gland-specific 
+
+and 103 wing imaginal disc-specific enhancers were defined (the wing imaginal 
+
+disc enhancer pool was not used in further analysis). We also identified 130 stable 
+
+(control)  enhancers.  These  are  common  for  all  the  tissues  enhancers  at  which 
+
+ATAC-Seq  peak  signal  does  not  change  across  all  the  tissues  (0.8<fold 
+
+change<1.2, p-value<0.05) (Figure 1.2). 
+
+27 
+
+ 
+ 
+Figure 1.2. Separating enhancers to tissue-specific and stable groups according to ATAC-
+Seq peak signal. MD-plot shows which enhancers demonstrate significant changes in ATAC-
+Seq signal between two experimental conditions (brain tissue (BR) versus salivary gland 
+tissue (SG). X-axis of MD-plot represents the fold change in binding intensity between two 
+BR and SG. Y-axis represents the negative logarithm of FDR (-log10(FDR)) associated with 
+the statistical significance of the binding difference. Graphs show the average signal 
+distribution based on the median ATAC-Seq signal at SG-specific (N=117), BR-specific 
+(N=1131) and stable (N=130) enhancers. Heatmaps show the signal distribution for every 
+enhancer. 
+
+Selected tissue-specific enhancers are distinct between the tissues with different 
+developmental fate 
+
+As  mentioned  in  the  previous  paragraph,  the  detection  of  accessible 
+
+chromatin  regions  facilitates  the identification  of  genome  regulatory  elements. 
+
+Daniel J. McKay and Jason D. Lieb previously demonstrated that the same DNA 
+
+regulatory  regions  are  accessible  across  the  genome  at  a  given  developmental 
+
+28 
+
+ 
+ 
+ 
+stage  in  Drosophila  imaginal  discs  [4].  In  contrast,  our  findings  reveal  an 
+
+intriguing  result:  "open"  chromatin  profiles  are  tissue-specific  and  not  shared 
+
+between  the  salivary  glands,  brain,  and  wing  imaginal  discs  at  the  wandering 
+
+larval stage (Figure 1.3).  
+
+Figure 1.3. (A) Earlier published accessible chromatin profiling by FAIRE-Seq from 
+wandering larval imaginal discs and CNS with shared among the tissues FAIRE-Seq signals. 
+The image is taken from the previously published data [4] and adopted. DI locus is shown as 
+an example of a region with similar profiles of accessible chromatin. (B) Our data displaying 
+
+29 
+
+ 
+ 
+distinct profiles of “opened” chromatin in the salivary glands, brain and wing imaginal discs. 
+The accessible chromatin profiling was performed by two methods: FAIRE-Seq and ATAC-
+Seq and genome browser views at bantam locus are provided for both. 
+
+The discrepancy in results may arise from differences in the developmental 
+
+programs  of  the  tissues  studied.  McKay  and  Lieb  analyzed  wandering  larval 
+
+imaginal discs, which share common developmental trajectories as they give rise 
+
+to  Drosophila  appendages  (legs,  antennae,  mouthparts,  analia,  wings,  and 
+
+halteres) [51]. We used the tissues with distinct developmental programs: salivary 
+
+glands  undergo  autophagy  and  apoptosis  [52],  larval  brain  goes  through 
+
+neurogenesis,  axon  and  dendritic  pruning,  arbor  outgrowth  and  cell  death  that 
+
+result in the establishment of the adult nervous system [2, 8, 9], wing imaginal 
+
+discs differentiate into adult wings and carcass  [10, 11]. To further investigate 
+
+this  tissue  specificity,  we  computed  Spearman  correlation  coefficients  for 
+
+accessible 
+
+chromatin 
+
+profiles 
+
+across 
+
+selected 
+
+tissues 
+
+using 
+
+the 
+
+multibigwigSummary tool [53] with 500 bp-sized bins (Figure 1.4). Our analysis 
+
+revealed low Spearman correlation coefficients for salivary gland and brain (0.61 
+
+for ATAC-Seq, 0.59 for FAIRE-Seq), wing  imaginal discs and brain (0.65 for 
+
+ATAC-Seq), and wing imaginal discs and salivary glands (0.68 for ATAC-Seq). 
+
+In  contrast,  previously  published  data  showed  high  correlation  coefficients 
+
+between haltere and wing imaginal discs (0.85) as well as between wing and leg 
+
+imaginal discs (0.90).   
+
+30 
+
+ 
+Figure 1.4. Left panel – correlation plot for FAIRE-Seq signals at 500 bp sized sized 
+Drosophila melanogaster genome bins for haltere imaginal discs (H), wing imaginal discs 
+(W), leg imaginal discs (L) of wandering larvae. The image is taken from the previously 
+published data [4] and adopted. Right panel – correlation plots generated using our FAIRE-
+Seq and ATAC-Seq data from wandering larval brain (BR), salivary glands (SG), wing 
+imaginal discs (WD) at at 500 bp sized Drosophila melanogaster genome bins. 
+Thus,  tissue-specific  enhancers  involved  in  the  realization  of  the 
+
+developmental programs, as evidenced by differences in chromatin accessibility 
+
+profiles between tissues with divergent fates. 
+
+Drosophila salivary gland and brain enhancers identified by ATAC-Seq are active 
+
+in a tissue-specific manner and not poised in tissues where they are inactive 
+
+After defining the pool of tissue-specific enhancers, we sought to identify 
+
+what  proteins  bind  these  regulatory  regions  and  how  they  are  distributed  in 
+
+tissues.  To characterize the landscape of protein binding to salivary gland and 
+
+brain enhancers, we estimated the binding levels of CBP/Nejire acetyltransferase, 
+
+EcR,  H3K27Ac  using  ChIP-Seq  on  salivary  gland and  brain material  obtained 
+
+from wandering larvae. We also assessed the chromatin state of enhancers using 
+
+FAIRE-Seq and ATAC-Seq coverage at these regions (Figure 1.5).  
+
+We  assert  that  selected  by  ATAC-seq  genome  regions  are  enhancers 
+
+because they possess the main enhancer traits: these regions demonstrate a high 
+
+31 
+
+ 
+ 
+ 
+binding level of EcR and CBP/Nejire and are enriched for the H3K27Ac mark 
+
+inherent to active enhancers. It is important to note, that we excluded the promoter 
+
+regions (TSSs) that were detected by ATAC-Seq from analysis.  
+
+We  found  evidence  of  tissue-specific  activity  of  defined  tissue-specific 
+
+enhancers  in  the  salivary  glands  and  brain.  High  signals  of  binding  for 
+
+CBP/Nejire  and  EcR  proteins,  as  detected  through  ChIP-Seq  analysis  of  the 
+
+salivary gland, were observed exclusively at salivary gland-specific enhancers, 
+
+but  not  at the  brain-specific  enhancers.  Conversely,  high  levels  of  CBP/Nejire 
+
+and  EcR  binding  in  the  brain  were  detected  only  at  brain-specific  enhancer 
+
+regions.  Chromatin  accessibility  (FAIRE-Seq  and  ATAC-Seq  signals)  and 
+
+acetylation levels (H3K27Ac) were consistent with the tissue-specific binding of 
+
+CBP/Nejire  and  EcR  in  both  tissues.  Interestingly,  stable  enhancers  did  not 
+
+exhibit  high  levels  of  activity  overall.  This  could  be  attributed  to  the  fact  that 
+
+these  enhancers  are  not 
+
+involved 
+
+in 
+
+tissue-specific  processes  at 
+
+this 
+
+developmental stage, which may explain their reduced activity (reflected by low 
+
+CBP/Nejire  binding,  H3K27Ac  level,  EcR  binding,  and  FAIRE-Seq  signal). 
+
+Nonetheless,  stable  enhancers  serve  as  a  good  control  pool  because  they 
+
+demonstrate  the  binding  signal  in  both  tissues  and  confirm  that  ChIP-Seq 
+
+experiment was valid. The absence of protein binding in ChIP samples obtained 
+
+from salivary gland tissue at brain-specific enhancers (and vise a versa) is not due 
+
+to  the  inaccurate  sample  preparation  but  due  to  the  exclusive  activity  of these 
+
+regulatory elements at a particular tissue.  
+
+Thus, we analysed the molecular states of the 117 salivary gland-specific, 
+
+1131 brain-specific, and 130 stable (control) enhancers by plotting average CBP, 
+
+EcR, H3K27Ac binding and accessible chromatin signal profiles for each tissue. 
+
+Our findings indicate that the active state of enhancers in the salivary glands and 
+
+brain  is  characterized  by  accessible  chromatin  state  and  specific  binding  of 
+
+ecdysone  receptor  (EcR)  and  proteins  that  regulate  chromatin  accessibility 
+
+(CBP/Nejire,  H3K27Ac)  at  a  particular  tissue.  Since  we  did  not  detect  any 
+
+32 
+
+ 
+massive CBP binding to stable enhancers, we suggest these regions are either not 
+
+enhancers or enhancers with different yet uncovered principles of regulation.  
+
+Figure 1.5. Average distribution of ATAC-Seq signal, FAIRE-Seq signal and CBP/Nejire, 
+H3K27Ac, EcR proteins estimated by ChIP-Seqs at salivary gland-specific (SG-specific, 
+N=117), brain-specific (BR-specific, N=1131), stable (N=130) enhancers. ChIP-Seq sample 
+signal is plotted in purple (SG) and orange (BR), ChIP-Seq Input (IN) signal is plotted in 
+grey. The X-axis represents the distance to the enhancer region center in kbp. Average 
+
+33 
+
+ 
+ 
+profiles were calculated as a median of binding level with the standard error displayed on the 
+profiles. The fold change (FC) was calculated using normalized coverage at the analyzed 
+enhancers (ratio of SG signal to BR signal for SG-specific enhancers and stable enhancers, a 
+ratio of BR signal to SG signal for BR-specific enhancers). The median of the ratio at each 
+region is signed as “FC=n” on the plots. The results of a non-parametric Wilcoxon signed-
+rank test are provided on the graphs, where ‘**’ means FDR ≤ 0.01. 
+
+Enhancers are tissue-specifically enriched with the protein peaks 
+
+In order to quantitatively characterize the presence of proteins in various 
+
+tissues at defined tissue-specific enhancers, we estimated the proportion of sites 
+
+bearing  peaks  of  the  studied  proteins.  So,  we  analyzed  the  presence  of  CBP, 
+
+H3K27Ac, and EcR peaks at the defined groups of enhancers (Figure 1.6).  
+
+Figure 1.6. Bar plots displaying percentage of SG-specific, BR-specific, stable enhancers 
+containing protein ChIP-Seq peaks obtained from wild type strain (Oregon) wandering larvae 
+salivary glands and brain tissues. 
+
+Almost all the enhancers in salivary glands were bound with CBP (93%) 
+
+and contained H3K27Ac broad marks (81%) while 51% and 53% of enhancers 
+
+in brain carried CBP and H3K27Ac peaks.  
+
+Ecdysone receptor (EcR) binding was detected at a great portion of 
+
+tissue-specific enhancers in the salivary glands and brain. We did not expect 
+
+previously that EcR is so widely involved in tissue-specific enhancer 
+
+functioning. Of 575 enhancers bound with CBP, 198 were additionally co-
+
+bound with EcR in brain. In salivary glands 66 of 109 enhancers carrying CBP 
+
+34 
+
+ 
+ 
+were co-bound with EcR. Interestingly, that stable enhancers that served us a 
+
+control group, demonstrated moderate association with CBP, EcR and 
+
+H3K27Ac protein peaks in both tissues. These regions were not found enriched 
+
+for proteins marking activity of enhancers in wandering larva. This indicates 
+
+that this group is either not enhancers or enhancers that work in a completely 
+
+different way (possibly they are housekeeping enhancers).  
+
+Of note, that some of the tissue-specific enhancers did not contain the CBP 
+
+protein peak. We attribute this to the insufficient sensitivity of the CBP ChIP-Seq 
+
+compared to ATAC-Seq sensitivity. 
+
+Further,  for  deeper  quantitative  analysis,  we  assessed  CBP  and  EcR 
+
+binding  differences  between  the  salivary  glands  and  brain.  To  identify  tissue-
+
+specific  enhancer  activity,  we  performed  a  genome-wide  differential  peak 
+
+analysis of CBP and EcR using ChIP-Seq data. This analysis, conducted with the 
+
+DiffBind package and DESeq2 method (|Fold| > 2; FDR < 0.05), enabled us to 
+
+pinpoint enhancers with highly specific protein binding patterns. ChIP-Seq data 
+
+were  generated  from  two  biological  replicates  per  tissue.  Our  results  revealed 
+
+CBP  peaks  at  109  out  of  117  salivary  gland-specific  enhancers,  of  which  102 
+
+showed  statistically  significant  binding  enrichment  in  the  salivary  glands 
+
+compared to the brain. Similarly, EcR was found bound to 66 of the SG-specific 
+
+enhancers,  with  56  of  these  exhibiting  significant  enrichment  in  the  salivary 
+
+glands. In the brain, CBP peaks were detected at 575 of the 1131 brain-specific 
+
+enhancers,  with  266  showing  statistically  significant  enrichment  in  the  brain 
+
+relative  to  the  salivary  glands.  EcR  binding  was  observed  at  249  of  the  BR-
+
+specific  enhancers,  but  only  39  displayed  significant  enrichment  in  the  brain 
+
+(Figure 1.7).  
+
+35 
+
+ 
+Figure 1.7. CBP and EcR peak distribution at salivary gland-specific and brain-specific 
+enhancers. “enhancers with DiffBind peaks” are the regions containing differentially bound 
+between the salivary glands and brain protein peaks. Dark purple color displays sites with 
+highly specific for salivary glands CBP and EcR protein peaks which normalized coverage 
+signal is significantly higher in salivary glands compared to brain. Dark orange color reflects 
+sites with highly specific for brain CBP and EcR protein peaks which normalized coverage 
+signal is significantly higher in brain compared to salivary glands. “enhancers with flat 
+peaks” are the regions that contain CBP and EcR peaks that are not differentially bound 
+between the tissues but located in tissue specific enhancers. “enhancers with no peaks” are 
+regulatory elements that do not bind either CBP or EcR. 
+
+The presence of peaks that are significantly differentially bound across the 
+
+tissues at salivary gland- and brain-specific enhancers suggests a direct role of 
+
+these proteins in regulating tissue-specific activity of the defined enhancers. 
+
+However, the absence of detectable EcR and CBP binding at a substantial 
+
+fraction  of  enhancers  in  brain  tissue  may  reflect  limitations  of  the  ChIP-Seq 
+
+method. The sensitivity of our antibodies was insufficient to detect weak binding, 
+
+particularly  in  the  brain.  Despite  this  limitation,  our  data  provided  valuable 
+
+insights  into  enhancer  activity  across  tissues.  Specifically,  we  observed  clear 
+
+differences  in  the  presence  of  CBP,  EcR,  and  H3K27Ac  peaks  at  enhancers 
+
+between  regions  with  tissue-specific  chromatin  accessibility.  Salivary  gland-
+
+36 
+
+ 
+ 
+specific enhancers were enriched for protein peaks derived from salivary gland 
+
+ChIP-Seq  samples,  while  brain-specific  enhancers  were  similarly  enriched  for 
+
+protein  peaks  derived  from  brain  ChIP-Seq  samples.  Moreover,  tissue-specific 
+
+enhancers  exhibited  distinct  patterns  of  CBP  and  EcR  binding  that  were 
+
+differentially enriched across the two tissues. 
+
+These  findings  underscore  the  functional  specialization  of  enhancers  in 
+
+mediating  tissue-specific  gene  regulation  and  suggest  that  CBP  and  EcR  play 
+
+critical roles in modulating enhancer activity. For the first time we demonstrated 
+
+such  an  extensive  involvement  of  EcR  in  the  functioning  of  tissue-specific 
+
+enhancers.  
+
+Salivary  gland-specific  and  brain-specific  enhancers are enriched  with  binding 
+
+motifs for distinct transcription factors 
+
+Upon  identifying  the  tissue-specific  activity  of  the  selected  enhancer 
+
+groups, we sought to determine which tissue-specific proteins might initiate the 
+
+formation of these enhancers within the respective tissues. DNA-binding proteins 
+
+are the most likely candidates to act as initiators of enhancer activity. To identify 
+
+the DNA-binding proteins involved in the regulation of tissue-specific enhancers, 
+
+we analyzed the enrichment of DNA-binding protein motifs within these groups 
+
+of  enhancers  using  the  MEME-ChIP  tool  [54].  Salivary-gland  enhancers  were 
+
+significantly enriched for Sage (E-value 1.6e-012), Sidpn (E-value 1.6e-012), and 
+
+Top2 (E-value 1.8e-006) motifs. Brain enhancers showed strong enrichment for 
+
+Klu  (E-value  6.9e-153),  Trl  (E-value  2.1e-094),  Aef1  (E-value  2.2e-079), 
+
+L(3)neo38 (E-value 9.0e-047) and Jim (E-value 1.8e-028) motifs. These findings 
+
+align with the concept that tissue-specific enhancers are bound cooperatively by 
+
+multiple  DNA-binding  proteins  [55].  Notably,  the  motifs  with  the  highest  E-
+
+values correspond to the proteins predominantly expressed in the tissue where the 
+
+enhancer is active, as confirmed by FlyAtlas2 FPKM data [56] (Figure 8A).  
+
+37 
+
+ 
+To  demonstrate  that  the  identified  motifs  were  indeed  bound  with  the 
+
+corresponding  proteins,  we  performed  ChIP-seq  analysis  for  two  candidates. 
+
+Specifically, we examined the binding level of Sage protein at salivary gland- and 
+
+brain-specific enhancers using Sage ChIP-Seq data from wild-type Oregon strain 
+
+salivary glands of wandering larvae. As expected, only salivary gland enhancers 
+
+were  selectively  enriched  for  Sage,  while  brain  enhancers  completely  lack 
+
+binding (ChIP-Seq signal was even lower than the Input control signal). Stable 
+
+(control)  enhancers  showed  a  very  low  binding  level  of  Sage  (Figure  1.8B). 
+
+According  to  MEME-ChIP,  52  of  117  salivary  gland  enhancers  possessed  the 
+
+Sage motif and almost all these 52 enhancers were bound with Sage (Figure 1.8C). 
+
+This demonstrates the high reliability of the obtained data and is consistent with 
+
+the  previous  study  describing  Sage  as  salivary  gland-specific  transcription 
+
+regulator [57].  
+
+Given that as Klu motif was found at brain-specific enhancers, we decided 
+
+to assess the binding level of Combgap (Cg) protein at tissue-specific enhancers 
+
+in the brain, as both Klu and Cg are known to bind GTGT motifs [40] (Figure 
+
+1.8D). Cg is known as a transcription factor that is involved in recruitment of PcG 
+
+proteins  [58].  Interestingly,  our  analysis  revealed  that  only  brain-specific 
+
+enhancers  were  selectively  enriched  for  Cg  binding,  whereas  salivary  gland 
+
+enhancers showed minimal or no binding. Similarly, stable (control) enhancers 
+
+exhibited very low levels of Cg binding. Using MEME-ChIP, we identified the 
+
+Klu motif (which overlaps with the Cg motif) in 482 out of 1131 brain-specific 
+
+enhancers, and among these, 86 enhancers were bound by Cg (Figure 1.8E).  
+
+38 
+
+ 
+ 
+Figure 1.8. Motif enrichment analysis at enhancers revealed salivary gland and brain-specific 
+transcription factors which transcription and genome binding are tissue-specific. (A) A 
+heatmap displaying the transcription of genes coding tissue-specific transcription factors 
+which motifs were found to bind enhancers. The color intensity displays the Log10(FPKM) 
+values for larvae derived from FlyAtlas2. “BR” and “SG” display transcription in brain and 
+salivary gland tissues, concordantly. (B) Average distribution of Sage protein estimated by 
+salivary gland tissue ChIP-Seqs at salivary gland-specific enhancers (SG), brain-specific 
+enhancers (BR) and stable enhancers of Oregon white pupae. ChIP-Seq and Input signals are 
+plotted in purple and grey, concordantly. The X-axis represents the distance to the enhancer 
+in kbp. Average profiles were calculated as a median of binding level with the standard error 
+displayed on the profiles. (C) Vienn diagram demonstrating the number of SG-specific 
+enhancers (N=117) exhibiting Sage ChIP-Seq peak (N=52). (D) Average distribution of 
+Combgap (Cg) protein estimated by brain tissue ChIP-Seqs at salivary gland-specific 
+enhancers (SG), brain-specific enhancers (BR) and stable enhancers of Oregon white pupae. 
+Brain ChIP-Seq signal is plotted in orange as a ration to Input signal. The X-axis represents 
+the distance to the enhancer in kbp. Average profiles were calculated as a median of binding 
+level with the standard error displayed on the profiles. (E) Vienn diagram demonstrating the 
+number of BR-specific enhancers (N=1131) exhibiting Cg ChIP-Seq peak (N=735).  
+
+In  conclusion,  our  results  demonstrate  that  salivary  gland-  and  brain-
+
+specific  enhancers  exhibit  distinct  enrichments  for  transcription  factor  motifs 
+
+corresponding to proteins tissue-specifically expressed in the respective tissues. 
+
+39 
+
+ 
+ 
+ChIP-Seq  analyses  for  Sage  and  Cg  confirmed  the  selective  binding  of  these 
+
+proteins  to  salivary  glands  and  brain  enhancers  within their  respective tissues, 
+
+with no sufficient binding observed at stable enhancer regions.  
+
+Tissue-specific enhancers defined by ATAC-Seq present at the gene’s loci with a 
+tissue-specific transcription  
+
+To define the genes that are directly regulated by tissue-specific enhancers, 
+
+we utilized RNA-seq data derived from salivary glands and brain of wandering 
+
+larvae (Figure 1.9).  
+
+Figure 1.9. A scheme displaying tissue material collection from wandering larval stage of 
+Drosophila development for RNA-seq and ChIP-seq procedures 
+
+We defined a pool of transcripts that possess tissue-specific enhancers in 
+
+their  loci  for  each  tissue  by  intersecting  enhancer  regions  with  all  Drosophila 
+
+transcript regions. We then filtered this set to include only actively transcribed 
+
+loci,  retaining  transcripts  with  CPM  >10  in  at  least  one  sample  (features  with 
+
+fewer than 100 counts in salivary gland samples or fewer than 400 counts in brain 
+
+samples  were  excluded).  As  a  result,  we  identified  37  transcripts  directly 
+
+regulated by 117 salivary gland-specific enhancers, 174 transcripts regulated by 
+
+1131  brain-specific  enhancers,  41  transcripts  directly  controlled  by  130  stable 
+
+enhancers.  Promoters  (TSS  ±250  bp)  of  transcripts  were  selected  for  further 
+
+analysis. It is important to note that this study was focused on enhancers located 
+
+within  the  locus  of  the  corresponding  gene,  and  distant  promoter-enhancer 
+
+interactions were excluded from the analysis (Figure 1.10).  
+
+40 
+
+ 
+ 
+Figure 1.10. Genome browser screenshots displaying the location of salivary glands and 
+brain enhancers that regulate transcription of tissue-specific transcripts. On the upper panel a 
+genome browser screenshot with zip gene is shown. zip is specifically transcribed in salivary 
+gland and exhibits SG-specific enhancer. On the bottom panel a genome browser screenshot 
+with l(3)neo38 gene is displayed. l(3)neo38 is specifically transcribed in brain and exhibits 
+BR-specific enhancer. Both screenshots display RNA-Seq and ATAC-Seq coverage and bed 
+regions of tissue-specific enhancers that are the ATAC genome peaks. 
+
+To  characterize  the  promotors  of  transcripts  regulated  by  tissue-specific 
+
+enhancers,  we  estimated  promoter-proximal  transcription  using  RNA-Seq. 
+
+Analysis  of  RNA-Seq  signals  proximal  to  these  promoters  demonstrated  that 
+
+transcripts controlled by tissue-specific enhancers are  more active in the tissue 
+
+where enhancer operates. Specifically, active salivary gland- and brain-specific 
+
+enhancers, located in accessible chromatin regions and with high CBP, H3K27Ac 
+
+and EcR binding levels, controlling the transcription of genes in a tissue-specific 
+
+manner  (Figure  1.11).  Interestingly,  that  promotors  associated  with  stable 
+
+enhancers  (defined  as  enhancers  with  consistent  ATAC-seq  signals  across  the 
+
+tissues), were found to be active in both tissues.  
+
+41 
+
+ 
+ 
+Figure 1.11. Transcripts exhibiting tissue-specific enhancers in their loci are actively 
+transcribed in a tissue where the enhancer is active. The picture shows average distribution of 
+RNA-Seq signal at promoters of transcripts regulated by salivary gland-specific (SG-pecidfic, 
+N=37), brain specific (BR-specific, N=174), stable (N=41) enhancers. RNA-seq signal is 
+presented as a number of reads normalized to the genome. The X-axis represents the distance 
+to the TSS in kbp. Average profiles were calculated as a median of binding level. The FC was 
+calculated using normalized coverage within 500 bp around the center of the analysed TSSs 
+(as a ratio of SG signal to BR signal for transcripts regulated by SG-specific and stable 
+enhancers and as a ratio of BR signal to SG signal for transcripts regulated by BR-specific 
+enhancers). The results of a non-parametric Wilcoxon signed-rank test are provided on the 
+graphs, where ‘**’ means FDR ≤ 0.01, ‘*’ means FDR ≤ 0.05, the absence of sign means the 
+difference between RNA-Seq signal levels was not significant. 
+
+To  investigate  the  specific  traits  of  genes  regulated  by  tissue-specific 
+
+enhancers, we assessed the binding levels of transcription-regulating proteins at 
+
+the  promoters  of  these  genes.  Our  analysis  revealed  an  intriguing  result: 
+
+promoters groups regulated by tissue-specific enhancers demonstrated significant 
+
+binding levels of RNA Pol II (Rpb3), TBP, EcR, and CBP in both studied tissues 
+
+(including tissue where these genes were inactive).  As evidenced by heatmaps at 
+
+Figure  1.12,  promoters  regulated  by  salivary  gland-specific  enhancers  were 
+
+enriched  with  a  greater  amount  of  transcriptional  proteins  but  still  retained  a 
+
+42 
+
+ 
+ 
+ 
+substantial  protein  amount  at  brain  tissue  where  these  genes  are  inactive. 
+
+Promoters  of  the  transcripts  regulated  by  brain-specific  enhancers  also 
+
+demonstrated  a  quantitative  but  not  qualitative  enrichment  in  transcriptional 
+
+proteins in brain tissues.  
+
+Thus,  promotors  of  genes  regulated  by  tissue-specific  enhancers  can 
+
+exhibit Rpb3, TBP, EcR, CBP binding in both tissues, while the transcription of 
+
+these genes goes preferably in the particular tissue where the enhancer is active. 
+
+This  coincides  with  the  latest  view  that  promoters  of  genes  can  demonstrate 
+
+steady behavior with stalled RNA Pol II at TSS [59]. 
+
+43 
+
+ 
+Figure 1.12. Average distribution of FAIRE-Seq signal and Rpb3, TBP, EcR and CBP/Nejire 
+proteins estimated by ChIP-Seqs from salivary glands (violet) and brain (orange) tissues at 
+
+44 
+
+ 
+ 
+promoters of transcripts regulated by salivary gland-specific enhancers (N=37), brain-specific 
+enhancers (N=174), stable enhancers (N=41). ChIP-Seq sample signal is plotted in purple 
+(SG) and orange (BR), ChIP-Seq Input (IN) signal is plotted in grey. The X-axis represents 
+the distance to the enhancer region center in kbp. Average profiles were calculated as a 
+median of binding level with the standard error displayed on the profiles. The fold change 
+(FC) was calculated using normalized coverage at the analyzed enhancers (ratio of SG signal 
+to BR signal for SG-specific enhancers and stable enhancers, a ratio of BR signal to SG 
+signal for BR-specific enhancers). The median of the ratio at each region is signed as “FC=n” 
+on the plots. The results of a non-parametric Wilcoxon signed-rank test are provided on the 
+graphs, where ‘**’ means FDR ≤ 0.01, the absence of sign means the difference between 
+signal levels was not significant. 
+It appears that the activation of transcription for genes regulated by 
+
+tissue-specific enhancers is primarily mediated by the enhancers rather than the 
+
+promoters. It is likely that in the tissue, where the gene is inactive, the 
+
+promoters remain paused, being associated with RNA polymerase II in a 
+
+«poised» or «paused» state. 
+
+Activity  of  salivary  gland-  and  brain-specific  enhancers  contributes  to  tissue-
+specific gene activation 
+
+Together our findings allow us to propose a model of coordinated activity 
+
+of  tissue-specific  enhancers  and  their  target  genes.  Salivary  gland-  and  brain-
+
+specific enhancers are characterized by accessible chromatin states (as revealed 
+
+by  ATAC-Seq)  and  are  enriched  for  key  regulatory  factors,  including  CBP, 
+
+H3K27Ac, and EcR,  which play critical roles in modulating enhancer activity. 
+
+Tissue-specific  enhancers  exhibit  distinct  patterns  of  motif  enrichment.  The 
+
+enrichment  with  Sage  and  Klu  (GTGT)  motifs  at  salivary  gland  and  brain 
+
+enhancers corresponds to the enrichment for Sage and Combgap proteins in the 
+
+corresponding  tissues,  as  confirmed  by  ChIP-Seq  analyses.  Furthermore,  we 
+
+observe  that  proteins  of  the  transcription  machinery  (Rpb3,  TBP,  CBP)  bind 
+
+promoters  in  both  tissues,  including  those  in  which  genes  are  inactive.  That 
+
+allows  us  to  suggest  that  particularly  enhancers,  but  not  promoters,  are 
+
+responsible for activating selected gene’s transcription in tissues. Tissue-specific 
+
+enhancers support the transcription of the genes in a tissue where their activity is 
+
+high.  The  depicted  model  highlights  the  interplay  between  tissue-specific 
+
+45 
+
+ 
+ 
+enhancers and their target promotors as a fundamental mechanism driving precise 
+
+gene regulation in tissues (Figure 1.13).  
+
+Figure 1.13. Final model of tissue-specific gene activation by salivary gland-specific, brain-
+specific, stable enhancers inside transcript loci. Model displays salivary gland-specific 
+enhancers on the left panel that are selectively active in salivary glands and activate 
+transcription in respective tissue inside the transcript’s loci. Brain-specific enhancers in the 
+middle panel are highly active in brain tissue and demonstrate activation of brain transcripts 
+inside their loci. Stable enhancers in the right panel regulate transcription in both tissues 
+equivalently. Proteins designated: H3K27Ac – histone H3 acetylation at Lysin 27, CBP – 
+acetyltransferase, EcR – ecdysone receptor, TBP – TATA-binding protein (a subunit of 
+TFIID pioneer transcription factor), Pol II – RNA Polymerase II, Sage – salivary gland-
+specific transcription factor, Cg – brain-specific transcription factor. 
+
+To illustrate how this model operates on a particular gene, we analyzed two 
+
+gene loci regulated by salivary gland- and brain-specific enhancers. We chose zip 
+
+gene as a region regulated by salivary gland-specific enhancer that was identified 
+
+through  ATAC-Seq  differential  peak  calling.  This  enhancer  exhibits  hallmark 
+
+features of active enhancers, including enrichment for CBP, H3K27Ac, and EcR 
+
+binding, specifically in the salivary glands compared to the brain. The promoter 
+
+region of zip also shows high levels of Rpb3, TBP, and EcR binding, along with 
+
+strong FAIRE-Seq signals in the salivary glands relative to the brain (Figure 1.14). 
+
+These findings demonstrate that the tissue-specific enhancer drives zip expression 
+
+predominantly  in  the  salivary  glands  at  the  wandering  larva  stage  possibly  by 
+
+activating RNA polymerase II release from the promoter.  
+
+46 
+
+ 
+ 
+ 
+Figure 1.14. Binding profiles of CBP, H3K27Ac, EcR, Rbp3 and TBP estimated by ChIP-
+Seqs, FAIRE-Seq and ATAC-Seq signals and an average of RNA-seq signal in a locus of zip 
+gene (an example of gene regulated by salivary gland-specific enhancer) in salivary glands 
+(SG) and brain (BR) of Oregon wandering larvae and white pupae. 
+
+The  Sik2  gene  is  regulated  by a  brain-specific  enhancer  identified  using 
+
+ATAC-Seq  differential  peak  analysis.  This  enhancer  is  enriched  for  CBP, 
+
+H3K27Ac,  and  EcR  binding  in  the  brain  compared  to  the  salivary  glands. 
+
+Similarly, the promoter region of  Sik2 displays high levels of Rpb3, TBP, and 
+
+EcR binding, along with robust FAIRE-Seq signals in the brain relative to the 
+
+47 
+
+ 
+ 
+salivary  glands  (Figure  1.15).  These  results  confirm  that  this  brain-specific 
+
+enhancer drives Sik2 expression primarily in brain tissue. 
+
+Figure 1.15. Binding profiles of CBP, H3K27Ac, EcR, Rbp3 and TBP estimated by ChIP-
+Seqs, FAIRE-Seq and ATAC-Seq signals and an average of RNA-seq signal in a locus of 
+Sik2 gene (an example of gene regulated by brain-specific enhancer) in salivary glands (SG) 
+and brain (BR) of Oregon wandering larvae and white pupae. 
+
+Importantly, tissue-specific expression patterns of zip and Sik2 align with 
+
+our experimental data and publicly available FlyAtlas2 data (Figure 1.16A). At 
+
+the wandering larva stage, zip is predominantly transcribed in the salivary 
+
+glands, whereas Sik2 is mainly expressed in the brain. RNA-Seq analysis using 
+
+48 
+
+ 
+ 
+the limma package further supports these findings, showing significant 
+
+differential expression between the two tissues. Specifically, zip is upregulated 
+
+in the salivary glands with a fold change of 6, while Sik2 is upregulated in the 
+
+brain with a fold change of 10 (Figure 1.16B). Together, these findings 
+
+demonstrate that tissue-specific active enhancers facilitate transcription of the 
+
+genes that are preferentially expressed in their respective tissues. 
+
+Figure 1.16. (A) A heatmap showing FPKM values for Sik2 and zip genes derived from our 
+RNA-Seq counts data and from publicly available FlyAtlas2 data. zip is a gene regulated by 
+salivary gland-specific enhancer, Sik2 is a gene controlled by brain enhancers. (B) Mean 
+Difference plot (MD-plot) displaying differential gene expression between brain and salivary 
+gland tissues according to RNA-Seq data obtained from salivary glands and brain of Oregon 
+wandering larvae. Only the genes with |logFC|>2.6 and adjusted P-value<0.05 are highlighted 
+
+49 
+
+ 
+ 
+in orange (expressed in BR) and purple (expressed in SG). Sik2 and zip genes are designated 
+as differentially expressed between the two tissues genes regulated by brain-specific and 
+salivary gland-specific enhancers, concordantly. 
+
+50 
+
+ 
+Results and Conclusion for Chapter 1 
+
+In this chapter we obtained the next results: 
+
+1.  Using ATAC-Seq data from wandering larvae, we successfully identified 
+
+sets  of  tissue-specific  and  stable  enhancers.  This  analysis  revealed  117 
+
+salivary gland-specific enhancers, 1,131 brain-specific enhancers, and 130 
+
+stable enhancers whose activity remained consistent across tissues.   
+
+2.  ChIP-Seq  analysis  of  protein  binding  in  tissues  of  wandering  larvae 
+
+revealed  that  identified  enhancers  were  enriched  for  hallmark  enhancer-
+
+associated proteins, including CBP, H3K27Ac, and EcR. Importantly, these 
+
+proteins were observed to bind only in the tissue where the enhancer was 
+
+active.   
+
+3.  Salivary  gland-  and  brain-specific  enhancers  demonstrated  distinct 
+
+enrichments for transcription factor motifs, as evidenced by MEME-ChIP 
+
+analysis. ChIP-Seq analyses for Sage and Cg confirmed selective binding 
+
+of these transcription factors to enhancers specific to the salivary gland and 
+
+brain,  respectively,  with  no  binding  observed  at  a  set  of  tissue-specific 
+
+enhancers active in a different tissue or at stable enhancers.   
+
+4.  Promoters  of  transcripts  regulated  by  tissue-specific  enhancers  were 
+
+observed to be bound by general transcription machinery proteins (Rpb3, 
+
+TBP, CBP) in a non-tissue-specific manner.  
+
+51 
+
+ 
+ 
+Chapter 2: Features of tissue-specific promoters 
+
+As it was already mentioned in previous chapter, the goal of this study 
+
+was 
+
+to  describe 
+
+the  mechanisms  underlying 
+
+tissue-specific  gene 
+
+transcription  that  is  realized  through  the  cooperative  work  of  genome 
+
+regulatory elements. In the previous chapter we uncovered the mechanisms 
+
+of tissue-specific enhancer operating and analyzed the activity of promoters 
+
+regulated by salivary gland- and brain-specific enhancers.  
+
+This  section  of  the  results  delves  into  the  distinct  regulatory 
+
+mechanisms  underlying 
+
+tissue-specific  and  broadly  active  gene 
+
+transcription at promoter regions. Using RNA-Seq data from the salivary 
+
+gland and brain of the control strain (e23hsp) at the wandering larva and 12-
+
+14h  pupa  stages,  generated  in  our laboratory,  we  identified  three  distinct 
+
+gene sets: salivary gland- and brain-specific genes, and stable genes, that 
+
+are transcribed consistently across tissues and across developmental stages. 
+
+We analyzed  protein-binding landscapes of the promotors to uncover the 
+
+key  features  that  enable  precise  tissue-specific  gene  transcription  and 
+
+transcription of genes shared between the tissues. 
+
+RNA-Seq from tissues helped to identify salivary gland- and brain-specific 
+transcripts, as well as a set of stable transcripts 
+
+To  describe  genomic  features  of 
+
+tissue-specific  and  consistently 
+
+transcribed  across  tissues  (stable)  promoters,  we  first  defined  the  sets  of 
+
+transcripts  from  different  tissues.  Two  tissues  that  have  different  fate  in 
+
+Drosophila ontogenesis (salivary glands and brain) were chosen. We focused on 
+
+salivary glands and brain tissues, which have distinct developmental trajectories 
+
+during  Drosophila  ontogenesis.  Tissues  were  dissected  from  wandering  larvae 
+
+and 12-14-hour pupae, followed by RNA-Seq analysis. (Figure 2.1).  
+
+52 
+
+ 
+Figure 2.1. A scheme displaying tissue material collection from wandering larval and 12-14-
+hour pupal stage of Drosophila development for RNA-seq and ChIP-seq procedures. Larval 
+RNA-Seq was used to identify a set of tissue-specific promoters, whereas pupal RNA-Seq 
+was utilized to reveal stage-specific (developmental) genes. 
+
+To identify a set of transcripts consistently transcribed across the tissues 
+
+and developmental stages, we used our RNA-Seq data from the salivary glands 
+
+and  brain  both  from  wandering  larva  and  12-14-hour  pupae.  The  set  of 
+
+consistently expressed  in  all  tissues  transcripts  was  designated  as  “stable”  and 
+
+this  term  was  used  throughout  this  study  to  describe  the  set.  To  define  stable 
+
+transcripts  we  took the  genes that are  not  differentially  expressed  between the 
+
+larval tissues (-3.32<logFC<3.32, adjusted P-value<0.05) and united them with 
+
+the genes that are not differentially expressed between the larval and pupal stages 
+
+(-3.32<logFC<3.32, adjusted P-value<0.05). Thus, we filtered out stage-specific 
+
+(developmental) genes from the analysis and made out set more housekeeping-
+
+like.  Tissue-specific  transcripts  were  identified  through  differential  gene 
+
+expression analysis using the limma package in R, comparing salivary gland and 
+
+brain  expression  [60].  Transcripts  were  classified  as  tissue-specific  if  they 
+
+exhibited  a  CPM  >10  in  one  sample  (~400 read  counts for  salivary  gland  and 
+
+~100 read counts for brain), a differential expression threshold of |logFC| > 3.32 
+
+(10-fold change), and an adjusted P-value < 0.05. To define stable transcripts we 
+
+took the genes that are not differentially expressed between the larval tissues (-
+
+3.32<logFC<3.32, adjusted P-value<0.05) and united them with the genes that 
+
+53 
+
+ 
+ 
+are  not  differentially  expressed  between  the  larval  and  pupal  stages  (-
+
+3.32<logFC<3.32,  adjusted  P-value<0.05). Thus,  we  filtered  out  stage-specific 
+
+(developmental) genes from the analysis and made out set more housekeeping-
+
+like.  Finally,  288  brain-specific,  352  salivary  gland-specific  and  843  stable 
+
+transcripts were established (Figure 2.2).  
+
+Figure 2.2. Mean Difference plot (MD-plot) displaying differential gene expression between 
+brain and salivary gland tissues according to RNA-Seq data obtained from salivary glands 
+and brain of wandering larvae. Only the genes with |logFC|>3.32 and adjusted P-value<0.05 
+are highlighted in orange (differentially expressed in BR) and purple (differentially expressed 
+in SG). Stable genes were identified as genes that do not change between the larval tissues (-
+3.32<logFC<3.32, adjusted P-value<0.05) intersected with genes that do not change between 
+the stages in one tissue (colored in grey). Red font designates the gene categories that enrich 
+BR-specific, SG-specific and stable genes. On the right panel brain and salivary gland tissue 
+fluorescent microscope views with DAPI staining are represented. Tissues were collected 
+from wandering larva. 
+
+To  visualize tissue-specific  and  stable  genes  expression  we  plotted  their 
+
+normalized RNA-Seq counts (Figure 2.3). It is clearly seen that all salivary gland-
+
+specific transcripts (N=352) have high counts only in the salivary glands, brain-
+
+specific transcripts (N=288) are expressed in the brain. Notably, some clusters of 
+
+stable transcripts (N=843) are preferably expressed in the salivary glands while 
+
+others are more active in the brain.  
+
+54 
+
+ 
+ 
+ 
+Figure 2.3. Heatmaps demonstrating log10(normalized count + 7) of RNA-Seq reads derived 
+from wandering larvae salivary glands and brain. RNA-Seq was performed in two biological 
+replicates. Genes are clustered by rows, blue indicates high expression levels, red displays 
+low expression levels. 
+
+After  defining  the  sets  of  tissue-specific  and  stable  transcripts,  we 
+
+determined  which  gene  groups  are  represented  in  each  set.  We  performed 
+
+PANGEA analysis and revealed that 352 salivary gland-specific transcripts were 
+
+significantly enriched for antimicrobial peptides (Drs, CecC, Mtk, DptA, AttC), 
+
+glue  proteins  (Sgs3,  Sgs5bis,  Sgs4,  Sgs5,  Eig71Ee),  mucins  (Sgs1,  Muc68Ca, 
+
+55 
+
+ 
+ 
+Sgs3),  ecdysteroid  kinase-like  (CG31436,  CG31380,  CG31370,  CG13360), 
+
+nuclear  receptor  (ligand-dependent)  transcription  factors  (Eip75B,  Eip78C) 
+
+compared  to  stable  genes,  as  classified  by  FlyBase  gene  groups.  As  it  was 
+
+expected, the preferred tissue for expression of 352 salivary gland transcripts was 
+
+salivary gland with very high Count Overlap Gene (69 genes of 76 in FlyBase 
+
+gene set). Interestingly, our findings align with previous reports that Drosophila 
+
+antimicrobial  peptides  (AMPs)  can  be  constitutively  expressed  in  the  salivary 
+
+glands  or  reproductive  tract  [61].  Similarly,  among  the  288  brain-specific 
+
+transcripts,  we  observed  significant  enrichment  for  homeobox  transcription 
+
+factors  (bsh,  Hmx,  hbn,  Drgx,  repo,  Rx),  ligand-gated  ion  channels  (Lcch3, 
+
+GluRIA,  Nmdar1),  class  a  GPCR  neuropeptide  and  protein  hormone  receptors 
+
+(CG13995,PK2-R1,CCKLR-17D1,  AstC-R1,  Lkr),  beat  family  (beat-VI,  beat-
+
+Vc, beat-Va, beat-IIa, beat-IV), insulin-like peptides (Ilp5, Ilp2, Ilp3) compared 
+
+to  stable  genes  according  to  FlyBase  gene  groups.  The  preferred  tissue  for 
+
+expression of 288 brain transcripts was head with very high Count Overlap Gene 
+
+(86 genes of 95 in FlyBase gene set). In contrast, the 843 stable genes exhibited 
+
+enrichment  for  different  housekeeping  gene  groups  such  as  polyadenylation 
+
+factors, DNA Polymerase catalytic subunits (PolE1, PolG1, PolQ, PolH, PolA1), 
+
+DNA Polymerase alpha-primase (Prim2, PolA1), INO80 complex (Act5C, Arp8, 
+
+pont).  Notably,  no  preferred  tissue  was  revealed  for  expression  of  843  stable 
+
+genes.  This  shows  that  stable  genes  are  not  tissue-specific  and  supports  their 
+
+housekeeping traits (Figure 2.4).  
+
+56 
+
+ 
+Figure 2.4. Table demonstrating PANGEA enrichment analysis results. Enrichments groups 
+are represented in the first column. Salivary glands enrichment groups are coloured in purple, 
+brain gene sets in orange and stable gene sets in grey. Fold Enrichment, P value and 
+Overlapping gene symbols are provided in the second, third, fourth columns, concordantly. 
+Next,  we  performed  the  Gene  Ontology  (GO)  analysis  for  cellular 
+
+component, biological processes, molecular function terms enrichment in brain-
+
+specific,  salivary  gland-specific  and  stable  gene  sets  (Figure  2.5).  The  analysis 
+
+revealed the enrichment of brain genes for intrinsic and integral components of 
+
+plasma  membrane  as  well  as  signalling  receptor  activity  compared  to  stable 
+
+57 
+
+ 
+ 
+ 
+genes. This finding was expected given that brain tissue functioning includes G 
+
+protein-coupled  receptor  (GPCR)  signalling  [62],  TGF-β  signalling  during 
+
+neuronal  remodelling  [63].  Salivary  glands  exhibited  various  transmembrane 
+
+transporter categories. This aligns with the known function of salivary glands in 
+
+transepithelial  fluid  and  electrolyte  transport,  which  relies  on  channels  and 
+
+transporters  [64].  High  adjusted  P  value  could  be  due  to  the  small  number  of 
+
+genes used for GO analysis. Nonetheless, we were able to find the enrichment 
+
+categories.  
+
+Figure 2.5. Results of Gene Ontology (GO) analysis of tissue-specific genes performed using 
+Wallenius method. The bubble plot shows the enrichment categories of tissue-specific genes 
+against stable genes. 
+
+Overall,  our  analysis  highlights  distinct  molecular  signatures  associated 
+
+with  tissue-specific  and  stable  gene  sets.  Brain-specific  and  salivary  gland-
+
+specific  genes  exhibit  functional  specialization  aligned  with  their  respective 
+
+tissue roles in signalling and transport processes. In contrast, stable genes show 
+
+no  tissue  preference  and  are  enriched  for  housekeeping  functions  critical  to 
+
+maintaining basic cellular activities.  
+
+58 
+
+ 
+ 
+ 
+Promoters of tissue-specific genes are bound with transcriptional complexes only 
+in a tissue where the gene is transcribed 
+
+We demonstrated that selected differentially expressed salivary gland- and 
+
+brain-specific genes are associated with distinct gene categories relevant to their 
+
+respective  tissues.  Specifically, tissue-specific  genes  were  enriched for  plasma 
+
+membrane components in the brain and transmembrane transporter activity in the 
+
+salivary glands, as revealed by Gene Ontology analysis. To further investigate 
+
+tissue-specific promoter activity, we analyzed the binding profiles of key proteins 
+
+and chromatin accessibility at promoter regions. Using ChIP-Seq, we measured 
+
+the binding levels of RNA Pol II (Rpb3 subunit), TBP (a subunit of the TFIID 
+
+complex),  and  EcR  (ecdysone  receptor)  in  salivary  gland  and  brain  tissues 
+
+derived from wandering larvae. Chromatin accessibility at these promoters was 
+
+assessed using FAIRE-Seq (Figure 2.6). Our findings provide evidence of tissue-
+
+specific promoter activity in both salivary glands and brain tissue. High levels of 
+
+Rpb3,  TBP,  and  EcR  binding  were  observed  exclusively  at  salivary  gland-
+
+specific promoters, while brain-specific promoters exhibited high binding signals 
+
+for  these  proteins  only  in  brain  tissue.  Consistently,  chromatin  accessibility 
+
+(FAIRE-Seq signal) and gene transcription levels (RNA-Seq signal) aligned with 
+
+the tissue-specific binding patterns of Rpb3 and EcR.  
+
+59 
+
+ 
+Figure 2.6. Average distribution of RNA-Seq, FAIRE-Seq signals and Rpb3, TBP, EcR 
+proteins estimated by ChIP-Seqs from salivary glands (violet) and brain (orange) tissues at 
+transcription start sites (TSSs) of salivary gland-specific (N=352), brain-specific (N=288), 
+stable (N=843), all Drosophila (N=41.200) transcripts. Last one group serves as a control set. 
+
+60 
+
+ 
+ 
+ChIP-Seq sample signal is plotted in purple (SG) and orange (BR), ChIP-Seq Input (IN) 
+signal is plotted in grey. The X-axis represents the distance to the promoter region center in 
+kbp. Average profiles were calculated as a median of binding level with the standard error 
+displayed on the profiles. The fold change (FC) was calculated using normalized coverage at 
+the analyzed enhancers (ratio of SG signal to BR signal for SG-specific promoters and stable 
+enhancers, a ratio of BR signal to SG signal for BR-specific promoters). The median of the 
+ratio at each region is signed as “FC=n” on the plots. The results of a non-parametric 
+Wilcoxon signed-rank test are provided on the graphs, where ‘**’ means FDR ≤ 0.01, the 
+absence of sign means the difference between signal levels was not significant. 
+Set of stable genes exhibits genes transcription in both tissues and we could 
+
+register sufficient protein enrichment in both tissues indicating active status of 
+
+these promoters. Importantly, a control set of all Drosophila TSSs validated that 
+
+the  observed  ChIP-Seq,  FAIRE-Seq,  and  RNA-Seq  signal  enrichment  was 
+
+specific  to  tissue-specific  and  stable  promoters,  rather  than  was  attributed  to 
+
+attributed to a failure of the protocols in a particular tissue.  
+
+In  summary,  this  result  highlights  the  distinct  regulatory  landscapes  of 
+
+tissue-specific  promoters  in  salivary  glands  and  brain  tissue.  The  differential 
+
+binding  of  transcriptional  regulators  (Rpb3,  TBP,  EcR)  as  well  as  a  level  of 
+
+chromatin  accessibility  underscore  that  promoter  activity  is  tuned  with  high 
+
+specificity in each tissue. 
+
+Tissue-specific promoters selectively bind proteins that regulate their activity 
+
+To further characterize the selected promoters, we analyzed the presence 
+
+of RNA Pol II (Rpb3), TBP, EcR and CBP peaks within promoter regions (Figure 
+
+2.7).  
+
+61 
+
+ 
+ 
+ 
+Figure 2.7. Bar plots displaying percentage of SG-specific, BR-specific, stable promoters 
+containing protein ChIP-Seq peaks obtained from wandering larvae salivary glands (SG) and 
+brain (BR) tissues. The percent of promoters bound with protein peaks is designated above 
+the bars. The result of Fisher's exact test is displayed as “**” when FDR received by the 
+Benjamini-Hochberg method (FDR) is lower that 0.01. The difference between the number of 
+salivary gland-specific promoters (N=352) bound with Rpb3, TBP, EcR, CBP proteins in the 
+salivary glands and the number of salivary gland-specific promoters bound with these 
+proteins in the brain is significant with enrichment in the salivary gland tissue. Same, the 
+difference between the number of brain-specific promoters (N=288) bound with Rpb3, TBP, 
+EcR, CBP proteins in the brain and the number of brain-specific promoters bound with these 
+proteins in the salivary glands is significant with enrichment in the brain tissue. 
+We  identified  that  salivary  gland-specific  promoters  exhibited  notable 
+
+binding  with  Rpb3  (49%),  EcR  (51%),  CBP  (78%).  The  number  of  salivary 
+
+gland-specific  promoters  that  bound  proteins  in  the  salivary  gland  tissue  was 
+
+significantly higher than the number of the same promoters bound with proteins 
+
+in the brain, as determined by Fisher’s exact test. In turn, brain-specific promoters 
+
+62 
+
+ 
+ 
+showed increased transcriptional protein binding according to our ChIP-Seq data 
+
+in  brain  tissue  compared  to  salivary  gland-specific  promoters.  These  findings 
+
+confirmed that tissue-specific promoters are enriched for protein binding only in 
+
+the tissue where the corresponding gene is active. Stable promoters, on the other 
+
+hand, exhibited binding peaks in both tissues.  
+
+We next examined whether there was difference between Rpb3, TBP, EcR 
+
+and  CBP  binding  at  tissue-specific and  stable  groups  (that  exhibit  the  traits  of 
+
+housekeeping genes) promoters (Figure 2.8).  
+
+Figure 2.8. Bar plots displaying percentage of SG-specific, BR-specific, stable promoters 
+containing protein ChIP-Seq peaks obtained from wandering larvae salivary glands (SG) and 
+brain (BR) tissues. The percent of promoters bound with protein peaks is designated above 
+the bars. The result of Fisher's exact test for testing the significance in protein binding 
+differences between tissue-specific and stable promoters is displayed as “**” when FDR 
+received by the Benjamini-Hochberg method (FDR) is lower that 0.01 and nothing in case 
+FDR>0.05. 
+
+Our  results  showed  that  salivary  gland-specific  promoters  (N=352) 
+
+exhibited significant enrichment for TBP and CBP binding compared to stable 
+
+promoters in the same tissue. However, no significant difference was observed 
+
+63 
+
+ 
+ 
+for EcR binding between these two promoter classes. This suggests that TBP and 
+
+CBP play a specific regulatory role in activating tissue-specific promoters in the 
+
+salivary glands at this developmental stage.  
+
+For brain-specific promoters (N=288), we found significant enrichment for 
+
+CBP binding compared to stable promoters in the brain. However, Rpb3 and EcR 
+
+binding were more prevalent at stable promoters than at brain-specific promoters. 
+
+Surprisingly, brain-specific promoters did not exhibit significantly higher TBP 
+
+binding compared to stable promoters contrasting with salivary glands-specific 
+
+promoters’ group. This finding does not reconcile the previous report suggesting 
+
+that TBP enrichment is a general feature of tissue-specific promoters [28].   
+
+Thus, our data indicate that CBP is involved in activating tissue-specific 
+
+promoters  in  both  salivary  glands  and  brain  tissues  when  compared  to  stable 
+
+genes, whose transcription levels remain consistent across tissues. According to 
+
+ChIP-Seq  data  from  wandering  larvae  tissues,  average  CBP  binding  level  was 
+
+higher at salivary gland-specific promoters in the salivary glands than at stable 
+
+promoters in the same tissue (the first and the third plots of Figure 2.9). The same 
+
+was observed for brain promoters in brain tissue (the second and the third plots 
+
+of  Figure  2.9).  Average  CBP  binding  plots  aligned  with  peak  presence  data  at 
+
+tissue-specific  and  stable  promoters,  further  confirming  that  CBP  binding  is 
+
+significantly higher at tissue-specific loci compared to stable regions. 
+
+64 
+
+ 
+ 
+Figure 2.9. Average distribution of CBP/Nejire estimated by ChIP-Seqs from salivary glands 
+(violet) and brain (orange) tissues at transcription start sites (TSSs) of salivary gland-specific 
+(N=352), brain-specific (N=288), stable (N=843), all Drosophila (N=41.200) transcripts. Last 
+one group serves as a control set. ChIP-Seq sample signal is plotted in purple (SG) and 
+orange (BR), ChIP-Seq Input (IN) signal is plotted in grey. The X-axis represents the distance 
+to the promoter region center in kbp. Average profiles were calculated as a median of binding 
+level with the standard error displayed on the profiles. The fold change (FC) was calculated 
+using normalized coverage at the analyzed enhancers (ratio of SG signal to BR signal for SG-
+specific promoters and stable enhancers, a ratio of BR signal to SG signal for BR-specific 
+promoters). The median of the ratio at each region is signed as “FC=n” on the plots. The 
+results of a non-parametric Wilcoxon signed-rank test are provided on the graphs, where ‘**’ 
+means FDR ≤ 0.01, the absence of sign means the difference between signal levels was not 
+significant. 
+
+In  conclusion,  this  analysis  highlights  distinct  patterns  of  transcriptional 
+
+regulator binding at tissue-specific versus stable promoters in salivary glands and 
+
+brain  tissue.  Our  findings  suggest  that  while  TBP  and  CBP  are  specifically 
+
+required  for  salivary  gland  promoter  activation,  brain-specific  promoter 
+
+regulation  may  involve  alternative  mechanisms  or  factors  beyond  TBP. 
+
+Additionally, we demonstrate that CBP plays a critical role in activating tissue-
+
+specific genes in both tissues, with higher enrichment at these loci compared to 
+
+stable promoters. 
+
+Tissue-specific  and  stable  promoters  are  enriched  with  distinct  promoter-
+associated motifs 
+
+To  investigate  the  enrichment  of  known  core  promoter  motifs  at  tissue-
+
+specific and stable promoters, we performed motif analysis using the FIMO tool 
+
+with a significance threshold of 0.001 (p-value). We tested motifs characteristic 
+
+of tissue-specific and developmental genes (TATA-box, DPE, and Inr) as well as 
+
+motifs associated with housekeeping promoters (Ohler1, Ohler6, and Dref). Our 
+
+goal  was  to  determine  whether  the  distribution  of  these  motifs  in  our  dataset 
+
+aligns with previously reported data [67]. 
+
+After identifying motif associated regions through FIMO, we intersected 
+
+them  with  promoter  regions  and  calculated  the  percentage  of  promoters 
+
+containing each motif (Figure 2.10).  
+
+65 
+
+ 
+Figure 2.10. Bar plots representing the percentage of tissue-specific (SG and BR) and stable 
+promoters containing known transcription factor binding DNA motifs. The motif presence 
+was tested by FIMO tool. The difference of motif presence between tissue-specific and stable 
+promoters was validated by Fisher’s exact test, P-value was corrected by Benjamini-
+Hochberg procedure. The table of FDRs is represented in the right panel (the “**” at the bars 
+indicates FDR < 0.01). 
+
+Our  analysis  revealed  that  only  a  subset  of  promoters  contained  these 
+
+motifs  at  the  specified  threshold.  Nonetheless,  significant  differences  were 
+
+observed  between  tissue-specific  and  stable  promoters.  For  instance,  30%  of 
+
+salivary gland-specific promoters and 19% of brain-specific promoters exhibited 
+
+the TATA-box motif, while only 12% of stable promoters contained this motif. 
+
+Fisher's exact test confirmed that the enrichment of TATA-box in tissue-specific 
+
+promoters  was  significantly  higher  than  in  stable  promoters  (FDR  <  0.05). 
+
+However, no significant differences were observed between tissue-specific and 
+
+stable  promoters  for  other  motifs  that  were  previously  considered  to  be  a 
+
+characteristic of tissue-specific genes, such as DPE and Inr.  
+
+In  contrast,  motifs  associated  with  housekeeping  genes  (Ohler1,  Ohler6, 
+
+and  Dref)  were  significantly  enriched  in  stable  promoters  compared  to  SG-
+
+specific  and  BR-specific  promoters  (FDR  <  0.05).  This  suggests  that  stable 
+
+promoters  exhibit  distinct  core  promoter  architecture  that  aligns  more  closely 
+
+with housekeeping gene characteristics. 
+
+66 
+
+ 
+ 
+Our findings indicate that tissue-specific and stable promoters are enriched 
+
+with  distinct  sets  of  core  promoter  motifs,  but  not  all  observations  align  with 
+
+previous reports. While the enrichment of TATA-box in tissue-specific promoters 
+
+supports  its  role  in  developmental  gene  regulation,  the  lack  of  significant 
+
+differences for other tissue-specific motifs (DPE and Inr) suggests variability in 
+
+their prevalence across different datasets. Similarly, the significant enrichment of 
+
+housekeeping motifs (Ohler1, Ohler6, and Dref) in stable promoters underscores 
+
+their association with constitutive gene expression.  
+
+To characterize the enrichment of promoter regions with motifs for DNA-
+
+binding factors, MEME-ChIP analysis was performed. For 352 salivary gland-
+
+specific  promoters  the  significant  enrichment  was  found  for  Blimp-1  (E-
+
+value=9.3e-027), Adf1 (E-value= 4.1e-009). Interestingly, that Blipm-1 is mostly 
+
+expressed  in  the  salivary  gland  tissue  at  wandering  larva  developmental  stage 
+
+(according to FlyAtlas2 data). This gene is ecdysone-inducible and is known to 
+
+regulate  the timing  of  ftz-f1  expression in  salivary  glands [68].  For  288  brain-
+
+specific promoters the significant enrichment was found for Mad (E-value=2.2e-
+
+010), brk (E-value=9.7e-005), Adf1 (E-value= 1.1e-002). Both mad and brk are 
+
+preferably expressed in brain tissue according to FlyAtlas2. We underline, that 
+
+all  the  motifs  revealed  at  promoters  of  tissue-specific  genes  by  MEME-ChIP 
+
+analysis, are exclusively tissue-specific transcription factors, which confirms our 
+
+gene selection. For instance, Mad regulates expression of BMP response target 
+
+genes [69], while brk is involved in BMP-dependent gene repression cascade in 
+
+Drosophila tissues [69]. Adf-1 motif that was found in both salivary glands and 
+
+brain. Adf-1 is known to activate gene transcription at promoters in tissue culture 
+
+cells [70].  
+
+Additionally, 843 stable promoters were significantly enriched for BEAF-
+
+23  (E-value=4.0e-119),  slbo  (E-value=3.3e-075),  crp  (E-value=9.6e-013),  Hth 
+
+(E-value=1.3e-012),  Poxn  (E-value=2.4e-011),  jim  (E-value=7.1e-004)  motifs. 
+
+BEAF-32 and crp represent the greatest interest of all listed motifs as they are 
+
+67 
+
+ 
+known  hallmarks  of  housekeeping  gene’s  promoters  [42].  BEAF-32  is  a 
+
+chromatin  domain  insulator-binding  protein  that  binds  near  transcription  start 
+
+sites, often of housekeeping genes, suggesting a role in gene activation [44]. CRP 
+
+is known to mark housekeeping genes [43].   
+
+ChIP-Seq  data  obtained  from  salivary  glands  and  brain  of  wild  type 
+
+(Oregon) strain white pupae and wandering larvae was utilized for estimating the 
+
+binding  levels  of  BEAF-32  and  CRP  in  tissues  at  tissue-specific  and  stable 
+
+promoters (Figure 2.11). We found out that stable promoters (N=843), that exhibit 
+
+the characteristics of housekeeping genes, are indeed enriched for BEAF-23 and 
+
+CRP binding compared to tissue-specific promoters, but only in brain tissue. One 
+
+possible  reason  for  the  observed  enrichment  of  BEAF-32  and  CRP  at  stable 
+
+promoters in the brain but not in the salivary gland could be related to differences 
+
+in expression of these proteins at selected developmental stage.  
+
+Figure 2.11. Average distribution of BEAF-32 and CRP estimated by ChIP-Seqs from 
+salivary glands (violet) and brain (orange) tissues at transcription start sites (TSSs) of salivary 
+
+68 
+
+ 
+ 
+gland-specific (N=352), brain-specific (N=288), stable (N=843), all Drosophila (N=41.200) 
+transcripts. Last one group serves as a control set. ChIP-Seq sample signal is plotted in purple 
+(SG) and orange (BR), ChIP-Seq Input (IN) signal is plotted in grey. The X-axis represents 
+the distance to the promoter region center in kbp. Average profiles were calculated as a 
+median of binding level with the standard error displayed on the profiles. 
+
+Finally,  our  findings  suggest  that  salivary  gland-  and  brain-specific 
+
+promoters are enriched for distinct motifs of transcription factors that regulate the 
+
+gene activity tissue-specifically. Stable promoters exhibit significant enrichment 
+
+for BEAF-32 and CRP binding specifically in the brain but not in the salivary 
+
+gland.  Notably,  differential  enrichment  underscores  tissue-specific  regulatory 
+
+mechanisms even at promoters of broadly expressed genes. 
+
+A  model  illustrating  tissue-specific  and  stable  promoter  regulation  in  salivary 
+glands and brain 
+
+As a result of our findings from the second chapter, which highlight the 
+
+features of tissue-specific and stable gene promoter activity, we propose a model 
+
+where tissue-specific promoters are enriched for RNA Pol II (Rpb3), TBP, EcR, 
+
+and  CBP  protein  binding  exclusively  in  the  tissues  where  the  promoters  are 
+
+active. Furthermore, the model demonstrates that this selective protein binding is 
+
+accompanied by the binding of tissue-specific transcription factors, as evidenced 
+
+by  motif  analysis  in  these  regions  (Figure  2.12).  Specifically,  tissue-specific 
+
+promoters  were  significantly  enriched  for  the  TATA-box  motif  compared  to 
+
+stable  promoters,  which  exhibit  characteristics  of  housekeeping  genes  and  are 
+
+enriched for motifs such as Ohler1, Ohler6, and Dref.  
+
+Additionally, we revealed that salivary gland promoters exhibit enrichment 
+
+for Blimp-1 and Adf1 motifs, whereas brain promoters show enrichment for Mad 
+
+and  brk  motifs.  These  transcription  factors  play  critical  roles  in  precise 
+
+transcriptional  regulation  within  each  tissue,  with  Adf1  being  notable  for  its 
+
+presence  in  both  tissues.  In  contrast,  stable  promoters  were  characterized  by 
+
+BEAF-32  and  CRP  motifs,  which  are  known  to  coordinate  the  activity  of 
+
+housekeeping  promoters.  Interestingly,  we  demonstrated  that  these  proteins 
+
+specifically bind to stable promoters in the brain but not in the salivary gland. 
+
+69 
+
+ 
+Figure 2.12. Final model of tissue-specific gene activation by promoters. Model displays 
+salivary gland-specific promoters on the left panel that are selectively active in salivary 
+glands and activate transcription in respective tissue. Brain-specific promoters in the middle 
+panel are highly active in brain tissue and demonstrate activation of brain promotors. Stable 
+promoters in the right panel regulate transcription of housekeeping genes (HKG) in both 
+tissues equivalently. Designated proteins: CBP – acetyltransferase, EcR – ecdysone receptor, 
+TBP – TATA-binding protein (a subunit of TFIID pioneer transcription factor), Pol II – RNA 
+Polymerase II (Ser2P – phosphorylated at Ser2 RNA Pol II in poised condition at TSS), crp – 
+transcription factor specific for stable promoters, BEAF-32 – transcription factor specific for 
+stable promoters. Motifs detected by MEME-ChIP and hypothetically (?) bound 
+corresponding proteins are designated in red (Blipm-1, Adf1 – for SG-specific promoters, 
+Mad, brk, Adf1 for BR-specific promoters, Ohler1, Ohler6, Dref for stable promoters). 
+
+To illustrate how our proposed model is operating on a particular gene, we 
+
+analyzed three representative genes from each promoter category. For the salivary 
+
+gland-specific  promoter,  we  examined  the  promoter  of  eip75b,  an  ecdysone-
+
+inducible  gene.  This  promoter  exhibits  enrichment  for  Rpb3,  S2P,  EcR,  CBP, 
+
+TBP binding, and accessible chromatin (FAIRE) signals specifically in salivary 
+
+glands compared to the brain. Conversely, the brain-specific promoter of the cow 
+
+gene  demonstrated  binding  of  all  these  proteins  in  brain  tissue  but  not  in  the 
+
+salivary glands (Figure 2.13).  
+
+70 
+
+ 
+ 
+Figure 2.13. Binding profiles of Rpb3, S2P, TBP, CBP, EcRestimated by ChIP-Seqs, 
+FAIRE-Seq signal and an average of RNA-seq signal in a locus of eip75b (an example of 
+salivary gland-specific gene) and cow (an example of brain-specific gene) in salivary glands 
+(SG) and brain (BR) of wandering larvae. Tick displays an active condition of promoter in a 
+tissue where the gene is active. Cross represents inactive promoter state in a tissue where the 
+promoter is silent. 
+
+For the third group - stable promoters associated with housekeeping genes 
+
+that maintain consistent transcription across tissues -we analyzed the promoter of 
+
+the  rpl39  gene.  This  promoter  was  actively  transcribed  in  both  tissues,  as 
+
+confirmed by RNA-Seq data. Furthermore, it bound all proteins in both tissues, 
+
+with the exception of CRP and BEAF-32, which displayed tissue-specific binding 
+
+exclusively in the brain (Figure 2.14).  
+
+71 
+
+ 
+ 
+ 
+Figure 2.14. Binding profiles of Rpb3, S2P, TBP, CBP, EcRestimated by ChIP-Seqs, 
+FAIRE-Seq signal and an average of RNA-seq signal in a locus of rpl39 (an example of stabe 
+housekeeping gene) in salivary glands (SG) and brain (BR) of wandering larvae. Tick 
+displays an active condition of promoter in a tissue where the gene is active. 
+Collectively,  these  findings  provide  a  comprehensive  framework  for 
+
+understanding  how  tissue-specific  and  stable  promoters  achieve  precise 
+
+transcriptional  regulation.  This  regulation 
+
+is  mediated 
+
+through  distinct 
+
+combinations  of  transcription  factor  motifs  and  protein  interactions  tailored  to 
+
+each promoter type. 
+
+72 
+
+ 
+ 
+Results and Conclusion for Chapter 2 
+
+1.  Using  RNA-Seq  data  from  wandering  larvae  and  12-14-hour  pupae,  we 
+
+successfully  identified  sets  of  tissue-specific  and  stable  promoters.  This 
+
+analysis revealed 352 salivary gland-specific promoters, 288 brain-specific 
+
+promoters,  and  843  stable  promoters  with  characteristics  typical  of 
+
+housekeeping promoters. 
+
+2.  Gene Ontology (GO) and PANTHER pathway analyses demonstrated that 
+
+brain-specific  and  salivary  gland-specific  genes  are  functionally 
+
+specialized, aligning with the respective tissue activity at the corresponding 
+
+stage in signaling and transport processes. In contrast, stable genes showed 
+
+no  tissue  preference  and  were  enriched  for  housekeeping  functions 
+
+essential for maintaining fundamental cellular activities. 
+
+3.  ChIP-Seq analysis of protein binding in wandering larval tissues revealed 
+
+significantly increased binding of RNA Polymerase II (RNA Pol II), the 
+
+TFIID pioneer factor TBP subunit, CBP/Nejire, and EcR at salivary gland- 
+
+and  brain-specific  promoters  in  the  tissues  where  these  promoters  were 
+
+active. Notably, RNA Pol II exhibited tissue-specific binding to salivary 
+
+gland-  and  brain-specific  promoters,  indicating  that  these  regulatory 
+
+elements  are  not  maintained  in  a  paused  state  in  tissues  where  they  are 
+
+inactive. 
+
+4.  FIMO analysis revealed that tissue-specific promoters were significantly 
+
+enriched  for  the  TATA-box  motif  compared  to  stable  promoters.  Stable 
+
+promoters,  on  the  other  hand,  were  highly  enriched  for  housekeeping-
+
+associated motifs such as Ohler1, Ohler6, and Dref. 
+
+5.  MEME-ChIP analysis further highlighted that salivary gland- and brain-
+
+specific promoters are enriched for distinct transcription factor motifs that 
+
+drive  tissue-specific  gene  regulation.  Stable  promoters  -  associated  with 
+
+housekeeping genes - exhibited significant enrichment for BEAF-32 and 
+
+CRP binding motifs specifically in the brain but not in the salivary gland. 
+
+73 
+
+ 
+Conclusion 
+
+In this study, we investigated the mechanisms underlying tissue-specific 
+
+gene regulation in Drosophila melanogaster, focusing on the roles of enhancers 
+
+and  promoters  in  driving  precise  transcriptional  programs.  The  results  were 
+
+presented in two chapters, describing properties of tissue-specific enhancers and 
+
+promoters. 
+
+In Chapter 1, we explored the characteristics of tissue-specific enhancers. 
+
+Using ATAC-Seq data from the salivary gland, brain, and wing imaginal discs of 
+
+at the wandering larval stage, we identified a set of tissue-specific enhancers (117 
+
+salivary gland-specific and 1131 brain-specific enhancers) and their associated 
+
+promoters  (37  SG-specific  and  174  BR-specific  promoters)  within  genes  loci. 
+
+These  enhancers  exhibited  tissue-specific  binding  of  hallmark  proteins 
+
+(CBP/Nejire, H3K27Ac, EcR), with chromatin accessibility patterns consistent 
+
+with  protein  binding.  Promoters  associated  with  these  enhancers  demonstrated 
+
+high  transcription  levels,  as  evidenced  by  RNA-Seq,  but  did  not  show  tissue-
+
+specific enrichment for RNA Pol II, TBP, or CBP binding. This indicates that 
+
+tissue-specific gene activation at these loci is driven by enhancer activity rather 
+
+than through differential recruitment of transcriptional machinery to promoters. 
+
+We  propose  that  these  tissue-specific  enhancers  activate  transcription  at  the 
+
+corresponding promoters in the target tissue by stimulating RNA polymerase II 
+
+“pause” release. 
+
+Chapter 2 focused on the description of gene group demonstrating tissue-
+
+specific  promoters’  activity.  We  identified  a  pool  of  tissue-specific  promoters 
+
+using RNA-Seq analysis (352 SG-specific and 288 BR-specific). Unlike the first 
+
+set of promoters, these were characterized by tissue-specific binding of RNA Pol 
+
+II, TBP, CBP, and EcR, suggesting that their transcription is regulated through 
+
+recruitment of transcription machinery directly to the promoter regions. Notably, 
+
+only a small subset of promoters (14 SG-specific and 19 BR-specific) overlapped 
+
+74 
+
+ 
+between the two datasets (Figure 10), revealing two distinct regulatory strategies 
+
+for regulating of tissue-specific transcription: (1) a small set of genes is activated 
+
+by tissue-specific enhancers activity within gene loci, and (2) a larger set of genes 
+
+is  regulated  through  tissue-specific  recruitment  of  transcription  machinery  to 
+
+promoters and lack tissue-specific enhancers in their loci. 
+
+Figure 10. Vienn diagrams illustrating the intersection of promoters regulated by tissue 
+specific enhancers from the first chapter and promoters regulated by tissue-specific protein 
+recruitment from the second chapter. 
+
+Furthermore,  we  demonstrated  that  these  distinct  mechanisms  involve 
+
+different transcription factor binding specificities. Salivary gland enhancers were 
+
+enriched for motifs associated with Sage, Sidpn, and Top2, while their promoters 
+
+contained Blimp-1 and Adf1 motifs. In the brain, enhancers were enriched for 
+
+Klu, Trl, Aef1, L(3)neo38, and Jim motifs, whereas promoters were enriched for 
+
+Mad, Brk, and Aef1 motifs (Figure 11).  
+
+75 
+
+ 
+ 
+Figure 11. Table of tissue-specific motif enrichment at enhancer and promoter regions. 
+These findings highlight that tissue-specific transcriptional regulation is 
+achieved through differential enhancer and promoter activity involving distinct 
+sets of transcription factors.  
+
+The  key  finding  of  this  study  is  the  discovery  that  tissue-specific  gene 
+
+activation  can  occur  through  either  tissue-specific  enhancers  or  promoters, 
+
+highlighting  two  distinct  regulatory  mechanisms.  Genes  activated  by  tissue-
+
+specific enhancers within their loci exhibited promoters with non-tissue-specific 
+
+binding of RNA Pol II and TFIID, suggesting that RNA Pol II remains in a paused 
+
+state in tissues where the promoter is inactive. This implies that transcriptional 
+
+activation of these genes is driven primarily by enhancer activity rather than RNA 
+
+Pol  II  recruitment  to  the  promoter.  In  contrast,  at  tissue-specific  promoters 
+
+76 
+
+ 
+ 
+identified through RNA-Seq analysis, RNA Pol II and TFIID binding occurred in 
+
+a  tissue-specific  manner,  with  enrichment  observed  exclusively  in  the  tissue 
+
+where the promoter is active. This indicates that these genes are activated through 
+
+the  tissue-specific  recruitment  of  transcriptional  machinery  to  their  promoters, 
+
+underlying critical role of promoters in transcription activation. Together, these 
+
+findings provide valuable insights into the complex interplay between enhancers 
+
+and promoters in regulating tissue-specific gene expression. 
+
+77 
+
+ 
+Findings 
+
+1.  Distinct tissue-specific enhancers were identified in the salivary glands 
+
+and brain of Drosophila larvae. These enhancers exhibit tissue-specific 
+
+enrichment  of  H3K27Ac,  CBP/p300,  and  EcR,  supporting  their  role  as 
+
+active  regulatory  elements. The  activity  of  these  enhancers  is  driven  by 
+
+selective  transcription  factor  binding,  with  distinct  transcription  factor 
+
+motifs enriched in each tissue. 
+
+2.  Tissue-specific  promoters  were  identified  in  the  salivary  glands  and 
+
+brain,  characterized  by  the  presence  of  the  TATA-box  motif,  a 
+
+hallmark of tissue-specific regulation. These promoters showed tissue-
+
+specific  binding  to  RNA  polymerase  II  subunit  Rpb3  and  were  not 
+
+maintained in a paused state in tissues, where they were inactive. 
+
+3.  Tissue-specific enhancers drive transcription through selective activation 
+
+in  target  tissues,  even  when  associated  promoters  remain  bound  with 
+
+transcriptional  proteins  across 
+
+tissues.  Conversely, 
+
+tissue-specific 
+
+promoters regulate transcription by recruiting TFIID and RNA polymerase 
+
+II  specifically  in  target  tissues  (Figure  1.12).  Surprisingly,  the  loci 
+
+controlled by tissue-specific promoters do not overlap with those activated 
+
+by  tissue-specific  enhancers.  These  findings  highlight  that  tissue-
+
+specific  enhancers  and  promoters  are  parts  of  distinct  mechanisms 
+
+controlling tissue-specific gene expression (possibly acting through the 
+
+utilization of different transcription factors).  
+
+78 
+
+ 
+Figure 12. A model, illustrating distinct regulatory programs for tissue-specific transcription 
+in Drosophila larvae. 
+
+79 
+
+ 
+ 
+Materials and Methods 
+
+Antibodies 
+
+Rabbit polyclonal antibodies against Rpb3 (1–275 aa), CBP/p300/Nejire 
+
+(125–310  aa);  TBP  (1–55  aa)  were  obtained  and  described  previously  in  our 
+
+laboratory  [81,  82,  83].  EcR-full  antibodies against full-length  EcR-A  isoform 
+
+NM_165 461 were obtained in our laboratory and described in recently published 
+
+manuscript [37]. Antibodies against histone H3K27Ac (39133) were purchased 
+
+in Active motif. Antibodies against Cg and BEAF32 were derived from published 
+
+data [72, 84]. Sage antibodies were recently obtained in our lab and have not been 
+
+described or published yet. antibodies were derived from.  
+
+Samples used in the study 
+
+This study represents a collective assay of genomic data obtained in our 
+
+laboratory. All the samples used in this work are represented in the figure below 
+
+(Figure 13).  
+
+80 
+
+ 
+Figure 13. A table representing all the analysed in this study samples. The sample names, 
+Drosophila melanogaster lines, used tissues, stages of tissues dissection and ChIP antibodies 
+for chromatin precipitation are listed in the table. 
+
+ATAC-Seq procedure 
+
+Tissue  material  was  derived  from  Drosophila  melanogaster  wandering 
+
+larvae  of  hsp-e23  line.  Line  hsp-e23  was  used  in  previously  published  by  our 
+
+laboratory research where the line is precisely described [37]. We consider hsp-
+
+e23  line  to  be  an  analogue  of  the  wild-type  line,  since  we  examined  it  under 
+
+81 
+
+ 
+ 
+control untreated conditions and verified that it did not express the transgene by 
+
+Western  blot  (the  experiments  are  represented  in  [37]).  Salivary  glands,  brain, 
+
+wing imaginal discs were collected in two biological replicates for 30 pieces per 
+
+sample.  ATAC  sample  preparation  was  performed  following  previously 
+
+published data [73]. Library preparation was performed with Nextera workflow 
+
+using Nextera adapters and index primers. The reads were sequenced at Illumina 
+
+NovaSeq 6000 platform by BGI company.  
+
+ATAC-Seq raw data preprocessing 
+
+Quality control was performed using FastQC [74]. Read trimming (Nextera 
+
+adapter cleansing)  was performed with Cutadapt [75] with the next options: -a 
+
+CTGTCTCTTATACACATCTCCGAGCCCACGAGAC; 
+
+-A 
+
+CTGTCTCTTATACACATCTGACGCTGCCGACG;  --minimum-length  20;  --
+
+quality-cutoff  10.  Quality  control  was  performed  after  adapter  trimming  with 
+
+FastQC.  Read  were  aligned  to  the  reference  dm6  genome  (preindexed)  with 
+
+HISAT2  [76]  with  the  parameters:  --no-spliced-alignment,  -I  0,  -X  500,  -S. 
+
+Converting sam file to bam, sorting and indexing, filtering by MAPQ quality 10, 
+
+removing duplicates from a bam file with picard [77] and selecting the fragment 
+
+size  for  ATAC-Seq  reads  was  performed  with  samtools  [78].  Fragment  size 
+
+selection was performed with next parameters: 
+
+samtools  view  -h  sorted_no_duplicates_mapq10_ATAC_alignment.bam  |  awk 
+
+'BEGIN {OFS="\t"} $0 ~ /^@/ || ($9 >= 20 && $9 <= 120) || ($9 <= -20 && $9 
+
+>= -120)' | samtools view -@ 8 -b -o 20_120_fragment_size_ATAC.bam 
+
+samtools 
+
+sort 
+
+-@ 
+
+8 
+
+-o 
+
+sorted_20_120_fragment_size_ATAC.bam 
+
+20_120_fragment_size_ATAC.bam 
+
+Coverage  files  (bigwigs)  from  bam  files  were  made  with  deeptools  [53]  with 
+
+parameters: -bs 1; --effectiveGenomeSize 125464728; --normalizeUsing RPGC.  
+
+82 
+
+ 
+ 
+ 
+Tissue-specific and stable enhancer analysis 
+
+ATAC-Seq  peak  calling  was  made  by  MACS2  callpeak  (separately  for 
+
+replicates) [79] with default parameters (with shifting model). Then differential 
+
+binding  analysis  of  ATAC-Seq  peak  data  was  made  utilizing  DiffBind  [50]. 
+
+Unique tissue-specific ATAC-Seq peaks with differential signal (|fold change|>2, 
+
+FDR<0.05)  were  taken  for  salivary  glands,  brain,  wing  imaginal  discs.  Stable 
+
+enhancers at which ATAC-Seq peak signal does not change across all the tissues 
+
+were selected the next way: 
+
+1. MACS2 callpeak with default settings was performed for merged bam files of 
+
+ATAC-Seq replicates for every tissue (BR1+BR2, SG1+SG2, WD1+WD2).  
+
+2.  Narrow  peaks  of  BR,  SG  and  WD  were  intersected  with  each  other  using 
+
+bedtools. Common ATAC-Seq peaks for all tissues were received.  
+
+3.  At  these  common  for  all  tissues  narrow  peaks,  average  binding  scores  for 
+
+bigwig  files  for 
+
+two  repeats  of  each 
+
+tissue  were  calculated  using 
+
+multiBigwigSummary in BED file mode.  
+
+4. Fold Change and Pvalue for the contrasts BR vs. ID, BR vs. SG, SG vs. ID 
+
+were calculated in R: 
+
+FC = ((BR1+BR2)/2) / ((SG1+SG2)/2) 
+
+Pvalue = TTEST(BR1:BR2, SG1:SG2, 2, 3) 
+
+5. Then all common sites for which Fold Change in each contrast was from 0.8 
+
+to 1.2, and Pvalue<0.05 were selected.  
+
+Transcription  start  sites  ±250  bp  were  excluded  from  all  selected 
+
+enhancers. Finally, we identified 117 SG-specific, 1131 BR-specific, 130 stable 
+
+enhancers.  
+
+Coverage data (bigwig files) was used for average binding plot generation. 
+
+The data was prepared for plotting a heatmap or a binding profile of given regions 
+
+with computeMatrix. plotHeatmap and plotProfile were used to visualize score 
+
+distributions across enhancers. A non-parametric Wilcoxon signed-rank test was 
+
+used  to  test  the  significance  of  difference  in  protein  binding  between  tissues 
+
+83 
+
+ 
+according  to  average  binding  scores  (derived  from  multiBigwigSummary  for 
+
+merged replicates for each tissue). Fold Change for estimating the difference in 
+
+protein binding between tissues was calculated as median of the ratio for each 
+
+region.  
+
+Differential binding analysis of ChIP-Seq CBP and EcR peaks at enhancers 
+
+was performed with DiffBind package DESeq2 method. Peaks with |Fold| > 2, 
+
+FDR < 0.05 were considered differentially bound. 
+
+Selection of promoters regulated by tissue-specific and stable enhancers 
+
+Regions of tissue-specific and stable enhancers were intersected with all 
+
+Drosophila transcripts loci. From these transcripts, only expressed with CPM>5.0 
+
+according to RNA-Seq data, were selected. TSS ±250 bp were taken to analyze 
+
+protein binding. Finally, we defined 37 SG, 174 BR, 41 stable promoters.  
+
+RNA-Seq procedure 
+
+Larval RNA-Seq data was taken from recently published data [37] made in 
+
+our  laboratory.  Samples  for  RNA-Seq  from  12-14-hour  pupae  of  e23-hsp  line 
+
+were  prepared  in  our  laboratory  as  follows:  tissue  material  was  derived  from 
+
+Drosophila  melanogaster  wandering  larvae  of  hsp-e23  line.  Salivary  glands, 
+
+brain,  wing  imaginal  discs  were  collected  in  two  biological  replicates  for  30 
+
+pieces  per  sample.  Total  RNA  was  extracted  with  the  TRI  reagent  (Ambion). 
+
+PolyA comprising RNA fraction was isolated and prepared for sequencing with 
+
+the  NEBNext  Ultra™  II  Directional  RNA  Library  Prep  Kit.  New  generation 
+
+sequencing was performed by BGI with the Illumina NovaSeq6000 sequencer. 
+
+RNA-Seq raw data preprocessing  
+
+Quality  control  of  raw  reads  was  performed  with  FastQC.  Read  trimming 
+
+(Illumina  adapter  cleansing)  was  made  with  Cutadapt  using  parameters:  -a 
+
+AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC; 
+
+-A 
+
+AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGT
+
+84 
+
+ 
+CGCCGTATCATT;  --minimum-length  20.  Quality  control  was  repeated  with 
+
+FastQC.  Reads  were  aligned  to  the  reference  dm6  genome  (preindexed)  with 
+
+HISAT2 default options. Alignment sam file was converted to bam, sorted and 
+
+indexed, filtered by MAPQ quality 10 using samtools. Coverage was made from 
+
+a  bam  file  with  deeptools  bamCoverage:  -bs  10;  --effectiveGenomeSize 
+
+125464728;  --normalizeUsing  RPGC.  RNA-Seq  transcript  counting  was  done 
+
+with  featureCounts  using  Drosophila  melanogaster  dm6  gtf  file  [80]  with 
+
+parameters: -s; -t exon; -g transcript_id; -C.  
+
+Tissue-specific and stable promoters’ selection 
+
+1. Tissue-specific promoters’ selection (for salivary glands N=352, for 
+
+brain=288): Differential transcript expression analysis of brain transcripts versus 
+
+salivary glands transcripts from larvae (Larvae_BR-Larvae_SG) was performed 
+
+with limma [60] using parameters: minimum CPM = 10 (~100 counts in br, ~400 
+
+counts in sg); minimum samples – 1; Fold Change=10 (logFC=3.32); P-Value 
+
+Adjusted  Threshold  -  0.05;  P-Value  Adjustment  Method  -  BH;  Normalization 
+
+Method  –  TMM.  TSS  ±250  bp  of  differentially  expressed  tissue-specific 
+
+transcripts were taken for the analysis.  
+
+2. Stabe promoters’ defining (N=843): Differential transcript expression 
+
+analysis  of  brain  pupal  transcripts  versus  brain  larval  transcripts  (Pupae_BR-
+
+Larvae_BR) was performed with limma. Transcripts with -3.32>logFC>3.32 and 
+
+adjusted  P-Value<0.05  were  taken  and  concatenated  with  larval  brain  versus 
+
+salivary glands transcripts (Larvae_BR-Larvae_SG) with -3.32>logFC>3.32 and 
+
+adjusted P-Value<0.05. Duplicates were removed.  
+
+ChIP-Seq and FAIRE-Seq procedures 
+
+Tissue  material  was  derived  from  Drosophila  melanogaster  wandering 
+
+larvae of hsp-e23 line. Salivary glands, brain, wing imaginal discs were collected 
+
+in  two  biological  replicates  for  30  pieces  per  sample.  The  chromatin 
+
+immunoprecipitation  (ChIP)  procedure  was  performed  exactly  as  previously 
+
+85 
+
+ 
+described  [81,  82,  85].  FAIRE  was  performed  using  previously  described 
+
+protocol  [23].  ChIP-Seq  and  FAIRE-Seq  libraries  were  obtained  using  the 
+
+NEBNext UltraTM II DNA library preparation kit (New England Biolabs). Next 
+
+generation  sequencing  was  performed  by  Evrogen  (evrogen.ru)  and  BGI  at 
+
+Illumina NovaSeq 6000 sequencing platform. 
+
+ChIP-Seq raw data preprocessing 
+
+Quality control of raw reads was performed with FastQC. Read trimming 
+
+(Illumina  adapter  cleansing)  was  made  with  Cutadapt  using  parameters:  -a 
+
+AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC; 
+
+-A 
+
+AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGT
+
+CGCCGTATCATT;  --minimum-length  20.  Quality  control  was  repeated  with 
+
+FastQC.  Reads  were  aligned  to  the  reference  dm6  genome  (preindexed)  with 
+
+HISAT2 with --no-spliced-alignment option. Alignment sam file was converted 
+
+to  bam,  sorted  and  indexed,  filtered  by  MAPQ  quality  10  using  samtools. 
+
+Coverage  was  made  from  a  bam  file  with  deeptools  bamCoverage:  -bs  10;  --
+
+effectiveGenomeSize 125464728; --normalizeUsing RPGC. 
+
+ChIP-Seq  peak  calling  was  made  by  MACS2  callpeak  with  default 
+
+parameters  (with  shifting  model).  Differential  binding  analysis  of  ChIP-Seq 
+
+peaks  was  made  with  DiffBind.  Peaks  with  |logFC|>1  and  P-value<0.05  were 
+
+considered as differentially bound between tissues.  
+
+Coverage data for all the samples was visualized through IGV genomic viewer 
+
+[86].  
+
+Motif analysis 
+
+De  novo  discovery  of  motifs at tissue-specific  and  stable  enhancers  and 
+
+promoters  was  performed  with  MEME-ChIP  with  the  default  parameters  [54]. 
+
+Motif scanning at promoters of tissue-specific and stable genes was conducted 
+
+with  FIMO  [87]  with  parameter  --thresh  0.001.  The  weight  matrices  for 
+
+Drosophila Inr, TATA-box, Dref motifs were taken from JASPAR 2024 database 
+
+86 
+
+ 
+ 
+[88]. Weight matrices for Ohler1, Ohler6 were taken from previously published 
+
+data [89].  
+
+87 
+
+ 
+ 
+Bibliograhpy 
+
+1.  Martin  D.N.,  Baehrecke  E.H.  Caspases  function 
+
+in  autophagic  programmed  cell  death 
+
+in Drosophila // Development. 2004. Vol. 131, № 2. P. 275–284. 
+
+2.  Yu F., Schuldiner O. Axon and dendrite pruning in Drosophila // Current Opinion in Neurobiology. 
+
+2014. Vol. 27. P. 192–198.  
+
+3.  Rogulja-Ortmann  A.  et  al.  Programmed  cell  death  in  the  embryonic  central  nervous  system 
+
+of Drosophila melanogaster // Development. 2007. Vol. 134, № 1. P. 105–116.  
+
+4.  McKay D.J., Lieb J.D. A Common Set of DNA Regulatory Elements Shapes Drosophila Appendages 
+
+// Developmental Cell. 2013. Vol. 27, № 3. P. 306–318. 
+
+5.  Arbeitman  M.N.  et  al.  Gene  Expression  During  the  Life  Cycle  of Drosophila  melanogaster // 
+
+Science. 2002. Vol. 297, № 5590. P. 2270–2275. 
+
+6.  Ribeiro C., Petit V., Affolter M. Signaling systems, guided cell migration, and organogenesis: insights 
+
+from genetic studies in Drosophila // Developmental Biology. 2003. Vol. 260, № 1. P. 1–8. 
+
+7.  Berry  D.L.,  Baehrecke  E.H.  Growth Arrest  and Autophagy Are  Required  for  Salivary  Gland  Cell 
+
+Degradation in Drosophila // Cell. 2007. Vol. 131, № 6. P. 1137–1148.  
+
+8.  Fernández-Hernández I., Rhiner C., Moreno E. Adult Neurogenesis in Drosophila // Cell Reports. 
+
+2013. Vol. 3, № 6. P. 1857–1865. 
+
+9.  Truman J.W., Riddiford L.M. Drosophila postembryonic nervous system development: a model for 
+the  endocrine  control  of  development  //  GENETICS  /  ed.  Carlson  J.R.  2023.  Vol.  223,  №  3.  P. 
+iyac184. 
+
+10.  De Celis J.F. Pattern formation in the Drosophila wing: The development of the veins // BioEssays. 
+
+2003. Vol. 25, № 5. P. 443–451.  
+
+11. Ren  N.  et  al.  Gene  Expression  During  Drosophila  Wing  Morphogenesis  and  Differentiation  // 
+
+Genetics. 2005. Vol. 171, № 2. P. 625–638.  
+
+12.  Hakim Y., Yaniv  S.P.,  Schuldiner  O. Astrocytes  Play  a  Key  Role  in  Drosophila  Mushroom  Body 
+
+Axon Pruning // PLOS ONE. 2014. Vol. 9, № 1. P. e86178. 
+
+13. Maston G.A., Evans S.K., Green M.R. Transcriptional Regulatory Elements in the Human Genome 
+
+// Annu. Rev. Genom. Hum. Genet. 2006. Vol. 7, № 1. P. 29–59. 
+
+14.  Juven-Gershon T.  et  al. The  RNA  polymerase  II  core  promoter  —  the  gateway  to  transcription  // 
+
+Current Opinion in Cell Biology. 2008. Vol. 20, № 3. P. 253–259. 
+
+15.  Murakami K. et al. Structure of an RNA polymerase II preinitiation complex // Proc. Natl. Acad. Sci. 
+
+U.S.A. 2015. Vol. 112, № 44. P. 13543–13548. 
+
+16.  Buenrostro J.D. et al. Transposition of native chromatin for fast and sensitive epigenomic profiling 
+of open chromatin, DNA-binding proteins and nucleosome position // Nat Methods. 2013. Vol. 10, 
+№ 12. P. 1213–1218. 
+
+17.  Creyghton  M.P.  et  al.  Histone  H3K27ac  separates  active  from  poised  enhancers  and  predicts 
+
+developmental state // Proc. Natl. Acad. Sci. U.S.A. 2010. Vol. 107, № 50. P. 21931–21936. 
+
+18.  Raisner R. et al. Enhancer Activity Requires CBP/P300 Bromodomain-Dependent Histone H3K27 
+
+Acetylation // Cell Reports. 2018. Vol. 24, № 7. P. 1722–1729. 
+
+19.  Zhimulev  I.F.  et  al.  Genetic  Organization  of  Interphase  Chromosome  Bands  and  Interbands  in 
+
+Drosophila melanogaster // PLoS ONE / ed. Sharakhov I.V. 2014. Vol. 9, № 7. P. e101631. 
+
+20.  Zykova T.Y. et al. Polytene Chromosomes – A Portrait of Functional Organization of the Drosophila 
+
+Genome // CG. 2018. Vol. 19, № 3. P. 179–191. 
+
+21.  Loubiere V. et al. Developmental and housekeeping transcriptional programs display distinct modes 
+of enhancer-enhancer cooperativity in Drosophila // Nat Commun. 2024. Vol. 15, № 1. P. 8584. 
+
+88 
+
+ 
+22.  Dorschner M.O. et al. High-throughput localization of functional elements by quantitative chromatin 
+
+profiling // Nat Methods. 2004. Vol. 1, № 3. P. 219–225. 
+
+23.  Simon J.M. et al. Using formaldehyde-assisted isolation of regulatory elements (FAIRE) to isolate 
+
+active regulatory DNA // Nat Protoc. 2012. Vol. 7, № 2. P. 256–267. 
+
+24.  Song  L.  et  al.  Open  chromatin  defined  by  DNaseI and  FAIRE  identifies  regulatory  elements  that 
+
+shape cell-type identity // Genome Res. 2011. Vol. 21, № 10. P. 1757–1767. 
+
+25.  Grandi F.C. et al. Chromatin accessibility profiling by ATAC-seq // Nat Protoc. 2022. Vol. 17, № 6. 
+
+P. 1518–1552. 
+
+26.  Tran V., Gan Q., Chen X. Chromatin Immunoprecipitation (ChIP) using Drosophila tissue // JoVE. 
+
+2012. № 61. P. 3745. 
+
+27.  Ruiz-Romero M. et al. A transcriptional program shared across lineages underlies cell differentiation 
+
+during metazoan development. 2022. 
+
+28.  Haberle V., Stark A. Eukaryotic core promoters and the functional basis of transcription initiation // 
+
+Nat Rev Mol Cell Biol. 2018. Vol. 19, № 10. P. 621–637. 
+
+29.  Burke  T.W.,  Kadonaga  J.T.  Drosophila  TFIID  binds  to  a  conserved  downstream  basal  promoter 
+element that is present in many TATA-box-deficient promoters. // Genes Dev. 1996. Vol. 10, № 6. P. 
+711–724. 
+
+30.  Serebreni  L.  et  al.  Functionally  distinct  promoter  classes  initiate  transcription  via  different 
+mechanisms reflected in focused versus dispersed initiation patterns // The EMBO Journal. 2023. Vol. 
+42, № 10. P. e113519. 
+
+31. Zeitlinger  J.  et  al.  RNA  polymerase  stalling  at  developmental  control  genes  in  the  Drosophila 
+
+melanogaster embryo // Nat Genet. 2007. Vol. 39, № 12. P. 1512–1516. 
+
+32.  Gaertner B. et al. Poised RNA Polymerase II Changes over Developmental Time and Prepares Genes 
+
+for Future Expression // Cell Reports. 2012. Vol. 2, № 6. P. 1670–1683. 
+
+33.  Mazina M.Yu. et al. RNA Polymerase II “Pause” Prepares Promoters for Upcoming Transcription 
+
+during Drosophila Development // IJMS. 2022. Vol. 23, № 18. P. 10662. 
+
+34.  Antoniewski  C.  et  al.  Direct  Repeats  Bind  the  EcR/USP  Receptor  and  Mediate  Ecdysteroid 
+Responses  in Drosophila  melanogaster //  Molecular  and  Cellular  Biology.  1996. Vol.  16,  №  6.  P. 
+2977–2986. 
+
+35.  Thummel C.S. Ecdysone-regulated puff genes 2000 // Insect Biochemistry and Molecular Biology. 
+
+2002. Vol. 32, № 2. P. 113–120. 
+
+36.  Uyehara C.M., Leatham-Jensen M., McKay D.J. Opportunistic binding of EcR to open chromatin 
+drives tissue-specific developmental responses // Proc. Natl. Acad. Sci. U.S.A. 2022. Vol. 119, № 40. 
+P. e2208935119. 
+
+37.  Evdokimova  A.A.  et  al.  Transcriptional  induction  by  ecdysone  in Drosophila salivary  glands 
+involves an increase in chromatin accessibility and acetylation // Nucleic Acids Research. 2025. Vol. 
+53, № 7. P. gkaf284. 
+
+38.  Johnson D.M. Tissue-specific ChIP-seq of Drosophila Salivary Gland Transcription Factors Reveal 
+that CrebA Directly Regulates Secretory Regulators and Effectors. Johns Hopkins University, 2018. 
+39.  Fox R.M. et al. Organ-specific gene expression: the bHLH protein Sage provides tissue specificity 
+
+to Drosophila FoxA // Development. 2013. Vol. 140, № 10. P. 2160–2171. 
+
+40.  Ray P. et al. Combgap contributes to recruitment of Polycomb group proteins in Drosophila// Proc. 
+
+Natl. Acad. Sci. U.S.A. 2016. Vol. 113, № 14. P. 3826–3831. 
+
+41.  Song Y., Chung S., Kunes S. Combgap Relays Wingless Signal Reception to the Determination of 
+Cortical Cell Fate in the Drosophila Visual System // Molecular Cell. 2000. Vol. 6, № 5. P. 1143–
+1154. 
+
+89 
+
+ 
+42.  Zhimulev I. et al. Developmental and Housekeeping Genes: Two Types of Genetic Organization in 
+
+the Drosophila Genome // IJMS. 2024. Vol. 25, № 7. P. 4068.  
+
+43.  Delandre  C.  et  al.  Eight  principal  chromatin  states  functionally  segregate  the  fly  genome  into 
+
+developmental and housekeeping roles. 2022. 
+
+44.  Dong Y. et al. Promoter-Proximal Chromatin Domain Insulator Protein BEAF Mediates Local and 
+Long-Range  Communication  with  a  Transcription  Factor  and  Directly Activates  a  Housekeeping 
+Promoter in Drosophila // Genetics. 2020. Vol. 215, № 1. P. 89–101. 
+
+45.  Gurudatta B.V., Ramos E., Corces V.G. The BEAF insulator regulates genes involved in cell polarity 
+
+and neoplastic growth // Developmental Biology. 2012. Vol. 369, № 1. P. 124–132. 
+
+46.  Li X. et al. Correction: Transcription Factors Bind Thousands of Active and Inactive Regions in the 
+
+Drosophila Blastoderm // PLoS Biol. 2008. Vol. 6, № 7. P. e190. 
+
+47.  Nègre N. et al. A cis-regulatory map of the Drosophila genome // Nature. 2011. Vol. 471, № 7339. P. 
+
+527–531. 
+
+48.  Davie K. et al. Discovery of Transcription Factors and Regulatory Regions Driving In Vivo Tumor 
+Development by ATAC-seq and FAIRE-seq Open Chromatin Profiling // PLoS Genet / ed. McKinnon 
+P. 2015. Vol. 11, № 2. P. e1004994.  
+
+49.  Feng  J.  et  al.  Identifying  ChIP-seq  enrichment  using  MACS  //  Nat  Protoc.  2012. Vol.  7,  №  9.  P. 
+
+1728–1740. 
+
+50.  Ross-Innes C.S. et al. Differential oestrogen receptor binding is associated with clinical outcome in 
+
+breast cancer // Nature. 2012. Vol. 481, № 7381. P. 389–393. 
+
+51.  Morata G. How drosophila appendages develop // Nat Rev Mol Cell Biol. 2001. Vol. 2, № 2. P. 89–
+
+97. 
+
+52.  Andrew D.J., Henderson K.D., Seshaiah P. Salivary gland development in Drosophila melanogaster 
+
+// Mechanisms of Development. 2000. Vol. 92, № 1. P. 5–17. 
+
+53.  Ramírez  F.  et  al.  deepTools2:  a  next  generation  web  server  for  deep-sequencing  data  analysis  // 
+
+Nucleic Acids Res. 2016. Vol. 44, № W1. P. W160–W165. 
+
+54.  Machanick  P.,  Bailey T.L.  MEME-ChIP:  motif  analysis  of  large  DNA  datasets  //  Bioinformatics. 
+
+2011. Vol. 27, № 12. P. 1696–1697. 
+
+55. Rao S., Ahmad K., Ramachandran S. Cooperative binding between distant transcription factors is a 
+
+hallmark of active enhancers // Molecular Cell. 2021. Vol. 81, № 8. P. 1651-1665.e4. 
+
+56.  Leader D.P. et al. FlyAtlas 2: a new version of the Drosophila melanogaster expression atlas with 
+RNA-Seq,  miRNA-Seq  and  sex-specific  data  //  Nucleic Acids  Research.  2018. Vol.  46,  №  D1.  P. 
+D809–D815. 
+
+57.  Johnson D.M. Tissue-specific ChIP-seq of Drosophila Salivary Gland Transcription Factors Reveal 
+that CrebA Directly Regulates Secretory Regulators and Effectors. Johns Hopkins University, 2018. 
+58.  Srinivasan  A.,  Mishra  R.K.  Genomic  organization  of  Polycomb  Response  Elements  and  its 
+
+functional implication in Drosophila and other insects // J Biosci. 2020. Vol. 45, № 1. P. 12. 
+
+59.  Hendrix D.A. et al. Promoter elements associated with RNA Pol II stalling in the Drosophilaembryo 
+
+// Proc. Natl. Acad. Sci. U.S.A. 2008. Vol. 105, № 22. P. 7762–7767. 
+
+60.  Liu R. et al. Why weight? Modelling sample and observational level variability improves power in 
+
+RNA-seq analyses // Nucleic Acids Res. 2015. Vol. 43, № 15. P. e97–e97. 
+
+61.  Mechanisms of epithelial defense / ed. Kabelitz D., Schröder J.-M. Basel: Karger, 2005. 189 p. 
+62.  Schwabe T. et al. GPCR Signaling Is Required for Blood-Brain Barrier Formation in Drosophila // 
+
+Cell. 2005. Vol. 123, № 1. P. 133–144. 
+
+63.  Zheng X. et al. TGF-β Signaling Activates Steroid Hormone Receptor Expression during Neuronal 
+
+Remodeling in the Drosophila Brain // Cell. 2003. Vol. 112, № 3. P. 303–315. 
+
+90 
+
+ 
+64.  Roussa E. Channels and transporters in salivary glands // Cell Tissue Res. 2011. Vol. 343, № 2. P. 
+
+263–287. 
+
+65.  Adelman  K.,  Lis  J.T.  Promoter-proximal  pausing  of  RNA  polymerase  II:  emerging  roles  in 
+
+metazoans // Nat Rev Genet. 2012. Vol. 13, № 10. P. 720–731. 
+
+66.  Lagha M. et al. Paused Pol II Coordinates Tissue Morphogenesis in the Drosophila Embryo // Cell. 
+
+2013. Vol. 153, № 5. P. 976–987. 
+
+67.  Qi Z. et al. Large‐scale analysis of Drosophila core promoter function using synthetic promoters // 
+
+Molecular Systems Biology. 2022. Vol. 18, № 2. P. e9816. 
+
+68.  Agawa Y. et al. Drosophila Blimp-1 Is a Transient Transcriptional Repressor That Controls Timing 
+of the Ecdysone-Induced Developmental Pathway // Molecular and Cellular Biology. 2007. Vol. 27, 
+№ 24. P. 8739–8747. 
+
+69.  Wiersdorff  V.  et  al. Mad acts  downstream  of  Dpp  receptors,  revealing  a  differential  requirement 
+for dpp signaling  in  initiation  and  propagation  of  morphogenesis  in  the Drosophila eye  // 
+Development. 1996. Vol. 122, № 7. P. 2153–2162. 
+
+70.  McParland A. et al. The brinker repressor system regulates injury-induced nociceptive sensitization 
+
+in Drosophila melanogaster // Mol Pain. 2021. Vol. 17. P. 17448069211037401. 
+
+71.  England  B.P.,  Heberlein  U., Tjian  R.  Purified  Drosophila  transcription  factor, Adh  distal  factor-1 
+(Adf-1),  binds  to  sites  in  several  Drosophila  promoters  and  activates  transcription.  //  Journal  of 
+Biological Chemistry. 1990. Vol. 265, № 9. P. 5086–5094. 
+
+72.  Erokhin  M.  et  al.  Crol  contributes  to  PRE-mediated  repression  and  Polycomb  group  proteins 
+
+recruitment in Drosophila // Nucleic Acids Research. 2023. Vol. 51, № 12. P. 6087–6100. 
+
+73.  Merrill C.B. et al. Optimized assay for transposase-accessible chromatin by sequencing (ATAC-seq) 
+library preparation from adult Drosophila melanogaster neurons // Sci Rep. 2022. Vol. 12, № 1. P. 
+6043. 
+
+74.  Wingett S.W., Andrews S. FastQ Screen: A  tool for multi-genome mapping  and quality control // 
+
+F1000Res. 2018. Vol. 7. P. 1338. 
+
+75.  Martin M. Cutadapt removes adapter sequences from high-throughput sequencing reads // EMBnet 
+
+j. 2011. Vol. 17, № 1. P. 10. 
+
+76.  Kim D., Langmead B., Salzberg S.L. HISAT: a fast spliced aligner with low memory requirements 
+
+// Nat Methods. 2015. Vol. 12, № 4. P. 357–360. 
+
+77.  Xu H. et al. FastUniq: A Fast De Novo Duplicates Removal Tool for Paired Short Reads // PLoS 
+
+ONE / ed. Doucet D. 2012. Vol. 7, № 12. P. e52249. 
+
+78.  Danecek P. et al. Twelve years of SAMtools and BCFtools // GigaScience. 2021. Vol. 10, № 2. P. 
+
+giab008. 
+
+79.  Zhang Y. et al. Model-based Analysis of ChIP-Seq (MACS) // Genome Biol. 2008. Vol. 9, № 9. P. 
+
+R137. 
+
+80.  Liao  Y.,  Smyth  G.K.,  Shi  W.  featureCounts:  an  efficient  general  purpose  program  for  assigning 
+
+sequence reads to genomic features // Bioinformatics. 2014. Vol. 30, № 7. P. 923–930. 
+
+81.  Mazina  M.Yu.  et  al.  One  signal  stimulates  different  transcriptional  activation  mechanisms  // 
+Biochimica et Biophysica Acta (BBA) - Gene Regulatory Mechanisms. 2018. Vol. 1861, № 2. P. 178–
+189. 
+
+82.  Mazina  M.Yu.,  Kovalenko  E.V.,  Vorobyeva  N.E.  The  negative  elongation  factor  NELF  promotes 
+induced transcriptional response of Drosophila ecdysone-dependent genes // Sci Rep. 2021. Vol. 11, 
+№ 1. P. 172. 
+
+83.  Vorobyeva N.E. et al. Transcription coactivator SAYP combines chromatin remodeler Brahma and 
+transcription initiation factor TFIID into a single supercomplex // Proc. Natl. Acad. Sci. U.S.A. 2009. 
+Vol. 106, № 27. P. 11049–11054. 
+
+91 
+
+ 
+84.  Melnikova L.S. et al. The BEAF-32 Protein Directly Interacts with Z4/putzig and Chriz/Chromator 
+Proteins in Drosophila melanogaster // Dokl Biochem Biophys. 2021. Vol. 498, № 1. P. 184–189. 
+85.  Vorobyeva  N.E.  et  al.  Insulator  protein  Su(Hw)  recruits  SAGA  and  Brahma  complexes  and 
+constitutes part of Origin Recognition Complex-binding sites in the Drosophila genome // Nucleic 
+Acids Research. 2013. Vol. 41, № 11. P. 5717–5730. 
+
+86.  Thorvaldsdottir  H.,  Robinson  J.T.,  Mesirov  J.P.  Integrative  Genomics  Viewer  (IGV):  high-
+performance genomics data visualization and exploration // Briefings in Bioinformatics. 2013. Vol. 
+14, № 2. P. 178–192. 
+
+87.  Grant  C.E.,  Bailey  T.L.,  Noble  W.S.  FIMO:  scanning  for  occurrences  of  a  given  motif  // 
+
+Bioinformatics. 2011. Vol. 27, № 7. P. 1017–1018. 
+
+88.  Rauluseviciute I. et al. JASPAR 2024: 20th anniversary of the open-access database of transcription 
+
+factor binding profiles // Nucleic Acids Research. 2024. Vol. 52, № D1. P. D174–D182. 
+
+89.  Ohler U. et al. Computational analysis of core promoters in the Drosophila genome // Genome Biol. 
+
+2002. Vol. 3, № 12. P. research0087.1. 
+
+92 
+
+ 
+

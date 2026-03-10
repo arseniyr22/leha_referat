@@ -1,0 +1,367 @@
+FEDERAL STATE EDUCATIONAL INSTITUTION
+OF HIGHER EDUCATION
+NATIONAL RESEARCH UNIVERSITY
+HIGHER SCHOOL OF ECONOMICS
+ 
+Saint Petersburg School of Economics and Management
+Department of Management
+ 
+Sabukhi Fataliev, Ilya Bychkovsky
+Role of Social Sexual Behavior in Predicting Firm Performance
+ 
+ 
+In the field 38.03.02 ‘Management’
+Educational programme ‘Management’
+ 
+ 
+ 
+Saint Petersburg 2022
+
+
+
+Table of Contents
+
+Abstract
+
+The current research examines the understudied consequences of social sexual behavior (SSB) in the workplace and its effect on firm performance. The study based on the dataset of Russian students who are at the same time started their business based on GUESS survey. SSB is divided into 2 categories: the frequency of flirting and the frequency of sexual storytelling. This paper provides the evidence of existed moderated mediation effect between SSB and Firm performance through self-esteem by gender. In the work used statistical tests such as Wilcoxon test, Kruskal-Wallis test, correlation analysis, regression analysis (several models), models for constructing associations. 
+Keywords: Social Sexual Behavior, Firm Performance, Regression Analysis, Moderated mediation effect.
+
+
+Introduction
+
+For a long time, various scientists and company executives have been studying the issue of social sexual behavior in the workplace. This aspect was considered as a deviation that causes concern. It was believed that companies should monitor this very carefully to eliminate all kinds of sexual violence and maximize the productivity of companies. Nevertheless, social sexual behavior cannot be taken under full control within companies because it is an ineradicable feature of human communication and part of human nature.
+Sexual behavior is controversial as to whether it is harassment and why. The opinion that sexual harassment is a form of discrimination and a serious problem based on gender (cf. Berdahl, Magli and Waldo, 1996) causes skepticism among people. According to various statements, a cheerful atmosphere at work is created thanks to jokes about sex. It is also believed that flirting can lead to romance and love (Pierce, Byrne and Aginis, 1996; Powell and Foley, 1998; Williams, Giuffre and Dellinger, 1999). Moreover, there is an opinion that the control of sexual behavior at work is nothing more than an excuse for the separation of the sexes (Schultz, 1998).
+Men are expected to respond to sexual behavior in a neutral or positive way. This behavior reminds men of their higher status compared to women, and women - on the contrary. Of course, such a situation cannot cause negative emotions in men. Especially when you consider that employees strive to gain an advantage over each other because we live in a world where competition prevails (Maass, Cadinou, Guarnieri and Grasselli, 2003).
+The perception of other people usually affects a person's self-esteem, his perception of the world and behavior. Therefore, self-esteem plays a key role in entrepreneurship (Strauss, 2005). Self-esteem reflects the perception of personal competencies and self-confidence in business, as well as in business decisions made (Hogg & Cooper, 2007). Since those who are confident in themselves and their capabilities are motivated to maximize efforts to achieve goals, it is such people who are immediately aimed at success in any new business (Douglas & Shepherd, 2000).
+Overall, a decent number of different variations of social sexual behavior have not been investigated. Therefore, it is impossible to state unequivocally and even assume that social sexual behavior only creates problems in companies and individuals.
+In this paper, we will touch on the overlooked or simply poorly researched aspects of social sexual behavior. First, we will look at social sexual behavior as a tool of social influence in the workplace. We will also consider the issue of protection from stress in the workplace and how this can be influenced by coordinated social sexual behavior at work. Moreover, most obviously, we will touch upon the question of how social sexual behavior can lead to the development of relationships between men and women in the workplace and its consequences for an organization. 
+In this paper, we consider social sexual behavior at work from all sides, both negative and positive, and do not preach only that it is bad and has a harmful effect on productivity.
+In this research paper the following research question is proposed: “How does social sexual behavior influence on self-esteem of employees?” The unit of analysis in this research are young entrepreneurs from Russia based on GUESS survey.
+We advise all future researchers of this topic to look at it from all angles and consider all possible aspects to avoid one-sidedness. It is important to understand that social sexual behavior can be mutual and sometimes positive and harmless.
+
+Literature Review
+
+Conceptualizing workplace social sexual behavior
+As part of the current work, social sexual behavior can be attributed to the type of social interaction between two or more employees of the company. This social interaction usually has hints or sexual overtones. It is also important to emphasize that this sexual subtext of these interactions is not perceived as humiliating or offensive (Aquino et al., 2014). Examples of these interactions include jokes, flirtatious eye contact, casual touching, compliments about their appearance or sexual banter. All this is common behavior within the framework of human rituals of social ties and courtship (Morris, 1971). It is important to emphasize that such behavior is instinctive even among people in platonic relationships. This behavior is not always due to romantic interest (Abrahams, 1994; Egland, Spitzberg and Zormayer, 1996). Moreover, this behavior is also observed among people of different sexual orientations and even of the same sex. Montgomery noted the following “in general, this behavior is prosocial, providing rewards for relationships through positive reinforcement" (Caton, 1993). This behavior is described as fun and playful in literature that describes scenes of sexual banter and flirting (Abrahams, 1994; Downey and Vitulli, 1987; Giuffre and Williams, 1994; Henningsen, 2004; Henningsen, Braz and Davis, 2008). It is worth mentioning such an important aspect as the separation of the concepts of social sexual behavior and harassment. The similarity is that sexual harassment, like SSB, is the interaction of two or more people with sexual overtones.
+Sexual harassment is directly related to the humiliation of the person to whom it is addressed, as a rule, based on gender (Berdahl, 2007). This is the main difference between harassment and SSB (Fitzgerald, Swan and Mugley, 1997). It is also important to emphasize that the main motivation in sexual harassment is the desire to protect and strengthen status (Berdahl, 2007). Sexual harassment is called such in the legal plane if it manifests itself sufficiently persistently and seriously. It should lead to disruption of the work rhythm and the creation of an extremely hostile and tense environment, which will also negatively affect work (Adler & Peirce, 1992). Sometimes the definition of sexual harassment is achieved through the participation of a third party. For example, the question is asked: "Would a reasonable person recognize this act as offensive?". Also, a simpler method, subjective. The recipient himself gives himself the answer to the question: "Did I perceive this act as offensive?" (O'Leary-Kelly et al., 2009). Sexual harassment and social sexual behavior differ from each other in two key features. Firstly, social sexual behavior implies the exchange of information, which contains a much milder and harmless message than in the case of sexual harassment. Secondly, SSB does not receive an assessment from the recipient at all, this type of behavior can be evaluated in different ways: negatively, neutrally, or positively, and sexual harassment is considered only humiliating or threatening. Ultimately, even in cases where social sexual behavior is perceived negatively, it should not fall under compliance with the legal standard described above and should not create a negative environment in the workplace that prevents employees from working (see Adler & Peirce, 1992).
+The factor of how exactly social sexual behavior will be perceived, that is, negatively, neutrally, or positively, is the type of relationship between people that existed between them earlier. As a rule, women are more likely than men to perceive SSB as something offensive (Gutek, 1985) or humiliating (Rotundo, Nguyen, & Sackett, 2001). For men, social sexual behavior delivers noticeably more positive emotions (Berdahl & Aquino, 2009). However, in general, SSB was liked for the most part by both men and women at work (Berdahl & Aquino, 2009). An important factor that makes SSB emotionally positive is the fact that both employees are independent of each other, that is, one does not have the competence to manage the other, is not higher in rank (Gordon, Cohen, Grauer and Rogelberg, 2005; Lerum, 2004). Most of the employees begin social sexual behavior, as a rule, with colleagues of equal rank, with whom they have long been familiar (Keyton, 1993). It is important to understand exactly what influence social sexual behavior has on the level of stress, whether it affects negatively or even serves as a source of accumulation of psychological resources.
+Regardless of the individual and relational factors that influence how SSB is evaluated, the primary focus of our research question is to better understand a potential benefit of these behaviors in organizations.
+Relationship between social sexual behavior and gender 
+The difference between sexual behavior and sexual harassment is confusing. And harassment studies, as well as court opinions, have only added to this confusion. (Oncale v. Sundowner Offshore Services, Inc., 1998) and (Franke, 1997; Schultz, 2003; Williams et al., 1999). Sexual behavior sometimes causes positive emotions among employees, and not all sexual behavior at work is harassment. Moreover, harassment is not only sexual, but has various non-sexual forms: social disruption, sabotage and bullying that have nothing to do with gender (Berdahl, 2007a; Cortina, 2008; Schultz, 1998).
+Various studies demonstrate that women tend to perceive sexual behavior at work as much more harmful and offensive than men (for example, Berdahl, 2007b; Gutek, 1985; US Merit Systems Defense Council, 1994). Moreover, many men show a desire to show more sexual behavior in the workplace (Berdahl et al., 1996). How can we explain this difference? Gender differences in power are the simplest justification (Berdahl et al., 1996; Cleveland and Kerst, 1993; McKinnon, 1979). The less influence a person has on a situation, the less he controls it, the less pleasant and more intimidating this situation seems to him (for example, Keltner, Grunfeld and Anderson, 2003). The main difference between simple annoyance and bullying is a lack of control and a sense of threat, the victim feels defenseless and powerless to escape or strike back (Einarsen, Hoel, Zapf and Cooper, 2003).
+The relationship between gender, sexuality and power is so historically ingrained that it can be considered banal (for example, Butler, 1990; Valdes, 1995). The connection between sexuality and power, as a rule, occurs involuntarily (Barg, Raymond, Pryor and Fear, 1995). The status of men as representatives of the position of power makes them the dominant force. Theoretically, it has been proven that impotence leads to negative emotions (Berdahl and Martorana, 2006), a state of depression (Anderson and Berdahl, 2002; Galinsky et al., 2003), focusing on the prospects and interests of other people (Galinsky et al., 2006). Women tend to play more passive roles and therefore their attitude to sexual behavior is more negative.
+The factor of how exactly social sexual behavior will be perceived, that is, negatively, neutrally, or positively, is the type of relationship between people that existed between them earlier. As a rule, women are more likely than men to perceive SSB as something offensive (Gutek, 1985) or humiliating (Rotundo, Nguyen, & Sackett, 2001). For men, social sexual behavior delivers noticeably more positive emotions (Berdahl & Aquino, 2009). However, in general, SSB was liked for the most part by both men and women at work (Berdahl & Aquino, 2009). An important factor that makes SSB emotionally positive is the fact that both employees are independent of each other, that is, one does not have the competence to manage the other, is not higher in rank (Gordon, Cohen, Grauer and Rogelberg, 2005; Lerum, 2004). Most of the employees begin social sexual behavior, as a rule, with colleagues of equal rank, with whom they have long been familiar (Keyton, 1993). It is important to understand exactly what influence social sexual behavior has on the level of stress, whether it affects negatively or even serves as a source of accumulation of psychological resources.
+Relationship between sexual behavior and self-esteem
+Self-esteem is related to a person's sympathy for himself or to a global assessment of his qualities (Rosenberg, 1979). Self-esteem is often associated with a wide range of sometimes incorrect adaptive processes (Tschesniewski, Donnellan and Robins, 2003). Self-sympathy and self-esteem are inherent in high self-esteem (Kernis, Cornell, Sun, Berry and Harlow, 1993). Low self-esteem, on the contrary, is characterized by a feeling of unhappiness and dissatisfaction with oneself (Roberts, Gottlieb and Kassel, 1996).
+According to empirical studies, sexual harassment initiated by superiors is a common problem in the workplace. Many women do not dare to openly talk about it or report it, because they are afraid of being expelled, disrespected, publicly humiliated, or stigmatized (Kapoor, 1999). Fitzgerald, Drasgow, Hulin, Gelfand, and Midgley (1997) found that although colleagues at work use a less severe form of harassment compared to supervisors, they are the most frequent violators (George & Jones, 2008). As a rule, colleagues use tactics of hiding information, lack of cooperation and support in team efforts. In this way they influence other colleagues.
+Consequences of SSB and self-esteem at workplace
+One of the important factors that affects the performance of an organization is self-assessment. Self-esteem is related to individual perceived competence and self-confidence (Hogg and Cooper, 2007). Thus, employees who will be confident in their knowledge and abilities will be motivated and try to make all their efforts (Douglas & Shepherd, 2000). This will eventually lead to the fact that people with a high level of self-esteem have a high chance of success in their first business endeavors.
+There are some basic factors that can reduce self-esteem: negative comments about your abilities and appearance, verbal or physical insults, frequent criticism of you or negative life experiences (Alexander, 2007). Decision-making and the ability of a person to express himself directly depends on mood, behavior and thoughts, and they, in turn, are already negatively affected by low self-esteem. Consequently, it can be concluded that low self-esteem affects a person's productivity, a sense of incompetence may also arise and the level of job satisfaction may fall (Wheeler, 2010). An employee with low self-esteem jeopardizes his own values because he begins to pay too much attention to the opinions of others (Coleman, 2010; Patchin & Hinduja, 2010).
+Sexual behavior has been found out in empirical studies to be interrelated with many aspects of the work environment such as role and functional conflicts (Low, Radhakrishnan, Schneider & Rounds, 2007; Schneider, Swan & Fitzgerald, 1997), organizational issues (MacKinnon, 1979; McDuff, 2008), low level of leadership satisfaction (Huang & Cao, 2008; Schneider, Hitlan, & Radhakrishnan, 2000), anxiety, workloads (Sheffey & Tindale, 1992), conflicts among employees (Li & Lee-Wong, 2005), the problem with solving problems in a team (Namie & Namie, 2003; Ohse & Stockdale, 2008; Toker & Sumer, 2010).
+Methodology
+
+Research Design
+We have created a special research project to identify the impact of social sexual behavior on self-esteem. The financial performance of the company directly depends on self-assessment.
+To study social sexual behavior in the workplace, we used direct methods. These methods include all qualitative and quantitative. More specifically, we conduct exploratory factor analysis and regression analysis. We have also drawn up a plan for our work:
+1. social sexual behavior and self-esteem: literature review
+2. development of hypotheses
+3. provided by the agency: demand analysis
+We have achieved certain results by following our work plan. Now the management of companies will be able to understand in more detail whether there is a need to pay attention to social sexual behavior in the company and what degree of importance it has. All this has become possible thanks to our work. The next chapter describes the results of the study in detail.
+Sample
+We used data that were obtained after the Global Survey of University Students on Entrepreneurial Spirit (GUESSS) 2018.1. These data will help us to test hypotheses and the model. For the first time this survey took place in 2003. It was initiated by the Swiss Research Institute of Small Business and Entrepreneurship in St. Gallen.
+The main areas of research are the intentions and activities of students at the global level, as well as entrepreneurial attitudes. In 2018, data for GUESSS was collected in 54 countries around the world. The data was collected using a special online questionnaire, which was translated into the language of the participating country. In Russia, the questionnaire was of course translated into Russian.
+To fill out the questionnaire, you need to spend 10-15 minutes. During the survey process, contacts of the GSOM SPbU Entrepreneurship Center, personal contacts of users, as well as official contacts of GSOM SPbU were used.
+We can divide entrepreneurs into 2 groups: active and potential, based on the questionnaire questions. Potential entrepreneurs are students who tried to start their own business during their studies. Active entrepreneurs are those students who managed to successfully open their own business. In our study, only active entrepreneurs were considered.
+Hypotheses
+H1 - Social sexual behavior positively correlates with company performance
+H2 - Self-esteem has a positive impact on the relationship between company performance and SSB
+H3 - Gender has a mitigating effect on the relationship between self-esteem and SSB so that social sexual behavior affects women's self-esteem negatively, and men's self-esteem on the contrary positively
+Description of the data
+The largest part of the surveyed students were students enrolled in a bachelor's degree program (85.39%). The next part represented the master’s degree (12.75%), another small percentage - 1.86%, represented other programs. 
+The primordial number of students was 196 students. During the work, this amount was made smaller. It was done because most of the students in the dataset own a small business. As a result, the dataset was reduced to 176 students.  Most of the students who own their business undergo their studies in the bachelor programmes. There are 152 bachelor students, 21 who study on master’s degrees and only 2 who are going to become the PhD. All students who don’t study on a bachelor’s degree were assembled on the group named “other”. 
+Regarding the proportion of the number of students, who were counted in our work, there can be made following outcomes (Fig. 1). It is visible, that the most of the student’s study in Rostov State University of Economics, Saint Petersburg University of Management and Economics and in the Far Eastern Federal University. The number is around 30-40 students in the each of above mentioned universities. There are another four universities with almost the same number of students, namely about 10-13 in each. The latter six positions have also the same number of students, who own the business – around 3-4 in each.
+
+Table 1. The proportion of the number of students in the sample
+ 20 years is the average age of respondents in Russia. In our sample more than 95% make up the total share of students under the age of 25, this is the majority. Women make up more than 55.5% of the total number of students, and other part refers to men. 
+Additionally, it can be mentioned that most of the students are single. At the beginning there were the following categories: single, married, registered partnership, divorced. But the latter three were then assembled in the category named “not single”, because this model will be used as a control variable. There are 119 single students and 27 who are not single.
+The largest part of students in Russia who are engaged in their own business are studying at the economics and management program (67%). As for the international sample, management, as well as arts and humanities dominate there: 29% and 15%. Another interesting fact is that 44% of students' parents are also entrepreneurs (Fig. 2). 
+
+Figure 2. The proportion of educational programs in the sample
+Most of the business is distributed in approximately equal shares by industry among potential and active entrepreneurs (Fig. 3). The most popular areas are trade, advertising, design and marketing. As for the statute of limitations for opening their own business among students, in general, all students have opened a business recently. 41% of students opened a business in 2018, 37% in 2016-2017. Previously, about 33% of students started their own business. 
+
+Figure 3. Business distribution by industries
+Another fact is, that the majority of business owners among students are from bachelor’s degree, but regarding the sphere of art and engineering, there is an advantage of master students.
+The following variables which are going to be described are the numeric ones. Namely its going to be about social sexual behavior. This variable consists of two different variables: flirtation and sexual storytelling. Usually, such variables put their attention on the normality of distribution. Obviously, the distribution is not normal by these variables (see Appendix 1, 2).   
+2.5      Descriptive statistics
+
+Regarding the part of descriptive statistics, we can precisely describe the variables, which were used in the work. There 10 different variables which we will use in our model later. That is why we need to look at them with a precision. 
+These variables include: 1) Self-esteem; 2) Flirtation frequency; 3) Sexual storytelling frequency; 4) Age; 5) If parents are owners of business; 6) Power distance; 7) Subjective vitality; 8) Affective commitment; 9) Sales growth and Profit growth
+It should be mentioned that all of the variables except the age are factor ones. Several of them are ordinal scales. There are 6 variables that are measured with a seven-point scale: self-esteem, power distance, subjective vitality, affective commitment, sales growth, profit growth. Flirtation and sexual storytelling are measured by five-point scale. Age is just between 22 and 42 years with the median of 24. The question “If parents are owners of business” have several variants of answer: “no”, “yes, mother”, “yes, father”, “both”.
+Referring to these variables one by one, there can be mentioned some outstanding features. Self-esteem is a variable, which measures the workers beliefs in himself. It is measured by a seven-point scale. There is a list of 10 sentences, which respondents should agree or disagree with and measure the level of their agreement with a grade from 1 to 7. For example, one of the sentences louds: “I feel that I am a person of worth one at least on an equal basis with others”. The results of the answers to the questions were summarized and then divided by the total number of questions asked. Thus, a cumulative and averaged index was created. The minimal value of self-esteem is not 1, but 2. Nobody from the respondents has chosen such a low grade. Additionally, the median is 6, what is very high. This means students who have taken the survey had a high self-esteem level. 
+Flirtation is measured by the 5-point scale. We asked the respondents about the frequency of 5 different scenarios describing several experiences the respondents may have had in their business during the last 6 months (i.e. “In the last 6 months, have you been in a situation in your business where anyone looked at you in a sexually provocative way?”). The measurement was provided from 1 (never) to 5 (more than 10 times). The same way of measurement was done with the next variable – sexual storytelling. It was provided the 2 questions also about the frequency of 2 scenarios describing several experiences (i.e. “In the last 6 months, have you been in a situation in your business where anyone told you an erotic joke or story?”). The measurement was provided from 1 (never) to 5 (more than 10 times) as well. Flirtation and sexual storytelling variables have the lowest median among all the variables, which has the value one. But if properly look at the scale, it becomes obvious that the grade one is the highest (never). 
+Regarding the next variable, power distance, it was measured with the 7-point scale. The sentence was the following: “In my society the person’s influence is based primarily on ability and contribution to society”. The measurement was provided from 1(disagree) to 7 (agree). Power distance variable is not far from the below mentioned ones and has the median with the value 3. 
+The following variable is called subjective vitality. It measures the physical conditions of the person, i.e. feeling alert, energized, fresh etc. It is measured with the 7-point scale using 6 sentences. The results of the answers to the questions were summarized and then divided by the total number of questions asked. Thus, a cumulative and averaged index was created. One of the sentences louds: “Sometimes I am just so alive I just want to burst”. The measurement was provided from 1(disagree) to 7 (agree). This variable has a very high median. What means the respondents feel themselves young and strong. 
+Affective commitment is about the feel of linkage to the business the person owns, how the person fells the influence of what person does towards business. There are 5 sentences used in the survey to determine the level of this variable. As usual the results of the answers to the questions were summarized and then divided by the total number of questions asked. One of the sentences louds: “I do not feel a sense of belonging to my business”. The measurement was provided from 1(disagree) to 7 (agree). 
+A subjective indicator based on the indicators that they themselves reported was a measure of the company's performance. All respondents were asked to evaluate the statement: "How would you assess the effectiveness of your company compared to your competitors since its inception in the following parameters?” (From 1 = worse to 7 = better). The assessment was carried out on a seven-point scale. 
+These indicators were: profit and sales growth. The results of the answers to the questions were summarized and then divided by the total number of questions asked. Thus, a cumulative and averaged index was created. Researchers claim that these indicators have the same level of reliability as the performance indicators called objective (De Clercq, Dimov, & Thongpapanl, 2010). These indicators are based on high correlations between the converging reliability of subjective indicators (Des & Robinson, 1984) and subjective and objective company performance indicators (Stam & Elfring, 2008).
+Others note the difficulty of interpreting objective performance indicators for new enterprises (Chandler & Hanks, 1993). Moreover, similar indicators of the dependent variable were used in previous studies based on the GUESS database (Laskovaya et al., 2017; Smolka et al., 2018).
+Also, some researchers note how difficult it is to interpret objective performance indicators of newly created companies (Chandler & Hanks, 1993). It is also worth noting that similar indicators (of the dependent variable) were involved in older studies that were based on GUESS (Laskovaya et al., 2017; Smolka et al., 2018).
+Another important metrics are skewness and kurtosis. They demonstrate the normality of distribution. The following variables skewness is near to normal: self-esteem, power distance, subjective vitality, affective commitment, and sales growth. Kurtosis of sexual storytelling frequency is also near normal. 
+However, as it is an ordinary scale, there should be regarded the visual representation of above-mentioned variables. Those look not normally distributed. There was also provided a Shapiro test and is has shown that the distribution is not normal (Appendix 1,2). 
+Summary statistics for the numeric variables included in the analysis is illustrated below (Table 1).
+Table 1. Summary statistics for numeric variables 
+
+Description of the methods and procedures
+As for the methodology and procedures, first you need to do data processing. Thanks to this process, the data will be cleared. At first, only those who already have a business will be selected among all students. To reduce the consequences of the unexplained variance of our dependent variable, we leave only those students who work in small companies in our dataset.
+This is done since in the dataset there is a small proportion of those students who work in medium-sized and large companies. Then an outlier’s test will be performed, outliers that are included in 1% of the lower percentile and 99% of the upper percentile will be removed. This way we will trim the data by age. What is more, in the sample students with higher than 0% of ownership in their business are presented.
+It is possible that outliers will also be cleaned for some other variables. Cleaning will be carried out according to numerical variables, except for those that are ordinary scales, that is, a subjective assessment of something. After the above-described pre-processing procedure, an explanatory analysis will be conducted.
+We will look at the relationship between dependent and independent variables. To do this, a correlational analysis will be used between numbered variables, during which it will be determined which independent variables correlate most strongly with dependent ones. We will also be able to determine how the independent variables correlate with each other. Then all this will be considered when building the model. For example, if some independent variables are too strongly correlated with each other when the correlation is 0.5 and higher it is better to add variables in different models if the multicollinearity will be detected. It is also worth noting that before doing a correlation test, you need to choose the correct correlation test method. There are three methods of conducting the correlation test: Pearson, Kendall and Spearman. Before doing the test, we analyze the relationships using graphs and see what kind of relationships there are. The relationships can be linear and nonlinear. If the relationships are linear, then the Pearson method will be used. If the relationships are nonlinear, then Kendall will be used. We assume that the Kendall method will be used. We think so because it is very rare to find perfect linear connections between ordinary scales. It should also be emphasized that due to the large number of variables, it is better to use Kendall. Kendall is a rank method and predicts correlation better. Next, consider variables that are categorical. Statistical tests such as T-Test, ANOVA Test are used for such variables. T-Test is performed when a variable has two categories and is binary. ANOVA Test is done if there are more than two factors in the variable. These tests are used to check what the relationship between our dependent and independent categorical variables can be. This is all done so that after regression we understand that we can trust it if the tests show a significant value for the variables. As our variables not normally distributed, we use non—parametric tests for checking the mean values between categories (Wilcoxon rank test for variables with two categories and Kruskal test for more than 2 categories).
+After the preliminary explanatory analysis, we will do a regression analysis. When conducting a regression analysis, first we will add a dependent and a major independent variable to it. They are firm performance and SSB. SSB in our case is divided into two variables: frequency flirtation and frequency sexual storytelling. We will look at the relationship between them and then add a gender moderator, and then we will add a self-esteem mediator between SSB and firm performance. We can also add that several models.
+We will gradually supplement the model using the hierarchical upward method. Thus, when adding a new variable, I check whether the relationship between our main predictor and the dependent variable is significant. Next, after adding control variables will be added: self-esteem, age, marital status, if parents are owners of business, power distance, subjective vitality, affective commitment. These variables can also affect firm performance. After adding the above variables, we will see how the main relationship is preserved and choose the best model that will have the best predictive power. After the diagnosis, it should show the best results. As for the diagnosis itself, it consists of several elements, the first is a multicollinearity test (VIF Test). The value of this test should not exceed 4, then it means that there is no multicollinearity. The diagnosis also includes a test for heteroscedasticity, which shows how well we used the factors that can explain our dependent variable, and which show how much we have residuals distributed without any trend. It can also be interpreted differently and say that there is no factor that affects the residuals. Then we look at the residuals and how they are distributed, according to them, heteroscedasticity will be shown on the graph. It is also worth paying attention to the normality of residuals. The more normal the residuals, the better. An influential variable will also be shown, which will show whether we have any outliers in the model that can strongly influence the model. We will also conduct a comparison of model for sales growth and profit growth by R-adjusted and Mean Square Errors (MSE). Another diagnostic point will be the comparison of models by the number of errors. Next, we will determine the results of our model and be able to answer the hypotheses posed. 
+For capturing the mediation effect between SSB and Firm Performance through self-esteem the additional regressions will be used. Regression for determining the relationship between SSB and self-esteem. For checking the moderation effect in the model interaction effect is added with gender. One more way to check the mediation and moderated mediation is to construct equation model that will demonstrate the associations between variables.
+Results
+
+Statistical tests results
+
+The results chapter will begin with the observing the correlations of main variable of interest and dependent variable with other variables. As the dependent variable, which we use in our work, is firm performance, we will regard two variables of firm performance. They are:
+Sales growth
+Profit growth
+This is a subjective measurement, so it is built a regression for every particular variable. There are different regressions for sales growth and profit growth. 
+Starting with sales growth, it was regarded if there is a difference in correlation for marital status. We looked at the distribution of dependence on marital status for sales growth. It becomes obvious that there is no difference between the median value of whether the person is single or not. As the distribution is not normal, there is non-parametric test is used. It is named a Wilcoxon rank sum test with continuity correction. This test is used to compare average values ​​for sales growth, depending on whether a person lives alone or with someone. What status in other words, is she/he single or not. The test showed no statistical difference as the p-value was higher than 0,05. The different picture has arised after the provision of the Wilcoxon test for the Profit growth. The test has demonstrated that there is a statistical difference dependent from marital status. The p-value of the test was 0.03, that demonstrated significance. In a case of profit growth, there is statistically much more high level of profit growth by the people who are not single, i.e. there is a significant difference in Profit Growth depending on marital status.
+Followingly, we provide the same operation with the sales growth and profit growth on education. The Wilcoxon test is provided too. Tests have demonstrated that there is no significant difference. There was also Kruskal -Wallis rank sum test for variable “if parents are owners of business” was made. For sales growth there is no statistical difference, meanwhile, for profit growth it is equal to 0.06. 
+For numeric independent variables and dependent variable, scatterplots are being built. They were created using the smoothing turn. Smoothing turn is unlike a simple line, it tries to capture and identify trends, it is very sensitive to outliers. Visually, it becomes clear whether the correlation is linear or non-linear. We try to determine whether profit growth and sales growth are connected to other numeric variables (see Appendix 3 and 4), which are used later in the model. Those variables are:
+Frequency of flirtation
+Frequency of sexual storytelling
+Self-esteem
+Age
+Power distance 
+Subjective vitality
+Affective commitment
+There is an obvious positive trend in the most of cases despite of  power distance. 
+There were also built two plots, which demonstrate correlations between Sales growth, Profit growth and independent variables. Regarding the sales growth, there is a positive correlation with frequency of flirtation (0.15), self-esteem (0.27) and subjective vitality (0.267). Regarding the profit growth, there is a positive correlation with all variables, the biggest correlation with subjective vitality (0.25), self-esteem (0.23), flirtation frequency (0.20), sexual storytelling (0.144). (See appendix 5, 6). 
+In the Appendix 7 can be seen that among independent variables: positive correlation between flirtation frequency and sex storytelling frequency (0.6). Self-esteem negatively correlates with power distance (-0.195), positively with subjective vitality (0.276) and affective commitment (0.286). At the same time self-esteem do not significantly correlates with sexual storytelling frequency and flirtation frequency that may signal about lack of relationship between SSB and self-esteem.
+There also should be mentioned that there was measured how the firm performance (Profit Growth and Sales Growth) depends on the chosen sector. In order to determine that Kruskal-Wallis rank sum test was provided. It refers to a non-parametric ANOVA-test. There was no statistical difference on sectors detected (See distributions in appendix 8,9).
+
+
+
+
+
+Regression model results
+
+Part 1. Determining predictors of Firm Performance.
+For regression analysis the ordinary least squares have been chosen. There have been made diagnostic for the model: check for multicollinearity (for all five models the VIF estimator did not overcome 2.7). An additional check was made for heteroscedasticity by studentized Breusch-Pagan test (all models demonstrate the lack of heteroscedasticity). For the last two models the Cook’s distance check was applied to detect the influential observations (one variable was omitted).  The summary of models for Sales growth is illustrated below (Table 2).
+
+Table 2. The summary of models for Sales growth.
+
+Considering the results of the model, across all five models for predicting subjective sales growth flirtation frequency demonstrates significance on the 95% Confidence Interval. In the model 1, 2, 3 the power of influence did not change. With an increase of reported flirtation frequency by 1, the sales growth in average increases by 0.44 points. In model 4 the level of increase goes down to 0.41 and in model 5 to 0.35 points. The self-esteem is also significant across all models. In model 2 with an increase of self-esteem by 1 point, the sales growth increase by 0.5 points. In model 5 the estimator is equal to 0.42. That is more, with each year of age the sales growth increases by 0.1 point (in model 3) and 0.09 (model 4 and 5). Subjective vitality was significant in model 4 and demonstrates the positive relationship with reported sales growth. The increase of subjective vitality by 1point, leads to increase of sales growth by 0.22 points. In model 5 the sector was added. And this model shows the best result by R-adjusted that is equal to approximately 19%. The reference category for sector is Advertising/Design/Marketing. Students for financial services reported higher sales growth in average by 1.81 points compare with students from Advertising/Design/Marketing sector. And students from manufacturing reported higher sales growth by 1.35 points compare with students from Advertising/Design/Marketing sector. For all models test on residual normality was made (see qqPlots in Appendix 11). According to Kolmogorov-Smirnov all models have normally distributed residuals, Shapiro-Wilk supported such result for models 3-5. For model 5 can be seen the plots of influential observations and fitted vs predicted values in Appendix 10 that also demonstrates appropriate results for trusting the model. The summary of models for Profit growth is illustrated below (Table 3).
+
+
+Table 3. The summary of models for Profit growth.
+
+For models with predicted subjective Profit growth also was added if parents are owners of business. For prediction of Profit Growth this variable provide the improvement of the model and it was close to being significant according Kruskal test for average profit growth. The VIF test demonstrates the lack of multicollinearity problem for all models (in model 5 the highest value is 2.8 for sector and for model 4 is 2.26 for flirtation frequency). The studentized Breusch-Pagan test also did not propose any problem of heteroscedasticity. The model 4 shows better prediction power than model 5 (19.2% and 18.6%, correspondingly). In models for Profit growth prediction the majority significant variables are not stable across models. In the model 1 there is no significant variables. In model 2 self-esteem and flirtation frequency are significant. However, flirtation frequency did not save its significance across other models. Meanwhile, self-esteem is significant over all models. In model 2, 3, 4 with an increase of self-esteem by 1 point, the reported Profit growth increases by 0.42–0.44 points. In model 5 the coefficient is equal to 0.33. In model 4 and 5 adding more predictors lead to significance appearance of education and marital status. Students from higher than bachelor’s degree in average reported lower Profit growth by 0.98 (1.15) points. Students with a single status reported in average lower Profit growth by 0.72 (0.81) points. In model 4 the subjective vitality is significant. With increase of subjective vitality by 1 point, the reported Profit growth increases by 0.26 points. In model 5 students from manufacturing reported in average higher Profit growth by 1.56 points comparing with students from Advertising/Design/Marketing sector. For Profit growth the distribution of residuals is better for model 4 that model 5 (see Appendix 13). However, for these models only Kolmogorov-Smirnov determined the distribution of residuals as normal. The diagnostic for model 4 is presented in Appendix 12. There are several influential observations exist, but the most strongly influenced were deleted after Cook’s distance analysis. 
+The comparison of models for Sales and Profit Growth is presented in the table 4. By the mean square error all models for Sales growth outperform models for Profit growth. For both dependent variables adding control variables improve the prediction power. For Sales growth from 4% to 18% and for the Profit growth from 4% to 19%. Addition of self-esteem to model for Sales growth improved slightly better than model for Profit growth (15% and 12%, correspondingly). Meanwhile, addition of power distance, subjective vitality, affective commitment did not strongly improved models for Sales growth (17.6% model 3 and 18.4% model 4), for Profit Growth the opposite situation (16% model 3 and 19.2% model 4). This can be a signal of biased coefficient in models for Profit growth.
+
+Table 4. The comparison of models for Sales and Profit Growth.
+
+
+Part 2. The check for mediation effect and moderated mediation effect.
+
+Firstly, the ordinary least square regression was used for determining if social sexual behavior variables (SSB) influence on self-esteem. And interaction effect was used for determining if gender have a moderator effect on the relationship between social sexual behavior and self-esteem.
+For model with SSB and gender as predictors there are no significant influence on self-esteem. Meanwhile, addition of moderator effect to flirtation frequency and sexual storytelling, there is a significant interaction effect of flirtation frequency and gender on 95 CI. For males with constant increase of flirtation frequency, the estimation of self-esteem increases by 0.56 points. The predictive power of the model is low ~ 5% (Table 5).
+
+Table 5. The summary of models for self-esteem. 
+
+
+Using the function “interact_plot” from package “interactions” the moderator effect is visualized. From the graph can be seen the trend. With a gradual increase of flirtation for females, self-esteem tend to decrease, meanwhile, for males tend to increase (Fig. 4).    
+
+
+Figure 4. The interaction effect of gender for relationship between flirtation frequency and self-esteem.
+
+An additional method for checking of mediation effect was a creation of a model for detection of indirect effects by function “sem()” from “lavaan” package using bootstrap with 1000 samples. The formula for model consists of three paths: “Firm Performance ~ b* self-esteem + cprime* social sexual behavior” and “self-esteem ~ a*social sexual behavior”, where a – path between SSB and self-esteem, b – path between self-esteem and firm performance, cprime – path between SSB and firm performance. The total effect was defined as “c:= ab + cprime” where ab – indirect effect (mediation). 
+For Sales growth (Fig.5) the mediation effect was not detected. Each point increase of flirtation frequency associated with sales growth increase by cprm = 0.28 points (S.E. = 0.111) independent of its associations with self-esteem. Each 1-point increase in self-esteem positively associated with sales growth b = 0.47 (S.E. = 0.113). There was no sufficient evidence that increase in flirtation frequency is associated with increase of self-esteem a’ = 0.04 (S.E. 0.103) that means increase in frequency flirtation was not indirectly associated with increase of sales growth through self-esteem.
+
+
+
+
+
+Figure 5. The mediation models for Sales Growth.
+
+Addition of sexual storytelling frequency instead of flirtation frequency demonstrates the lack of associations even directly between increase of sexual storytelling frequency and increase of sales growth cprm’ = 0.1 (S.E. = 0.13). There is no evidence of association between sexual storytelling frequency and self-esteem a’ = 0.06 (S.E. = 0.095). Meanwhile, increase in self-esteem is associated with increase of sales growth b = 0.49 (S.E. = 0.107). 
+
+In the Fig. 6 the models for Profit growth are presented. In the first model the increase of flirtation frequency is associated with increase of Profit growth cprm = 0.38 (S.E. = 0.104) independent of associations with self-esteem. The frequency of flirtation does not demonstrate the associations with self-esteem a’ = 0.04 (S.E. = 0.103). The increase of self-esteem is associated with Profit growth b = 0.42 (S.E. = 0.110). As the path a was not significant, there is no evidence of indirect effect of flirtation frequency and Profit growth through self-esteem.
+
+
+
+The Figure 6. The mediation models for Profit Growth.
+
+Considering sexual storytelling, it demonstrates direct positive associations with Profit growth cprm = 0.29 (S.E. = 0.125) independent of associations with self-esteem. Increase in self-esteem associated with increase of Profit growth b = 0.41 (S.E. = 0.113). Meanwhile, there is no evidence of associations between sexual storytelling frequency and self-esteem a’ = 0.06 (S.E. = 0.097). That means there is no indirect effect of sexual storytelling frequency on Profit growth through self-esteem. 
+In order to check the moderator effect there was written formula as: “Firm Performance ~ b * self-esteem + cp * SSB”, “self-esteem ~ a1 * SSB + a2 * gender + a3 * GenderxSSB”. The indirect and total effects there determined as “Indirect Mediation Moderator: = a3*b”. Where b – is a path for relationship between self-esteem and Firm performance, cp – the path for relationship between SSB and self-esteem. a1 – path between SSB and self-esteem, a2 – path between gender and self-esteem, a3 – the moderator effect of gender on SSB. 
+There was model creation for Sale growth (Fig.7) as well as Profit growth (Fig.8). The moderator effect of gender and frequency of sexual storytelling is not significant. Meanwhile, the moderator effect for gender and frequency of flirtation (-0.58, S.E. = 0.197). As gender was transformed into numeric variable, where male – 0 and female – 1. The coefficient means that for females the frequency flirtation associated with decrease in self-esteem. The path between self-esteem and Sales growth has a positive association (0.29) that that was determined in the previous model as well as the association between self-esteem and sales growth (0.47) (Fig.7). The indirect moderated mediation effect is significant (-0.271, S.E. = 0.112). 
+
+
+ 
+
+Figure 7. The moderation mediation model for Sales growth.
+
+The models with moderated mediation effect for Profit growth (Fig.8) demonstrate that moderator with gender and sexual storytelling frequency is not significant and there is no evidence of associations between sexual storytelling frequency and self-esteem moderated by gender of student. Meanwhile, flirtation frequency has associations with self-esteem depending on the gender of the student (-0.58). The coefficient for Profit growth is similar to the Sales growth. With a constant increase of frequency flirtation for females the self-esteem decreases by 0.58. The association between flirtation frequency and Profit growth (0.39) – as it was for mediation model. The association between Profit growth and self-esteem is equal to 0.42 that is close to 0.41 from mediation model. The indirect moderated mediation effect is significant   (-0.243, S.E. = 0.112). 
+
+
+
+Figure 8. The moderation mediation model for Profit growth.
+
+
+
+
+Conclusion
+
+In this work there was checked three hypotheses. And for the first hypothesis there were constructed several models. Firm Performance was evaluated as Sales growth and Profit growth. Flirtation frequency in model with Sales growth demonstrates significant positive relationship with Firm performance that means the hypothesis 1 was approved only by flirtation frequency and for sales growth. However, this result could be explained by the small proportions of questions in the survey connected with sexual storytelling frequency. Also, the model for Sales growth demonstrates better prediction in terms of Mean Square Errors as well as stability of coefficients. Across all regression models self-esteem demonstrates the positive relationship with Firm Performance. Age was also significant predictor for Sales growth that may signal about students with higher age probably exist in the business longer that provides an advantage in knowledges over competitors in the question of sales. Adding sector as an additional predictor provided more descriptiveness for the model and aimed to explore if there any sectors where students are more successful in business. The results of both models demonstrate that in manufacturing sector students estimated their sales growth as well as profit growth higher in average than advertising/design/marketing sector. That may be also connected with difficulties to outperform the competitors in creative industry, meanwhile, the manufacturing is more stable. 
+According to the mediation model there was no mediation effect for SSB and Firm Performance through self-esteem. That is characteristically both for Sales and Profit growth as well as for flirtation frequency and sexual storytelling frequency. And the same result was received from regression analysis there was checked if there is a relationship between self-esteem and SSB and gender as a separate predictor. That means the Hypothesis 2 was not approved and self-esteem is not a mediator for the relationship between SSB and Firm Performance. However, in model with moderated mediation effect there is appeared the association between SSB and self-esteem under the gender. The result of these models demonstrates that flirtation frequency is moderated by gender and females in average demonstrates lower self-esteem with a constant increase of flirtation frequency. That means that the Hypothesis 3 was supported. These results are consistent with previous studies and supported that a woman tends to perceive the social sexual behavior as negative and silence of such behavior on the part of colleagues may aggravates the emotional state as well as influence on self-esteem. This result is important in such sense that self-esteem in its turn positively associated with Firm Performance. 
+The contribution of this work can be evaluated from scientific as well from organization point of view. This work provided evidence of moderated mediation effect between SSB and Firm performance and supported the methodological appropriateness of using models with indirect effect for testing the hypotheses considered the variables with ordinal scales. The percentage of explained variance by regression analysis with adding control variables was still small (~18-19%), but it is also could be due to ordinal scale and subjectivity of the answers. Our research serves as the basis for a future theory that considers SSB as a potential mechanism by which organizations can increase the level of self-confidence of their employees, which will also increase the financial performance of the organization.
+There are several limitations in the study that need to be mentioned. Firstly, since we analyze behavioral processes at the stage of creating a company, as well as at the stage of its further activity, this can lead to distortions due to problems with temporality. The behavior of entrepreneurs may undergo changes since with the passage of time they accumulate experience and knowledge. The acquisition of experience can play a special role in the behavior of employees. Secondly, there is a general limited sample of students and a lack of entrepreneurial experience among students. This problem was solved in the following way: only active entrepreneurs, who are on average 25 years old, are considered, all of them conduct their own business.
+For further development the additional variable can be added: evaluation of social sexual behavior. As in this survey there was a lack of responses for this question, it was not provided in this work. However, estimation may be included as index with frequency of SSB and the mediation effect of SSB and firm performance through self-esteem could appear.
+
+ 
+ 
+
+References
+Aquino, K., Sheppard, L., Watkins, M. B., O’Reilly, J., & Smith, A. (2014). Social sexual behavior at work. Research in Organizational Behavior, 34, 217–236. https://doi.org/10.1016/j.riob.2014.02.001
+Pierce, C. A., Broberg, B. J., McClure, J. R., & Aguinis, H. (2004). Responding to sexual harassment complaints: Effects of a dissolved workplace romance on decision-making standards. Organizational Behavior and Human Decision Processes, 95(1), 66–82. https://doi.org/10.1016/j.obhdp.2003.06.001
+Sheppard, L. D., O’Reilly, J., van Dijke, M., Restubog, S. L. D., & Aquino, K. (2020). The stress-relieving benefits of positively experienced social sexual behavior in the workplace. Organizational Behavior and Human Decision Processes, 156, 38–52. https://doi.org/10.1016/j.obhdp.2019.09.002
+Crow, S. M., Hartman, S. J., Hammond, D., & Fok, L. Y. (1995). The impact of personality factors on sexual and non‐sexualharassment sensitivity. Women in Management Review, 10(6), 9–19. https://doi.org/10.1108/09649429510095980
+Blumenthal, J. A. (1998). The reasonable woman standard: A meta-analytic review of gender differences in perceptions of sexual harassment. Law and Human Behavior, 22(1), 33–57. https://doi.org/10.1023/a:1025724721559
+Rotundo, M., Nguyen, D. H., & Sackett, P. R. (2001). A meta-analytic review of gender differences in perceptions of sexual harassment. Journal of Applied Psychology, 86(5), 914–922. https://doi.org/10.1037/0021-9010.86.5.914
+Wiener, R. L., Bornstein, B. H., Schopp, R., & Willborn, S. L. (2010). Social Consciousness in Legal Decision Making: Psychological Perspectives (Softcover reprint of hardcover 1st ed. 2007 ed.). Springer.
+Braithwaite, D. O., Suter, E. A., & Floyd, K. (2017). Engaging Theories in Family Communication: Multiple Perspectives (2nd ed.). Routledge.
+Gutek, B. A., Morasch, B., & Cohen, A. G. (1983). Interpreting social-sexual behavior in a work setting. Journal of Vocational Behavior, 22(1), 30–48.
+Bowes-Sperry, L., & Powell, G. N. (1999). Observers’ Reactions to Social-Sexual Behavior at Work: An Ethical Decision-Making Perspective. Journal of Management, 25(6), 779–802.
+Pryor, J. B., Desouza, E. R., Fitness, J., Hutz, C., Kumpf, M., Lubbert, K., Pesonen, O., & Erber, M. W. (1997). Gender Differences in the Interpretation of Social-Sexual Behavior: A Cross-Cultural Perspective on Sexual Harassment. Journal of Cross-Cultural Psychology, 28(5), 509–534.
+Graham, S., & Juvonen, J. (2002). Ethnicity, Peer Harassment, and Adjustment in Middle School:: An Exploratory Study. The Journal of Early Adolescence, 22(2), 173–199.
+GRUBER, J. E., & BJORN, L. (1982). Blue-Collar Blues. Work and Occupations, 9(3), 271–298.
+Shaffer, M. A., Joplin, J. R., Bell, M. P., Lau, T., & Oguz, C. (2000). Gender Discrimination and Job-Related Outcomes: A Cross-Cultural Comparison of Working Women in the United States and China. Journal of Vocational Behavior, 57(3), 395–427.
+Bucchianeri, M. M., Eisenberg, M. E., Wall, M. M., Piran, N., & Neumark-Sztainer, D. (2014). Multiple Types of Harassment: Associations With Emotional Well-Being and Unhealthy Behaviors in Adolescents. Journal of Adolescent Health, 54(6), 724–729.
+Dekker, I., & Barling, J. (1998). Personal and organizational predictors of workplace sexual harassment of women by men. Journal of Occupational Health Psychology, 3(1), 7–18.
+Malovich, N. J., & Stake, J. E. (1990). Sexual Harassment on Campus: Individual Differences in Attitudes and Beliefs. Psychology of Women Quarterly, 14(1), 63–81.
+Alsaker, F., & Olweus, D. (1986). Assessment of Global Negative Self-Evaluations and Perceived Stability of Self in Norwegian Preadolescents and Adolescents. The Journal of Early Adolescence, 6(3), 269–278.
+Barling, J., Dekker, I., Loughlin, C. A., Kevin Kelloway, E., Fullagar, C., & Johnson, D. (1996). Prediction and replication of the organizational and personal consequences of workplace sexual harassment. Journal of Managerial Psychology, 11(5), 4–25.
+Harned, M. S., & Fitzgerald, L. F. (2002). Understanding a link between sexual harassment and eating disorder symptoms: A mediational analysis. Journal of Consulting and Clinical Psychology, 70(5), 1170–1181.
+Baker, A. N., King, D., Nalick, M., Tempio, M., Gupta, V. K., & Pierce, C. A. (2021). Managers’ sexually-oriented behavior and firm performance: linking media reports to stock market reactions and legal risk. Journal of Strategy and Management, 14(4), 562–581.
+Fan, D., Cui, L., Zhang, M. M., Zhu, C. J., Härtel, C. E., & Nyland, C. (2014). Influence of high-performance work systems on employee subjective well-being and job burnout: empirical evidence from the Chinese healthcare sector. The International Journal of Human Resource Management, 25(7), 931–950.
+Shirokova, G., Osiyevskyy, O., Morris, M. H., & Bogatyreva, K. (2017). Expertise, university infrastructure and approaches to new venture creation: assessing students who start businesses. Entrepreneurship & Regional Development, 29(9–10), 912–944.
+Choe, K. L., Loo, S. C., & Lau, T. C. (2013). Exploratory Study on the Relationship between Entrepreneurial Attitude and Firm’s Performance. Asian Social Science, 9(4).
+
+Appendices
+
+Appendix 1.
+The distribution of control variables.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Appendix 2
+The distribution of variable of interest and dependent variables
+
+Appendix 3
+Scatter plots with smoothing terms for Sales Growth and independent variables
+
+
+
+
+Appendix 4
+Scatter plots with smoothing terms for Profit Growth and independent variables
+
+Appendix 5
+The plot of correlations between Sales Growth and independent variables
+
+
+
+
+Appendix 6
+The plot of correlations between Profit Growth and independent variables
+
+Appendix 7
+The correlation matrix of variables
+
+
+
+
+
+
+
+Appendix 8
+The distributions of Sales growth by sectors
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Appendix 9
+The distributions of Profit growth by sectors
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Appendix 10
+The diagnostics of model 5 for Sales Growth.
+
+
+Appendix 11
+The distribution of residuals of models for Sales growth.
+
+
+
+
+Appendix 12
+The diagnostics of model 4 for Profit Growth.
+
+
+Appendix 13
+The distribution of residuals of models for Profit Growth.
+
+
+
+
+Appendix 14
+The link to all RStudio script files used for empirical analysis.
+https://drive.google.com/drive/folders/1-cgNSrmZqoz8SPD_oOFJVqLPphGWDKqB
+

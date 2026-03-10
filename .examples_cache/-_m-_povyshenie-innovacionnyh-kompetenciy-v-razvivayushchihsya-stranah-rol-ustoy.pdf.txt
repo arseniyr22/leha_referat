@@ -1,0 +1,5383 @@
+FEDERAL STATE EDUCATIONAL INSTITUTION 
+
+OF HIGHER EDUCATION 
+
+NATIONAL RESEARCH UNIVERSITY 
+
+HIGHER SCHOOL OF ECONOMICS 
+
+Saint Petersburg School of Economics and Management 
+
+Kumari Kajal 
+
+Ojo Kolawole Shola 
+
+Manisha 
+
+"ENHANCING INNOVATION COMPETENCIES IN DEVELOPING COUNTRIES: THE ROLE OF 
+RESILIENCE AND PERSONALITY TRAITS"  
+
+Master’s thesis  
+
+In the field 38.04.02 ‘Management’ 
+
+Educational programme ‘MANAGEMENT AND ANALYTICS FOR BUSINESS’ 
+
+                               Supervisor 
+
+Professor Natalia Volkova 
+
+Saint Petersburg 2022 
+
+1 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                         
+ 
+ 
+ 
+ 
+ 
+Table of Content  
+
+Introduction ........................................................................................................................................... 6 
+
+Literature Review ................................................................................................................................. 9 
+
+Hypotheses development ................................................................................................................ 18 
+
+Conceptual Model ........................................................................................................................... 23 
+
+Methodology ........................................................................................................................................ 25 
+
+Research Design .............................................................................................................................. 25 
+
+Data Collection & Sampling .......................................................................................................... 25 
+
+Measurement Scales ........................................................................................................................ 26 
+
+Data Preparing ................................................................................................................................ 27 
+
+Data Analysis Techniques .............................................................................................................. 28 
+
+Reliability ..................................................................................................................................... 28 
+
+Validity ......................................................................................................................................... 29 
+
+Structural Equation Modelling (SEM) ..................................................................................... 29 
+
+Data Analysis, Results and Discussion .............................................................................................. 30 
+
+Data Analysis ................................................................................................................................... 30 
+
+Descriptive statistics .................................................................................................................... 30 
+
+Measurement Scale Reliability .................................................................................................. 35 
+
+Measurement Scale Validity ...................................................................................................... 35 
+
+Correlation Analysis ................................................................................................................... 35 
+
+Multicollinearity Test ................................................................................................................. 37 
+
+Structural Equation Modelling .................................................................................................. 37 
+
+Results and Findings ....................................................................................................................... 38 
+
+The analysis of Creativity, Resilience and Personality Traits ................................................. 38 
+
+The analysis of Teamwork, Resilience, Personality Traits ...................................................... 39 
+
+The analysis of Initiative, Resilience and Personality Traits .................................................. 39 
+
+The Analysis of Critical Thinking, Resilience and Personality Traits ................................... 39 
+
+The Analysis of Networking, Resilience and Personality Traits ............................................. 40 
+
+Discussion of Findings .................................................................................................................... 42 
+
+Conclusion ........................................................................................................................................... 44 
+
+Implications ..................................................................................................................................... 45 
+
+Limitations of the study .................................................................................................................. 46 
+
+Future Research .............................................................................................................................. 46 
+
+References ............................................................................................................................................ 47 
+
+2 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Appendix A .......................................................................................................................................... 54 
+
+Appendix B .......................................................................................................................................... 56 
+
+Appendix C .......................................................................................................................................... 58 
+
+3 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Table of Figures 
+
+Figure 1:Gender distribution of respondents ........................................................................................ 31 
+Figure 2: Age distribution of respondents ............................................................................................. 31 
+Figure 3: Distribution of respondents by academic enrolment ............................................................. 32 
+Figure 4: Distribution of respondent by their academic programs ....................................................... 33 
+Figure 5: Distribution respondents by their work experience ............................................................... 33 
+Figure 6: Distribution respondents’ work experience by country ......................................................... 34 
+
+List of Tables 
+
+Table 1: Test of Reliability ................................................................................................................... 26 
+Table 2: Summary statistics of the constructs (in standardized units) .................................................. 34 
+Table 3: Test of Reliability ................................................................................................................... 35 
+Table 4: Correlation Matrix Table ........................................................................................................ 36 
+Table 5: Test of multicollinearity.......................................................................................................... 37 
+Table 6: SEM Goodness of fit............................................................................................................... 38 
+Table 7: Summary of SEM results ........................................................................................................ 41 
+
+4 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Abstract 
+
+Enhancing innovative competences has been considered as important learning goal in higher 
+
+education due to growing needs for professional skills in the 21st century that makes the life 
+
+challenging and stressful. To cope with this stress, individual needs to be resilient which can 
+
+be  affected  by  personality  traits.  This  study  aims  to  determine  the  relationship  between 
+
+personality  traits  and  innovative  competences  through  the  mediating  role  of  resilience.    A 
+
+survey was created, and 521 responses were collected through self-reported questionaries from 
+
+three developing countries namely, Russia, Pakistan, and Nigeria. The data was analyzed using 
+
+Structural  equation  modeling  (SEM)  and  the  results  indicate  that  openness  to  experience, 
+
+extraversion, agreeableness, and conscientiousness enhanced the resilience and that increases 
+
+innovative  competences  including  creativity,  teamwork,  critical  thinking,  initiative,  and 
+
+networking.  Whereas neuroticism decreases the  resilience, and  which negatively  affects  the 
+
+innovative  competences.  Therefore,  we  can  conclude  from  the  findings  of  this  study  that 
+
+individuals high on openness to experience and conscientiousness are better able to cope with 
+
+the stress associated with failures because of their rich experience with similar situations and 
+
+can  create  the  much-desired  solutions  to  problem.  Besides,  with  larger  social  network, 
+
+extraverted people can increase their resilience level and ultimately enhances the innovative 
+
+competence. In contrast, neuroticism personalities are overreactive and emotional instable that 
+
+might  make  them  less  resilient,  therefore  reduce  their  level  of  teamwork,  networking,  and 
+
+creativity. 
+
+5 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Introduction 
+
+The modern world has been craving for the innovation since the industrial revolution and its 
+
+hunger has never been satisfied rather it has been growing ever since. Almost every aspect of 
+
+the society strives for this phenomenon. The question is why is this so much important? The 
+
+foremost relatable answer to this question is that it makes human progress (Pellicer-Sifres et 
+
+al., 2017) whereby economies of the nation thrive. Innovation makes a significant contribution 
+
+in the economic growth that overflows between countries, industries, and firms (Thakur-Wernz 
+
+& Bosse, 2022). It is a buzzword, where every leader knows its importance, but they explain 
+
+in their own ways. For example,  Skillicorn (2016) said, creativity is the ability to generate 
+
+useful and novel ideas which works as a seed for innovation, but it is just an idea until it’s not 
+
+applied or scaled. So, it is basically a capacity to conceptualize and implement innovative or 
+
+creative ideas that have a real and meaningful impacts (Adepoju & Nwulu, 2021).  
+
+Labor  force  needs  are  frequently  evolving  as  globalization  continues  to  influence 
+
+national and international economies (Foster & Yaoyuneyong, 2016). The growing need for 
+
+professionals  is  increasing  in  today’s  competitive  society  of  21st  century,  therefore,  the 
+
+educational institutions are looking way forward to increase the innovation competence among 
+
+their students. Because young generation is the future of the economy and they may work for 
+
+organizations  after  their  studies  (Ovbiagbonhia  et  al.,  2019).  Indeed,  educational  system 
+
+appreciate  creative  thinking  but  often  don’t  pay  attention  to  the  development  of  innovation 
+
+competence which prepares students for the uncertain future  (Beghetto & Kaufman, 2014a). 
+
+Instead,  they  should  help  students  to  develop  these  skills,  they  are  suppressing  it  but 
+
+fortunately, this skill cannot be killed, because it is an inherent and natural aspect of human 
+
+experience  (Beghetto  &  Kaufman,  2014a).  Therefore,  the  most  important  thing  is  the 
+
+development of the environment that supports and encourage the enhancement of innovation 
+
+competence among  students.  Where they have hypothetical  situations, updated and relevant 
+
+curriculum and can learn human experiences based on uncertainty and able to think out of the 
+
+box (Ovbiagbonhia et al., 2019).  
+
+Uncertainty has association with risk and where there is risk, there is element of stress 
+
+and  tough  times.  There  is  quote  related  to  the  innovation,  personality  traits  and  resilience. 
+
+“Genius is 1 percent inspiration and 99 percent perspiration” (Thomas Edison, 1932). This 
+
+quote can be explained as being initiative with creative idea that is risky is just a starting point, 
+
+but 99 percent is the continuous struggle and efforts require to accomplish it. In the journey of 
+
+continuous reconstruction, there can be challenges  and hardships throughout  the way. Then 
+
+6 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+resilience  plays  an  important  role  here  to  deal  with  those  negative  circumstances  and 
+
+challenges.  Resilience  is  basically  referred  to  a  positive  phenomenon  which  is  an  ability  to 
+
+recover  from  the  challenging  and  stressful  situations  (Zellars  et  al.,  2011).  So,  for 
+
+organizations, stressful situations are the part of their daily routine, they require continuous 
+
+redesigning in their business process, values and behaviors that ultimately demand perspiration 
+
+and resilience that comprehensively favor it over innovation. Therefore, this it is very important 
+
+to find the role of resilience between personality traits and innovation competence. 
+
+For the development of this productive environment that can enhance and polish the 
+
+innovative competence  among  students  through resilience, there should be enough research 
+
+available to get fruitful results from it. But unfortunately, the most difficult challenge is absence 
+
+of  the  abundant  research.  This  gap  prevents  assessing  the  factors  influence  innovation  and 
+
+comprehend the function that of innovation in the development and growth  of the economy 
+
+(Daksa  et  al.,  2018).  Individual  characteristics  affect  variously  on  innovation  competence. 
+
+Therefore, in this study, our focus is to observe the role of resilience on the relationship between 
+
+personality  traits  and  innovation  competence.  Although,  many  studies  have  been  done  on 
+
+innovation competence in relation with psychological and personality traits that focused on the 
+
+individual level, but they are too limited and narrow (Beghetto & Kaufman, 2014). Hence, in 
+
+this  present  study  the  variable constructs are  broad; innovation competence  and  personality 
+
+traits constructs each consist of five dimensions   
+
+In addition to these three constructs, we have also collected data from three developing 
+
+countries: Russia,  Nigeria, and Pakistan.  It  is  also  one of the gaps  to  be  filled in this  study 
+
+because  no  researcher  has  studied  the  relationships  between  these  three  variables  in  these 
+
+developing countries. We analyze these developing countries because innovation plays a very 
+
+crucial  role  in  determining  their  long-term  survival,  value  creation,  competitiveness,  and 
+
+productivity  (Beghetto  &  Kaufman,  2014a).  Developing  countries  lack  human  capital,  low 
+
+managerial capabilities and most important thing is takes time to adopt the technology that is 
+
+rapidly altering the economies globally. Furthermore, there are many empirical studies on the 
+
+determinants  of  innovation  in  developed  countries  (Beghetto  &  Kaufman,  2014a)  but  to 
+
+generalize the conclusion drawn from these studies might be inconclusive and misleading for 
+
+the  developing  countries  (Daksa  et  al.,  2018).  So,  the  main  research  gap  in  our  study  is  to 
+
+understand the role of resilience in enhancing the Innovation competence and personality traits. 
+
+There  is  no  such  study  who  has  used  resilience  as  a  mediator  variable  between  Innovation 
+
+competence and personality traits.  
+
+7 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Therefore, the main purpose of this study is to predict the role of resilience between 
+
+innovation  competence  and  personality  traits  among  students  from  different  study  fields  in 
+
+Russia, Nigeria, and Pakistan. The specific objectives are to: 
+
+Research Objectives 
+
+1.  Understand the relationships between innovation competence, resilience, and personality traits 
+
+among students in three developing regions. 
+
+2.  Fit  a  model  that  predicts  individual  innovation  competence  using  personality  attributes  and 
+
+resilience. 
+
+3.  Make  recommendation  to  business  and  educational  stakeholders  on  how  to  enhance  the 
+
+innovation competence of students, current and future labor force. 
+
+Research Question 
+
+All this led us to define our research question as:   
+
+1.  What is the role of resilience in the relationship between big five personality traits and five 
+
+dimension of innovation competence?  
+
+8 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Literature Review 
+
+This  section  will  discuss  about  the  previous  studies  related  to  innovative  competences, 
+
+personality traits and resilience. Afterwards, we will discuss about the theoretical model and 
+
+develop the hypotheses accordingly. In the last, we will develop the conceptual model to show 
+
+the relationship among variables.  
+
+Innovative Competences 
+
+Innovation  is  the  crucial  and  important  factor  for  the  success  of  organization  and 
+
+nowadays  companies are more focused on creativity and innovation  to  hire the individuals. 
+
+Creativity  is  defined  as  creation  of  unique,  new,  and  creative  ideas  and  innovation  means 
+
+successful implementation of those ideas (Farr & West, 1990). Thus, it means before being 
+
+innovative, students should be creative enough to generate the ideas so later that idea could be 
+
+successfully  converted  into  a  realistic  and  implementable  solution.  These  factors  help  to 
+
+develop  the  competences.  McClelland,  (1987)  defined  the  competence  is  combination  of 
+
+motivation, knowledge, skills, and abilities to increase the performance in any area or aspect 
+
+of life. Currently, one of the major competences has been considered that is innovation. This 
+
+competence is the cluster of competences including skills, abilities considered as innovation 
+
+competences (Marin-Garcia, Andreu-Andrés, et al., 2016).  
+
+According to (Farr & West, 1990) innovative competences is expressed as to create the 
+
+original, relevant, implementable solutions of problems. Developing innovative competences 
+
+among students has been important among higher education students because in recent years, 
+
+the work environment is highly challenging due to technological change and complex demand 
+
+system  (Chell  &  Athayde,  2009a).  Besides,  universities  are  being  aware  to  educate  the 
+
+graduates  not  only  being  creative  but  also  innovative  that  can  be  able  to  generate  the 
+
+implementable solution of the problems.  
+
+Innovative competences have been considered as the important learning goal in higher 
+
+education (Chan & Yuen, 2014) due to growing needs for professional skills in the 21st century, 
+
+Besides,  innovative  competences  are  considered  that  can  integrate  the  skills,  attitude  and 
+
+knowledge and innovative students  are found to have good  leadership skills, are motivated 
+
+towards tasks, creative, self-persistent, take calculated risks and like to work in complex and 
+
+ambiguous environments that can appear more challenging to them. Therefore, universities are 
+
+looking for ways that can foster innovative competences among students. Based on Dalke et 
+
+al., (2007) one of the ways can be a learning environment that is more focused on hands-on 
+
+9 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+practice  and  makes  the  students  more  engaged  in  the  activities  than the  traditional  learning 
+
+classrooms and should have supportive teachers. Besides, when goals are clearly expressed and 
+
+defined  and  students  realize  that  can  help  in  the  development  of  a  career  then  the  students 
+
+perceive that learning as innovative and that could help to develop the innovative competences 
+
+(Beghetto & Kaufman, 2014b).  
+
+Since  decades,  innovation  competences  are  the  point  of  discussion  for  academic 
+
+institutions  and  corporations.  Therefore,  adequate  literature  is  available  on  this  topic  and 
+
+FINCODA (Framework  of innovation  competences development  and assessment  project) is 
+
+one of them. It is most reliable and valid tools available for the measuring and developing the 
+
+innovation competences (https://www.fincoda.eu/). The FINCODA model is devised to assess 
+
+and increase the innovation capacity of an individual and to fill the gap between academia and 
+
+workplace.  This  model  is  based  on  five  dimensions  of  innovative  competences  those  are 
+
+creativity, teamwork, critical thinking, initiative, and networking (Marin-Garcia et al., 2011; 
+
+Pérez-Peñalver et al., 2018).  
+
+Creativity 
+
+Creativity is defined as the generation of novel ideas, its improvement, and problem-solving 
+
+skills  (Pérez-Peñalver  et  al.,  2018).  It  can  be  a  crucial  factor  that  can  enhance  innovative 
+
+competences.  Because  when  a  problem  is  identified  then  there  is  a  need  for  an  innovative 
+
+solution (Antonietti et al., 2011). Innovative solutions can be developed when students are open 
+
+minded for new ideas and can see it from different perspectives and become aware of many 
+
+factors  that  could  affect  the  decision  including  possibility  and  constraints.  Besides,  it  can 
+
+connect  the  several  events  and  factors  that  can  be  useful  to  reach  a  decision  making  by 
+
+combining  the  old  and  new  experiences.  Creativity  could  be  like  questioning  assumptions, 
+
+leveraging the power of imagination, and challenging the beliefs and stereotypes.   
+
+Critical thinking 
+
+It is defined as the process after the creation of ideas. It includes evaluating the ideas based on 
+
+their advantages, disadvantages considering risk in it (Saatci & Ovaci, 2020a).  Those students 
+
+who think critically would like to solve real life ambiguous and complex problems that can be 
+
+highly challenging for them tend to be more innovative and willing to take more risks (Tabak 
+
+& Barr, 1999).  
+
+10 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Initiative 
+
+After  evaluation  of  ideas,  there  is  need  to  implement  those  ideas.  Individuals  who  take 
+
+initiatives or actions are risk takers and they believe in implementation of ideas which enhances 
+
+the innovative competences. Whereas risk avoidance can make a person less innovative(West, 
+
+2002). Risk-taking and confidence are the parts that can make the person innovative and take 
+
+that idea into successful implementation (Campbell et al., 2004).  
+
+Teamwork 
+
+Teamwork is defined as to work effectively in groups with collaboration (Pérez-Peñalver et al., 
+
+2018)  and  clear  about  the  goals.  When  students  are  clear  about  their  end  goal,  they  can 
+
+collaborate, mobilize, and work with other followers to achieve that goal that is indication of 
+
+team-work skills because innovation can never happen in isolation (Chell & Athayde, 2009). 
+
+Click here to enter text.  They will have faith in their skills,  abilities, and self-confidence to 
+
+achieve that required task.  
+
+Networking 
+
+Networking  is  explained  as  to  create  and  nurture  the  social  relationship  and  build  social 
+
+network. In innovative competences, the process of generating the ideas is not the same as the 
+
+implementation  of  ideas  because  for  implementation,  students  need  to  consider  the  several 
+
+aspects, context, their characteristics, problems that require the critical and innovative thinking 
+
+and responses that may arise so that students can tackle the difficulty and solve that problem. 
+
+So, (Marin-Garcia et al., 2011) suggested that networking and communication can be the factor 
+
+to collect the several constructive ideas to process and assess it through arguments.   
+
+To sum  up, being  innovative and have innovative competences is  the process  and it 
+
+cannot be acquired by radical change. Therefore, in the educational system it is unnecessary to 
+
+strive for radical innovations (Veryzer Jr, 1998) and should believe in process. For instance, in 
+
+the case of education, students are provided with the open-ended tasks to develop competences 
+
+in the challenging environment. Another could be like they are working in an innovative setting 
+
+of a project which builds creativity, need to be social and collaborate with a team to transform 
+
+the unique ideas into multiple solutions (Oshio et al., 2018). These solutions can bring the value 
+
+in students and students  become more creative that can enhance the innovative competence 
+
+among students. Therefore, we can say that it is the process which can be learned and developed 
+
+that  can  be  benefitted  from  collaboration  (Sawyer  et  al.,  2003).  Also,  it  can  vary  based  on 
+
+context  because  competences  are  defined  as  alignment,  integration  and  adoption  of  skills, 
+
+11 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+knowledge,  and  performance  in  the  specified  context  (Mulder,  2012).  The  influence  of 
+
+individual characteristics and context can also seem to be significant in developing innovative 
+
+competences.  
+
+Resilience 
+
+To enter in the adulthood from the age of 19-29 years is highly challenging and stressful that 
+
+includes a lot of ups and down but also open the doors of various possibilities (Arnett, 2015). 
+
+Further, this phase of life seems to be highly complicated because it includes self-exploration 
+
+and self-discoveries, and it became more complicated when students enter in university life. 
+
+The problem they face is like somehow similar at the beginning of  years: The environment 
+
+adaptability, to learn new methods and learn different things, deal with hectic schedule, can 
+
+easily be frustrated because of less time available. This inflexibility of time leads to lower the 
+
+performance of students which ultimately decreases the motivation and concentration among 
+
+students. The individual who finds the ways to cope these challenges are being more resilient 
+
+and  become  able  to  manage  and  overcome  the  stress  and  difficulties  in  their  adult  stage.  
+
+Resilience  is  defined  as  the  set  of  personal  qualities  which  enable  person  to  flourish  in  the 
+
+adversity (Connor et al., 2003).   
+
+The explanation and definitions of resilience has been relatively challenging over the 
+
+period  for  academicians  because  it  includes  various  contexts,  namely  educational  context, 
+
+community, organizational, clinical, and military. Firstly, this concept was used in physics to 
+
+define  the  properties  of  elastic  objects  then  further  it  extended  for  other  fields  (Dyer  & 
+
+McGuinness, 1996). Generally, the definition of resilience is divided into two group thoughts. 
+
+The first group defines that resilience is the personality trait and considered as development 
+
+factor (Lee et al., 2012). The second group defines that resilience is dynamic process and can 
+
+be  influenced  by  the  external  factors  or  environment  (Lee  et  al.  2013).  It  is  process  which 
+
+defines that the ability to adopt well the adversity and stress. Those students have great level 
+
+of  resilience  then  they  can  cope  with  adversity,  stress,  and  difficult  situation.  While  some 
+
+students are more resilient than others which can leads to lower performance, motivation and 
+
+even in worst case university with drawl or dropout.  Therefore, researchers have found that 
+
+those individuals who are resilient can engage and adopt and cope with adversity and turn the 
+
+stressful  situation  into  opportunities  which  can  be  useful  for  learning  and  development 
+
+(Campbell-Sills and colleagues, 2006) and can lead to better academically also increases the 
+
+motivation among students.  
+
+12 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Personality traits 
+
+One of the most essential themes in psychological research is Personality (Danny Azucar et al. 
+
+2017). Research has shown that personality has been demonstrated by the foretelling of many 
+
+exposures of life, including job performance (Andrew Nealet al. 2011), health (Stephen Soldz 
+
+& George.E, Vaillant,1999), political attitudes (Alan S.Gerber et al. 2010), academic success 
+
+(Meera  Kommarraju  et  al.  2009),  subjective  wellbeing  (Natalie  Hayes  &  Stephen  Joseph, 
+
+2002), Online behaviors (Shaojung Sharon Wang, 2013) and social status (Ameron Anderson 
+
+et al. 2001). Human Personality is not only a composite of one factor, and this is very subjective 
+
+in  nature therefore it is  considered as a  complex element  of human. According to  Sigmund 
+
+Freud, the first person who gave the theory on personality in 1923. He divided the personality 
+
+into three parts, the id, ego, and superego and according to Freud’s psychoanalytic theory, all 
+
+these components develop at different stages of human lives like id is the innate element of the 
+
+personality,  whereas  Ego  develops  from  the  Id  and  is  the  decision-making  element  and 
+
+Superego is the voice of conscience (moral sense).  
+
+The term personality is defined in different ways and many Psychologists have worked 
+
+on this term for decades and added value addition in this definition. Traits are the attributes 
+
+that typically belong to a person and have different features. Personality traits are the individual 
+
+factor that varies from person to person based on the characteristic sets of the behavior, thinking 
+
+and  feelings.  It  holds  the  chain  of  factors,  opinions,  moods  and  attitudes  that  is  easily 
+
+understood while interacting and communicating with other people (Philip S.Holzman, 2022).  
+
+More specifically, from human to students, they are the most important part of every nation, 
+
+and this part is also an important stage of human life. From primary to post graduation or all 
+
+stages  of  education,  they  behave  differently,  their  worldviews  are  different  in  various 
+
+educational  and  social  settings  because  they  have  distinguishable  personality  traits  (Soraya 
+
+hakimi et al. 2020). Understanding the personality traits among students is considered as an 
+
+important factor, because it clarifies the many insights of students' behaviors in the real world. 
+
+Personality traits and cognitive abilities are directly or indirectly correlated with their academic 
+
+achievements (Paunonen & Ashton, 2001). And student’s academic achievements lead to many 
+
+different  elements  like  their  motivation,  positive  attitude  towards  corporate  life  and  can  be 
+
+valuable resources of any Economy. There are cumulative effects of academic performance 
+
+and  school  adjustments  with  the  course  of  time  that  have  continuity  effects  on  personality 
+
+(Caspi et al. 2005). 
+
+13 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+In addition to these definitions, after years of effort, Psychologists have created the five 
+
+core dimensions of personality traits and became the main kinds of the personality structure 
+
+(Xiaojie  Zhang  et.  al,  2020).    Personality  traits  are  individualistic  different  characteristics 
+
+among  students,  how  they  think,  behave,  and  feel  differently.  There  are  many  ways  of 
+
+measuring  personality  traits  but  among  the  best  ways  to  measure  those  traits  are  Big  5 
+
+personality traits (Preethi CM and R G Priyadarshini, 2018). Personality of a person can be an 
+
+external or internal factor that is affecting the emotions and it is not only the isolated part of 
+
+human learning it  can be evaluated  based on the traits  of the society, groups and at  certain 
+
+levels  of  humankinds  (Oguzhan  and  Sebnem,  2015).    In  Psychological  trait  theory,  Big  5 
+
+personality  traits theory was developed in  1949  by D.W. Fiske and it was expanded by the 
+
+other  researchers  later  onwards  and  these  Big  5  personality  traits  include  Openness, 
+
+Conscientiousness, Extraversion, Agreeableness and Neuroticism. 
+
+Openness to experience 
+
+Openness to experience is simply how open minded a person is to new ideas or experiences, 
+
+and it is a tendency to  be creative and aesthetically sensitive (Xiaojie Zhang, 2020). It  also 
+
+reflects  broad-mindedness  of  individual,  permeable  awareness,  in  depth  attitudes  (Hakimi, 
+
+2011). Openness is further divided into its sub traits like Imagination, Emotionally, Intellect, 
+
+liberalism, Adventurousness and Artistic interests (Srivastava, 2018). The person who scores 
+
+high on openness will be categorized as intellectual, aware of his feelings, strong in imagination 
+
+and thinks in non-confirming ways. On the other hand, if a person scores low on openness they 
+
+will be categorized as down to earth and do things in a straightforward way (Srivastava, 2018). 
+
+Conscientiousness 
+
+Conscientiousness is defined as the person extent to which it is responsible and achievement 
+
+oriented (Jirásek & Sudzina, 2020). This trait is considered as one of the most important traits 
+
+in personality (Ashton, 2022). When conscientiousness level is high that could lead to positive 
+
+outcomes in many aspects of lives including student and work life (Ozer & Benet-Martinez, 
+
+2006).  Due  to  technological  change  and  emerging  new  fields,  people  want  to  change  their 
+
+personality  voluntary  that  increases  the  people  desires  to  enhance  the  conscientiousness 
+
+(Hudson & Fraley, 2015).  
+
+14 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Extraversion 
+
+Extraversion is one of the dimensions of personality trait and it is explained as the extent to 
+
+which person is self-oriented or socially oriented (Feist, 2019a). When individuals have the 
+
+trait of extraverts that tend to be talkative, cheerful, confident, enjoy spending time with others, 
+
+good at leadership skills and considered more satisfied from lives (Yao & Li, 2021a). Whereas, 
+
+when person has low level of extraversion considered as introverts and they are more Quiter, 
+
+un-social, keep themselves behind the background and enjoy being alone.  
+
+Agreeableness 
+
+Agreeableness is defined as extent to which person is friendly, considerate and interact with 
+
+others  in  friendly  manner  (Saatci  &  Ovaci,  2020b).  Besides,  it  is  described  as  having 
+
+harmonious relationship with others, likeable, kind, warm and pleasant. These individuals are 
+
+motivated  to  maintain  the  positive  relationship  with  others,  and  they  could  have  good 
+
+networking and teamwork skills (Graziano & Tobin, 2009). Being agreeableness could have 
+
+negative impact on the personality because to avoid the conflict they might not be able to think 
+
+creatively and doubt on themselves and their ideas. The people those are low on agreeableness 
+
+tend to be consider as unfriendly, self-centered, and uncooperative (Chang et al., 2014) and 
+
+they share their ideas to other team mates regardless of caring about conflict which can affects 
+
+the relationship with the teammates.   
+
+Neuroticism 
+
+Neuroticism is about the extent the person is emotionally stable or emotionally unstable.  These 
+
+neurotic people experience negative feelings and overreact to the situation  (Widiger, 2009). 
+
+When the individuals  have high  score in  neuroticism that means they will experience more 
+
+negative  emotions  than  the  average  person  like  fear,  anxiety,  guilt,  anger  and  depression 
+
+(Widiger, 2009). Most of the time, they poorly respond to stress of environment and consider 
+
+the ordinary situation as threatening that could leads to frustrations. These individuals often 
+
+tend to be shy, self-conscious, and quite difficult for them to control the urges and impulses 
+
+which can make them sad or upset (Widiger, 2009).  
+
+15 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Theoretical framework  
+
+Theory of resilience 
+
+Resilience  theory  described  as  the  stress  coping  ability  that  could  managed  the  stress, 
+
+depression, and anxiety in more effective way. It is the motivational force that drive the human 
+
+being to pursue wisdom, altruism, and harmony with the force of spiritual strength. According 
+
+to Benson, (1997) resilience helps to identify the individual traits and strengths that could help 
+
+the human being to survive in the face the adversity. Besides, Emmy Werner (1982) described 
+
+the  personal  characteristics  that  includes  socially  responsible,  extrovert,  conscientiousness, 
+
+tolerant, adaptable and have good self-esteem. Whereas Norman Garmezy (1991) explained 
+
+the  resilience  theory  from  different  perspective  and  the  characteristics  he  suggested  self-
+
+discipline, internal locus of control, critical thinking skills, self-esteem, and problem-solving 
+
+skills. There are many resilient qualities describes by authors included creativity (Simonton, 
+
+2000). These list of traits, states and characteristics has been exhaustive therefore the paradigm 
+
+shift  from  identification of risk factors to  focus  on personal  strength  and qualities has been 
+
+significant.  
+
+Resiliency theory explains that there is force inside everyone which drive them to seek 
+
+wisdom,  self-actualization,  harmony,  and  altruism  with  the  help  of  spiritual  strength.  In 
+
+educational system, resilience helps the students to grow and know themselves by body, mind 
+
+and spirit through innate qualities or strength. This helped the students to handle the adverse 
+
+situation  without  being  overwhelmed.  Besides,  it  produces  the  child-like  nature  among 
+
+individuals  and  create  the  self-love  that  drives  them  to  enhance  the  creativity,  being 
+
+adventurous and curious in  life. Resilience can be strengthened by the personal  qualities  or 
+
+personality traits which can help the students to become more innovative and creative. Whereas 
+
+(Rutter, 2013) explained the resilience theory consider the individual difference in personality 
+
+traits;  genetics  creates  the  difference  in  the  response  of  each  person  towards  the  risk  and 
+
+protective factors because same person can respond differently in different  situation, so it is 
+
+more affected by environment change. Similarly, (Luthar, 2013) align with his point of view 
+
+and  he  explained  that  resilience  is  dynamic  process  that  is  related  to  positive  adaption  of 
+
+environment  in  case  of  adversity.  Therefore,  we  can  say  that  resilience  is  affected  by 
+
+personality  traits  and  by  the  environment  which  can  affects  the  students’  innovative 
+
+competences in-terms of creativity and critical thinking skills.   
+
+16 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Investment theory of creativity 
+
+This study has been used the basis of investment theory of creativity proposed by Sternberg 
+
+(2006) with the collaboration of Todd Lubert. He proposed that creativity involves largest part 
+
+of decision. People are considered creative when they buy low and sell high in terms of ideas. 
+
+Buy low means creative people propose the ideas which are novel and can get high level of 
+
+resistance.  But  they  convince  people,  and  their  ideas  start  getting  acceptance,  so  those 
+
+individual sell at high  and reap out  the profits then again  move to  another new idea. These 
+
+creative people resist  to follow the crowd instead they create their own direction and try to 
+
+achieve it. Creativity is learned behavior not inborn behavior, they set their own attitudes and 
+
+work in that direction by taking the risks, face the obstacles and examine their own thoughts 
+
+which can make the hurdle in the creative process. Based on investment theory of creativity, 
+
+these set of attributes are teachable and students can adopt these attributes and enhance their 
+
+creativity.   
+
+Investment  theory  of  creativity  is  explained  based  on  six  components  those  are: 
+
+Abilities,  Style  of  thinking,  environment,  motivation,  knowledge,  and  personality  traits. 
+
+Abilities includes to see the problems from new perspective and try to solve it with new ideas 
+
+and then evaluate those all ideas and try to pursue the feasible one. Afterwards, try to convince 
+
+others the value of that idea and take their support and eventually sell that idea to those people. 
+
+Second component is style of thinking, that creative person is more open minded and open to 
+
+new ideas and think in a way that can valuable and fit for its own purpose. Third component is 
+
+environment that creative people need supportive environment to flourish their ideas, therefore, 
+
+in  universities  teachers  should  provide  supportive  environment  to  students  to  enhance  the 
+
+creativity.  Besides,  creative  people  love  to  do  what  they  do  that  is  their  main  cause  of 
+
+motivation and that enhance the creativity. Creativity cannot be totally based on novel ideas 
+
+rather it is also affected by existing knowledge and new information. Finally, personality traits 
+
+play a very important role in the creativity, these individuals are risk seekers, and they love to 
+
+take risk and they do not try to do the things through conventional way rather they buy low and 
+
+sell at high and show the readiness to take the sensible risks and challenges and overcome the 
+
+obstacles  and  have  a  sense  of  clarity  for  their  ideas.  Overall,  these  six  components  can  be 
+
+adopted which can make the individual creative and innovative.   
+
+17 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Hypotheses development 
+
+Personality traits and innovative competences with the mediating role of resilience 
+
+Resilience is considered as process that can demonstrate itself by the response of external life 
+
+events and personality profiles of individual (Dyrbye & Shanafelt, 2012). Besides, resilience 
+
+is defined as the personality characteristics that can reduce the negative effects of stress and 
+
+help in adoption. The relationship between resilience and personality traits has been discussed 
+
+by  various  authors  that  provides  higher  level  of  conformity.  It  has  been  investigated  on 
+
+university students and found significant relationship between resilience and personality traits 
+
+including  extraversion,  neuroticism,  conscientiousness,  agreeableness,  and  openness  to 
+
+experience (Campbell-Sills et al., 2006). Moreover, resilience is not only explained by fixed 
+
+personality  or  personal  characteristics  rather  it  can  be  dynamic  developmental  process  that 
+
+reflects the positive adoption even in the case of severe adversity (Luthar, 2003). She explained 
+
+that it involves the process and conditions that interacts in a way to deal with adversity that 
+
+determines the resilience which can affects the innovation competences of students.  
+
+Openness to experience and innovative competences with the mediating role of resilience 
+
+Openness to experience is the one of the main components of personality traits. It is defined as 
+
+intelligent,  smart,  broad  minded,  and  independent.  Individuals  with  high  level  of  this 
+
+characteristic  have  wide  varieties  of  interests  and  open  to  different  experiences.  This 
+
+personality trait is getting attention from a lot of researchers because of its effects on physical 
+
+and  mental  health  of  students  or  individuals.  Besides,  (Lee-Baggley,  Preece,  &  DeLongis, 
+
+2005)  suggested  that  openness  to  experience  individual  tends  to  be  more  adaptive  and  can 
+
+manage the stress effectively which shows the high level of resilience. 
+
+Openness to experience individuals find the challenges and novelty as rewarding than 
+
+threatening which enhances the resilience level in individuals (Williams, et al, 2009). Those 
+
+students who are open to experience are more knowledgeable and intellectual because they are 
+
+open to new ideas. Simultaneously, their divergent thinking enables them to open to different 
+
+ideas  and  understand  the  problem  considering  various  perspectives  (Yao  &  Li,  2022)  that 
+
+encourages the creativity. Moreover, Beaty et al., (2016) & Feist, (2019) found the positive 
+
+relationship  between  innovative  competences  and  personality  traits  and  suggested  that 
+
+openness  to  experience  encourages the creativity in  people that is  component  of innovative 
+
+competences.  We  can  infer  that  openness  to  experience  positively  affects  the  innovative 
+
+18 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+competences, So, we can say that openness to experience enhances the resilience and resilience 
+
+enhances the creativity. 
+
+After  the  creation  of  ideas,  those  ideas  need  to  evaluate  and  think  in  critical  way. 
+
+Critical thinking is about generating ideas and evaluates them based on their risks, advantages, 
+
+and disadvantages (Saatci & Ovaci, 2020). These individuals are open to ideas and more open-
+
+minded (Sahanowas, 2021) suggested positive significant relationship between resilience and 
+
+critical thinking by doing the studies on first-year undergraduates by collecting the data from 
+
+490 participates from west Bengal. We can infer that those people are more open to experience 
+
+tend to allow the ideas and can have high level of resilience and can take the sensible risks and 
+
+evaluate them which enhances the critical thinking. Those individuals who are risk takers tends 
+
+to take more initiatives because they are resilient enough to bear the risks and bring the novel 
+
+ideas. When people are open to new ideas, they can build good social network which enhances 
+
+the  resilience  among  individuals  and  can  be  able  to  work  in  teams  (Tawfik  et  al,  2017). 
+
+Therefore, we can conclude that openness to experience enhances the resilience and resilience 
+
+encourages the innovative competences among people. Here resilience plays as mediating role, 
+
+so we developed the following hypothesis and sub-hypotheses. 
+
+H1:  Resilience  plays  a  mediating  role  between  openness  to  experience  and  innovation 
+
+competences  
+
+H1a: Resilience will mediate the positive effect of openness to experience on creativity  
+
+H1b: Resilience will mediate the positive effect of openness to experience on initiative  
+
+H1c: Resilience will mediate the positive effect of openness to experience on critical thinking  
+
+H1d: Resilience will mediate the positive effect of openness to experience on Teamwork  
+
+H1e: Resilience will mediate the positive effect of openness to experience on networking 
+
+Neuroticism and innovative competences with the mediating role of resilience 
+
+Neuroticism is defined as when person is unstable and overreact to situation and experience 
+
+negative feelings. Neurotic people might not try to understand the situation and try to solve it 
+
+calmly, rather make the situation more miserable which can show the lower level of resilience. 
+
+Nakaya, Oshio and Kaneko (2006) determined the relationship between personality traits and 
+
+resilience  using  130  teenagers'  sample  and  found  that  neuroticism  negatively  affects  the 
+
+resilience,  so  the  person  with  high  resilience  will  not  show  the  neurotic  tendencies  like 
+
+19 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+depression or stress. Likewise, (Froutan, et al, 2017) suggested that neuroticism has significant 
+
+relationship with resilience that person with low neuroticism will perceive lower level of stress 
+
+and adversity and that person can be less resilient.  
+
+            Moreover, neurotic individuals can suffer from anxiety, have impulsive thoughts and 
+
+behavior and anger towards others that shows the lower ability to manage the stress and anxiety 
+
+and become less resilient. This emotionally unstable behavior can hinder the level of creativity 
+
+(Ali, 2019) and that is quite unfavorable for innovation. These individuals might not be able to 
+
+evaluate the ideas or handle the risks or take initiatives due to lower level of resilience which 
+
+negatively affects the critical thinking. Emotionally unstable people find it difficult to work in 
+
+teams  and  cope  with  that  stress  because  they  overreact  in  every  situation  which  negatively 
+
+affects the teamwork and build network. Therefore, we can infer that neuroticism decreases the 
+
+resilience  and  due  to  lower  resilience,  that  leads  to  lower  innovative  competences.  So,  we 
+
+developed the following hypothesis and sub-hypotheses. 
+
+H2: Resilience plays a mediating role between neuroticism and innovation competences   
+
+H2a: Resilience will mediate the negative effect of neuroticism creativity  
+
+H2b: Resilience will mediate the negative effect of neuroticism initiative  
+
+H2c: Resilience will mediate the negative effect of neuroticism critical thinking  
+
+H2d: Resilience will mediate the negative effect of neuroticism on teamwork  
+
+H2e: Resilience will mediate the negative effect of neuroticism on networking  
+
+Extraversion and innovative competences with the mediating role of resilience 
+
+Extraversion is defined as people who are energetic, expressive, active, gregarious (Yao & Li, 
+
+2021)  social,  confident,  and  excitement  seeker  (Feist,  2019).  Extrovert  individuals  love  to 
+
+socialize  with  other  individuals  and  get  the  peer  support  which  can  help  them  to  cope  and 
+
+manage the stress effectively which enhances the resilience. Besides, (Froutan, et al, 2017 & 
+
+Shafiezadeh,  2012)  found  that  extraversion  positively  affects  the  resilience.  Also,  this 
+
+personality trait can bring more positive emotion (Vollrath, 2001) and help to make warm and 
+
+cordial relationship with others which makes the person more resilient. Due to high level of 
+
+resilience, extrovert individuals tend to take more risks because they can manage and cope with 
+
+those risks. This behavior enhances the creativity and critical thinking among people. This risk-
+
+taking behavior encourages the initiatives as it stimulates the divergent thinking to bring and 
+
+20 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+generate new ideas as extravert people likely to share their ideas (Kandler et al.,2016) and open 
+
+to get the feedback to improve it more. It shows that they can work more collaboratively in 
+
+teams (Tawfik et al, 2017) and can make the strong social network (Wilks & Spivey, 2010 & 
+
+Kalaitzaki et al, 2020).  Therefore, we can infer that extraversion enhances the resilience and 
+
+resilience increases the innovative competences and based on that we developed the following 
+
+hypothesis and sub-hypotheses. 
+
+H3: Resilience plays a mediating role between extraversion and innovation competences  
+
+H3a: Resilience will mediate the positive effect of extraversion on creativity  
+
+H3b: Resilience will mediate the positive effect of extraversion on initiative  
+
+H3c: Resilience will mediate the positive effect of extraversion o critical thinking  
+
+H3d: Resilience will mediate the positive effect of extraversion on teamwork  
+
+H3e: Resilience will mediate the positive effect of extraversion on networking  
+
+Conscientiousness and innovative competences with the mediating role of resilience 
+
+Conscientiousness  is  defined  as  the  extent  to  which  an  individual  is  persistent,  determined, 
+
+consistent and focused to achieve their goals (Jirásek & Sudzina, 2020). These individuals are 
+
+achievement oriented (Ali, 2019) and they prefer planned actions over spontaneous actions or 
+
+behavior (Stock et al., 2016) which shows the higher level of resilience. This trait can help to 
+
+make better decisions and organize well, plan and think before taking any action. So, people 
+
+with conscientiousness consider the problem as challenge or problem-solving issue with shows 
+
+the  high  resilience.  Besides,  Shafiezadeh,  (2012)  found  that  conscientiousness  positively 
+
+affects the resilience. When people are highly resilient, focused,  persistent, and competitive 
+
+those can achieve the high performance in many aspects of lives (Ali, 2019) can enhance the 
+
+creativity.  
+
+Previous  studies  have  considered  creativity  as  traits  which  involves,  adoptability, 
+
+initiative, flexibility, originality, spontaneity, and ingenuity (Barron, 1969) and all these traits 
+
+are related to resilience and problem-solving skills which determines the connection between 
+
+creativity  and  resilience.  Besides,  Thomson,  (2008)  empirically  found  the  significant 
+
+relationship  between  creativity  and  resilience.  De  Caroli  and  Sagone,  (2014)  found  among 
+
+Italian adults that there is significant association in some aspects of creativity, adaptability and 
+
+competences and it shows that when they perceive themselves more creative and they are more 
+
+21 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+motivated to find new solutions in a resilient way. Therefore, we can say that conscientiousness 
+
+enhances the resilience and resilience enhances the creativity.   
+
+         When individual is creative which brings a lot of novel ideas and to evaluate those ideas 
+
+based on existing risks they need to think more critically. Critical thinkers are well-informed, 
+
+curious,  truth  seeker,  persistent,  open  to  criticism,  open  to  personal  bias  and  open-minded 
+
+(Facione, 1990). Furthermore, (Reyna del Carmen Martínez Rodríguez) explained that critical 
+
+thinking allows students to reflect their ideas based on reality despite having all the pressure 
+
+from the environment and they should be free to express their feelings that could increases the 
+
+problem-solving ability among students which can be due to higher resilience. When individual 
+
+is  determined,  focused  and  persistent  then  it  can  enhance  the  resilience  and  due  to  high 
+
+resilience, they tend to be more critical thinker. Due to open to more ideas and high-risk taking 
+
+behavior they would be take more initiatives and could face the challenges by the social support 
+
+and supportive network. (Tawfik et al, 2017) found that those people are resilient can work 
+
+more effectively in teams. Therefore, we can infer that conscientiousness affects the resilience 
+
+then resilience affects the innovative competences, so we developed the following hypothesis 
+
+and sub-hypotheses. 
+
+H4: Resilience plays a mediating role between conscientiousness and innovation competences   
+
+H4a: Resilience will mediate the positive effect of conscientiousness on creativity   
+
+H4b: Resilience will mediate the positive effect of conscientiousness on initiative  
+
+H4c: Resilience will mediate the positive effect of conscientiousness on critical thinking  
+
+H4d: Resilience will mediate the positive effect of conscientiousness on teamwork  
+
+H4e: Resilience will mediate the positive effect of conscientiousness on networking 
+
+Agreeableness and innovative competences with the mediating role of resilience 
+
+Agreeableness  is  defined  as  people  who  are  caring,  trustworthy,  cooperative,  gullible, 
+
+forgiving, respectful (Saatci & Ovaci, 2020) and can sacrifice their own opinion in conflicting 
+
+situation (Chang et al., 2014). They are more soft-hearted, compliant, tolerant (Saatci & Ovaci, 
+
+2020) and they prefer the cooperation and positive social and interpersonal relationship. People 
+
+who show high agreeableness tend to have less stress which means they are more resilient and 
+
+have good social relationship to avoid the social conflict (Kim et al., 2016). These individuals 
+
+can perform well in teamwork. High agreeableness increases the level of resilience because it 
+
+22 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+brings the positive emotions and these emotions made the individuals to build lasting personal 
+
+resources like social resources, physical and intellectual and it may help the individual to cope 
+
+with the stress and gain a lot of social support and confidence to deal with situation (Gong, et 
+
+al.,  2020).  Therefore,  we  can  say  that  agreeableness  enhances  the  resilience  and  resilience 
+
+encourages the teamwork and social support or network.  
+
+Whereas, when individuals have high agreeableness, they wanted to avoid the social 
+
+conflict which can happen due to disagreements and that could discourage the innovative ideas 
+
+(Feist,  2019)  and  ultimately  negatively  affect  the  creativity.  Nevertheless,  creative  people 
+
+challenge  the  status  quo  and  bring  creative  solutions  that  can  bring  a  lot  of  criticism  and 
+
+resistance  but  due  to  high  agreeableness  they  tend  to  be  less  creative.  Besides,  due  to  less 
+
+creativity, their critical thinking is also get affected because they would not evaluate the ideas 
+
+based  on  its  advantages  and  disadvantages  (Saatci  &  Ovaci,  2020).  Sahanowas  (2021) 
+
+suggested that students with critical thinking have divergent views and can be able to show the 
+
+self-confidence and able to solve various issues in their  surroundings and can communicate 
+
+confidently and open minded. When individuals have high agreeableness, they tend to be less 
+
+critical because they might not have divergent views and communicate it confidently and tend 
+
+to take less risk. Risk averse individuals would not be able to take initiatives because they are 
+
+not  confident  in  their  abilities  and  creative  which  negatively  affects  the  innovative 
+
+competences. Hence, we developed the following hypothesis and sub hypotheses: 
+
+H5: Resilience plays a mediating role between agreeableness and innovation competences   
+
+H5a: Resilience will mediate the positive effect of agreeableness on creativity.  
+
+H5b: Resilience will mediate the positive effect of agreeableness on initiative  
+
+H5c: Resilience will mediate the positive effect of agreeableness on critical thinking  
+
+H5d: Resilience will mediate the positive effect of agreeableness on teamwork  
+
+H5e: Resilience will mediate the positive effect of agreeableness on networking  
+
+Conceptual Model 
+
+Based  on  above  theories  and  hypotheses,  we  developed  the  conceptual  model.  This  model 
+
+explains the link between two variables personality traits (independent variable) and innovative 
+
+competences (dependent variable) with role of resilience as a mediator on the enhancement of 
+
+innovative  competences.  Theory  of  creativity  explained  that  personality  traits  enhance  the 
+
+23 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+creativity  (Sternberg,  2006)  which  ultimate  increases  the  innovative  competences.  Besides, 
+
+theory  of  resilience  (Benson,  1997)  explained  that  resilience  can  be  affected  by  personality 
+
+traits  and  resilience  can  be  learnt  from  the  environment  (Luthar,  2013)  so  that  can  help  to 
+
+enhance  the  innovative  competences  among  students.  Therefore,  when  person  possess  the 
+
+personality traits namely, conscientiousness, extrovert, agreeable and open to experience that 
+
+can enhance the resilience whereas when the person is emotionally unstable and neurotic that 
+
+could decrease the ability to cope with the adversity. When the person is resilient then it might 
+
+enhance the creativity, critical thinking, initiatives, teamwork and networking abilities in the 
+
+students and can perform and manage well in the practical lives (Sahanowas, 2021; Saatci & 
+
+Ovaci, 2020 & Tawfik et al, 2017).  
+
+Conscientiousne
+ss 
+
+Creativity 
+
+Extraversion 
+
+Critical thinking 
+
+      Mediator 
+
+Agreeableness 
+
+Resilience 
+
+Networking 
+
+Neuroticism 
+
+Openness to 
+experience 
+
+Teamwork 
+
+Initiative 
+
+24 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Methodology 
+
+In this section we discussed about the research philosophy, research approach, methodological 
+
+choice,  strategy,  time  horizon,  techniques  of  data  collection,  construct  of  questionnaire, 
+
+measurement scale for big five personality traits and Innovation competences. Apart from these 
+
+all, reliability and validity of the data was explained. Finally, explanations and justifications of 
+
+the data analysis techniques were provided. 
+
+Research Design 
+
+ Research philosophy is a way to inquire the reality or struggle to see the truth through various 
+
+patterns  (Winit-Watjana,  2016).  To  answer  the  research  questions  through  selecting  an 
+
+appropriate methodology, this research is following the positivism philosophy. Primary goal 
+
+of positivism paradigm is to generate a casual or explanatory connection that will ultimately 
+
+anticipate the aspect of the questions (Park et al., 2020). Further, Hypothetico-deductive model 
+
+of science was aligned with positivism philosophy, and it will work as a lens that filter out the 
+
+research one by one. First its start will the theory that is the part of the literature review, second 
+
+building the hypothesis for testing, third is designing an operation through operationalizing the 
+
+variable and fourth is conducting an empirical study (Park et al., 2020). So basically, this sums 
+
+up the deductive research type. 
+
+This study adopted a deductive research approach and a quantitative methodological 
+
+choice.  In  this  choice,  we  measured  the  impact  of  big  five  personality  traits  on  innovative 
+
+competences and tested the hypothesis. Data type is primary data and strategy is the survey. 
+
+Data Collection & Sampling 
+
+Data was collected through electronic survey that was created on google forms and distributed 
+
+to the students through various platforms. Three countries were considered for this study these 
+
+are Nigeria, Pakistan, and Russia. All participants were the students and from different fields 
+
+having  qualifications  of under-gradation,  graduation,  post-graduation,  and  certified  degrees. 
+
+Majority of the data were collected through social media networks to get responses from the 
+
+participants  from  3  countries  like,  WhatsApp  broadcast  groups,  VK  platform,  Facebook 
+
+messenger  and  Telegram.  There  were  also  the  other  ways  to  approach  the  students  like 
+
+professors asked from their students to fill the questionnaire during classes and we approached 
+
+the  students  during  break  time  of  university  by  describing  the  research  purpose  to  fill  the 
+
+questionnaire. 
+
+25 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Total 521 questionnaires were collected and out of those 213, 140 and 168 were from 
+
+Nigeria,  Pakistan,  and  Russia  respectively.    Time  horizon  of  the  research  data  was  cross 
+
+sectional  and  there  were  not  any  time  constraints  for  this  study  as  it  was  supposed  to  be 
+
+conducted  in  5  to  6  months  but  there  was  no  any  variable  that  needed  to  be  observed  for 
+
+different  intervals  of the time. English language  was used  for the  Nigeria and Pakistan and 
+
+whereas for Russian students, separate questionnaire was developed in Russian language. 
+
+ Measurement Scales 
+
+Questionnaire was consisted of four sections, first section is based on demographics and other 
+
+insights related to paid and unpaid jobs, specialization, study year of the students etc. In second 
+
+section  34  questions  were  added  for  innovative  competences,  10  questions  for  the  big  five 
+
+personality traits and 3 questions were added for Resilience variable. All the questions were 
+
+taken, and constructs were created based on the past papers and theories. 
+
+Innovation Competences 
+
+Innovation competences is our dependent variable and there are five innovation competences 
+
+that  are  used  to  determine  this  dependent  variable.  FINCODA  (Framework  for  Innovation 
+
+competences Development and Assessment) tool is used for Innovation competences (Marin-
+
+Garcia,  Andreu  Andres,  et  al.,  2016).  Further  this  FINCODA  barometer  has  an  adequate 
+
+validity  and  reliability  (Butter  and  van  Beest,  2017).  Innovative  competences  scale  that  is 
+
+consisted of 34-items were used to ask participants to rate the level of teamwork for each item 
+
+on 1 (absolutely disagree) to 5 (absolutely agree). Just like teamwork, there are total 5 scales 
+
+on which innovation competences are measured and for each scale there are 6 to 9 items for 
+
+each scale. For reliability of the scale, Cronbach's alpha is used and is mentioned in the table 
+
+below. 
+
+Table 1: Test of Reliability 
+
+Constructs 
+
+Creativity 
+Teamwork 
+Initiative 
+Critical Think. 
+Networking 
+
+Alpha 
+Cronbach 
+0.91 
+0.85 
+0.86 
+0.79 
+0.80 
+
+26 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Big Five Personality Traits 
+
+Big five personality trait is an independent variable and there are also five constructs that are 
+
+used to define this independent variable based on empirical research. There are a lot of research 
+
+have been conducted on the big five personality traits in the history and there are many versions 
+
+of scales are available in those studies. Some have used 100-item questionnaire where some 
+
+have used 60-item questionnaire with 5/7- or 9-point scale (Goldberg, 1992; Hayes & Joseph, 
+
+2003). In this research, short version of questionnaire was used with 10-item and 5-point scale 
+
+ordered from absolutely disagree to absolutely agree (Gerber et al., 2010; Gosling et al., 2003). 
+
+Each personality trait is consisted of two items including one reversed item. To increase the 
+
+response  rate  and  reduce  the  size  of  the  questionnaire,  single  item  measure  is  used  for  the 
+
+resilience  that  how  well  this  single  item  captures  key  characteristics  of  the  construct  being 
+
+examined and how useful it is to practitioners (Fisher et al., 2016).  
+
+Resilience 
+
+Resilience  is  used  as  a  mediator  variable  between  innovation  competences  and  big  five 
+
+personality  traits  which  is  our  dependent  and  independent  variable.  There  is  no  previous 
+
+research on resilience where it is used as a mediator between these mentioned variables at same 
+
+times.  Resilience  is  measured  with  the  Brief  Resilience  Scale  (BRISC).  There  are  several 
+
+versions  of  BRISC  (Catalano  et  al.,  2011;  Dodd  et  al.,  2015;  Shin  et  al.,  2012)  and  in  this 
+
+research 3-item scale is used which is almost a short version of CD-RISC (Charoensap-Kelly 
+
+et  al.,  2021).  The  5-point  Likert  scale  is  used  to  measure  the  resilience  ranging  from  (1)  is 
+
+absolutely  disagree  and  (5)  is  absolutely  agree.  For  the  reliability,  Cronbach’s  alpha  is 
+
+measured, and it is 0.74 which means scale is reliable to use. 
+
+Demographic variables 
+
+In  addition  to  Personality  traits,  Innovative  competences,  and  Resilience,  we  included  the 
+
+specifications  measures  of  gender  (male  &  female),  age  (In  years),  education  (including 
+
+graduation, masters, post-graduation, and certified holders), work experience and finally main 
+
+variable countries (Nigeria, Pakistan, and Russia).   
+
+Data Preparing 
+
+Data  was  consisted  of  521  total  observations.  Further  for  the  final  analysis  we  took  three 
+
+variables for this research. This variable selection was based on the previous work done by 
+
+other researchers and research gap that were not discussed before and focus on the how better 
+
+27 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+can  help  the  society  on  the  development  of  innovation  competence  of  the  students  for  the 
+
+betterment of their career and future generation. 
+
+Pre-processing the data is one of the important steps that makes analysis more useful, 
+
+and  this  step  has  further  sub-steps  and  techniques  that  are  commonly  used  by  researchers 
+
+globally. First, in our data there were no missing values, but data was consisted of few outliers 
+
+and to deal with outliers there are several techniques and deleting or removing of the data is 
+
+one of them. Deleting the data is not considered as a good practice (Church, 2018). Therefore, 
+
+we didn’t remove the outliers as in resultantly it would reduce the observations as well and it 
+
+is better to use as much as data to generalize the research and because of that it is not one of 
+
+our  limitations  of  this  study.  So,  rather  than  deleting  the  data,  we  used  winsorized  them. 
+
+“Winsorization  is  a  procedure  that  limits  how  extreme  a  return  is  allowed  to  be,  with  this 
+
+procedure extremely high and extremely low values in the data set are set equal to specified 
+
+cut-offs” (Cao et al., 2018, p.16). We also relabeled the variables and items that are used for 
+
+constructs to make them more readable also converted the type as a categorical variable. 
+
+Data Analysis Techniques 
+
+To answer the questions through analyzing the data, first we measured the reliability of scales 
+
+of innovative competences and resilience with the help of using Stata Software. For reliability, 
+
+Cronbach’s alpha was used, for validity confirmatory factor analysis (CFA) was used and for 
+
+personality  traits….  was  used  to  measure  the  accuracy  and  consistency  of  the  constructs. 
+
+Further, to analyze the relationships Structural equation model (SEM) was explained. 
+
+Reliability 
+Those people are considered as reliable whose behavior can be predictable or can be relied on 
+
+consistency. Likewise, this concept is also followed in the research field, the extent to which 
+
+the instrument used in the research, yields the same results on repeated measure will show the 
+
+reliability of the research (Putka & Sackett, 2010). It is not possible to give the exact figures to 
+
+measure the reliability but there are three estimations that are commonly used for to calculate 
+
+the reliability. The three attributes of estimating the reliability are Homogeneity, Stability and 
+
+Equivalence and there are several ways to measure each attribute (Heale & Twycross, 2015) 
+
+The nature of this study asks to consider the Homogeneity attribute which means the 
+
+internal consistency among the various items that together represent the one construct in the 
+
+research. In our research, both independent and dependent variables are composed of many 
+
+items  and  each  item  is  composed  of  various  questions  that  are  explained  earlier.  So, 
+
+28 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+homogeneity means the extent to which various items reasonably team together to measure a 
+
+single  characteristic.  Like  agreeableness  is  one  of  the  constructs  of  the  big  five  personality 
+
+traits and to determine this we have two items “is generally trusting” and “tends to find fault 
+
+with others”. 
+
+Cronbach’s α is one of the most used techniques used in to measure the homogeneity 
+
+and ultimately it represents the how reliable the instrument is. In this study Cronbach’s α is 
+
+used to test the internal consistency among innovative competences constructs and resilience 
+
+as well. It  tells  the correlation  in  every combination among  the set  of items.  It  is  measured 
+
+between 0 and 1. The acceptable score for the Cronbach's α is 0.7 or higher than this, which 
+
+means that instrument is reliable to research further (Heale & Twycross, 2015). Reliability for 
+
+Innovation competence and Resilience has been tested and that is more than 0.7. This means 
+
+that scales are valid.   
+
+Validity 
+
+ Validity describes how well the data gathered corresponds to the investigation’s actual area 
+
+(Ghauri & Gronhuag, 2005). It is basically used to check the accuracy of the data. There are 
+
+four main types of the validity namely, content validity, construct validity, criterion validity 
+
+and face validity and each type has further sub-type (Heale & Twycross, 2015). In this study, 
+
+validity is required to check because it describes that how well the concept, idea or behavior 
+
+transformed or translated into operating reality and functioning.  
+
+Further, Confirmatory factor Analysis method is a technique that is used in this study 
+
+to check the validity.  It is a type of structural equation model that deals with the relationships 
+
+between factor and indicator (Moore, 2012).  
+
+Structural Equation Modelling (SEM) 
+
+To identify the effect on innovation competence through personality traits and resilience, the 
+
+structural  equation  model  is  used.  The  normality  of  all  variables  was  checked  before 
+
+proceeding with Structural Equation modelling (SEM). Basically, it is a framework of different 
+
+multivariate  statistical  method  and  consist  of  different  domains  like  econometrics,  statistics 
+
+psychology,  and  biology.  It  includes  correlation/regression,  simultaneous  equation,  factor 
+
+analysis, path analysis and measurement theory. This model is used to test the relationships 
+
+between  latent  and  observed  variables.  Latent  variables  are  the  variables  that  cannot  be 
+
+observed  directly  or  unmeasured  variables  and  these  are  measured  by  connecting  to  the 
+
+29 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+observed  variables.  Observed  variables  are  the  variables  that  can  be  measured  (Beran  & 
+
+Violato, 2010).  
+
+Furthermore,  SEM  is  the  combination  of  two  components:  measurement  model  and 
+
+structural model. In measurement model, confirmatory factor analysis (CFA) is used based on 
+
+SEM.  One  of  the  main  advantages  of  CFA  is  it  helps  in  bridging  the  often-observed  gap 
+
+between theory and observation (R.O. Mueller., 2001). CFA deals with the latent variables, “it 
+
+extracts  the  latent  constructs  from  other  variables  and  share  the  variance  with  related 
+
+variables” (Fan et al., 2016). On the other hand, Path Analysis is very useful tool for testing 
+
+the hypothesis with both casual effects direct and indirect. Mediation is one of the common 
+
+functions  of  the  path  analysis,  where  variables  affect  directly  or  indirectly  to  the  outcome 
+
+through other variables (Fan et al., n.d.). Like in this study, Resilience is playing a mediation 
+
+role and we want to see indirect effect of personality traits on innovation competence through 
+
+it. 
+
+Data Analysis, Results and Discussion 
+
+In  this  section,  first,  we  provide  the  results  of  the  different  statistics  analyses  ranging  from 
+
+descriptive,  to  correlation  and  to  structural  equal  modeling.  In  addition,  we  also  report  and 
+
+discuss several other diagnostics statistics. Second, we discuss the findings of the structural 
+
+equation modelling  
+
+Data Analysis 
+
+Descriptive statistics 
+
+Several  demographics  variables  were  collated  from  the  respondents  like  country  of  origin, 
+
+gender,  age,  work  experience  and  academic  program  enrolled  in.  These  variables  were 
+
+analyzed to understand the sample structure and characteristics.  
+
+Gender distribution 
+
+More  female  students  participated  in  the  survey  than  male,  accounting  for  53%  and  47% 
+
+respectively. The insignificant balance (0.19%) represents the non-conventional sex category 
+
+which is not important for our study. Furthermore, the gender distribution by country revealed 
+
+that unlike Pakistan with equal number of male and female, female participation is greater in 
+
+Russia than in Nigeria. See Figure 1 for details. 
+
+30 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 1:Gender distribution of respondents 
+
+Age distribution 
+
+About 65% of the respondents are between the ages of 19 and 30, another 19% between the 
+
+ages of 36-40.   In the first age  category are students  pursuing undergraduates and graduate 
+
+studies  and  in  the  second  are  doctoral  and  other  post  graduate  study  students.  Comparing 
+
+countries, in general, Nigeria has older students with 50% of them over 30 years while more 
+
+than 60% of the students in Russia and Pakistan are below 30 years old. Figure 2 provides more 
+
+details. 
+
+Figure 2: Age distribution of respondents 
+
+31 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Enrolments in Academic program 
+
+The  respondents  are  at  the  different  levels  of  their  educational  pursuits;  undergraduate, 
+
+graduate, doctorate, and other post-graduate   programs.  Nearly  86%  of  the  respondents  are 
+
+enrolled in either in undergraduate or graduate programs. In addition to these programs, it is 
+
+common  to  see  students  in  Pakistan  and  Nigeria  pursuing  other  professional  certifications. 
+
+Besides, these two regions have higher enrolment for both graduate and doctoral students than 
+
+Russia. Figure 3 describes the respondents’ enrolment. 
+
+Figure 3: Distribution of respondents by academic enrolment 
+
+Distribution of respondents by their academic faculties 
+
+Students of the Business, Management, Economic and Social science faculties represent about 
+
+70% of the total  respondents  while medical,  natural, and  engineering about  12%.  Students 
+
+from other faculties represent 15% of the total sample.  
+
+32 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 4: Distribution of respondent by their academic programs 
+
+Respondent’s work experience  
+
+More students (about 70%) have some form (part-time and full-time) of work experience than 
+
+not. Specifically, about 47% of them have worked for more than 6 months compared with 20% 
+
+who have no form work experience. Nigeria has the highest number of experienced students 
+
+and Russia the highest number with no experience. This is the case perhaps because the later 
+
+has older students.  
+
+Figure 5: Distribution respondents by their work experience 
+
+33 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 6: Distribution respondents’ work experience by country 
+
+Table 2: Summary statistics of the constructs (in standardized units) 
+
+Variable 
+
+Mean  SD 
+
+Skewness  Kurtosis  Min  Max 
+
+Agreeableness 
+
+0.028  0.929 
+
+-0.655 
+
+Extraversion 
+
+0.047  0.904 
+
+-0.282 
+
+Conscientiousness 
+
+0.030  0.928 
+
+-0.480 
+
+Openness  
+
+Creativity 
+
+Teamwork 
+
+Initiative 
+
+0.100  0.790 
+
+-0.311 
+
+0.035  0.898 
+
+-0.582 
+
+0.043  0.873 
+
+-0.507 
+
+0.033  0.908 
+
+-0.539 
+
+Networking 
+
+0.035  0.904 
+
+-0.401 
+
+Critical think 
+
+0.030  0.927 
+
+-0.131 
+
+Resilience 
+
+0.018  0.959 
+
+-0.253 
+
+Neuroticism 
+
+0.016  1.000 
+
+0.077 
+
+2.475 
+
+1.939 
+
+2.263 
+
+1.732 
+
+2.779 
+
+2.522 
+
+2.640 
+
+2.469 
+
+2.372 
+
+2.042 
+
+1.966 
+
+-1.930  0.999 
+
+-1.470  1.171 
+
+-1.825  1.092 
+
+-1.099  0.943 
+
+-2.110  1.322 
+
+-1.984  1.260 
+
+-2.060  1.308 
+
+-1.895  1.421 
+
+-1.828  1.669 
+
+-1.808  1.259 
+
+-1.550  1.586 
+
+34 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Measurement Scale Reliability 
+
+As part of the study procedures, we tested all the measurement scales for reliability. A scale is 
+
+reliable if measures the unobserved construct consistently. Specifically, we adopted the internal 
+
+consistency  method  of  reliability  using  Alpha  Cronbach.  In  line  with  the  acceptable 
+
+convention, the Cronbach Alpha for all constructs is above the minimum acceptable threshold 
+
+of 0.70. The Alpha Cronbach for the constructs range from 0.74 to 0.91.  
+
+Table 3: Test of Reliability 
+
+Variables 
+
+No of items 
+
+Alpha Cron. 
+
+Creativity 
+Teamwork 
+Initiative 
+Critical Think. 
+Networking 
+Resilience 
+
+9 
+7 
+6 
+6 
+6 
+2 
+
+Measurement Scale Validity  
+
+0.91 
+0.85 
+0.86 
+0.79 
+0.80 
+0.74 
+
+AIC 
+
+0.53 
+0.46 
+0.52 
+0.38 
+0.41 
+0.59 
+
+As part of the analysis procedure, SEM measurement model was used to model the unobserved 
+
+latent  constructs  of  resilience,  innovation  competences  and  obtained  satisfactory  model  fit 
+
+indices. Specifically, we report the following goodness of fits Comparative Fit Index (CFI) = 
+
+0.9, Tucker Lewis Index (TLI) = 0.9 and RMSEA = 0.06.  
+
+Correlation Analysis 
+
+Correlation  co-efficient  measures the strength  and direction of the variation in  one variable 
+
+associated with changes in the other variables.  The correlation analysis result for this study is 
+
+reported  in  Table  4.  The  results  show  that  all  dimensions  of  personality  traits,  except 
+
+Neuroticism,  have  a  significant  and  weak  positive  correlation  with  creativity,  teamwork, 
+
+critical thinking, networking, initiative, and resilience. The pair-wise correlation co-efficient 
+
+(𝑟 )  among  these  variables  range  from  0.24  to  0.41.  On  the  other  hand,  a  no  significant 
+
+relationship  is  reported  with  between  neuroticism  and  all  dimensions  of  innovation 
+
+competences.   
+
+35 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Table 4: Correlation Matrix Table
+
+1 
+
+2 
+
+3 
+
+4 
+
+5 
+
+6 
+
+7 
+
+8 
+
+9 
+
+10 
+
+11 
+
+1. Agreeableness 
+
+2. Extraversion 
+
+3. Conscientiousness 
+4. Openness 
+5. Neuroticism 
+
+6. Creativity 
+
+7. Teamwork 
+8. Initiatives 
+
+9. Networking 
+
+10.Critical Thinking 
+
+11. Resilience 
+
+t statistics in parentheses 
+
+-0.013 
+
+1.000 
+0.216***  1.000 
+0.232***  0.146**  1.000 
+0.237***  0.192***  0.243*** 
+0.101* 
+-0.115* 
+0.330***  0.326***  0.384*** 
+0.317***  0.275***  0.437*** 
+0.296***  0.313***  0.410*** 
+0.317***  0.337***  0.355*** 
+0.287***  0.239***  0.273*** 
+0.248***  0.275***  0.383*** 
+
+* p < 0.05, ** p < 0.01, *** p < 0.001 
+
+1.000 
+0.102* 
+1.000 
+0.410***  -0.088 
+0.378***  -0.078 
+0.371***  -0.080 
+0.339***  -0.089 
+0.337***  -0.010 
+0.309***  -0.0986*  0.445***  0.407***  0.442***  0.400***  0.310***  1.000 
+
+1.000 
+0.709***  1.000 
+0.803***  0.674***  1.000 
+0.747***  0.720***  0.709***  1.000 
+0.768***  0.619***  0.677***  0.678***  1.000 
+
+36 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Multicollinearity Test 
+
+Multi-collinearity  occurs  where  two  or  more  independent  variables  have  high  correlations 
+
+among  themselves.  This  might  make  the  path  co-efficient  spurious.  The  presence  of 
+
+multicollinearity can be detected using the variance inflation factor (VIF) statistics and a VIF 
+
+more  than  10  indicates  a  multicollinearity  problem.  The  test  result  in  Table  5  reports  a 
+
+satisfactory VIF values for all the independent variables. 
+
+Table 5: Test of multicollinearity 
+
+Variable 
+
+Resilience 
+
+Critical Think 
+
+Openness 
+
+Conscience 
+
+Agree 
+
+Extraversion 
+
+Neuroticism 
+
+Mean VIF 
+
+VIF 
+
+1.36 
+
+1.27 
+
+1.24 
+
+1.24 
+
+1.19 
+
+1.15 
+
+1.06 
+
+1.22 
+
+1/VIF 
+
+0.73740 
+
+0.78479 
+
+0.80381 
+
+0.80952 
+
+0.84066 
+
+0.86727 
+
+0.94349 
+
+Structural Equation Modelling 
+
+To estimate the mediating role of resilience on the impact of personality traits on innovation 
+
+companies,  the  structural  equation  modelling  (SEM)  was  used.  The  result  of  the  of  the 
+
+structural equation model showing the path co-efficient of the mediating role of resilience on 
+
+the relationship between personality traits dimensions and innovation competences dimensions 
+
+are reported in Appendix B. The model was equally evaluated with permissible goodness of fit 
+
+indices reported in Table 6. 
+
+37 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Table 6: SEM Goodness of fit 
+
+Fit statistic 
+
+Value 
+
+Description 
+
+Likelihood ratio  
+
+p > chi2 
+
+0.000 
+
+chi2_bs(810) 
+
+11917.5  baseline vs. saturated 
+
+p > chi2 
+
+0.000 
+
+Population error 
+
+Root mean squared error of 
+
+RMSEA 
+
+0.063 
+
+approx. 
+
+90% CI, lower 
+
+bound 
+
+upper bound 
+
+0.060 
+
+0.066 
+
+pclose 
+
+0.000  Probability RMSEA <= 0.05 
+
+Information criteria 
+
+Baseline 
+
+comparison 
+
+AIC 
+
+BIC 
+
+CFI 
+
+TLI 
+
+50032.4  Akaike's information criterion 
+
+50640.9  Bayesian information criterion 
+
+0.86  Comparative fit index 
+
+0.85  Tucker–Lewis’s index 
+
+Size of residuals 
+
+CD 
+
+0.993  Coefficient of determination 
+
+Results and Findings 
+
+The analysis of Creativity, Resilience and Personality Traits 
+
+Table 7 presents the structural equation modelling analysis of resilience, personality traits and 
+
+Innovation competences. As shown in the table, there is strong evidence that resilience is  a 
+
+significant  mediator  between  the  effects  of  personality  traits  on  creativity.  Specifically, 
+
+agreeableness (β=.26, p<0.01) extraversion (β=.35,  1)  conscientiousness  (β=.65,  p<0.01)  an 
+
+openness  to  experience  (β=.51,  p<0.01)  are  positive  and  indirect  significant  predictors  of 
+
+creativity while neuroticism a negative predictor β=-.21, p<0.01). These figures imply that an 
+
+increase in agreeableness, extraversion conscientiousness and openness to experience by one 
+
+unit would increase creativity by the predictors’ respective beta coefficient through resilience. 
+
+38 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+In contrast, a one unit increase in neuroticism will indirectly decrease creativity by the beta co-
+
+efficient of the latter. Based on this reported result,  we confirmed the following hypotheses 
+
+H1a, H2a, H3a, H4a and H5a   
+
+The analysis of Teamwork, Resilience, Personality Traits  
+
+The  results  of  the  SEM  structural  model  of  the  indirect  effects  of  personality  traits  on 
+
+innovation competences through resilience is shown in the Table 7.  Similar to the result on 
+
+creativity,  from  the  row  we  can  see  that  all  the  dimensions  of  the  personality  traits  have  a 
+
+significant  indirect  effect  on  teamwork.  All  traits  except  neuroticism,  as  expected,  have  a 
+
+positive relationship  with teamwork;  the predictors co-efficient are   agreeableness  (β= .19, 
+
+p<0.01), extraversion (β= .26, p<0.01),  conscientiousness  (β= .49, p<0.01) and openness  to 
+
+experience  β=  .38,  p<0.01)  and  neuroticism  (β=  -16,  p<0.01).  So,  we  interpret  them  that 
+
+through the mechanism of resilience, Teamwork will increase by the respective co-efficient of 
+
+agreeableness, extraversion, conscientiousness, and openness as they increase by one unit. But 
+
+Teamwork will decrease by the beta value of neuroticism when the latter increase by one unit.  
+
+With these results, the following hypotheses   H1d, H2d, H3d, H4d and H5d were supported.  
+
+The analysis of Initiative, Resilience and Personality Traits 
+
+The indirect results of structural model of the impact of personality traits on initiative through 
+
+resilience  can  be  seen  in  Table  7.  From  the  row,  we  can  see  the  following,  first  that  all 
+
+predictors  are  significant  with  extraversion  and  conscientious  having  higher  co-efficient. 
+
+Second, neuroticism (β= -.24, p<0.01) is an indirect and negative predictor of initiative while 
+
+agreeableness  (β=  .28,  p<0.01)  extraversion  (β=  .38,  p<0.01)  conscientiousness  (β=  .72, 
+
+p<0.01) and openness to experience (β= .24, p<0.01) are positive predictors. A unit increase in 
+
+the  positive  predictors  will  increase  initiative  (through  resilience)  by  their  respective  co-
+
+efficient whereas a unit increase in neuroticism will decrease initiative by corresponding co-
+
+efficient. Putting these together, we confirm the following hypotheses H1b, H2b, H3b, H4b 
+
+and H5b.   
+
+The Analysis of Critical Thinking, Resilience and Personality Traits 
+
+Table  7  reports  the  indirect  effect  of  the  structural  equation  model  of  personality  traits, 
+
+resilience, and critical thinking. As can be seen from the row, all facets of personality traits are 
+
+significant  and  indirect  predictors  of  critical  thinking;  four  of  which  are  positive  and  one 
+
+negative. As reported in  the table, it is obvious that conscientiousness (β= .39, p<0.01) and 
+
+openness  to  experience  (β=  .30,  p<0.01)  have  relatively  higher  predictive  co-efficient  than 
+
+39 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+agreeableness  (β=  .15,  p<0.01),  extraversion  (β=  .21,  p<0.01)  and  neuroticism  (β=  -.13, 
+
+p<0.01). From the foregoing, it can be implied that a one-unit increase in the positive predictors 
+
+would increase critical thinking by their respective co-efficient through resilience. In contrast, 
+
+a unit increase in neuroticism would decrease critical thinking by the co-efficient of the later 
+
+through resilience. Overall, the results support the following hypotheses H1c, H2c, H3c, H4c 
+
+and H5c. 
+
+The Analysis of Networking, Resilience and Personality Traits 
+
+Table 7 provides the result obtained from the model of personality trats as indirect predictors 
+
+of Networking As the row shows, there is a significant indirect relationship between the five 
+
+dimensions  of  personality  traits  and  networking.  Except  for  neuroticism,  with  a  negative 
+
+relationship, the rest of the trait's factors are positive predictors of networking.  Again, as it 
+
+was with previous results, conscientiousness (β= .63, p<0.01) and openness (β= .49, p<0.01) 
+
+have higher predictive co-efficient than agreeableness (β= .25, p<0.01), extraversion (β= .33, 
+
+p<0.01) and neuroticism. (β= -.21, p<0.01). The predicted value of networking would equal to 
+
+the respective co-efficient of the positive predictors if the later increase by one unit. On the 
+
+other  hand,  networking  will  decrease  by  the  co-efficient  value  of  neuroticism  if  the  later 
+
+increases by one unit. Hence, from the results support the following hypotheses H1e, H2e, H3e, 
+
+H4e and H5e. 
+
+Taken  together,  these  results  as  shown  in  table  7  provides  strong  evidence  that 
+
+resilience mediates the impact of agreeableness, extraversion conscientiousness, openness to 
+
+experience  and  neuroticism  on  the  five  dimensions  of  innovation  competences  -  creativity, 
+
+critical  thinking,  initiative,  networking, and teamwork. Across  all dimensions  of innovation 
+
+competences, the results show the following: first, conscientiousness have the greatest impact 
+
+followed by openness to experience. Second, all trait factors, except neuroticism are positive 
+
+predictors of innovation competences.  
+
+40 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Table 7: Summary of SEM results 
+
+Innovation Competences 
+
+Creativity 
+
+Critical think. 
+
+Teamwork 
+
+Networking 
+
+Initiative 
+
+Variables 
+
+Beta 
+
+p value 
+
+Beta 
+
+p value  Beta 
+
+Beta 
+
+Beta 
+
+p value  Beta 
+
+p value 
+
+mediated by 
+
+Resilience 
+
+Openness 
+
+0.51 
+
+0.003 
+
+0.30 
+
+0.000 
+
+0.38 
+
+0.000 
+
+0.49 
+
+0.000 
+
+0.56 
+
+0.000 
+
+Agreeable 
+
+0.26 
+
+0.000 
+
+0.15 
+
+0.006 
+
+0.19 
+
+0.003 
+
+0.25 
+
+0.003 
+
+0.28 
+
+0.003 
+
+Extraversion 
+
+0.35 
+
+0.000 
+
+0.21 
+
+0.001 
+
+0.26 
+
+0.000 
+
+0.33 
+
+0.000 
+
+0.38 
+
+0.000 
+
+Conscient. 
+
+0.65 
+
+0.000 
+
+0.39 
+
+0.000 
+
+0.49 
+
+0.000 
+
+0.63 
+
+0.000 
+
+0.72 
+
+0.000 
+
+Neuroticism 
+
+-0.21 
+
+0.004 
+
+-0.13 
+
+0.008 
+
+-0.16 
+
+0.005 
+
+-0.21 
+
+0.000 
+
+-0.24 
+
+0.004 
+
+41 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Discussion of Findings 
+
+This study investigates the role of resilience on the relationship between the big five personality 
+
+traits on the five dimensions of innovation competences. It was hypothesized that resilience 
+
+mediates  the  impact  of  big  five  personality  traits  on  creativity,  critical  thinking,  initiative, 
+
+networking,  and  teamwork.  In  the  following  paragraphs,  findings  of  study  results  are 
+
+appropriately discussed. 
+
+In this study, openness to experience was found to indirect predict creativity, critical 
+
+thinking,  initiative teamwork and networking  thorough resilience. These results corroborate 
+
+the findings of similar previous studies on personality traits and creativity, and creative abilities 
+
+(Amin et al., 2020; Hirsh & Peterson, 2008; Kaufman et al., 2016; Raja & Johns, 2010) and 
+
+critical thinking (Beaty et al., 2016; Feist, 2019; Yao & Li, 2021). One possible explanation 
+
+could be that creativity which involves the generation of new methods, ideas and solutions may 
+
+come with so many setbacks and failures before the final breakthrough. Thus, people high on 
+
+openness are better able to cope with the stress associated with failures because of their rich 
+
+experience with similar situations. This stress coping ability helps increases the chances of their 
+
+creative  process.  Another  possible  explanation  could  be  that  opened  people  with  their  high 
+
+level of imagination and intellect are better able to explore a variety of resources available to 
+
+support  them  through  their  period  of  adversity.  Equipped  with  knowledge  of  our  people  in 
+
+similar  difficult  situation  survived,  opened  people  become  encouraged  that  would  sure  sail 
+
+through their dark days/hours and tough times don’t forever. So, we may imply that that the 
+
+more opened to experience, the higher the level of resilience and thus the higher the level of 
+
+innovative competences 
+
+Another 
+
+important  finding 
+
+is 
+
+that  resilience  also  mediates 
+
+the 
+
+impact  of 
+
+conscientiousness on creativity, critical thinking, initiative teamwork and networking thorough 
+
+resilience.  This  supports  evidence  from  previous  studies  on  personality  traits  and 
+
+innovativeness and creativity (Ali, 2019; Amin et al., 2020; Chen, 2016)     and initiative (Saatci 
+
+& Okvaci, 2020b). This can be explained in part that innovation and problem solving would 
+
+require taking actions to implement new ideas and these actions can become very stressful due 
+
+to uncertainties and risks. Focus, discipline and attention would therefore become helpful to 
+
+manage such difficult and stressful endeavors. Highly conscientious people are very focused, 
+
+disciplined  and  result  oriented.  Hence,  they  can  manage  these  difficulties  in  the  way  of 
+
+innovation and then deliver the much-desired solutions to specific problems. So, we might say 
+
+42 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+that the more conscientious an individual is, the higher his level of resilience and the higher 
+
+the level of resilience. the more creative he becomes. 
+
+In addition, the result of this study shows that the impact of extraversion on innovation 
+
+competences is also mediated by resilience. These results are like those obtained in the studies 
+
+by Amin et al. (2020), Furnham & Bachtiar (2008) and Saatci & Ovaci (2020).   Social network: 
+
+colleagues,  collaborators,  and  friends,  can  provide  valuable  support  for  managing  adverse 
+
+situations  and  recovering  from  adversities.  The  bigger  the  network,  the  more  support  is 
+
+available  to  extraverted  individuals  during  their  trying  times.  With  larger  social  network, 
+
+extraverted people can increase their resilience level. Another perspective to this explanation 
+
+is that as part of the process of innovation, creative people must be mobilized to execute and 
+
+operationalize new ideas to achieve the desired solutions, products, or services. Here, again 
+
+extraversion  becomes  a  vantage  to  leverage  to  build  great  team  and  receive  feedback  from 
+
+others on innovative initiatives. Large social cycle provides support for resilience, and in turn 
+
+promotes teamwork and networking. 
+
+On the question of whether resilience mediates the relationship between agreeableness 
+
+and  innovation  competences,  this  study  found  that  resilience  mediates  the  role  between 
+
+agreeableness and innovation competences.  This result goes in line with those of Ali (2019), 
+
+Batey (2008) and Yao & Li (2021). Though the link between agreeableness and resilience may 
+
+not be too clear, however one might explain that highly agreeable people can build congenial 
+
+relationship in harmonious atmosphere and thus get acceptances from others. This acceptance 
+
+provides  the  much-needed  psychological  relief  and  calmness  when  handling  social  conflict 
+
+arising from collaborative activities.  
+
+Expectedly, the mediating role of resilience on the impact of neuroticism on innovation 
+
+competences is clear. The study confirms that the negative effect of neuroticism on innovation 
+
+competences is mediated by resilience. We find similar result with (Ali, 2019). The observed 
+
+relationship between resilience, neuroticism and innovation competences might be explained 
+
+this  way:  being  resilient  requires  a  lot  of  emotional  stability.  Neuroticism  personalities  are 
+
+overreactive with so much negative feelings. Thus, this emotional instability might make them 
+
+less resilient and their therefore reduce their level of teamwork, networking, and creativity. 
+
+43 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Conclusion 
+
+The main goal of this study was to investigate the impact of resilience on the influence of Big 
+
+five personality traits on all the five dimensions of innovation competences – creativity, critical 
+
+thinking, networking, and teamwork. Using structural equation modelling, the results of this 
+
+investigation show that resilience mediates the effect of big five personality traits on the five 
+
+dimensions of innovation competences 
+
+First,  openness  to  experiences  increases  the  students'  level  of  creativity,  critical 
+
+thinking, networking, initiative, and networking through resilience. This implies that students 
+
+with high tendency of exploring different interests and activities are more likely to cope with 
+
+stress and overcome difficulties better. And this would support their level of resilience and then 
+
+enhance their level of innovation competences. 
+
+Second,  conscientiousness  indirectly  and  positively  predicts  creativity,  critical 
+
+thinking, initiatives, networking, and teamwork. The more dutiful and focused the students are 
+
+the higher their capacity to overcome adversity and then the higher their levels of competences. 
+
+Thirdly,  people’s  level  of  agreeableness  (trustworthiness)  sustains  heir  cordial 
+
+relationships. This warm relationship would provide them with support them to pull through 
+
+adversity. And this increase in level of resilience would increase their resilience level during 
+
+adversity positively impacts their impacts their level of resilience which in turn supports their 
+
+innovation competences. The fourth finding relates to extraversion the social trait. Likewise, 
+
+the  more  of  it  a  student  possess,  the  more  resilient  and  the  higher  his  level  innovation 
+
+competences. 
+
+Conversely,  neuroticism  which  negatively  and  indirectly  influences  innovation 
+
+competences. Students with high level of emotional instability are less resilient and eventually 
+
+displays low level of innovation competences. 
+
+44 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Implications 
+
+There could be several implications of this study related to organization, universities, and 
+
+government of the economy. 
+
+1.  Theoretical implication of this study is that it contributes in the existing theory by 
+
+determining the role of resilience as a mediator in the innovative competence and personality 
+
+traits.   
+
+2.  The second implication of this study can be that it can help the universities to design the 
+
+various learning strategies and pedagogy methods like problem solving activities in the 
+
+context of discipline-based curriculum and courses that can develop and enhance the 
+
+innovative competences and resilience among students.  
+
+3.  The third implication is for business or employers that they should design training programs 
+
+for  employees  that  can  foster  the  innovative  behaviors  and  enhance  the  resilience  in  the 
+
+workplace. So, they would be better able to cope with stress and adversity.  
+
+4.  The fourth implication of this study could be for the government to design the policies that 
+
+could encourage the institutions and organizations to design the programs that can enhance the 
+
+innovative behavior in current and future labor force so that they can productively contribute 
+
+towards economy. 
+
+5.  This study can help the adolescents, universities, and employers to understand the importance 
+
+of resilience which can help the individuals to prevent from mental issues like depression and 
+
+enhance the productivity in long-term.  
+
+6.  Finally, this study can be helpful for the counselors and psychologist that provides individual 
+
+or  group  counseling  services  to  help  them  to  relieve  the  stress  improve  well-being  among 
+
+individuals.  It will help them by identifying, understand, express, and manage their emotions 
+
+through various activities and short-trainings and support.  
+
+45 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Limitations of the study 
+
+Nothing is perfect in the world; everything has positive as well as negative side. Same like this 
+
+study has few limitations but those limitations are not potential and not affecting the results. 
+
+These can be overcome in the future research.  
+
+1.  First  limitation  of  this  study  is  that  due  to  the  practical  constraints  e.g.,  survey  length  and 
+
+respondent's  burden,  single  item  measure  is  used  for  personality  traits.  Even  single  item 
+
+measure is suggested based on certain conditions, the fact that multi-item measure is better than 
+
+using single item measure. 
+
+2.  Second limitation is, all the data was collected on self-reported measures that means individuals 
+
+rated themselves based on self-understandings, which can cause response bias and increase the 
+
+chances  of  low  validity  and  reliability  of  the  scale.  However,  in  this  study,  reliability  and 
+
+validity was more than standard acceptable value. But for the in-depth insights, responses of 
+
+the other people on the reaction or the activities of individuals will be considered better such 
+
+as family members, teachers, and employers etc. 
+
+3.  Third limitation is that the lack of control variables, linked to participants' demographics, which 
+
+might have important explanatory effects that are not addressed in this study. They were only 
+
+used in descriptive studies. 
+
+Future Research 
+
+Following recommendations are provided for the future work: 
+
+1.  Longitudinal research can also be work for this type of study. 
+
+2.  Comparatives approaches can be done based on demographic variables, such as age, gender or 
+
+work experience. 
+
+3.  Cultural factors can also be considered as one of the main variables in future study because 
+
+personality traits and resilience can differ based on culture. Stress and depression vary with 
+
+nation  to  nation.  It  can  be  because  of  collectivistic  and  individualistic  society  based  on  the 
+
+Hofstede model.  
+
+4.  It is recommended to use multi-items measure for the any variables that are mentioned in this 
+
+study. 
+
+5.  Based on the limitation, it is also recommended to collect data that is not self-reported.  
+
+46 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+References 
+
+Adepoju, O., & Nwulu, N. (2021). Engineering students’ innovation competence: A comparative 
+
+analysis of Nigeria and South Africa. International Journal of Engineering Pedagogy, 10(6), 
+
+147–155. https://doi.org/10.3991/IJEP.V10I6.14695 
+
+Ali,  I.  (2019).  Personality  traits,  individual  innovativeness  and  satisfaction  with  life.  Journal  of 
+
+Innovation and Knowledge, 4(1), 38–46. https://doi.org/10.1016/j.jik.2017.11.002 
+
+Amin, A., Basri, S., Rahman, M., Capretz, L. F., Akbar, R., Gilal, A. R., & Shabbir, M. F. (2020). 
+
+The impact of personality traits and knowledge collection behavior on programmer creativity. 
+
+Information and Software Technology, 128. https://doi.org/10.1016/j.infsof.2020.106405 
+
+Antonietti, A., Colombo, B., & Pizzingrilli, P. (2011). The WCR model of creativity. From concept 
+
+to application. The Open Education Journal, 4(1). 
+
+Arnett, J. J. (2015). The Oxford handbook of emerging adulthood. Oxford University Press. 
+
+Ashton, M. C. (2022). Individual differences and personality. Academic Press. 
+
+Batey,  M.  (2008).  Creativity,  Intelligence,  and  Personality:  A  Critical  Review  of  the  Scattered 
+
+Literature. 
+
+Beaty, R. E., Kaufman, S. B., Benedek, M., Jung, R. E., Kenett, Y. N., Jauk, E., Neubauer, A. C., 
+
+&  Silvia,  P.  J.  (2016).  Personality  and  complex  brain  networks:  The  role  of  openness  to 
+
+experience  in  default  network  efficiency.  Human  Brain  Mapping,  37(2),  773–779. 
+
+https://doi.org/10.1002/hbm.23065 
+
+Beghetto, R. A., & Kaufman, J. C. (2014a). Classroom contexts for creativity. High Ability Studies, 
+
+25(1), 53–69. https://doi.org/10.1080/13598139.2014.905247 
+
+Beghetto, R. A., & Kaufman, J. C. (2014b). Classroom contexts for creativity. High Ability Studies, 
+
+25(1), 53–69. 
+
+Beran, T. N., & Violato, C. (2010). Structural equation modeling in medical research: A primer. 
+
+BMC Research Notes, 3. https://doi.org/10.1186/1756-0500-3-267 
+
+Campbell, W. K., Goodie, A. S., & Foster, J. D. (2004). Narcissism, confidence, and risk attitude. 
+
+Journal of Behavioral Decision Making, 17(4), 297–311. 
+
+47 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Catalano, D., Chan, F., Wilson, L., Chiu, C. Y., & Muller, V. R. (2011). The Buffering Effect of 
+
+Resilience on Depression Among Individuals With Spinal Cord Injury: A Structural Equation 
+
+Model. Rehabilitation Psychology, 56(3), 200–211. https://doi.org/10.1037/a0024571 
+
+Chan,  S.,  &  Yuen,  M.  (2014).  Personal  and  environmental  factors  affecting  teachers’  creativity-
+
+fostering practices in Hong Kong. Thinking Skills and Creativity, 12, 69–77. 
+
+Charoensap-Kelly, P., Sheldon, P., Grace Antony, M., & Provenzani, L. (2021). Resilience, well-
+
+being,  and  organizational  outcomes  of  Croatian,  Thai,  and  US  workers  during  COVID-19. 
+
+Journal of Management and Organization, 27(6). https://doi.org/10.1017/JMO.2021.58 
+
+Chell, E., & Athayde, R. (2009a). The identification and measurement of innovative characteristics 
+
+of young people: Development of the youth innovation skills measurement tool. NESTA. 
+
+Chell, E., & Athayde, R. (2009b). The identification and measurement of innovative characteristics 
+
+of young people: Development of the youth innovation skills measurement tool. NESTA. 
+
+Chen,  B.  bin.  (2016).  Conscientiousness  and  everyday  creativity  among  Chinese  undergraduate 
+
+students. 
+
+Personality 
+
+and 
+
+Individual 
+
+Differences, 
+
+102, 
+
+56–59. 
+
+https://doi.org/10.1016/j.paid.2016.06.061 
+
+Church, J. (n.d.). DttP: Documents to the People Fall 2018 Documents without Borders Documents 
+
+without  Borders  Dear  International  Organizations:  Please  Don’t  Delete  Your  Data. 
+
+https://doi.org/10.1016/j.ecolind.2014.04 
+
+Connor,  K.  M.,  Davidson,  J.  R.  T.,  &  Lee,  L.-C.  (2003).  Spirituality,  resilience,  and  anger  in 
+
+survivors of violent trauma: A community survey. Journal of Traumatic Stress, 16(5), 487–
+
+494. 
+
+Daksa, M. D., Yismaw, M. A., Lemessa, S. D., & Hundie, S. K. (2018). Enterprise innovation in 
+
+developing countries: an evidence from Ethiopia. Journal of Innovation and Entrepreneurship, 
+
+7(1). https://doi.org/10.1186/s13731-018-0085-4 
+
+Dalke, A. F., Cassidy, K., Grobstein, P., & Blank, D. (2007). Emergent pedagogy: learning to enjoy 
+
+the uncontrollable—and make it productive. Journal of Educational Change, 8(2), 111–130. 
+
+Dodd,  Z.,  Driver,  S.,  Warren,  A.  M.,  Riggs,  S.,  &  Clark,  M.  (2015).  Effects  of  Adult  Romantic 
+
+Attachment and Social Support on Resilience and Depression in Individuals with Spinal Cord 
+
+Injuries. Top Spinal Cord Inj Rehabil, 21(1), 156–156. https://doi.org/10.1310/sci2101-156 
+
+48 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Dyer,  J.  G.,  &  McGuinness,  T.  M.  (1996).  Resilience:  Analysis  of  the  concept.  Archives  of 
+
+Psychiatric Nursing, 10(5), 276–282. 
+
+Fan, Y., Chen, J.,  Shirkey, G., John, R., Wu, S. R., Park, H., &  Shao,  C. (n.d.).  Applications of 
+
+structural  equation  modeling 
+
+(SEM) 
+
+in  ecological  studies:  an  updated  review. 
+
+https://doi.org/10.1186/s13717-016-0063-3 
+
+Farr,  J.  L.,  &  West,  M.  A.  (1990).  Innovation  and  creativity  at  work:  Psychological  and 
+
+organizational strategies. Wiley. 
+
+Feist, G. J. (2019a). The function of personality in creativity: Updates on the creative personality. 
+
+Feist, G. J. (2019b). Creativity and the Big Two model of personality: plasticity and stability. In 
+
+Current  Opinion 
+
+in  Behavioral  Sciences 
+
+(Vol.  27,  pp.  31–35).  Elsevier  Ltd. 
+
+https://doi.org/10.1016/j.cobeha.2018.07.005 
+
+Fisher, G. G., Matthews, R. A., & Gibbons, A. M. (2016). Developing and investigating the use of 
+
+single-item measures in organizational research. Journal of Occupational Health Psychology, 
+
+21(1), 3–23. https://doi.org/10.1037/a0039139 
+
+Foster, J., & Yaoyuneyong, G. (2016). Teaching innovation: Equipping students to overcome real-
+
+world 
+
+challenges. 
+
+Higher 
+
+Education 
+
+Pedagogies, 
+
+1(1), 
+
+42–56. 
+
+https://doi.org/10.1080/23752696.2015.1134195 
+
+Furnham,  A.,  &  Bachtiar,  V.  (2008).  Personality  and  intelligence  as  predictors  of  creativity. 
+
+Personality 
+
+and 
+
+Individual 
+
+Differences, 
+
+45(7), 
+
+613–617. 
+
+https://doi.org/10.1016/j.paid.2008.06.023 
+
+Gerber,  A.  S.,  Huber,  G.  A.,  Doherty,  D.,  Dowling,  C.  M.,  &  Ha,  S.  E. (2010).  Personality  and 
+
+political  attitudes:  Relationships  across  issue  domains  and  political  contexts.  American 
+
+Political Science Review, 104(1), 111–133. https://doi.org/10.1017/S0003055410000031 
+
+Goldberg,  L.  R.  (1992).  The  Development  of  Markers  for  the  Big-Five  Factor  Structure.  In 
+
+Psychological Assessment (Vol. 4, Issue 1). 
+
+Gosling,  S.  D.,  Rentfrow,  P.  J.,  &  Swann,  W.  B.  (2003).  A  very  brief  measure  of  the  Big-Five 
+
+personality 
+
+domains. 
+
+Journal 
+
+of  Research 
+
+in  Personality, 
+
+37(6), 
+
+504–528. 
+
+https://doi.org/10.1016/S0092-6566(03)00046-1 
+
+Graziano, W. G., & Tobin, R. M. (2009). Agreeableness. 
+
+49 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Hayes,  N.,  &  Joseph,  S.  (n.d.).  Big  5  correlates  of  three  measures  of  subjective  well-being. 
+
+www.elsevier.com/locate/paid 
+
+Heale, R., & Twycross, A. (2015). Validity and reliability in quantitative studies. In Evidence-Based 
+
+Nursing (Vol. 18, Issue 3, pp. 66–67). https://doi.org/10.1136/eb-2015-102129 
+
+Hirsh,  J.  B., &  Peterson,  J.  B.  (2008).  Predicting  creativity  and  academic  success  with  a  “Fake-
+
+Proof”  measure  of  the  Big  Five.  Journal  of  Research  in  Personality,  42(5),  1323–1333. 
+
+https://doi.org/10.1016/j.jrp.2008.04.006 
+
+Hudson, N. W., & Fraley, R. C. (2015). Volitional personality trait change: Can people choose to 
+
+change their personality traits? Journal of Personality and Social Psychology, 109(3), 490. 
+
+Hunter, S. T., Cushenbery, L., & Friedrich, T. (2012). Hiring an innovative workforce: A necessary 
+
+yet uniquely challenging endeavor. Human Resource Management Review, 22(4), 303–322. 
+
+Jirásek,  M.,  &  Sudzina,  F.  (2020).  Big  five  personality  traits  and  creativity.  Quality  Innovation 
+
+Prosperity, 24(3), 90–105. 
+
+Kaufman,  S.  B.,  Quilty,  L.  C.,  Grazioplene,  R.  G.,  Hirsh,  J.  B.,  Gray,  J.  R.,  Peterson,  J.  B.,  & 
+
+Deyoung, C. G. (2016). Openness to Experience and Intellect Differentially Predict Creative 
+
+Achievement 
+
+in 
+
+the  Arts  and  Sciences.  Journal  of  Personality,  84(2),  248–258. 
+
+https://doi.org/10.1111/jopy.12156 
+
+Marin-Garcia, J. A., Andreu Andres, M. A., Atares-Huerta, L., Aznar-Mas, L. E., Garcia-Carbonell, 
+
+A., González-Ladrón-de-Guevara, F., Montero Fleta, B., Perez-Peñalver, M. J., & Watts, F. 
+
+(2016). Proposal of a Framework for Innovation Competences Development and Assessment 
+
+(FINCODA).  WPOM-Working  Papers  on  Operations  Management,  7(2),  119. 
+
+https://doi.org/10.4995/wpom.v7i2.6472 
+
+Marin-Garcia, J. A., Andreu-Andrés, M. Á., Atares-Huerta, L., Aznar-Mas, L. E., Garcia-Carbonell, 
+
+A., González-Ladrón-de-Guevara, F., Fleta, B. M., Perez-Peñalver, M. J., & Watts, F. (2016). 
+
+Proposal  of  a  framework  for  innovation  competences  development  and  assessment 
+
+(FINCODA). WPOM-Working Papers on Operations Management, 7(2), 119–126. 
+
+Marin-Garcia, J. A., Aznar-Mas, L. E., & González-Ladrón-de-Guevara, F. (2011). Innovation types 
+
+and talent management for innovation. WPOM-Working Papers on Operations Management, 
+
+2(2), 25–31. 
+
+50 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+McClelland,  D.  C.  (1987).  Characteristics  of  successful  entrepreneurs.  The  Journal  of  Creative 
+
+Behavior. 
+
+Moore,  M.  T.  (n.d.).  Hoyle  CFA  Chapter-Final  Facial  emotion  recognition  in  major  depressive 
+
+disorder:  a  meta-analytic  review  View  project  A  Comparison  Between  Brazilians  and 
+
+Americans  on  the  Relationships  Among  Emotion-Regulation,  Coping  and  Life  Satisfaction. 
+
+View project. https://www.researchgate.net/publication/251573889 
+
+Mulder,  M.  (2012).  Competence-based  education  and  training.  The  Journal  of  Agricultural 
+
+Education and Extension, 18(3), 305–314. 
+
+Oshio, A., Taku, K., Hirano, M., & Saeed, G. (2018). Resilience and Big Five personality traits: A 
+
+meta-analysis. 
+
+Personality 
+
+and 
+
+Individual 
+
+Differences, 
+
+127, 
+
+54–60. 
+
+https://doi.org/10.1016/j.paid.2018.01.048 
+
+Ovbiagbonhia, A. R., Kollöffel, B., & Perry Den Brok, ·. (2019). Educating for innovation: students’ 
+
+perceptions  of the learning environment  and of their own innovation  competence.  Learning 
+
+Environments Research, 22, 387–407. https://doi.org/10.1007/s10984-019-09280-3 
+
+Ozer, D. J., & Benet-Martinez, V. (2006). Personality and the prediction of consequential outcomes. 
+
+Annu. Rev. Psychol., 57, 401–421. 
+
+Park, Y. S., Konge, L., & Artino, A. R. (2020). The Positivism Paradigm of Research. In Academic 
+
+Medicine 
+
+(pp. 
+
+690–694). 
+
+Lippincott 
+
+Williams 
+
+and 
+
+Wilkins. 
+
+https://doi.org/10.1097/ACM.0000000000003093 
+
+Pellicer-Sifres, V., Belda-Miquel, S., López-Fogués, A., & Boni Aristizábal, A. (2017). Grassroots 
+
+Social Innovation for Human Development: An Analysis of Alternative Food Networks in the 
+
+City of Valencia (Spain). Journal of Human Development and Capabilities, 18(2), 258–274. 
+
+https://doi.org/10.1080/19452829.2016.1270916 
+
+Pérez-Peñalver,  M.  J.,  Aznar-Mas,  L.  E.,  &  Montero  Fleta,  B.  (2018).  Identification  and 
+
+classification of behavioural indicators to assess innovation competence. Journal of Industrial 
+
+Engineering and Management, 11(1), 87–115. 
+
+Putka, D. J., & Sackett, P. R. (2010). Reliability and validity. In Handbook of Employee Selection 
+
+(pp. 9–49). https://doi.org/10.4324/9780203809808 
+
+51 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Raja, U., & Johns, G. (2010). The joint effects of personality and job scope on in-role performance, 
+
+citizenship 
+
+behaviors, 
+
+and 
+
+creativity.  Human  Relations, 
+
+63(7), 
+
+981–1005. 
+
+https://doi.org/10.1177/0018726709349863 
+
+R.O. Mueller  2001. (n.d.). 
+
+Saatci, E. Y., & Ovaci, C. (2020a). Innovation competences of individuals as a driving skill sets of 
+
+future  works  and  impact  of  their  personality  traits.  International  Journal  of  Technological 
+
+Learning, Innovation and Development, 12(1), 27–44. 
+
+Saatci, E. Y., & Ovaci, C. (2020b). Innovation competences of individuals as a driving skill sets of 
+
+future  works  and  impact  of  their  personality  traits.  International  Journal  of  Technological 
+
+Learning, Innovation and Development, 12(1), 27–44. 
+
+Saatci, E. Y., & Ovaci, C. (2020c). Innovation competences of individuals as a driving skill sets of 
+
+future  works  and  impact  of  their  personality  traits.  In  Int.  J.  Technological  Learning, 
+
+Innovation and Development (Vol. 12, Issue 1). 
+
+Sawyer, R. K., John-Steiner, V., Moran, S., Sternberg, R. J., Feldman, D. H., Csikszentmihalyi, M., 
+
+Gardner, H., & Nakamura, J. (2003). Creativity and development. Counterpoints: Cognition, 
+
+Memo. 
+
+Shin, J. I., Chae, J. H., Min, J. A., Lee, C. U., Hwang, S. il, Lee, B. S., Han, S. H., Ju, H. I., & Lee, 
+
+C. Y. (2012). Resilience as a possible predictor for psychological distress in chronic spinal cord 
+
+injured patients living in the community. Annals of Rehabilitation Medicine, 36(6), 815–820. 
+
+https://doi.org/10.5535/arm.2012.36.6.815 
+
+Skillicorn,  N.  (2016).  What  is  innovation?  15  experts  share  their  innovation  definition  -  Idea  to 
+
+Value. 
+
+Idea 
+
+to 
+
+Value, 
+
+1–25. 
+
+https://www.ideatovalue.com/inno/nickskillicorn/2016/03/innovation-15-experts-share-
+
+innovation-definition/ 
+
+Tabak,  F.,  &  Barr,  S.  H.  (1999).  Propensity  to  adopt  technological  innovations:  the  impact  of 
+
+personal  characteristics  and organizational  context.  Journal of  Engineering  and Technology 
+
+Management, 16(3–4), 247–270. 
+
+Thakur-Wernz, P., & Bosse, D. (n.d.). Review of Learning Mechanisms Used by Emerging Economy 
+
+Firms to Improve their Innovation Performance. https://ssrn.com/abstract=4019951 
+
+52 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Veryzer  Jr,  R.  W.  (1998).  Discontinuous  innovation  and  the  new  product  development  process. 
+
+Journal  of  Product  Innovation  Management:  An  International  Publication  of  the  Product 
+
+Development & Management Association, 15(4), 304–321. 
+
+West, M. A. (2002). Sparkling fountains or stagnant ponds: An integrative model of creativity and 
+
+innovation implementation in work groups. Applied Psychology, 51(3), 355–387. 
+
+Widiger, T. A. (2009). Neuroticism. 
+
+Winit-Watjana,  W.  (2016).  Research  philosophy  in  pharmacy  practice:  necessity  and  relevance. 
+
+International 
+
+Journal 
+
+of 
+
+Pharmacy 
+
+Practice, 
+
+24(6), 
+
+428–436. 
+
+https://doi.org/10.1111/IJPP.12281 
+
+Yao,  X.,  &  Li,  R.  (2021a).  Big  five  personality  traits  as  predictors  of  employee  creativity  in 
+
+probation  and  formal  employment  periods.  Personality  and  Individual  Differences,  182, 
+
+109914. 
+
+Yao,  X.,  &  Li,  R.  (2021b).  Big  five  personality  traits  as  predictors  of  employee  creativity  in 
+
+probation  and  formal  employment  periods.  Personality  and  Individual  Differences,  182. 
+
+https://doi.org/10.1016/j.paid.2020.109914 
+
+53 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Appendix A 
+
+Questionnaire used in the study 
+
+The study used a survey instrument which is made up of set of questions which are 
+
+meant to elicit responses to measure the three (3) constructs innovation competences items, 
+
+personality traits and resilience 
+
+Innovation competences items 
+
+12. convince people to support an innovative 
+
+Please, evaluate from 1 (absolutely 
+
+disagree) to 5 (absolutely agree) your 
+
+ability to... 
+
+idea 
+
+13. systematically introduce new ideas into 
+
+work practices 
+
+14. act quickly and energetically 
+
+1.  think differently and adopt different 
+
+15. generate original solutions for problems or 
+
+perspectives 
+
+to opportunities 
+
+2.  be attentive when others are speaking, and 
+
+respond effectively to others’ comments 
+
+16. use trial and error for problem solving 
+
+17. develop and experiment with new ways of 
+
+during the conversation 
+
+problem solving 
+
+3.  use intuition and own knowledge to start 
+
+18. acquire, assimilate, transform, and exploit 
+
+actions 
+
+4.  invite feedback and comments 
+
+external knowledge to establish, manage 
+
+and learn from informal organizational ties 
+
+5.  foster improvements in work organization 
+
+19. challenge the status quo 
+
+6.  obtain constructive comments from 
+
+colleagues 
+
+7.  find new ways to implement ideas 
+
+8.  identify sources of conflict between 
+
+oneself and others, or among other people, 
+
+and to take steps to overcome disharmony 
+
+9.  take an acceptable level of risk to support 
+
+new ideas 
+
+10. go beyond expectations in the assignment, 
+
+task, or job description without being 
+
+asked 
+
+20. face the task from different points of view 
+
+21. make suggestions to improve current 
+
+process, products, or services 
+
+22. present novel ideas 
+
+23. forecast impact on users 
+
+24. show inventiveness in using resources 
+
+25. search out new working methods, 
+
+techniques, or instruments 
+
+26. provide constructive feedback, 
+
+cooperation, coaching or help to team 
+
+colleagues 
+
+11. meet people with different kinds of ideas 
+
+and perspectives to extend your own 
+
+27. work well with others, understanding their 
+
+needs and being sympathetic with them 
+
+knowledge domain 
+
+54 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+28. share timely information with the 
+
+I see myself as someone who 
+
+appropriate stakeholders 
+
+29. consult about essential changes 
+
+30. build relationships outside the 
+
+team/organization 
+
+31. refine ideas into a useful form 
+
+32. engage outsiders of the core work group 
+
+from the beginning 
+
+33. ask “Why?” and “Why not?” and “What 
+
+if?” with a purpose 
+
+34. work in multidisciplinary environments 
+
+1.  Is reserved 
+
+2.  Is generally trusting 
+
+3.  tends to be lazy 
+
+4.  is relaxed, handles stress well 
+
+5.  has few artistic interests 
+
+6.  is outgoing, sociable 
+
+7.  tends to find fault with others 
+
+8.  does a thorough job 
+
+9.  gets nervous easily 
+
+10. has an active imagination 
+
+Personality Traits 
+
+11. makes plans and follows through with 
+
+Here are several characteristics that may or 
+
+them 
+
+may not apply to you. For example, do you 
+
+Resilience items 
+
+agree that you are someone who likes to 
+
+spend time with others? Please, evaluate 
+
+from 1 (absolutely disagree) to 5 
+
+(absolutely agree) indicate the extent to 
+
+which you agree or disagree with that 
+
+statement. 
+
+1.  I  tend  to  bounce  back  quickly  after  hard 
+
+times. 
+
+2.  It does not take me long to recover from a 
+
+stressful event. 
+
+3.  I  tend  to  take  a  long  time  to  get  over 
+
+setbacks in my life. 
+
+55 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Appendix B 
+Structural Equation Model: Indirect   
+
+Indirect Effects 
+
+OIM  
+
+Coefficient  
+
+std. err.  
+
+z  
+
+P>|z|      
+
+ [95% 
+conf.  
+
+interval]  
+
+Creativity 
+
+Resilience 
+
+0 
+
+(no path) 
+
+Agreeableness 
+
+0.2626422 
+
+0.0881551 
+
+Extraversion 
+
+0.3520673 
+
+0.0977674 
+
+Conscientiousness 
+Openness to 
+experience 
+
+0.6592149 
+
+0.1286747 
+
+0.5144927 
+
+0.1222882 
+
+Neuroticism 
+
+-0.2189205 
+
+0.0766577 
+
+Teamwork 
+
+Resilience 
+
+0 
+
+(no path) 
+
+Agreeableness 
+
+0.1987278 
+
+0.0673299 
+
+Extraversion 
+
+0.2663913 
+
+0.0749593 
+
+Conscientiousness 
+Openness to 
+experience 
+
+0.498794 
+
+0.0999863 
+
+0.3892901 
+
+0.0942024 
+
+Neuroticism 
+
+-0.1656459 
+
+0.0584972 
+
+Initiatives 
+
+Resilience 
+
+0 
+
+(no path) 
+
+Agreeableness 
+
+0.288187 
+
+0.0965271 
+
+Extraversion 
+
+0.3863098 
+
+0.1069275 
+
+Conscientiousness 
+Openness to 
+experience 
+
+0.7233308 
+
+0.1402627 
+
+0.5645328 
+
+0.1335641 
+
+Neuroticism 
+
+-0.240213 
+
+0.0839501 
+
+Critical Thinking 
+
+Resilience 
+
+0 
+
+(no path) 
+
+Agreeableness 
+
+0.156964 
+
+0.0567128 
+
+Extraversion 
+
+0.2104076 
+
+0.0648373 
+
+Conscientiousness 
+Openness to 
+experience 
+
+0.3939695 
+
+0.0932441 
+
+0.3074785 
+
+0.0838627 
+
+Neuroticism 
+
+-0.1308345 
+
+0.0490461 
+
+2.98 
+
+3.6 
+
+5.12 
+
+4.21 
+
+-2.86 
+
+2.95 
+
+3.55 
+
+4.99 
+
+4.13 
+
+-2.83 
+
+2.99 
+
+3.61 
+
+5.16 
+
+4.23 
+
+-2.86 
+
+2.77 
+
+3.25 
+
+4.23 
+
+3.67 
+
+-2.67 
+
+0.003 
+
+0.0898614 
+
+0.435423 
+
+0.000 
+
+0.1604467 
+
+0.543688 
+
+0.000 
+
+0.4070172 
+
+0.9114127 
+
+0.000 
+
+0.2748123 
+
+0.7541731 
+
+0.004 
+
+-0.369167 
+
+-0.0686741 
+
+0.003 
+
+0.0667636 
+
+0.3306921 
+
+0.000 
+
+0.1194737 
+
+0.4133089 
+
+0.000 
+
+0.3028245 
+
+0.6947636 
+
+0.000 
+
+0.2046569 
+
+0.5739234 
+
+0.005 
+
+-0.2802984 
+
+-0.0509935 
+
+0.003 
+
+0.0989975 
+
+0.4773766 
+
+0.000 
+
+0.1767358 
+
+0.5958838 
+
+0.000 
+
+0.4484211 
+
+0.9982406 
+
+0.000 
+
+0.3027519 
+
+0.8263136 
+
+0.004 
+
+-0.4047521 
+
+-0.0756739 
+
+0.006 
+
+0.0458089 
+
+0.2681191 
+
+0.001 
+
+0.0833289 
+
+0.3374863 
+
+0.000 
+
+0.2112144 
+
+0.5767247 
+
+0.000 
+
+0.1431106 
+
+0.4718465 
+
+0.008 
+
+-0.226963 
+
+-0.034706 
+
+56 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+   
+   
+   
+   
+   
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2.97 
+
+3.59 
+
+5.08 
+
+4.19 
+
+-2.85 
+
+0.003 
+
+0.0859012 
+
+0.419063 
+
+0.000 
+
+0.1535338 
+
+0.5233621 
+
+0.000 
+
+0.389375 
+
+0.8780525 
+
+0.000 
+
+0.2629973 
+
+0.7261827 
+
+0.004 
+
+-0.3552422 
+
+-0.0656614 
+
+Networking 
+
+Resilience 
+
+0 
+
+(no path) 
+
+Agreeableness 
+
+0.2524821 
+
+0.0849918 
+
+Extraversion 
+
+0.3384479 
+
+0.0943457 
+
+Conscientiousness 
+Openness to 
+experience 
+
+0.6337138 
+
+0.1246649 
+
+0.49459 
+
+0.1181617 
+
+Neuroticism 
+
+-0.2104518 
+
+0.073874 
+
+Resilience 
+
+Agreeableness 
+
+Extraversion 
+
+Conscientiousness 
+Openness to 
+experience 
+
+Neuroticism 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+(no path) 
+
+(no path) 
+
+(no path) 
+
+(no path) 
+
+(no path) 
+
+57 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Appendix C 
+
+Structural Equation Model: Total effects 
+
+OIM  
+
+Coefficient  
+
+std. err.  
+
+z  
+
+P>|z|      
+
+ [95% 
+conf.  
+
+interval]  
+
+Structural Model 
+
+Creativity 
+
+Resilience  2.0204 
+
+Agreeableness  0.1423 
+
+Extraversion  0.1403 
+
+Conscientiousness  0.1885 
+
+Openness to 
+
+experience  0.2375 
+
+Neuroticism 
+
+-0.0574 
+
+Teamwork 
+
+Resilience  1.5288 
+
+Agreeableness  0.1525 
+
+Extraversion  0.1153 
+
+Conscientiousness  0.2300 
+
+Openness to 
+
+experience  0.1873 
+
+Neuroticism 
+
+-0.0472 
+
+Initiatives 
+
+Resilience  2.2170 
+
+Agreeableness  0.1535 
+
+Extraversion  0.1827 
+
+Conscientiousness  0.2510 
+
+Openness to 
+
+experience  0.2520 
+
+Neuroticism 
+
+-0.0600 
+
+Critical Thinking 
+
+Resilience  1.2075 
+
+Agreeableness  0.0893 
+
+Extraversion  0.0617 
+
+Conscientiousness  0.0943 
+
+Openness to 
+
+0.3329 
+
+0.0278 
+
+0.0280 
+
+0.0279 
+
+0.0336 
+
+0.0237 
+
+0.2613 
+
+0.0274 
+
+0.0272 
+
+0.0286 
+
+0.0323 
+
+0.0231 
+
+0.3619 
+
+0.0331 
+
+0.0337 
+
+0.0340 
+
+0.0395 
+
+0.0288 
+
+0.2562 
+
+0.0216 
+
+0.0199 
+
+0.0216 
+
+6.07 
+
+5.12 
+
+5.02 
+
+6.76 
+
+7.07 
+
+-2.42 
+
+0.000 
+
+0.000 
+
+0.000 
+
+0.000 
+
+0.000 
+
+0.016 
+
+1.3679 
+
+0.0879 
+
+0.0855 
+
+0.1338 
+
+2.6730 
+
+0.1967 
+
+0.1951 
+
+0.2431 
+
+0.1716 
+
+-0.1039 
+
+0.3033 
+
+-0.0109 
+
+5.8500 
+
+0.0000 
+
+1.0165 
+
+5.5600 
+
+0.0000 
+
+0.0987 
+
+4.2400 
+
+0.0000 
+
+0.0621 
+
+8.0500 
+
+0.0000 
+
+0.1740 
+
+5.7900 
+
+0.0000 
+
+0.1239 
+
+-2.0400 
+
+0.0410 
+
+-0.0925 
+
+6.1300 
+
+0.0000 
+
+1.5076 
+
+4.6400 
+
+0.0000 
+
+0.0887 
+
+5.4200 
+
+0.0000 
+
+0.1167 
+
+7.3700 
+
+0.0000 
+
+0.1843 
+
+6.3900 
+
+0.0000 
+
+0.1747 
+
+-2.0900 
+
+0.0370 
+
+-0.1164 
+
+4.71000  0.0000 
+
+0.7053 
+
+4.14000  0.0000 
+
+0.0470 
+
+3.10000  0.0020 
+
+0.0227 
+
+4.38000  0.0000 
+
+0.0521 
+
+2.0410 
+
+0.2062 
+
+0.1686 
+
+0.2860 
+
+0.2507 
+
+-0.0019 
+
+2.9264 
+
+0.2183 
+
+0.2488 
+
+0.3177 
+
+0.3294 
+
+-0.0037 
+
+1.7097 
+
+0.1316 
+
+0.1006 
+
+0.1365 
+
+experience  0.1195 
+
+0.0268 
+
+Neuroticism 
+
+-0.0261 
+
+0.0158 
+
+4.47000  0.0000 
+-
+1.65000  0.0990 
+
+0.0671 
+
+0.1720 
+
+-0.0572 
+
+0.0049 
+
+58 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+   
+   
+   
+   
+   
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Networking 
+
+Resilience  1.9423 
+
+Agreeableness  0.1676 
+
+Extraversion  0.1453 
+
+Conscientiousness  0.2154 
+
+Openness to 
+
+experience  0.1914 
+
+Neuroticism 
+
+-0.0607 
+
+0.3235 
+
+0.0308 
+
+0.0313 
+
+0.0308 
+
+0.0361 
+
+0.0264 
+
+6 
+
+5.45 
+
+4.64 
+
+6.99 
+
+5.3 
+
+-2.3 
+
+Resilience 
+
+Agreeableness  0.1299924 
+
+0.0394597 
+
+3.29 
+
+Extraversion  0.1742525 
+
+0.040035 
+
+4.35 
+
+Conscientiousness  0.3262724 
+
+0.0424586 
+
+7.68 
+
+Openness to 
+
+experience  0.2546434 
+
+0.0489338 
+
+5.2 
+
+Neuroticism 
+
+-0.1083527 
+
+0.0342335 
+
+-3.17 
+
+0.000 
+
+0.000 
+
+0.000 
+
+0.000 
+
+0.000 
+
+0.021 
+
+0.001 
+
+0.000 
+
+0.000 
+
+0.000 
+
+0.002 
+
+1.3082 
+
+0.1073 
+
+0.0839 
+
+0.1550 
+
+2.5764 
+
+0.2278 
+
+0.2067 
+
+0.2758 
+
+0.1206 
+
+-0.1124 
+
+0.2621 
+
+-0.0090 
+
+0.0527 
+
+0.0958 
+
+0.2431 
+
+0.1587 
+
+-0.175 
+
+0.20733 
+
+0.25272 
+
+0.40949 
+
+0.35055 
+
+-0.04126 
+
+59 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+

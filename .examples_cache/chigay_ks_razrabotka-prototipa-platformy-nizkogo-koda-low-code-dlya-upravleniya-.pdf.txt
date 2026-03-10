@@ -1,0 +1,4839 @@
+National Research University Higher School of Economics 
+
+Graduate School of Business 
+
+Chigai Kseniia Sergeevna 
+
+LOW-CODE DEVELOPMENT PLATFORM PROTOTYPE 
+
+DEVELOPMENT FOR IRRIGATION MANAGEMENT IN RUSSIAN 
+
+AGRICULTURE 
+
+Bachelor’s Thesis 
+
+in the field 38.03.05 Business Informatics 
+
+Degree Programme “Management and Digital Innovation” 
+
+Academic supervisor 
+
+Associate Professor at Graduate School of Business 
+
+Department of Strategic and International Management 
+
+Nikolai Vodolazskiy 
+
+Research adviser 
+
+Associate Professor at Graduate School of Business 
+
+Department of Business Informatics 
+
+Mikhail Georgiev 
+
+Moscow, 2025 
+
+ 
+ 
+ 
+  
+ 
+  
+  
+ 
+  
+ 
+ 
+ 
+TABLE OF CONTENTS 
+
+INTRODUCTION................................................................................................... 3 
+
+CHAPTER 1. THEORETICAL BACKGROUND OF THE LOW-CODE 
+
+TECHNOLOGY...................................................................................................... 6 
+
+1.1. DEFINITION AND KEY CHARACTERISTICS OF THE LOW-CODE 
+
+TECHNOLOGY...................................................................................................6 
+
+1.2. LOW-CODE PERSPECTIVES IN THE AGRICULTURAL INDUSTRY 11 
+
+1.3. TOPIC JUSTIFICATION. GLOBAL RELEVANCE OF WATER 
+
+SHORTAGE....................................................................................................... 14 
+
+1.4. CURRENT SITUATION IN RUSSIAN AGRICULTURE........................ 16 
+
+1.5. RELEVANT STAKEHOLDERS................................................................ 18 
+
+CHAPTER 2. RESEARCH DESIGN OF LOW-CODE UTILIZATION IN 
+
+THE AGRICULTURE INDUSTRY.................................................................... 20 
+
+2.1. OVERVIEW OF THE LOW-CODE SOLUTIONS IN AGRICULTURE..20 
+
+2.2. DESIGN OF THE INTERVIEW WITH INDUSTRY PROFESSIONALS26 
+
+2.3. INTERVIEWS RESULTS........................................................................... 30 
+
+2.4. DESIGN OF THE SURVEY AMONG SMES AND FARMERS.............. 39 
+
+2.5. SURVEY RESULTS................................................................................... 46 
+
+CHAPTER 3. LCDP PROTOTYPE DEVELOPMENT AND COST 
+
+EVALUATION....................................................................................................... 56 
+
+3.3. PROTOTYPE DEVELOPMENT............................................................... 56 
+
+3.3. COST ESTIMATION AND ECONOMIC EFFECT.................................. 70 
+
+CONCLUSION...................................................................................................... 76 
+
+REFERENCES...................................................................................................... 79 
+
+APPENDIX.............................................................................................................85 
+
+APPENDIX 1. INTERVIEW TRANSCRIPT.................................................... 85 
+
+APPENDIX 2. SURVEY TRANSCRIPT.......................................................... 88 
+
+2 
+
+ 
+INTRODUCTION 
+
+Environmental changes have become an issue these days. Due to the shifts 
+
+in  the  natural  lifecycle  people  are  adapting  to  the  new  way  of  surviving  in  the 
+
+changing  world.  Environmental changes have become an issue these days. Due to 
+
+the shifts in the natural lifecycle people are adapting to the new way of surviving in 
+
+the  transforming  world.  It  is  predicted  that  water  demand  will  be  bigger  than 
+
+supply by 40% in 2030, according to the United Nations (Down to Earth, 2023).  
+
+The  agricultural  sector  is  considered  to  be  one  of  the  least  digitalized 
+
+industries,  despite  being  one  of  the  most  important.  The  technological  adoption 
+
+rate  is  assessed  for  39%  on  average  (Amoussouhoui  R.  et  al.,  2024).  Also  it  is 
+
+stated as the most vulnerable business since it depends on the weather and natural 
+
+conditions.  It  is  especially  true  for  Russia,  where  the  digitalization  index  for 
+
+agriculture is in 8th place, accounting for 27.2, compared to 75.5 for the top 1 the 
+
+United States.  
+
+Small  and  medium  enterprises  (SMEs)  and  farmers  are  mostly  afraid  of 
+
+increased  price  inputs  (48%)  but  the  decreased  yields  due  to the water scarcity is 
+
+the  major  issue  as  well  (21%).  Despite  the  upcoming  shortage,  40%  or  0.8 
+
+quadrillion gallons of the water utilized in agriculture is wasted (UNESCO, 2024). 
+
+Companies  are  ready  to  implement  innovation,  but  only  more  than  a  half  are 
+
+currently using or eager to adopt at least 1 piece of technology, but 49% are ready 
+
+to implement sustainable practices to diminish production costs (McKinsey, 2024).  
+
+Since  software  development  in  the  agricultural  sector  requires  a  lot  of 
+
+resources  it  is  more  convenient  to  use  low-code  development  platforms  as  an 
+
+innovative  approach  for  solution  construction,  enabling  enterprises  to  design  and 
+
+deploy  required  systems  more  efficiently  by  reducing  reliance  on  extensive 
+
+programming expertise. My research aim is to develop the prototype of the LCDP 
+
+to  digitalize  the  water  irrigation  management  system  for  Russian  agricultural 
+
+SMEs.  
+
+To achieve this goal I consider the following tasks as the objectives: 
+
+3 
+
+ 
+ 
+1.  Investigation  of 
+
+the 
+
+theoretical  background  on 
+
+the 
+
+low-code 
+
+technology, latest trends and opportunities. 
+
+2.  Review  of  the  existing water management solutions, analysis of their 
+
+performance and metrics collection. 
+
+3.  Qualitative  data  collection:  conducting  semi-structured  interviews 
+
+with  the  industry  professional  to  gain  insights  on  the  industry  to 
+
+contribute to the future solution on the low-code.  
+
+4.  Quantitative  data  collection:  conducting  a  survey  which  involves 
+
+farmers  to  assess  their  needs,  digital  literacy  level  and  readiness  for 
+
+technologies adoption, adjusting the features of the future solution on 
+
+the low-code.  
+
+5.  Create  use  cases,  architecture  of  the  solution,  UX/UI  prototype  to 
+
+develop an MVP and estimate the cost and economic effect. 
+
+The subject is the development of the low-code development platform used 
+
+for  digitalization,  corresponding  to  the  needs  of  the  agricultural  industry.  The 
+
+object  is  the  process  of agricultural industry digitalization in the rapidly changing 
+
+world. 
+
+I  will  utilize  both  the  qualitative  and  the  quantitative  research  method  to 
+
+gather  the  primary  data.  As for the former, I am going to conduct semi-structured 
+
+interviews  with  one  of  the  key  stakeholders,  the  industry  professionals  and 
+
+specialists  involved  in  the  operational  processes.  During  this  stage  I  intend  to 
+
+outline  the  major  problems  in  today's  agriculture,  acknowledge  the  resource 
+
+management,  specifically  the  water  one,  recognize  needs  and  perspective  on  the 
+
+industry to contribute to the future solution on the low-code. As for the latter,  
+
+Considering  the  threats  and  opportunities,  I  will  design  a  management 
+
+system  to  monitor  and  control  water  supply  to  crops,  utilizing  the  Russian 
+
+low-code  platform.  There  is  a  need  for  technological  advancement  and  the 
+
+endeavour  to  contribute  to  it  is  fostered.  Developing  the  standardized  system  I 
+
+hope  to  outline  capabilities  for  Russian  small  and  medium  farmers  to  adopt  a 
+
+4 
+
+ 
+scalable,  state-financed  and  efficient  solution for them to tackle one of the issues, 
+
+enhancing the agricultural sector. 
+
+There is a practical novelty of the research, which includes the potential to 
+
+decrease water waste, enhance efficient usage and decrease cost production for the 
+
+enterprises, contributing to the national technological development.  
+
+I will have several chapters to comprehend all my findings and structure it 
+
+into a coherent and cohesive way.  
+
+Chapter  1  is  the  literature  review.  I  am  going  to  present  the  trending 
+
+low-code  software  development  approach  as  an  appropriate  solution  for 
+
+agriculture,  considering 
+
+the  situation 
+
+these  days.  To  do  so  the  history, 
+
+characteristics  and  justification  will  be  presented when defining the phenomenon. 
+
+It is also devoted to observing the written works and different researches within the 
+
+topic,  highlighting  the  most  significant  trends  and  vectors  of  development.  The 
+
+relevance  will  be  outlined  to  prove  the  emergency  of  the  issue  and  need  to 
+
+undertake actions to tackle the global challenges.  
+
+Chapter  2.  This  sector  is  devoted  to  Research  design.  To  start  with,  key 
+
+stakeholders  and  already  developed  solutions  should  be mentioned to identify the 
+
+existing  gaps.  And  then,  based  on  the information, the semi-structured interviews 
+
+with hypothesis outlining and a survey will be designed. In the final major chapter. 
+
+I will provide the key results of my research. There will be the insights themselves 
+
+and numeric data, reflecting the answers on the designed questions in the previous 
+
+block.  The  coding  and  analysis  of  the  themes  will  be  approaches  to  structure the 
+
+qualitative data. 
+
+Chapter  3.  Finally,  I  am  going  to  develop  the  architecture  of the solution, 
+
+based  on  the  results,  and  the  actual  prototype  of  the  LCDP.  In  addition,  the 
+
+predicted costs and revenue will be calculated as a part of the economic effect from 
+
+the proposed digital solution.  
+
+5 
+
+ 
+ 
+ 
+ 
+CHAPTER 1. THEORETICAL BACKGROUND OF THE LOW-CODE 
+TECHNOLOGY 
+
+1.1. DEFINITION AND KEY CHARACTERISTICS OF THE LOW-CODE 
+
+TECHNOLOGY 
+
+Originally, the software development process consists of several stages and 
+
+requires  resources  such  as  time,  money,  labour,  specific  knowledge  and  coding 
+
+skills. Increased demand in advanced technologies drives businesses to choose the 
+
+more  optimal  development  approaches.  Next  generation  software  development 
+
+aims  at  increasing  the  process  efficiency  across  each  stage  of  development  and 
+
+software  quality  by  implementing  more  advanced  tools,  including  AI-based 
+
+development  and 
+
+testing,  automated  code  review  and 
+
+low-code/no-code 
+
+instruments. 
+
+Visual development services like Microsoft Access and Visual Basic in the 
+
+1980s have started shifting the preference from hard-code exploitation deployment 
+
+to the more flexible and graphical domain (Parimi S. K. K., 2025). The concept of 
+
+low-code  development firstly emerged in the early 2000s. However, the definition 
+
+of  exactly  “low-code”  was  officially  introduced  in  2014  by  Forrester  Clay 
+
+Richardson and John R. Rymer in the report “New Development Platforms Emerge 
+
+For  Customer-Facing  Applications”,  where  the  researchers  were  examining  the 
+
+company's  vector  for  new  perspectives  on  rapid,  continuous  and  Test-And-Learn 
+
+delivery.  Low-code  alternatives  were  described  as 
+
+the 
+
+type  of  software 
+
+development  approach  that  suppose  application  creation with minimal knowledge 
+
+and  skills  of  hand-coding.  Authors  consider  faster  delivery  as  the  preliminary 
+
+benefit for the firms as well as quick answers to the customer feedback after initial 
+
+release.  
+
+There  are  two  quite  different  substitutional  phenomena:  low-code  and 
+
+no-code, forming the common designation LCNC. In accordance with their names, 
+
+the  first  concept  means  little  technical  knowledge  and  is  suitable  for  the  more 
+
+6 
+
+ 
+ 
+ 
+experienced developers, meanwhile the second does not require it at all (Vera C. G. 
+
+M.  et  al.,  2022).  The  benefits  of  the  low-code  in comparison with the no-code as 
+
+the  former  could  arrange  more  complex  solutions  like  these  requiring  integration 
+
+with  legacy  systems  of  customisation  because  of  the  possibility  of  manual  code 
+
+modifying.  Low-code  is  preferred  when  the  enterprise  wants  to  boost  the 
+
+development  process  but  still  have  some  technical  control  over  the  logic  and 
+
+infrastructure.  The  no-code  capabilities  are  limited  and  are  more  appropriate  for 
+
+the  standard  solutions.  In  my  research  I  will  focus  on  the  low-code  as  the  more 
+
+prominent approach but in some contexts they could interchange with each other or 
+
+be described as a whole phenomenon LCNC.  
+
+In terms of LCNC approach the “citizen developers” emerged. Notably, the 
+
+origins  of  the  phenomenon  is  traced  in  the  1980s  from  the  concept  of  end-user 
+
+development,  standing  for  the  set  of  practices  that  allow  non-professional 
+
+developers system users to make corrections of the system elements (Lieberman H. 
+
+et  al.,  2006).  The  adoption of the Microsoft Excel is the prime example of citizen 
+
+development. Officially, the term was introduced by Gartner in 2014 as individuals 
+
+who create and expand the application capabilities via the instruments restricted by 
+
+the  IT  unit.  Forrester  characterized  them  like  business  experts,  delivering 
+
+applications via the non-coding tools.  
+
+These days the number of citizen developers is rising not only among small 
+
+businesses, but across different sizes of entities (Lebens M. et al., 2021), indicating 
+
+the  attempt  to  tackle  the  issue  of  developer  shortage.  Roughly  87%  of 
+
+organizations  globally  are  facing  the  professionals  shortage,  which  could  be  the 
+
+main  reason for the business disruption according to the 71% of CEOs worldwide 
+
+(de  Souza  A.  C. M. et al., 2024). The skill gap might happen primarily due to the 
+
+inconsistency of academic knowledge, obtained during education, and rapid market 
+
+change  due  to the fast speed of technological growth (Diniz W. et al., 2024). That 
+
+is why more and more companies are shifting towards citizen developers, utilizing 
+
+the  LCNC  approach, 
+
+to  minimize  risks  of  specialist 
+
+incompetence  and 
+
+resource-consuming additional teaching issues, contributing to better efficiency.  
+
+7 
+
+ 
+The  special  services  on  which the low-code solutions are being developed 
+
+are  called  low-code  development  platforms  or  LCDP.  The  platform  emerged 
+
+roughly in the 2010s and is described as a cloud-base platform with in-built visual 
+
+modular  components  on  the  interface  with  which  a  user  could  interact,  dragging 
+
+and  connecting  tools,  to  deploy  the final system with minimal coding (Kenneweg 
+
+B.  et  al.,  2021).  Thus,  the  platform  functionality  is  named  drag-and-drop,  where 
+
+elements of the interface can be operated manually via the cursor (Parimi S. K. K., 
+
+2025).  
+
+According to the interviews with experts, conducted by McKinsey in 2022, 
+
+LCDP  comprises  scalability  via  components  reuse,  facilitating  the  standardized 
+
+tools  and  processes,  and  accelerated  solution  deployment  with  help  of 
+
+plug-and-play  software  elements.  The  solution  is  closely  aligned  to  the  business 
+
+objectives  since 
+
+the 
+
+technical  requirements  are  brought 
+
+to 
+
+the  business 
+
+departments.  LCDP  implies  automated  model  deployment  straight  into  the viable 
+
+applications with augmented control and maintenance for performance degradation 
+
+diminish. The extended LCDP capabilities are demonstrated in Figure 1. Although 
+
+the  feature  range  is typically common, it is important to note that each LCDP has 
+
+its own set of instruments, which vary from platform to platform, depending on the 
+
+development aim.  
+
+8 
+
+ 
+Figure 1. Feature diagram of LCDP and the identified sub-features in the primary studies. 
+
+Source: Guresci E. et al. 
+
+The key benefits of the low-code includes reducing associated development 
+
+costs by 52% (CodeEpsilon, 2023) and development time up to 90% (McKinsey & 
+
+Company,  2022).  IT  professionals  believe  low-code  positively  boosts  digital 
+
+innovation  and  transformation,  protect  businesses  from  Technology  churn  (losing 
+
+9 
+
+ 
+ 
+old customers and acquire new one over time), raising responsiveness, and because 
+
+of  the  pre-built  elements  and  visual  interfaces  the  low-code  software  approach 
+
+enhances  the  development  process  and  decreases  dependency  on  the  technically 
+
+skillful  developers  as  a  major  social  impact,  involving  citizen  developers  instead 
+
+(Alsaadi H. A. et al., 2021).  
+
+Additionally,  the  survey by Microsoft demonstrated that 89% of CIOs and 
+
+IT  professionals  say  low-code  is  effective  in  increasing  efficiency.  Also  the 
+
+findings claim that respondents agreed on the important role of the low-code in the 
+
+application  modernization  (87%),  said  the  approach  is  helpful  to  reduce  costs 
+
+(87%) and found it contributing to the more accurate insights (87%). The example 
+
+outlined is the case study of the PricewaterhouseCoopers (PwC), referred to as the 
+
+London-based multinational professional service network or international audit and 
+
+consulting  corporation,  which  developed  the  Cyber  Technology  Rationalizer 
+
+solution  in  6  weeks, using low-code. The company was shifting from their legacy 
+
+system  to  the  more  scalable  and  flexible  solution  for  internal  and  external  users. 
+
+Via  the  Microsoft  Power  Platform  PwC  developed  a  multitenant  enterprise 
+
+decision  support  website,  which  is  estimated  to  save  cost  and  time  by  85%  and 
+
+30%, respectively since its implementation (Microsoft, 2023). 
+
+Next  generation  software  development,  including  low-code  platforms  and 
+
+AI-enabled  project  management tools and cloud architecture converge, has been a 
+
+digital  trend  for  a  while.  In  the  latest  Technology  Trends  Outlook  2024  by 
+
+McKinsey  there  is  a  $17  billion  equity  investment  in  the  trend,  peaking  over  the 
+
+past 5 years. The low-code approach is called a game-changer for many industries, 
+
+especially  when  businesses  need  to  innovate,  building  software  solutions  with 
+
+greater  speed  but  smaller  cost.  Besides  other  promising  software  development 
+
+approaches,  low-code  could  be  implemented  on  each  stage  of  the  software 
+
+development: planning and analysis, architecture design, development and coding, 
+
+testing,  deployment  and  maintenance.  Meanwhile,  other  technologies  affect  only 
+
+one  stage  of the life cycle. This factor put them in an unfavourable position when 
+
+10 
+
+ 
+competing  on  the  market,  compared  with  the  low-code  approach  (McKinsey  & 
+
+Company, 2022). The more detailed data is presented in Figure 2. 
+
+Figure 2. Next generation software development tools and its utilization across each stage of the 
+
+software development life cycle. Source: McKinsey & Company. 
+
+The perspective of innovation is rather promising. According to Forrester’s 
+
+survey  from  2024,  87%  of  enterprise  developers  use  low-code  development 
+
+platforms for at least some of their development work. As for the market size it is 
+
+forecasted to reach $65 billion by 2027 and $187 billion by 2030 with a Compound 
+
+annual growth rate (CAGR) of 31.1% for 2020 - 2030 (Mad Devs, 2024).    
+
+1.2. LOW-CODE PERSPECTIVES IN THE AGRICULTURAL INDUSTRY 
+
+Many  industries  are  already  adopting  low-code  technology,  such  as  the 
+
+financial  sector,  healthcare  insurance  and  retail.  The  choice  of  implementation  in 
+
+these  industries  is  justified  by  miscellaneous  limitations  and  regulations,  varying 
+
+from  region  to  region,  but  a  need  for a highly personalized solution with fast and 
+
+flexible  pace  of  designing,  meeting  evolving  customer  preferences  (McKinsey  & 
+
+Company,  2022).  The  agricultural  sector  has  a  tendency  to  integrate  new 
+
+technologies as well.  
+
+In  the  digitalization  of  agriculture  the  key technologies, used together, are 
+
+cloud  computing  and  the  Internet  of  Things  (IoT),  with  the  big  amount  of  data 
+
+retrieved from farm operational processes (Rotz S. et al., 2019). Nowadays farmers 
+
+11 
+
+ 
+ 
+ 
+ 
+actively  implement  intellectual  monitoring  systems,  global  positioning  systems 
+
+(GPS),  smart  control,  remote  sensors,  analysing  and  planning  tools,  essential  to 
+
+collect  data  on  the  farm  to  manage  processes  more  efficiently  (Wolfert  et  al., 
+
+2017).  Furthermore,  digital  and  cloud-powered  accounting  and  software  for 
+
+management  and  decision-making  are  adopted  by  various  enterprises  of  all sizes, 
+
+claiming  innovation  to  save  resources  and  enhance  the  overall quality (Rotz S. et 
+
+al., 2019).  
+
+The  term  Digital  Agriculture  Technology  or  DAT  was  introduced  as  a 
+
+generalized  phenomenon,  describing  the  all  discovered  and  upcoming  innovation 
+
+in the relative sector (Amoussouhoui R. et al., 2024). Via DAT the smart farming is 
+
+being  cultivated,  resulting  in  bringing  more  value  to  the  farmers.  The  potential 
+
+benefits are profit rise, cost shrink, risk diminish, reliability and accuracy improve, 
+
+administrative  surveillance  lessen,  meanwhile  boosting  consumer  acceptance  and 
+
+increasing product quality (Walter A. et al., 2017).  
+
+With  the  integration  of  different  DATs  the  adoption  rates  have  risen 
+
+recently.  Various  projects  on  the  service-based  business  and  infrastructure 
+
+development, leading to the more farmers having access to the basic facilities like 
+
+electricity  and  mobile  phones,  and  increased  farmer’s  willingness  and  positive 
+
+attitude towards change have affected the implementation index growth. According 
+
+to a last year paper, with 52 studies with 32400 participants included, the adoption 
+
+rate  of  the technologies in agriculture accounted for 39%, being the highest in the 
+
+developing countries in Africa and South America (Amoussouhoui R. et al., 2024). 
+
+Still,  the  overall  number  is  relevantly  low,  especially  comparing  with  the  more 
+
+technologically advanced sectors, banking, financial service or insurance.  
+
+Some  findings  suggest  in  2024  the  amount  of  farmers  who  are  not  only 
+
+using  at  least  1  piece  of  technology  but  are  eager  to  adopt  at  least  1  piece  of 
+
+technology  globally  is  52%,  which  is  3%  larger  than  in  2022  (McKinsey  & 
+
+Company, 2024).  
+
+Still, the level of digitalization is low, as a consequence of present barriers: 
+
+lack of ICT skills, financial support and advanced infrastructure (Amoussouhoui R. 
+
+12 
+
+ 
+et  al.,  2024).  Farmers  are  struggling  to  implement  innovations  due  to  the  costs 
+
+(58.2%),  complexity  and  specific  knowledge  required  (50.1%)  and  lack  of 
+
+adaptation  for  small-scale  businesses  (46.5%).  Also  37%  of  respondents  are  not 
+
+aware of the existing solutions to integrate (Giagnocavo et al, 2025).  
+
+The further major issue is that the digital technologies developed so far are 
+
+mostly integrated by big and rich enterprises, targeting specifically their needs. The 
+
+more  powerful  parties  are  reshaping  the  market,  according  to  their  interest, 
+
+negatively  impacting  the  small and medium-sized farmers. Understanding the key 
+
+three  dimensions,  data  ownership  and  control,  technologies  development, 
+
+cybersecurity  the  more  equal  and  conscientious  development  would  be  possible, 
+
+regarding size (Rotz S. et al., 2019).  
+
+The  processes  of  agriculture  in  each  stage  from  planting  the  seed  to 
+
+delivering  the  ready  product  to  the  shop  are  diverse  and  have  their  own 
+
+peculiarities  important  to  consider.  The  adoption  of  low-code  technology  into 
+
+agriculture  could  definitely  boost  the  industry.  Low-code,  a cloud-based solution, 
+
+is possible to transform the classical software development in the respective sector, 
+
+bringing  the  required  simplification  and  efficiency  to  the  industry.  Analysing  the 
+
+collected  data  via  the  special  IoT  sensors, also widely implemented innovation in 
+
+agriculture,  and  further  automation  will  speed  up  the  process  of  decision-making 
+
+regarding the operational processes, saving resources like time, money and labour. 
+
+Besides,  since  the  majority of farmers are less enlightened regarding digital tools, 
+
+the solution deployed via LCDP would be a more accessible technology. The built 
+
+application  is scalable and as variables change, LCDP provides the adaptability to 
+
+flexibly  manage  the  application,  customizing  it  according  to  the  enterprise 
+
+requests.  In  the  long  run  of  the  wider  adoption  even  business  employees  of  the 
+
+SMEs  in  the  agricultural  sector  could  independently  manage  and  develop  the 
+
+application  further,  adding  necessary  features  when  needed  without  technical 
+
+assistance. Last but not least, the built solution is scalable (Guresci E. et al., 2024).  
+
+As  for  restrictions,  LCDP  still  suggests  less  variety  than  the  traditional 
+
+software  development due to the restricted capabilities. The issue of compatibility 
+
+13 
+
+ 
+with  integrated  tracking  hardware  like  IoT  sensors  may  limit  the  application 
+
+efficiency.  Also  the  specific  logic  of  the  solution,  oriented  on  the  agriculture 
+
+domain  and  considering  biological and geological knowledge related to the plants 
+
+growth.  This  way  the  future  system  should  contain  user-friendly  simplicity  and 
+
+proper  advancement  for  the  management  SMEs  operational  process.  Another 
+
+crucial  challenge  is  the  vendor  lock-in.  The  migration  of  the  developed  on  the 
+
+LCDP solution might be complicated due the compliance issues. Studies show that 
+
+60%  of  LCNC  users  prove  the  difficulties  when  placing  applications  to  the  new 
+
+environment,  affecting  the  maintenance  worries  growth  (Upadhyaya  N.,  2023). 
+
+The  high  dependency  of  the  farms  on  the  vendors  may  restrict  the  long  run 
+
+progress,  limiting  opportunities.  Assuming  the  risks, the SMEs have to be careful 
+
+when choosing a vendor for the solution development, meanwhile cultivating their 
+
+own  specialists  or  attracting  citizen  developers  to  maintain  the solution, as it was 
+
+mentioned before.  
+
+1.3. TOPIC JUSTIFICATION. GLOBAL RELEVANCE OF WATER 
+
+SHORTAGE 
+
+The  farmers  top  concerns  include  increased  price  of  inputs  (48%)  and 
+
+extreme weather or climate events (41%). Additionally, one of the biggest farmer’s 
+
+issues  was  connected  to  the  water  scarcity.  In  2024 there was an increase by 1%, 
+
+from 20% to 21%, in the concern of decreased yields due to the water scarcity over 
+
+the span of two years (McKinsey & Company, 2024). 
+
+Food  and  Agriculture  Organization  (FAO)  says  agriculture  consumes 
+
+roughly  72%  of  the  freshwater  which  is  over  2  quadrillion  gallons  or  7.57 
+
+quadrillion  litres  of  water  annually.  40%  (0.8  quadrillion  gallons  or  3.03 
+
+quadrillion  litres)  of  what  is  wasted  because  of  inadequate  irrigation  systems, 
+
+evaporation and poor water management as well (UNESCO, 2024).  
+
+Even  though the amount of food produced increased more than twice over 
+
+the  last  30  years,  by  2050  approximately 50% of food will be needed to meet the 
+
+14 
+
+ 
+ 
+ 
+demand of the growing population with modified dietary habits through the years. 
+
+Rapid increment of the food required, mixed with the unfavourable climate change 
+
+in  the  water  cycle,  would result in a strong need for improved water management 
+
+in the agricultural sector (UNESCO, 2024).  
+
+President of the 77th United Nations (UN) General Assembly Csaba Kőrösi 
+
+claimed  at  press  conference  before  the  UN  Water  Conference  in  2023  that  the 
+
+world  is  facing  with  water  crisis,  when  in  the  near  future  the demand is going to 
+
+prevail  over  supply  by  40%  in  2030  due  to  the  disruption  of  the  water  cycle 
+
+balance caused by the human activity (Down to Earth, 2023). The most vulnerable 
+
+areas to the water crisis are located in the dry and hot regions, close to the equator. 
+
+The  territory  of  Southwest  Asia  and North Africa, countries like Kuwait or Saudi 
+
+Arabia  which  withdrew  the  available  resource  more  than  38  and  10  times, 
+
+respectively. There is a detailed map in Figure 3. However, according to the current 
+
+tendency,  the  issues  could  affect  the  northern  regions  in  the  long  run  as  well, 
+
+despite  their  huge  water  resources.  The  territories  of Central and East Asia are in 
+
+the zone of moderate risk, but some countries are more prone to water scarcity, like 
+
+Uzbekistan, Turkmenistan and Pakistan and South Korea, respectively. 
+
+Figure 3. Next generation software development tools and its utilization across each stage of the 
+
+software development life cycle. Source: Food and Agriculture Organization of the United 
+
+Nations 
+
+15 
+
+ 
+ 
+“Turning the Tide: A Collective Call to Action”, the report published by the 
+
+GCEW highlights the urgent steps, planned to be undertaken by the UN to prevent 
+
+the possible shortage, moving steadily to water security. One of the key points was 
+
+plans  of  the  countries’  governments  to  take  initiatives  to  regulate  the  policies, 
+
+aiming  to  cope  with  the  upcoming  crisis.  The  annual  $700  billion  agriculture 
+
+subsidies  are  discussed  to  be  cut  out  in  order  to  stem  the  excessive  water 
+
+consumption  by  the  farms  and  related  enterprises  (Global  Commission  on  the 
+
+Economics of Water, 2023). And such regulations could lead to the struggles in the 
+
+industry  connected  to  the  increased  water  price  due  to  the  supply  diminish  and 
+
+investment  cut,  and  at  the  same  time  making  them  move  towards  water  resource 
+
+consciousness. 
+
+The minority of crop, approximately 34%, produced is irrigated or watered 
+
+via  special  irrigation  devices,  not  naturally,  and  they  are  more  vulnerable  to 
+
+competing  water  demand  (WRI,  2024).  However,  irrigated  yields  tend  to  be 
+
+30-100%  higher compared to adjacent rainfed areas (UNESCO, 2024). Due to the 
+
+climate change 60% of these irrigated crops are in the high or extreme water stress 
+
+areas, compared to the 8% for the rainfed crops (WRI, 2024).  
+
+Studies  show  that  farmers  are  interested  in  improving  productivity  and 
+
+adding  revenue  streams.  They  are  eager  to  adopt  sustainable  practices  due  to 
+
+several  factors,  but one of the main reasons is lower cost production with roughly 
+
+49%  on  average  of  farmers  claiming  it  over  the  four  key  regions,  Europe,  North 
+
+and Latin America, India (McKinsey & Company, 2024). 
+
+1.4. CURRENT SITUATION IN RUSSIAN AGRICULTURE 
+
+The  agricultural  sector  is  considered  to  be  one  of  the  least  digitalized 
+
+industries,  despite  being  one  of  the  most  important.  Also  it  is  stated  as  the  most 
+
+vulnerable  business  since  it  depends  on  the  weather  and  natural  conditions.  It  is 
+
+especially  true  for  Russia,  where  the  digitalization  index  for  agriculture  is  in  8th 
+
+place,  accounting  for  27.2,  compared  to  75.5  for  the  top  1  on  the list, the United 
+
+16 
+
+ 
+ 
+ 
+States.  The  numbers  reflect  the  positive  outcomes:  the  U.S.  farmers  via  smart 
+
+farming  improve  yields  by  5-10%  while  reducing  costs  by  15-20%  (Yakov  & 
+
+Partners, 2023). The more detailed ranking might be found in Figure 4.  
+
+Figure 4. Agriculture digitalization by countries. Source: Yakov & Partners.  
+
+Russia  currently  faces  challenges  in  the respective sector. In 2024 its total 
+
+grain  harvest  declined  by 14% from record harvest of 155 million tons in 2023 to 
+
+125  million  tons,  reflecting  poor  worsen  weather  conditions  and  problems  in 
+
+access  to  high-quality  seed,  farm  equipment  and  labor  shortage.  Specifically,  the 
+
+key crop for the Russian economy, wheat, witnessed a 16% drop to 82 million tons 
+
+(BOFIT, 2025).  
+
+By 2026, it is expected that the growth of digital technologies in agriculture 
+
+in  Russia  will  be  5  times,  including  through  the  support  of  agrotechnological 
+
+startups  (Beksultanova  et  al,  2023).  According  to the Analytical Center under the 
+
+Government  of  the  Russian  Federation  expectations,  digital  technologies  will 
+
+increase  yields  by  15-20%.  The  innovation  integration  by  2030  may  result  in 
+
+boosting  labor  productivity  by  15.6%  (cumulative  total),  production  volume 
+
+increase  up  to  5%,  depending  on  the  enterprise  type,  costs  decrease  by  5-20%, 
+
+possibly generating an additional ₽800 billion annually (Yakov & Partners, 2023). 
+
+Among  the  most  popular  solutions  are  decision  support  systems,  applications  for 
+
+precision agriculture and management systems.  
+
+The  initiatives  are  affected  by  the  uncertain  geopolitical  situation  and  the 
+
+imposed sanctions on Russia due to the conflicts in the global area, started in 2014 
+
+and  reinforced  in  2022.  Hence,  most  of  the  profound  digital  solutions  are  not 
+
+17 
+
+ 
+ 
+available,  especially  the  latest  and  the  most  fundamental  one.  The  major 
+
+international  companies like John Deere (machinery and farm equipment), AGCO 
+
+(agricultural  machinery  and  precision  technologies,  including  smart  irrigation), 
+
+Caterpillar  (machinery  and  farm  equipment),  Trimble  (GPS-based  equipment and 
+
+software  processing  tools)  suspended  over  the  first  half  of  2022,  primarily  in 
+
+February, March and April (The Washington Post, 2022). Large companies leaving 
+
+the  Russian  market  increased  a  technological  gap  and  stagnated  the  further 
+
+evolution in the sector.  
+
+Thus,  the  government  actively  subsidizes  local  software  development  to 
+
+boost  the  yields  within  restricted  capabilities.  One  of  the  key  constraints  is 
+
+definitely limited access to innovations and absence of the advanced decisions yet. 
+
+This is why initiative influences mostly large entities, proving the heterogeneity of 
+
+technological  adoption.  Like  in  the  foreign  country,  only  25-30%  small  and 
+
+medium  enterprises  (SME) 
+
+in  Russia  have  already 
+
+implemented  digital 
+
+technologies  compared  to  90%  rate  inside  the  big-scale  companies  based  on  the 
+
+data of the Russian Ministry of Agriculture (RBC, 2024).  
+
+1.5. RELEVANT STAKEHOLDERS 
+
+Analysing  the  data,  there  are  three  key  stakeholders  which  might  be 
+
+engaged  and  interested  in  the  irrigation  management  system:  SMEs  and  farmers 
+
+and the Russian government.  
+
+The  first  one  has  a  straightforward  interest  in  the  technological initiatives 
+
+as  the  direct  customer  of  the  solution  who  aims  to  enhance  the  efficient  water 
+
+consumption,  diminishing  associated  costs.  SMEs  have  restricted  capabilities, 
+
+therefore,  it  is  more  difficult  for  them  to  adopt  new  technologies.  Last  year  the 
+
+Russian  Central  Bank  raised  the  key  rate  for  the  historical  maximum  of  21%, 
+
+which  negatively  affected  the  opportunity  to  loan  money. Also in the last decade, 
+
+although  the  agro-industrial  complex  (AIC)  received  some  government  support, 
+
+major  changes  in  development  have  not  happened. The import substitution is one 
+
+18 
+
+ 
+ 
+ 
+the early stages as the quality of national technologies are way lower, there are still 
+
+a  small  number  of  the  professionals  employed  in  agriculture  and the transition to 
+
+smart  agriculture  is in process. There is no systematic scientific and technological 
+
+support for the SMEs, which is leading to less production. Farms are producing no 
+
+more  than  15%  of  all  agriculture  products,  but  the  numbers  in  the  developing 
+
+countries  could  be  up  to  80%.  This  all  indicates  the  absence  of  stimulus  and 
+
+potential for sustainable progress (Dudin M. N. et al., 2022).  
+
+Demand  in  the  local  software  is  a  big  opportunity  for  developing  the 
+
+IT-solution, especially with the help of different government initiatives. Due to the 
+
+new  reality,  transformed  via  external  global  politics,  the  Russian  government has 
+
+started  to  actively  invest  in  the  agriculture  sector  again,  moving  to  the  digital 
+
+advancement  of  one  of  the  most  important  sectors  for  the  national economy. The 
+
+one  of  the  latest  subsidiary  is  dated  in  August  2024 and was accounted for about 
+
+₽3  billion  allocation  for  the  digital  transformation  of  the  AIC.  The  actions  are 
+
+aimed  to  digitize  the  industry  by  75%  by  2027.  And  the  value  taken  should 
+
+contribute  to  a  27%  increase  in  exports  of  AIC  products  by  2030,  up  to  $55.2 
+
+billion (RBC, 2024).  
+
+19 
+
+ 
+ 
+ 
+ 
+ 
+CHAPTER 2. RESEARCH DESIGN OF LOW-CODE UTILIZATION IN 
+
+THE AGRICULTURE INDUSTRY 
+
+2.1. OVERVIEW OF THE LOW-CODE SOLUTIONS IN AGRICULTURE 
+
+To  identify  the  research  gap  and  understand  the available solutions on the 
+
+both  global  and  the  national  market  I  searched  for  and  analyzed  a  few  low-code 
+
+and  cloud  based  systems,  offering  smart  irrigation  for enterprises of any size. All 
+
+of the examples are of U. S. origin, which is not surprising at all since they are the 
+
+most technologically advanced in the agricultural sector with 75.5 index (Yakov & 
+
+Partners, 2023).  
+
+The  solutions on the conscious water distribution in the global agricultural 
+
+industry are Smart Rain, WaterBit and Smart Irrigation.  
+
+Smart Rain 
+
+The  American  cloud-based  technology  Smart  Rain  is  a  smart  watering 
+
+system,  combining  automation  with  prediction.  The  Smart  Rain  system  assumes 
+
+miscellaneous  features,  helpful  for  farmers  to  manage  their  irrigation wisely. The 
+
+SmartApp™ with The SmartController™ is an application, available on Androids, 
+
+iOS and desktop. Smart sensors gather data from the soil and send it directly to the 
+
+system.  The  technology  tracks  the  local  weather  condition,  soil  state  and  current 
+
+evapotranspiration rates (i. e. how quickly the water is going to evaporate from the 
+
+soil)  to  determine  the  exact  amount  of  water  the plant needs and adjust the water 
+
+resources  for any given day. The inbuilt map allows the user to track the watering 
+
+zones  and  watering  sites,  managing  the  irrigation for the particular area. It is also 
+
+possible  to  receive  reports  with  detailed  description  of  the  system  activity  with 
+
+statistics  on 
+
+the 
+
+saved 
+
+resources.  Smart  Rain  even  uses  predictive 
+
+evapotranspiration to calculate the water schedule up to the 4 following days. And 
+
+the user gets notifications on their device on the turning on of the irrigation system, 
+
+proposed changes in the schedule and real time data.  
+
+20 
+
+ 
+ 
+ 
+This  way  the  water  bills  might  be  reduced  by  35%  with  the  saving  of  7 
+
+million  gallons  (26.5  million  litres)  of  water  and  of  23%  labour  costs  could  be 
+
+decreased as well. 
+
+WaterBit  
+
+Vantiq is a LCDP that enables solutions for different industries: healthcare, 
+
+energy, public safety and cybersecurity. Besides major successful implementations 
+
+by digitally advanced sectors, there is a case study of the adoption in agriculture.  
+
+Leveraging  Vantiq  low-code  platform,  WaterBit  developed  a  real-time 
+
+water  delivery  and  management  system  to  optimize  irrigation  practices.  At  first, 
+
+WaterBit  was  trying  to  deploy  their  own  system  to  improve  the  smart  sensors 
+
+network  performance.  However,  the  company  lacks  flexible  architecture  for  the 
+
+desired  scalable  solution.  Hence,  via  low-code  development  tools  WaterBit 
+
+achieved flexibility and scalability of the future application. The enterprise did not 
+
+change  the  initial  variant  but  re-built  the  same  system  with  necessary feature set. 
+
+Finally, WaterBit rapidly deployed a scaling solution across extensive farmland. It 
+
+enables precise monitoring and control of water usage, promising 40% reduction in 
+
+water  usage.  Besides  water  saving,  it  promises to diminish up to 5% in green gas 
+
+emission.  The  water  management  system  tracks  the  soil  moisture,  evaluating  its 
+
+condition through the various IoT sensors, and executes remote watering with high 
+
+accuracy.  From  these  sensors  the  data  is  transmitted  for  the  further  analysis  to 
+
+determine  turn-on  and  turn-off  of  the  irrigation  for  the  specific  block,  enabling 
+
+schedule.  Data  is  stored  in  the  cloud,  accessible  for  the  users  to  make  next 
+
+decisions.  The  WaterBit  system  offers  tools  for  visualization  and  dashboard 
+
+creation for data representation.  
+
+Smart Irrigation 
+
+Another  notable  cloud-based  system  is  the  Smart  Irrigation,  which  was 
+
+developed  through  a  collaboration  between  the  University  of  Georgia  and  the 
+
+University  of  Florida  and  the  application  is  available  for  Android  and  iOS.  The 
+
+different  applications  are  supposed for different plants: strawberry, corn, avocado, 
+
+different vegetables and more. It was initially implemented in Georgia. Despite its 
+
+21 
+
+ 
+favourable  climate  and  abundance  of  water  resources  (e.  g.  rain)  and  resilient 
+
+aquifers  the  initiative  was  introduced  for  the  wise  usage  in  the  unstable  times  to 
+
+less burden on the next generations.  
+
+Smart  Irrigation  suggests  miscellaneous  products  and  systems,  including 
+
+gunshots  and  center  pivot  system  with  GPS  tracking.  But  the  most  notable  is  its 
+
+monitoring  system  with  IoT  sensors.  The  key  feature  of  the  solution  is  remote 
+
+control  of  the  irrigation system via mobile devices. It allows the user to turn it on 
+
+and  off,  set  a  timer,  correct  direction  and  intensity  of  the  water  flow,  control  the 
+
+degree  and  angle.  By  utilizing  soil  moisture  sensors,  they  provide  real-time 
+
+irrigation  scheduling  based  on  crop-specific  needs,  decreasing  water  usage  by 
+
+15%.  The  application  predicts  weather  and  suggests  irrigation  recommendations 
+
+based  on  the  plants  needs.  Also  the notification is enabled to warn about whether 
+
+the  water  supply  is  needed.  In  comparison  with  the  previous  solutions,  Smart 
+
+Irrigation  is  open  about  their  price  range.  The  price  varies  from  just  adjusting 
+
+simple  sensors,  costing  less  than  $100,  with  a  free  mobile  app  for  a  simple 
+
+approach  to  more  sophisticated  systems  that  include  telemetry,  letting  farmers 
+
+access the soil moisture data from anywhere with a range from $900 to $4,000.  
+
+Russian technologies 
+
+Smart Mole’s 
+
+As  for  the  Russian  technologies,  Smart  Mole’s  system  by  PolivTorg  is  a 
+
+professional  system 
+
+for  water  management 
+
+in  agriculture.  It  combines 
+
+SmartCapillarity  and  SmartRoot  patented  sensor  technologies  to  monitor  the 
+
+capillary movement of water and assess the state of the soil as for the former and in 
+
+real  time  divide  the  roots  by  the  areas  and  determine  the  effective  root  zone  of 
+
+plants, where 70-80% of water is used, as for the latter.  
+
+Smart Mole’s is presented in three packages, depending on each customer's 
+
+needs.  Starting  with  the  first  and  the  smallest  one,  the  system  is just the distance 
+
+control  up  to  15  km  with  local  and  cloud  storage  of  data  to  analyze.  The  sensor 
+
+SmartValve  is  the  one  responsible  for  the  remote  monitoring.  The  second  is  the 
+
+more  extended  package,  which  assumes  tracking  the  capillary  movement  and 
+
+22 
+
+ 
+effective root zone besides the already mentioned function in the previous one. It is 
+
+their  outstanding  technologies  SmartCapillarity  and  SmartRoot  sensors  that  are 
+
+connected  to  the  second  bundle.  Also  the  customer  may  count  on  the  distance 
+
+technological  customer  support  if  any  casualties  happen.  Finally,  the  most 
+
+upgraded  package  comprises  AI,  contributing  to  the  decision  making.  The  future 
+
+water  irrigation  program  is  prognosed  and  built  based  on  the  analyzed  data  from 
+
+smart sensors to enhance the efficient distribution, saving resources.  
+
+Smart  Mole’s  ensures  precise  irrigation  management,  saving  water  and 
+
+increasing  crop  yields.  Its  key  benefits  include  precise  irrigation  control, keeping 
+
+nutrients within the effective root zone, labor costs reduction and improved overall 
+
+efficiency  because  of  the  AI  and  wireless  automation  introduction,  and  real-time 
+
+data analysis in one application for farmers to adjust irrigation strategies.  
+
+Knowledge Space 
+
+Knowledge Space is the LCDP, which is included in the Unified Register of 
+
+Russian  Programs  for  Electronic  Computers  and  Databases.  It  is  proclaimed  as 
+
+top-1  IBM  platform  in  2024 by CNews, top-2 in SCP decisions rating in 2024 by 
+
+Skolkovo, top-5 in low-code platforms in 2024 by Skolkovo and TAdviser. Via the 
+
+platform more than 90 projects executed, including 6 Intellectual Property Patents. 
+
+The key partners are big IT and consulting companies like Axenix, Zyfra, KROK, 
+
+Smart  Architects,  Enterchain,  Bright  and  more.  Also  they  cooperate  with 
+
+prestigious universities such as MSU, HSE and MEPhi. The outstanding clients are 
+
+Gazprom  (including  subsidiaries e. g. Gazprom Neft, Gazprom Drilling), Rosneft, 
+
+Lukoil, Nornickel, DHL, Integra and even the Moscow Government.  
+
+According to their portfolio, the solutions developed mostly for companies 
+
+in  the  oil  and  gas  sector,  coal  mining  and  food  production  industry.  The  closest 
+
+project  in  agriculture  being  executed  is  the  Budgeting  case  of  the  AIC.  The  key 
+
+functional  underlines  visualisation  of  the  budgeting  methodology,  process 
+
+organization,  consolidation  of  the  budget,  integration  with  external  systems  to 
+
+import  and  export  data.  But  there  are  no  other  cases,  and  no  development  of  the 
+
+water management system.  
+
+23 
+
+ 
+To analyse the solution I decided to compare and contrast them in the table 
+
+form.  I  summarized  the  gathered  data  regarding  these  technologies  to  understand 
+
+their nature better. As for the metrics, besides the standard descriptive, I decided to 
+
+stress  my  attention  on  the  farmers’  struggles,  outlined  in  the  literature  review  in 
+
+Chapter  1,  and  how  the  solutions  tackle  the  issues.  Additionally, crucial numbers 
+
+are  presented,  which  demonstrate  the  possible  efficiency  of  each  technology  in 
+
+terms of different resources optimization, like water and labour. Also these criteria 
+
+will be evaluated and assessed by further qualitative and quantitative research.  
+
+Table 1. Overview of the existing solutions for irrigation management. 
+
+Smart Rain  WaterBit 
+
+Smart 
+Irrigation 
+
+Smart 
+Mole’s 
+
+Knowledge 
+Space 
+
+Purpose 
+and 
+description 
+
+Smart 
+watering 
+system with 
+prediction 
+algorithm 
+
+Precise 
+monitoring 
+and control of 
+water usage  
+
+Water 
+monitoring 
+system, 
+providing 
+schedule 
+irrigation 
+
+Precision 
+watering 
+system 
+
+LCDP for 
+delivering 
+digital solutions  
+
+Country of 
+Origin 
+
+Utilization 
+of cloud or 
+the LCNC 
+
+Sensors 
+integration 
+
+Weather 
+API 
+
+Scheduling 
+and 
+prediction 
+
+the U. S. 
+
+the U. S. 
+
+the U. S. 
+
+Russia 
+
+Russia 
+
+Yes, low-code  Yes, cloud 
+
+Yes, cloud 
+
+Yes, cloud 
+
+Yes, low-code 
+
+Yes 
+
+Yes 
+
+Yes 
+
+Yes 
+
+No 
+
+Yes 
+
+Yes 
+
+Yes 
+
+Yes 
+
+Yes 
+
+No 
+
+No 
+
+Possible, but no 
+actual data 
+
+Yes 
+
+Possible, but no 
+actual data 
+
+Technologi
+cal base  
+
+Low 
+advanced 
+
+Low 
+advanced 
+
+Low 
+advanced 
+
+Medium 
+advanced 
+
+Medium 
+advanced 
+
+Technical 
+knowledge 
+level 
+required 
+
+Water 
+saving 
+
+Low 
+
+Low 
+
+Low 
+
+Medium 
+
+Low 
+
+35% 
+
+40% 
+
+15% 
+
+25% 
+
+N/D 
+
+24 
+
+ 
+ 
+Smart Rain  WaterBit 
+
+Smart 
+Irrigation 
+
+Smart 
+Mole’s 
+
+Knowledge 
+Space 
+
+23% 
+
+30% 
+
+20% 
+
+15-20% 
+
+N/D 
+
+Labour 
+savings 
+
+Availability 
+in Russia 
+
+No 
+
+No 
+
+No 
+
+Yes 
+
+Yes 
+
+Source: compiled by the author 
+
+After  analysing  the  U.  S. major smart irrigation systems I found that most 
+
+of  the  available  ones  are  cloud-based  solutions  which  behave  as  third  parties, 
+
+proposing their own product for the enterprises. Agricultural companies utilize the 
+
+external LCDP or systems to improve the water usage and reduce associated costs. 
+
+However,  as  it  was  described  in  Chapter  1,  there  are  some  risks  with  high 
+
+dependency  on  vendors  which  could  restrict  the  development  capability  and 
+
+potentially diminish the value in the long run.  
+
+As  for  the  literature,  I  had  two  main  scoops  of  data  that  are  basically 
+
+profound information on the low-code technology itself and the agricultural sector 
+
+and  key  issues in the industry. The former includes the fundamental theory on the 
+
+technology,  underlining  its  history  of  origin, key principles, features, benefits and 
+
+limitations.  The  latter  is  for  outlining  the  current  situation  in  the  respective 
+
+industry, including trends, global statistics on the resources and digitalization rates 
+
+and relevant examples.  
+
+I  will  mostly  rely  on  academic  sources  like  articles  in  the  journals  and 
+
+reports  by  major  consulting  agencies  when  describing  the  low-code  concept  in 
+
+agriculture.  Academic  literature  on  technologies  integration  in  the  agricultural 
+
+industry,  comprehensive  literature  review  on  the  phenomenon,  industry  reports, 
+
+studies  on  technology  adoption  among  farmers,  case  studies  from  farmers  using 
+
+digital solutions, their performance statistics.  
+
+As a result of my literature review, I learnt about the nature of the low-code 
+
+and specifically on the LCDP. It is considered as a promising innovation and a 
+
+major approach for future software development. Then, finding more relevant data 
+
+on the technology integration in agriculture, I found out the current situation 
+
+25 
+
+ 
+ 
+regarding the digitalization in the sector. I was elaborating on the low technological 
+
+advancement possible, proving my point with the recent studies and research. 
+
+Finally, after a proper area investigation, I could discuss the LCDP adoption in the 
+
+agricultural industries, understanding its advantages and disadvantages.  
+
+The companies are better to develop their own solutions, not relying on any 
+
+vendors.  Due  to  the  lack  of  technological  advancement  of  the  agriculture 
+
+representatives,  the  low-code  approach  seems  to  be  the  most  promising  way  to 
+
+develop the customized solutions, according to each companies needs, meanwhile, 
+
+decreasing  money,  time  and  labor.  As  for  the  Russian  market, there is no data on 
+
+the  cloud  or  low-code  solution  specifically  for  irrigation  management  in  Russian 
+
+agriculture  yet  which  could  potentially  decrease  associated  costs,  contributing  to 
+
+the  water  usage  efficiency  as  well.  Thus,  to  integrate  it  on  the  Russian  market  I 
+
+need  to  gather  insights  in  the  form  of  the  qualitative  data  from  the  respective 
+
+primary source. 
+
+2.2. DESIGN OF THE INTERVIEW WITH INDUSTRY PROFESSIONALS 
+
+Interviews are considered to be the crucial part of my research and the main 
+
+source  to  gain  qualitative  data.  I  will  utilize  the  semi-structured  approach  for  the 
+
+interviews.  The  reasons  for  it  are  the  extended  flexibility  when  talking  with  the 
+
+respondents,  depending on their answers. Besides asking the prepared questions, I 
+
+am  going  to  ask  follow-up  ones.  Thus,  the  dialogue  will  be  more  natural  and 
+
+comfortable  for  the  person  to  share  additional  more  sufficient  details,  helpful  for 
+
+my  research.  The  respondents  I  would  like  to  have  interviews  with  are  the 
+
+professionals  and  specialists  in  the  agriculture  industry  with  different  areas  of 
+
+responsibility.  So  each  interview  will  be  unique, differentiating one from another, 
+
+despite the standard set of questions since I am going to clarify some details in the 
+
+middle of the conversation.  
+
+The  selection  of  the  interviewees  is  based  on  their  competencies.  I  chose 
+
+primarily  operational  managers  who  are  acknowledged  of  the  resource  fund  and 
+
+26 
+
+ 
+ 
+ 
+perspectives  of  the  integrated  digitalization  practices.  The  agriculture  specialists 
+
+have  to  be  experienced  for  their  insights  to  be  valuable.  Moreover,  their  positive 
+
+attitude  towards  my  research  initiative  and  readiness  to  approve  usage  of  their 
+
+information  in  the  thesis  since  I  need  to  publish  it.  I  am  planning  to  have  3-5 
+
+interviews.  The  sampling  method  suitable  for  my  research  is  non-probability 
+
+sampling  -  the  snowball  sampling.  Initially,  I  select  a  group  of  people  who  are 
+
+going to be asked first. Then, I asked about people they could recommend with the 
+
+same professional characteristics. This way I planned to reach saturation.  
+
+The  interview  is  divided  on  the  several  blocks,  each  serving  for  the 
+
+particular aim: 
+
+1.  Introduction 
+
+2.  Respondents profiling 
+
+3.  Resource fund 
+
+4.  Water optimization practices and efficiency evaluation 
+
+5.  Perspective on the new practices introduction 
+
+6.  Low-code in agriculture 
+
+The  full  script  of  the  interview  main  questions  could  be  found  in  the 
+
+Appendix 1. 
+
+Starting  with  the  Introduction  part,  it  is  the  formal  brief  introduction  of 
+
+myself to the respondent. I tell my name, field of study and present the topic of my 
+
+thesis.  I  ask  the interviewee about their name or how I can refer to them. Also on 
+
+this stage I aim to gather permission to use the given data in my research, assuring 
+
+that the names will be changed and the respondent will stay anonymous.  
+
+On  the  second  stage  I  need  to  categorize  the  respondent  and  gather  more 
+
+professional information about them. Since I am planning to gain insights from the 
+
+individual  farmers  or  representatives  of  the  SMEs  (Are  you  an  individual  or  a 
+
+representative of a company?). If the respondent is associated with some company, 
+
+I  ask  additionally  about  whether  it  is classified as an SME, clarifying the number 
+
+of  employees  (If  a  company  representative:  Is  your  business  classified  as 
+
+small/medium?  Why?  How  many  employees  does  the  company  have?). Besides, I 
+
+27 
+
+ 
+refine  the  area  of  responsibility  of  the  person  and  the  location  (What  is  your 
+
+position  and  what  do  you  do?  Where?).  This  way  I  could  fully  comprehend  the 
+
+interviewee’s profile and somehow classify them further.  
+
+The  Resource  fund  block  is  devoted  to  the  resource  fund.  Since  I  select 
+
+people,  who  are  aware  of  the  company’s  numbers,  I  need  to  know  the  actual 
+
+percentage  on  operational costs and on water for irrigation in particular (Question 
+
+about  resources:  what  is  your  cost/resource  fund  (percentage  %  of  total  costs 
+
+purely for the operational expenses)? Which percentage of your total costs do you 
+
+spend specifically on water irrigation?). It would be insightful to ask whether they 
+
+find  the  value  optimal  (Is  this  value  optimal?).  Collecting  this  data,  I  could 
+
+evaluate  it  and  compare  answers  with  each  other,  seeking for the patterns. In this 
+
+block  I  must understand that every plant requires a specific amount of water. And 
+
+even the big numbers could be optimal for some crops (e. g. rice). That is why I am 
+
+asking a professional's opinion on their products as a more reliable source.  
+
+Next  information  I  am  interested  in  is  about  optimization  practices 
+
+adoption  by  the  respondents  and  their  companies  (Have  you  ever  applied  any 
+
+methods  to  optimize  water  costs?).  It is related to the background and reflects the 
+
+attitude towards the possible new approaches adoption even before asking directly 
+
+about  it.  If  yes,  I  additionally  ask details about these practices, their effectiveness 
+
+and  outcomes  (If  yes,  what  practices  or  technologies  have  you  used  to  optimize 
+
+water usage and, hence, costs? If yes, are these practices or technologies effective? 
+
+If  yes,  is there monetary or percentage data which could demonstrate the solution 
+
+effectiveness?  If  yes,  provide  examples  of  the  results  when  implementing  the 
+
+practices  (e.g.  cost  reduction/increased  yields)).  I  could  evaluate  the  spread  of 
+
+special  optimization  practices  and  technological  base  of  the  SMEs  for  further 
+
+upgraded solution propositions.  
+
+After  I  see  the  preliminary  picture  and  what  is  done I should move to the 
+
+questions  on  perspectives.  I  intend to ask directly about interviewees' thoughts on 
+
+improving the water efficiency, considering the exact IT or digital solution (Would 
+
+you  like  to  improve  water  use  efficiency?  Have you thought of using IT or digital 
+
+28 
+
+ 
+solutions for water use optimization? Are you willing to use IT or digital solutions 
+
+for  water  use  optimization?).  This  block  is  essential  to  understand  the  attitude 
+
+towards  the  adoption  of  new  technologies  and  assess  openness  of  the  Russian 
+
+agricultural sector representatives. I expect to get insights on the main benefits and 
+
+constraints why the respondents are using or eager to use the new technologies and 
+
+what  limits  and  challenges  they  are  facing,  respectively  (If  yes  or  already  using, 
+
+what  is  the  main  reason  why  you  are  willing  to  use  or  are  willing  to  use  IT  or 
+
+digital  solutions  for  water  optimization?  What  could  be  or  are  the  barriers  and 
+
+constraints that prevent you from adopting new technologies?). 
+
+The  last  question  set  is  devoted  to  people’s  awareness  of  the  low-code 
+
+approach and the perspectives in the agricultural industry. In order to introduce my 
+
+idea  I  need  firstly  to  understand  whether  the  interviewees  know  what  low-code 
+
+technology  is  (Have  you  heard  of  low-code  technology?).  If  I  get  a  negative 
+
+answer,  I  will  briefly  outline  the  key  idea  and  demonstrate  some  examples  with 
+
+visual  elements  (e.  g.  UX/UI  screenshots).  Besides,  I  would  ask  whether  the 
+
+respondents  know  the  exact  implementation  of  this  innovation  in  the  sector  (Do 
+
+you  know  some  examples  of  low-code  technology  implementation  or  adoption  in 
+
+the agricultural sector? If yes, provide and briefly describe specific examples of its 
+
+integration.). It is a small, but still a possibility that they even utilize some LCNC 
+
+tools.  Nevertheless,  their  knowledge  would  contribute  to  drawing  the  overall 
+
+situation regarding the low-code and LCDP in Russian agriculture.  
+
+And  finally,  I would describe my thesis, that I want to develop a LCDP to 
+
+meet  the  needs  of  the  Russian agricultural industry, used mainly for digitalization 
+
+of  water  irrigation  systems.  To  solve  the  challenges  and  meet  the  expectations, 
+
+transforming to the technical requirements, my last question will be about possible 
+
+functionality of the LCDP, useful for enhancing water irrigation, and ask follow-up 
+
+question  regarding  the  expected  price  of  the  solution  (What  functions  would  you 
+
+like to see in the water irrigation management and monitoring system?). 
+
+Undoubtedly,  in  the end I will thank my respondents for their contribution 
+
+to the Russian agriculture development.   
+
+29 
+
+ 
+2.3. INTERVIEWS RESULTS 
+
+I  was  contacting  15  industry  professionals  and  out  of  this  only  6  people 
+
+answered  me  and  4  met  my  requirements  when  selecting  the  respondents  and 
+
+agreed to have an interview. The semi-structured interviews were conducted via the 
+
+online  meeting  platform  Zoom  and  took  roughly  15-25  minutes  each.  The 
+
+interviews  were  conducted  over the span of 2 months, from March to April 2025. 
+
+The  answers  were  recorded  and  transcripted  into  the  text  format,  so  the  data  is 
+
+easier to proceed and analyze.  
+
+There  are  participants  from  different  parts  of  Russia,  2  from  the  Moscow 
+
+Oblast  (Region),  1  from  Bryansk  Oblast  (Region)  and  1  from  Volgograd  Oblast 
+
+(Region). The map is on Figure 5.  
+
+Figure 5. Geographical distribution of the participants. 
+
+All  of  them  had  different  crops,  In  Moscow  Oblast  2  enterprises 
+
+representatives specialized in apples and carrots and cabbages. In Bryansk Oblast - 
+
+in potatoes. In Volgograd people were growing onions. For the more convenience I 
+
+will assign the fake names of the interviewees. They would be Ivan (apples), Anna 
+
+(carrots and cabbages), Alex (potatoes) and Mark (onions), 2 males and 2 females, 
+
+30 
+
+ 
+ 
+ 
+in  the  order  I  presented  the  crops.  Overall,  there  were  1  small  business  and  3 
+
+medium-sized  enterprises  with  51  employees  on  average.  The  fields  were 
+
+calculated from 35 to 500 hectares.  
+
+As  it  was  stated,  the  interviewed  specialists  were  industry  professionals 
+
+with  different  areas  of  responsibility.  Ivan  was  an  operational  management,  who 
+
+was  organizing 
+
+field  works  and  controlling 
+
+resources.  Anna  was  an 
+
+agronom-manager,  caring  for  the  crops  irrigation  and  fertilization  and  preparing 
+
+documentation.  Alex  had  kind  of  the  strategic  specialists  role  and  she  was 
+
+responsible for the agrotechnological integration within her company, contributing 
+
+to the successful development. And Mark was a head of agronomic service, which 
+
+also was controlling resources and collaborating with suppliers.   
+
+For  the resource fund, on average the operational costs accounted for 69% 
+
+of the total annual cost (Figure 6).  
+
+Figure 6. Amount of the operational costs compared from the annual expenses. 
+
+Most  of  the  spent  money  went  to  the  labour  costs  and  associated  taxes, 
+
+roughly  30%  on  average.  The  second  big  part  of  expenses  are  fertilisers  and soil 
+
+(20%).  Water  and  electricity  is  the  10%  on  average  which  is  the  third  largest 
+
+category out of five (Figure 7). 
+
+31 
+
+ 
+ 
+Figure 7. Company annual expenses on average. 
+
+2 out of 4 respondents or 50% believe the water usage is not as optimal as 
+
+could potentially be. 100% of interviewees have already integrated some practices 
+
+to  optimize  the  irrigation  process  to  reduce  water  usage.  The  most  popular 
+
+practices  were  drip  irrigation  (100%),  soil  moisture sensors (75%) and night time 
+
+irrigation  (50%).  The  adopted  optimization  reduced  the  water  consumption  by 
+
+approximately  30%-40%.  Furthermore,  Ivan  claimed  a  yield  increase  by  15%, 
+
+Anna  shared  that  labour  costs  were  diminished  up  to  30%.  And  Mark,  which 
+
+company  utilized  the  sprinklers,  said  the  yields  grew  twice.  All  the  participants 
+
+agreed  on  the  effectiveness  of  the  implemented  practices.  With  the  knowledge, 
+
+gathered  from  literature  review,  here  I  outlined  my  first  and  second  hypothesis, 
+
+believing  LCDP  introduced  could  decrease  resources  as  well  while  increasing 
+
+yields: 
+
+H1:  Adoption  of  the LCDP leads to the water usage being expected to 
+
+be reduced by 30% and labour by 20% after 2 years of the implementation.  
+
+H2:  Adoption  of  the  LCDP  leads  to  the  yields  being  expected  to  be 
+
+increased by 10% after 2 years of the implementation.  
+
+Although  half  of  the  answers  on  the  optimal  value  agreed  on  it  being 
+
+irrational,  all  company  representatives  want  to  enhance  the  water  effectiveness  if 
+
+possible. 100% of interviewees have thought about adopting a digital solution and 
+
+32 
+
+ 
+ 
+are  ready  to  introduce  it  within  the  enterprises  they  are  working  on.  So, my next 
+
+hypothesis is being formulated:  
+
+H3: At least 80% of SMEs want to enhance water efficiency and adopt 
+
+a new piece of IT solution within 1 year. 
+
+The main drivers are water bills reduction (100%), increased yields (100%) 
+
+and,  hence,  raised  profit  (100%).  The  histogram  built  in  Figure  8 reflects results. 
+
+As for the limitations and constraints, all people asked are worried about high costs 
+
+and technological complexity of the implementations (Figure 9).  
+
+Figure 8. Drivers for digital technology adoption. 
+
+Figure 9. Limits for digital technology adoption. 
+
+33 
+
+ 
+ 
+ 
+Only  half  of  the  participants  were  acknowledged  with  the  low-code 
+
+technology.  Interesting  to  notice,  these  people  were  from  the Moscow Oblast. As 
+
+the known examples they said international practices. 
+
+As  for  the  desired  functions,  top  interviewees  choices  were  irrigation 
+
+scheduling, remote control and switching automation (Figure 10). 
+
+Figure 10. Functions people want to see in the future LCDP for smart irrigation. 
+
+After  I  highlighted  the  results,  gathered  during  my  interview,  I  needed  to 
+
+properly  analyse  data  and  outline  key  insights.  To  do  so,  I  applied  a  thematic 
+
+analysis,  a  method  to  describe  and  organize  the  qualitative  data.  Firstly  I need to 
+
+use  coding  and  then  break  the  data  into  themes.  Coding  is  the  qualitative  data 
+
+method  of  analysis  that  stands for developing “codes” as the descriptive elements 
+
+to  structure  and  categorize  the  big  amount  of  data  like  the  interview  results.  It 
+
+encodes  data  and is helping to find out patterns. I put codes in the quote marks to 
+
+differentiate  them  in  the  next  two  paragraphs.  There  are  two  coding  techniques, 
+
+representing  two  different  approaches  for  the  data  organization,  deductive  and 
+
+inductive.  
+
+The  first  one  is  about  deriving  codes  from  the  primary  analysis  of  the 
+
+literature  review  and  before  the  actual  interviews.  I  had  already  done  some 
+
+investigation and knew the area of research, so the predefined codes will be helpful 
+
+to stay focused during the interviews. The codes I outlined were directly connected 
+
+to the agriculture and technology usage in the sector. To profile the respondent the 
+
+codes  “small  enterprise”,  “medium  enterprise”,  “company  representative”, 
+
+“individual  farmer”  from  their  introduction  were  outlined.  Besides,  since  I  chose 
+
+34 
+
+ 
+ 
+primary  managers  to  talk  with,  the  “operational  manager” was introduced. As for 
+
+the  insights  on  managing  resources,  I  wanted  to  focus  on  “water  resource”, 
+
+“resource management”, “resource costs” when asking about their resource fund. I 
+
+expect  to hear whether respondents consider their water costs reasonable, are they 
+
+either “optimal/non optimal”. For the codes determining practices, I went for “cost 
+
+optimization”, “irrigation practices”, “effective results”, to find out which had been 
+
+already  implemented.  To  assess  the  technological  readiness  there  are  codes 
+
+“readiness  to  implement”,  “reasons  for  adoption”,  “opportunities”,  “constraints”, 
+
+“sanctions”, “digital literacy”.  
+
+The  second  one  coding  implies  the  outlining  codes  after  the  interviews, 
+
+based  on  the  participants'  answers.  In  this  approach  the  data  had  to  be  carefully 
+
+read to find out something could be missed in the deductive coding. It is helpful to 
+
+find  some  new  ideas  and  concepts,  staying  flexible  in  the  research.  That  is  why 
+
+after  conducting  interviews  and revising the text with existing codes, I also found 
+
+some  new  codes.  They  were  mostly  related  to  the  farmer’s  needs  and  pains, 
+
+connected  to  resource  management.  Furthermore,  it  was  about  their  need  to 
+
+digitalize  processes,  contributing  to  faster  and  more  effective  decision  making. 
+
+Code  “tendency  to  save  resources”  emerged.  Although  some  participants  were 
+
+satisfied  with  the  resource  management,  they  want  to  continue  increasing 
+
+efficiency.  Not  only  water,  but  labour  resources.  For  the  saving  techniques  the 
+
+“drip  irrigation”  and  “night  time  irrigations”  were  named  as  the  approaches  to 
+
+optimize  the  water  usage.  Most  of  the  code,  retrieved  via  the  inductive  coding 
+
+techniques,  were  found  in  the  interview  sections  where  I  was  interested  in  the 
+
+current drivers and limitations in the Russian agricultural industry. Besides the cost 
+
+reduction, respondents expected the digital solution to be “adaptive and compatible 
+
+with  the  sensors”.  “Analytics  and  reports”  was  stated  as  the  beneficial  tool  to 
+
+evaluate  the  practices  and  control  the  irrigation  process,  adjusting  when  needed. 
+
+Still,  interviewees  struggle  with  the  “digital  knowledge”  acquiring  and  “lack  of 
+
+enlightenment  in  the  technological  sphere”.  They  want  simple  solutions  on  the 
+
+35 
+
+ 
+market. Unfortunately, due to the “political constraints” and “IT-solution shortage” 
+
+the issues of the suitable system are rising.  
+
+In  addition  to  the  deductive  and inductive coding, I will revise answers to 
+
+outline topics appearing across all the dialogues. So the already defined codes will 
+
+be merged in the more meaningful, larger groups called themes. 
+
+1.  High operational costs. 
+
+During  the  interviews  I  found  that  people  are  eager  to save resources and 
+
+diminish  costs  (“If  possible,  for  sure,  we  would  like  to  decrease  operational 
+
+costs”). They are approximately 70% out of the annual expenses, labour and taxes 
+
+is  top  1  with  30%  out  and  water  and  electricity  take the 3rd place (around 10%). 
+
+High  labour  costs  are  associated  with  the  low  automation  and  digitalization  and 
+
+rely on the hand labor facilitation mostly with some help of the farming equipment. 
+
+Even  though  they  are  not  pouring  water  by  hand,  for  instance,  they  make  things 
+
+work manually, monitoring the processes, which increases the demand for different 
+
+specialists.  (“As  a  manager  I  must  control  other  workers'  activity…”).  And  there 
+
+are less and less professionals in agriculture, and the shortage could be up to 50% 
+
+(Interfax, 2025) (“There are not enough specialists on the market”).  
+
+2.  Utilization of the water saving practices. 
+
+All  respondents  have  already  used  some  optimization  practices,  so  that  is 
+
+why  only  half  of  them  considered  water  resource  management  optimal.  Drip 
+
+irrigation, soil moisture sensors and night time irrigation are commonly adopted by 
+
+SMEs. Drip irrigation is the network of the pipes and tubes across the fields, which 
+
+distribute water to the plants by small amounts. Instead of delivering water through 
+
+sprinklers  the  system  drips  water,  saving  its  amount.  With  the  drip  irrigation  the 
+
+fertigation  could  be  applied,  where  nutrients  and  supplements  are  delivered 
+
+alongside.  Usually  used  for  the  vegetables  as  they  “do  not  require  constant 
+
+excessive moisture”, like the respondent from Moscow Oblast who grows cabbage 
+
+and  vegetables  said.  Soil  moisture  sensors  are  a  common  practice  to  overall 
+
+improve  the  yields. They are not costly, easy to implement and are useful to track 
+
+the  soil  condition.  And  night  time  irrigation  is  efficient  not  only  due  to  the  less 
+
+36 
+
+ 
+water and electricity cost from 11 pm to 7 am in Russia, but due to the diminished 
+
+evaporation  in  the  colder  time.  The  night  time  irrigation  is  more  popular  in  the 
+
+south  regions,  like  Volgograd  Oblast,  as  “summers  could  be  very  hot  and  dry”, 
+
+according to the person growing onions.   
+
+The software is claimed to be used in Moscow Oblast to grow apples. It is 
+
+called  Hunter,  which  allows  working  with  several  controllers  and  adapting  the 
+
+irrigation according to the plant's needs. The technology is closest to the previously 
+
+outlined U. S. systems with predictive watering and remote monitoring.  
+
+3.  Limitations to technological adoption. 
+
+However,  there are challenges associated, stopping technological progress. 
+
+The  key  findings  are  predicted  high  costs  and  lack  of  technological  base  and 
+
+technical skills of the workers. The lack of the specialists in agriculture also means 
+
+less  young,  digital  natives  workers  are  choosing  to  perform  in  the  industry. 
+
+Consequently, simpler but more cost-efficient systems should be introduced for the 
+
+current  employees  to  pick  up  the  functionality set easier and explore all available 
+
+capabilities of the IT-solution. Although the agricultural sector is the most resistant 
+
+to  the  sanctions,  right  now  import  issues  are  not  fully resolved yet. Nevertheless, 
+
+the  national  development  is  trying  to  keep  up  pace,  but  still  the  more  advanced 
+
+hardware and software are needed to evolve successfully. A representative from the 
+
+Bryansk  Oblast  said  “there  are  not  many  IT-companies,  specializing  in  the 
+
+development specifically for the agriculture needs”.  
+
+4.  Interest in flexible digital solutions. 
+
+Farmers  want  to  see  more  flexible  solutions.  Each  company  has  their 
+
+specific  needs,  and  as  it  was  previously  mentioned,  there  is  not  so  much  digital 
+
+supply  on  the  market.  The  respondents  are  ready  to  adopt  digital  technologies  if 
+
+affordable,  and  will  potentially  increase  profit  and  yields,  decreasing  associated 
+
+costs,  respectively.  They  also  are  interested  in  the  rapid  technologies,  delivered 
+
+faster  to  the  company.  The  traditional time to market or TTM is proclaimed to be 
+
+up to 3 years. However, recently it has been gradually decreasing, and now it takes 
+
+around  12-24  months  if  the  software  comprehends  all  the  key  profound  features 
+
+37 
+
+ 
+SMEs  need.  Still,  “during  that  period  things  could  change,  especially  if  the 
+
+business  is  new,  so  the  changes  are  being  made  in  the  technical  task  if  possible, 
+
+slowing  down  the  software  development”  Moscow  farmer claimed. That is why I 
+
+believe  they  would  be  interested  in  the  low-code  solution  where  they  could  fix 
+
+system  elements  by  themselves,  without attracting outsource IT-specialists, which 
+
+is  the  “additional  cost”.  And  the  other  two  hypotheses  were  considered  based  on 
+
+the fourth topic analysis.  
+
+H4: The TTM of the solution developed on the LCDP will be decreased 
+
+by 50% (from maximum of 24 months to 12 months). 
+
+H5:  At  least  half  of  SMEs  prefer  developing  information  systems 
+
+internally  without  3rd  party  attraction  and  expecting  to  become  technically 
+
+independent in the next 5 years.  
+
+5.  Low low-code acknowledgment but moderate interest. 
+
+Companies  closer  to  the  Moscow  capital,  the  most  progressive  city,  are 
+
+more  aware  of  the  available  trending  solutions  like  LCDP.  They  know  about  its 
+
+implementation mostly in the budgeting and finance sector abroad in the developed 
+
+countries.  After  I explained to each participant the LCNC concept and my idea of 
+
+the LCDP for agriculture, outlining its benefits and perspectives, they seemed to be 
+
+interested  in  it.  For  the  desired  functions  the  interviewees  outlined  scheduling, 
+
+remote control and automatic activation. It is a basic set of possible instruments in 
+
+the  system,  not  requiring  profound innovation like AI, which are in demand. And 
+
+they could be easily modified if needed.  
+
+Besides,  I  asked  people  about  how  much  they  are  ready  to  pay  for  the 
+
+solution  and  what  the  price  should  be  to  attract  users.  I  assume  the  subscription 
+
+business  model  as  the  initial  system  will  be  rather  simple  but  is  going  to  be 
+
+developed and, hence, the price may lift. I explained that this business model could 
+
+be beneficial and kindly lead to the question as the follow-up one. As I understood, 
+
+people  from  the  Moscow  oblast  named  prices  up  to  $500  per  month.  However, 
+
+respondents  from  less  advanced  regions  suggested  the  subscription  should  start 
+
+with $300-350 and it may gradually increase.  
+
+38 
+
+ 
+Summing  up,  based  on  the  literature  review  and  after  on  the  interview 
+
+results, the next hypothesis are outlined: 
+
+H1:  Adoption  of  the  LCDP  leads  to  the  water  usage being expected to be 
+
+reduced by 30% and labour by 20% after 2 years of the implementation.  
+
+H2:  Adoption  of  the  LCDP  leads  to  the  yields  being  expected  to  be 
+
+increased by 10% after 2 years of the implementation.  
+
+H3:  At  least  80%  of  SMEs  want  to  enhance  water  efficiency  and  adopt a 
+
+new piece of IT solution within 1 year. 
+
+H4: The TTM of the solution developed on the LCDP will be decreased by 
+
+50% (from maximum of 24 months to 12 months). 
+
+H5: At least half of SMEs prefer developing information systems internally 
+
+without  3rd  party  attraction  and  expecting  to  become  technically  independent  in 
+
+the next 5 years.  
+
+2.4. DESIGN OF THE SURVEY AMONG SMES AND FARMERS 
+
+Besides the interview I will utilize the quantitative research method, survey. 
+
+It  will  be  conducted  among  the  users,  farmers  who  could  potentially  apply  the 
+
+LCDP in their everyday professional activity. This method would also be helpful to 
+
+formulate  my  hypothesis,  assessing  the  needs  and  peculiarities  of  the  target 
+
+audience.  
+
+The survey consists of 5 sections, excluding the introduction and reference 
+
+part  where  I  describe  the  low-code.  In  the  first  one,  it  is  required  to  answer 
+
+questions  related  to  the  area  of    employment.  The  second  one  contains  questions 
+
+about  the  use  of technologies to optimize processes. The third and fourth sections 
+
+are devoted to the usefulness and ease of use of the development.  
+
+I  designed  the  survey  in  accordance  with  the  Technology  Acceptance 
+
+Model,  referred  to  as  TAM. Developed by Davis in 1989 it suggests a framework 
+
+that models the process of users to actually accept and use the information system. 
+
+I  focus  on  the  Perceived  Usefulness  (U)  and  Perceived  Ease  of  Use  (E)  as  the 
+
+39 
+
+ 
+ 
+ 
+variables  that  shape  users  behaviour  within  the  technology,  forming  the  actual 
+
+intention to utilize it. The former is about the benefit the system is going to bring. 
+
+And  the latter can explain to what extent people are comfortable using it and how 
+
+much effort it requires to get used to the technology.  
+
+As in the interviews firstly I present myself, my field of study, research and 
+
+its  aim.  In  this  survey  I  do  not  ask  for  any  sensitive  personal  data  but  still  I 
+
+guarantee the anonymity of the respondents.  
+
+The  first  section  is  called  General  sample  characteristics  and  stakeholder 
+
+profile.  In  this  part  I  ask  regular  questions  to  get  to  know  the  participants  better. 
+
+The  question  regarding  age,  employee type, number of workers and type of crops 
+
+are presented (Your age? Are you an individual or a company representative? How 
+
+many employees are there in the company? What crops do you grow?). I added an 
+
+age  question  to  possibly  evaluate  the  technological  advancement  of  the  farmers, 
+
+understanding the reverse relationship, i. e. the older the sample, the less they tend 
+
+to  integrate  innovations.  Recent  studies  prove  that  younger  farmers,  especially 
+
+under  30  with  higher  levels  of  education  use  technologies  more  (Bang  J.  et  al., 
+
+2025).  Also  people  under  35  are  more  confident  in  the  technologies  (88%), 
+
+meanwhile  the  value  for  the  35-44s  age  gap is 74%, 45-54 old farmers have only 
+
+50% confidence, and for over 55 it is just 33% (Cleary, E., 2019). Another research 
+
+suggests  that  older  people  are risk-averse and less tolerable to innovation by 48% 
+
+points (Miine, L.K. et al., 2023). The size also matters, and the larger the farm, the 
+
+more advanced processes are there (Bang J. et al., 2025).   
+
+Also  for  the  crops  question  I  want  to  find  out  which  types  of  crops  are 
+
+being  cultivated  in  a  more  modernized  way.  It  is  usually  food  with  a  bigger 
+
+economic value and significant global demand. Thus, these crops will attract more 
+
+investment  in  the  production  area.  The  “high-value  crops”  are  usually  fruits  and 
+
+vegetables but in Russia there are grain and industrial crops to be more important, 
+
+since 2024/2025 Russia produced wheat (81.6 million), barley (16.25 million) and 
+
+sunflower  seed  (16.9  million)  the most (Figure 11). Wheat has always been a key 
+
+national  crop.  Over  the  past  10  years  Russia  has  become  one  of  the  biggest 
+
+40 
+
+ 
+exporters  and  an  absolute  leader  in  production.  In  the  last  agricultural  year  (July 
+
+2023 - June 2024) 26% of the global wheat was of Russian origins (RBC, 2024). 
+
+Figure 11. Top produced commodities in Russia. Source: FAS USDA. 
+
+Section  2  is  the  Using  technology  for  processes  optimization.  I  want  my 
+
+participants  to  answer  the  question  whether  they  are  utilizing  irrigation  at  all,  to 
+
+assess  the  actual  demand  in  the  water  management  digitalization  (Are  you  using 
+
+irrigation  for  crops  watering?).  I  suppose  a  small  number  of  SMEs  will  use 
+
+irrigation  and  mostly  in  the  Southern  region  with  drier  climate  where  its  usage 
+
+could potentially cover the high adoption and maintenance costs.  
+
+Also I want to know if the respondents are already using or eager to use at 
+
+least 
+
+1 
+
+piece 
+
+of 
+
+technology 
+
+(Do 
+
+you/the 
+
+company 
+
+use 
+
+any 
+
+devices/technologies/practices to optimize processes? Would you like to implement 
+
+a  more  technologically advanced solution to increase efficiency at a lower cost?). 
+
+As it was outlined in Chapter 1, the global index accounted for 52% (McKinsey & 
+
+Company,  2024).  But  breaking  down  the  index  in  Russia,  depending  on  the 
+
+company  size,  it  turns  out  that  90%  of  large-scale  enterprises  are  adopting 
+
+technologies,  meanwhile  the  percentage  for  the  SMEs  is  smaller,  25-30%  (RBC, 
+
+2024).  There  is  a  direct  relationship  between  the  technologies  and  profitability. 
+
+This  way,  the  more  technologies  are  being  integrated,  the  more  money  the 
+
+company  earns,  and  consequently,  the  more  they  could  spend  to  afford  the 
+
+high-cost latest innovation.  
+
+In the Reference Section, like before a few last questions in my interview, I 
+
+talk about the low-code technology and its perspectives of the adoption specifically 
+
+41 
+
+ 
+ 
+for  irrigation  management  system  development.  I  explain  its  basics,  potential 
+
+features  and  outline  the  example  with  the  visual  representation  of  it.  Since  I 
+
+assume  the  acknowledgement  about  the  technology  is  going  to  be  low  I  find  it 
+
+reasonable  to  briefly  explain  to  the  respondents  the  most  essential  aspects  of  my 
+
+LCDP alongside with its key functionality for them to fully understand and realize 
+
+the  possible  benefits  and  drawbacks  for  further  implementation  within  their 
+
+companies.  
+
+The next two sections are designed in accordance with the TAM theoretical 
+
+framework. Section 3 called Technology usefulness reflects the TAM’s framework 
+
+element  Perceived  Usefulness  (U)  as  I  need  to  understand  what  is  the  system's 
+
+actual contribution to the overall enterprise performance. I am going to offer some 
+
+statements  related  to  the  usefulness  of  the  future  platform  for  irrigation 
+
+digitalization. I ask people to rate how much you agree with the statements, where 
+
+1 - totally disagree, 5 - totally agree.  
+
+I  expect  people  to  mostly  agree  on  the  following  statements:  use  of 
+
+technology will reduce water costs, use of technology will reduce labour costs and 
+
+use  of  technology  will  increase  field  yields  (Use  of  technology  will  reduce water 
+
+costs.  Use  of technology will reduce labour costs. Use of technology will increase 
+
+field yields). In the 2.1. Overview of the low-code solutions in agriculture where I 
+
+outlined  existing  solutions  I  found  different  results  on  the  water  reduction  when 
+
+implementing  different  technologies.  The  expected  decrease  in  water  bills 
+
+accounted for 35% (Smart Rain). As for water usage, the amount itself is saved by 
+
+15%-40%  on  average,  according  to  the  available  literature.  (Water  Bit,  Smart 
+
+Irrigation).  The  smart  system  which  includes  consolidating  the  data  from  all  IoT 
+
+sensors,  crop  data  and  weather  data could contribute to approximately 50% water 
+
+savings combined with increased yields up to 35% (Zia H. et al., 2021). The table 
+
+is  presented  in  Figure  12  as  the  average  numbers  of  saving  water  and  improving 
+
+yields  after  different  irrigation  techniques  introduced.  So  the  smart  technologies 
+
+suggest  the  percentage  up  to  55%  for  the  former  and  up  to  25%  for  the  latter 
+
+(Askaraliev B. et al., 2024).  
+
+42 
+
+ 
+Figure 12. Outcomes of different irrigation techniques on water consumption and yields. Source: 
+
+Askaraliev B. et al.    
+
+As for the labour costs, it is estimated at 82-88% during the flush-irrigation 
+
+events  and  57%  during  the  ponding  periods,  compared  to  the  manual  irrigation 
+
+(Champness M. et al., 2023). 
+
+Besides  the  key  resource-based  indicators  I  also  ask  about  the  time  to 
+
+market  or  TTM. In the context of the technologies designing and deployment it is 
+
+described  as  the  amount  of  time  from  the idea discovery to actual system launch, 
+
+so it is the development time. There is not much data on the specific duration of the 
+
+smart irrigation system development in the open sources available. However, there 
+
+was  a  study  claiming 
+
+that  optimization  of  irrigation  through  innovative 
+
+technologies  is being done over the three seasons, from 2021 to 2023, forming 36 
+
+months  (Di  Gennaro  S.  F.  et  al.,  2024).  Thus,  it  is  estimated  to  take  about 12-36 
+
+months  to  develop.  Low-code  could boost the development time, decreasing it up 
+
+to  90%  (McKinsey  &  Company,  2022).  In  the  context  of  the  farm  digitalization 
+
+using  the  LCNC  tools  the  TTM  could  be  diminished  by  40-60%  on  average 
+
+(Bootstrapped, 2024). I believe the farmers would agree on the low-code approach 
+
+to  decrease  the  digital  solution TTM after I explain the details and features of the 
+
+LCDP as an efficient instrument (Use of technology will decrease production time 
+
+to market (TTM)).  
+
+Last Section 4, Technology ease of use, is built to assess the Perceived Ease 
+
+of  Use  (E) as the perception of the technology and how the users attitude towards 
+
+its utilization. A few statements, related to the ease of use of the future platform for 
+
+irrigation  digitalization,  will  also  be  offered.  And  I  ask  people  to  rate  how  much 
+
+you agree with the statements, where 1 - totally disagree, 5 - totally agree. Recently 
+
+43 
+
+ 
+ 
+many farmers demonstrate a strong preference towards internalizing the processes, 
+
+maintaining control over the data and the system.  
+
+Traditionally,  agriculture  was digitalized by the public sector, primarily by 
+
+university  research.  However,  over  the  past  decades  the  private  sector  actively 
+
+participated  in  R&D,  expanding  their  influence  and increasing their power on the 
+
+technology market (McFadden J. et al., 2022).  
+
+SMEs are reluctant to the new smart farming technologies due to the costs, 
+
+access  and  support.  Additionally,  barriers  to  adoption  are  related  to  the 
+
+cybersecurity  and  privacy  risks  and  farm  data  ownership  challenges present. And 
+
+there are still no specific legal frameworks targeting data in the respective industry, 
+
+so  the  data  protection  regulation  in  agriculture  is  controlled  by  the  general  data 
+
+laws. Hence, surveys conducted demonstrate that half of the farmers (49%) are not 
+
+very comfortable with service or technology having direct access to their data. And 
+
+mostly (56%) do not trust that service or technology maintain the privacy or do not 
+
+provide the data acquired to the third parties having the direct access (Wiseman L. 
+
+et  al.,  2019).  Farmers  are  still  afraid  of data privacy since they do not understand 
+
+how  the  private  companies  are  operating  their  data  and whether it is sold to third 
+
+parties (McFadden J. et al., 2022).  
+
+It  is  better  that  both  parties  trust  each  other,  so  there  is  a  need  for 
+
+governmental  intervention.  They  could directly or indirectly encourage farmers to 
+
+experiment  with  technologies  and  settle  standardized  approaches  with  minimal 
+
+financial  investments  from  the  farmers  side  (McFadden  J.  et  al.,  2022).  For 
+
+instance,  in  Russia  some  governmental  programs  were  initiated  to  digitalize  the 
+
+industry  in  the  past  two-three  years.  In  2022  the  Single  Digital  Platform  for 
+
+Agro-Industrial Complex was announced as the attempt to unify the public services 
+
+for  the  industry. In the Ministry the platform is considered to increase the product 
+
+quality  and  safety,  creating  the  digital  ecosystem  of  the  different  management 
+
+layers (TAdviser, 2022).  
+
+So, based on the data available, I could definitely see some priority over the 
+
+outsource technologies in favor of the development inside the enterprises (It would 
+
+44 
+
+ 
+be  better  to  develop  the  information  system  internally  without  attracting  third 
+
+parties).   
+
+In  Chapter  1  the  literature  review  showed  that  key  framer’s  struggles 
+
+include  complexity  and  specific  knowledge  required,  that  is  why  LCNC 
+
+designation  was  suggested  as  the  easy  solution  to  adapt  to.  Still,  there  is  little 
+
+acknowledgement  of  the  low-code  technology  among  Russian  businesses, 
+
+especially  SMEs.  Digital 
+
+technologies  based  on  the  platforms  are  often 
+
+misunderstood  by  non-technical  specialists,  who  the  farmers  usually  are.  The 
+
+crucial  difference  between  the  hardware,  often  used  in  the  fields  within  the 
+
+agricultural  equipment,  and  software  is  decreased  and  merged,  updating  the 
+
+approach  towards  building  traditional  smart  solutions.  These  solutions  are 
+
+developed based on computer programming and engineering expertise (McFadden 
+
+J. et al., 2022).  
+
+ I could see little controversy regarding perception of the LCDP as the most 
+
+efficient  and  convenient  tool  for  inner  development  due to the lack of awareness. 
+
+Even  though  I explained the concept, some specialists, especially older ones, may 
+
+doubt the technology and be skeptical towards it (It would be easy for me to learn 
+
+how to use a LCDP to create and adjust my own digital solutions). 
+
+Finally, the last statement is about access to the required technological base 
+
+to  design  and  use  the  suggested  system  developed  on  the  LCDP  (I  have  all  the 
+
+devices  needed  to use the technology: mobile phone, laptop and/or computer). As 
+
+it  was  already  mentioned  in  Chapter  1,  agriculture  is  considered  to  be  one of the 
+
+least  digitally  advanced  industries.  The  Higher  School  of  Economics Institute for 
+
+Statistical  Studies  and  Economics  of  Knowledge  stated  the  digitalization  index 
+
+being  23.  Only  74.3%  of  organizations  have  broadband  internet,  which  is 
+
+relevantly lower in comparison with other industries, However the access to cloud 
+
+services  is  calculated  as  20.9%,  compared  to  the  top-3  Energy  sector  with 
+
+digitalization index 30 (Figure 13). Since farming is originally located in the rural 
+
+area,  the  low  technological  rate  is  expected  and  justified.  Hence,  the  closer 
+
+45 
+
+ 
+businesses  are  located  to  the  big  cities  in  Russia,  to  the  areal  centers,  the  more 
+
+digital the enterprise is.  
+
+Figure 13. Digitalization index and digital intensity across different industries in Russia in 2019. 
+
+Source: HSE ISSEK. 
+
+The  final  section  is  the  financial  one,  where  I  ask  how  much  people  are 
+
+ready to pay for the solution, putting the prices according to the number suggested 
+
+during the interview by the specialist.  
+
+LCDP  does  not  require  powerful hardware or a complicated technological 
+
+base  of  the  enterprise,  so  the  laptop  or computer is enough to develop the system 
+
+and people could manage them even with the help of mobile phones.  
+
+Full transcript of the survey could be found in Appendix 2.  
+
+2.5. SURVEY RESULTS  
+
+When  the  quantitative  research  was  conducted,  I  could  present my results 
+
+as  well.  The  survey  was  held  for  approximately  3  months,  when  form  was 
+
+launched  in  March  2025  and  closed  in  May  2025.  The  survey  was  originally  in 
+
+46 
+
+ 
+ 
+ 
+ 
+Russian  language,  but  I  use  the  machine  translation  of  the  page  to  format  the 
+
+questions and answers in English, that is why the translation of the website may be 
+
+a little different from my personal interpretation of the question. Still, the meaning 
+
+remains the same regarding the translation.  
+
+I approached the interview participants, the same as was chosen during the 
+
+qualitative study, and kindly asked them to complete the survey and send it to their 
+
+colleagues,  friends  in  the  industry  and  business  partners  if  possible.  Also  other 
+
+people  in  agriculture  who  did  not  agree  to  have  an  interview  completed a survey 
+
+and helped me to collect as many answers as possible by sending it to the qualified 
+
+population. Overall, I gathered 107 respondents.  
+
+Out  of  them  the  majority  was  aged  35-44  years  (36.4%),  also  the  bigger 
+
+proportion  were  people  from  25  to  34  (27.1%) and from 45 to 64 (22.4%). There 
+
+were not many young specialists in the industry, aged less than 24 years, only 8.4% 
+
+(Figure  14).  I  could  assess  that  the  results  comprise  quite  a diverse population in 
+
+terms of the study limitation.  
+
+Figure 14. Survey results. Age. 
+
+Also  most  of  the  representatives,  91.6%,  were in the SMEs rather than an 
+
+individual entrepreneurship or independent farmer (Figure 15).  
+
+47 
+
+ 
+ 
+Figure 15. Survey results. Occupation. 
+
+Moreover,  the  size  of  the companies they work in mostly consist of 16-50 
+
+employees, proved by 43% of votes. However, some employees were in the larger 
+
+entities  with  51-100 employees on average (38.3%). Not many very small or very 
+
+big companies were identified, only 7 respondents or 6.5% (Figure 16). 
+
+Figure 16. Survey results. Company size. 
+
+The  occupation  sphere  was  added  to  see the attitude of the farmers across 
+
+the  different  areas  in  agriculture.  Since I consider only plants, the livestock block 
+
+was  not  included  at  all.  I  can  conclude  that  the  distribution  of  the  occupation  is 
+
+rather  even  as  well  with  dominating  three  crop  types:  vegetables  (34.6%),  fruits 
+
+(23.4%)  and  technical  crops  (22.4%).  Workers  growing  grains  and  feeding  crops 
+
+were in the minority (Figure 17).  
+
+48 
+
+ 
+ 
+ 
+Figure 17. Survey results. Occupation or crops grown. 
+
+After  recognizing  the  characteristics  of  the  respondents,  I  could  ask  the 
+
+questions  regarding  the  irrigation  and  technologies  used.  I  found  out  that  only 
+
+56.1%  use  the  actual  irrigation  (Figure  18).  It  means  that  not  all  people  will 
+
+possibly  require  scheduling  and  automating.  These  results  were  insightful  to 
+
+review  my  future  LCDP.  In  this  case  I  thought about the versatility of the system 
+
+which  may  suit  almost  every  company  since  I  aim  to develop a flexible solution. 
+
+Despite some companies not utilizing irrigation, there are still IoT sensors to track 
+
+the  soil state and geological values (e. g. temperature, humidity), weather forecast 
+
+API and statistical prognosing and suggestions are possible to remind watering and 
+
+manage its use.  
+
+Figure 18. Survey results. Irrigation utilization. 
+
+Nevertheless,  it  seems  most  or  89.7%  of  the  SMEs  are  using  some 
+
+technologies or at least practices to optimize the watering (Figure 19).  
+
+49 
+
+ 
+ 
+ 
+Figure 19. Survey results. Practices for water optimization. 
+
+And  98.1%  of  respondents  want  to  improve  the  efficiency  at a lower cost 
+
+via the implementation of a more technological solution (Figure 20). 
+
+Figure 20. Survey results. Willingness to adopt digital solutions. 
+
+I skipped the Reference section, a part where I describe the technology and 
+
+what the respondents should expect from the proposed technology as there were no 
+
+questions. 
+
+Moving  to  the  TAM’s  framework  section,  I  firstly  needed  to  use  the 
+
+Perceived  Usefulness  (U).  I  utilized  the  Likert  scale,  where  I  offered participants 
+
+some  statements  and  they  should  express  how  much  they agree or could relate to 
+
+the claim, using the scale from 1 to 5, where the bigger the number, the higher the 
+
+agreeableness. I considered 3, the number in between, as either an “I don’t know” 
+
+or “50/50” result.  
+
+Based  on  the  answers,  57%  agree  and  33.6%  absolutely  agree  that  the 
+
+platform  could  potentially  reduce  water  costs  as  its  main  aim  stated  (Figure  21). 
+
+Since I propose the automation, analytics and prediction, I supposed that the direct 
+
+resource  used  is  going  to be diminished due to the more accurate distribution and 
+
+optimization.   
+
+50 
+
+ 
+ 
+ 
+Figure 21. Survey results. Section 3. Claim 1. 
+
+I  was  also  surprised  by  the  big  proportion  who  voted  on  the  labour  cost 
+
+reduction,  45.8%  agreed  and  34.6%  absolutely  agreed  (Figure  22).  I  expect  a 
+
+decrease in this cost as well but it was like an indirect effect. Since less specialists 
+
+would be included in the irrigation process due to the automation, the expenses are 
+
+about to be cut. It is a good point due to the farmer’s shortage on the market as the 
+
+continuous  trend,  especially  in  the  more  urbanized  parts  of  Russia  (Yakov  & 
+
+Partners,  2024).  Moreover,  since  the  final  system  will  be  designed  inside  the 
+
+company,  the  expenses  on  the  third  party  developers  would  decrease  this  way. 
+
+Instead,  the  farmers  should  hire  a  few  inner  technical  specialists,  who  could 
+
+manage  the  solution  and  facilitate  hardware  integration.  And  in  the  long  run  the 
+
+developers'  necessity  could  be  absent  at  all if farmers learn how to work with the 
+
+LCDP instruments by themselves.  
+
+Figure 22. Survey results. Section 3. Claim 2. 
+
+People  believe  that  the  LCDP  will  increase  yields  (Figure  23).  In  the 
+
+question  there  is  a  bigger  proportion  on  the  “in  between”  side,  but  still  71.1% 
+
+51 
+
+ 
+ 
+ 
+either  agree  or  strongly  agree.  Also  a  part  of  the  effect  of  more  efficient  water 
+
+utilization.  With  the  wise  resource  distribution  farmers  would  produce  a  bigger 
+
+amount of plants and, hence, increase profit from selling good quality products.   
+
+Figure 23. Survey results. Section 3. Claim 3. 
+
+I  suppose  the  least  clear  rate for the farmers is time to market or TTM. In 
+
+the  Reference  section  I  explained  its  meaning  and  hope  that  respondents  got  the 
+
+definition.  In  this  case  the  results  are  more  diverse  but  still  with  the  preference 
+
+towards  4  (agree)  (Figure  24).  68.2%  thought  the  LCDP  could  reduce  the  TTM 
+
+since  it  is  easier  to  receive  and  process  feedback  inside  one  company  with  a 
+
+smaller development life cycle. The external LCDP may be as efficient as the inner 
+
+future  system,  but  the  compliance  rules  are  a  crucial  factor  which  boost  the 
+
+development.  There  will  be  less  issues  on  the  data  regulatory  and  politics  of  the 
+
+company and, therefore, more trust and easier negotiation. Still, 22.4% are not sure 
+
+about it but it is less than one fourth.  
+
+Figure 24. Survey results. Section 3. Claim 4. 
+
+52 
+
+ 
+ 
+ 
+Continuing  the  benefits  of  the  inner  development,  I  asked  about  the 
+
+preference towards it, without contacting third parties, opening the section devoted 
+
+to the TAM’s framework element Perceived Ease of Use (E) (Figure 25). As it was 
+
+predicted, most of the respondents are more tolerant towards internal development 
+
+(47.7%  agree  and  30.8%  strongly  agree), only 23 people out of 107 do not agree. 
+
+In  Russia  the  data  protection  issues  are  observed  as  well,  following  in  alignment 
+
+with  global  preferences.  People  are  concerned  about  privacy,  especially  when  it 
+
+comes  to  the  sensitive  data,  considered  as  the  competitive  advantage  in  the 
+
+respective market, customization and challenges if the outsource is attracted.  
+
+Figure 25. Survey results. Section 4. Claim 1. 
+
+Next  claims have brought the most disputes among the survey participants 
+
+(Figure 26). Despite 38.3% agreeing and 16.8% strongly agreeing on the platform's 
+
+simplicity  and  easy  learning,  25.2%  are  not  sure  and  15.9%  seem  to  disagree.  I 
+
+assume  farmers  are  less  acknowledged  of  the  technology,  especially  in  Russia, 
+
+where LCNC designation is not so profound. 
+
+53 
+
+ 
+ 
+Figure 26. Survey results. Section 4. Claim 2. 
+
+On  the  contrary to the last but one claim, the final statement seemed to be 
+
+the  most  agreed  on.  104  (97.2%)  respondents  stated  they  have  enough 
+
+technological base to adopt the LCDP (Figure 27). If they successfully finished this 
+
+survey  I  assume  they  had  a  minimum  phone,  computer  and  internet  connection. 
+
+Consequently,  as  I  stated  in  the  survey  design,  managing  and  using  the  smart 
+
+irrigation system with LCNC base does not require advanced hardware.  
+
+Figure 27. Survey results. Section 4. Claim 3. 
+
+Last  but  not  least, as for the financial estimations, most of the participants 
+
+are ready to pay a bigger price, which is more than I expected (Figure 28). Most of 
+
+the  respondents (40.2%) agree on the 35,00-45,000 rubles which is approximately 
+
+$$438-563.  Although  there  were  people  who  chose  the  minimum  price  (28%),  I 
+
+still  do  believe  that  I  explained  in  the  Reference  section  all  the  LCDP  benefits. 
+
+54 
+
+ 
+ 
+ 
+Also  I  am  going  to  calculate  the  resource  saved  in  Chapter  3,  to  prove  that  it  is 
+
+cost-efficient compared to traditional watering.  
+
+Figure 28. Survey results. Price estimation.
+
+55 
+
+ 
+ 
+ 
+CHAPTER 3. LCDP PROTOTYPE DEVELOPMENT AND COST 
+
+EVALUATION 
+
+3.3. PROTOTYPE DEVELOPMENT 
+
+After  interview  and  survey analysis I decided to design some architectural 
+
+elements  of  the  future  LCDP  with  key  system  capabilities  for  effective  water 
+
+management.  
+
+The  Unified  Model  Language  Notation  or the UML was implied to create 
+
+sophisticated  schemes  (Figure  29).  The  use  case  diagram  itself  represents  a 
+
+graphical  overview  of  all  use  cases  done  primarily  by the user of the information 
+
+system.  There  are  some  scenarios  that  could  occur  via  using  an  information 
+
+system. In the use case diagrams key scenarios are named with 3 parties involved, 
+
+farmers,  admin  and  the  developer.  I  decided  to  include  the  last  mentioned role at 
+
+first  for  companies  to  set  the  correct  integrations  with  APIs,  IoT  sensors  and 
+
+weather  forecast.  In  the  long  run  with  the  proper  employee  studying  it  could  be 
+
+optional.  The  idea  is  that  the  admin  could  add  users,  mostly  farmers.  They  have 
+
+most  of  the  use  cases,  as  they  adjust  the  system,  interact  with  it,  set  up  the 
+
+automation and get notifications.   
+
+Figure 29. Use case diagram of the LCDP for smart irrigation (created via Visual Paradigm). 
+
+56 
+
+ 
+ 
+ 
+ 
+Next  scheme  is  the  activity  diagram,  breaking  down  the  activities  in  the 
+
+system  (Figure  30).  Activity  diagram  is  another  approach  of  Scenario-based 
+
+analysis. It is a more detailed description of use cases, outlined before. The activity 
+
+diagram  is  also  a  good  representation  of  the  user’s  behavior  in  the  developed 
+
+information system.  
+
+All  possible  outcomes  of  the  user’s  actions  are  highlighted,  that  is  why 
+
+such  a  model  is  a  great  contribution  to  the  understanding  of  how  parts  of  the 
+
+system  are  working  together.  The  logic  is  that  the  user  is  authorising,  entering 
+
+profile  details. If it is the first time or they would change the system it is required 
+
+to  enter  farm  details  and  create  or  rearrange  the  elements,  specifically  for  the 
+
+farmers current needs. Then, the system is being set up with help of the developer, 
+
+who  integrates  external  services.  After  the  preparation  the  user  could  review  the 
+
+suggested schedule, based on the weather and soil condition, enable irrigation and 
+
+get a report about the efficiency of the irrigation.  
+
+Figure 30. Activity diagram of the LCDP for smart irrigation (created via Visual Paradigm). 
+
+Structural  modeling  shows  the  structure  of  the  information  service  and 
+
+parts  from  which  it  is  built.  Besides  the  use  case  diagram,  it is convenient to use 
+
+57 
+
+ 
+ 
+another diagram based on the UML notation, which is called class diagram, as it is 
+
+valuable to introduce more details about the model.  
+
+I  outlined  key  classes of the LCDP (Figure 31). There are 9 of them, each 
+
+with  at  least  one  unique  attribute  or  primary  key,  usually  an  id  (PK)  and  is 
+
+connected  with  at  least  one  another  class  via  the  foreign  key  (FK).  Also 
+
+relationships  between  classes  are  distinguished  types.  For  instance,  there  is  a 
+
+composition  between  Farm  and  Irrigation_sch,  meaning the dependency since the 
+
+former  cannot  be  created  without  the  latter  and  the  first  delete  causes  destroying 
+
+the  second.  And  it  is  a  0..*  to  1  relationships  as  the  Farm  has  none  or  several 
+
+Irrigation_sch  but  the  schedule  is  assigned  to  the  particular  farm.  And  there  is 
+
+aggregation  between  Sensors  and  Soil_state  and  Soil_state  and  Weather,  so  the 
+
+Sensors  and  Weather  are  independent  classes  which  define  the  Soil_state  and the 
+
+Soil_state could include several sensors or undermine weather conditions.  
+
+Figure 31. Class diagram of the LCDP for smart irrigation (created via Visual Paradigm). 
+
+Finally,  there  is  a  Business  Process  Model  and  Notation  or  the  BPMN 
+
+diagram, reflecting the processes within actors. It is a standardized visual language, 
+
+demonstrating modeling and communication between business processes, dividing 
+
+on the business and technical elements.  
+
+Like  the  Figure  32  states,  I  differentiated  Farmers  and  Developers  as two 
+
+different  roles  but  who  both  interact  with  the  technical  element,  LCDP  as  the 
+
+information system. To compare with the activity diagram, not only different roles 
+
+and their interactions with the system are implied, but some components are more 
+
+58 
+
+ 
+ 
+visually distinguished. For instance, the databases, which are integrated on the step 
+
+of data gathering and analysis are visually represented with the respective icon.  
+
+Figure 32. BPMN diagram of the LCDP for smart irrigation (created via BPMN.IO). 
+
+For the prototype, I would like to firstly present the block prototype of the 
+
+user  interface  (UI)  of  my  solution.  On  the  left  side  there  is  a  menu  with  the 
+
+hyperlinks to the respective sections. The page presented is about the certain farm 
+
+and  the  information  about  it,  including  name,  irrigation  status  and  person 
+
+responsible  for it. The most significant numbers are about to be outlined. The soil 
+
+moisture  and  weather  data  should  be  graphically  presented with the possibility to 
+
+display  more  details  when  clicking  on  it.  At  the  bottom  of  the  page  the schedule 
+
+and statistics may be in the calendar form for more convenience (Figure 33).  
+
+Figure 33. Block prototype draft of the LCDP UI (created via Figma). 
+
+59 
+
+ 
+ 
+ 
+After  some  revision  I  updated  my  prototype  and  created  several  UIs, 
+
+crucial for understanding how the system will work. To build the interface I use the 
+
+new  generation  service  Visily  with  upgraded  tools  for  designing  simple, 
+
+user-friendly  but  sophisticated  mock-ups.  I  decided  to  use  blueish  colours  and 
+
+shades,  like  baby  or  navy  blue,  for  the  association  with  water,  stability  and 
+
+calmness. The colours are soft and pastel, with more bright elements to accent the 
+
+user’s attention, like icons. But mostly I expect people to perceive the system as a 
+
+reliable tool for enhancing the processes. Also the round elements prevail in the UI 
+
+to demonstrate the credibility of the service with a modernized style, as most of the 
+
+such systems are poorly designed and sometimes difficult to get used to, especially 
+
+for the younger or elderly specialists. I came up with the name LowWater as a part 
+
+of alliteration with double double w letter, referencing the purpose of the low-code 
+
+platform for water management.  
+
+To  begin  with  the  UIs,  I  started  with  the  basic  models  of  signing  up  and 
+
+registration,  where  users  are  initially  entering  the  LCDP  or  logging  again.  The 
+
+principle  is  similar  to  most  of  the  web  and  mobile  applications  with the standard 
+
+registration procedure (Figure 34).  
+
+60 
+
+ 
+ 
+Figure 34. LCDP UI Prototype. Authorization process (created via Visily). 
+
+The  next  stage  is  adding  the  farm.  If  a  user  is  new,  they  will  have  not 
+
+registered,  so  the  system  will  firstly  suggest  doing  so.  By  clicking  the  “+ADD 
+
+FARM”  button  it  is  possible  to  enter  the  details  of  the  land  with  its  geoposition, 
+
+including address with a country, city and zipcode. The location might be adjusted 
+
+manually  on  the  map  via  the respective icon. When the farmers are created, users 
+
+could click on it to continue (Figure 35). 
+
+61 
+
+ 
+ 
+ 
+Figure 35. LCDP UI Prototype. Adding a farm (created via Visily). 
+
+The  LCDP  has  already  in-built  functions  which  let  farmers  to  achieve 
+
+automatization  through  the  instruments  and  mechanisms  I  will  describe  further. 
+
+However, if a farmer wants to modernize the solution and customize it, to make it 
+
+more  suitable  for  their  enterprise,  the developing section is devoted to the system 
+
+additions.  The  system  could  be added only to the previously outlined farm. There 
+
+are  three  available  instrument  sets.  The  first  is  integration,  where  the  sensors, 
+
+weather  API  and  other  hardware  is  connected  to  the  system.  The  connection  is 
+
+done wirelessly by the integrator, a development specialist.  
+
+62 
+
+ 
+ 
+ 
+When  the  integrations  are  made,  it  is  possible  to  tune  the  elements of the 
+
+final  interfaces  on  the  Models  section.  There  the  model  is  created  with  separate 
+
+elements of the solution like tables, widgets as titles, graphs, buttons, filters. All of 
+
+them  might  be  manually  set  according  to  the personal needs. The elements might 
+
+be created there with the simple building tool set. Like demonstrated on the UI, the 
+
+dashboard  Sensors  data  is  a  table  with  various  columns  and  rows,  where  some 
+
+values  are  placed.  For  example,  in  the  table  rows  might be included or not in the 
+
+final  system.  If  necessary,  the  section  coding  is  presented  to  additionally  fix  the 
+
+table in a specific way. I assume the user could change the colour or word print by 
+
+the  clickable  elements.  However,  via  the  coding  it  is  possible  to  change  these 
+
+visual elements as well.  
+
+Finally,  the  developing  interface  might  be  performed  in  the  respective 
+
+section,  where  the  user  could  add  or  delete  the  prebuilt  in  the  model  section 
+
+elements  (tables, graphs, buttons). The tools are helpful to shape the interface and 
+
+how it would look for the final users (Figure 36).  
+
+63 
+
+ 
+ 
+64 
+
+ 
+ 
+ 
+Figure 36. LCDP UI Prototype. System adjusting (created via Visily). 
+
+When  the  farm  is  created,  the  user  may see the home page as the primary 
+
+UI.  There  are  notifications  on  the  top  of  the  screen  with  the  farm  and  data 
+
+regarding  it.  There  are  some  statistics,  presented  in  the  short  form,  like  active 
+
+schedule, irrigation status and water used. To see more details the user should look 
+
+for  the  specific  field  or  the  schedule  via  clicking  on the respective elements. The 
+
+fields  are  shown  as  the  separate  block  with  name  and  the  specific  product  being 
+
+grown on (Figure 37).  
+
+Figure 37. LCDP UI Prototype. Farm data (created via Visily). 
+
+65 
+
+ 
+ 
+ 
+On  the  previous  page  the  fields  could  be  clicked,  and  the  action  will 
+
+redirect users to the Field UI. The Field interface is more insightful. Now only the 
+
+schedules  of  this  field  are  being  shown  on  the  bottom  of  the page. And there are 
+
+four  main  elements,  IoT  sensors,  weather  API,  and  hardwares,  actuators  and 
+
+controllers.  The  sensor  data  block  is  the  largest  there  as  most  of  the  valuable 
+
+information  is  delivered  through  the  IoT  sensors  inside  the  soil.  The  data  on  the 
+
+screen  is  basically  soil  state,  moisture,  temperature,  air  humidity and temperature 
+
+as well, evaporation level and suggested need in irrigation, based on the rates. And 
+
+the latest update is presented to ensure the relevance of the values. 
+
+On the left there is a small dashboard with the weather and precipitation of 
+
+a  few  past  days,  today  and  a  few next days. The user could track the temperature 
+
+and  suppose the future scheduling with some actions to undertake, prognosing the 
+
+processes,  while  the system will take this data to execute its own calculations and 
+
+make justified suggestions.  
+
+Lastly, the hardware which is previously integrated and linked to the farm’s 
+
+specific field, demonstrates the data about their work and condition, so in the case 
+
+if  something  goes  wrong,  the  user  would  know  to  which  hardware  the  possible 
+
+malfunction might be related to (Figure 38).  
+
+Figure 38. LCDP UI Prototype. Fields data (created via Visily). 
+
+66 
+
+ 
+ 
+The profile section is kinda standardized. The section could be accessed via 
+
+clicking on the avatar in the top right corner or the PROFILE on the left menu. The 
+
+user  could  edit  their  photo,  name,  email,  phone  number,  position  and  add  some 
+
+additional  information  if  necessary.  The  changes  will  be  saved  with  the  button 
+
+“Save profile” (Figure 39).  
+
+Figure 39. LCDP UI Prototype. Profile (created via Visily). 
+
+The Schedules interface might be accessed through the menu on the left or 
+
+if it appears on another UI. The all schedules on the farm are listed with its name, 
+
+the  field  the  schedule  was  executed,  created  date  and  the  creator.  They  may  be 
+
+filtered  and  the  data  regarding  them  may  be  checked.  Via  the  functional  person 
+
+could create a specific schedule, choosing a field and area with the data. Crop will 
+
+emerge  automatically.  Based  on  the  soil  state  the  system  could  automatically 
+
+suggest  start  and  end  date  and  hardware,  actuators  and  controllers,  for  the  most 
+
+optimal choice. However, users are capable of correcting the details. After adding a 
+
+new  schedule,  the  process  will  start  automatically,  sending  a  notification  (Figure 
+
+40).  
+
+67 
+
+ 
+ 
+Figure 40. LCDP UI Prototype. Scheduling process (created via Visily). 
+
+The Notifications interface could be accessed through the menu on the left 
+
+or  the  bell  icon  on  the  top  right  corner,  left  from  the  profile  icon.  All  the 
+
+notifications  are  demonstrated  regarding  the  user  addition,  schedule  creation  and 
+
+completion  and  report  emerging.  The  new  objects  are  clickable  and  route  to  the 
+
+respective element (Figure 41).   
+
+68 
+
+ 
+ 
+ 
+Figure 41. LCDP UI Prototype. Notifications (created via Visily). 
+
+The  Report  section  is  essential  for  the  user  to  see  the  results  of  the 
+
+irrigation  and  have  data  for  the  further  actions.  Moreover,  these  results  are  also 
+
+utilized by the system, expanding its database and enhancing in-built analytics. The 
+
+interface  is  similar  to  the  scheduling  one  as  the  report  is  directly  linked  to it and 
+
+formed based on this exact process. I suppose the report page will comprehend the 
+
+data  about  the  irrigation  itself,  which  data  was  filled  when  creating the schedule, 
+
+and  the  graphical  representation  of  numbers.  For  instance,  statistics  on  the  water 
+
+usage  predictions and actual use throughout the hours of irrigation. Also the work 
+
+of  hardware,  which  were  used  the  most  and  hence,  which  are  the  most  effective 
+
+zones to place them. Sensors, weather, actuators and controllers data for the certain 
+
+irrigation is available as well.  
+
+It  is  possible  to  export  the  report  created  in  PDF  format  to  document  the 
+
+results and use it as the official statement. To do so the button export is available at 
+
+the top right corner (Figure 42). 
+
+69 
+
+ 
+ 
+Figure 42. LCDP UI Prototype. Report (created via Visily). 
+
+3.3. COST ESTIMATION AND ECONOMIC EFFECT 
+
+Cost estimation is the final step of my research, where I need to assess the 
+
+financial model of the future LCDP. Even though in the thesis I primarily focus on 
+
+the  investigation  of  the  LCNC  phenomenon  and  its  integration  in  the  agriculture 
+
+industry,  I  need  to  realistically  suppose  the  technology  to  be  possibly  developed 
+
+and deployed in terms of today's world and situation in Russia, helping to highlight 
+
+the  economic  feasibility.  I  do  believe  in  the  practical  value  of  my  research,  so  I 
+
+70 
+
+ 
+ 
+ 
+ 
+ 
+want  to  calculate  the  cost  of  the  development  itself  and  development  time  spent, 
+
+suggest the business model to monetize the solution and assess the outcome in the 
+
+form  of  the  Net  Project  Value  (NPV)  and  IRR  (Internal  Rate  of  Return)  to 
+
+understand the economic utility and technology perspectives.  
+
+So,  first  of  all  I  need  to  predict  the  development  cost.  There  are  several 
+
+sections,  which  include  different  parts  of  the  future  system.  The  hardware  stands 
+
+for  the  basic  smart  irrigation  details,  essential  for  every  alike  system.  However, 
+
+since  I  utilize the IoT sensors, the cost usually starts from $500 since they are the 
+
+up-to-date  sensors  of  the  new  generation.  I  took  $2,000  for  each  as  the  average. 
+
+The other hardware costs were retrieved from the paper, analysing the development 
+
+of the low-cost smart irrigation system (Di Gennaro S. F. et al., 2024).  
+
+The software components were the most difficult to calculate. For the ase I 
+
+chose  the  article on the Smart Irrigation Management system proposition with the 
+
+IoT  sensors  integrated  to  understand  which  parts  are  essential  to  include  when 
+
+developing a LCDP (Hamdoon W. et. al., 2023). The most costly element was the 
+
+platform  core  processes  development  itself,  costing  approximately  $8,000.  Other 
+
+important  services  were  clouds,  servers,  smart  irrigation  modules,  data  analytics 
+
+and dashboard and data protection, forming a total cost of $20,000 for the software 
+
+block.  I  decided  to  outline  the  deployment  as  a  separate  block  where  the  testing 
+
+and  primary support and maintenance were included.  
+
+Finally,  labor,  the  most  expensive  block.  I  estimated  the  development 
+
+period to be 8 months, and with the average salary on the market, it is roughly 65% 
+
+of  the  development  costs.  The  team  is  pretty  basic  for  the  information  system 
+
+development  process:  there  are  developers  with  different  areas  of  responsibilities 
+
+(e.  g.  backend,  frontend,  application,  engineer),  integration  specialist,  who  is 
+
+working with external services, agrotechnical specialist and UX/UI designer. 
+
+The total initial investment is $129,775 (Figure 43). 
+
+71 
+
+ 
+Figure 43. LCDP prototype development cost breakdown. 
+
+For  using 
+
+the  LCDP 
+
+technology 
+
+I  decided 
+
+to 
+
+introduce 
+
+the 
+
+subscription-based  business  model  which  provides  recurring  revenue,  increasing 
+
+with the number of users. There will be a fixed monthly payment for one enterprise 
+
+with  possibility  to  refuse from the subscription any time. This method is the most 
+
+suitable since the price will be affordable and could rise every 6 months since new 
+
+updates  and  upgrades  are  about  to  be  introduced.  In  the  first  years  there  will  be 
+
+small  improvements  and  bug  fixing.  These  costs  are  calculated  as  the  monthly 
+
+expenses  in  the  next  two  figures.  However,  after  raising  some  funds  the  more 
+
+sophisticated changes are going to be made.  
+
+I  assess the initial price to be $450 or roughly 35,760 rubles in May 2025, 
+
+with  gradual  increase  over  the  period  by  $50  (Figure  44).  The  calculations  are 
+
+based on the survey results in Chapter 2, where 35,000 rubles was considered to be 
+
+the  the  top  bar  of  the  minimum  price.  For  the  periods  the  months  were  taken  to 
+
+track  the  profit dynamics in more detail. Initially, only 31 businesses would adopt 
+
+the  LCDP  in  the  first  year.  But  with  the  steady  growth  the  number  is  going  to 
+
+increase.  
+
+72 
+
+ 
+ 
+Based  on  the  cash  flows,  the  time  when  accumulated  profit  will  cover all 
+
+the initial cost in the 15th month. The cash flow is calculated as the multiplication 
+
+of the enterprises and monthly subscription minus the expenses, which are about to 
+
+cover maintenance and small upgrades: 
+
+Cash flow per month = subscription per entity*number of entities - monthly 
+
+costs. 
+
+However,  according  to  the  key  financial  indicators,  the  project  would  not 
+
+pay  off.  Key  financial  indicators  I was assessing were NPV and IRR. Taking into 
+
+account  this  cash  flows  with  average  discount  rate  of  10%,  the  NPV  was 
+
+calculated, using the following formula: 
+
+NPV = Σ (Net Cash flow / (1 + r)^t) - Initial Investment. 
+
+And on the 15th month, presented on the table in Figure 44, the NPV is still 
+
+negative and IRR is a little more than 0% (0.35%). 
+
+Figure 44. Subscription business model breakdown over 16 months. 
+
+Going further, I extended the period up to 30 months or 2.5 years. The cost 
+
+is  about  to  gradually go up with more Russian agricultural SMEs getting to know 
+
+the  LCDP  and  joining  utilizing  the  system.I  expect  the  price  to  rise  by  $50  each 
+
+half  a  year.  And  after 24 months or 2 years there will be an increase by $100 as I 
+
+expect  to  expand  costs  on  the  technology  for  the  more  rapid  support  and 
+
+maintenance.  
+
+And  only  on  the  30th  month  after  2.5  years  with  a  monthly  subscription, 
+
+accounted for $700 and around 127 users per month, the project is going to pay off 
+
+73 
+
+ 
+ 
+with  NPV  and  IRR  being  $738.07  and  10%,  respectively  (Figure  45).  So,  it  is  a 
+
+minimum timeframe to achieve consistency.  
+
+Since it is a B2B system, I assume these numbers to be justified and could 
+
+predict the enhanced financial values in the long run if the dynamics remains.  
+
+Figure 45. Subscription business model breakdown over 30 months. 
+
+Finally,  to  assess the economic effect and suppose why the platform could 
+
+genuinely help SMEs to decrease associated costs, I decided to calculate the losses 
+
+from  the  average Russian company, who are growing carrots in the European part 
+
+of  Russia  with  mild  climate.  Starting with the salary, the average money a farmer 
+
+gets in the agricultural sector was 52,600 rubles per month or $650 in 2023 (Yakov 
+
+&  Partners,  2024).  According  to  the  survey  results,  shown  in  Chapter  2,  the 
+
+majority of respondents were presenting the 16-50 workers size of the company, so 
+
+I took approximately 20 workers as the operational one which could be reduced by 
+
+20%. And the year savings are estimated up to $31,200, if leading the hypothesis 1. 
+
+The  same  logic  for  the  water  costs.  The  price  in  the  European  region  is  roughly 
+
+20-50  rubles  per  m^3,  or  40  cents  on  average.  The  carrots  demand  3000  m^3  of 
+
+water  irrigated  per  hectare  in  one  season,  which  is  6-7  months  (YUGPOLIV, 
+
+74 
+
+ 
+ 
+2023).  The  average size of the yield for the SME is 200 hectares but I decided on 
+
+100  since  the  bigger  yields  are still in the South, and in the European region they 
+
+are smaller (RussianFarmland, 2023). Nevertheless, water savings are predicted to 
+
+be up to $36,000 in accordance with hypothesis 1 (Figure 46).  
+
+Figure 46. Possible savings of water and labour resources. 
+
+These  numbers  are  calculated  to  be  in  the  long-run,  not  as  immediate 
+
+results. And obviously adapting some piece of technology is not a guarantee for the 
+
+cost  saving  and  efficiency  increase.  However,  this  approach  could  benefit  the 
+
+enterprise  if  wisely  implemented  possibilities  of  the  LCDP,  adjusting  the 
+
+instrument set specifically for the company needs.  
+
+75 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CONCLUSION 
+
+To  conclude  my  research,  I  could  state  that  my  initial  research  aim  was 
+
+achieved:  I  developed  the  prototype  of  the  low-code  development  platform  or 
+
+LCDP  as  the  digital  approach  to the water irrigation management and monitoring 
+
+system for Russian agricultural small and medium enterprises (SMEs). 
+
+I had successfully completed the outlined tasks, set as my objectives. 
+
+First  and  foremost,  I  did  literature research to investigate the technology I 
+
+wanted  to  implement  and  the  industry,  both  in  the  global  context  and in terms of 
+
+the  situation  in  Russia.  I  learnt  about  the  phenomenon  of  promising  low-code 
+
+technology,  specifically  the  LCDP,  as  the  efficient  approach  for  software 
+
+development to enhance the water irrigation management in Russian agriculture. I 
+
+outlined  its  key  characteristics,  understanding  possible  benefits  and  drawbacks. 
+
+The  analysis  proved  the  efficiency  of  the  solution  in  terms  of  reducing  time  and 
+
+associated  costs,  which  could  be  utilized even by the non-technical specialists, so 
+
+the adoption rate is about to be higher.  
+
+The  agricultural  industry  was  chosen  as  one  of  the  least  digitized  sectors 
+
+globally.  I  found  out  that  emerging  threats  in  the  environment  are  linked  to  the 
+
+soon  water  shortage,  and  there  are  many opportunities for different sized farming 
+
+businesses  to  develop  in  the  digital  vector,  accepting  new  efficient  solutions.  I 
+
+observed the current global and national situation, common trends and perspectives 
+
+of  the  LCDP  introduction  in  the  respective  sector,  focusing  on  the  small  and 
+
+medium  companies.  Overall,  I  assessed  the  good  possibility  of  the  proposed 
+
+technology adoption in Russian agriculture by SMEs.  
+
+I reviewed the existing solutions in agriculture, mostly the U. S. origin one, 
+
+since this country is more technologically advanced in the sector and concluded the 
+
+key metrics in one single table, which comprehend the competitors. It was helpful 
+
+to  observe  the  already  implemented  solution  with  similar  instrument  sets  and 
+
+assess  their  efficiency.  Moreover,  Russian  technologies  were  observed  and 
+
+technological gaps were identified since there are no smart irrigation systems with 
+
+76 
+
+ 
+ 
+the  fast  and  cheap  solution  delivery  which  could  be  achieved  via  the  LCNC 
+
+designation. 
+
+With  acquired  knowledge  I  could  prepare for primary data gathering from 
+
+semi-structured  interviews  with  industry  specialists  as  a  qualitative  study.  4 
+
+specialists  were  interviewed  from  different  parts  of  Russia  with  various  crops 
+
+growing.  After  collection  the  results  were  coded  and  analysed  to  point  out major 
+
+farmer’s issues and ideas. Deductive and inductive coding were applied, and then I 
+
+identified  5  topics  via  the  thematic  analysis.  Farmers  are  already  using  some 
+
+practices to increase efficiency but they are also eager to adopt more technologies. 
+
+Still,  the  issues  may  be  linked to the moderate acknowledgement of the low-code 
+
+as  the  software  building  tool.  Nevertheless,  the  interest  is  present  in  the  flexible 
+
+solutions,  developed internally. In terms of this objective also outlined hypotheses 
+
+based on the data available.  
+
+I  conducted  a  survey  as  well  as  a quantitative study. I had 5 sections with 
+
+one  Reference  for  explaining  the  solution  itself.  I  identified  the  portfolio  of  the 
+
+respondents  and  their  attitude  towards  technology. It was the TAM framework, in 
+
+which  elements  were  utilized  to  create  section  3  and  section  4,  as opinion on the 
+
+technology  usefulness  and  simplicity,  respectively.  Also  I  asked  about  the  price 
+
+expectation  of  the  LCDP.  As  for  the  results,  people  were mostly open to the new 
+
+possibilities to adopt a profound platform, seeing the benefits of it. The main issue 
+
+still  remains  low  acknowledgement  of  the  technology,  especially  among  older 
+
+farmers.  
+
+Eventually, I took all the gathered information and utilized it when building 
+
+the  architecture  of  the  LCDP,  emphasizing  system  features  and  capabilities.  I 
+
+designed  a  use  case  diagram,  activity  diagram,  class  diagram,  BPMN  and  built  a 
+
+clickable user interfaces UI.  
+
+Last  but  not  least,  I  estimated  the  Initial  investment  and  economic  effect 
+
+with  key  financial  indicators.  I  suppose  the  full  development  cost  will  be  about 
+
+$129,775.  The  system  will  be  available  via  the  subscription-based  monthly 
+
+payments  of  $450  with  price  increasing  steadily  of  $50  over  time  (every  half  a 
+
+77 
+
+ 
+year) due to the improvements that are going to be made. Overall, the cash flow is 
+
+going  to  cover  the  initial  investment  after  15  months  of  implementation,  but 
+
+assuming the NPV to be positive, the value will be more than 0 after 30 months or 
+
+2.5 years with 10% IRR. Since the average yearly savings on the water is estimated 
+
+to  be  $31,200  and  on  labour  is  $36,000.  Even  assuming  the  minimum  price,  the 
+
+subscription on the platform will benefit the farmers in the cost equivalent.  
+
+Stating  my  limitations,  I  had  three  of  them:  availability  of  the  suitable 
+
+professionals, resources and Russian market. The first is that only 4 people agreed 
+
+to  be  interviewed.  The  problem  was  that  not  so  many  people  I  reached  had 
+
+irrigation  systems  or  were  aware  of  the  operational  processes  and  company 
+
+numbers.  And  since  I  was  developing  a  B2B  solution,  the qualified population is 
+
+more  restricted,  that  is  why  in  the  quantitative  solution  the  sample  is  relatively 
+
+small.  As  for  the  second,  I  thought  about  the  actual  development  and  testing  it. 
+
+Unfortunately,  I  did  not  have  enough  resources  like  money  and sufficient time to 
+
+fully realise the idea. Instead, I focused on the architecture design and the project. 
+
+Finally,  the  system  is  applied  specifically  for  the  Russian  market  or  similar 
+
+countries with sanctions imposed, for instance, like Belarus. 
+
+Overall, the topic could be investigated further in the deployment direction, 
+
+where  the  actual  IT-solution  may  contribute  to  the  efficient  resource  usage  and 
+
+digitalization  of  agriculture.  The  research  could  be  a  base  for  the  more  profound 
+
+solution,  developed  by  the  actual  professionals  in  the  LCDP.  Thus,  the  practical 
+
+novelty of the study is proved, as it includes the potential to decrease water waste, 
+
+enhance  efficient  usage  and  decrease  cost  production  for  the  enterprises, 
+
+contributing to the national technological development.  
+
+78 
+
+ 
+ 
+REFERENCES 
+
+1.  Alsaadi  H.  A.  et  al.  Factors  that  affect  the  utilization  of  low-code 
+
+development  platforms:  survey  study 
+
+//Romanian  Journal  of  Information 
+
+Technology & Automatic Control/Revista Română de Informatică și Automatică. – 
+
+2021. – Т. 31. – №. 3.  
+
+2.  Amoussouhoui  R.  et  al.  Adoption  of  ICT4D  and  its  determinants:  A 
+
+systematic review and meta-analysis //Heliyon. – 2024. – Т. 10. – №. 9. 
+
+3.  Askaraliev  B.  et  al.  Development  of  modern  irrigation  systems  for 
+
+improving  efficiency,  reducing  water  consumption  and 
+
+increasing  yields 
+
+//Machinery & Energetics. – 2024. – Т. 15. – №. 3. 
+
+4.  Bang  J., Han J. W. Factors Influencing Farmers' Motivation to Adopt 
+
+Smart  Farm  Technology  in  South  Korea  //arXiv  preprint  arXiv:2504.01795.  – 
+
+2025. 
+
+5.  Beksultanova  A.  I.,  Dzhankhotova  P.  M., Nosyreva A. N. The use of 
+
+digital  technologies  in  agriculture  in  Russia  //BIO  Web  of  Conferences.  –  EDP 
+
+Sciences, 2023. – Т. 71. – С. 01010. 
+
+6.  Bank of Finland Institute for Emerging Economies (BOFIT). Russia’s 
+
+2024  grain  harvest  falls  below  expectations  [Electronic  resource].  2025.  URL: 
+
+https://www.bofit.fi/en/monitoring/weekly/2025/vw202501_1  
+
+7.  Bootstrapped. Cut Costs and Save Time: Transform Agriculture Farm 
+
+Records 
+
+into 
+
+Digital  Workflows 
+
+[Electronic 
+
+resource]. 
+
+URL: 
+
+https://bootstrapped.app/usecase/cut-costs-and-save-time-transform-agriculture-far
+
+m-records-into-digital-workflows 
+
+8.  Champness M. et al. Evaluating the performance and opportunity cost 
+
+of  a  smart-sensed  automated  irrigation  system  for water-saving rice cultivation in 
+
+temperate Australia //Agriculture. – 2023. – Т. 13. – №. 4. – С. 903. 
+
+9.  Cleary,  E.  Digital  Agriculture  Technology  Adoption  &  Attitudes 
+
+Study. – 2019. 
+
+79 
+
+ 
+ 
+10.  CodeEpsilon.  The  Influence  of  Low-Code/No-Code  Platforms  on 
+
+Application 
+
+Development 
+
+[Electronic 
+
+resource]. 
+
+2023. 
+
+URL: 
+
+https://www.codeepsilon.com/the-influence-of-low-code-no-code-platforms-on-ap
+
+plication-development/ 
+
+11.  de  Souza  A.  C.  M.  et  al.  IT Talent Shortage: Strategies to Mitigate a 
+
+Blackout //Simpósio Brasileiro de Engenharia de Software (SBES). – SBC, 2024. – 
+
+С. 499-509. 
+
+12.  Di  Gennaro  S.  F.  et  al.  Development  of  a  low-cost  smart  irrigation 
+
+system  for  Sustainable  Water  Management  in  the  Mediterranean  Region  //Smart 
+
+Agricultural Technology. – 2024. – Т. 9. – С. 100629. 
+
+13.  Diniz W. et al. The Skill Gap in Software Industry: A Mapping Study 
+
+//Simpósio  Brasileiro  de  Engenharia  de  Software  (SBES).  –  SBC,  2024.  –  С. 
+
+192-200.  
+
+14.  Down to Earth. Demand for fresh water to be 40% higher than supply 
+
+by  end  of  decade  –  UNGA  president  [Electronic  resource].  2023.  URL: 
+
+https://www.downtoearth.org.in/water/demand-for-fresh-water-to-be-40-higher-tha
+
+n-supply-by-end-of-decade-unga-president-87983  
+
+15.  Dudin  M.  N.,  Lyasnikov  N.  V.  Problems  and  prospects  for  the 
+
+development  of  peasant  (farmer)  farms  in  the  Russian  agro-industrial  complex  // 
+
+Food Policy and Security. - 2022. - Т. 9. - №. 2. - С. 153-162. 
+
+16.  FAS  USDA.  Production  Data:  Russia  [Electronic  resource].  URL: 
+
+https://www.fas.usda.gov/data/production/country/rs  
+
+17.  Forrester.  The  low-code  market  could  approach  $50  billion  by  2028 
+
+[Electronic 
+
+resource]. 
+
+2024. 
+
+URL: 
+
+https://www.forrester.com/blogs/the-low-code-market-could-approach-50-billion-b
+
+y-2028/  
+
+18.  Giagnocavo  C.  et  al.  A  multi-stakeholder  perspective  on  the  use  of 
+
+digital  technologies  in  European  organic  and  agroecological  farming  systems 
+
+//Technology in Society. – 2025. – Т. 81. – С. 102763.  
+
+80 
+
+ 
+19.  Global  Commission  on  the Economics of Water. Turning the Tide: A 
+
+Call 
+
+to 
+
+Collective  Action 
+
+[Electronic 
+
+resource]. 
+
+2023.  URL: 
+
+https://watercommission.org/wp-content/uploads/2023/03/Turning-the-Tide-Report
+
+-Web.pdf  
+
+20.  Guresci  E.  et  al.  Feasibility  of  Low-Code  Development  Platforms  in 
+
+Precision  Agriculture:  Opportunities,  Challenges,  and  Future  Directions //Land. – 
+
+2024. – Т. 13. – №. 11. – С. 1758. 
+
+21.  Hamdoon  W.,  Zengin  A.  A  new  IoT-based  smart 
+
+irrigation 
+
+management system //Middle East Journal of Science. – 2023. – Т. 9. – №. 1. – С. 
+
+42-56. 
+
+22.  Higher  School  of  Economics  Institute  for  Statistical  Studies  and 
+
+Economics  of  Knowledge  (HSE  ISSEK).  News  Item  [Electronic  resource]. 2024. 
+
+URL: https://issek.hse.ru/en/news/490486268.html  
+
+23.  Kenneweg  B.  et  al.  Building  Low-Code  Applications  with  Mendix: 
+
+Discover  best  practices  and  expert  techniques  to  simplify  enterprise  web 
+
+development. – Packt Publishing Ltd, 2021.  
+
+24.  Lebens  M.  et  al.  Rise  of  the  citizen  developer  //Muma  Business 
+
+Review. – 2021. – Т. 5. – №. 12. – С. 101-111. 
+
+25.  Lieberman  H.  et  al.  End-user  development:  An  emerging  paradigm 
+
+//End user development. – Dordrecht : Springer Netherlands, 2006. – С. 1-8. 
+
+26.  Mad  Devs.  Low-Code  vs  Traditional  Development:  Which  One  to 
+
+Choose? 
+
+2024. 
+
+[Electronic 
+
+resource]. 
+
+URL: 
+
+https://maddevs.io/blog/low-code-with-traditional-development/  
+
+27.  McFadden  J.,  Casalini  F.,  Antón  J.  Policies  to  bolster  trust  in 
+
+agricultural digitalisation: issues note. – 2022.  
+
+28.  McKinsey  &  Company.  Global  farmer  insights  2024  [Electronic 
+
+resource]. 
+
+2024. 
+
+URL: 
+
+https://www.mckinsey.com/industries/agriculture/our-insights/global-farmer-insigh
+
+ts-2024  
+
+81 
+
+ 
+29.  McKinsey  &  Company.  McKinsey  Technology Trends Outlook 2022 
+
+[Electronic 
+
+resource].  McKinsey  &  Company 
+
+report. 
+
+2022.  URL: 
+
+https://www.mckinsey.com/~/media/mckinsey/business%20functions/mckinsey%2
+
+0digital/our%20insights/the%20top%20trends%20in%20tech%202022/mckinsey-t
+
+ech-trends-outlook-2022-full-report.pdf 
+
+30.  McKinsey  &  Company.  McKinsey  Technology Trends Outlook 2024 
+
+[Electronic 
+
+resource].  McKinsey  &  Company 
+
+report. 
+
+2024.  URL: 
+
+https://www.mckinsey.com/~/media/mckinsey/business%20functions/mckinsey%2
+
+0digital/our%20insights/the%20top%20trends%20in%20tech%202024/mckinsey-t
+
+echnology-trends-outlook-2024.pdf 
+
+31.  Microsoft.  Low-code  signals  2023 [Electronic resource]. 2023. URL: 
+
+https://www.microsoft.com/en-us/power-platform/blog/2023/04/13/low-code-signa
+
+ls-2023/  
+
+32.  Miine,  L.K.,  Akorsu,  A.D.,  Boampong,  O.,  Bukari,  S.  Drivers  and 
+
+intensity  of  adoption  of  digital  agricultural  services  by  smallholder  farmers  in 
+
+Ghana // Heliyon. – 2023. – Vol. 9, No. 12. – Article e23023. 
+
+33.  Parimi  S.  K.  K.  Impact  of  Low-Code/No-Code  Platforms  //Authorea 
+
+Preprints. – 2025. 
+
+34.  PolivTorg.  Preimushchestva 
+
+ispolzovaniya 
+
+tekhnologiy  sistemy 
+
+SmartMole’s  [Benefits  of  using  SmartMole's  system  technologies]  [Electronic 
+
+resource]. 
+
+2024. 
+
+URL: 
+
+https://polivtorg.ru/company_services/preimushchestva-ispolzovaniya-tekhnologiy
+
+-sistemy-smartmole-s/  
+
+35.  RBC.  Digital  livestock  farmer:  how  information  technology  is 
+
+changing 
+
+the 
+
+agro-industry 
+
+[Electronic 
+
+resource]. 
+
+2024. 
+
+URL: 
+
+https://www.rbc.ru/industries/news/675c3af29a79471b3e2a5de1  
+
+36.  RBC  Kavkaz.  Article 
+
+[Electronic 
+
+resource].  2024.  URL: 
+
+https://kavkaz.rbc.ru/kavkaz/13/11/2024/673468339a79478c6457f6ae  
+
+37.  Rotz  S.  et  al.  The  politics  of  digital  agricultural  technologies:  a 
+
+preliminary review //Sociologia ruralis. – 2019. – Т. 59. – №. 2. – С. 203-229. 
+
+82 
+
+ 
+38.  Russian-Farmland.com.  What  is  the  average  farm  size  in  Russia? 
+
+[Electronic 
+
+resource]. 
+
+Informational 
+
+article. 
+
+2023. 
+
+URL: 
+
+https://russian-farmland.com/what-is-the-average-farm-size-in-russia.html 
+
+39.  Smart Irrigation Georgia. Smart irrigation [Electronic resource]. URL: 
+
+https://www.smartirrigationgeorgia.com/ 
+
+40.  Smartrain.  Award-Winning  Smart  Irrigation  |  Smart  Rain  [Electronic 
+
+resource]. URL: https://smartrain.net/ 
+
+41.  Tadabase. What Is Citizen Development? [Electronic resource]. URL: 
+
+https://tadabase.io/blog/what-is-citizen-development 
+
+42.  TAdviser. Project: Russian Ministry of Agriculture (National Platform 
+
+for 
+
+Digital 
+
+Agriculture) 
+
+[Electronic 
+
+resource]. 
+
+URL: 
+
+https://www.tadviser.ru/index.php/Проект:Минсельхоз_России_%28Нацплатфо
+
+рма_Цифровое_сельское_хозяйство%29  
+
+43.  The Washington Post. Deere, Caterpillar Exit Leaves Ukraine Farmers 
+
+Facing 
+
+Food 
+
+Crisis 
+
+[Electronic 
+
+resource]. 
+
+2022. 
+
+URL: 
+
+https://www.washingtonpost.com/world/2022/03/14/deere-caterpillar-ukraine-russi
+
+a-agriculture-food-crisis/  
+
+44.  UNESCO.  UN  World  Water  Development  Report  2024  [Electronic 
+
+resource]. 
+
+2024. 
+
+URL: 
+
+https://www.unwater.org/publications/un-world-water-development-report-2024  
+
+45.  Upadhyaya  N.  Low-Code/No-Code  Platforms  and  Their  Impact  on 
+
+Traditional Software Development: A Literature Review //No-Code Platforms and 
+
+Their  Impact  on  Traditional  Software  Development:  A  Literature Review (March 
+
+21, 2023). – 2023. 
+
+46.  Vantiq. [Electronic resource]. URL: https://vantiq.com/  
+
+47.  Vera  C.  G.  M.  et  al.  Low/No-code  development  platforms  and  the 
+
+future of software developers //Minerva. – 2022. – Т. 1. – №. Special. – С. 21-33. 
+
+48.  Walter  A.  et  al.  Smart  farming  is  key  to  developing  sustainable 
+
+agriculture //Proceedings of the National Academy of Sciences. – 2017. – Т. 114. – 
+
+№. 24. – С. 6148-6150. 
+
+83 
+
+ 
+49.  Wiseman L. et al. Farmers and their data: An examination of farmers’ 
+
+reluctance to share their data through the lens of the laws impacting smart farming 
+
+//NJAS-Wageningen Journal of Life Sciences. – 2019. – Т. 90. – С. 100301. 
+
+50.  Wolfert  S.  et  al.  Big  data  in  smart  farming–a  review  //Agricultural 
+
+systems. – 2017. – Т. 153. – С. 69-80.  
+
+51.  WRI.  One-Quarter  of  World’s  Crops  Threatened  by  Water  Risks 
+
+[Electronic 
+
+resource]. 
+
+2024. 
+
+URL: 
+
+https://www.wri.org/insights/growing-water-risks-food-crops  
+
+52.  Yakov  &  Partners.  Digitalizing  Russia’s  agricultural  sector: 
+
+Challenges 
+
+and 
+
+solutions 
+
+[Electronic 
+
+resource]. 
+
+2023. 
+
+URL: 
+
+https://yakov.partners/upload/iblock/ed7/qj36pzjul41x0j241l3qdzb6mgr034g8/Digi
+
+talizing-Russia_s-Agricultural-Sector-.pdf  
+
+53.  Yakov  &  Partners.  Window of Opportunity 2.0 [Electronic resource]. 
+
+2024. URL: https://yakovpartners.com/publications/okno-vozmozhnostey-2-0/  
+
+54.  YUGPOLIV.  Drip 
+
+irrigation  and  fertigation  –  main  elements 
+
+[Electronic 
+
+resource]. 
+
+2023. 
+
+URL: 
+
+https://yug-poliv.ru/ovoschi-2/kapelnoe-oroshenie-i-fertigaciya-osn/  
+
+55.  Zia H. et al. An experimental comparison of IoT-based and traditional 
+
+irrigation scheduling on a flood-irrigated subtropical lemon farm //Sensors. – 2021. 
+
+– Т. 21. – №. 12. – С. 4175. 
+
+84 
+
+ 
+ 
+ 
+APPENDIX 
+
+APPENDIX 1. INTERVIEW TRANSCRIPT 
+
+1.  Introduction 
+
+Good afternoon! My name is Kseniia, I am a 4th year student of the Digital 
+
+and Management Innovation program at the National Research University “Higher 
+
+School  of  Economics”.  I  am  currently  writing  a  thesis  on  the  topic  “Low-Code 
+
+Development  Platform  Prototype  Development  for  Irrigation  Management  in 
+
+Russian  Agriculture”.  As part of the thesis, I am conducting a qualitative study to 
+
+assess  the  water  resource  use  efficiency  of  small and medium-sized businesses in 
+
+the  Russian  agricultural  industry  and  the  actual  application  of  practices  for 
+
+optimization.  
+
+Can  I  record  the  material  I  received  during  our  conversation to use in my 
+
+final paper? Your personal data will be anonymized.  
+
+Could you tell me how I can refer to you?  
+
+2.  Respondents profiling 
+
+Are you an individual or a representative of a company?  
+
+If  a  company  representative:  Is your business classified as small/medium? 
+
+Why? How many employees does the company have? 
+
+What is your position and what do you do? Where? 
+
+3.  Resource fund 
+
+Question about resources: what is your cost/resource fund (percentage % of 
+
+total costs purely for the operational expenses)? 
+
+Which  percentage  of  your  total  costs  do  you  spend  specifically  on  water 
+
+irrigation?  
+
+Is this value optimal?  
+
+85 
+
+ 
+ 
+ 
+ 
+ 
+ 
+4.  Water optimization practices and efficiency evaluation 
+
+Have you ever applied any methods to optimize water costs?  
+
+If  yes,  what  practices  or  technologies  have  you  used  to  optimize  water 
+
+usage and, hence, costs?  
+
+If yes, are these practices or technologies effective?  
+
+If  yes,  is  there  monetary  or  percentage  data  which  could  demonstrate  the 
+
+solution  effectiveness? If yes, provide examples of the results when implementing 
+
+the practices (e.g. cost reduction/increased yields). 
+
+5.  Perspective on the new practices introduction 
+
+Would you like to improve water use efficiency? 
+
+Have  you  thought  of  using  IT  or  digital  solutions  for  water  use 
+
+optimization?  
+
+Are you willing to use IT or digital solutions for water use optimization?  
+
+If yes or already using, what is the main reason why you are willing to use 
+
+or are willing to use IT or digital solutions for water optimization? 
+
+What  could  be  or  are  the  barriers  and  constraints  that  prevent  you  from 
+
+adopting new technologies?  
+
+6.  Low-code in agriculture 
+
+Have you heard of low-code technology?  
+
+-  Low-code  is  a  technology  for developing a digital solution with minimal 
+
+use  of  classical  programming  and  coding.  Instead  of  the  traditional  approach, 
+
+visually clear elements, blocks and buttons on the interface are used, which can be 
+
+interacted with by a user who does not have deep knowledge of programming.  
+
+Do  you  know  some  examples  of  low-code  technology  implementation  or 
+
+adoption in the agricultural sector?  
+
+If yes, provide and briefly describe specific examples of its integration.  
+
+I  propose  to  develop  a  low-code  development  platform  or  LCDP  to  meet 
+
+the needs of the Russian agricultural industry. The platform will be used mainly for 
+
+86 
+
+ 
+ 
+ 
+digitalization  of  water  irrigation  systems.  A  smart  irrigation  management  and 
+
+monitoring system for Russian farmers and SMEs will allow more efficient use of 
+
+water and other resources in the possible future. What functions would you like to 
+
+see in the water irrigation management and monitoring system?  
+
+Thank  you  for  your  answers!  It  will  help  me  a  lot  in  my  research  and 
+
+facilitate  the  introduction of digital technologies in the agricultural industry in the 
+
+near future. 
+
+87 
+
+ 
+ 
+ 
+APPENDIX 2. SURVEY TRANSCRIPT 
+
+Section 0. Introduction 
+
+Good afternoon!  
+
+My  name  is  Kseniia,  I  am  a  4th  year  student  of  the  Digital  and 
+
+Management  Innovation  program  at  the  National  Research  University  “Higher 
+
+School  of  Economics”.  I  am  currently  writing  a  thesis  on  the  topic  “Low-Code 
+
+Development  Platform  Prototype  Development  for  Irrigation  Management  in 
+
+Russian Agriculture”. As part of the thesis, I am conducting a quantitative study to 
+
+assess  the  water  resource  use  efficiency  of  small and medium-sized businesses in 
+
+the  Russian  agricultural  industry  and  the  actual  application  of  practices  for 
+
+optimization. Your personal data will be anonymized.  
+
+The survey consists of 4 sections. In the first one, it is required to answer 
+
+questions related to the area of employment. The second one contains questions 
+
+about the use of technologies to optimize processes. The third and fourth sections 
+
+are devoted to the usefulness and ease of use of the development.  
+
+The survey will take no more than 5 minutes of your time. Thank you! 
+
+Section 1. General sample characteristics and stakeholder profile  
+
+Your age? 
+
+-  under 18 
+
+-  18-24 
+
+-  25-34 
+
+-  35-44 
+
+-  45-64 
+
+-  over 65 
+
+Are you an individual or a company representative? 
+
+- 
+
+Individual/self-employed 
+
+-  Working in a small/medium enterprise 
+
+88 
+
+ 
+ 
+ 
+ 
+How many employees are there in the company? 
+
+-  5 or less 
+
+-  6-15 people 
+
+-  16-50 
+
+-  51-100 
+
+-  101 or more 
+
+What crops do you grow? 
+
+-  grains 
+
+-  vegetables 
+
+-  gardening (fruits and berries) 
+
+- 
+
+- 
+
+industrial crops 
+
+fodder crops 
+
+-  other 
+
+Section 2. Using technology for processes optimization 
+
+Are you using irrigation for crops watering? 
+
+-  yes 
+
+-  no 
+
+Do  you/the  company  use  any  devices/technologies/practices  to  optimize 
+
+processes? 
+
+-  yes 
+
+-  no 
+
+Would  you  like  to implement a more technologically advanced solution to 
+
+increase efficiency at a lower cost? 
+
+-  yes 
+
+-  no 
+
+89 
+
+ 
+ 
+ 
+ 
+ 
+ 
+Reference  Section.  Low-code  technology  for  irrigation  management 
+
+system development 
+
+Low-code  is  a  technology  for  developing  a  digital  solution  with  minimal 
+
+use  of  classical  programming  and  coding.  Instead  of  the  traditional  approach, 
+
+visually clear elements, blocks and buttons on the interface are used, which can be 
+
+interacted with by a user who does not have deep knowledge of programming.  
+
+I  propose  to  develop  a  low-code  development  platform  or  LCDP  to  meet 
+
+the needs of the Russian agricultural industry. The platform will be used mainly for 
+
+digitalization  of  water  irrigation  systems.  A  smart  irrigation  management  and 
+
+monitoring system for Russian farmers and SMEs will allow more efficient use of 
+
+water  and  other  resources  in  the  possible  future.  I  believe  it  would  reduce 
+
+associated costs, increase yields and diminish time to market, TTM (the time taken 
+
+by  the  technology  from  the  idea  design  to  actual  deployment  of  the  digital 
+
+solution).  
+
+Section 3. Technology usefulness 
+
+You  will  be  offered  statements  related  to  the  usefulness  of  the  future 
+
+platform  for  irrigation  digitalization.  Please  rate  how  much  you  agree  with  the 
+
+statements, where 1 - totally disagree, 5 - totally agree. 
+
+Use  of  technology  will  reduce  water  costs  (1  - totally disagree, 5 - totally 
+
+agree). 
+
+-  1 
+
+-  2 
+
+-  3 
+
+-  4 
+
+-  5 
+
+Use  of  technology will reduce labour costs (1 - totally disagree, 5 - totally 
+
+agree). 
+
+90 
+
+ 
+ 
+ 
+ 
+-  1 
+
+-  2 
+
+-  3 
+
+-  4 
+
+-  5 
+
+Use of technology will increase field yields (1 - totally disagree, 5 - totally 
+
+agree). 
+
+-  1 
+
+-  2 
+
+-  3 
+
+-  4 
+
+-  5 
+
+Use  of  technology  will  decrease  production  time  to  market  (TTM)  (1  - 
+
+totally disagree, 5 - totally agree). 
+
+-  1 
+
+-  2 
+
+-  3 
+
+-  4 
+
+-  5 
+
+Section 4. Technology ease of use 
+
+You  will  be  offered  statements  related  to  the  ease  of  use  of  the  future 
+
+platform  for  irrigation  digitalization.  Please  rate  how  much  you  agree  with  the 
+
+statements, where 1 - totally disagree, 5 - totally agree. 
+
+It  would  be  better  to  develop  the  information  system  internally  without 
+
+attracting third parties (1 - totally disagree, 5 - totally agree). 
+
+-  1 
+
+91 
+
+ 
+ 
+ 
+ 
+ 
+-  2 
+
+-  3 
+
+-  4 
+
+-  5 
+
+It would be easy for me to learn how to use a LCDP to create and adjust my 
+
+own digital solutions (1 - totally disagree, 5 - totally agree). 
+
+-  1 
+
+-  2 
+
+-  3 
+
+-  4 
+
+-  5 
+
+I  have  all  the  devices  needed  to  use  the technology: mobile phone, laptop 
+
+and/or computer (1 - totally disagree, 5 - totally agree). 
+
+-  1 
+
+-  2 
+
+-  3 
+
+-  4 
+
+-  5 
+
+Section 5. Financial part 
+
+How much are you ready to pay monthly for this technology (in rubbles)? 
+
+-  30 000 - 35 000 
+
+-  35 000 - 45 000 
+
+-  45 000 - 60 000 
+
+-  60 000 - 80 000 
+
+-  80 000 - 100 000 
+
+92 
+
+ 
+ 
+ 
+ 
+

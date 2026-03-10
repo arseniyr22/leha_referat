@@ -1,0 +1,7860 @@
+NATIONAL RESEARCH UNIVERSITY HIGHER SCHOOL OF ECONOMICS
+
+ECONOMICS AND ECONOMIC POLICY
+
+MASTER’S DEGREE
+
+19.05.25
+
+THE ROLE OF COCONUT ENDOWMENT IN INTENSIFYING INTERNAL
+
+CONFLICTS:
+
+THE EVIDENCE FROM NATIONAL AND SUBNATIONAL DATA
+
+Tweneboah Rabbi †
+
+Master’s Thesis
+
+Supervisor:
+
+Associate Professor Dmitry A. Veselov
+
+Reviewer:
+
+Associate Professor Alina Gennadyevna Shirshikova
+
+† E-mail: rtveneboakh@edu.hse.ru
+
+I would like to thank my supervisors, Dmitry A. Veselov, for his constructive comments that made the conception
+of the idea possible, as well as the entire team of the "Topics on long-run economic growth and development"
+research group.
+
+Contents
+
+1 Introduction
+
+1.1 Contribution . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+2 Coconut and Insurrection — Anecdotal Evidence
+
+3 Competing Theoretical Underpinnings
+
+3.1 Opportunity-cost mechanism . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+3.2 Rapacity Effect
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+3.3 Mechanisms: Coconut and Internal Conflict
+
+. . . . . . . . . . . . . . . . . .
+
+4 Coconut Endowment and Country Level Conflict
+
+4.1 Data Sources and Description . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+4.1.1 Country-level Conflict Data . . . . . . . . . . . . . . . . . . . . . . .
+
+4.1.2 Coconut Endowment data . . . . . . . . . . . . . . . . . . . . . . . .
+
+4.1.3 Baseline Control Variables . . . . . . . . . . . . . . . . . . . . . . . .
+
+4.2 Estimating Equation and Empirical Results . . . . . . . . . . . . . . . . . . .
+
+4.3 Sensitivity Analysis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+4.3.1 Alternative Definition of Coconut endowment and cutoffs . . . . . . .
+
+4.3.2 Coconut and Historical Conflict
+
+. . . . . . . . . . . . . . . . . . . . .
+
+4.3.3 Other robustness checks . . . . . . . . . . . . . . . . . . . . . . . . .
+
+5 Coconut Endowment and Cell Level Conflict
+
+5.1 Data Sources and Description . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+5.1.1 Cell-level Conflict Measure . . . . . . . . . . . . . . . . . . . . . . . .
+
+5.1.2 Cell-level Coconut Measure . . . . . . . . . . . . . . . . . . . . . . .
+
+5.2 Identification Strategy . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+6 Empirical Results
+
+6.1 Baseline Results . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+6.2 Coconut Suitability and Conflict Typology . . . . . . . . . . . . . . . . . . .
+
+6.2.1 Territorial vs. Governmental Conflict Dimensions
+
+. . . . . . . . . . .
+
+6.2.2 Coconut and Type of Violent Event
+
+. . . . . . . . . . . . . . . . . . .
+
+6.3 Coconut and Conflict Intensity . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+6.4 Heterogeneous Effects: Quality of Institutions . . . . . . . . . . . . . . . . .
+
+1
+
+7
+
+8
+
+10
+
+11
+
+11
+
+14
+
+16
+
+16
+
+16
+
+17
+
+19
+
+21
+
+24
+
+24
+
+27
+
+27
+
+28
+
+28
+
+28
+
+30
+
+32
+
+34
+
+34
+
+36
+
+36
+
+37
+
+39
+
+39
+
+6.5 Heterogeneous Effects: Geographic Conduciveness
+
+. . . . . . . . . . . . . .
+
+6.6 Sensitivity Analysis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+6.6.1 Addressing Potential Bias in World Price . . . . . . . . . . . . . . . .
+
+6.6.2 Addressing Spatial Correlation . . . . . . . . . . . . . . . . . . . . .
+
+7 Conclusion
+
+A Country-Level Appendix
+
+42
+
+43
+
+43
+
+44
+
+44
+
+A.1
+
+A-1 Country-level Coconut Suitability . . . . . . . . . . . . . . . . . . . . . . . . A.1
+
+A-2 Evaluation of the Instrumental Variable Framework . . . . . . . . . . . . . . A.1
+
+A-3 Robustness to Historical Determinants of Economic Development
+
+. . . . . . A.3
+
+A-4 Robustness to Historical Agricultural Controls
+
+. . . . . . . . . . . . . . . . . A.4
+
+A-5 Robustness to Deep Geographical and Civilizational Histories . . . . . . . . . A.4
+
+A-6 Robustness to Diversity and Ethnic Confounders . . . . . . . . . . . . . . . . A.5
+
+B Cell-Level Appendix
+
+B.1
+
+B-1 Preliminary Analysis—Visual Examination . . . . . . . . . . . . . . . . . . . B.1
+
+B-2 Construction of International Price of Coconut . . . . . . . . . . . . . . . . . B.2
+
+B-3 Additional Results . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . B.2
+
+Abstract
+
+Can heightened demand for a seemingly inconsequential agricultural commodity—coconut
+
+influence the risk of armed insurgencies? This study offers novel evidence on this ques-
+
+tion by leveraging cross-country variation in coconut cultivation suitability to assess
+
+the causal effect of coconut endowment on intrastate insurgent activity. Furthermore,
+
+the findings are reinforced by a fine-grained analysis at the 30 arc-minute resolution in
+
+Southeastern Asia and Oceania. The results suggest that an increase in the potential
+
+value of coconut-derived commodity is a significant driver of civil armed conflict both at
+
+the national and subnational levels. As presented in the most parsimonious specification
+
+of the cell level analysis, a 10% increase in the price of coconut-related commodities
+
+increases the probability of civil strife by 0.14 percentage points (pp) in cells suited for
+
+production. I reconcile the documented results with the extortion mechanism and a
+
+modified opportunity cost framework—wherein the rise in the value of this agricultural
+
+commodity increases the opportunity cost of engaging in productive activity relative to
+
+predation. Through heterogeneity analysis the study is able to underpin key conditions—
+
+weak state institution and geographic conduciveness—that amplify the hypothesized
+
+extortionary channel.
+
+1 Introduction
+
+The post-World War II era has witnessed a dramatic transformation in global violence, with
+
+internal strife emerging as the dominant scourge in modern world. This is evidently reflected
+
+in the Uppsala Conflict Data Program’s (UCDP) and the United Nations High Commission for
+
+Refugees (UNHCR) 2018 report, documenting over 53,000 battle-related deaths from civil
+
+wars alone. This alarming trend has spawned generations of scholarly inquiry into (internal)
+
+conflict drivers. Ironically, one systematically highlighted factor is natural resources—"from
+blood diamonds in Sierra Leone to banana plantation in Philippines" (Olsson, 2007; Crost
+and Felter, 2020)—the link between resource richness and violence manifest across diverse
+
+contexts.
+
+For instance, high-valued export crops present a compelling paradox in development eco-
+
+nomics. While policymakers and experts frequently champion these crops as engines for
+
+growth and poverty reduction—partly driven by the fact that they require higher labour input
+
+and have higher profit margins per acre compared to staple crops (Humphrey, 2005; , FAO;
+
+Bank, 2011)—this optimistic view often overlooks their potential to exacerbate inequality
+
+and instability, especially in fragile states. Studies such as Iyigun, Nunn and Qian (2017);
+
+Biscaye (2023) have additionally established that permanent and transient agricultural
+
+shocks, resulting from abrupt changes in productivity or market conditions may also elevate
+
+or reduce the risk of intrastate conflict. A well-documented parallel exists in extractive
+
+industries, where armed groups systematically exploit mineral resources through both direct
+
+control and indirect collusion with firms (Berman et al., 2017; Dube and Vargas, 2013; Ross,
+
+2004; Collier and Hoeffler, 2004).1
+
+Despite a large corpus of literature on resource-related conflicts, studies have disproportion-
+
+ately focused on extractive minerals (e.g., oil, diamonds) while largely neglecting agricultural
+
+commodities—an oversight particularly puzzling given their labour—intensive nature which
+
+is often accompanied optimistic view.2 Existing studies on agriculture—conflict relation
+
+have often focused on the impact of commodity price fluctuations, which has been viewed
+
+as an external income shock, in relation to the relationship between primary commodi-
+
+ties and armed civil conflict (Besley and Persson, 2008; Brückner and Ciccone, 2010). In
+
+1 A particularly egregious case involves AngloGold Ashanti’s alleged cooperation with the Nationalist and
+Integrationist Front (FNI), a rebel faction in the Democratic Republic of Congo, "...to effective take control over
+the Mongbwalu gold mining area, to facilitate their gold exploration activities.” (See Human Rights Watch
+(2005, p.65) for more details).
+
+2 A World Bank analysis posited that encouraging labour-intensive export sectors in fragile nations may even
+
+mitigate conflict intensity and risk (Calì, 2014).
+
+1
+
+contrast to mineral resources, which studies have predominantly documented a positive
+
+relationship with internal conflict, the relation between agricultural commodity value and
+
+internal conflict remains equivocal. Generally the nexus between primary commodities and
+
+conflict is not straightforward; it depends greatly on the specific commodity in question. The
+
+recent resource-related conflict literature summary by Blair, Christensen and Rudkin (2021)
+
+provides a sound illustration of this.
+
+Conflict literature in economic and political sciences often rest on rationality. Based on
+
+Keen (2005) view of internal violence several theoretical assertions have been proposed to
+
+explain intrastate violence. Popular amongst them are the opportunity cost and rapacity
+
+effects; on one hand, the opportunity cost channel establishes that an increase in prices of
+
+labour-intensive (capital-intensive) goods reduces (increase) the likelihood of armed conflict.
+
+On the other hand, the economic benefits of controlling resources like oil and gas increases
+
+in tandem with rising prices for capital-intensive commodities. This increases the financial
+
+rewards for participating in insurgence. Recent studies (e.g., (Crost and Felter, 2020; Gantier,
+
+2020; Berman et al., 2017; Bazzi and Blattman, 2014)) have began to suggest alternative
+
+explanations for resource-conflict relation, especially in agriculture (i.e., lootability and
+
+bulkiness, perennial crop, and cash crops). As mentioned prior, ambiguity persist especially
+
+in agricultural commodity shocks. This paper fills that gap by examining coconut, a globally
+
+traded perennial crop with a longstanding history of colonial and post-colonial exploitation.
+
+Coconut cultivation presents an intriguing backdrop to further understanding on resource—
+
+conflict paradox. On one hand, it is a labour-intensive crop, which—according to standard
+
+opportunity cost theory—should reduce conflict by raising incomes (Bazzi and Blattman,
+
+2014). On the other hand, historical and contemporary anecdotes suggests that coconut-rich
+
+regions are frequently plagued with violent contestation.
+
+Historical accounts that the global increase in demand for copra—the dried kernel of the
+
+coconut—can trigger armed insurgencies. Copra has played a historically significant role
+
+in the global economy, particularly in the post-World War II era, highlights its important
+
+function beyond that of an agricultural product. As argued by Asba et al. (2020), copra
+
+was widely regarded as "green gold" and constituted the fundamental pillar of economic
+
+development(for instance in Eastern Indonesia) during this period. To briefly elaborate; it
+
+was not until the late periods of the 19th century that European started trading and converting
+
+copra into coconut oil, which became their main raw material for the soap and margarine
+
+industries. The substitution of animal fat with vegetable fat in the margarine, cooking oil,
+
+2
+
+Figure 1. Vegetable oil prices, 1977-2005. Sourced from Warner, Quirke and Longmore (2007)
+
+and soap industries resulted in a worldwide increase in the demand for copra. In 1920, the
+
+European industrial countries used almost 200 million pounds of coconut oil as their industry
+
+inputs. As Figure 1 demonstrates, the global demand trajectory culminated in coconut oil
+
+emerging as the world’s most valuable vegetable oil by the 1980s–a testament to its enduring
+
+economic significance.
+
+To take advantage of the global burst in the demand for coconut, various strategic initiatives
+
+were pursued by colonial governments in their colonies to enhance copra production which
+
+often resulted in dramatic shifts of conventional land use and social structures. These kinds of
+
+policies led to social dislocation, labour exploitation, and land dispossession—events that his-
+
+torically incited resentment and drove communities toward grievances and uprising (Cerepak,
+
+2019; Droessler, 2018). Even post-independence governments often continued extractive
+
+policies, leading to tensions and creation of an environment conducive for insurgencies (see
+
+section 2 for a systematic review on various anecdotal accounts).
+
+I take this longstanding historical account to data and ask "why does coconut, a seemingly
+
+benign agricultural commodity, appear to exacerbate internal conflicts in ways that contradict
+standard opportunity cost predictions (often link with agricultural commodities)"? To the best
+of my knowledge, this study mark the first systematic economic analysis of the relationship
+
+between coconut and internal conflict. There are several benefits moving beyond existing
+
+anecdotal evidence; (i) though there exist a limited number of qualitative accounts coconut-
+
+conflict relation, its unclear how important coconut serve as a predictor of internal conflict
+
+3
+
+(i.e., by how much it contributes to conflict is non-existing) and (ii) the existing cases on this
+
+relationship often dates back in the early 19th century, hence it is possible that the association
+
+depicted in the anecdotes has weakened over time—especially since there exist many close
+
+substitutes for coconut today than before.
+
+Prior to the empirical inquiry, the study builds upon existing theoretical frameworks of
+
+commodity-induced conflict (Crost and Felter, 2020) and historical case evidence to develop a
+
+conceptual model to rationalize coconut–conflict relation. The proposed framework identifies
+
+two fundamental mechanisms through which coconut endowments may systematically
+
+increase conflict risk: the extortion and opportunity cost channel. One one hand, a rising
+
+value of coconut or its derived commodity may either incentivise the state or rebel groups
+
+to impose often ridiculous taxes to capture rents. Depending on the response of coconut
+
+producers/exporters may spark local violence. On the other hand, the high upfront costs
+
+and long maturation periods (3–10 years) deter new investment (either new entrants or
+
+expanding existing farmland)—which implies that the opportunity cost of engaging in
+
+peaceful production to capture often temporary market booms becomes extremely high
+
+relative to predating existing plantations (i.e., the labour-intensiveness of coconut cultivation
+
+does not manifest due to high sunk cost). What is more interesting is that the study delineated
+
+three significant characteristics of coconut cultivation that may support the extortion channel
+
+outlined therein. (1) Colonial influences on state institutional development resulted in the
+
+creation of fragile and extractive state institutions, facilitating rent-seeking behaviour; (2)
+
+the perennial nature of coconut cultivation makes it easier for the state to impose extractive
+
+taxation and capture long-term rents; and (3) The commodity flourishes in lowland and
+
+coastal regions, rendering it readily accessible for state control and conducive to looting
+
+illicit trade by insurgents.3
+
+The empirical investigation of the study are provided in two folds; a cross-country analysis
+
+and a fined-grained level to capture much dynamics in local violence. As in any empirical
+
+study, production and export data on coconut or its derived products are rarely available,
+
+hence, both the cross-country and subnational cell level layers of this study leveraged on a
+
+time-invariant geo-climatic assessment of crop suitability. Similar strategy has been applied
+
+in scholarly works of Nunn and Qian (2011); Iyigun, Nunn and Qian (2017). The study
+
+focuses specifically on intrastate conflict—defined as organized violence occurring within
+
+3 Detailed discussion on theoretical reasoning connecting coconut and internal violence is presented in
+
+section 3 and 3.3.
+
+4
+
+state borders without intervention from any foreign forces. The analysis at the country
+
+level is operationalized at the global scale (i.e., incorporating all available national data
+
+irrespective of coconut production status). This offers an advantage of avoiding sampling
+
+selection bias by preventing arbitrary exclusion of non-producing states.
+
+The results at both the country and subnational level suggest a positive relationship between
+
+coconut endowment and state-based insurrections.4 Cross-country ordinary least squares
+
+(OLS) estimates reveal that a shift from the 10th to the 90th percentile in coconut suitability
+
+corresponds to a 70.1pp increase (expressed in standard deviations) in the likelihood of
+
+civil conflict occurrence. However, no significant relationship is observed between coconut
+
+endowment and the onset of new conflicts. These results remain robust to a range of potential
+
+confounding factors.
+
+Despite these patterns, the analysis does not establish causality due to possible measurement
+
+error, omitted variable bias, and reverse causality. To address these limitations, the study
+
+employs an instrumental variable (IV) approach for further identification. The Global Agro-
+
+Ecological Zones (GAEZ) database provides comprehensive assessments of crop suitability
+
+worldwide, including detailed classifications of land into various ecological zones. Leveraging
+
+this data, I developed a measure representing the proportion of a country’s cropland catego-
+
+rized as sub-humid tropical lowland. This variable is used to exploit exogenous variation in
+
+coconut suitability—hence able to establish a causal impact of coconut endowment on civil
+
+conflict (refer to section A-2 for a thorough discussion on the instrument).
+
+Given the paucity of the coconut suitability data, the subnational cell level analysis is confined
+
+to Southeastern Asia and Oceania. This layer of the analysis constitute yearly panel of 2,668
+
+cells of 30 arc-minute resolution (approximately 55 × 55 kilometres at the Equator, the
+
+widely used PRIO-grid, Tollefsen, Strand and Buhaug (2012)) from 1989-2019. The analysis
+
+presented at this level constitute two exogenous sources of variations of coconut, one spatial
+
+and one temporal, both of which are arguably exogenous to local conditions. The spatial
+
+dimension of coconut comes from the subnational version of the GAEZ crop suitability
+
+data.5 For temporal variation, I constructed a price index for international price of coconut-
+
+derivatives based on the methodology outlined by Bazzi and Blattman (2014)6 Building on
+
+4 The main internal conflict type analysed at this level is state-based conflict—relying on the Uppsala Conflict
+
+Data Program’s Armed Conflict Dataset (hereafter, UCDP-ACD).
+
+5 The coconut suitability data, measured at a high-resolution 5 arc-minute grid, was aggregated to match
+
+the broader 30 arc-minute cell framework used in the analysis.
+
+6 See section B-2 of the Appendix file for details on the construction of world export price of coconut-derived
+
+commodity.
+
+5
+
+established methodologies in the resource-conflict literature (McGuirk and Burke, 2020;
+
+Bazzi and Blattman, 2014; Berman et al., 2017; Girard et al., 2022; Dube and Vargas, 2013),
+
+this study adapts the commodity price shock framework to examine coconut-related conflicts.
+
+I estimate a panel data model with two high-dimensional fixed-effects; cell and year-country-
+
+specific fixed effects, which controls for any time-invariant local unobservable feature (such
+
+as remoteness and geo-climatic features) and unobserved time-varying effects at the country
+
+level (including macroeconomic shocks, political changes and labour market regulations).
+
+The approach enables systematic comparison of conflict patterns across regions with varying
+
+coconut cultivation potential, while exploiting exogenous fluctuations in global coconut
+
+prices. This identification strategy rests on a crucial assumption that no contemporaneous
+
+shocks simultaneously with coconut price increases and affect conflict risk in ways corre-
+
+lated with local cultivation suitability. To address potential threats to this assumption and
+
+strengthen causal inference, the analysis where possible incorporates a handful of cell-varying
+
+characteristics that could otherwise confound the estimated relationship. The results from
+
+this procedure corroborates with the findings at the cross-country level; increase in the
+
+economic value of coconut-derived commodities increases internal civil conflict in cells that
+
+produce this commodity intensely. Specifically, the findings indicate that a 10% coconut
+
+price hike increases civil (not non-state based) conflict probability by 0.19 pp in suitable
+
+areas, driven by territorial (not governance) disputes and armed battles (not riots/protests).
+
+The findings were stable to a number of sensitivity checks.
+
+The last section of the subnational analysis was dedicated to tests the presence of heteroge-
+
+neous effects through a triple interaction in the high-dimensional fixed effect model to confirm
+
+the assertions made about conditions that enables the hypothesized extortion channel to
+
+persist. The first exercise conducted revealed that the impact coconut endowment may have
+
+on civil conflict is contingent on a state’s institutional quality level. This provide subjective
+
+evidence that colonial imprints have persisted and led to the formation of extractive state
+
+institutions in coconut producing regions. The second part of this heterogeneity analysis
+
+also revealed that the geographic conduciveness of coconut cultivation (lowland and coastal
+
+areas) negligible effect on the price shocks of the commodity and violent insurgence.
+
+6
+
+1.1 Contribution
+
+This study makes three primary contribution to the extant literature on development eco-
+
+nomics. The first is the discourse on commodity markets and internal conflict. The scholarly
+
+literature has long been characterized by inconclusive findings regarding the impact of
+
+agriculture commodity on conflict dynamics, particularly at the country-level. Pivotal studies
+
+by (Brückner and Ciccone, 2010) suggest that increases in the value of export commodities
+
+heighten the risk of civil conflicts across nations. Conversely, (Besley and Persson, 2008)
+
+observe a reduction in conflict with rising commodity values. Such mixed results across these
+
+cross-country analyses have underscored the necessity for more granular investigations that
+
+separate the impacts attributable to different types of commodities and focus on microlevel,
+
+within-country contexts (Bazzi and Blattman, 2014). Dube and Vargas (2013) demonstrated
+
+that increases in the price of an agricultural commodity (coffee) led to decreases in conflict in
+
+the coffee-producing regions of Colombia, but an increase in the price of a mineral commodity
+
+(oil) led to an increase in violence in oil-producing regions. Even in the mist of these incon-
+
+clusive results, a large stark of literature on agricultural commodity shocks and civil conflict
+
+tend to favour the opportunity cost mechanism; thereby suggesting a negative relationship.
+
+The present study add to the limited number of works (e.g. (Crost and Felter, 2020)) that
+
+finds that an increase in the value of agricultural commodity exacerbate conflict; reinforcing
+
+the notion that conflict—reducing effect of agricultural commodities is not universal. This
+
+study further contributes to the large corpus of literature on historical persistence by demon-
+
+strating how colonial-era agricultural systems continue to shape modern conflict dynamics
+
+through institutional path dependence. While existing research has established the enduring
+
+effects of history on conflict (Moscona, Nunn and Robinson, 2020; Arbatlı et al., 2020);
+
+belief systems (Nunn and Wantchekon, 2011; Lowes et al., 2017); growth and development
+
+(Michalopoulos and Papaioannou, 2014; Alesina, Michalopoulos and Papaioannou, 2016);
+
+institutions formation (Giuliano and Nunn, 2013); and health (Fenske and Wang, 2023),
+
+the present study provide novel evidence that colonial crop regimes—particularly coconut
+
+plantation systems—created extractive institutional frameworks that persist in post-colonial
+
+states. Finally, the study makes some contribution to the literature documenting the role
+
+of geography on a set of diverse outcomes (Nunn and Puga, 2012; McLauchlin, 2014).
+
+The findings of the present study provides subjective evidence on the role of geography
+
+in enabling insurgencies; (1) elevation enabling state control and (2) coastal accessibility
+
+enabling looting and predation.
+
+7
+
+The remainder of the study in structured as follows. Sections 2 and 3 is dedicated to
+
+synthesizing various anecdotal evidence linking coconut and violent insurrections as well
+
+as various theoretical frameworks underpinning resource–conflict relation. In Sections 4, 5,
+
+and 6, I present the empirical framework, data sources, and results at the country level and
+
+subnational cell level. Finally, Section 7 provide concluding remarks based on the findings of
+
+the study.
+
+2 Coconut and Insurrection — Anecdotal Evidence
+
+Coconut palm, often romanticized as a symbol of tropical tranquillity, have historically served
+
+as catalysts for social unrest, economic exploitation, and armed conflict. From colonial-era
+
+plantation disputes to modern-day biofuel revolutions, the coconut’s economic value and eco-
+
+logical ubiquity have made it a focal point for struggles over land, labour, and resource control.
+
+This nexus emerges not merely as a historical event but as a consequence of global economic
+
+forces intersecting with colonial legacies. Scholarly narration often trace this relationship to
+
+the late 19th-century surge in copra demand—a pivotal moment that transformed coconuts
+
+from subsistence crops into commodities enmeshed in imperial trade networks (Cerepak,
+
+2019; Droessler, 2018). The discussion on these narratives begins with the imposition of
+
+European plantation systems during the mid-19th century, which systematically dismantled
+
+indigenous agroecological practices and reconfigured land tenure.7 Colonial administrators,
+
+incentivized by copra’s rising value as a raw material for soap, margarine, and industrial
+
+lubricants, introduced European plantations methods to the production of coconut across
+
+South and Southeast Asia, the Pacific, and the Caribbean. The accounts given by Cerepak
+
+(2019):
+
+"...British copra plantations in Ceylon (modern-day Sri Lanka), established in the
+
+1840s, displaced traditional subsistence farming practices and concentrated land
+
+ownership among foreign investors. By 1860 British land owners had planted
+
+roughly 250,000 acres. By 1903, coconut plantations covered 650,000 acres. The
+
+number reached one million acres by 1926."
+
+The Philippines, then a U.S. colony, experienced a dramatic expansion in coconut cultivation
+
+during the early 20th century, driven by soaring American demand for copra. Between
+
+7 According to the report by World Rainforest Movement (2023), these were often accompanied by large-scale
+
+land grabbing and monoculture plantation.
+
+8
+
+1910 and 1926, the territory’s coconut plantation acreage nearly tripled, skyrocketing
+
+from 406,000 acres to 1.166 million acres. However, this increased plantation often was
+
+accompanied by indigenes losing their ancestral land to large American corporations. This
+
+led the establishment of the Philippines Organic Act:
+
+"...The Philippine Organic Act, introduced in July 1902, prevented individuals
+
+from owning more than 16 hectares of land and corporations from owning more
+
+than 1,024 hectares. Originally, William Taft, then governor of the Philippines,
+
+asked for a limit of 20,000 acres for corporations (Cerepak, 2019)."8
+
+Droessler (2018) used a Samoan proverb “E suamalie a niu ‘a‘ati” (“The coconut is sweet, but
+it was husked with the teeth”) to symbolize how copra brought both economic opportunity
+
+and colonial exploitation—popularly called ’coconut colonialism’. His accounts suggest
+
+that the growing demand for copra led to extensive land sales to European and colonial
+
+businesses. These land concessions often involved minimal regulation, enabling foreign
+
+planters to acquire large tracts—sometimes multiple times over—fuelling disputes among
+
+local factions. He writes:
+
+"...Driven by growing demand for copra, the Deutsche Handels- und Plantagenge-
+
+sellschaft der Südseeinseln (DHPG) dramatically expanded its plantation (as well
+
+as introduce wage plantation)9 holdings by purchasing land from Samoan matai.
+
+Euro-American planters were so desperate for Samoan land (and regulations were
+
+so minimal) that Samoans were able to sell the same parcels of land to several
+
+buyers. Samoans were divided over these escalating land sales to foreigners.
+
+Some feared that foreign ownership would undermine long-standing ways of
+
+life based on subsistence agriculture, whereas others welcomed the considerable
+
+profits they reaped from the sales. These profits often came in the form of Western
+
+arms which matai used to gain an advantage over their rivals. The result was
+
+what Euro-American observers innocently called ‘civil war’, ignoring the fact that
+
+Euro-American traders and plantation owners actively supported different sides
+
+of competing Samoan lineages and supplied them with the means to succeed. A
+
+vicious cycle of selling land for arms ensued."
+
+8 Landless farmers also became tenants on elite-owned coconut estates, paying exorbitant rents (up to 50%
+
+of harvests)
+
+9 The report emphasized that Samoan farmers who worked on Euro-American plantation were exploited
+and underpaid by about 30–50%. In most part of the anecdote, their approach backfired, resulting in the birth
+of local cooperatives (known as ”oloa”), which formed an anti-colonial resistance, attempting to restore control
+over copra production.
+
+9
+
+Even after World War II, as nations in the region began gaining independence, coconut
+
+producers encountered new economic challenges. According to (Cerepak, 2019), Indonesia’s
+
+first president, Sukarno, sought to integrate the outer islands, including Sulawesi, into the
+
+national framework to consolidate the country post-colonial rule. This integration effort
+
+was met with resistance from coconut growers in Sulawesi, who rebelled and engaged in
+
+the smuggling of coconut products to exchange for gold and arms. In a similar vein, the
+
+documentary "Coconut Revolution" illustrates the resistance movement by the indigenous
+
+people of Bougainville Island against the Papua New Guinea army and the mining operations
+
+planned by Rio Tinto Zinc (RTZ) against environmental degradation and grabbing.10
+
+The coco levy scandal in the Philippines best exemplifies state-sanctioned resource ex-
+
+ploitation. The government taxed coconut farmers under Ferdinand Marcos’s dictatorship
+
+(1965–1986), supposedly to stabilize prices. The tax, estimated at P20 billion (US$370
+
+million), was instead directed to Marcos cronies, bankrupting smallholders. In 2014, coconut
+
+farmers embarked on a 1,772-km protest march to demand restitution, framing the levy as
+
+emblematic of systemic agrarian injustice.
+
+3 Competing Theoretical Underpinnings
+
+Economic theories of civil war—which are grounded in rationality—underpin the vast corpus
+
+of empirical research that examines the relationship between primary commodities and
+
+civil conflict and other violence occurrence. As argued by (Keen, 2005), violence persist
+
+not because of the breakdown of rationality, but because violence itself can serve rational
+
+economic objectives. Over the past few decades, a range of conceptualizations—drawing on
+
+insights from economics and political science (i.e., logic appealing)—have emerged to explain
+
+different forms of internal conflict. Among the most prominent are the rapacity effect and
+
+opportunity cost effect. This section provides an overview of these key conceptual frameworks
+
+and examines their potential relevance in understanding the relationship between coconut
+
+endowment and internal conflict.
+
+10 The documentary highlights the pivotal role coconut played in the resistance: the isolated islanders relied
+on coconut to produce various essentials, including food oil, cleaning agents for their weapons, mosquito
+repellent, engine oil, and even electricity, thus sustaining their fight during the international sanctions.
+
+10
+
+3.1 Opportunity-cost mechanism
+
+This theory draws on the economic logic of cost-benefit analysis as applied to potential
+
+rebels—individuals who could be recruited by armed groups. The decision to join a rebellion
+
+hinges on a rational assessment of expected gains versus the risks and forgone alternatives
+
+(i.e., individuals can choose to peacefully produce or prey on others) (Becker, 1968). This
+
+notion has been well formalized in general equilibrium models of insurgences by (Hirshleifer,
+
+1995; Grossman, 1991), where civilian’s incentive to form or join rebel activities hinges on
+
+changes in household income and economic opportunities.
+
+From this perspective, two important distinction of primary commodities are considered,
+
+namely, labor–intensive and capital–intensive commodity. As summarized by Bazzi and
+
+Blattman (2014), this distinction between commodities is important as they have differential
+
+impact on household income. Labor-intensive commodities (e.g., agricultural goods) are
+
+typically produced by households, meaning price shocks directly affect disposable income and,
+
+consequently, the opportunity cost of rebellion. In contrast, capital-intensive commodities
+
+(e.g., minerals, fuels) generate rents that primarily accrue to the state, with only indirect
+
+effects on household welfare—via public goods provision, fiscal transfers, or derived labor
+
+demand. These indirect channels may even be muted or counterbalanced by relative price
+
+adjustments; example, a fall in capital–intensive primary export commodity raises the relative
+
+returns to labor (Bazzi and Blattman, 2014). This theory predicts a strong inverse relationship
+
+between insurrection and the prices of labor-intensive commodities (see (Dube and Vargas,
+
+2013; Dal Bó and Dal Bó, 2011) for a detailed discussion). On other hand, higher prices
+
+for capital-intensive or easily appropriable commodities—such as extractive minerals and
+
+fuels-may increase the likelihood of conflict since the benefits of expropriation exceeds the
+
+associated cost (Berman et al., 2017; Jablonski and Oliver, 2013; Rigterink, 2020). These
+
+dynamics highlight how the type of commodity shocks may alter the production-predation
+
+equilibrium, with the overall impact depending on the interplay of household-level income
+
+changes and state capture.
+
+3.2 Rapacity Effect
+
+Unlike the opportunity cost channel, rapacity does not particularly distinguish between
+
+the kind of commodity (whether labor–intensive or capital–intensive) shock, however, two
+
+opposing transmissions are discussed; (i) ’state prize’ and ’state capacity’.
+
+11
+
+State-Prize: The core-underpinning of this mechanism is that rising commodity prices
+increase resource rent derived from controlling it (Ross, 2004; Besley and Persson, 2008).
+
+The theory posits that heightened resource valuation intensifies conflict dynamics by altering
+
+the payoff structure of political violence, as actors vie for dominance over revenue streams.11
+
+Crucially, Bazzi and Blattman (2014) argued that the magnitude of rent-driven conflict effects
+
+is very much contingent upon the institutional quality and characteristics of the commodity
+
+(i.e., the ease of capturing potential rent). In this regard, less cohesive governance regimes
+
+and extractive state institutions lower the barriers of rent capture, amplifying the violence-
+
+inducing potential of price shocks. Whereas robust institutions may weaken or mitigate such
+
+incentives through credible deterrence, rent redistribution, and accountability.
+
+Discussion of the characteristics of the commodity works in similar notion to the institutional
+
+quality. Particularly, some commodities are easier to capture rent than others; one line
+
+of this discussion outlined in several empirical studies related to natural resources is the
+
+so called "lootability and extortion" (e.g., (Berman et al., 2017)). Commodities that are
+
+immobile, geographically concentrated resources (e.g., non-alluvial, capital-intensive mining
+
+and petroleum extraction) or have high switching costs are more susceptible to impose
+
+rentable taxes. At the same time, portable and high-value commodities (e.g., gemstones,
+
+alluvial deposits) may be vulnerable to direct seizure due to their high value-to-weight ratios,
+
+ease of extraction with minimal technology, and low transport costs (Snyder and Bhavnani,
+
+2005). Another strand of this ease of rent capture which is often related (but sometimes
+
+suggesting opposite direction) to the opportunity cost discussed above relates to high-valued
+
+export crops and perennial crops. Generally, the opportunity cost channel suggests that
+
+labour-intensive commodities (often associated with agricultural commodities) reduces risk of
+
+insurrections. However, crops such as lumber and rubber as well as perennial tree crops like
+
+coffee and cocoa (Bazzi and Blattman, 2014) often require a large initial capital investment,
+
+and are easily inspected, making them natural targets for taxation (either from the state or
+
+rebel group), hence, may reduce or increase the risk of insurrection (ambiguous direction in
+
+both theoretical or empirical studies).12
+
+11 The literature delineates two principal pathways through which this may occur. (i) Rebel appropriation
+("booty futures"), wherein armed groups exploit high-value resources to fund insurgencies (Berman et al., 2017;
+Ross, 2004); (ii) Cross-border predation ("greedy neighbors"), where external actors—including adjacent states,
+communities, or foreign entities—intervene to capture rents, often by financing proxy rebellions (Adhvaryu
+et al., 2021; Humphreys, 2005).
+
+12 Perineal crops and other exportable crops may raise household-income (at least to those directly involved
+in its cultivation) but at the same time raises the incentives for strategic rent capture (Gantier, 2020; Crost and
+Felter, 2020).
+
+12
+
+State capacity: A less popular mechanism seldom discussed in the rapacity channel is
+the state capacity. Here, scholars suggest that the increase in the value of primary commodity
+
+should not increase armed insurgence but either have no effect or even reduce the likelihood
+
+of armed conflict (see (Ross, 2012; Snyder, 2006)). The rationale is that governments might
+
+use the additional revenues from higher commodity prices to enhance state capacity, either
+
+by bolstering their military capabilities to deter insurgencies or buy out potential rebel
+
+groups. Contrary to the state prize effect, state capacity contends that rising commodity
+
+values should reduce the likelihood of conflict onsets and shorten ongoing ones, especially in
+
+poorer and more weakly institutionalized states. Another way of looking at this is to consider
+
+if rebel group monopolize control over a resource. This is discussed formally below as it is
+
+also shallow to conclude that state capacity always results in lowering risk of insurgence. As
+
+described in the literature summary by (Crost and Felter, 2020) on contest–success theories of
+
+political violence. His discussion on seminal works by Hirshleifer (1995); Skaperdas (1996);
+
+Kalyvas (2006) provide a further layer on the intricacy of explaining internal violence from
+
+the lens of state-capacity. Contest-success functions predicts a hump-shaped relationship
+
+between the relative capacity of two conflicting groups and the amount of violence.
+
+Figure 2. Insurgent strength and conflict violence: Predictions from contest–success models. Sourced
+from Crost and Felter (2020)
+
+To elaborate conditions where ’state-capacity’ may move in line with or opposite of ’state-
+
+prize’ mechanism, I employed the stylized framework from (Crost and Felter, 2020). Figure
+
+2 illustrates the theoretical relationship between insurgent capability (relative to state forces)
+
+and violent contestation, as derived from contest success function models. The core-idea
+
+13
+
+of these contest-success models is that suppose there is an increase in the economic value
+
+of a resource, if this prize is situated in a region where the government has much higher
+capacity, the probability of contestation reduces as insurgents are unable to challenge or
+
+engage in rent-seeking activities on these resources. The same is true if the prize is situated in
+a region where insurgence capacity is much higher than the government. In rebel-dominated
+
+territories where insurgent forces maintain military supremacy, armed groups can effectively
+
+monopolize resource rents, thereby eliminating government incentives to challenge their
+
+control due to the prohibitive costs of intervention.13 More importantly, state-capacity in
+this line of argument predicts that rising economic value of commodities may exacerbate
+
+violent insurrections in areas where conflicting groups (e.g., state and rebels) are evenly
+
+matched in terms of might (Crost and Felter, 2020). Figure 2 demonstrates that reduced
+
+conflict violence may reflect either: (1) weakening insurgent capacity in areas of initial
+
+rebel weakness (A → A′), or (2) strengthening insurgent dominance in already established
+
+strongholds (B → B ′).
+
+3.3 Mechanisms: Coconut and Internal Conflict
+
+The relationship between coconut production and internal conflict is shaped by complex
+
+interactions between local farmers/firms, rebel groups, and state authorities. Anecdotal
+
+evidence indicates that coconut producers/exporters often find themselves entangled with
+
+armed non-state actors resisting government attempts to control or exploit coconut resources.
+
+This resistance can take the form of cooperation, coercion, or extortion. A large stark of
+
+coconut-conflict anecdotes suggests state resistance (i.e., insurrection) often occurs as a
+
+results of cooperation between coconut-farmers and armed insurgent groups. However, it can-
+
+not be dismissed that recent evidence (not necessarily related to coconut) have documented
+
+that insurgent groups frequently finance their operations by levying “revolutionary taxes”
+
+or extortion fees on various economic activities, including agriculture, telecommunications,
+
+and mining (Berman et al., 2017). In coconut-producing regions, these groups may target
+
+coconut farmers and exporters to extract resource rents necessary for sustaining insurgencies.
+
+For example, the New People’s Army (NPA) in the Philippines is notorious for imposing
+
+such taxes on businesses and agricultural exporters, threatening destruction of property and
+
+disruption of operations to enforce compliance (Crost and Felter, 2020; Colina, 2018).
+
+13 Looking at this same situation from the lens of state-price mechanism suggest rebels are able to fund and
+
+expand their activities outside the areas under their control—violence goes up then (Berman et al., 2017).
+
+14
+
+Building on the conceptual foundation of (Crost and Felter, 2020), this study adopts the
+
+extortion and opportunity cost channel as its primary explanatory mechanism. Two potential
+
+sources can lead to this extortion channel; direct extortion channel which aligns with classical
+
+theoretical formulations of the rapacity effect, wherein localized economic endowments—
+
+coconut cultivation—create incentives for rent—seeking behaviour and violent appropriation;
+
+and an indirect extortion channel closely linked to the contest-success model illustrated
+
+earlier. The direct extortion channel operates through a rent-capture mechanism: rising
+
+commodity values increase the economic returns to controlling production areas, thereby
+
+incentivizing greater investment in conflict activities. In the context of coconut–conflict
+
+relation, this manifests in two non-exclusive pathways: (1) state-led extraction – if the
+state monopolizes rents from coconut production/exportation—often at the expense of
+
+smallholders, plantations, or exporters—it may provoke evasion strategies. Producers may
+
+circumvent formal markets by smuggling through rebel networks or, in some instances, align
+
+with anti-state insurgents by directly financing their strategic operations to undercut the
+
+government; or (2) insurgent rent-seeking – insurgent groups may impose revolutionary
+taxes on coconut cultivation and trade. In this case producers/local cooperation/exporters
+
+faces a trilemma (i.e., they choose to either comply, resist through self-defence, or seek state
+
+protection). Regardless of the choice of coconut producers/exporters, it is certain that this
+
+will lead to escalating local violence (i.e. amongst non-state actors, state and insurgent actors,
+
+or intensify counterinsurgency efforts). The indirect extortion channel can be explained in
+
+lens of the contest-success game explained in section 3.2. The idea is that depending on the
+
+initial capacity of the state or insurgent group, the boom in the value of resources can either
+
+curtail or intensify local violence (refer to figure 2 for details).
+
+Interestingly, three core aspects of coconut cultivation help enable this extortion mechanism.
+
+First, as noted in accounts linking coconut to conflict, the global surge in demand for
+
+coconut was met with various extractive strategies—initially by colonial powers and later
+
+by post-independence governments—that contributed to the formation of extractive state
+
+institutions, creating a persistent structural link. This implies weak institutional quality in
+
+coconut producing economies. Second, the perennial nature of coconut cultivation makes it
+
+easier for the state to impose extractive taxation and capture long-term rents. This is in line
+
+with an assertion in (Gantier, 2020). Third, because coconut typically thrive in lowland and
+
+coastal areas, it becomes highly susceptible to appropriation. These geographic features not
+
+only increase exposure to state control but also enable looting and illicit trade, especially by
+
+15
+
+insurgent groups using accessible waterways for transport.
+
+The relationship between coconut cultivation and internal conflict can also be understood
+
+through the lens of the opportunity cost channel. Although coconut farming involves low
+
+levels of mechanization and is generally labour-intensive, its establishment requires signifi-
+
+cant fixed investment and a long maturation period—typically ranging from 3 to 10 years,
+
+depending on the seed variety. This makes it less accessible to new entrants and expanding
+
+farmland to capture often temporary market gains less attractive, potentially shifting the
+
+focus away from labour intensity. Instead, the high initial costs make appropriation of exist-
+
+ing plantations a more attractive option. As the opportunity cost of entering or expanding
+
+coconut plantation rises, individuals may find greater incentive to appropriate rather than
+
+invest, often by joining or forming insurgent groups. This, in turn, increases the risk of
+
+internal conflict.
+
+4 Coconut Endowment and Country Level Conflict
+
+This section is dedicated to the presentation of the first-hand investigation of the relationship
+
+between coconut endowment and cross-country conflict events. Central to this country-
+
+level investigation is the availability of historical conflict data dating back to 1946, which
+
+facilitates the establishment of an earlier link between coconut and conflict, hypothesized to
+
+be primarily driven by the "global coconut demand" epoch suggested in qualitative studies.
+
+The analysis is nevertheless confined to the period from 1961, aligning with the independence
+
+era of many former European colonies in Sub-Saharan Africa, the Middle East, and South
+
+and Southeast Asia. This allows for the evaluation of coconut as a determinant of conflict
+
+without the influence of colonial ties. The study draws upon data from 148 countries14,
+
+providing a broad empirical foundation for the findings.
+
+4.1 Data Sources and Description
+
+4.1.1 Country-level Conflict Data
+
+Conflict data is drawn from the UCDP-ACD dataset v24.1 (Gleditsch et al., 2002; Pettersson
+
+and Eck, 2018). Throughout the analytical part of the study, the main conflict type discussed
+
+is state-based intrastate violent events. UCDP defines this type of violence as a contestation
+
+14 Table SA1 of the supplementary file presents the countries included in the study.
+
+16
+
+(with the use of arms) between two parties, where one is always the government and the
+
+other always an organized non-governmental organization without the foreign governments
+
+with troops to support either side of the conflict actors. Violent events are recorded in the
+
+ACD dataset based on the PRIO-25 coding strategy where events are highlighted based on
+
+battle-related deaths over a specific incompatibility15 within a year. Only violent incidents
+
+resulting in 25 battle-related fatalities over an incompatibility in a year is recorded. The
+
+UCDP-ACD data is preferable for the country-level analysis as it directly measures conflict
+
+events at the national level, and covers an extended period. This research utilizes two specific
+
+operational definitions of civil unrest from this coding system: (i) Civil Conflict Onset— which
+is defined as the total number of distinct conflict onsets per country over the 1961–2017
+
+period. Note, recurrent episodes of existing conflict are excluded from this measure and (ii)
+
+Conflict Incidence—representing the proportion of years with active conflict per country over
+the period 1961-2017.
+
+4.1.2 Coconut Endowment data
+
+The Global Agro-Ecological Zones (GAEZ) v4 database, developed by the Food and Agriculture
+
+Organization (FAO) is employed for the country-level analysis. This database provides
+
+detailed assessments of land suitability assessment for approximately 120 different crops
+
+globally based on a set of soil and climatic characteristics. The country-level version categorize
+
+land (measured in km2) into five distinct suitability classifications based on yield potential:
+
+(i) very suitable (80–100% yield potential (yp)), (ii) suitable (60–79% yield potential),
+
+(iii) moderately suitable (40–59% yield potential), (iv) marginally suitable (20–39% yield
+
+potential), and (v) unsuitable (< 20% yield potential). For the purpose of this study, it is
+
+important that the measure of coconut suitability proxies historical conditions which GAEZ
+
+offers a range of features which makes this possible. FAO’s agro-climatic model in some
+
+sections explicitly omit factors that are easily manipulated by human intervention (e.g., the
+
+model does not factor forest cover).
+
+Following the seminal works of (Nunn and Qian, 2011; Iyigun, Nunn and Qian, 2017), I used
+
+the low input crop suitability file (rain-fed in all phase and without chemical application).16
+
+This arguably minimizes the potential confounding influence of agricultural technological
+
+15 UCDP-ACD attributes incompatibility to the primary concern of the contestation; either concerns over
+
+government or territory or both.
+
+16 I used the historical version of the dataset (specifically, 1961-1990). The study differ from (Iyigun, Nunn
+
+and Qian, 2017) as it employed an earlier version of the dataset.
+Results remains economically and statistically consistent when later versions of the data is employed.
+
+17
+
+changes and irrigation intensity. Suitability classification in the study is classified based on
+
+the land having at least 40% yield potential for coconut. A country’s land suitability for
+
+coconut production is computed as:
+
+Coconut Area = ωi
+
+N
+(cid:88)
+
+i=1
+
+SCi
+
+where ωi represents the weights of the suitability class (SC) included in the computation.17
+The details of the distribution of coconut suitability across countries can be found in the
+
+Appendix Figure A1.
+
+The study employs land suitability—rather than observed production or export volumes—as
+
+a measure of a country’s endowment in coconut commodities. A natural question arises as to
+
+why this approach is adopted. The primary justification lies in addressing the pervasive data
+
+limitations surrounding coconut-related statistics. Reliable data on coconut production and
+
+trade are scarce, and even when available, as noted by Quirke and Longmore (2007), they
+
+are often merely indicative and lack definitive accuracy.
+
+Beyond mitigating data constraints, the use of land suitability offers two key analytical
+
+advantages, (i) disentangling production from domestic consumption: In many economies
+where coconut is intensively cultivated, domestic consumption accounts for a significant
+
+share of output, making precise production estimates inherently challenging. Land suitability
+
+provides a more stable metric of underlying agricultural potential as it does not depend on
+
+local consumption patterns and (ii) exogeneity to conflict dynamics: Given the biogeophys-
+ical basis of land suitability measurements, this variable is less likely to be endogenously
+
+influenced by conflict events, thereby strengthening the causal inference in the analysis.
+
+The next question has to do with how reasonable coconut potential—measured by land
+
+suitability—is as proxy for coconut endowment. I conducted a formal check for this by
+
+investigating the conditional correlation between land suitability and coconut production.
+
+Data on coconut production comes from the Food and Agriculture (FAO’s) production statistics.
+
+Figure 3 presents the conditional association between the suitability measure and coconut
+
+production. It demonstrate a strong positive association between the two measures. The
+
+17 The corresponding weights are 0.9, 0.7 and 0.5 for the land area (km2) considered as very suitable, suitable
+
+and moderately suitable for coconut cultivation; respectively.
+In robustness I included the marginally suitable land class with a weight of 0.3 in the computation of land
+area suitable for coconut in a given country. The estimated coefficient remained very similar to the baseline
+estimate.
+
+18
+
+Figure 3. Coconut Suitability and Coconut Production — Conditional on a set of geographic controls,
+continent and legal origin FE.
+
+beta coefficient is 0.29 and statistically significant at the 1% level.
+
+4.1.3 Baseline Control Variables
+
+The extant literature has identified a plethora of factors that contribute to contemporary
+
+civil unrest. Building upon this empirical foundation, the analysis incorporates a battery
+
+of baseline control variables to mitigate potential confounding in the relationship between
+
+coconut endowments and insurgent activity. Below, I delineate these covariates and their
+
+theoretical relevance.
+
+Geographic factors: To minimize the risk of documenting spurious associations between
+coconut and conflict—possibly due to lurking influence of geographic factors which has been
+
+shown to induce conflict (Fearon and Laitin, 2003; Michalopoulos, 2012; Carter, Shaver and
+
+Wright, 2019)—the study incorporated a set of geographic controls. This is quite important
+
+especially given the nature of suitability data which are composed based on climatic and
+
+land characteristics (e.g., temperature, humidity, soil pH, slope, and rainfall), which may
+
+independently affect conflict risk. For instance terrain ruggedness may co-determine conflict
+
+risk by shaping rebel hideouts and coconut (the commodity is known to thrive in lowland
+
+areas). Similarly, proximity to waterways and island nations may favor coconut growth, yet
+
+conflict in these areas could arise for reasons unrelated to the commodity. Following evidence
+
+from (Arbatlı et al., 2020; Ashraf and Galor, 2013a), omitting these geographic factors could
+bias the results. Thus, the analysis explicitly accounts for them to isolate the true relationship
+
+19
+
+between coconut endowments and conflict. However, it is noteworthy that here the study is
+
+very conservative in controlling for potential geographic confounders. Reason being that in
+
+as much as geography can confound the established relationship, it can lead to attenuation
+
+bias—due to high correlation of the suitability data and these geographic variables. With
+
+this in mind, the study controlled for the potential influence of terrain ruggedness, elevation,
+
+distance to nearest waterways, and an indicator variable for island nation.
+
+Natural Resource: Point-source natural resources (e.g., oil, minerals) are often linked to
+violent due to rent-seeking behavior and weakened institutions (Ross, 2015). The consensus
+
+on the nexus between primary commodities and internal conflict is that these events are used
+
+to foster short-term economic interests (Fearon and Laitin, 2003; Garfinkel and Skaperdas,
+
+2007; Ross, 2004). The meta-analysis by (Blair, Christensen and Rudkin, 2021) concludes
+
+that agricultural commodities (often labor-intensive) and point-source resources (capital-
+
+intensive) may move in the same direction in what is known as rapacity effect.18 On other
+
+hand, these commodities may exert opposing influence on conflict risk.19 The importance of
+
+controlling for the potential confounding effects of competing resources lies in the fact that,
+
+if the relationship between commodities (e.g., coconuts) and conflict is driven by the former
+
+hypothesis, which aligns with the dynamics of point-source resources (e.g., oil or minerals),
+
+failing to account for this could lead to biased results. This is particularly relevant given that
+
+many of these resources often share geographic overlap with agricultural zones (Niu et al.,
+
+2023). The baseline specifications thus includes an indicator for the presence of oil or gas
+
+reserves to capture the role of other competing resources.
+
+Historical institutional factors: There is a growing consensus in the development economics
+literature on colonial imprints on modern institutions (Acemoglu, Johnson and Robinson,
+
+2001; Wucherpfennig, Hunziker and Cederman, 2016). The legacy of colonial rule and the
+
+identity of former colonizers may significantly influence the modern political and economic
+
+institutions of a nation, thus confounding the relationship between coconut endowments
+
+and the risk of violent event. This is particularly important for the following reasons; (i)
+
+the climatic stability underlying coconut suitability measures creates a natural overlap with
+
+18 This term implies that increase in the value of the commodity increases competition for controlling the
+
+resource, thereby, raising conflict risks in regions that produce the commodity intensively.
+
+19 This can be attributed to the so called opportunity cost effect, wherein an increase in the value of labor-
+intensive (e.g. agriculture) commodity raises the opportunity cost of engaging in violent activities. Conversely,
+increase in the value of point source resources (capital-intensive) reduce the opportunity cost of conflict.
+For instance, the potential returns from illicit appropriation rise—such as in the case of oil theft—without
+a corresponding increase in legal employment opportunities (e.g. hiring maybe based on contracts—where
+wages may be less flexible to market conditions), thus making conflict more economically appealing.
+
+20
+
+colonial economic geography. As established by Acemoglu, Johnson and Robinson (2001),
+
+European colonizers systematically developed extractive institutions in regions with high
+
+resource potential and high mortality rates; (ii) possibility of bias from colonial labor and
+
+land tenure systems (Austin, 2008) and (iii) its imprint on persistent local elite capture (Iyer,
+
+2010). Thus, the study account for historical prevalence of colonial rule (i.e. the presence
+
+of either British or French colonizer and any major colonial prowess indicator) and a legal
+
+origin indicator to account for persistent juridical traditions (La Porta et al., 2017).
+
+4.2 Estimating Equation and Empirical Results
+
+This section of the study delves into the empirical strategy used in the country-level analysis
+
+of coconut—conflict relations. The present analysis employs a cross-country study design to
+
+elucidate coconut as a determinant of cross-national variation in the risk of civil unrest and
+
+armed insurrection. The baseline specification, estimated using ordinary least squares (OLS),
+
+takes the following form:
+
+Yi = β0 + β1CSi + β ′
+
+2GEOi + β3P SRi + β ′
+
+4HIN Si + εi
+
+(1)
+
+where; Yi represents the civil conflict (onset or incidence) level in country i; CSi is the (log
+transformed) area of country i’s arable land suitable for coconut cultivation; GEOi, P SRi,
+and HIN Si are the corresponding vectors of control variables for geographical characteristics
+(including continent dummies), the discovery of point source resources, and historical institu-
+
+tional structure; and εi is the country-specific idiosyncratic disturbance term. The parameter
+of interest is β1, which represents the expected adverse impact of coconut cultivation on
+state-based intrastate armed insurgencies.
+
+The summary of the results from the estimation equation 1 is presented in Table 1. The
+
+outcome variable in Columns (1-4) is the average civil conflict incidence and that of Columns
+
+(5-8) is the average number of new civil conflict outbreak from 1961-2017. According to the
+
+unconditional relationship, the likelihood of civil conflict has been positively impacted by
+
+coconut endowment in both an economic and statistically meaningful way. Specifically, a
+
+movement from Ethiopia (10th percentile, minimum non-zero) to Indonesia (90th percentile)
+
+of the cross-country distribution of coconut suitability is related to about 40.1% standard
+
+deviation (SD) increase in the average probability of civil conflict at the 5% level.20.
+
+20 Bearing in mind the mean of the sample dependent variable is 0.175(0.252), assessment on the magnitude
+
+21
+
+Table 1. The Impact of Coconut on Civil Conflict Incidence across Countries - The Baseline Results
+
+Ln[1 + coconut area]
+
+Natural resource control
+Geographic controls
+Legal origin
+Colonial history
+Continent FE
+
+10th–90th % move in coconut suitability
+
+Observations
+Adjusted R2
+
+PRIO25 Civil Conflict
+
+(1)
+
+Avg. Incidence
+(3)
+(2)
+
+(4)
+
+(5)
+
+Freq. Onset
+(7)
+(6)
+
+(8)
+
+0.011**
+(0.0052)
+
+0.012**
+(0.0051)
+
+0.013**
+(0.0052)
+
+0.013**
+(0.0055)
+
+0.046
+(0.031)
+
+0.051
+(0.032)
+
+0.058*
+(0.032)
+
+0.065*
+(0.034)
+
+No
+No
+No
+No
+No
+
+Yes
+No
+No
+No
+No
+
+No
+Yes
+No
+No
+No
+
+Yes
+Yes
+Yes
+Yes
+Yes
+
+No
+No
+No
+No
+No
+
+Yes
+No
+No
+No
+No
+
+No
+Yes
+No
+No
+No
+
+Yes
+Yes
+Yes
+Yes
+Yes
+
+0.10**
+(0.048)
+148
+0.026
+
+0.11**
+(0.048)
+148
+0.066
+
+0.12**
+(0.048)
+148
+0.051
+
+0.12**
+(0.052)
+148
+0.25
+
+0.42
+(0.29)
+148
+0.013
+
+0.48
+(0.30)
+148
+0.033
+
+0.54*
+(0.30)
+148
+0.057
+
+0.61*
+(0.32)
+148
+0.24
+
+Note: The unit of observation is state-based conflict in a given territory. The Continent FEs include Africa, Europe, Asia,
+Oceania, and the Americas,. The set of legal origin dummies includes two indicators for British and French legal origins, and
+the set of colonial history dummies includes three indicators for experience as a colony of the U.K., France, and any other
+major colonizing power.
+*** Statistical significance at the 1% level, ** at the 5% level, and * at the 10% level, all for two-sided hypothesis tests
+
+Column 2 considers the potential influence of a nation’s resource endowment; yet, the coeffi-
+
+cient of interest remains both qualitatively and statistically significant. Column 3 includes
+
+an additional array of geographic covariates. I specifically accounted terrain ruggedness,
+
+elevation proximity to the nearest waterways, and an indicator for island nations. Column
+
+(4) introduces the full suite of baseline controls—natural resource endowment, geographic
+
+features, institutional history, and continent fixed effects. Under this full specification, mov-
+
+ing from the 10th to the 90th percentile of coconut suitability corresponds to a 70.1% SD
+
+increase in the likelihood of ongoing civil conflict. The findings from column (5-8) are
+
+structured similarly to that of column (1-4). The findings from column 5 portray that the
+
+relationship between coconut endowment and the onset of state-based conflict is positive not
+
+statistically different from zero. However, when geographical and full baseline controls are
+
+incorporated (Columns 7 and 8), the relationship becomes statistically significant. Figure 4
+
+visually illustrates the conditional relationship between coconut suitability and conflict. Panel
+
+(a) includes continent fixed effects, while panel (b) further adjusts for geographic covariates.
+
+In both cases, the estimated effects lie within the 95% confidence interval, consistent with
+
+the regression results in Table 1.
+
+Endogenous coconut suitability. The preceding results are, at best, correlational. As
+with any empirical study, I cannot completely rule out the potential endogeneity of coconut
+
+suitability and conflict. The most obvious concern is the reverse causation from violent
+
+of the coefficient is computed as; β∗
+
+1 =
+
+ˆβ1
+SD ¯y
+
+22
+
+(a) Coconut suitability and civil conflict incidence -
+conditional on continental dummies
+
+(b) Coconut suitability and civil conflict incidence -
+conditional on geographic factors and continental dum-
+mies
+
+Figure 4. Note: Visual depiction of coconut—conflict relation
+
+conflict to the destruction of land area that may be suitable for agricultural activity.21 Hence,
+
+direction of this potential bias is likely negative. Thus, the potential bias from reverse
+
+causation is negative. A simple falsification test by regressing coconut suitability on conflict
+
+revealed a positive association, suggesting that the reverse causation is unlikely.
+
+Regardless, endogeneity issues may still persist from instances such as measurement errors.
+
+The satellite-derived agro-ecological data (here GAEZ), while globally consistent, may still
+
+suffer from systematic measurement error due to cloud cover, outdated input layers, or
+
+algorithmic smoothing, especially in regions with limited data access. Another potential
+
+issue is that the relationship between coconut suitability and conflict may be shaped by a
+
+multitude of factors that are not fully captured in the model, especially in cross-country
+
+data where institutional, cultural, and historical differences can be profound. For instance,
+
+pre-existing ethnic or political tensions could all significantly influence both the development
+
+of coconut cultivation and the risk of conflict. To make progress, there is the need to isolate
+
+some variation in coconut endowment (i.e., the area of land with the potential of cultivating
+
+coconut), that is influenced by factors unrelated to the dynamics between coconut cultivation
+
+and conflict risk, ensuring that this variation is orthogonal to unobserved specific traits tied
+
+to conflict actors.
+
+To this end, I leverage on the GAEZ land classification into agro-ecological zones as an
+
+21 A striking example of this is the Gaza conflict, where, according to the United Nations Satellite Centre
+“Damage Assessment in the Gaza Strip” report, approximately 57% of Gaza’s agricultural land has been severely
+degraded as a result of ongoing violence.
+
+23
+
+AGOBDIBENBFABWACAFCIVCMRCOGDZAEGYERIETHGABGHAGINGMBGNBGNQKENLBRLBYLSOMARMDGMLIMOZMRTMWINAMNERNGARWASDNSENSLESOMTCDTGOTUNTZAUGAZAFZARZMBZWEALBAUTBELBGRBIHBLRCHECZEDEUDNKESPESTFINFRAGBRGRCHRVHUNIRLITALTULUXLVAMDAMKDNLDNORPOLPRTROMRUSSVKSVNSWEUKRAFGAREARMAZEBGDBTNCHNGEOIDNINDIRNIRQISRJORJPNKAZKGZKHMKORKWTLAOLBNLKAMMRMNGMYSNPLOMNPAKPHLPRKQATSAUSYRTHATJKTKMTURUZBVNMYEMAUSNZLPNGARGBLZBOLBRACANCHLCOLCRICUBDOMECUGTMGUYHNDHTIMEXNICPANPERPRYSLVURYUSAVEN-.20.2.4.6.8-10-50510AfricaEuropeAsiaOceaniaAmericas(Residual)Avg. conﬂict incidence (1961-2017)(Residual)Ln(1 + Coconut Area)AGOBDIBENBFABWACAFCIVCMRCOGDZAEGYERIETHGABGHAGINGMBGNBGNQKENLBRLBYLSOMARMDGMLIMOZMRTMWINAMNERNGARWASDNSENSLESOMTCDTGOTUNTZAUGAZAFZARZMBZWEALBAUTBELBGRBIHBLRCHECZEDEUDNKESPESTFINFRAGBRGRCHRVHUNIRLITALTULUXLVAMDAMKDNLDNORPOLPRTROMRUSSVKSVNSWEUKRAFGAREARMAZEBGDBTNCHNGEOIDNINDIRNIRQISRJORJPNKAZKGZKHMKORKWTLAOLBNLKAMMRMNGMYSNPLOMNPAKPHLPRKQATSAUSYRTHATJKTKMTURUZBVNMYEMAUSNZLPNGARGBLZBOLBRACANCHLCOLCRICUBDOMECUGTMGUYHNDHTIMEXNICPANPERPRYSLVURYUSAVEN-.50.51-10-50510AfricaEuropeAsiaOceaniaAmericas(Residual)Avg. conﬂict incidence (1961-2017)(Residual)Ln(1 + Coconut Area)instrument for land suitability for coconut. Specifically, I used the fraction of a country’s
+
+cropland that is classified as sub-humid tropical lowland as a source of exogenous variation
+
+in coconut suitability (section A-2 of the Appendix thoroughly discuss this approach). Table
+
+2 presents the findings on the causal investigation of the effect of coconut endowment on
+
+civil conflict via the 2SLS approach. Columns 1 and 4 replicates the Columns 4 and 8 of
+
+Table 1. The findings from Column 2 suggest even stronger effect of coconut suitability on
+
+ongoing civil conflict risk. On average, a 10% increase in coconut suitable land area raises
+
+the risk of ongoing civil armed conflict by approximately 0.22 pp. While the coefficient ˆβ1 in
+Column 2 represents a causal estimate, it may still be subject to a critical limitation. Although
+
+the instrument—the proportion of a country’s arable land classified as sub-humid tropical
+
+lowland—is conceptually sound, its validity could be compromised if it correlates with
+
+unobserved determinants of the outcome through the suitability of other crops cultivated in
+
+these regions. To address this concern, Column 3 incorporates controls for the suitability of
+
+cropland for key alternative commodities that thrive in sub-humid tropical lowland zones,
+
+namely banana, sweet potatoes, wetland rice, oil palm, and rubber plantations. Reassuringly,
+
+the causal effect remained similar (even stronger than in column 2). On the other hand, the
+
+investigation of coconut endowment as a potential (causal) predictor of civil conflict onset
+
+affirm the suspicion that the already established somewhat statistical association in Table 1
+
+is not causal (as presented in columns (5-6)) of Table 2).
+
+4.3 Sensitivity Analysis
+
+This sub-layer of the cross-country analysis is dedicated to the examination of the extent to
+
+which the results remain resilient to a large battery of sensitivity checks.
+
+4.3.1 Alternative Definition of Coconut endowment and cutoffs
+
+The tests begins by subjecting the documented results to alternative definitions and thresholds
+
+of coconut endowment measure. While suitability remains a theoretically appealing measure
+
+due to its exogeneity and relative immutability over time, it is still crucial to verify whether
+
+the documented relationship holds when employing alternative conceptualizations of coconut
+
+endowment. The study thus introduce two alternative measures—potential production and
+
+potential yield. These two definitions complements the documented baseline results in the
+
+following way;
+
+Potential production reflects not only the land area suitable for coconut cultivation but
+
+24
+
+Table 2. The Impact of Coconut on Civil Conflict Incidence across Countries - The Baseline Results
+
+Ln[1 + coconut area]
+
+Natural resource control
+Geographic controls
+Suitability of related commodities
+Legal origin
+Colonial history
+Continent FE
+
+10th–90th % move in coconut suitability
+
+Observations
+Adjusted R2
+
+FIRST STAGE RESULTS
+
+Sub-humid tropics cropland share
+
+First-stage F statistic
+
+Civil Conflict
+
+Avg. Incidence
+(2)
+
+(1)
+
+(3)
+
+(4)
+
+Freq. Onset
+(5)
+
+(6)
+
+0.013**
+(0.0055)
+
+0.023** 0.028**
+(0.012)
+(0.011)
+
+0.065*
+(0.034)
+
+0.034
+(0.060)
+
+0.0097
+(0.066)
+
+Yes
+Yes
+No
+Yes
+Yes
+Yes
+
+Yes
+Yes
+No
+Yes
+Yes
+Yes
+
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+
+0.12**
+(0.052)
+148
+0.25
+
+0.21**
+(0.10)
+148
+
+0.26**
+(0.11)
+148
+
+Yes
+Yes
+No
+Yes
+Yes
+Yes
+
+0.61*
+(0.32)
+148
+0.24
+
+Yes
+Yes
+No
+Yes
+Yes
+Yes
+
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+
+0.32
+(0.56)
+148
+
+0.091
+(0.62)
+148
+
+12.5*** 12.5***
+(1.48)
+(1.48)
+37.4
+42.7
+
+12.5*** 12.5***
+(1.48)
+(1.48)
+37.4
+42.7
+
+Note: The unit of observation is state-based conflict in a given year. The Continent FEs include Africa,
+Europe, Asia, Oceania, and the Americas,. The set of legal origin dummies includes two indicators for
+British and French legal origins, and the set of colonial history dummies includes three indicators for
+experience as a colony of the U.K., France, and any other major colonizing power. The instrumental
+variable: Sub-Humid Tropics Cropland Share is the fraction of cropland in sub-humid tropical lowland
+area.
+*** Statistical significance at the 1% level, ** at the 5% level, and * at the 10% level, all for two-sided
+hypothesis tests
+
+also incorporates projections of attainable output per unit of land under specific agronomic
+
+conditions, thereby accounting for variations in agricultural productivity.22 On the other
+
+hand, potential yield is a measure of agronomic productivity on a per-hectare. Hence reflects
+
+the intensity rather than the extensiveness of coconut cultivation opportunities. In addition,
+
+the analysis will also consider varying suitability and productivity thresholds. In doing so the
+
+study assess whether the central findings—are not merely artifacts of the specific measure of
+
+coconut endowment employed.23
+
+Reassuringly, the estimates across specifications remains stable to the choice of coconut
+
+measure and thresholds. The coefficient is robust within the range [0.013-0.019] and
+
+22 In many ways it represents a more direct proxy of the value or rents potentially extractable from coconut
+
+cultivation.
+
+23 Varying the threshold also ensures that the results are not unduly influenced by technological advancements,
+such as the development of high-yield coconut varieties. The 20% cutoff means examining land that can
+produce at least 20 percent of its potential under low-input conditions, which represents the lowest threshold
+that can be reasonably applied.
+
+25
+
+Table 3. Robustness to Alternative Use of Coconut Endowment Definition and Cut-offs
+
+Low input
+
+Low input intensity
+intensity & 40% intensity & 40% intensity & 40% intensity & 20% intensity & 20% intensity & 20% & Highest occurring
+yield in spatial unit
+suitability cutoff production cutoff
+
+suitability cutoff production cutoff
+
+yield cutoff
+
+yield cutoff
+
+Low input
+
+Low input
+
+Low input
+
+Low input
+
+Low input
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+(7)
+
+Dependent variable:
+Ln[1 + coconut]
+
+0.013**
+(0.0059)
+
+0.018**
+(0.0082)
+
+0.016**
+(0.0069)
+
+0.013**
+(0.0059)
+
+0.019**
+(0.0085)
+
+0.015**
+(0.0071)
+
+0.016**
+(0.0074)
+
+Avg. Civil Conflict Incidence (1961–2017)
+
+Baseline Controls
+Suitability of related commodities
+Legal origin
+Colonial history
+Continent FE
+
+10th–90th % move in coconut measure
+
+Observations
+Adjusted R2
+
+Yes
+Yes
+Yes
+Yes
+Yes
+
+0.12**
+(0.055)
+148
+0.34
+
+Yes
+Yes
+Yes
+Yes
+Yes
+
+0.13**
+(0.058)
+148
+0.34
+
+Yes
+Yes
+Yes
+Yes
+Yes
+
+0.12**
+(0.054)
+148
+0.35
+
+Yes
+Yes
+Yes
+Yes
+Yes
+
+0.13**
+(0.055)
+148
+0.34
+
+Yes
+Yes
+Yes
+Yes
+Yes
+
+0.13**
+(0.060)
+148
+0.35
+
+Yes
+Yes
+Yes
+Yes
+Yes
+
+0.12**
+(0.056)
+148
+0.34
+
+Yes
+Yes
+Yes
+Yes
+Yes
+
+0.12**
+(0.054)
+148
+0.34
+
+Note:
+*** Statistical significance at the 1% level, ** at the 5% level, and * at the 10% level, all for two-sided hypothesis tests
+
+significant at the 5% level. Moreover, graphical illustrations in Figure 5 further strengthen
+
+the interpretation of these results. The scatter plots depicting various definitions of coconut
+
+endowment consistently reveal a clear, positive slope. Additionally, the distribution of data
+
+points around the regression line suggests that the relationship is not driven solely by outlier
+
+countries or specific geographic regions, but rather reflects a broad, generalizable pattern.
+
+(a) Suitability (y ≥ 0.4 · Ymax)
+
+(b) Production (y ≥ 0.4 · Ymax)
+
+(c) Yield (y ≥ 0.4 · Ymax)
+
+(d) Suitability (y ≥ 0.2 · Ymax)
+
+(e) Production (y ≥ 0.2 · Ymax)
+
+(f ) Yield (y ≥ 0.2 · Ymax)
+
+Figure 5. Sensitivity of coconut—conflict relationship to alternative definition of coconut endowment.
+Note: figure shows the cross country relationship between coconut endowment and civil conflict from
+Table 3.
+
+26
+
+4.3.2 Coconut and Historical Conflict
+
+The various case studies and qualitative narratives surrounding coconut and conflict suggest
+
+that the global surge in demand for coconut, particularly from the mid-19th to early 20th
+
+century, transformed what was once a modest agricultural commodity into a highly profitable
+
+cash crop. This shift led to greater market dependence, which, in turn, intensified the
+
+economic value of coconut cultivation (Cerepak, 2019). A falsification test is conducted
+
+to validate this hypothesis by examining the relationship between coconut suitability and
+
+historical conflict during periods before the surge in global demand for coconut (1400-1799).
+
+The logic is that before the crop gained economic importance, market pressures and the
+
+potential for conflict over coconut-related resources were minimal, and hence, no significant
+
+relationship should exist.
+
+Table 4. Placebo Test on Historical Conflict
+
+Dependent vars.
+
+Ln[1 + coconut]
+
+Baseline Controls
+Suitability of related commodities
+Legal origin
+Colonial history
+Continent FE
+Observations
+Adjusted R2
+
+Number of conflict Number of conflict Number of conflict Number of conflict Number of conflict
+(1600-1699)
+
+(1400-1499)
+
+(1500-1599)
+
+(1400-1799)
+
+(1700-1799)
+
+(1)
+
+0.087
+(0.32)
+
+Yes
+Yes
+Yes
+Yes
+Yes
+148
+0.26
+
+(2)
+
+−0.011
+(0.36)
+
+Yes
+Yes
+Yes
+Yes
+Yes
+148
+0.26
+
+(3)
+
+0.16
+(0.19)
+
+Yes
+Yes
+Yes
+Yes
+Yes
+148
+0.18
+
+(4)
+
+0.064
+(0.10)
+
+Yes
+Yes
+Yes
+Yes
+Yes
+148
+0.40
+
+(5)
+
+0.087
+(0.32)
+
+Yes
+Yes
+Yes
+Yes
+Yes
+148
+0.26
+
+Note:
+*** Statistical significance at the 1% level, ** at the 5% level, and * at the 10% level, all for two-sided hypothesis tests
+
+Table 4 presents the results of this placebo test using historical conflict data from (Brecke,
+
+1999). The coefficients for coconut suitability in the periods 1400-1499, 1500-1599, 1600-
+
+1699, and 1700-1799 are all statistically insignificant, suggesting no systematic relationship
+
+between coconut endowment and conflict during these earlier periods. This absence of a
+
+relationship serves as strong evidence that the observed conflict relation are unlikely to be
+
+spurious or coincidental but rather by the economic transformation of coconut cultivation in
+
+later periods, arguably after World War II and during the era of rapid industrialization.
+
+4.3.3 Other robustness checks
+
+I performed a set of supplementary robustness checks, which are comprehensively detailed
+
+in the appendix file. A comprehensive series of sensitivity analyses to confirm the robustness
+
+of the established results. (i) I first checked the resilience of the results to a set of historical
+
+determinants of growth (presented in Section A-3); (ii) I then checked whether the results
+
+27
+
+are not driven by historical agricultural timing (Section A-4); (iii) I also accounted for a
+
+slew of deep-seated geographical and civilization legacies (Section A-5); (iv) and finally
+
+I incorporate a set of diversity measures in hope to minimize the lurking effect of ethnic
+
+divisions (Section A-6). Reassuringly, subjecting the documented results to these set of
+
+additional controls did not significantly alter the results qualitatively and statistically.
+
+5 Coconut Endowment and Cell Level Conflict
+
+Shifting focus from cross-country comparisons, this section delve deeper into the relationship
+
+between coconut endowment and conflict by examining its impact at a more granular level.
+
+Specifically, I conducts a cell-level analysis to better capture and understand the localized
+
+dynamics between coconut and conflict. The unit of analysis consists of cells measuring
+
+0.5 × 0.5 degrees of latitude and longitude, which correspond to approximately 55 km by
+55 km at the equator.24 However, due to limited data availability, this analysis cannot be
+applied on a global scale.25 Therefore, this section of the study narrows its scope to a specific
+
+region—Southeastern Asia and Oceania—where both the availability of relevant data and
+
+the relationship between coconut endowment and conflict are better suited (See Figure SB1
+
+of the supplementary file for the country division into standardized grid cells). This level
+
+enables the investigation to distinguish the localized impact of coconut on conflict within
+
+granular cells rather than across nations, hence enhancing the understanding of the intricate
+
+interactions between coconut endowment and civil conflict risks.
+
+5.1 Data Sources and Description
+
+5.1.1 Cell-level Conflict Measure
+
+The study used two large geospatial datasets on violent events: the Armed Conflict Location
+
+and Event Dataset (ACLED) Raleigh and Dowd (2015) and the UCDP Geo-referenced Event
+
+Dataset (UCDP-GED) Sundberg and Melander (2013). The primary conflict dataset used
+
+for this section is UCDP-GED26, which provides spatially and temporally precise records
+
+24 Note that in assigning border cells, the study assigns the country that represents the greatest share of their
+
+area.
+
+25 Dividing the global sample into 55 km cells reveals that only about 2.3% of the cells are classified as
+
+coconut-suitable, with 13.5% when including Africa in the delineated study area.
+
+26 There are two primary reason for the use of UCDP-GED as the main conflict data, (i) its clear definition of
+what a state is and (ii) it covers conflicts from 1989 to date whereas ACLED data exists for the selected regions
+for conflicts recorded from 2010.
+
+28
+
+of organized violence worldwide. The Uppsala collects the date, location (latitude and
+
+longitude), and attributes of individual conflict events from verified reports such as news
+
+agencies, non-governmental organizations, and historical archives from 1989 to date. A
+
+key strength of this data is its systematic inclusion of events involving state or non-state
+
+actors. To test the nature and type of state-based conflict at the local level, the study also
+
+incorporated the ACLED database. ACLED tracks violent events (either political violence,
+
+demonstration, and strategic development) in real time, recording geolocation data along
+
+with details such as the involved actors, dates, and the nature of conflicts. The analysis
+
+focus on events categorized by ACLED as "violent events", which includes battles, explosions,
+
+violence against civilians, riots, protests27 and strategic development events.
+
+While both datasets capture violent events, the study focuses primarily on civil conflict, which
+
+is defined as internal conflict where one party is always the state without any support from
+
+foreign forces. A distinction between the datasets arises in the way conflicts are categorized.
+
+UCDP-GED offers a clear definition of state-based conflicts, whereas ACLED has a broader
+
+and more flexible approach to categorizing violent events. For the purpose of this study,
+
+only those events in ACLED where one actor is the state28 or its affiliates (such as political
+
+militias) and the opposing actor is an organized or non-organized non-governmental body
+
+were included. Another notable distinction between these two datasets is that, in contrast
+
+to UCDP, which links a conflict to a battle-related death threshold and a "organized actor"
+
+condition, ACLED does not impose any of these requirements. It is worth mentioning that all
+
+efforts are undertaken to document state-based conflicts across the two datasets; however, as
+
+noted by (McGuirk and Burke, 2020), UCDP’s methodology is especially adept at identifying
+
+conflicts in which organized groups (one side being the state) compete for territorial control
+
+or essential production resources—a vital dimension of civil conflict analysis.
+
+As previously indicated, the unit of observation is at the cell level, thus I collapsed the data
+
+to raster grids containing annual observations for cells at a 0.5◦ resolution (30 arc-minute).
+
+The study incorporates only geolocalized conflict events with the finer precision level for the
+
+analysis. Panels (a) and (c) of figure 6 presents the location of the various conflict events
+
+included included in the study and panels (b) and (d) presents the frequencies of specific
+
+27 Protests where violence (either lethal or non-lethal but forced suppression are included as violent events)
+28 "ACLED defines a state expansively, encompassing any collective actor (e.g., military, police) performing
+regime-specific governance functions over a territory. In contrast, UCDP employs a stricter criterion, defining a
+’state’ as an internationally recognized governments or sovereign entities exercising unambiguous territorial
+control and institutional authority."
+
+29
+
+events occurring in each 30 arc minutes.29 Out of 2,668 cells across 36 countries, the study
+
+classifies ∼12.4% (from UCDP-GED) and ∼21.2% (from ACLED) as experiencing at least one
+
+state-based violent event.
+
+(a) Type of Violent Event (1989-2019)
+
+(b) Number of Violent Event in Cell (1989-2019)
+
+(c) Type of Violent Event (2010-2019)
+
+(d) Number of Violent Event in Cell (2010-2019)
+
+Figure 6. Distribution of State-Based Violent Events in Southeastern Asia and Oceania
+
+5.1.2 Cell-level Coconut Measure
+
+In the previous section of the paper (section 4), coconut endowment was defined only by
+
+location. However, this section expands the definition to encompass both spatial and temporal
+
+dimensions.
+
+Spatial dimension of coconut measure: Consistent with prior methodology, the study
+continues to rely on the GAEZ crop suitability dataset, which provides comprehensive cover-
+
+age at both macro (country—level) and micro (spatially—disaggregated fine—resolution)
+
+29 Note: Due to the presence of small islands and their spatial distributions so its not optimal to visualize the
+
+full extent of the study area.
+
+30
+
+scales. GAEZ provides results of sub-national assessment of crop suitability in a regular
+
+raster format of 5 arc-minute resolution covering the whole world, roughly 9 × 9 km cells
+
+at the equator. FAO estimates the potential yield of each crop within individual grid cells
+
+by integrating a suite of climatic variables (for details, refer to subsection 4.1.2) alongside
+
+assumptions regarding crop management practices and input levels. Through subsequent
+
+analytical processing, FAO derives constraint-free yield potentials30 for each crop, then ex-
+
+presses the attainable production of each grid cell as a percentage of this benchmark value.
+
+The suitability index ranges from 0 (unsuitable) to 10000 (very suitable). The study contin-
+
+ues to rely on the rain-fed and low-input intensity GAEZ model, thereby isolating the effects
+
+of inherent agro-ecological conditions from those influenced by agricultural intensification
+
+or irrigation technologies.
+
+Figure 7. Cell level Coconut Suitability
+
+Given that the GAEZ 5 arc-minute resolutions are finer than the PRIO-grid cells employed in
+
+the study, I measure coconut suitability at the cell level as the average suitability measure of
+
+land within the cell. Figure 7 presents a visualization of the rasterization to 0.5◦ resolution of
+
+coconut suitability. In the map, more suitable cells are indicated with a darker green shape.
+
+For presenting purposes, the suitability metric is normalized to a range of 0 to 1 (by dividing
+
+by 10000). Approximately 69.3% of the sampled area is classified as suitable for coconut
+
+cultivation. The average value of coconut suitability measure in the sample is 0.23.
+
+Temporal dimension of coconut measure: Undeniably, coconut is a quintessential tropical
+
+30 Constraint-free implies an idealized estimate of crop yield potential under optimal conditions (including
+
+thermal regime, moisture deficits, agro-climatic constraints, and soil/terrain limitations)
+
+31
+
+commodity, deeply ingrained in the socioeconomic and cultural fabric of producing nations.
+
+While it’s revered as a staple commodity for local consumption—its economic benefits extends
+
+far beyond subsistence. Coconut is a versatile industrial commodity—presently, every part
+
+of the coconut plant is useful for something, even the husk: its derivatives—ranging from
+
+virgin coconut oil (VCO) and biofuels to coir fibers and activated carbon—cater to growing
+
+worldwide markets in cosmetics, renewable energy, and manufacturing. In sum, there is a
+
+growing recognition of the commodity as a highly lucrative and thriving market. For instance,
+
+according to market analysis by Research and Markets (2024), the global virgin coconut oil
+
+(VCO) market expanded from $5.90 billion in 2023 to $6.19 billion in 2024. Projections
+
+indicate sustained growth at a compound annual growth rate (CAGR) of 6.41%, with the
+
+market expected to attain a valuation of $9.11 billion by 2030.
+
+An important aspect of modeling the consequence of this lucrative cash-crop commodity
+
+stems from a number of qualitative narratives that have started underpinning that farmers
+
+are attracted to coconut cultivation due to the prospect of stable and long-lasting finan-
+
+cial returns.31 As such, price of coconut-related products is considered for the temporal
+
+dimension of coconut measure. To isolate the effects of global market forces from localized
+
+determinants of civil unrest, this study employs international export prices of coconut-derived
+
+commodities. As stressed throughout the study, data rarely exists. The study thereby adopts a
+
+methodological framework akin to (Bazzi and Blattman, 2014), constructing a standardized
+
+price index tailored to coconut. Section B-2 of the Appendix provides details for the price
+
+index construction.32
+
+5.2 Identification Strategy
+
+To estimate the impact of coconut endowment on civil conflict, the study relies on the
+
+methodology inspired by (Dube and Vargas, 2013; Berman et al., 2017; Girard et al., 2022).
+
+It rests on leveraging exogenous variation in the economic value of coconut cultivation
+
+induced by international price movements. The approach exploits exogenous variation in the
+
+31 A qualitative assessment indicates that Nigeria may generate over N20 billion annually from coconut
+derivatives, with a 10-hectare hybrid coconut farm potentially yielding between N16 million and N20 million
+each year for the next 30 to 60 years (Tajusso, 2023).
+According to a related report, the global coconut market is already worth $14 billion and is predicted to expand
+by around 7% annually over the next several years (Agricultural Business, 2025).
+
+32 The study contends that coconut producers, like cocoa growers, predominantly operate as smallholder
+farmers. This structural characteristic inherently limits their bargaining power in global commodity markets,
+rendering them price takers (Zakiah et al., 2021). This notion is rooted in the standard microeconomic model
+of perfect competition, where atomistic producers may face perfectly elastic demand curves (Varian, 2014).
+
+32
+
+economic returns to coconut cultivation generated by international price shocks. The premise
+
+is that global demand-driven price fluctuations for coconut derivatives create localized
+
+rent-seeking opportunities, thereby exacerbating the likelihood of violence.33 The main
+
+specification for this layer of the analysis is presented below:
+
+Yc,i,t = α1 (CSc × lnP w
+
+t ) + ϕ′Xc,t + FEc + FEi,t + εc,i,t.
+
+(2)
+
+Where Yct represents the violent conflict outcome variable for cell c in year t, operationalized
+either as: (i) a binary indicator Yct ∈ {0, 1} where Yct = I(≥ 1 violent event/fatality occurs in
+c during t), or (ii) an event/fatality count Yct ∈ Z≥0 of total violent (fatal) incidents per
+cell-year. The later when expressed in terms of fatalities is the preferred measures intensity
+
+level of a cell-year violent events.
+
+The coefficient of primary interest, α1, captures the impact of the interaction between
+). This parameter captures
+coconut suitability (CSc) and the log international price (ln P w
+t
+how exogenous coconut price fluctuations affects the relationship between agro-ecological
+
+potential for coconut cultivation and local violence patterns.34 The specification in equation 2
+
+rests on two important assumptions; (i) orthogonality of external commodity shock (changes
+
+in international price) to local conflict determinants and (ii) within-cell panel variation
+
+derives from movements in global coconut prices, while controlling for a rich battery of
+
+time-varying country-level unobservable (FEit) and cell-specific fixed effects (FEc).
+
+FEc accounts for the main effect of coconut suitability as well as any local feature (cell-
+level time invariant characteristics), such as remoteness, weather shocks or geographic
+
+attributes. Importantly, the FEit absorbs the international coconut price shock and any
+year-specific, country-specific, as well as any time-varying changes in each country (e.g.,
+
+institutional/political changes and labour market regulations). The drawback of this approach
+
+is that it could result in attenuation bias by controlling for important channels that explain
+
+coconut—conflict relation. Across specifications standard errors are clustered at the cell level.
+
+While this specification is preferred over conventional econometric approaches due to its
+
+comprehensive fixed effects structure, potential bias may persist if unobserved cell-varying
+
+factors that affect coconut—conflict relationship in non-trivial way. In this regards, some
+
+33 A data-driven visual inspection lend credence to this assertion, thereby providing a sound theoretical
+
+justification of the approach (See section B-1 appendix file for details).
+
+34 Formally, α1 represents how violence risk changes (marginally) with the economic value of suitable land
+(cid:12)
+(cid:12)
+(cid:12)
+(cid:12)Xct,FE
+
+when there is global coconut price shocks:
+
+∂Yct
+∂(CSc×ln P w
+t )
+
+33
+
+efforts are made to explicitly control for some key cell-varying characteristics Xct; including
+gold mines (a competing land-use driver of violence) and drought exposure (standardized
+
+precipitation index).
+
+While the global coconut price index ln P w
+t
+
+is treated as exogenous under reasonable as-
+
+sumptions, two limitations warrant discussion: (i) The price index is derived using export
+
+price data from Indonesia and Philippines and hence may not fully reflect global price dy-
+
+namics (especially if these two countries or the other countries in the sample systematically
+
+experience some idiosyncratic supply shocks) and (ii) several sampled countries (e.g., India,
+
+Sri Lanka, Indonesia) account for non-trivial share in global coconut export, hence could
+
+potentially influence global prices of coconut—derivatives, consequently making this index
+
+endogenous (i.e., Cov (ln P w
+
+t , εct | Xct, FE) ̸= 0). I demonstrate that this potential concern
+may have minimal effect on the documented results. This is done by testing the stability of
+
+the results to exclusion of cells located in Indonesia and Philippines from the sample and
+
+also test the robustness of the results to the exclusion of any country in the sample that falls
+
+within the top 10 world producers in the sample.35 Nevertheless, readers should interpret
+
+the results under the light of this caveat.
+
+6 Empirical Results
+
+This section presents the core empirical findings on the relationship between coconut culti-
+
+vation and intrastate conflict. The examination begins with establishing the overall causal
+
+relationship between coconut relationship between coconut and intrastate conflict events at
+
+the subnational level. Following the UCDP classification framework, the study distinguish
+
+between state-based and non-state conflict events. Subsequently, I characterize the specific-
+
+nature of coconut-induced violence. Finally, we quantify the intensity of conflict attributable
+
+to coconut suitability.
+
+6.1 Baseline Results
+
+Table 5 presents the summary of the results for external price shock for the most conservative
+
+estimates at the cell-level as well as the full specification. The parsimonious specification
+
+(Column 1), which accounts for unobserved spatial and temporal heterogeneity through cell
+
+and country-year fixed effects, reveals that coconut-suitable regions experience a statistically
+
+35 See (Berman et al., 2017) for a similar procedure in the context of mines and conflict.
+
+34
+
+significant increase in state-based conflict risk following international coconut price surges.
+
+This positive association persists both in magnitude and significance when controlling for
+
+additional geographic confounders including drought exposure and gold deposits in Column
+
+2. Even when a more stringent PRIO-25-battle-deaths threshold is applied (Column 3), the
+
+results remain stable, though with attenuated magnitude.
+
+Table 5. COCONUT SUITABILITY AND VIOLENT CONFLICT: BASELINE - SUBNATIONAL LEVEL
+
+Source
+
+Dependent variable
+
+Battle threshold
+
+coconut suitable × ln price
+
+t
+
+drought
+
+gold deposit × ln price
+
+g
+
+UCDP-GED Violent Event Yct = I(≥ 1)
+
+State-Based Conflict
+
+Crude
+
+(1)
+
+0.0140∗∗∗
+(0.0050)
+
+(2)
+
+0.0196∗∗∗
+(0.0054)
+
+0.1076
+(0.5795)
+
+0.0211
+(0.0180)
+
+Prio-25
+
+(3)
+
+0.0067∗∗∗
+(0.0026)
+
+-0.0032
+(0.2319)
+
+0.0002
+(0.0008)
+
+(4)
+
+0.0008
+(0.0009)
+
+Non-State Conflict
+
+Crude
+
+(5)
+
+0.0002
+(0.0014)
+
+0.1502
+(0.2529)
+
+0.0007
+(0.0012)
+
+Prio-25
+
+(6)
+
+-0.0007
+(0.0008)
+
+0.3780∗∗
+(0.1759)
+
+0.0005
+(0.0006)
+
+Cell FE
+Country × Year FE
+Dependent var. mean (sd) 0.021 (0.144) 0.019 (0.137) 0.002 (0.049) 0.002 (0.043) 0.002 (0.047) 0.001 (0.026)
+Observations
+R2
+
+62,208
+0.14164
+
+82,181
+0.34241
+
+62,208
+0.06816
+
+62,208
+0.32513
+
+62,208
+0.13367
+
+82,181
+0.11626
+
+Yes
+Yes
+
+Yes
+Yes
+
+Yes
+Yes
+
+Yes
+Yes
+
+Yes
+Yes
+
+Yes
+Yes
+
+Note: LPM estimations. The unit of analysis is the grid cell, with standard errors clustered at the cell level to account for
+within-unit correlation. The dependent variable is a binary indicator of violent conflict occurrence, defined as at least one fatal
+event per cell-year. Columns (1)-(2) and (4)-(5) utilize a threshold of ≥ 1 battle-related death, while Columns (3) and (6)
+apply the PRIO-25 coding convention. The most parsimonious specification incorporates 2,651 cell fixed effects and 1,116
+country × year fixed effects to control for unobserved spatial and temporal heterogeneity.
+*** Statistical significance at the 1% level, ** at the 5% level, and * at the 10% level, all for two-sided hypothesis tests
+
+To assess the magnitude of the price variation, lets consider that in Column 2 we have a fully
+
+coconut-suitable grid cell (CS=1): a 10% increase in the world price of coconut derivatives
+
+corresponds to a 0.19pp increase in conflict probability (0.0196 × ln(1.10) ∼ 0.00187).
+
+This represents about 8.9% relative increase from the average civil conflict incidence of
+
+2.1% (0.00187/0.021 × 100). While this effect is substantial, it remains within a moderate
+
+range, demonstrating that coconut cultivation has had a significant impact on escalating
+
+conflict risk. However, I argue that this quantitative impact likely reflect lower-bound
+
+estimates due to the use of coconut suitability rather than actual production data. This
+
+measure likely includes areas that may be marginally productive or uncultivated, where
+
+price shocks likely have weaker effects, resulting in a downward bias. In Columns (4-6), the
+
+dependent variable is non-state-based conflict. We see that in all columns, the interaction
+
+term (coconut suitability×lnP w
+t
+
+) shows economically negligible and statistically insignificant
+
+coefficients, suggesting coconut endowment is unrelated to local non-state conflicts such as
+
+communal violence.
+
+35
+
+Figure 8. Effect of coconut-related prices on state-based insurrection rate. Panel (a) and (b) visualize
+the results of columns (2) and (3) of Table 5. Note: The predicted probabilities illustrate how a 10%
+increase in the world price index of coconut affects the likelihood of state-based violence, stratified
+by varying levels of suitability. The magnitude of the price fluctuation on violence risk is computed by
+Risk Ratio = (Log(1.10) × α1 × CSc) × 100. The shaded areas show 95 percent confidence intervals.
+
+In figure 8, I showed how price fluctuation (here 10% increase in world export price of
+
+coconut) impacts the predicted risk of state-based internal conflict across different levels of
+
+coconut suitability. The risk rises more sharply in areas with higher suitability, indicating
+
+that price shocks have a greater effect on conflict likelihood where coconut is likely to be
+
+cultivated intensively.
+
+6.2 Coconut Suitability and Conflict Typology
+
+Having established that an increase in the value of potential coconut cultivation induced by
+
+increased global demand leads to increased risk of armed (state) insurgence, the study dive
+
+deeper to establish what kind of conflict is induced by this agricultural richness. The findings
+
+from this and subsequent section focus solely on state-based conflict. I start of this empirical
+
+inquiry by leveraging on the rich set of violence attributes from the UCDP-GED and ACLED
+
+database. The investigation begins with exploring the motives of the contestation as defined
+
+by UCDP (i.e., whether conflict is over governance or territory).
+
+6.2.1 Territorial vs. Governmental Conflict Dimensions
+
+Table 6 shows the results of the investigation into whether the underlying contestation is
+
+over territory or governance. The dependent variable in Columns (1-2) is territorial conflict.
+
+Specifically, the interaction between coconut suitability and lnPt is positive and significant
+(with marginal coefficients around 0.0186 and 0.0219; respectively). The findings suggest
+
+36
+
+that increased price of coconut-derivatives incites competition for coconut suitable lands,
+
+creating strife between the state and organized groups.
+
+Table 6. COCONUT SUITABILITY AND VIOLENT EVENT TYPE
+
+Dependent variable
+
+State-Based Violence
+
+Territory
+
+Government
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+coconut suitable × ln price
+
+t
+
+0.0186∗∗∗
+(0.0041)
+
+drought
+
+gold deposit × ln price
+
+g
+
+0.0219∗∗∗
+(0.0043)
+
+0.0302
+(0.5174)
+
+0.0211
+(0.0179)
+
+-0.0045
+(0.0029)
+
+-0.0013
+(0.0033)
+
+0.0573
+(0.3015)
+
+0.0001
+(0.0002)
+
+Cell FE
+Country × Year FE
+Dependent var. mean (sd) 0.012 (0.103) 0.010 (0.101) 0.012 (0.102) 0.009 (0.095)
+Observations
+R2
+
+82,181
+0.11626
+
+62,208
+0.31987
+
+82,181
+0.32996
+
+62,208
+0.13367
+
+Yes
+Yes
+
+Yes
+Yes
+
+Yes
+Yes
+
+Yes
+Yes
+
+Note: *** Statistical significance at the 1% level, ** at the 5% level, and * at the 10% level,
+all for two-sided hypothesis tests
+
+Columns (3) and (4) present findings on conflicts over governance. The key coefficient
+
+of interest shows a negative but statistically insignificant relationship between coconut
+
+cultivation and state-based conflict over governance. The negative direction, though not
+
+statistically significant, offers subjective evidence that is often mentioned seldom in narratives.
+
+While coconut cultivation is viewed as a potentially lucrative market, it is also subject to
+
+unfavourable market conditions, which means that producers often rely on government
+
+support to break even. Given the null result, I refrain from over-interpreting the negative
+
+coefficient.
+
+6.2.2 Coconut and Type of Violent Event
+
+To further the investigation on the nature of coconut-induced intrastate civil conflict, I provide
+
+further results using the ACLED data. The findings are provided in two layers. The first
+
+layer considers a broader classification of conflict type by ACLED; demonstration, strategic,
+
+and political violence.36 In Column 1 of Table 7, I aggregated the aforementioned three
+
+classification of violent event. The findings suggest positive but null effect. The dependent
+
+variable in Column 2 is violent demonstration (which is defined as a public gatherings (at least
+
+3 persons) for violent protests or riots). The findings indicate a negative but again insignificant
+
+36 In all these classifications, I solely focused on violent events. For instance, peaceful protest is excluded
+
+from demonstration computation.
+
+37
+
+relation with coconut. This findings corroborate with prior evidence on contestation over
+
+governance (null impact was documented).
+
+Table 7. COCONUT SUITABILITY AND VIOLENT EVENT OBJECTIVE (2010-209)
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+# of Violent
+events
+
+# of Violent
+
+# of Violent
+
+# of Violent
+
+Demonstrations Political events Strategic Development
+
+coconut suitable × ln price
+
+t
+
+0.4732
+(0.3518)
+
+-0.0206
+(0.0290)
+
+Cell FE
+Country × Year FE
+Observations
+R2
+
+Yes
+Yes
+
+26,510
+0.33675
+
+Yes
+Yes
+
+26,510
+0.56646
+
+0.3961∗∗
+(0.1806)
+
+Yes
+Yes
+
+26,510
+0.26299
+
+0.0011
+(0.0359)
+
+Yes
+Yes
+
+26,510
+0.25677
+
+Note: *** Statistical significance at the 1% level, ** at the 5% level, and * at the 10% level, all for
+two-sided hypothesis tests
+
+Moving forward, the results presented in Column 3 suggest that coconut-induces violent polit-
+
+ical events (α1 = 0.39) at the 5% level.37 Finally, the examination of strategic developments—
+including military engagements and territorial changes—shows no evidence of association
+
+with coconut cultivation (Column 4). This pattern of results collectively suggests that
+
+coconut—related conflicts are particularly likely to emerge as organized political violence,
+
+while no significant relationship with other forms of conflict are documented.
+
+Although the preceding results are insightful, they may overlook important nuances in the
+
+types of conflict. To address this, the study further examines the nature of conflicts induced
+
+by the potential benefit of coconut cultivation. Specifically, it investigates various conflict
+
+at an even fine-grained classifications, including battles, explosions/remote violence, riots,
+
+protests, and violence against civilians. The findings indicate no significant effects for most
+
+of these subcategories, particularly riots, protests, and violence against civilians. However, at
+
+the 10% significance level, the analysis reveals that coconut cultivation is associated with an
+
+increase in battles and armed conflicts involving the use of explosions/remote violence (see
+
+Table 8).
+
+37 Political violence can be loosely defined as violent acts intended to achieve political objectives. It can
+range from armed clashes, change in territories between organized groups and government, assassinations or
+bombings.
+
+38
+
+Table 8. COCONUT SUITABILITY AND VIOLENT EVENT TYPE (2010-209)
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+Log[1 + # of Battle] Log[1 + # of Explosion Log[1 + # of Riots] Log[1 + # of Protests] Log[1 + # of Violence
+
+and Remote Events]
+
+against Civilians]
+
+coconut suitable × ln price
+
+t
+
+Cell FE
+Country × Year FE
+Observations
+R2
+
+0.0203∗
+(0.0121)
+
+Yes
+Yes
+
+26,510
+0.49116
+
+0.0107∗
+(0.0062)
+
+Yes
+Yes
+
+26,510
+0.48374
+
+-0.0062
+(0.0056)
+
+Yes
+Yes
+
+26,510
+0.32178
+
+0.0017
+(0.0060)
+
+Yes
+Yes
+
+26,510
+0.44805
+
+0.0178
+(0.0141)
+
+Yes
+Yes
+
+26,510
+0.49061
+
+Note: *** Statistical significance at the 1% level, ** at the 5% level, and * at the 10% level, all for two-sided hypothesis tests
+
+6.3 Coconut and Conflict Intensity
+
+The focus of the previous layers of the cell-level analysis was primarily focused on coconut
+
+suitability and the occurrence of violent event, ignited by world price variations. This section
+
+delves deeper into understanding how the economic value of coconut cultivation influences
+
+the intensity of conflict, expressed in terms of intensity. The study examined the various types
+
+of conflict actors classified by UCDP—such as civilians, government forces, and organized
+
+groups. The aim of this analysis is to provide a nuanced perspective on how coconut-induced
+
+violence manifests in terms of severity.
+
+The findings from Figure 9 suggest that an increase in the price of coconut-derivatives is
+
+related to an increase in the intensity of violent conflict in cells that suitable for cultivating
+
+this commodity. Specifically, a 1% increase in world price is related to a 0.049% increase in
+
+overall civil conflict intensity. Additionally, the findings highlight a significant heterogeneity
+
+in the effects of coconut-induced conflict intensity across different types of actors. For
+
+civilians, the effect is relatively modest, with a smaller increase in fatalities compared to
+
+other actors. In contrast, government forces experience a more substantial rise in conflict
+
+intensity. Organized groups show the most pronounced effect, suggesting that armed groups
+
+are particularly sensitive to the economic incentives created by increased coconut prices,
+
+potentially leading to more intense and frequent clashes with state forces.
+
+6.4 Heterogeneous Effects: Quality of Institutions
+
+So far, the study have carefully establish that indeed the rise in the value of coconut-derived
+
+commodity drives internal civil unrest, particularly in regions that produce the commodity
+
+intensely. In this subsection, I focus on heterogeneity analysis to address a key point raised
+
+in section 3.3 and highlighted in recent research (e.g., (Bazzi and Blattman, 2014; Gantier,
+
+39
+
+Figure 9. Coconut Suitability and Conflict Intensity. Note: This figure shows the results of the cell-level
+investigation of conflict intensity, expressed in terms of fatalities. It presents visual representation of
+the estimates of α1 in columns (3-6) of Table B1 in the Appendix file.
+
+2020)) — the role of institutional quality. This aspect is crucial for understanding the
+
+coconut-conflict link, as it subjectively points to a channel of persistence.38 To operationalize
+
+this, the study considered augmenting equation 2 to incorporate a triple interaction. The
+
+idea is that FEi,t already captures this institutional quality effects, hence, its impact can only
+be evaluated in this high-dimensional fixed effect specification through a triple interaction.
+
+The adopted specification is presented below:
+
+Yc,i,t = α1 (CSc × lnP w
+
+t ) + α2 (CSc × lnP w
+
+t × Z ′
+
+i,t−1) + ϕ′Xc,t + FEc + FEi,t + εc,i,t. (3)
+
+where (CSc × lnP w
+quality components Z ′
+
+t × Z ′
+
+i,t−1
+
+i,t−1) captures the triple interaction for the vector of institutional
+. I differ from the study by Gantier (2020); Berman et al. (2017)
+
+in that I employed a time-varying institutional quality measure whereas their study used a
+
+time-invariant measure. The data on conflict and coconut suitability are measured at the
+
+cell level and the data on institutional quality are only available at the country-level, as such
+
+in all estimation of equation 3, the standard errors are clustered at the cell and country level.
+
+A threat to this identification strategy is the possible reverse causation between political
+
+violence and institutional quality measures. To address this, all components of institutional
+
+38 Colonial legacies created extractive state institutions that weakened social cohesion and led to insurgencies.
+
+40
+
+quality index is lagged.39
+
+Table 9. COCONUT SUITABILITY, INSTITUTIONAL QUALITY AND VIOLENT CONFLICT
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+Panel A: Violent Event Yct = I(≥ 1)
+
+coconut suitable × ln price
+
+t
+
+× Government effectiveness
+
+× Political stability & absence of violence
+
+× Rule of law
+
+× Regulatory quality
+
+× Voice & accountability
+
+Observations
+R2
+
+coconut suitable × ln price
+
+t
+
+× Government effectiveness
+
+× Political stability & absence of violence
+
+× Rule of law
+
+× Regulatory quality
+
+× Voice & accountability
+
+Observations
+R2
+
+Cell FE
+Country × Year FE
+Cell-varying controls
+Multiple clustering
+
+0.0196∗∗∗ 0.0295∗∗∗ 0.0268∗∗∗ 0.0252∗∗∗
+(0.0059)
+(0.0042)
+
+(0.0081)
+
+(0.0064)
+
+0.0309∗∗∗
+(0.0087)
+
+0.0232∗∗∗
+(0.0062)
+
+0.0001
+(0.0026)
+
+-0.0057∗
+(0.0025)
+
+-0.0103
+(0.0084)
+
+-0.0061∗∗
+(0.0019)
+
+-0.0062∗∗∗
+(0.0018)
+
+62,208
+0.32513
+
+32,149
+0.40473
+
+32,149
+0.40482
+
+32,149
+0.40485
+
+32,149
+0.40481
+
+32,149
+0.40481
+
+Panel B: Log[1+ # of fatalities]
+
+0.0492∗∗∗
+(0.0143)
+
+0.0759∗∗
+(0.0274)
+
+0.0692∗∗∗ 0.0625∗∗∗
+(0.0154)
+(0.0203)
+
+0.0781∗∗
+(0.0286)
+
+0.0766∗∗
+(0.0270)
+
+-0.0023
+(0.0060)
+
+-0.0160
+(0.0118)
+
+-0.0340
+(0.0241)
+
+-0.0067∗∗∗
+(0.0017)
+
+62,208
+0.30297
+
+32,149
+0.39234
+
+32,149
+0.39249
+
+32,149
+0.39260
+
+32,149
+0.39236
+
+-0.0081∗∗
+(0.0028)
+
+32,149
+0.39237
+
+Yes
+Yes
+Yes
+Yes
+
+Yes
+Yes
+Yes
+Yes
+
+Yes
+Yes
+Yes
+Yes
+
+Yes
+Yes
+Yes
+Yes
+
+Yes
+Yes
+Yes
+Yes
+
+Yes
+Yes
+Yes
+Yes
+
+Note: The analysis employs a twoway clustering of standard errors at both grid-cell and country levels across
+all model specifications. The institutional controls, including rule of law, government effectiveness, regulatory
+quality, voice & accountability and political stability are part of the World Governance Indicators of the World Bank
+measuring a state’s institutional characteristics.
+*** Statistical significance at the 1% level, ** at the 5% level, and * at the 10% level, all for two-sided hypothesis tests
+
+Table 9 presents the summary of the findings of including a triple interaction that captures
+
+the differential effects of coconut endowment on intrastate civil strife for regions with strong
+
+institutions. Similar to (Gantier, 2020), I construct a indicator variable for each measure if
+
+39 The logic is that a conflict event today cannot logically influence the institutional quality measured yesterday.
+A more serious concern is the presence of omitted variables that might influence both conflict and institutional
+quality. However, these confounders are likely to exist only at the country level and are therefore accounted for
+by the country-by-year fixed effects FEi,t.
+
+41
+
+the index is greater than its 75th percentile value. In Panel (A), the outcome variable is a
+
+dummy variable indicating whether for a given cell-year at least one violent event occurred.
+
+In column (1) the findings indicated a rather unexpected sign for government effectiveness
+
+component of institutional quality. The relationship is however not different from 0. All
+
+other measures of quality of institution showed expected economic sign and were significant
+
+at either 5% to 10% level; except for rule of low.
+
+In Panel (B) of Table 9, the outcome is turned to conflict intensity (proxied by battle-related
+
+deaths in a given cell-year). Here, all components of institutional quality in the triple
+
+interaction term were negatively related to conflict. However, only regulatory quality and
+
+voice & accountability dimensions were statistically different from 0. Overall, the findings
+
+suggest that regions with better institutional quality are less prone to being engaged in
+
+resource-related civil insurgence. It is noteworthy the lack of significance in most cases is
+
+likely due to the presence of FEi,t.
+
+6.5 Heterogeneous Effects: Geographic Conduciveness
+
+The notion of the triple interaction in equation 3 is also extended to test the geographic
+
+conduciveness for coconut cultivation that ease the extortion channel discussed in section 3.3.
+
+For each cell, I computed its average elevation over land (expressed in meters; ≥ 0) and the
+
+average distance of a cell to the coast. For presentation purposes these variables were rescaled
+
+to dividing by 1000. The idea here is that given that coconut is often cultivated in lowlands,
+
+the probability of insurgent groups taking control over is less likely as state is able to easily
+
+counterinsurgencies (i.e., limited geographic barrier for military mobilization). At the same
+
+time, this also allows the government to effectively capture rents from coconut plantation.
+
+Hence, the consequence on local violence depends very much on the interaction of these two
+
+opposing ideas. Ultimately, this should mean that as elevation goes up, insurgent groups
+
+are more able to contest with the state for control over rents of the resources as the uphill
+
+terrain ruggedness may facilitate mobilization of non-state groups (capacity of insurgent
+
+group goes up). Also, since coconut thrives along mostly coastal areas (as one proximate
+
+waterways), it should increase the risk of appropriation and state-insurgent contestation.
+
+Accessible waterways enhances the ease of transportation, hence, higher chance of illicit
+
+trade and looting activities. Given this, one should expect a negative relationship of the triple
+
+interaction with distance to coastline.
+
+42
+
+Table 10 presents the summary of the empirical findings of the aforementioned task. Across
+
+all specifications, the expected signs of elevation and distance to coastline are confirmed,
+
+however, the results are statistically insignificant. Overall the results suggest that coconut
+
+suitable cells that are closer to the coastline and those that are low-lying areas do not react
+
+differently from those that are in higher and perhaps rugged terrains as well as far away
+
+from coastline to coconut price shocks. Again, the lack of statistical significant is likely due
+
+to the presence of FEc making it difficult to detect heterogeneous effects of geographic
+conduciveness.
+
+Table 10. COCONUT SUITABILITY, GEOGRAPHIC CONDUCIVENESS AND VIOLENT CONFLICT
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+(7)
+
+(8)
+
+Violent Event Yct = I(≥ 1)
+
+Log[1+ # of fatalities]
+
+coconut suitable × ln price
+
+t
+
+× Avg. elevation
+
+× Avg. distance to coast
+
+0.0196∗∗∗ 0.0182∗∗∗ 0.0198∗∗∗ 0.0185∗∗∗ 0.0492∗∗∗ 0.0474∗∗∗ 0.0524∗∗∗ 0.0500∗∗∗
+(0.0170)
+(0.0054)
+
+(0.0060)
+
+(0.0063)
+
+(0.0066)
+
+(0.0162)
+
+(0.0141)
+
+(0.0155)
+
+0.0280
+(0.0309)
+
+0.0284
+(0.0312)
+
+-0.0100
+(0.0253)
+
+-0.0016
+(0.0253)
+
+0.0487
+(0.0746)
+
+0.0546
+(0.0752)
+
+-0.0685
+(0.0629)
+
+-0.0521
+(0.0634)
+
+Observations
+R2
+
+Cell FE
+Country × Year FE
+Cell-varying controls
+
+62,208
+0.32513
+
+60,960
+0.32501
+
+61,056
+0.32531
+
+60,624
+0.32525
+
+62,208
+0.30297
+
+60,960
+0.30285
+
+61,056
+0.30304
+
+60,624
+0.30298
+
+Yes
+Yes
+Yes
+
+Yes
+Yes
+Yes
+
+Yes
+Yes
+Yes
+
+Yes
+Yes
+Yes
+
+Yes
+Yes
+Yes
+
+Yes
+Yes
+Yes
+
+Yes
+Yes
+Yes
+
+Yes
+Yes
+Yes
+
+Note:
+*** Statistical significance at the 1% level, ** at the 5% level, and * at the 10% level, all for two-sided hypothesis tests
+
+6.6 Sensitivity Analysis
+
+6.6.1 Addressing Potential Bias in World Price
+
+Earlier sections of the analysis treated the world coconut price as exogenous, but this measure
+
+may be subject to two potential sources of endogeneity. The first stems from the fact that not
+
+all countries are price-takers. Especially considering that the export price index is computed
+
+from Indonesia and Philippine benchmark and the fact that they are the dominant producers
+
+of the commodity making them price-makers in that supply shocks will cause fluctuations
+
+in world prices. For example, if conflict reduces coconut exports from either country at a
+
+given demand, prices will increase due to anticipated scarcity, potentially leading to spurious
+
+conclusions (particularly alarming if lagged (t−1) prices were used). In Table B2, I conducted
+
+a formal test by excluding first, the two countries and subsequently omitted all cells that
+
+belong to any countries in my sample that forms part of the 10% producers of the commodity.
+
+43
+
+Reassuringly, all results suggest that the documented results is stable.
+
+Another source of concern is that the sample includes several small–island nations that
+
+may be practising monoculture (here coconut cultivation) which may potentially lead to
+
+vulnerability to price swings. This form of lack of diversification can heighten exposure to
+
+coconut price volatility, potentially creating a spurious price variation-conflict link. In this
+
+regard, I posit that the "F Eit" mitigates these concerns.
+
+6.6.2 Addressing Spatial Correlation
+
+With the use of high spatial resolution data, an important consideration to take into account
+
+is spatial dependence since both conflict and coconut cultivation might be clustered in
+
+space. This consideration becomes more apparent if this spatial clustering might span a
+
+larger area than the cell (i.e., grid cells being 55km × 55km at the equator). In Table B3, I
+
+estimated standard errors with a spatial HAC correction allowing for both cross-sectional
+
+spatial correlation and location-specific serial correlation (Conley, 1999; Colella et al., 2019;
+
+Hsiang, Meng and Cane, 2011). Given uncertainty about the precise timing of coconut
+
+cultivation cycles, I adopt a conservative approach by assuming serial correlation may persist
+
+indefinitely. While most coconut production occurs at small scales, I employ a generous
+
+500km spatial radius to account for potential market spillover effects across regions. Evidently
+
+from Table B3, I observe that the standard errors remain within a narrow range of values
+
+slowly decaying as we increase the radius from 50 to 500km.
+
+7 Conclusion
+
+The study addresses a key gap in the literature on agricultural commodity shocks and internal
+
+conflict, by providing a robust empirical evidence that—contrary to conventional wisdom
+
+about agricultural commodity. Using cross-country data at the global scale and reinforcing
+
+the findings with high resolution data at the subnational cells level confined to Southeastern
+
+Asia and Oceania, the study documents a robust positive effect of coconut endowment and
+
+civil unrest.
+
+The findings challenge the conventional wisdom that labour-intensive agricultural commodi-
+
+ties necessarily reduce violence through opportunity cost mechanisms and align with recent
+
+studies that suggest that this widely accepted notion on agricultural commodity is not uni-
+
+versal. Moreover, the findings provide layers of empirical scrutiny enhancing understanding
+
+44
+
+of pathways by which agricultural commodity (here coconut) may instead insight conflict.
+
+Specifically, the inquiry revealed nuanced facts that conceptually describe how coconut’s
+
+unique characteristics — such as its perennial nature, coastal clustering, and high taxation
+
+potential — create conditions where rising economic value may translates into heightened
+
+conflict risk.
+
+When assessing the different possible heterogeneous effects, I find an arguably persistent
+
+channel that the exploitative strategies adopted in colonial-era to capture the benefits
+
+of the global boom in the demand for coconut have had its imprint in the formation of
+
+post-independence governance and state authorities. This sheds new perspective on how
+
+institutional quality may ease or serve as a barrier to rent extraction; popularly discussed
+
+under rapacity effect in resource–conflict literature. The implications of the findings extend
+
+beyond coconut—conflict case. The study underscore the need to reconsider how we model
+
+the relationship between agricultural commodities and conflict. For instance, while traditional
+
+opportunity cost arguments may hold for seasonal crops with quick returns, perennial crops
+
+(such as coconut, lumber, cocoa) create different incentive structures that can paradoxically
+
+make appropriation more attractive than production. The findings affirm and further recent
+
+assertions (e.g., (Crost and Felter, 2020)) that may help explain why some agricultural booms
+
+fail to deliver the pacifying effects predicted by standard economic models of conflict.
+
+This study carries significant policy implications. First, it demonstrates that commodity
+
+booms—often perceived as opportunities for economic growth in primary goods-producing
+
+economies—may inadvertently exacerbate social unrest, thereby undermining societal stabil-
+
+ity. Consequently, policymakers should implement targeted measures to mitigate resource-
+
+driven conflicts, particularly during periods of elevated international prices for high-value
+
+cash crops. Furthermore, the findings underscore how historical policy missteps can have
+
+enduring adverse effects, reinforcing the need for evidence-based decision-making. Given
+
+that recent research projects a surge in global coconut demand due to its potential as a
+
+sustainable biofuel (Descals et al., 2023), a deeper understanding of past failures can guide
+
+more effective and equitable resource management strategies.
+
+45
+
+APPENDIX FILE
+
+A Country-Level Appendix
+
+A-1 Country-level Coconut Suitability
+
+Figure A1. The degree of coconut suitability across countries from the GAEZ v4 database from
+1961-1990. Note: Darker blue shades indicate regions with higher area of arable land suitable for
+coconut
+
+A-2 Evaluation of the Instrumental Variable Framework
+
+The identification of a valid instrument for coconut suitability is critical to isolating the
+
+causal effect of coconut endowment on conflict risk. To this end, I propose leveraging the
+
+fraction of a country’s cropland classified as sub-humid (humid) tropical lowland within the
+
+Global Agro-Ecological Zones (GAEZ) model as an instrument for coconut suitability. This
+
+instrument is grounded in the biophysical realities of coconut cultivation and is plausibly
+
+exogenous to conflict dynamics, thereby addressing concerns of endogeneity.
+
+Coconut thrive in specific tropical environments characterized by a combination of warm
+
+temperatures (68◦F to 86◦F), moderate to high rainfall with a distinct dry season, and well-
+
+drained sandy soils (Parachute Kalpavriksha, 2025). These conditions closely match those
+
+defining the sub-humid tropical lowland agro-ecological zone, which typically experiences
+
+annual rainfall between 1,300 and 1,800 millimeters, a pronounced dry season lasting
+
+A.1
+
+Coconut Suitability036912Log area of a country's arable land suitable for coconut cultivationthree to five months, and soil types such as sandy loams that provide excellent drainage.
+
+The physiological adaptations of coconut palms, including their salt tolerance, large seed
+
+endosperm for seedling survival during dry spells, and deep rooting systems, reflect a long
+
+evolutionary history in these environments. Consequently, the sub-humid and humid tropical
+
+lowland AEZ captures the natural biophysical niche where coconut cultivation is most viable.
+
+However, the tropical humid lowland AEZ arguably provide a broader range of suitability for
+
+various crops. Hence I use the sub-humid tropical lowland AEZ. This narrow definition is
+
+intended to minimize potential overlay with other crop suitability.
+
+(a) Agro-Ecological Zone classes (1981–2010)
+
+(b) Suitability Class (1981-2010)
+
+Figure A2. Note: Case of Indonesia
+
+Figure A2 presents a detailed illustration of the relationship between AEZ and coconut
+
+suitability in Indonesia. In panel (a), the map of Indonesia’s AEZs reveals that a significant
+
+portion of the country’s land is classified within the tropical lowland humid and sub-humid
+
+zones. These zones are characterized by the specific climatic and soil conditions ideal for a
+
+variety of tropical crops, including coconut. Panel (b) highlights a strong correspondence
+
+between areas classified as sub-humid tropical lowland AEZ and regions identified as highly
+
+suitable for coconut cultivation.
+
+Abstracting away from this evidence, Table A1 provides the summary of the first stage
+
+relationship between the chosen instrument and coconut suitability. Across specifications,
+
+the coefficient on sub-humid tropical lowland share is both economically meaningful and
+
+statistically significant at the 1% level. This relationship remains robust even after accounting
+
+for geographic, resource wealth, suitability of related-crop suitability, and several fixed
+
+effects. This lend credibility of instrumental variable framework, as its able to exploit enough
+
+variations in coconut suitability.
+
+A.2
+
+Table A1. Coconut Suitability and Sub-Humid Tropical share - IV First Stage
+
+Ln[1 + coconut area]
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+Sub-humid tropics cropland share 14.3*** 13.9*** 14.3*** 12.5*** 10.6***
+(1.73)
+
+(1.59)
+
+(1.48)
+
+(1.63)
+
+(1.64)
+
+Natural resource control
+Geographic controls
+Suitability of related commodities
+Legal origin
+Colonial history
+Continent FE
+Observations
+R-squared
+
+No
+No
+No
+No
+No
+No
+148
+0.396
+
+No
+Yes
+No
+No
+No
+No
+148
+0.444
+
+Yes
+Yes
+No
+No
+No
+No
+148
+0.447
+
+Yes
+Yes
+Yes
+No
+No
+No
+148
+0.604
+
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+148
+0.692
+
+Note: *** Statistical significance at the 1% level, ** at the 5% level, and * at the 10%
+level, all for two-sided hypothesis tests
+
+A-3 Robustness to Historical Determinants of Economic Development
+
+This section discusses Table A2 which presents additional evidence that the documented
+
+results are stable against potential confounding influence of historical determinants of eco-
+
+nomic development. Historical factors such as the type of political institutions, population
+
+density, and urbanization rates have been argued to significantly influence long-term eco-
+
+nomic trajectories (Acemoglu, Johnson and Robinson, 2002; Easterly and Levine, 2003). By
+
+including these additional historical determinants, the study ensure that the observed rela-
+
+tionship abstract away from the potential confounding influence of economic and institutional
+
+characteristics that may shape for instance modern land-use and labor legislation.
+
+Table A2 incorporates a set of development controls: democracy, executive constraints, log of
+
+population density in 1500 CE, and urbanization rates in 1500 CE. Democracy and executive
+
+constraints serve as proxies for political institutions and the distribution of political power,
+
+following the work of Robinson (2014); Marshall, Gurr and Jaggers (2017), who argue
+
+that institutional factors significantly shape contemporary economic and social outcomes.
+
+Population density and urbanization rates in 1500 CE control for pre-colonial economic
+
+development and settlement patterns, factors highlighted by Nunn and Puga (2012); Ashraf
+
+and Galor (2013b); Arbatlı et al. (2020) as crucial determinants of contemporary economic
+prosperity and conflict likelihood. The addition of these controls in Table A2 does not
+
+significantly alter the main results. The estimated coefficient on coconut suitability remains
+
+A.3
+
+positive and statistically significant across various specifications, indicating that the observed
+
+relationship is independent of pre-colonial economic condition
+
+Table A2. Coconut and Conflict: Robustness to Historical Development Outcomes
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+Avg. conflict incidence
+
+0.013**
+(0.0059)
+
+0.014**
+(0.0060)
+
+0.014**
+(0.0060)
+
+0.013**
+(0.0061)
+
+0.018*
+(0.0099)
+
+0.021*
+(0.011)
+
+Ln[1 + coconut]
+
+Baseline controls
+Additional control
+
+Legal origin
+Colonial history
+Continent FE
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Democracy Executive
+
+ln(Pop. den. 1500 CE) Urb. rate 1500 CE
+
+Yes
+None
+
+Yes
+Yes
+Yes
+
+Yes
+Yes
+Yes
+
+Yes
+Yes
+Yes
+
+Yes
+Yes
+Yes
+
+0.12**
+(0.057)
+147
+0.34
+
+Yes
+Yes
+Yes
+
+0.17*
+(0.092)
+81
+0.44
+
+Yes
+All
+
+Yes
+Yes
+Yes
+
+0.19*
+(0.099)
+80
+0.44
+
+10th–90th % move in coconut suitability
+
+Observations
+Adjusted R2
+
+0.12**
+(0.055)
+148
+0.34
+
+0.13**
+(0.056)
+145
+0.34
+
+0.13**
+(0.056)
+145
+0.34
+
+Note: *** Statistical significance at the 1% level, ** at the 5% level, and * at the 10% level, all for two-sided hypothesis tests
+
+A-4 Robustness to Historical Agricultural Controls
+
+The study included historical agricultural transition proxies, such as Neolithic transition
+
+timing and subsistence modes in 1000 CE, to rule out the possibility that the established
+
+results are only proxying for broader agrarian legacies (such as the evolution of tropical crops)
+
+or the development of complex social structures induced by earlier agricultural/subsistence
+
+practices. As presented in Table A3, coconut coefficient ( 0.013–0.015) across specifications
+
+confirms that the link is not driven by ancient agricultural patterns.
+
+A-5 Robustness to Deep Geographical and Civilizational Histories
+
+Table A4 presents additional evidence to support the resilience of the baseline findings
+
+against potentially confounding factors (i.e. deeper geographical and civilizational histories).
+
+Specifically, I test the robustness of the baseline finding by incorporating state antiquity (cap-
+
+turing early state formation), duration of human settlement (reflecting long-term habitation
+
+patterns), proximity to pre-colonial technological frontiers, and measures of land suitability
+
+inequality. The results show remarkable stability - the coconut suitability coefficient remains
+
+statistically significant and in the 0.012-0.013 range across all specifications. This consistency
+
+suggests the observed relationship is not simply an artifact of these deeper historical and
+
+geographical factors. A notable findings that underscore the reliability of the documented
+
+results is that whiles general land inequality (as measured by the land suitability gini) shows
+
+A.4
+
+Table A3. Coconut and Conflict: Robustness to Historical Agricultural Controls
+
+(1)
+OLS
+
+(2)
+OLS
+
+(3)
+OLS
+
+(4)
+OLS
+
+(5)
+OLS
+
+Ln[1 + coconut]
+
+Neolithic transition timing
+
+0.0147*** 0.0134** 0.0147*** 0.0139**
+(0.0056)
+(0.0065)
+0.0000
+(0.0000)
+
+(0.0054)
+
+(0.0056)
+
+Neolithic transition timing (ancestry adjusted)
+
+Neolithic transition timing (1500 CE baseline)
+
+Subsistence mode in 1000 CE
+
+−0.0000
+(0.0000)
+
+0.0000
+(0.0000)
+
+Baseline controls
+Legal origin
+Colonial history
+Continent FE
+
+Yes
+Yes
+Yes
+Yes
+
+Yes
+Yes
+Yes
+Yes
+
+Yes
+Yes
+Yes
+Yes
+
+0.0120
+(0.1716)
+
+Yes
+Yes
+Yes
+Yes
+
+0.0130**
+(0.0061)
+0.0001*
+(0.0000)
+−0.0001*
+(0.0000)
+0.0000
+(.)
+−0.1522
+(0.1758)
+
+Yes
+Yes
+Yes
+Yes
+
+10th–90th % move in coconut suitability
+
+Observations
+Adjusted R2
+
+0.14***
+(0.052)
+146
+0.34
+
+0.13**
+(0.051)
+146
+0.34
+
+0.14***
+(0.052)
+146
+0.34
+
+0.13**
+(0.061)
+143
+0.34
+
+0.12**
+(0.057)
+141
+0.35
+
+Note: *** Statistical significance at the 1% level, ** at the 5% level, and * at the 10% level, all for two-sided
+hypothesis tests
+
+an independent effect on conflict, it does not subsume the coconut-specific relationship. This
+
+potentially reflects the localized cash-crop dynamics of coconut conflict relation.
+
+A-6 Robustness to Diversity and Ethnic Confounders
+
+The analysis presented in this section addresses a fundamental concern in the political
+
+economy of conflict literature (Esteban, Mayoral and Ray, 2012): whether the observed
+
+coconut-conflict relationship is not diluted by the potential influence of ethnic divisions. A
+
+substantial body of work suggests ethnic diversity can independently predict conflict risk
+
+through multiple channels: by creating coordination problems (Easterly and Levine, 1997),
+
+exacerbating rent-seeking, or facilitating rebel recruitment (Fearon and Laitin, 2003). The
+
+idea is that if ethnic divisions drove the results, then I expect the coefficient of coconut to be
+
+substantially reduced or document null effect.
+
+The results in Table A5 provide compelling evidence against this alternative explanation. The
+
+coconut coefficient remains remarkably stable (0.0124-0.0143) and statistically significant
+
+across all specification.
+
+A.5
+
+0.0129**
+(0.0062)
+0.0334
+(0.0400)
+0.0301
+(0.0243)
+0.0000
+(0.0000)
+0.5823***
+(0.1998)
+−0.2914
+(0.2438)
+−0.0051
+(0.0914)
+0.1831
+(0.2849)
+
+Table A4. Coconut and Conflict: Robustness to Deep-Seated Geographical and Civilization Controls
+
+(1)
+OLS
+
+(2)
+OLS
+
+(3)
+OLS
+
+(4)
+OLS
+
+(5)
+OLS
+
+Ln[1 + coconut]
+
+Log index of state antiquity
+
+Log duration of human settlement
+
+Distance to regional frontier in 1500 CE
+
+0.0133** 0.0129**
+(0.0064)
+(0.0059)
+0.0355
+(0.0367)
+
+0.0122*
+(0.0065)
+0.0341
+(0.0370)
+0.0000
+(.)
+
+0.0123*
+(0.0062)
+0.0321
+(0.0403)
+0.0346
+(0.0262)
+−0.0000
+(0.0000)
+
+Land suitability Gini
+
+Soil fertility
+
+Standard deviation of elevation
+
+Terrain roughness
+
+Baseline controls
+Legal origin
+Colonial history
+Continent FE
+
+10th–90th % move in coconut suitability
+
+Observations
+Adjusted R2
+
+Yes
+Yes
+Yes
+Yes
+
+Yes
+Yes
+Yes
+Yes
+
+Yes
+Yes
+Yes
+Yes
+
+Yes
+Yes
+Yes
+Yes
+
+Yes
+Yes
+Yes
+Yes
+
+0.12**
+(0.055)
+148
+0.34
+
+0.12**
+(0.060)
+134
+0.34
+
+0.11*
+(0.061)
+134
+0.34
+
+0.12**
+(0.058)
+134
+0.34
+
+0.12**
+(0.058)
+134
+0.37
+
+Note: *** Statistical significance at the 1% level, ** at the 5% level, and * at the 10% level, all for
+two-sided hypothesis tests
+
+A.6
+
+Table A5. Robustness to Diversity and Ethnic Covariates
+
+(1)
+OLS
+
+(2)
+OLS
+
+(3)
+OLS
+
+(4)
+OLS
+
+(5)
+OLS
+
+(6)
+OLS
+
+Ln[1 + coconut]
+
+Predicted genetic diversity
+
+Predicted genetic diversity (ancestry adjusted)
+
+Ethnic fractionalization
+
+Ethnolinguistic polarization
+
+Number of ethnic groups
+
+Baseline controls
+Legal origin
+Colonial history
+Continent FE
+
+0.0133** 0.0138** 0.0143** 0.0124** 0.0132** 0.0130**
+(0.0061)
+(0.0059)
+
+(0.0058)
+
+(0.0060)
+
+(0.0059)
+
+(0.0058)
+2.0591*
+(1.2243)
+
+0.5596
+(0.9105)
+
+0.0564
+(0.0782)
+
+−0.0438
+(0.0776)
+
+Yes
+Yes
+Yes
+Yes
+
+Yes
+Yes
+Yes
+Yes
+
+Yes
+Yes
+Yes
+Yes
+
+Yes
+Yes
+Yes
+Yes
+
+Yes
+Yes
+Yes
+Yes
+
+0.0024
+(0.0072)
+
+Yes
+Yes
+Yes
+Yes
+
+10th–90th % move in coconut suitability
+
+Observations
+Adjusted R2
+
+0.12**
+(0.055)
+148
+0.34
+
+0.13**
+(0.054)
+148
+0.35
+
+0.13**
+(0.054)
+148
+0.34
+
+0.12**
+(0.056)
+148
+0.34
+
+0.12**
+(0.055)
+148
+0.34
+
+0.12**
+(0.057)
+144
+0.33
+
+Note: *** Statistical significance at the 1% level, ** at the 5% level, and * at the 10% level, all for two-sided
+hypothesis tests
+
+A.7
+
+B Cell-Level Appendix
+
+B-1 Preliminary Analysis—Visual Examination
+
+The subnational-level analysis commence with an initial description of trends in intrastate
+
+civil conflict in cells suitable and unsuitable for coconut cultivation. As depicted in Panel
+
+(a) of Figure B1, "unsuitable for coconut" areas (shown in light-blue shade) show steady
+
+increases in conflict events, particularly noticeable in the early years of the graph. By contrast,
+
+"suitable for coconut" areas (in red shade) exhibit more volatile increases, especially around
+
+the years 2000, 2005, and 2015. These findings indicate that, while conflict is escalating in
+
+both areas, its evolution is very different.
+
+(a) Yearly violent events, by coconut suitability
+
+(b) Yearly coconut oil price
+
+Figure B1. Note: Visual inspection of state-based conflict patterns between regions suitable and un-
+suitable for coconut cultivation, alongside price of coconut-derivative fluctuations over the 1989–2019
+period.
+
+Having established this, I turned attention towards the potential role of price variation on
+
+conflict dynamics. A systematic evaluation reveals that the post-2000 surge in coconut oil
+
+prices coincides with increased conflict incidence in coconut-suitable regions. While this
+
+correlation does not establish causation, the temporal alignment suggests a plausible linkage.
+
+This may inherently depicts reality as the observed pattern aligns closely with qualitative
+
+accounts positing that rising demand for coconut-derived commodities (here coconut oil)
+
+may incentivize state actors to intensify control over valuable coconut-producing lands. Such
+
+efforts—whether through militarized interventions, security deployments, or contested land
+
+tenure policies—could create a (political) rift between the state and local populations or
+
+B.1
+
+rebel factions, thereby amplifying conflict risks.
+
+B-2 Construction of International Price of Coconut
+
+Given the paucity of data on world price of coconut and its derivatives, the study resort to
+
+constructing coconut export price index following closely the methodology outlined in (Bazzi
+
+and Blattman, 2014). I computed this index as a geometrically-weighted index of real export
+
+prices for each country i in year t in region r:
+
+Pirt =
+
+J
+(cid:89)
+
+j=1
+
+P wrjt
+jt
+
+Similar to Bazzi and Blattman (2014), this study captures price variations at the international
+
+market level rather than domestic or farm-gate prices, using dollar-denominated international
+
+market prices (Pjt). Each commodity price is weighted by wrjt, reflects the average share
+of region r—to which country i belongs—in the global exports of the commodity.40 In this
+
+regard we differ from (Bazzi and Blattman, 2014). The price index incorporates two coconut-
+
+derived products: coconut oil and copra. Due to data limitations, international export prices
+
+were derived primarily from Philippine and Indonesian benchmarks, the dominant exporters
+
+in this market. Notably, the two price series exhibit similar trends, though coconut oil trades
+
+at a slight premium over copra.41
+
+B-3 Additional Results
+
+40 This weighting scheme serves as a proxy for national export shares, as direct data for some countries
+are unavailable. More specifically, this regional approach was adopted because for instance export data for
+certain small island nations are not reported in standard sources (e.g., COMTRADE or FAO), either due to their
+non-sovereign status or limited coverage.
+
+41 The export data can be sourced from Index Mundi and the weights were computed based on data from
+
+FAO trade statistics.
+Given that the sample consists of only four sub-regions—Melanesia; Micronesia; Polynesia ; and South-Eastern
+Asia—the computed weights does not sum up to 1
+
+B.2
+
+Table B1. COCONUT SUITABILITY AND CONFLICT INTENSITY (1989-2019)
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+Log[1+ # of fatalities]
+Full Sample
+
+Log[1+ # of fatalities Log[1+ # of fatalities Log[1 + # of civilian
+org. group side]
+
+on govt. side]
+
+casualties]
+
+coconut suitable × ln price
+
+t
+
+0.0383∗∗∗ 0.0408∗∗∗ 0.0492∗∗∗
+
+drought
+
+gold deposit × ln price
+
+g
+
+(0.0112)
+
+(0.0130)
+0.1017
+
+(0.0141)
+0.8128
+
+(1.277)
+
+(1.392)
+
+0.0505
+(0.0424)
+
+Cell FE
+Country × Year FE
+Observations
+R2
+
+Yes
+Yes
+
+Yes
+Yes
+
+Yes
+Yes
+
+82,181
+0.32511
+
+66,567
+0.30879
+
+62,208
+0.30297
+
+0.0194∗∗
+
+(0.0098)
+0.1875
+
+(0.9712)
+
+0.0471
+(0.0435)
+
+Yes
+Yes
+
+62,208
+0.23672
+
+0.0297∗∗∗
+
+(0.0083)
+1.741∗
+
+(1.019)
+
+0.0034
+(0.0028)
+
+Yes
+Yes
+
+62,208
+0.26055
+
+0.0087∗∗
+
+(0.0039)
+0.2511
+
+(0.3358)
+
+0.0008
+(0.0010)
+
+Yes
+Yes
+
+62,208
+0.12496
+
+Note: *** Statistical significance at the 1% level, ** at the 5% level, and * at the 10% level, all for two-sided hypothesis tests
+
+Table B2. COCONUT SUITABILITY AND VIOLENT CONFLICT: ROBUSTNESS TO
+EXCLUSION OF POTENTIAL PRICE-MAKERS
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+Exclusion of PHL/IDN Exclusion of top 10%
+
+coconut suitable × ln price
+t
+
+0.0184∗∗
+(0.0083)
+
+0.0553∗∗
+(0.0237)
+
+0.0224∗∗
+(0.0109)
+
+0.0756∗∗
+(0.0364)
+
+Cell-varying controls
+Cell FE
+Country × Year FE
+Observations
+R2
+
+Yes
+Yes
+Yes
+
+Yes
+Yes
+Yes
+
+Yes
+Yes
+Yes
+
+Yes
+Yes
+Yes
+
+31,968
+0.25058
+
+31,968
+0.23190
+
+18,912
+0.33553
+
+18,912
+0.31272
+
+Note: The outcome variable in columns (1) and (3) is a dummy measuring
+cell-year occurrence of violent events and that of columns (2) and (4)
+is Log[1 + # of fatalities]. Exclusion of top 10% implies that countries
+in my sample that are amongst the top global producers of coconut. ***
+Statistical significance at the 1% level, ** at the 5% level, and * at the
+10% level, all for two-sided hypothesis tests
+
+B.3
+
+]
+s
+e
+i
+t
+i
+l
+a
+t
+a
+f
+
+f
+o
+#
++
+1
+[
+g
+o
+L
+
+)
+8
+(
+
+)
+7
+(
+
+)
+6
+(
+
+)
+5
+(
+
+)
+4
+(
+
+)
+3
+(
+
+)
+2
+(
+
+)
+1
+(
+
+S
+R
+O
+R
+R
+E
+N
+
+I
+
+I
+
+N
+O
+I
+T
+A
+L
+E
+R
+R
+O
+C
+R
+O
+F
+G
+N
+W
+O
+L
+L
+A
+—
+S
+T
+N
+E
+V
+E
+T
+N
+E
+L
+O
+I
+V
+D
+N
+A
+Y
+T
+I
+L
+I
+B
+A
+T
+I
+U
+S
+T
+U
+N
+O
+C
+O
+C
+
+.
+
+3
+B
+e
+l
+b
+a
+T
+
+2
+9
+4
+0
+.
+0
+
+2
+9
+4
+0
+.
+0
+
+2
+9
+4
+0
+.
+0
+
+2
+9
+4
+0
+.
+0
+
+2
+9
+4
+0
+.
+0
+
+2
+9
+4
+0
+.
+0
+
+2
+9
+4
+0
+.
+0
+
+2
+9
+4
+0
+.
+0
+
+∗
+]
+9
+9
+2
+0
+.
+0
+[
+
+∗
+]
+4
+9
+2
+0
+.
+0
+[
+
+∗
+]
+0
+7
+2
+0
+.
+0
+[
+
+∗
+∗
+]
+9
+3
+2
+0
+.
+0
+[
+
+∗
+∗
+]
+8
+0
+2
+0
+.
+0
+[
+
+∗
+∗
+∗
+]
+1
+4
+1
+0
+.
+0
+[
+
+∗
+∗
+∗
+]
+1
+4
+1
+0
+.
+0
+[
+
+∗
+∗
+]
+2
+2
+0
+0
+.
+0
+[
+
+t
+
+e
+c
+i
+r
+p
+n
+
+l
+
+×
+e
+l
+b
+a
+t
+i
+u
+s
+
+t
+u
+n
+o
+c
+o
+c
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+m
+k
+0
+0
+5
+
+m
+k
+0
+0
+2
+
+m
+k
+0
+5
+1
+
+m
+k
+0
+0
+1
+
+m
+k
+5
+7
+
+m
+k
+0
+5
+
+m
+k
+0
+1
+
+0
+0
+0
+,
+0
+0
+1
+=
+L
+
+8
+0
+2
+,
+2
+6
+
+7
+9
+2
+0
+3
+.
+0
+
+8
+0
+2
+,
+2
+6
+
+7
+9
+2
+0
+3
+.
+0
+
+8
+0
+2
+,
+2
+6
+
+7
+9
+2
+0
+3
+.
+0
+
+8
+0
+2
+,
+2
+6
+
+7
+9
+2
+0
+3
+.
+0
+
+8
+0
+2
+,
+2
+6
+
+7
+9
+2
+0
+3
+.
+0
+
+8
+0
+2
+,
+2
+6
+
+7
+9
+2
+0
+3
+.
+0
+
+8
+0
+2
+,
+2
+6
+
+7
+9
+2
+0
+3
+.
+0
+
+8
+0
+2
+,
+2
+6
+
+7
+9
+2
+0
+3
+.
+0
+
+y
+e
+l
+n
+o
+C
+
+t
+s
+e
+W
+d
+n
+a
+
+y
+e
+w
+e
+N
+
+s
+l
+o
+r
+t
+n
+o
+c
+
+g
+n
+i
+y
+r
+a
+v
+-
+l
+l
+e
+C
+
+E
+F
+
+r
+a
+e
+Y
+×
+y
+r
+t
+n
+u
+o
+C
+
+E
+F
+
+l
+l
+e
+C
+
+s
+r
+o
+r
+r
+E
+-
+d
+r
+a
+d
+n
+a
+t
+S
+
+s
+n
+o
+i
+t
+a
+v
+r
+e
+s
+b
+O
+
+2
+R
+
+B.4
+
+s
+t
+s
+e
+t
+
+s
+i
+s
+e
+h
+t
+o
+p
+y
+h
+d
+e
+d
+i
+s
+-
+o
+w
+
+t
+
+r
+o
+f
+
+l
+l
+a
+
+,
+l
+e
+v
+e
+l
+
+%
+0
+1
+
+e
+h
+t
+
+t
+a
+
+*
+d
+n
+a
+
+,
+l
+e
+v
+e
+l
+
+%
+5
+
+e
+h
+t
+
+t
+a
+
+*
+*
+
+,
+l
+e
+v
+e
+l
+
+%
+1
+
+e
+h
+t
+
+t
+a
+
+e
+c
+n
+a
+c
+fi
+n
+g
+i
+s
+
+i
+
+l
+a
+c
+i
+t
+s
+i
+t
+a
+t
+S
+
+*
+*
+*
+
+:
+e
+t
+o
+N
+
+References
+
+Acemoglu, Daron, Simon Johnson and James A Robinson. 2001. “The colonial origins of com-
+
+parative development: An empirical investigation.” American economic review 91(5):1369–
+1401.
+
+Acemoglu, Daron, Simon Johnson and James A Robinson. 2002. “Reversal of fortune:
+
+Geography and institutions in the making of the modern world income distribution.” The
+Quarterly journal of economics 117(4):1231–1294.
+
+Adhvaryu, Achyuta, James Fenske, Gaurav Khanna and Anant Nyshadham. 2021. “Re-
+
+sources, conflict, and economic development in Africa.” Journal of Development Economics
+149:102598.
+
+Agricultural Business. 2025. “The Ultimate Guide to Coconut Farming: Techniques, Profit,
+
+and Best Practices by Region.” Agricultural Business. Accessed: 2025-04-04.
+
+URL: https://agricbusiness.com.ng/ultimate-guide-to-coconut-farming/
+
+Alesina, Alberto, Stelios Michalopoulos and Elias Papaioannou. 2016. “Ethnic inequality.”
+
+Journal of Political Economy 124(2):428–488.
+
+Arbatlı, Cemal Eren, Quamrul H Ashraf, Oded Galor and Marc Klemp. 2020. “Diversity and
+
+conflict.” Econometrica 88(2):727–797.
+
+Asba, Abd Rasyid, Andi Lili Evita, Fathu Rahman and Nahdia Nur. 2020. The globalizing of
+
+copra and coconut oil industry of Makassar before the second world war. In IOP Conference
+Series: Earth and Environmental Science. Vol. 575 IOP Publishing p. 012094.
+
+Ashraf, Quamrul and Oded Galor. 2013a. “The “Out of Africa” hypothesis, human genetic
+diversity, and comparative economic development.” American Economic Review 103(1):1–
+46.
+
+Ashraf, Quamrul and Oded Galor. 2013b. “The “Out of Africa” hypothesis, human genetic
+diversity, and comparative economic development.” American Economic Review 103(1):1–
+46.
+
+Austin, Gareth. 2008. “Resources, techniques, and strategies south of the Sahara: revising
+
+the factor endowments perspective on African economic development, 1500–2000 1.” The
+Economic history review 61(3):587–624.
+
+Bank, Word. 2011. “World development report 2012: Gender equality and development.”
+
+The World Bank 15.
+
+Bazzi, Samuel and Christopher Blattman. 2014. “Economic shocks and conflict: Evidence
+
+from commodity prices.” American Economic Journal: Macroeconomics 6(4):1–38.
+
+Becker, Gary S. 1968. “Crime and punishment: An economic approach.” Journal of political
+
+economy 76(2):169–217.
+
+Berman, Nicolas, Mathieu Couttenier, Dominic Rohner and Mathias Thoenig. 2017. “This
+
+mine is mine! How minerals fuel conflicts in Africa.” American Economic Review
+107(6):1564–1610.
+
+Besley, Timothy J and Torsten Persson. 2008. The incidence of civil war: Theory and evidence.
+
+Technical report National Bureau of Economic Research.
+
+Biscaye, Pierre. 2023. “Agricultural Shocks and Conflict in the Short-and Long-Term: Evidence
+
+from Desert Locust Swarms.”.
+
+Blair, Graeme, Darin Christensen and Aaron Rudkin. 2021. “Do commodity price shocks
+
+cause armed conflict? A meta-analysis of natural experiments.” American Political Science
+Review 115(2):709–716.
+
+Brecke, Peter. 1999. Violent conflicts 1400 AD to the present in different regions of the world.
+
+In 1999 Meeting of the Peace Science Society. Vol. 10.
+
+Brückner, Markus and Antonio Ciccone. 2010. “International commodity prices, growth and
+
+the outbreak of civil war in Sub-Saharan Africa.” The Economic Journal 120(544):519–534.
+
+Calì, Massimiliano. 2014. Trading away from conflict: using trade to increase resilience in
+
+fragile states. World Bank Publications.
+
+Carter, David B, Andrew C Shaver and Austin L Wright. 2019. “Places to hide: Terrain,
+
+ethnicity, and civil conflict.” The Journal of Politics 81(4):1446–1465.
+
+Cerepak, Philip. 2019. “Coconuts: Catalysts of conflict.”.
+
+Colella, Fabrizio, Rafael Lalive, Seyhun Orcan Sakalli and Mathias Thoenig. 2019. “Inference
+
+with arbitrary clustering.”.
+
+Colina, Antonio. 2018. “NPAs Earned P1. 48 B in 2017 Thru Extortion—AFP.” Manila Bulletin
+
+.
+
+Collier, Paul and Anke Hoeffler. 2004. “Greed and grievance in civil war.” Oxford economic
+
+papers 56(4):563–595.
+
+Conley, Timothy G. 1999. “GMM estimation with cross sectional dependence.” Journal of
+
+econometrics 92(1):1–45.
+
+Crost, Benjamin and Joseph H Felter. 2020. “Export crops and civil conflict.” Journal of the
+
+European Economic Association 18(3):1484–1520.
+
+Dal Bó, Ernesto and Pedro Dal Bó. 2011. “Workers, warriors, and criminals: social conflict in
+
+general equilibrium.” Journal of the European Economic Association 9(4):646–677.
+
+Descals, Adrià, Serge Wich, Zoltan Szantoi, Matthew J Struebig, Rona Dennis, Zoe Hatton,
+
+Thina Ariffin, Nabillah Unus, David LA Gaveau and Erik Meijaard. 2023. “High-resolution
+
+global map of closed-canopy coconut palm.” Earth System Science Data 15(9):3991–4010.
+
+Droessler, Holger. 2018. “Copra world: coconuts, plantations and cooperatives in German
+
+Samoa.” The Journal of Pacific History 53(4):417–435.
+
+Dube, Oeindrila and Juan F Vargas. 2013. “Commodity price shocks and civil conflict:
+
+Evidence from Colombia.” Review of Economic studies 80(4):1384–1421.
+
+Easterly, William and Ross Levine. 1997. “Africa’s growth tragedy: policies and ethnic
+
+divisions.” The quarterly journal of economics pp. 1203–1250.
+
+Easterly, William and Ross Levine. 2003. “Tropics, germs, and crops: how endowments
+
+influence economic development.” Journal of monetary economics 50(1):3–39.
+
+Esteban, Joan, Laura Mayoral and Debraj Ray. 2012. “Ethnicity and conflict: An empirical
+
+study.” American Economic Review 102(4):1310–1342.
+
+(FAO), Agriculture Organization and International Fund for Agricultural Development (IFAD).
+
+2008. Gender in agriculture sourcebook. World Bank Publications.
+
+Fearon, James D and David D Laitin. 2003. “Ethnicity, insurgency, and civil war.” American
+
+political science review 97(1):75–90.
+
+Fenske, James and Shizhuo Wang. 2023. “Tradition and mortality: Evidence from twin
+
+infanticide in Africa.” Journal of Development Economics 163:103094.
+
+Gantier, Marcelo. 2020. “Commodity Shocks, Factor Intensity and Conflicts in Africa.”.
+
+Garfinkel, Michelle R and Stergios Skaperdas. 2007. “Economics of conflict: An overview.”
+
+Handbook of defense economics 2:649–709.
+
+Girard, Victoire, Teresa Molina-Millán, Guillaume Vic et al. 2022. Artisanal mining in Africa.
+
+In Working Paper Series. No. 2201. NOVA AFRICA.
+
+Giuliano, Paola and Nathan Nunn. 2013. The transmission of democracy: from the village to
+
+the nation-state. Technical report National Bureau of Economic Research.
+
+Gleditsch, Nils Petter, Peter Wallensteen, Mikael Eriksson, Margareta Sollenberg and Håvard
+
+Strand. 2002. “Armed conflict 1946-2001: A new dataset.” Journal of peace research
+39(5):615–637.
+
+Grossman, Herschell I. 1991. “A general equilibrium model of insurrections.” The American
+
+Economic Review pp. 912–921.
+
+Hirshleifer, Jack. 1995. “Anarchy and its breakdown.” Journal of Political Economy 103(1):26–
+
+52.
+
+Hsiang, Solomon M, Kyle C Meng and Mark A Cane. 2011. “Civil conflicts are associated
+
+with the global climate.” Nature 476(7361):438–441.
+
+Humphrey, John. 2005. “Shaping value chains for development: global value chains in
+
+agribusiness.” Paper written for the Deutsche Gessellschaft fur Technische Zusammenarbeit
+(GTZ) .
+
+Humphreys, Macartan. 2005. “Natural resources, conflict, and conflict resolution: Uncovering
+
+the mechanisms.” Journal of conflict resolution 49(4):508–537.
+
+Iyer, Lakshmi. 2010. “Direct versus indirect colonial rule in India: Long-term consequences.”
+
+The Review of Economics and Statistics 92(4):693–713.
+
+Iyigun, Murat, Nathan Nunn and Nancy Qian. 2017. The long-run effects of agricultural pro-
+
+ductivity on conflict, 1400-1900. Technical report National Bureau of Economic Research.
+
+Jablonski, Ryan S and Steven Oliver. 2013. “The political economy of plunder: Economic
+
+opportunity and modern piracy.” Journal of conflict resolution 57(4):682–708.
+
+Kalyvas, Stathis N. 2006. The logic of violence in civil war. Cambridge University Press.
+
+Keen, David. 2005. The economic functions of violence in civil wars. Routledge.
+
+La Porta, Rafael, Florencio Lopez-de Silanes, Andrei Shleifer and Robert Vishny. 2017. “Legal
+
+origins.” The Long Economic and Political Shadow of History Volume I. A Global View p. 89.
+
+Lowes, Sara, Nathan Nunn, James A Robinson and Jonathan L Weigel. 2017. “The evolution
+
+of culture and institutions: Evidence from the Kuba Kingdom.” Econometrica 85(4):1065–
+1091.
+
+Marshall, Monty G., Ted Robert Gurr and Keith Jaggers. 2017. Polity IV Project: Political
+Regime Characteristics and Transitions, 1800–2017. Vienna, VA: Center for Systemic Peace.
+Dataset and codebook.
+
+URL: https://www.systemicpeace.org/inscr/p4manualv2017.pdf
+
+McGuirk, Eoin and Marshall Burke. 2020. “The economic origins of conflict in Africa.” Journal
+
+of Political Economy 128(10):3940–3997.
+
+McLauchlin, Theodore. 2014. “Desertion, terrain, and control of the home front in civil
+
+wars.” Journal of Conflict Resolution 58(8):1419–1444.
+
+Michalopoulos, Stelios. 2012. “The origins of ethnolinguistic diversity.” American Economic
+
+Review 102(4):1508–1539.
+
+Michalopoulos, Stelios and Elias Papaioannou. 2014. “National institutions and subnational
+
+development in Africa.” The Quarterly journal of economics 129(1):151–213.
+
+Moscona, Jacob, Nathan Nunn and James A Robinson. 2020. “Segmentary Lineage Organi-
+
+zation and Conflict in Sub-Saharan Africa.” Econometrica 88(5):1999–2036.
+
+Niu, Hebin, Jinman Wang, Zhaorui Jing and Biao Liu. 2023. “Identification and management
+
+of land use conflicts in mining cities: A case study of Shuozhou in China.” Resources Policy
+81:103301.
+
+Nunn, Nathan and Diego Puga. 2012. “Ruggedness: The blessing of bad geography in Africa.”
+
+Review of Economics and Statistics 94(1):20–36.
+
+Nunn, Nathan and Leonard Wantchekon. 2011. “The slave trade and the origins of mistrust
+
+in Africa.” American economic review 101(7):3221–3252.
+
+Nunn, Nathan and Nancy Qian. 2011. “The potato’s contribution to population and ur-
+
+banization: evidence from a historical experiment.” The quarterly journal of economics
+126(2):593–650.
+
+Olsson, Ola. 2007. “Conflict diamonds.” Journal of Development Economics 82(2):267–286.
+
+Parachute Kalpavriksha. 2025. “What is the Best Climate for Coconut Planting?”. Accessed:
+
+2025-04-27.
+
+URL:
+
+https://parachutekalpavriksha.org/blogs/blog-post/what-is-the-best-climate-for-
+
+coconut-planting
+
+Pettersson, Therése and Kristine Eck. 2018. “Organized violence, 1989–2017.” Journal of
+
+Peace Research 55(4):535–547.
+
+Quirke, Derek and Chloe Longmore. 2007. “SRA A review of the future prospects for the
+
+world coconut industry and past research in coconut production and product.”.
+
+Raleigh, Clionadh and Caitriona Dowd. 2015. “Armed conflict location and event data project
+
+(ACLED) codebook.” Find this resource .
+
+Research and Markets. 2024. Virgin Coconut Oil Market by Type, End-User - Global Forecast
+
+2025-2030. Market Research Report ID: 5716522 Research and Markets. Accessed: 2025-
+
+04-05.
+
+URL: https://www.researchandmarkets.com/report/virgin-coconut-oil
+
+Rigterink, Anouk S. 2020. “Diamonds, rebel’s and farmer’s best friend: Impact of variation in
+
+the price of a lootable, labor-intensive natural resource on the intensity of violent conflict.”
+
+Journal of Conflict Resolution 64(1):90–126.
+
+Robinson, Mark. 2014. “Why Nations Fail: The Origins of Power, Prosperity and Poverty.”
+
+Development Policy Review 32(1):154–156.
+
+Ross, Michael L. 2004. “How do natural resources influence civil war? Evidence from thirteen
+
+cases.” International organization 58(1):35–67.
+
+Ross, Michael L. 2012. The oil curse: How petroleum wealth shapes the development of nations.
+
+Princeton University Press.
+
+Ross, Michael L. 2015. “What have we learned about the resource curse?” Annual review of
+
+political science 18(1):239–259.
+
+Skaperdas, Stergios. 1996. “Contest success functions.” Economic theory 7:283–290.
+
+Snyder, Richard. 2006. “Does lootable wealth breed disorder? A political economy of
+
+extraction framework.” Comparative political studies 39(8):943–968.
+
+Snyder, Richard and Ravi Bhavnani. 2005. “Diamonds, blood, and taxes: A revenue-centered
+
+framework for explaining political order.” Journal of Conflict Resolution 49(4):563–597.
+
+Sundberg, Ralph and Erik Melander. 2013. “Introducing the UCDP Georeferenced Event
+
+Dataset.” Journal of Peace Research 50(4):523–532.
+
+Tajusso, Otamide. 2023. “Check out five profitable coconut-based business ideas.” Farming-
+
+FarmersFarms. Accessed: 2025-04-04.
+
+URL: https://farmingfarmersfarms.com/2023/03/check-out-five-profitable-coconut-based-
+
+business-ideas/
+
+Tollefsen, Andreas Forø, Håvard Strand and Halvard Buhaug. 2012. “PRIO-GRID: A unified
+
+spatial data structure.” Journal of Peace Research 49(2):363–374.
+
+Varian, Hal R. 2014. Intermediate Microeconomics: A Modern Approach. 9th ed. W.W. Norton
+
+& Company.
+
+Warner, B, D Quirke and C Longmore. 2007. “A review of the future prospects for the world
+
+coconut industry and past research in coconut production and product.” Australian Centre
+for International Agricultural Research pp. 1–78.
+
+World Rainforest Movement. 2023. “Colonization and Monoculture Plantations: Histories of
+
+Large-Scale ‘Grabbings’.”. Accessed: 2025-05-16.
+
+URL: https://www.wrm.org.uy/bulletin-articles/colonization-and-monoculture-plantations-
+
+histories-of-large-scale-grabbings
+
+Wucherpfennig, Julian, Philipp Hunziker and Lars-Erik Cederman. 2016. “Who inherits
+
+the state? Colonial rule and postcolonial conflict.” American Journal of Political Science
+60(4):882–898.
+
+Zakiah, Zakiah, Monalisa Monalisa, Ahmad Humam Hamid, Fauzan Fauzan and Ade Ratna
+
+Juniar. 2021. Price Asymmetric Evaluation on the Cocoa Market as an Effort to Increase
+
+Economic and Bargaining Position of Cocoa Farmers in Pidie, Aceh. In 1st International
+
+Conference on Sustainable Agricultural Socio-economics, Agribusiness, and Rural Development
+(ICSASARD 2021). Atlantis Press pp. 5–12.
+
+Country Level Supplementary File
+
+Table SA1. List of Countries Included in the Study
+
+Code Country
+
+Region
+
+Code Country
+
+Region
+
+AFG
+
+Afghanistan
+
+Asia
+
+AGO Angola
+
+Africa
+
+ALB
+
+Albania
+
+ARG
+
+Argentina
+
+AUS
+
+Australia
+
+Europe
+
+ARE
+
+UAE
+
+Middle East
+
+S America
+
+ARM Armenia
+
+Asia
+
+Oceania
+
+AUT
+
+Austria
+
+Europe
+
+AZE
+
+Azerbaijan
+
+Asia
+
+BDI
+
+Burundi
+
+Belgium
+
+Europe
+
+BEN
+
+Benin
+
+Africa
+
+Africa
+
+Burkina Faso
+
+Africa
+
+BGD
+
+Bangladesh
+
+Asia
+
+BEL
+
+BFA
+
+BGR
+
+Bulgaria
+
+BLR
+
+Belarus
+
+BOL
+
+Bolivia
+
+BTN
+
+Bhutan
+
+Europe
+
+Europe
+
+BIH
+
+BLZ
+
+Bosnia
+
+Belize
+
+S America
+
+BRA
+
+Brazil
+
+Europe
+
+C America
+
+S America
+
+Asia
+
+BWA
+
+Botswana
+
+Africa
+
+CAF
+
+Central African Republic Africa
+
+CAN
+
+Canada
+
+N America
+
+CHE
+
+Switzerland
+
+Europe
+
+CHL
+
+Chile
+
+S America
+
+CHN China
+
+CMR
+
+Cameroon
+
+COL
+
+Colombia
+
+CUB
+
+Cuba
+
+DEU
+
+Germany
+
+DOM Dominica
+
+ECU
+
+Ecuador
+
+ERI
+
+EST
+
+FIN
+
+Eritrea
+
+Estonia
+
+Finland
+
+GAB
+
+Gabon
+
+GEO Georgia
+
+GIN
+
+Guinea
+
+GNB
+
+Guinea-Bissau
+
+GRC
+
+Greece
+
+GUY
+
+Guyana
+
+HRV
+
+Croatia
+
+HUN Hungary
+
+Asia
+
+Africa
+
+CIV
+
+Côte d’Ivoire
+
+Africa
+
+COG
+
+Congo
+
+Africa
+
+S America
+
+CRI
+
+Costa Rica
+
+C America
+
+Caribbean
+
+CZE
+
+Czechia
+
+Europe
+
+DNK
+
+Denmark
+
+Caribbean DZA
+
+Algeria
+
+S America
+
+EGY
+
+Egypt
+
+Africa
+
+ESP
+
+Spain
+
+Europe
+
+ETH
+
+Ethiopia
+
+Europe
+
+FRA
+
+France
+
+Africa
+
+Asia
+
+Africa
+
+Africa
+
+GBR
+
+UK
+
+GHA
+
+Ghana
+
+GMB Gambia
+
+GNQ Eq. Guinea
+
+Europe
+
+Europe
+
+Africa
+
+Africa
+
+Europe
+
+Africa
+
+Europe
+
+Europe
+
+Africa
+
+Africa
+
+Africa
+
+Europe
+
+GTM Guatemala
+
+C America
+
+S America HND Honduras
+
+C America
+
+Europe
+
+Europe
+
+HTI
+
+IDN
+
+Haiti
+
+Caribbean
+
+Indonesia
+
+Asia
+
+SA.1
+
+Table SA1 – Continued
+
+Code Country
+
+Region
+
+Code Country
+
+Region
+
+IND
+
+IRN
+
+ISR
+
+JOR
+
+KAZ
+
+India
+
+Iran
+
+Israel
+
+Jordan
+
+Kazakhstan
+
+KGZ
+
+Kyrgyzstan
+
+KOR
+
+S Korea
+
+LAO
+
+Laos
+
+LBR
+
+LKA
+
+LTU
+
+LVA
+
+Liberia
+
+Sri Lanka
+
+Lithuania
+
+Latvia
+
+Asia
+
+MidEast
+
+MidEast
+
+MidEast
+
+Asia
+
+Asia
+
+Asia
+
+Asia
+
+Africa
+
+Asia
+
+Europe
+
+IRL
+
+IRQ
+
+ITA
+
+JPN
+
+Ireland
+
+Iraq
+
+Italy
+
+Japan
+
+KEN
+
+Kenya
+
+Europe
+
+MidEast
+
+Europe
+
+Asia
+
+Africa
+
+KHM Cambodia
+
+Asia
+
+KWT
+
+Kuwait
+
+LBN
+
+Lebanon
+
+Libya
+
+Lesotho
+
+LBY
+
+LSO
+
+LUX
+
+MidEast
+
+MidEast
+
+Africa
+
+Africa
+
+Luxembourg
+
+Europe
+
+Europe
+
+MAR Morocco
+
+Africa
+
+MDA Moldova
+
+Europe
+
+MDG Madagascar
+
+Africa
+
+MEX Mexico
+
+MLI Mali
+
+MNG Mongolia
+
+MRT Mauritania
+
+MYS Malaysia
+
+NER
+
+Niger
+
+N America MKD N Macedonia
+
+Europe
+
+Africa
+
+Asia
+
+Africa
+
+Asia
+
+Africa
+
+MMR Myanmar
+
+Asia
+
+MOZ Mozambique
+
+Africa
+
+MWI Malawi
+
+NAM Namibia
+
+NGA
+
+Nigeria
+
+Africa
+
+Africa
+
+Africa
+
+NIC
+
+Nicaragua
+
+C America NLD
+
+Netherlands
+
+Europe
+
+NOR Norway
+
+Europe
+
+NPL
+
+Nepal
+
+Asia
+
+NZL
+
+New Zealand
+
+Oceania
+
+OMN Oman
+
+MidEast
+
+PAK
+
+PER
+
+Pakistan
+
+Peru
+
+PNG
+
+PNG
+
+PRK
+
+N Korea
+
+PRY
+
+Paraguay
+
+ROU
+
+Romania
+
+RWA
+
+Rwanda
+
+SDN
+
+Sudan
+
+SLE
+
+Sierra Leone
+
+SOM Somalia
+
+SVN
+
+Slovenia
+
+Asia
+
+PAN
+
+Panama
+
+C America
+
+S America
+
+PHL
+
+Philippines
+
+Asia
+
+Oceania
+
+Asia
+
+POL
+
+PRT
+
+Poland
+
+Portugal
+
+S America QAT
+
+Qatar
+
+Europe
+
+Europe
+
+MidEast
+
+Europe
+
+Africa
+
+Africa
+
+Africa
+
+Africa
+
+RUS
+
+SAU
+
+SEN
+
+SLV
+
+Russia
+
+Europe/Asia
+
+Saudi Arabia MidEast
+
+Senegal
+
+Africa
+
+El Salvador
+
+C America
+
+SVK
+
+Slovakia
+
+Europe
+
+SWE
+
+Sweden
+
+SA.2
+
+Europe
+
+Europe
+
+Table SA1 – Continued
+
+Code Country
+
+Region
+
+Code Country
+
+Region
+
+SYR
+
+Syria
+
+TGO Togo
+
+TJK
+
+Tajikistan
+
+TUN
+
+Tunisia
+
+TZA
+
+Tanzania
+
+UKR
+
+Ukraine
+
+MidEast
+
+TCD
+
+Chad
+
+THA
+
+Thailand
+
+Africa
+
+Asia
+
+Africa
+
+Asia
+
+Africa
+
+Africa
+
+TKM Turkmenistan Asia
+
+TUR
+
+Turkey
+
+Asia/Europe
+
+UGA
+
+Uganda
+
+Africa
+
+Europe
+
+URY
+
+Uruguay
+
+S America
+
+USA
+
+United States
+
+N America UZB
+
+Uzbekistan
+
+VEN
+
+Venezuela
+
+S America
+
+VNM Vietnam
+
+YEM Yemen
+
+MidEast
+
+ZAF
+
+S Africa
+
+COD
+
+DR Congo
+
+Africa
+
+ZMB
+
+Zambia
+
+ZWE
+
+Zimbabwe
+
+Asia
+
+Asia
+
+Africa
+
+Africa
+
+Africa
+
+SA.3
+
+Table SA2. Descriptive Statistics
+
+Civil conflict incidence, 1961—2017 average
+
+Civil conflict onset, frequency over 1961—2017
+
+Ln[1 + coconut area]
+
+Mean elevation
+
+Ruggedness
+
+Distance to nearest waterway
+
+Island nation dummy
+
+Oil or gas reserve discovery
+
+Cropland area
+
+Oil palm suitable area
+
+Banana suitable area
+
+Rubber suitable area
+
+Sweet potato suitable area
+
+Wetland rice suitable area
+
+Democracy
+
+Executive constraints
+
+Log [population density in 1500 CE]
+
+Urbanization rate in 1500 CE
+
+Neolithic transition timing
+
+Percentile
+
+Mean
+
+SD
+
+10th
+
+90th
+
+Sample (N=148)
+
+0.17
+
+1.03
+
+3.20
+
+0.59
+
+0.13
+
+0.35
+
+0.047
+
+0.67
+
+0.39
+
+5.47
+
+10.3
+
+4.67
+
+24.8
+
+17.0
+
+3.65
+
+3.82
+
+0.93
+
+7.46
+
+0.25
+
+1.38
+
+4.22
+
+0.55
+
+0.13
+
+0.46
+
+0.21
+
+0.47
+
+0.25
+
+24.2
+
+36.2
+
+21.9
+
+80.8
+
+53.6
+
+3.61
+
+1.96
+
+1.50
+
+5.13
+
+0
+
+0
+
+0
+
+0.10
+
+0.018
+
+0.034
+
+0
+
+0
+
+0.046
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+1.44
+
+-0.74
+
+0
+
+0.54
+
+2
+
+9.32
+
+1.25
+
+0.28
+
+1.01
+
+0
+
+1
+
+0.72
+
+9.80
+
+26.1
+
+8.87
+
+52.7
+
+30.5
+
+10
+
+7
+
+3.18
+
+13
+
+4892.8 2387.3
+
+1800
+
+8000
+
+Neolithic transition timing [ancestry adjusted]
+
+5360.6 2076.2 2891.2 8026.5
+
+Neolithic transition timing [1500 CE baseline]
+
+4392.8 2387.3
+
+1300
+
+7500
+
+Subsistence mode in 1000 CE
+
+Log [1 + distance to regional frontier in 1 CE]
+
+Log [1 + distance to regional frontier in 1000 CE]
+
+Log [1 + distance to regional frontier in 1500 CE]
+
+Predicted genetic diversity
+
+Predicted genetic diversity [ancestry adjusted]
+
+Ethnic fractionalization
+
+Sub-humid tropics cropland share
+
+British legal origin dummy
+
+French legal origin dummy
+
+Ever a U.K. colony dummy
+
+0.97
+
+7.38
+
+7.40
+
+7.30
+
+0.71
+
+0.73
+
+0.47
+
+0.10
+
+0.25
+
+0.46
+
+0.12
+
+0.14
+
+1.29
+
+1.20
+
+1.58
+
+0.052
+
+0.027
+
+0.25
+
+0.19
+
+0.43
+
+0.50
+
+0.33
+
+Ever a French colony dummy
+
+0.0068
+
+0.082
+
+Ever a non-U.K./non-French colony dummy
+
+0.047
+
+0.21
+
+1
+
+6.26
+
+6.33
+
+6.20
+
+0.62
+
+0.69
+
+0.11
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+1
+
+8.42
+
+8.44
+
+8.46
+
+0.75
+
+0.75
+
+0.79
+
+0.39
+
+1
+
+1
+
+1
+
+0
+
+0
+
+SA.4
+
+Sub-national Level Supplementary File
+
+Figure SB1. 30 arc-minute resolution of the study area
+
+SB.1
+
+Table SB1. Descriptive Statistics
+
+N
+
+Mean
+
+SD
+
+Minimum Maximum
+
+Violent Events Measures
+
+SB violent event (Crude)
+
+SB violent event (PRIO-25)
+
+SB violence over territory
+
+SB violence over governance
+
+NSB violent event (Crude)
+
+NSB violent event (PRIO-25)
+
+Number of fatalities, SB
+
+Number of fatalities, SB-government
+
+Number of fatalities, SB-organized group
+
+Number of fatalities, SB-civilian casualties
+
+Number of fatalities, NSB
+
+Number of fatalities, NSB-government
+
+82,708
+
+0.021
+
+82,708
+
+0.002
+
+82,708
+
+0.011
+
+82,708
+
+0.010
+
+82,708
+
+0.002
+
+82,708
+
+0.001
+
+82,708
+
+0.274
+
+82,708
+
+0.092
+
+82,708
+
+0.140
+
+82,708
+
+0.013
+
+82,708
+
+0.071
+
+82,708
+
+0.006
+
+Number of fatalities, NSB-organized group
+
+82,708
+
+0.014
+
+Number of fatalities, NSB-civilian casualties
+
+82,708
+
+0.000
+
+UCDP-GED
+0.143
+
+0.048
+
+0.103
+
+0.102
+
+0.043
+
+0.023
+
+6.664
+
+2.049
+
+4.571
+
+0.465
+
+4.668
+
+0.313
+
+1.312
+
+0.041
+
+ACLED
+
+Number of violence events
+
+26,680
+
+0.726
+
+11.760
+
+Number of demonstration events
+
+Number of political events
+
+Number of strategic development
+
+Number of battles
+
+Number of explosive/remote events
+
+Number of riots
+
+Number of protests
+
+26,680
+
+0.067
+
+26,680
+
+0.206
+
+26,680
+
+0.033
+
+26,680
+
+0.150
+
+26,680
+
+0.049
+
+26,680
+
+0.026
+
+26,680
+
+0.048
+
+1.119
+
+3.108
+
+0.438
+
+2.587
+
+0.906
+
+0.450
+
+0.847
+
+Number of violence against civilians
+
+26,680
+
+0.421
+
+10.780
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1,189
+
+225
+
+1,012
+
+100
+
+1,000
+
+50
+
+305
+
+7
+
+964
+
+76
+
+322
+
+20
+
+320
+
+52
+
+28
+
+62
+
+958
+
+0.993
+
+Other variables
+
+Coconut suitability
+
+Price index
+
+Gold cells
+
+Gold price
+
+Drought exposure
+
+Government effectiveness (in period t − 1)
+Political & absence of violence (in period t − 1)
+Rule of law (in period t − 1)
+Regulatory quality (in period t − 1)
+Voice & accountability (in period t − 1)
+Average elevation in cell (rescaled by 1000)
+
+82,181
+
+0.232
+
+0.226
+
+82,708 465.860 494.050
+
+1.017
+
+2,276.300
+
+82,708
+
+0.002
+
+0.048
+
+0
+
+1
+
+64,032 565.720 395.880
+
+270.990
+
+1,669.500
+
+66,954
+
+0.000
+
+48,480
+
+0.192
+
+48,480
+
+0.129
+
+48,480
+
+0.030
+
+48,480
+
+0.055
+
+48,480
+
+0.093
+
+80,042
+
+0.328
+
+0.001
+
+0.394
+
+0.335
+
+0.172
+
+0.228
+
+0.290
+
+0.431
+
+0.150
+
+−0.003
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0.003
+
+1
+
+1
+
+1
+
+1
+
+1
+
+4.593
+
+0.891
+
+Average distance to coast in cell (rescaled by 1000) 80,197
+
+0.093
+
+Note: SB = State-Based and NSB = Non State-Based
+
+SB.2
+
+

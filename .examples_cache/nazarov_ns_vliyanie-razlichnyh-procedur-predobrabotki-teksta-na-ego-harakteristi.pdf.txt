@@ -1,0 +1,4422 @@
+ФЕДЕРАЛЬНОЕ ГОСУДАРСТВЕННОЕ АВТОНОМНОЕ 
+ОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ 
+ВЫСШЕГО ПРОФЕССИОНАЛЬНОГО ОБРАЗОВАНИЯ 
+«НАЦИОНАЛЬНЫЙ ИССЛЕДОВАТЕЛЬСКИЙ УНИВЕРСИТЕТ 
+“ВЫСШАЯ ШКОЛА ЭКОНОМИКИ”» 
+Факультет Санкт-Петербургская школа гуманитарных наук и искусств 
+
+Егорова Ангелина Денисовна 
+
+Назаров Никита Сергеевич 
+
+THE IMPACT OF DIFFERENT TEXT PREPROCESSING 
+
+PROCEDURES IN TEXT COMPLEXITY CHARACTERISTICS 
+
+(ВЛИЯНИЕ РАЗЛИЧНЫХ ПРОЦЕДУР ПРЕДОБРАБОТКИ ТЕКСТА 
+
+НА ЕГО ХАРАКТЕРИСТИКИ СЛОЖНОСТИ) 
+
+Выпускная квалификационная работа – МАГИСТЕРСКИЙ ПРОЕКТ 
+по направлению подготовки 45.04.03 Фундаментальная и прикладная 
+лингвистика 
+образовательная программа «Языковые технологии в бизнесе и 
+образовании» 
+
+Рецензент:                                                                     Научный руководитель: 
+
+к. филол. н., старший 
+
+научный сотрудник 
+
+М. В. Худякова 
+
+     к.ф.-м.н., доцент 
+
+     Н. В. Станкевич 
+
+____________________  
+
+     ____________________ 
+
+Санкт-Петербург 2025 
+
+ 
+          
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TABLE OF CONTENTS 
+
+INTRODUCTION_______________________________________________ 3 
+CHAPTER I. THEORETICAL FOUNDATIONS OF SENTIMENT 
+ANALYSIS, STOCHASTICITY AND CHAOS_______________________ 7 
+1.1  Concept of Sentiment analysis and its types______________________ 7 
+1.2 Sentiment analysis and opinion mining_________________________ 11 
+1.3 Rule-based and Machine learning sentiment analysis______________ 13 
+1.4 Sentiment Analysis’ Features_________________________________ 15 
+1.4.1 Polarity_________________________________________________16 
+1.4.2 Subjectivity_____________________________________________ 18 
+1.5  Entropy and the concept of the Shannon’s information theory_______ 19 
+1.5.1 Entropy and complexity calculations__________________________23 
+1.6 Complexity_______________________________________________ 25 
+1.6.1 Statistical complexity______________________________________25 
+1.6.1 Kolmogorov complexity___________________________________ 27 
+1.6.2 Lempel-Ziv Complexity___________________________________ 30 
+1.7 Lyapunov Exponent________________________________________ 32 
+Results and Сonclusions of the First Chapter________________________33 
+CHAPTER II. SENTIMENT TRAJECTORIES_____________________ 35 
+     2.1 Choosing Literary texts for Analysis___________________________ 35 
+2.2 Sentiment trajectories_______________________________________ 36 
+2.3 Measuring Informativity in best-selling books____________________39 
+2.3.1 Shannon’s entropy________________________________________ 40 
+2.3.2 Complexity_____________________________________________ 47 
+2.3.3 Lyapunov Exponent_______________________________________ 47 
+2.4 Сomparison of entropy-complexity measures of texts in different time 
+periods______________________________________________________49 
+Results and Сonclusions of the Second Chapter_____________________ 51 
+CONCLUSION________________________________________________ 52 
+REFERENCE LIST_____________________________________________54 
+APPENDIX A__________________________________________________ 62 
+APPENDIX B__________________________________________________ 68 
+APPENDIX C__________________________________________________ 69 
+
+2 
+
+ 
+ 
+ 
+INTRODUCTION 
+
+Language  is  an  open  system  that  is  characterized  by  its  flexibility  and 
+
+dynamism.  In  the  modern  world,  there  is  an exponential growth in the volume 
+
+of textual information, which necessitates the development of effective methods 
+
+for its analysis. Nowadays there is a need in professional fields to determine the 
+
+complexity  of  the  text,  for  example  in  translation  studies, teaching translation,  
+
+marketing  and  educational   spheres.  For  professional  translators  knowledge  of 
+
+text complexity сontributes to understanding how much time they need to spend 
+
+on  translation,  what  types  of  reference  materials  they  should  use  during  the 
+
+translation  process,  and  assume  the  number and quality of mistakes allowed in 
+
+this  text.  During  translation  training,  knowledge  of  complexity  indicators  will 
+
+make  it  possible  for  students  to  select  texts  for  study  that  correspond  to  their 
+
+real  knowledge  and  skills.  The  informativity  of  a  text  can  be  assessed  using 
+
+various algorithms, including: the ratio of the number of terms to the total word 
+
+count,  the  frequency  of  word  repetition  in  previously  translated  texts,  a 
+
+readability index, and a purely mathematical calculation of information entropy. 
+
+In the present study  probabilistic approach according to Shannon entropy 
+
+and algorithmic approach of Kolmogorov will be сonsidered.  
+
+To  conduct  an  in-depth  analysis  of  sentiment  trajectories  within  the 
+
+framework of entropy and time series, it is necessary first to analyze the tonality 
+
+of words in the text. 
+
+Sentiment  analysis  was  employed  in  work  to  generate  time  series 
+
+representing  the  emotional  content  of  the  text.  These  time  series  will 
+
+subsequently  be  used  to  quantify  textual  complexity  and  entropy.  There  are 
+
+currently enough interdisciplinary studies on sentiment analysis and the concept 
+
+of  entropy,  but  few  scientists  have  observed  these  concepts  in  one work. With 
+
+the  growing  interest  in  NLP,  the  number  of  studies  devoted  to  analyzing  the 
+
+randomness  of  time  series  based  on  textual  data  is  also  increasing.  Sentiment 
+
+3 
+
+ 
+ 
+analysis,  or  text  tonality  analysis,  in  turn,  is  one  of  the  most  well–known 
+
+processes for automatically determining the emotional coloring of a digital text. 
+
+In  this  regard,  we  decided  to  combine  two  promising  areas  of  research: 
+
+computational  linguistic  analysis  of  emotions  (or  sentiment  analysis)  and 
+
+mathematical measures of text complexity.  
+
+The relevance of the present study is that it is interdisciplinary: we touch 
+
+upon  the  sentiment  analysis  that  is  related  to  the  task  of  сomputational 
+
+linguistics  and information entropy, the matter of which relies in both branches 
+
+of science: сomputational linguistics and theory of information.  
+
+The  present  work  presents  a  mathematical  approach  to  calculating 
+
+entropy-complexity and uniform distribution. 
+
+The main goal of the study in the paper stands for the matter of  how can 
+
+Shannon entropy be applied in linguistics as well as in text analysis? 
+
+The other important questions that need to be solved are the following: 
+
+1.  How  does  text  preprocessing  for  further  sentiment  analysis  impact 
+
+entropy-complexity indicators? 
+
+2.  How to prove that Shannon entropy unfolds stochasticity and chaos in the 
+
+text? 
+
+In accordance with the objective, the following objectives were set: 
+
+●  To  do  all  pre-processing  steps  of  texts  using  related  Python  Libraries: 
+
+tokenization, stop words removal, PoS tagging, and lemmatization ; 
+
+●  To  present  indicators  of  polarity  and  subjectivity  and  to  perform  it  in  a 
+
+data frame; 
+
+●  To transform words of a natural language into vectors; 
+
+●  To  present  the  sentiment  trajectories  of  each  literature  masterpiece  as 
+
+one-dimensional time series on the entropy-complexity plane; 
+
+●  To  calculate  entropy  and  complexity  measures  and  place  sentiment 
+
+trajectories  over  entropy-complexity  plane  for  corresponding  time  series 
+
+4 
+
+ 
+within  the  lower  and  upper  theoretical  boundaries  and ascertain whether 
+
+the texts are chaotic or not; 
+
+●  To  compare  the  trajectories  of  different  texts  to  make  conclusions about 
+
+their chaoticity and informativity; 
+
+●  Do the same tasks above without text preprocessing; 
+
+●  To compare the results.  
+
+The  subject  of  the  study  is  a  collection of 50 best-selling literary works 
+
+published  between  1974  and 2023, selected according to The New York Times 
+
+Best  Seller  list,  which  is  widely  recognized  as  the  leading  ranking  of  popular 
+
+books  in  the  United  States. The research material includes texts from various 
+
+genres  -  such  as  adventure  novels,  thrillers,  and  dramas.  They  are  chosen  to 
+
+enable a comparative analysis of how entropy-complexity indicators vary across 
+
+different literary styles and historical periods. 
+
+The object of the study is sentiment analysis and entropy. 
+
+The  theoretical  basis  for  the  work  is  formed  by  contemporary  research 
+
+and publications in the field of NLP, mathematics and computational linguistics. 
+
+The  novelty  of  the  study  lies  in  the  attempt  to  apply  mathematical  and 
+
+physical theory to the field of linguistics using modern NLP and computational 
+
+linguistics methods. 
+
+Practical  significance:  The  results  of  this  study  can  be  applied  in 
+
+translation  quality  assessment  by  providing  a  quantitative  method  to  evaluate 
+
+the structural and emotional fidelity of translated texts.  
+
+Structure  of  the  paper:  Master's  thesis  consists  of  introduction,  two 
+
+chapters, conclusions on each chapter, conclusion, bibliography and appendices. 
+
+The  introduction  establishes  the  relevance  and  novelty  of the work, the 
+
+subject, the object, the goal and the objectives of the study and the approach of 
+
+research. 
+
+The  first  chapter  underlines  the  key  concepts:  sentiment  analysis,  its 
+
+types, and features like polarity and subjectivity. It introduces Shannon entropy, 
+
+5 
+
+ 
+Kolmogorov  complexity,  and  the  Lyapunov  exponent  as  tools  to  measure 
+
+linguistic  chaos  and  structure.  These  concepts  form  the  basis  for  analyzing 
+
+sentiment dynamics in texts. 
+
+In  the  second  chapter  theory  applies  to  practice.  After  using  50 
+
+best-selling  books,  it  constructs  sentiment  trajectories  and  computes  entropy, 
+
+complexity,  and  Lyapunov  values,  comparing  results  with  and  without 
+
+preprocessing.  The  results  show  that  preprocessing  affects  the  detection  of 
+
+chaotic patterns and informativity in texts. 
+
+The  conclusion  describes  the  results  of  the  work:  the  study  shows  that 
+
+preprocessing  reduces  noise  and  highlights  deeper  patterns  in  sentiment 
+
+analysis, the effectiveness of the methods used is analyzed. Finally, the possible 
+
+directions for the further development of this project are proposed. 
+
+Egorova  A.  performed  text  preprocessing,  conducted  a  literature  review 
+
+on  chaos,  stochasticity,  entropy,  and  complexity,  constructed  the  sentiment 
+
+trajectories,  in  addition  to  drafting  the  theoretical  framework.  Nazarov  N. 
+
+carried  out  text  analysis  with  focus  on  statistical  complexity  and  sentiment 
+
+analysis,  and  contributed  to  writing  the  overall  theoretical  sections,  including 
+
+the choice of literary texts. 
+
+The  intermediate  results  of  research  have  been  tested  in  the  scientific 
+
+journal “Culture and text” and were presented in the international scientific and 
+
+practical   conference   “Natural  Language Processing (NLP) for Linguistics, IT 
+
+and Business”. 
+
+Approbation of the work: 
+
+1.Egorova A., Stankevich N. (2024). Sentiment trajectories like a tool for 
+
+text analysis, Culture and text, 2(57), 169-180. 
+
+2.  Egorova  A.,  Nazarov  N.  (In  press,  2025) The Impact of different text 
+
+preprocessing procedures in text’s sentiment trajectories, International scientific 
+
+and  practical   conference “Natural Language Processing (NLP) for Linguistics, 
+
+IT and Business” [Tomsk, Russia]. 
+
+6 
+
+ 
+CHAPTER I. THEORETICAL FOUNDATIONS OF  
+SENTIMENT ANALYSIS,  STOCHASTICITY AND CHAOS  
+
+Our  present  work  delves  into  the  employed  techniques,  underscores  the 
+
+importance of information entropy in NLP  and examines the evolving spread of 
+
+emotion analysis for the last decade.  
+
+          1.1  Concept of Sentiment analysis and its types 
+
+Sentiment  analysis  is  a  field  of  natural  language  processing  (NLP)  that 
+
+focuses  on  identifying  and  extracting  subjective  information  from  text.  The 
+
+primary goal is to determine the attitude, emotions, or sentiments expressed by a 
+
+writer  or  speaker  regarding  a  particular  topic,  product,  service,  or  event.  This 
+
+sentiment  is  often  classified  as  positive,  negative,  or  neutral,  though  more 
+
+nuanced  analyses  can  detect  specific  emotions  like  joy,  anger,  sadness,  or 
+
+surprise.  One  of  the  important  aspects  of  text  analysis  is  the  identification   of 
+
+sentiment  (emotional  tone),  which  finds application in a wide variety of fields, 
+
+from  monitoring  public  opinion  to  analyzing  consumer  behavior.  The  existing 
+
+methods of sentiment analysis, as a rule, are focused on determining the general 
+
+text  tonality,  while  the  dynamics  of  sentiment  change  (sentiment  trajectories) 
+
+remains insufficiently studied, despite its potential informative value.  
+
+       One  of  the  first  works  in which the term sentiment analysis is used is the 
+
+work of T. Nasukawa and J. Yi. The authors applied sentiment analysis to words 
+
+from  news  articles  after  doing  all  pre-processing  steps,  including POS tagging 
+
+(Nasukawa & Yi, 2003, p. 72–73). It is interesting to note that authors use such 
+
+a method of analyzing sentences as shallow parsing. The method consists in the 
+
+initial  identification  of  separate  units  of  sentences  (nouns, verbs), and then the 
+
+phrasal  groups  they  are  part  of.  Researchers  proposed  to  single  out  positive, 
+
+negative  and  neutral  polarity.   After obtaining the results of the shallow parser, 
+
+authors  analyze  the  syntactic  dependencies  among  the  phrases  and  look  for 
+
+7 
+
+ 
+phrases  with  a  sentiment  term  that  modifies  or  is  modified  by  a  subject  term. 
+
+However,  this  approach  did  not  work  in  examples  with  ambiguity  in  complex 
+
+sentences,  which  relates  to“the  presence  of  two  or  more  possible  meanings 
+
+within a single word”,   periphrasis, irony (“she is grammyless”). The reason for 
+
+this  is  the  fact  that  domains  and  data  types  are  expanded,  and the precision of 
+
+some  difficult  data  may  go  down  to  about  75  %.  As  the  prerequisite  of  study, 
+
+researchers  need  to modify the current system, adding new sentiment terms for 
+
+new domains. Moreover, the authors are going to resolve the issue with various 
+
+discourse processing methods including anaphora resolution in the future works 
+
+(Nasukawa & Yi, 2003, p. 75-76). 
+
+Liu  (2012)  expressed  support  for  the  idea  that  sentiment  analysis  has 
+
+become  one  of  the  most  popular research fields in natural language processing 
+
+(NLP). He made an extensive summary, emphasizing his goal in presenting the 
+
+applications  and  development  of  sentiment  analysis  in  the  business  and  social 
+
+sphere.  The  author  sees  his  goal  as  very  helpful  in  the  area  of  qualitative  and 
+
+quantitative analysis of opinions. 
+
+        As sentiment analysis has been the subject of computational linguistics for 
+
+a  long  time,  the  authors  describe  steps  in  carrying  out  the  sentiment  analysis. 
+
+Firstly,  they  have  done  pre-processing  of  natural  language  texts,  using  related 
+
+programming  libraries,  such  as  spacy,  natasha  and  others.  He  mentions  that in 
+
+sentiment analysis “each word is mapped into a float number, ranging from -1 to 
+
+1”,  and  “The  value  -1  corresponds  to  words  that  evoke  the  most  negative 
+
+emotions;  the  value  1,  to  words  that  evoke  the  most  positive  emotions”. 
+
+Emotional  analysis  underlies  the  work  on  experience  clues  by  Reagan.  et  al. 
+
+(2016),  in  which  he  investigates  six  core  emotional  arcs  within  the  storyline. 
+
+The  similar  results  may  be  found  in  works  of  Min  and  Park,  who  propose  to 
+
+explore a literary masterpiece by calculating the mean Sentiment Polarity Index 
+
+for each chapter to ascertain a chapter “topic” (Min & Park, 2016). 
+
+8 
+
+ 
+Mercha and Benbrahim (2023) emphasize the significance of opinionated 
+
+textual data in the social world. Researchers prove that “the majority of existing 
+
+sentiment  analysis  surveys  focus  on  monolingual  methodologies,  with  English 
+
+being the most extensively researched language” (Mercha & Berbrahim, 2023). 
+
+They have carried out multilateral research in the frame of state-of-art methods 
+
+for  sentiment  analysis across multilingual approaches. The authors also discuss 
+
+the  methods  of  machine  learning  and  deep  learning  models,  providing  new 
+
+research directions.   
+
+Several  questions  regarding  sub-tasks  of aspect-based sentiment analysis 
+
+(ABSA) remain to be addressed. Researchers Shuang, Gu, Li et al. (2021) bring 
+
+some  information  about  the  background  of  the  problem.  Actually,  in  recent 
+
+years,  a  lot  of  neural  models  have  performed  greatly  in  aspect-level 
+
+sentiment-classification  tasks.  However,  as  emphasized  by  the  study's  authors, 
+
+their  prediction  accuracy  is  not  always  reliable,  because  of  the  noises  in some 
+
+biased training samples. Therefore, other studies scarcely applied part-of-speech 
+
+tagging.  Shuang  et  al.  concur  that  the  part-of-speech  information  becomes  an 
+
+integrated part of the research, as it helps researchers to analyze a structure and 
+
+coherence  of  the  sentence.  Moreover,  as  has  been  previously  reported in other 
+
+literature,  certain  parts-  of-  speech  (POS)  categories  would  be  the  strong 
+
+indicators  of  the  sentiments  (Shuang  et  al.,  2021). Researchers prove that only 
+
+three  kinds  of  POS  contribute  to  sentiment  and  subjectivity:  adjectives,  verbs 
+
+and  adverbs.  To  concentrate  on  these  three  specific  POS categories, Shuang et 
+
+al.  propose  the  interactive  POS-aware  network  (IPAN),  which  includes 
+
+components  that  are  designed  for  differentiating  adjectives,  adverbs  and  verbs 
+
+from  other  POS  categories.  Moreover,  Shuang  et  al.  developed  an  upgraded 
+
+target-context  gate  called  gated  ReLU  Units  (GReU).  As  a  result,  the  authors 
+
+designed an innovative POS-highlighting attention mechanism that focuses only 
+
+on specific parts of speech. Authors managed to show the success of their model 
+
+comparing  the  novel  gating  units  with  the  existing  one.  Comparing  the  full 
+
+9 
+
+ 
+model IPAN with its three ablated models, authors concluded that removing any 
+
+of the three components deteriorates the end results. The considerable advantage 
+
+of the work lies in explicit visualization of the POS-highlighting mechanism.  
+
+They  prove  the  positive  results  from  applying  these  methods  on  model 
+
+performance.  Therefore,  to  conduct  fundamental  analysis  containing  syntax 
+
+information  Multiple  Syntactic  Structure  (MSS)  is  proposed. Their experiment 
+
+was based on three datasets in which such sub-tasks as Aspect Sentiment Triplet 
+
+Extraction  (ASTE),  Aspect  Term  Extraction  (ATE),  Aspect-oriented  Opinion 
+
+Extraction  (AOE)  and  Opinion  Term  Extraction  (OTE)  are  considered.  The 
+
+research  materials  were  most  widely  used  datasets  for  the  aspect-level 
+
+sentiment-classification  task: Laptop, Restaurant and Twitter datasets. The goal 
+
+of  the  experiment  was  to  identify  the  aspect  polarity  of  a  sentence  with  the 
+
+corresponding  target  in  the  most  precise  manner.   The  proposed  approach  is 
+
+compared  against  baseline  models,  which  only  focus  on  a  single  or  subset  of 
+
+sub-tasks  in  a  pipeline.  The  authors  conclude  that  a  language  model  called 
+
+BERT  is  used  to  obtain  semantic  embeddings,  and  can  further  improve  the 
+
+performance of ABSA subtasks.  Research showed the following results: 
+
+●  development  an  interactive  POS-aware  network  (IPAN)  as  a  tool  for 
+
+detection POS information; 
+
+●  designing a POS-filter gate to generate transformed word embeddings; 
+
+●  designing  POS-highlighting  attention  mechanism  with  a 
+
+limiting 
+
+condition to assigning high attention scores for POS categories; 
+
+●  development of a target-context gate called gated ReLu Units (GreU). 
+
+Authors emphasize the aspect (2021) that is often overlooked in sentiment 
+
+analysis: categorization by parts of speech. It is regarded as a significant step for 
+
+the  successful  operation  of  the  model.  Their  approach  is  completely  different 
+
+from other approaches, as it is built on the idea of different contributions to the 
+
+sentiment polarity depending on multiple POS categories. To conclude, Shuang 
+
+et al. designed a state-of-art POS-highlighting attention mechanism to prove that 
+
+10 
+
+ 
+the  model  fully  focused  on  adjectives,  adverbs,  and  verbs.  However,  as  the 
+
+authors  note  earlier,  more  work  is  necessary  to  transfer the learned knowledge 
+
+from one domain to other domain datasets with the help of transfer learning. 
+
+As it has been noted earlier, more work is necessary to investigate whole 
+
+texts within semantic and sentiment trajectories. 
+
+1.2 Sentiment analysis and opinion mining 
+
+There is also a term that is often identified with the above mentioned such 
+
+as  opinion  mining,  which  is  a  feature  of  sentiment  analysis,  as  polarity  and 
+
+subjectivity.  Sentiment  analysis  is  a  generic concept to which the term opinion 
+
+mining  refers.  It  is  also  known  as  aspect-based  sentiment  analysis  in  Natural 
+
+Language  Processing  (NLP).  The  term  is  defined  as  the  process of identifying 
+
+sentiment  aspects  in  a  text  by  focusing  on  specific  aspects,  sentiment polarity, 
+
+and  opinion  terms  related  to  the  text  (Ezzameli  &  Mahersia,  2023).    So, 
+
+sentiment  analysis  mainly  studies  opinions  which  express  or  imply  positive or 
+
+negative  sentiments  (Liu,  2012).   It  is  also  known  as  aspect-based  sentiment 
+
+analysis  in  Natural  Language  Processing  (NLP).  One  of  the  first  and  most 
+
+famous works in opinion mining was presented in 2002 by Pang and Lee (Pang, 
+
+Lee,  &  Vaithyanathan,  2002).  They  used  three  machine  learning algorithms of 
+
+NaiveBayes,  MaximumEntropy  and  support  vector  machine  to  classify  film 
+
+opinions into two groups of positive and negative (Amir & Alireza, 2017). 
+
+The  opinions  can be classified according to their meaning and pragmatic 
+
+functions.  The  first  type  of  opinion  that  we  will  discuss  is  regular  opinion, 
+
+another  type  is  called  comparative  opinion.  A regular opinion is often referred 
+
+to  simply  as  opinion  in  the  literature  and  it  has  two  main  subtypes:  direct 
+
+opinion and indirect opinion (Liu, 2006, 2011, 2012). A direct opinion refers to 
+
+an  opinion  expressed  directly  on  an  entity  or  an  entity  aspect,  whereas  an 
+
+indirect opinion is an opinion that is expressed indirectly on an entity or aspect 
+
+11 
+
+ 
+of  an  entity  based  on  its  effects  on  some  other  entities.  For  example,  the 
+
+sentence “This camera is great” describes the opinion expressed directly on the 
+
+object aspect (camera). Indirect opinion is more difficult to recognise than direct 
+
+opinion.  One  needs  to  know  whether  some  desirable  and  undesirable  state  is 
+
+before  or  after  some  action  (Liu,  2006), e.g., the phrase “After taking sleeping 
+
+pills  I  became  addicted  to  it” expresses a negative opinion on the pills, but the 
+
+sentence “Since I have had sleep disorders, I started taking sleeping pills” does 
+
+not express a sentiment or opinion on the pills because “sleep  disorders” (which 
+
+is negative) happened before taking medicine.  
+
+A  comparative  opinion  is  a  type  of  opinion  which  is  expressed  by 
+
+comparing  multiple  targets  on  a  shared  aspect  (Wang  et  al.,  2022),  e.g.,  “This 
+
+picture  is  more  colourful  than  the  previous  one”.  Comparative  and superlative 
+
+adjectives are  frequently used in such sentences.  
+
+There  is  also  another  classification  of  opinions  that  is  based  on 
+
+expressiveness:  explicit  and  implicit  opinions.  An  explicit  opinion  is  a 
+
+subjective  statement  that  gives  a  regular  or  comparative  opinion,  e.g.,“This 
+
+forest  is  wonderful,”  and  “This  forest  is  more  wonderful  than  where  we  have 
+
+been.” 
+
+An  implicit  opinion  is  a  statement  that  only  implies  a  regular  or 
+
+comparative  opinion,  e.g.,  “I  bought  a  cake  yesterday,  and  it  was  too  sweet”, 
+
+and“ This MacBook works faster than previous.” 
+
+Unfortunately,  less  work  has  been  done  on  implicit  opinions  (Zhang  & 
+
+Liu, 2011; Liu, 2012). 
+
+Sentiment analysis сan be defined as a natural language processing (NLP) 
+
+technique  which  defines  positive  or  negative  evaluation  expressed  through 
+
+language.   This  method  has  gained  great  importance  in  various popular fields, 
+
+besides  linguistic  and  computer  sciences,  for  example,  business,  marketing, 
+
+customer service, social media analysis, etc. 
+
+12 
+
+ 
+Overall,  sentiment  analysis  is  one  of  the  most  widely  known  natural 
+
+language  processing  (NLP)  tasks.  The  analysis  of  emotions  consists  in 
+
+determining the emotional meaning of an expression in natural language. 
+
+         1.3 Rule-based and Machine learning sentiment analysis 
+
+It’s  generally  known  that  sentiment  analysis  generally  falls  into  three 
+
+categories: 
+
+●  Rule-based algorithms  
+
+●  Machine Learning models 
+
+●  Lexicon-based systems 
+
+The  three  major  approaches  to  NER  are  based  on  lexicon,  rules,  and 
+
+machine  learning (Gudivada, Rao, & Raghavan, 2015). Rule-based approach is 
+
+a  practical  approach  to  analyzing  text  without  training  or  using  machine 
+
+learning  models.   This  approach  results  in  rules  based  on  which  the  text  is 
+
+labeled as positive, negative or neutral. These rules are also known as lexicons. 
+
+Hence,  the  Rule-based  approach  is  called  the  Lexicon-based  approach.  These 
+
+include  TextBlob,  VADER,  and  SentiWordNet.  A  sentiment  analysis  dictionary 
+
+contains  information  about  the  emotions  or  polarity  expressed  by  words, 
+
+phrases,  or  concepts  (Amirkumar,  Orynbekova,  Talasbek,  Ayazbayev  & 
+
+Cankurt,  2024).  This  approach  however  has   several  limitations.  Firstly,  the 
+
+dictionary-based  method  is  not  able  to  handle  ambiguity. Secondly, it does not 
+
+work  with  different  dialects  and  informal  or  slang  words,  as well as acronyms 
+
+and  shorthand.  Besides  this, when units transfer to other languages, they suffer 
+
+from  translation  problems  and  cultural  differences  (Kaity  &  Balakrishnan, 
+
+2020).  
+
+With  a  machine  learning  (ML)  approach,  an  algorithm  is  used  to  train 
+
+software to estimate sentiment level in a block of text using words that appear in 
+
+the text as well as the order in which they appear. Engineers and researchers use 
+
+sentiment  analysis  to  teach  their  software  how  to  identify  emotion  in  text, 
+
+13 
+
+ 
+similarly to how we, humans, do. ML models continue to “learn” from the data 
+
+they are given, hence the name “machine learning” (Amirkumar et al., 2024). 
+
+Here are a few of the most commonly used classification algorithms: 
+
+●  Linear  regression  -  calculates  how  the  X  input  (words  and  phrases), 
+
+relates  to  the  Y  output  (polarity).  LR  will  determine  where  words  and 
+
+phrases  fall on a polarity scale from positive to negative and everywhere 
+
+in between (Tang et al., 2022). 
+
+●  Naive Bayes - algorithm that uses Bayes’ theorem to categorize words in 
+
+a  batch  of  text.  Bayes  classifier  learns  the  probability  of  each  word 
+
+appearing  in  positive,  negative,  or  neutral  text  from  the  training  data 
+
+(Wongkar & Angdresey, 2019) 
+
+●  K-Nearest Neighbor (KNN) - classification system, which is based on the 
+
+concept that similar data points stay close to each other. This model helps 
+
+to  determine  what  words  and  phrases  are  positive,  negative,  or  neutral 
+
+based on the data that exists around them. 
+
+●  Support  vector  machines  -  quick  and  efficient  classification  algorithm 
+
+used to solve two-group classification problems. 
+
+●  Random  Forest  is  an  ensemble  learning  technique  in  which  many 
+
+decision  trees  are  trained  and  where  each  tree  carries  a  data-supplied 
+
+sample of observations. 
+
+●  Deep learning (DL) - also known as an artificial neural network, which is 
+
+considered  to  be  an  advanced  machine  learning  technique  that  links 
+
+together  multiple  algorithms  to  mimic  human  brain  function.  Models 
+
+related  to  Deep  learning  include  models  such  as  BERT,  RoBERTa  and 
+
+other  Transformer-based  architectures,  that  are  used  for  text  sentiment 
+
+analysis (Umarani, Julian, & Deepa, 2021).  
+
+We  should  point  out  the  pros  and  cons  of  both  approaches.  The  main 
+
+advantages of rule-based approach are: accuracy, ease of use and swiftness. But 
+
+there are a few limitations: limited scope and restricted intelligence. 
+
+14 
+
+ 
+Machine learning systems provide the following benefits to organizations: 
+
+adaptability,  self-learning  and  scalability.  On  the  other  hand,  they  also  require 
+
+greater  technical  expertise  from  teams  to  develop  effective  applications. 
+
+Moreover,  building  a  sufficiently  large  and  relevant  data  set  can  be  a 
+
+resource-intensive and time-consuming process (Umarani et al., 2021). 
+
+One must admit that rule-based sentiment analysis is one of the very basic 
+
+approaches to calculating text sentiments. It only requires minimal pre-work and 
+
+the idea is quite simple, this method does not use any machine learning to figure 
+
+out the text sentiment. On the contrary, instead of being explicitly programmed, 
+
+machine  learning  models,  a  subset  of  AI,  learn  from  data  to  enhance  their 
+
+performance  in  specific  tasks.  Rule-based  systems  thereby  rely  on  predefined 
+
+dictionaries, while AI-powered machine learning learns continuously from data.     
+
+1.4 Sentiment Analysis’ Features 
+
+Sentiment  analysis  is  used  in  many  professional  spheres:  social  media, 
+
+marketing, medicine, literature. Berardinelli, Gaber and Haig (2013) highlighted 
+
+that  analysing  students'  feedback  using  sentiment  analysis  techniques  can 
+
+identify  the  students'  positive  or  negative  feelings,  or  even  more  reﬁned 
+
+emotions,  that  students  have  towards  the  current  teaching.  The  authors 
+
+represented a table where the emotion  types  were  categorised  into  Love,  Joy,  
+
+Anger,   Frustration,   and   Neutral. The student can express his feelings in short 
+
+expressions  or  words  (Ezzameli  &  Mahersia,  2023;  Geetha  et  al.,  2024).  Tian 
+
+Feng  et  al.  (2009)  created  patterns  to  find   what   words  are  associated  more  
+
+with  emotions,  they  also  give  solutions  to  relieve  the  e-learner,  for  example, 
+
+when  he  feels  depressed  as  his  teacher  does  not   like  his  essay  (Feng  et  al., 
+
+2009).  
+
+Sentiment  analysis  comes  in  many  forms  -  depending  on  the  tasks  and 
+
+objectives you pursue. Linguistic sentiment is a measurement of subjectivity as 
+
+15 
+
+ 
+either  a  positive or negative opinion in text. In the Chinese blogs, for example, 
+
+the  positive,  negative and objective emotion scores are added in the model and 
+
+show  their  significance  to  find  influential  users  (Shuang  et  al.,  2021). 
+
+Traditionally   there are two types of sentiment analysis, according to its further 
+
+usage:  fine-grained  sentiment  analysis  and  aspect-based  sentiment  analysis 
+
+(Yan  et  al.,  2022).  As  a  measurement  of  opinions  and  affective  states,  a 
+
+sentiment  score  generally  consists  of  two  aspects:  polarity  and intensity (Tian, 
+
+Lai  &  Moore,  2018).   A  key  aspect  of  sentiment  analysis  is  polarity 
+
+classification.  This  polarity  can  be  expressed as a numerical rating known as a 
+
+sentiment  score.  Fine-grained,  or  graded,  sentiment  analysis  is  a  type  of 
+
+sentiment  analysis  that  groups  text  into  different  emotions  and  the  level  of 
+
+emotion  being  expressed  (Jones,  2024).  Categories  can  expand  beyond  just 
+
+positive,  neutral  and  negative.  For  example,  one  may  choose  to  use  five 
+
+categories,  e.g.,   negative,  neutral,  positive  and  very  positive.  In  its  most 
+
+complete  iteration,  fine-grained  analysis  is  conducted  to  define  both  the 
+
+sentiment  target  (topic)  and  its  intensity  at  a  phrase  or  clause  level  (Wida  & 
+
+Setiawan, 2023).  
+
+1.4.1 Polarity 
+
+A basic task in sentiment analysis is classifying the polarity of a given text 
+
+at  the  document,  sentence,  or  feature/aspect  level  -  whether  the  expressed 
+
+opinion  in  a  document,  a  sentence  or  an  entity  feature/aspect  is  positive, 
+
+negative,  or  neutral.  Advanced,  “beyond  polarity”  sentiment  classification 
+
+looks,  for  instance,  at  emotional  states  such  as  enjoyment,  anger,  disgust, 
+
+sadness,  fear,  and  surprise  (Vong   et  al.,  2019).  The  parameter  can  be  in  the 
+
+range from -100 to 100, but most often the sentiment score is between -1 and 1, 
+
+indicating 0-neutral sentiment.  
+
+These are the main components of the concept of polarity: 
+
+16 
+
+ 
+●  Polarity Classification: This involves assigning a sentiment label 
+
+(positive, negative, neutral) to a given text. For instance, the sentence “I 
+
+love this product” has a positive polarity, while “I regret buying this item” 
+
+has a negative polarity. 
+
+●  Lexicon-Based Approaches: These methods utilize predefined 
+
+dictionaries where words are associated with specific sentiment scores or 
+
+polarities. The overall sentiment of a text is determined by aggregating 
+
+the polarities of individual words. 
+
+●  Machine Learning Approaches: These involve training models on labeled 
+
+datasets to learn patterns associated with different sentiment polarities. 
+
+Such models can capture more nuanced expressions of sentiment 
+
+compared to lexicon-based methods (Liu, 2012; Zhang, Wang & Liu , 
+
+2018).  
+
+In  NLP,  polarity  is  predominantly  associated  with  sentiment  analysis,  a 
+
+subfield  focused  on  determining  the  emotional  tone of text. Sentiment polarity 
+
+indicates  whether  a  piece  of  text  expresses  a  positive,  negative,  or  neutral 
+
+sentiment,  forming  the  basis  for  opinion  mining and affective computing. This 
+
+application  is  particularly  relevant in analyzing user-generated content, such as 
+
+product reviews, social media posts, and developer communications. 
+
+A  notable  study,  “Polarity  Calibration  for  Opinion  Summarization” 
+
+(Polarity  Calibration  for  Opinion  Summarization),  addresses  the  challenge  of 
+
+ensuring  that  automated  summaries  reflect  the  sentiment  distribution  of  input 
+
+texts.  The  paper  introduces  polarity  calibration,  a  method  to  align  summary 
+
+polarity  with  input,  mitigating  biases  where  models  amplify  majority  opinions 
+
+and neglect minorities (Lei et al., 2024) 
+
+17 
+
+ 
+ 
+ 
+1.4.2 Subjectivity 
+
+Textual information in the world can be broadly categorized into two main 
+
+types:  facts  and  opinions.Facts  are  objective  expressions  about  entities,  events 
+
+and  their  properties.  Opinions  are  usually  subjective  expressions  that  describe 
+
+people’s  sentiments,  appraisals  or  feelings  toward  entities,  events  and  their 
+
+properties (Bing, 2010). Subjectivity as a polarity is also scored, usually from -1 
+
+to 1.  
+
+However, subjectivity is not a simple binary attribute but rather exists on a 
+
+spectrum.  It  is  often signaled through a variety of linguistic markers, including 
+
+evaluative  adjectives  ,  adverbs  and verbs. Modal verbs (e.g., “might”, “could”, 
+
+“should”) and hedges (e.g., “sort of”, “kind of”, “apparently”) can also indicate 
+
+subjectivity  by  expressing  uncertainty  or  limited  commitment  to  a  statement.  
+
+The  frequent  use  of  personal  pronouns  (e.g.,  “I”,  “me”,'  “my”)  and  subjective 
+
+intensifiers  (e.g.,  “very”,  “really”,  “extremely”)  further  contributes  to  a  more 
+
+subjective  tone.  Furthermore,  the  concept  of  subjectification  (Traugott  & 
+
+Dasher,  2002)  highlights  how  meanings  evolve  over  time,  with  objective 
+
+expressions often acquiring more subjective interpretations through processes of 
+
+grammaticalization.  The  notion  of  stance  (Du  Bois,  2007),  encompassing  the 
+
+speaker's  attitude,  feelings,  and  judgments,  is  also  central  to  understanding 
+
+subjectivity.  The  accurate  identification  of  subjectivity  is  crucial  for  various 
+
+applications  in Natural Language Processing (NLP). It is a foundational step in 
+
+sentiment  analysis  (Pang  &  Lee,  2008),  where  the  goal  is  to  determine  the 
+
+overall sentiment expressed in a piece of text. Subjectivity detection is also vital 
+
+for  opinion  mining  (Liu,  2012),  allowing  for  the  extraction  of  subjective 
+
+opinions from large datasets. Moreover, it plays a key role in fact-checking and 
+
+bias  detection  (Rashkin  et  al.,  2017),  helping  to  identify  biased  or  misleading 
+
+information  in  news  articles and social media. As such, a robust understanding 
+
+of  subjectivity  and  its  linguistic  manifestations  is  essential  for  advancing 
+
+18 
+
+ 
+various  NLP  tasks  and  promoting  more  informed  and  nuanced  analyses  of 
+
+textual data. 
+
+1.5  Entropy and the concept of the Shannon’s information theory 
+
+Entropy  arises  exclusively  in  dissipative  systems,  like  language.  The 
+
+concept  of  entropy  was  introduced  into  scientific  circulation  in  1865  by  R. 
+
+Clausius  to  characterize  the  processes  of  energy  conversion  (Chumak,  2011). 
+
+The  term  entropy  is  also  used  in  classical  mechanics  as  a  "characteristic  of 
+
+dynamic  chaos  in  systems  with  instability  of  movement”.  In  theory  of 
+
+information entropy means "a measure of the uncertainty of a certain situation" 
+
+(Korotaev, 2013). The entropy of a language is a statistical function of a text in 
+
+a particular language, or of the language itself, which determines the amount of 
+
+information per unit of text (Schneier, 2018). In modern linguistics, this concept 
+
+is  significant and capable of replacing the term information (Nekipelova, 2013, 
+
+p.3).  Thus,  information  entropy  determines  the  measure  of  stochasticity  and 
+
+randomness of the text.  
+
+The  concept  of  entropy  provides  deep  insight  into  the  direction  of 
+
+spontaneous  change  for  many  everyday  phenomena.  Its  introduction  by  the 
+
+German physicist Rudolf Clausius in 1850 is a highlight of 19th-century physics 
+
+(Drake,  2025).  Research  on  stochasticity  and  time  series  has  increased  with 
+
+growing interest in NLP. Semantic trajectories of natural texts require competent 
+
+application  of  the  right  approach.  For  example,  researcher  V.  Gromov  (2023) 
+
+devotes  his  works  to  sentimental  analysis  of  literary  texts  and  notes  the  main 
+
+tendency in entropy and complexity values in data frames.  In addition, he tried 
+
+to  determine  the  sentiment  and  semantic  trajectory  of  a  literature  masterpiece 
+
+using mathematical methods such as Shannon Entropy and the largest Lyapunov 
+
+exponent (2015). The object of his research is Russian and English outstanding 
+
+literature. 
+
+19 
+
+ 
+ 
+Language  is  a  kind  of  programming  code  that  allows  us  to  express  our 
+
+thoughts  and  feelings.  When  a  person  speaks  or  writes,  he  is  a  source  of 
+
+information. The Shannon entropy estimates the average amount of information 
+
+(mathematical  expectation)  contained  in  the  values  of  a  random  variable. 
+
+According  to  Shannon's  formula,  the information added by each new character 
+
+is  the  logarithm  of  the  probability  of  its  occurrence,  the  basis  of  which  is  the 
+
+number  of  characters  in  the  alphabet  (Gromov,  2023).  With  the  help  of 
+
+information  theory,  it  is  possible  to  reduce  the  number  of  letters  in  words 
+
+without  loss  of  meaning.  Then  the  brain,  based  on  a  limited  amount  of 
+
+information from the “truncated” text, will itself complete the missing elements 
+
+to  restore  meaning.  It  turns  out  that  all  our  languages  are  redundant  to  one 
+
+degree  or  another,  i.e.  they  contain  sounds  or  letters  that  are  not  strictly 
+
+necessary  to  convey  a  message.  Claude  Shannon  estimated  the  redundancy  of 
+
+the  English  language  at  75%  information  does  not  exist  without  a  physical 
+
+medium;  it  is  discrete  and measured in bits. Information in the narrow sense is 
+
+Shannon entropy, that is, the degree of uncertainty and novelty in a message or 
+
+the  average  amount  of  information  per  message  character  (Chumak,  2011). 
+
+Therefore,  the  more  uncertain  the  data,  the  more  information  is  required  to 
+
+describe it.                                                
+
+The  definition  of  information  entropy  was introduced in 1948 by Claude 
+
+Shannon.  In  information  theory  it  is  the  average  rate  at  which  information  is 
+
+produced  by  a  stochastic  source  of  data  (Nasukawa  &  Yi,  2003).  It  quantifies 
+
+the  amount  of  information  in  the  variable.  This  term  was adapted for different 
+
+processes  and  can  be  used  for characterization of chaoticity, or stochasticity of 
+
+the  processes.  The  approach  implies  that,  for  a  given  time  series,  a  user 
+
+calculates  two  characteristics  -  entropy  and  complexity  and  then  compares the 
+
+position of this point with the lower and upper theoretical boundaries to specify 
+
+time-series  type.  The  main  advantage  of  this  algorithm  is  that  it  is  possible  to 
+
+work with only one-dimensional time series. 
+
+20 
+
+ 
+Entropy as the degree of dispersion of meaning can be defined as follows: 
+
+is a measure of the uncertainty or variability of information, which is often used 
+
+to  describe  the  degree  of  dispersion  or  dispersion  of  meaning  in  a  message  or 
+
+text.  The  higher  the  entropy,  the more uncertainty or ambiguity is contained in 
+
+the  message,  which  makes  it less predictable or unambiguous. (Pavlovskaya & 
+
+Illina, 2023, p. 80).  
+
+The  use  of  entropy in linguistics allows for a quantitative analysis of the 
+
+chaoticity  coefficient  of  texts,  which  opens  up  new  opportunities  for  studying 
+
+language and its structures (Gromov, 2023). 
+
+According to Gromov and Migrina (2017), language fractal structures can 
+
+be identified as the sets of structure in natural language that appear in the same 
+
+cluster,  i.e.  in  the  similar  languages. The authors reveal the idea that “the texts 
+
+of  a  language  are  “avalanches”  flowing  down  its word co-occurrence graph as 
+
+complex  networks  and  random  walks.  The  goal  of  the  article  is  to  analyze 
+
+language  stochasticity,  exploring  “real-world  semantic  “avalanches”  generated 
+
+by a particular language”. The choice of the research material is due to the fact 
+
+that  both  Russian  and  English  language  are  rich  of  diverse  corpora  of  texts, 
+
+moreover  they  have  qualitative  difference  in  grammar  structure:  Russian  is  an 
+
+inflected  language,  while  in  English  inflections  are  rather  rare;  Russian  is 
+
+characterized  by  flexible  word  order  in  a  sentence,  whereas  word  order  in 
+
+English language is strict, and rare exceptions are constrained by stringent rules. 
+
+           It’s important to pinpoint the fact that authors used two different methods 
+
+to test the statistical hypothesis. The first one is a technique of data collapse, the 
+
+second  one  is  based  on the Kolmogorov-Smirnov (KS) criterion. Both of these 
+
+methods not only evaluate the exponents but also remove the tiniest parts of the 
+
+sample  that  usually  do  not  fit  a  power-law.  The  first  method  also  cuts  off  the 
+
+biggest non-fitting elements. It is worth mentioning that this phenomenon seems 
+
+to  be  a  vital  characteristic  of  the  real  world  information  following  power-law 
+
+distributions. 
+
+21 
+
+ 
+In  (Gromov  et  al.,  2023)  authors  calculated  different  measures  of 
+
+sentiment  and  semantic  trajectories  complexity.  They’ve  shown  that  such 
+
+trajectories  for  different  languages  are chaotic, and indicators of chaoticity and 
+
+complexity,  like  entropy,  or  the  largest  Lyapunov  exponents,  can  be  used  for 
+
+estimation  of  translation  quality  of  literature  masterpieces.  Nevertheless,  it 
+
+remains  unknown  how  the  sentimental  analysis  of  time  series  is  carried  out 
+
+specifically for parts of speech. 
+
+As  for  the  results,  Gromov  and  Dang  calculated  minimum,  average, 
+
+maximum entropies and complexities for every literature masterpiece. They also 
+
+found  mean  entropy  and  complexity  deviation  from  original.  Authors  analyze 
+
+Russian-English  translation  for  novels  “Crime  and  Punishment”  by  F.  M. 
+
+Dostoevsky  and  “Anna  Karenina”  by  L.  Tolstoy.  Translations  which  were 
+
+considered,  were  made  by  outstanding  translators  as  K.  Garnett  by  F. 
+
+Dostoevsky  and  “Anna  Karenina”  by  L.  Tolstoy.  For  English-to-Russian 
+
+translation  authors  consider  several  works  by  translators  from  the  20-21st 
+
+centuries:  A.  Gorkovenko,  E.  Lann  and  A.  Krivtsova  and V. Lukianskaya.   As 
+
+for  the  English-to-Russian  translations,  authors  also  calculate  the  entropy  and 
+
+complexity  of  a  machine  word-by-word  translation  and  a  machine  translation 
+
+performed  by  a  Facebook  translator.  The  results  turn  to  be  quite  obvious:  the 
+
+translations closest to original were made by human, namely professional in her 
+
+field,  K.  Garnett  (1.49%  entropy  deviation  and  0.99%  сomplexity deviation in 
+
+the  translation  of  novel  “Anna  Karenina”  for  n=3,  d=5).   Machine  translation 
+
+shows worse results: -0.25 for entropy and 10.96% for complexity for the same 
+
+novel  and  indicators.  It  is  natural  that  word-by-word  translation  appears  to  be 
+
+the  farthest  from  the  indicators  of  entropy  and  complexity  in  original 
+
+masterpieces (-3.29% for entropy and 1.90% for complexity for the same data). 
+
+The  empirical  probability  density  function  showed  good  results,  the 
+
+authors  discovered  the  problem  of  diachronic  unity,  but  existing  studies  have 
+
+22 
+
+ 
+   
+failed  to  address  that they limited themselves to the corpus created by the 20th 
+
+century for both languages. 
+
+1.5.1 Entropy and complexity calculations 
+
+Gromov  and  Dang  also  managed  to  represent  the  cluster  of  different 
+
+languages on the entropy-complexity plane.  Drawing to the author's conclusion, 
+
+results based on the entropy-complexity plane do not corroborate its claim to be 
+
+equidistant  from  all  languages.  Also,  Gromov  proved  that  poetry  is  closest  to 
+
+the  traditional  law,  and  therefore  poetry  can  be  considered  as  a  component  of 
+
+the  basis  of  language.  However,  it  seems  to  be  equidistant  from  all 
+
+Indo-European  languages.  It  is  proposed  that  in  future  studies  it  would  be 
+
+fruitful to explore other languages in the framework of language typology. 
+
+The  calculation  of  the  complexity  measure was used in the work, and its 
+
+calculation was based on the formulae where Q is a Jensen–Shannon divergence 
+
+between  the  given  and  the  uniform  distributions  (P,  Pe)  multiplied  by 
+
+conventional Shannon entropy, normalized to its value: 
+
+С[P] = Q[P, Pe]  * H[P]. 
+
+The  lower  and  upper  theoretical  boundaries  were  placed  on  the entropy- 
+
+complexity plane and its position was compared with the position of given time 
+
+series  (sentiment  trajectories).  Simple  deterministic  processes  occupy  the 
+
+bottom  left  corner  of  the  plane,  stochastic  processes  cover  the  bottom  right 
+
+corner. Сhaotic processes occupy the areas near the upper curve (Fig.1). 
+
+The theoretical boundaries were calculated as the conventional measure of 
+
+complexity: 
+
+C = H * D. 
+
+Parameter  H,  which is identified with the thermodynamic entropy, stands 
+
+for  information  or  entropy,  and  parameter  D  for  disequilibrium,  respectively 
+
+(Lopez-Ruiz et al., 2010). 
+
+23 
+
+ 
+    
+When  an  isolated  system  valves  with  time,  the  complexity  cannot  have 
+
+any possible value in a C versus H, but it must stay within certain bounds, Cmax 
+
+and  Cmin.  These  are  the  maximum  and  minimum  value  of  C  for  a  given  H 
+
+(Lopez-Ruiz et al., 2010). The largest and smallest values of the function (fmin, 
+
+fmax) were obtained using the Sympy library. 
+
+The  lower  and  upper  theoretical  boundaries  were  placed  on  the entropy- 
+
+complexity plane and its position were compared with the position of given time 
+
+series  (sentiment  trajectories).  Simple  deterministic  processes  occupy  the 
+
+bottom  left  corner  of  the  plane,  stochastic  processes  cover  the  bottom  right 
+
+corner, whereas chaotic processes occupy the areas near the upper curve (Figure 
+
+1).  
+
+Figure 1. Theoretical boundaries on entropy-complexity plane 
+
+The low boundary was calculated as minimum envelope complexity that 
+
+traverses all the discontinuous derivative points in the Dmin versus H. In total, 
+
+parameters were obtained: N and n. N is the total number of accessible states, 
+
+and n is the number of states where f_i = 0.  N is the total number of words. 
+
+This is shown in Figure 1. 
+
+24 
+
+ 
+ 
+ 
+       After  the  theoretical  boundaries  were  drawn,  the  sentiment  trajectories 
+
+of  each  text,  represented  as  one-dimensional  time  series,  were  placed  on  the 
+
+entropy-complexity  plane.  Time  series  can  be  defined  as  follows:  a sequence 
+
+of observations of a certain parameter at different points in time. 
+
+For  a  relatively  small time series, the probabilities are close to zero, the 
+
+distribution of probabilities is close to uniform. 
+
+The  entropy  of  the  text  reflects the degree of chaos or uncertainty of the 
+
+probabilities (events) in the text. The higher the entropy, the more diverse ideas 
+
+are  used  in  the  text,  and  the  more  “complex”  or  “unexpected”  this  text  is  in 
+
+terms of predicting the next event. 
+
+1.6 Complexity 
+
+Complexity  characterizes  the  behavior  of  a  system  or  model  whose 
+
+components  interact  in  multiple  ways  and  follow  its  local  rules,  leading  in 
+
+particular  to  non-linear  system,  randomness,  collective  dynamics,  hierarchy 
+
+(Johnson,  2001).  This  is  where  the  term  “complex  system”  originally  comes 
+
+from. A complex system is a system consisting of many interacting components 
+
+(also  known  as  subsystems),  as  a  result  of  which  it  gets  new  properties  (Bar 
+
+-Yam, 2002).  
+
+1.6.1 Statistical Complexity 
+
+Statistical  Complexity  is  a  measure  used  to  describe  how  structured  or 
+
+organized  a  system  is,  while  also accounting for randomness. Unlike measures 
+
+that  only  focus  on  how  unpredictable  a  system  is  (such  as  entropy),  statistical 
+
+complexity  tries  to  capture  both  the  amount  of  information  and  the  degree  of 
+
+structure  present  in  the  data  (Crutchfield  &  Young,  1989).  Generally, 
+
+applications cover quantum systems, software‐architecture networks (modeling 
+
+components  and  interconnections  via  state‐probabilities),  and  even  edge‐map 
+
+scoring  in  image  processing.  In  text  complexity  analysis,  SC  can  reveal  how 
+
+25 
+
+ 
+syntactic  or  lexical  distributions  balance  predictability  and  novelty,  offering 
+
+insights that pure entropy measures miss. 
+
+A  complementary  notion  arises  in  computational  mechanics,  where 
+
+Statistical  Complexity  is  the  Shannon  entropy  of  a  system’s  causal states - the 
+
+minimal  set  of  historical  patterns  needed  to  optimally  predict  the  future.  First 
+
+formalized  by  Crutchfield  &  Young,  SC  quantifies  memory  stored  in  the 
+
+process’s  ε‑machine (a model that helps us understand and predict patterns in a 
+
+data  sequence  by  identifying  the  minimal  amount  of  memory  needed  to  make 
+
+good  predictions).  Unlike  SC’s  focus  on  probability‐distance  products,  SC 
+
+directly  measures  the  hidden–Markov‐model  complexity  underlying  temporal 
+
+sequences. 
+
+In  text  analysis,  SC  can  be  used  to  assess  how  much  contextual  history 
+
+(e.g., previous words or syntactic frames) is needed to predict upcoming words, 
+
+reflecting deep structural complexity beyond surface‐level probabilities. 
+
+Kolmogorov  Complexity  of  a  string  x  (which  we  will  touch  on  in more 
+
+detail  later)  has  a different meaning and is defined as the length of the shortest 
+
+program  on  a  universal  Turing  machine  that  outputs  x.  (Shen,  2024)  It  is  a 
+
+fundamental notion of algorithmic randomness. However, K(x) is uncomputable 
+
+in  general,  and  practical  estimators  rely  on  bounds  or  approximations. 
+
+Moreover,  K  treats  all  strings uniformly, ignoring any probabilistic model over 
+
+ensembles.  In  contrast,  Statistical  Complexity  measures  are  computable  given 
+
+empirical  distributions  or  inferred  models.  They  explicitly  leverage  Shannon 
+
+entropy  and  distributional  structure  (e.g.,  disequilibrium  or  causal‐state 
+
+probabilities), making them more readily applicable to real‐world data sets. 
+
+Lempel–Ziv  Complexity  (LZC) approximates algorithmic complexity by 
+
+counting the number of distinct substrings (“phrases”) as a sequence is scanned 
+
+left  to  right.  Each  time  a  new  substring  appears,  the  LZC  counter  increments, 
+
+offering  a  fully  computable  estimate  of  string  compressibility.  While  LZC 
+
+26 
+
+ 
+effectively  measures  repetitions  and  compressibility,  it  does  not  directly 
+
+incorporate  a  notion  of  disequilibrium  or  the  entropy  of  an  underlying 
+
+distribution.  Statistical  Complexity,  on  the  contrary,  balances  entropy  with 
+
+structural  measures  (e.g:  Jensen–Shannon  divergence  in  generalized  SCMs), 
+
+capturing 
+
+both 
+
+randomness 
+
+and 
+
+organization.  Moreover, 
+
+the 
+
+computational‑mechanics  variant  SC  can  detect  long‐range  dependencies  and 
+
+causal architectures that single‐pass substring counts may miss. 
+
+By selecting the appropriate Statistical Complexity formulation - whether 
+
+López‑Ruiz’s  entropy  -  disequilibrium  product  or  Crutchfield’s  causal‐state 
+
+entropy - researchers can tailor complexity analyses to emphasize distributional 
+
+balance, predictive memory, or both. This makes SC a versatile tool for probing 
+
+the  complicated  structure  of  order  and  randomness 
+
+in 
+
+textual  data, 
+
+complementing,  but  also  fundamentally  differing  from  algorithmic  and 
+
+compression‐based complexity measures. 
+
+1.6.2 Kolmogorov complexity 
+
+In  theoretical  machine  learning,  statistical  complexity  is  a  notion  that 
+
+measures  the  richness  of  a  hypothesis  space.  At  its  core,  Kolmogorov 
+
+complexity  is  a  way  of  measuring  the  amount  of  “information”  in  a  piece  of 
+
+data  -  typically  a  string  of  text  or  bits.  In  simple  terms,  the  Kolmogorov 
+
+complexity  of  an  object  is  defined  as  the  length  of  the  shortest  computer 
+
+program (written in a fixed, universal programming language) that can generate 
+
+that object and then stop. (Li & Vitaniy, 1993) 
+
+This concept is important for various reasons: 
+
+●  It measures Inherent Complexity: 
+
+Unlike  other  measures  that  depend  on  probability  distributions  (like 
+
+Shannon  entropy),  Kolmogorov  complexity  focuses  on  the  inherent 
+
+structure  of  the  data.  For  example,  a  string  that  repeats  a  simple pattern 
+
+27 
+
+ 
+(like  “abababab…”)  can  be  generated  by  a  very  short  program  (“print 
+
+‘ab’ 100 times”), meaning it has low complexity. In contrast, a string that 
+
+appears  random  (with  no  discernible  pattern)  will  require  a  program 
+
+nearly as long as the string itself. 
+
+●  Helps us to understanding randomness: 
+
+In  this  framework,  randomness  is  understood  as  the  absence  of  any 
+
+shorter  description.  If  a  string’s  shortest  description  is  nearly  the  same 
+
+length  as  the  string,  it  is  considered  algorithmically  random  or 
+
+incompressible. This concept helps us rigorously define what it means for 
+
+data to be “random” or “complex.” 
+
+●  It is universal  
+
+Although the exact value of Kolmogorov complexity can change slightly 
+
+depending  on  the  programming  language  or  Turing  machine  used,  the 
+
+differences  are  bounded  by  a  constant.  This  means  the  measure  is 
+
+universal  enough  to  compare  the  complexity  of  different  objects  in  a 
+
+meaningful way. 
+
+●  Theoretical and Practical Impact: 
+
+While  Kolmogorov  complexity  itself  is  not  computable  (there  is  no 
+
+general  algorithm  that,  given  any  string,  will  produce  its  exact 
+
+complexity),  it  underpins  many  theoretical  results  in  computer  science 
+
+and  mathematics.  It  also  inspires  practical methods in data compression, 
+
+machine  learning,  and  statistical  inference  (for  instance,  through  the 
+
+Minimum  Description  Length  principle)  (Li  &  Vitányi,  An  Introduction 
+
+to Kolmogorov Complexity and Its Applications, 2008).  
+
+In  NLP,  researchers  use  the  idea  of  complexity  to  compare  different 
+
+languages, texts, or even different writing styles. For instance, by estimating the 
+
+complexity of sentences or entire documents, one can gauge their predictability. 
+
+28 
+
+ 
+Texts  that  are  more  predictable  (e.g.,  formulaic  news  reports)  tend  to  be  more 
+
+compressible  and  thus  have lower Kolmogorov complexity than more creative, 
+
+less predictable texts like poetry. 
+
+Kolmogorov  complexity  also  inspires  methods  for  clustering  and 
+
+measuring  the  similarity  between  texts.  One  such  method  is  the  Normalized 
+
+Compression  Distance  (NCD).  NCD  approximates  the  similarity  between  two 
+
+texts by comparing how well they can be compressed together versus separately. 
+
+This  technique  has  been  applied  to  tasks  like  document  clustering,  language 
+
+classification, and even authorship attribution. 
+
+A key paper on this approach is Cilibrasi & Vitányi (2007), “The Google 
+
+Similarity Distance” which explores compression-based similarity measures. 
+
+The  concept  of  entropy,  in  the  context  of  information  theory,  generally 
+
+refers  to  the  unpredictability  or  randomness  of  a  source.  When  we  talk  about 
+
+complexity  entropy  in  relation to Kolmogorov complexity, we are interested in 
+
+how  the  complexity  of  a  text  (or  any  data)  changes  as  its  length  increases,  or 
+
+how  “surprising”  the  next  piece  of  information  is  given  what  we have seen so 
+
+far. 
+
+In many applications (especially in NLP) - entropy is used to measure the 
+
+average unpredictability of a text. A higher entropy value indicates that the text 
+
+is  less  predictable,  which  usually  corresponds  to  a  higher  Kolmogorov 
+
+complexity. Conversely, texts with lower entropy are more predictable and have 
+
+lower complexity. 
+
+By  analyzing  the  entropy  of  text,  researchers  can  make  decisions  about 
+
+language models, such as determining the best way to predict the next word in a 
+
+sentence.  This  has  direct  implications  in  applications  like  speech  recognition, 
+
+machine  translation,  and  text  generation.  The  interplay  between  entropy  (as  a 
+
+measure  of  average  uncertainty)  and  Kolmogorov complexity (as a measure of 
+
+the  minimal  description  length)  provides  a  robust  theoretical  framework  for 
+
+understanding and improving these models. (Vitányi & Li, 2000).  
+
+29 
+
+ 
+ 
+1.6.2 Lempel-Ziv Complexity 
+
+Lempel-Ziv  complexity  (LZ  complexity)  is  a  fundamental  measure  in 
+
+information  theory,  quantifying  the  complexity  of  finite  sequences  based  on 
+
+their compressibility. Introduced by Abraham Lempel and Jacob Ziv in 1976, it 
+
+serves  as  a  practical  approximation  to  the  theoretical  concept  of  Kolmogorov 
+
+complexity.  This  paper  provides an in-depth examination of LZ complexity, its 
+
+computation,  applications,  and  its  relationship  with  Kolmogorov  complexity. 
+
+The  concept  of  sequence  complexity  is  pivotal  in  various  domains,  including 
+
+data  compression,  randomness 
+
+testing,  and 
+
+information 
+
+theory.  While 
+
+Kolmogorov  complexity  offers  a  theoretical  foundation,  its  uncomputability 
+
+necessitates  practical  alternatives.  LZ  complexity  emerges  as  a  computable 
+
+measure, reflecting the repetitiveness and structure within sequences. 
+
+LZ  complexity  quantifies  the  number  of  distinct  substrings  encountered 
+
+as a sequence is parsed from left to right, where each new substring represents a 
+
+novel  pattern  not  previously  observed.  Formally,  for  a  sequence  S of length n, 
+
+the LZ complexity C(S) is the count of such unique substrings identified during 
+
+this parsing process. An efficient algorithm exists for computing LZ complexity 
+
+in  linear  time  -  the  algorithm  involves  iteratively  scanning  the  sequence  to 
+
+identify  the  longest  substring  that  has  not  been  previously  encountered, 
+
+incrementing the complexity count each time a new substring is found. 
+
+LZ complexity has been applied in various fields: 
+
+●  Data  Compression:  it  creates  the  basis  for  algorithms  like  LZ77  and 
+
+LZ78,  that  are  foundational  in  such  vastly  known  compression  formats 
+
+such as ZIP and GIF. 
+
+●  Randomness  Testing:  Used  to  assess  the  randomness  of  sequences, 
+
+especially in cryptography. 
+
+●  Neuroscience:  Applied  in  the  analysis  of  EEG  (electroencephalography) 
+
+data to detect complexity in brain signals. 
+
+30 
+
+ 
+Now, speaking of similarities: 
+
+●  Their goal is to measure the complexity or randomness of sequences. 
+
+●  Lower  values  in  both  indicate  that  there  is  more  regularity  or 
+
+compressibility. 
+
+And differences:  
+
+●  LZ  complexity  is  computable  in  linear  time,  while  Kolmogorov’s  is 
+
+uncomputable. 
+
+●  Kolmogorov  complexity  depends  on  the  choice  of  universal  Turing 
+
+machine, whereas LZ complexity is model-independent. 
+
+●  Granularity:  Kolmogorov  complexity  provides a theoretical lower bound 
+
+on  compressibility,  meanwhile  LZ  complexity  offers  users  a  practical 
+
+estimate. 
+
+Due  to  its  computability,  LZ  complexity  is  widely  used  in  practical 
+
+applications  where  an  estimation  of  sequence  complexity  is  required. 
+
+Kolmogorov  complexity,  while  theoretically  profound,  serves  more  as  a 
+
+conceptual  framework  for  understanding  the  limits  of  data  compression  and 
+
+randomness. 
+
+In  conclusion,  Lempel-Ziv  complexity  serves  as  a  practical  and 
+
+computable  measure  of  sequence  complexity,  closely  related  to  the  theoretical 
+
+construct of Kolmogorov complexity. While Kolmogorov complexity provides a 
+
+foundational  understanding  of  information  content,  LZ  complexity  enables 
+
+real-world  applications  across  various  domains.  Understanding  both  measures 
+
+helps  us  understand  the  concept  of  data  complexity  and  the  principles 
+
+underlying data compression and randomness. 
+
+31 
+
+ 
+1.7 Lyapunov Exponent 
+
+A Lyapunov exponent quantifies the rate at which nearby trajectories in a 
+
+dynamical system either converge or diverge over time. Specifically, it measures 
+
+how  small  differences  in  initial  conditions  can  amplify, indicating the system's 
+
+sensitivity  to  initial  states.  Mathematically,  if  δZ0  represents  an  initial  small 
+
+separation  between  two  trajectories,  the  separation  δZ(t)  at  time  t  can  be 
+
+approximated as: |δZ(t)∣≈eλt∣δZ0| 
+
+Here,  λ  denotes  the  Lyapunov  exponent.  A  positive  λ  suggests  that 
+
+trajectories  diverge  exponentially, indicating chaotic behavior, while a negative 
+
+λ implies convergence, pointing to stable behavior. (Guan, 2014) 
+
+In systems with multiple dimensions, there exists a spectrum of Lyapunov 
+
+exponents  corresponding  to  each  dimension  of  the  system's  phase  space.  The 
+
+largest  of  these,  known  as  the  Maximal  Lyapunov  Exponent  or  MLE,  is 
+
+particularly  significant  because  it  determines  the  system's  predictability.  A 
+
+positive  MLE  is  often  taken  as  an  indication  of  chaos,  provided  other 
+
+conditions, such as phase space compactness, are met. 
+
+A  positive  Lyapunov  exponent  indicates  that  small  differences  grow 
+
+exponentially  over  time,  leading  to  chaotic  behavior,  whereas  a  negative 
+
+exponent  suggests  that  the  differences  diminish,  leading  to  predictable  and 
+
+stable  outcomes  (Shen,  Uspensky,  &  Vereshchagin,  2017).  If  the  Lyapunov 
+
+exponent  thereby  is  positive,  then  the  behavior  of  the  dynamic  system  is 
+
+chaotic. If the Lyapunov exponent is negative, then the behavior of the dynamic 
+
+system is non-chaotic. 
+
+32 
+
+ 
+  
+ 
+ 
+ 
+Results and Сonclusions of the First Chapter 
+
+The  first  chapter  introduced  and  discussed  such  terms  as  sentiment 
+
+analysis  and  the  similar  concept  of  opinion  mining,  approaches  to  sentiment 
+
+analysis, as well as terms from physics and mathematics – entropy, Kolmogorov 
+
+complexity  and  the  Lyapunov exponent. Within the framework of this term, its 
+
+characteristics  were  considered.  The  first  one  is  Polarity,  which  indicates  the 
+
+positivity/negativity  in the sentiment of the text. The second one is subjectivity 
+
+which  refers  to  objective  info/facts  versus  personal  opinions  or  emotions.  The 
+
+chapter  examines  the  tasks  and  approaches  in  the  field  of  aspect-oriented 
+
+sentiment  analysis  Aspect-Based  Sentiment  Analysis  (ABSA):   Aspect 
+
+Sentiment  Triplet  Extraction  (ASTE),  Aspect  Term  Extraction  (ATE), 
+
+Aspect-oriented  Opinion  Extraction  (AOE)  и  Opinion  Term Extraction (OTE). 
+
+All  the  above  terms  are  closely  related  to  aspect-oriented  sentiment  analysis 
+
+(ABSA)  and  represent  different  tasks and approaches to extracting information 
+
+about  opinions  expressed  in  relation  to  specific  aspects  of  objects.   We  also 
+
+introduced  the  concept  of  entropy  and  Shannon  entropy,  that  is,  information 
+
+entropy and how it is applicable in NLP in the field of computational linguistics 
+
+and  machine  learning.  In  information  theory,  the  entropy  of a random variable  
+
+quantifies  the  average  level  of  uncertainty  associated  with  the outcome of that 
+
+variable.  Along  with  these  concepts,  the  concept  of  chaos  was introduced as a 
+
+complex  organization  that  is  difficult  to  predict,  but  nevertheless  has  its  own 
+
+rules.  Thus,  chaos  is  something  between  random  and  predictable.  Stochastic 
+
+processes  (random  processes)  are  processes  that  describe  changes  in  one  or 
+
+more  quantities  in  the presence of uncertainty. In a stochastic model, evolution 
+
+is  at  least  partially  random,  and  if  the process is run multiple times, it will not 
+
+produce  identical  results.  On  the  entropy-complexity  plane  shown  above,  the 
+
+designated  point  characterizes  the  entropy  and  complexity  of  the  text:  if  the 
+
+point is closer to Gaussian noise (H ≈ 1, C ≈ 0.1), then it indicates high entropy 
+
+(H) and shows random results, like noise. Low complexity points to absence of 
+33 
+
+ 
+structure or any patterns in the data.  If the point is closer to chaos (H ≈ 0.6-0.8, 
+
+C  ≈  0.2-0.25),  then  it  demonstrates  chaos  with  an  internal  structure,  but  not  a 
+
+complete disorder. So if one looks at noise,  this is the maximum of randomness, 
+
+but not order.  
+
+The  term  Lyapunov  exponent  of  a  dynamic  system  introduced  above 
+
+means  that  it  can  detect  the  presence  of  chaos  and  quantitatively  evaluate  the 
+
+stability or instability of the system. Lyapunov exponent is used to measure the 
+
+degree  of  contraction  or  divergence  of  two adjacent trajectories in phase space 
+
+with different initial conditions over time according to the exponential law, and 
+
+the  ratio  of  convergence  or  divergence  of  such  trajectories  (Rüdisüli  et  al., 
+
+2013).  
+
+34 
+
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CHAPTER II. SENTIMENT TRAJECTORIES 
+
+2.1  Choosing Literary texts for Analysis 
+
+The  most  popular  and  applauded  books  are  most  often  classified  by 
+
+popularity among all genres or any one specific genre of the genre, for a month 
+
+or  even  for  a  year.   The  New  York  Times  Best Seller list is widely considered 
+
+the  preeminent  list of best-selling books in the United States (Bear, 1992). Our 
+
+list  of  analysed  books   is  placed in the Appendix section. The books we chose 
+
+are  based  on  several  criteria:  date  of  publishing (1974-2023), volume (number 
+
+of  pages),  genre  and  copies  sold  -  they  must  be  bestsellers  of  their  respective 
+
+year.  The  texts  can  not  repeat  in  our  study,  but  there  is  one  exception  -  The 
+
+Harry  Potter saga. We thought it would be an interesting observation - to see if 
+
+the books of the same author would change under preprocessing, what would be 
+
+the results if there will be any. The literary works were chosen to be roughly the 
+
+same length to ensure a fair comparison of the results. (New York Times, 2017) 
+
+The  New  York  Times  list  was  chosen  because  it  is  arguably  transparent 
+
+and  massive  data-wise.  This  list  stands  as  the  most  authoritative  ranking  of 
+
+popular books in the United States. This prestigious rating was first published in 
+
+the Book Review section of The New York Times on October 12, 1931, and has 
+
+been released weekly ever since. 
+
+In  the  21st  century,  the  list  has  evolved  into  a  comprehensive  system 
+
+featuring multiple separate rankings categorized by genre and format. There are 
+
+distinct  charts  for  fiction and non-fiction, hardcover and paperback editions, as 
+
+well as digital versions of books. 
+
+The  methodology  behind  compiling  the  list,  however,  remains  a  closely 
+
+guarded trade secret, utilizing proprietary algorithms that take into account sales 
+
+data  and  various  other metrics. The New York Times Best Seller list takes into 
+
+account  all  sales  made  from  Sunday  through  Saturday  of the previous week at 
+
+bookstore  chains,  independent  stores,  local,  state,  and  national  retailers  like 
+
+35 
+
+ 
+ 
+Walmart,  and  online  platforms  like  Amazon,  Apple,  and  Google  (Pierleoni, 
+
+2012;  Diamond,  1994).  We  understand  that  it  may be a deal-breaker for some, 
+
+but  we  stick  with  it  because  there  is  little  to  no  competition.  It’s  important  to 
+
+note  that  this  ranking  is  not  merely  a  mathematical  calculation  but  a  result  of 
+
+editorial  expertise  -  a  status  legally  confirmed  in  1983.  According  to  the 
+
+publication’s representatives in 2017, the primary goal of the list is to accurately 
+
+reflect the true bestsellers of the market. (Pierlioni, 2012) 
+
+The  ranking  has  frequently  been  a subject of debate and controversy. To 
+
+combat  potential  manipulation  of  list  positions  (such  as  bulk  purchasing  to 
+
+artificially boost sales), the publication employs a special marking system.  
+
+Over  time,  the  NYT  Bestseller  sticker  became  a  signal  of  what's  worth 
+
+reading.   The   study  by  Stanford  Graduate  School  of  Business  concluded  that 
+
+lesser-known  writers  get  the  biggest  benefit  from  being  on  the  list,  while 
+
+perennial  best-selling  authors  see  no  benefit  of  additional  sales.  Young  and 
+
+little-known  authors  benefit  the  most  from being on the lists: after publication, 
+
+sales  of  their  books  increase  by  50-60%.  The  editors  make  11  weekly  (posted 
+
+every  Wednesday)  and  seven  monthly  lists.  Books  are  divided  by  format 
+
+(hardcover,  paperback,  e-book,  and  general),  age  (adult,  children's,  Young 
+
+Adult), and genre (fiction, non-fiction, sports, science, business). 
+
+2.2 Sentiment trajectories  
+
+The  choice  of  language  in  the  term  paper  is  determined  by  the  prospect 
+
+for  further  research:  we  plan  to  work  with  the  original  works  in  the  English 
+
+language 
+
+as 
+
+research  materials  and  compare 
+
+the  values  of 
+
+the 
+
+entropy-complexity  measures  with its Russian equivalent. The analysis of texts 
+
+of  original  and  its  translation  allows one to find the best translation or the best 
+
+resource  for  translation  by  comparing  the  entropy-complexity indicators of the 
+
+translated  texts  and  the  original.  For  example,  it  is  supposed  to  compare  the 
+
+entropy-complexity  indicators  of  the  Harry  Potter  book  series  in  the  Russian 
+
+36 
+
+ 
+translation,  and  by  comparing  the  indicators  with  the  original,  choose  the best 
+
+translation.  The  smaller  the  difference  between  the  indicators,  the  better  the 
+
+translation. 
+
+We used two different approaches to test the chaotic drops of given texts. 
+
+The first refers to sentiment analysis, which includes measures of polarity 
+
+and  subjectivity.  Text  preprocessing  is  a  necessary  step  in  the  field  of  natural 
+
+language  processing 
+
+(NLP),  which 
+
+includes  cleaning  and  converting 
+
+unstructured  text  data  to  prepare  them  for  analysis  (Lövheim,  2012).  To 
+
+complete our preparation for our work, we’ve done all the preprocessing stages 
+
+using  Python-related  libraries:  tokenization,  removal  of  stop-words,  POS 
+
+tagging, stemming and lemmatization.  
+
+All pre-processing steps were done with the help of Python Libraries: 
+
+●  tokenization: division of text documents into separate words; 
+
+●  lower casing; 
+
+●  stop words removal; 
+
+●  stemming – bringing a word to its base/root; e.g., dear – dearest; 
+
+●  lemmatization – determining the lemma of a given word; 
+
+●  POS  tagging  –  classifying  words  in  a  text  according  to  their  part  of 
+
+speech. 
+
+Firstly,  before  computing  the  measures  of  entropy-complexity,  all 
+
+pre-processing  steps  have been performed excluding stemming.   As the second 
+
+comparative  part  of  analysis  only  two  transformations  have  been  done:  
+
+separation of raw data in texts into tokens and removal of punctuation marks. 
+
+The  results  are  gathered  in  the  form  of  data  frames.  According  to  the 
+
+results,  all  units  were  grouped  into  words  with  positive,  negative  or  neutral 
+
+polarity, which is an essential step in NLP. There are many computer application 
+
+packages  that  allow  you  to  analyze  emotions  using  various  methods.  In  our 
+
+work,  we  used  the  Python  spaCy  library.  It  is  a  simple  Python  library  that 
+
+provides API access to various NLP tasks such as lemmatization, POS tagging, 
+
+37 
+
+ 
+word  vectors,  etc.  Nolds  is  a  small  numpy-based  library  that  provides  an 
+
+implementation  and  a  learning  resource  for  nonlinear  measures,  such  as  time 
+
+series.  NLTK  is  also  used  as  a  tool in work for performing sentiment analysis. 
+
+To  transform  textual  data  into  finite  numerical  vectors,  we  used  the  TF-IDF 
+
+method. All libraries used in paper are listed in Appendix B. 
+
+For extracting sentiments and classifying them into positive, negative and 
+
+neutral 
+
+сhoice 
+
+fell 
+
+on 
+
+a 
+
+pre-trained 
+
+model 
+
+MarieAngeA13/Sentiment-Analysis-BERT.  This  model  is  applicable  to  English 
+
+texts  and  is  considered  one  of  the  most  powerful  architectures  for  natural 
+
+language processing (NLP) tasks, including sentiment analysis.  
+
+  The  polarity  values  are  floating  point  numbers,  which  in  the  study  are 
+
+differentiated as follows: 
+
+• A negative emotional attitude is applied to a result less than 0; 
+
+• Positive polarity refers to a result greater than 0; 
+
+Neutral polarity is not considered since including it in entropy-complexity 
+
+calculations may blur the results and make them less informative. 
+
+Thus,  after  performing  sentiment  analysis,  the  sentiment  trajectory  of 
+
+literary work, resulting from measures of polarity and subjectivity  (or any other 
+
+text  can  be  implied)  is  placed  into a plane. The obtained sentiment trajectories 
+
+as  a  one-dimensional  time  series  are  reflected  on  the  plane.  As  it  was  said 
+
+earlier,    the  “MarieAngeA13/Sentiment-Analysis-BERT”  model  was  used, 
+
+which is a BERT-based model fine-tuned for sentiment analysis. The choice fell 
+
+on  this  model,  since  it,  first  of  all,  classifies  words  according  to  3  polarities: 
+
+positive,  negative  and  neutral  and  works  with  the  English  language.  An 
+
+important  aspect  in  choosing the model was also the fact that the BERT model 
+
+is  based  on  a  transformer,  a  neural  network  architecture that uses the attention 
+
+mechanism to analyze and to understand text.    The MPR-statistical complexity 
+
+can  be  viewed  as  a  functional  that  characterizes  the  length  of  the  shortest 
+
+description of the object (Gromov, 2023, p. 6). Comparative method of research 
+
+38 
+
+ 
+allows  one  to  make  a  conclusion  that  the  higher  entropy  is,  the  more  chaotic 
+
+time  series  are,  the  more  information  the  text  contains.  The  location  of 
+
+sentimental  trajectories  on  the  entropy-complexity  plane allows us to conclude 
+
+which  text  is  more  dynamic  in  plot  and  composition,  as  well  as the emotional 
+
+connotation of individual segments of the time series. 
+
+2.3 Measuring Informativity in best-selling books 
+
+As  is  known  from  the  previous  chapter,  prior  to  the  discovery  of chaos, 
+
+physical  processes  were  broadly  characterized  by  two  models  of  behaviour: 
+
+periodic and random (Lewis, 1989). Based on the fact that chaos theory studies 
+
+apparently  random  or  unpredictable  behaviour  in  systems  governed  by 
+
+deterministic laws, we took text as a system as a complex multi-level formation 
+
+with  interconnected  elements.  We  used the following measures to calculate the 
+
+characteristics  of  the  text:  Shannon’s  entropy,  statistical  complexity  and 
+
+Lyapunov  exponent.  In  classical  systems  entropy  measures  how  much 
+
+information is produced on the average for each letter of a text in the language. 
+
+We  took  the  single  word,  not  the  letter,  as the unit of analysis. After obtaining 
+
+sentiment trajectories the entropy value for the entire block of text was obtained. 
+
+Statistical complexity calculated with the help of formulae: 
+
+СLMC [Y]=H[Y]D[Y], 
+
+where  H  is  the  Shannon  entropy  and  D  is  “disequilibrium”.  As  a  rule, 
+
+normalized  entropy  is  varied  in  the  interval  of   (0;1].  In  our  examples  the 
+
+entropy value is closer to one.  
+
+          Measures of Lyapunov exponent were calculated to determine whether the 
+
+text is chaotic in terms of the system The signs of the Lyapunov exponents fully 
+
+characterize  the type of oscillations of the solution of the dynamic system. The 
+
+presence  of  a  positive  indicator  is  a  criterion  for  the  chaotic  nature  of  the 
+
+dynamic system, whereas a negative indicator points to сonvergence.  
+
+39 
+
+ 
+All 
+
+three  scores  were  calculated 
+
+for  both  pre-processed  and 
+
+non-pre-processed text. The results are presented below. 
+
+2.3.1 Shannon’s entropy 
+
+It was touched upon in the previous chapter that the Shannon’s entropy is 
+
+a  statistical  quantifier  extensively  used  for  the  characterization  of  complex 
+
+processes  (Benslama  &  Mokhtari,  2017).  Entropy  cannot  be  equal  to zero and 
+
+must be more than 0.  In the texts we analyzed, the entropy values are close to 1. 
+
+Figure  1  shows  the  entropy-complexity  graph  of  the  literary  work  “Watership 
+
+Down” by Richard Adams (Figure 2). We performed lemmatization, stemming, 
+
+and  tokenization  as  an  experiment,  and  then  plotted  these  trajectories  on  the 
+
+plane.  Gaussian  noise,  also  known  as  Gaussian  white  noise,  is  a  kind  of 
+
+statistical  noise  characterised  by  the  probability  density function of the normal 
+
+distribution  (Al'shanskii,  2011).  Based  on  this  theory,  it  can  be  argued  that  if 
+
+sentiment  trajectory  tends  to  be  near  to  the  Gaussian  noise,  it  often  represents 
+
+random  variations  that  occur in real data, which seems to confirm the idea that 
+
+the  data  in  the text block are scattered, it does not follow any patterns and it is 
+
+impossible to make accurate conclusions or forecasts based on it.  
+
+40 
+
+ 
+ 
+Figure 2. Sentiment trajectories for  “Watership Down” 
+
+Chaos, unlike disorder, has a comprehensive origin, connecting numerous 
+
+elements  and  has  a  complex  structure  (Su,  2021).  Chaos  is  the  behavior  of  a 
+
+deterministic  system  that  exhibits  random  properties.  Chaotic  systems  are 
+
+extremely sensitive to initial parameters; a slight change in a parameter leads to 
+
+a qualitative change in the behavior of the system (Oestreicher, 2007).  
+
+We  calculated  the  entropy  and  complexity  values  for  text  without  some 
+
+steps  needed  for  preprocessing:  lemmatization,  stop  words  removal  and 
+
+lowercasing. Results show that entropy is almost close to the maximum point 1, 
+
+which  indicates  greater  disorder  in  sequences  of  characters,  in  our  case  in  the 
+
+text (Figure 3). Hence, the entropy is high. Let us look at another point - a small 
+
+amount of information in the text implies lower entropy, as all data apply to few 
+
+events,  which  have  low  probability  distribution.  Hence,  the  entropy  level  is 
+
+small.  
+
+As  quantifying  information  is  the  foundation  of  the  field  of  information 
+
+theory,  it  can be assumed that the more information the text contains, the more 
+
+41 
+
+ 
+ 
+ 
+unexpected or surprising the events are (Brownlee, 2020). Therefore, such kinds 
+
+of events are of low probability.  
+
+Figure 3. Sentiment trajectory for  “Watership Down” (without preprocessing) 
+
+While  working  with  the  other  texts,  we’ve  decided  to  construct  only 
+
+lemmatized  trajectories for further calculation of entropy-complexity indicators 
+
+and the Lyapunov exponent.   In the work, which was written in 1975 by Agatha 
+
+Christie  (“Curtain”),  the  measure  of  complexity  is  higher  in  non-preprocessed 
+
+text  than  in  the  text  without  preprocessing.  Therefore,  it  can  be  observed  that 
+
+increasing  complexity  leads  the  sentiment  trajectory  closer  to  a  state  of  chaos 
+
+(Figure  4,  Figure  5).  Given  these  points,  in  the  second  case,  the  data  is  found 
+
+somewhere  between randomness and predictability, as we remember that chaos 
+
+is not completely random, but rather systematic with its own pattern.  
+
+42 
+
+ 
+ 
+            
+ 
+Figure 4. Sentiment trajectory for  “Curtains” (with preprocessing) 
+
+Figure 5. Sentiment trajectory for “Curtains” (without preprocessing) 
+
+We  see  the  same  alterations  in  entropy-complexity  values  in  the  novel 
+
+“Overload”,  written  in  1979  by  Arthur  Hailey  (Figure  6,  Figure 7). Perhaps, it 
+
+appears  because  stop-words  that  are  meaningful  to  the  context  and  the 
+
+connections  between  objects  (tokens)  are  increased.  It  should  be  noted  the 
+
+peculiar industrial genre of this literary work, concerning the  power generation 
+
+in California.  
+
+43 
+
+ 
+ 
+ 
+ 
+Figure 6. Sentiment trajectory for “Overload” (with preprocessing) 
+
+Figure 7. Sentiment trajectory for “Overload” (without preprocessing) 
+
+44 
+
+ 
+       
+ 
+ 
+The  same  tendency  can  be  observed  in  “E.T.  The  Extra-Terrestrial” 
+
+(1982)  by  William  Kotzwinkle,  the  science  fiction  adventure  novel.  In  this 
+
+novel word, lemma and stem trajectory coincide (Figure 8, Figure 9).  
+
+Figure 8. Sentiment trajectory for “E.T. The Extra-Terrestrial” (with preprocessing) 
+
+Figure 9. Sentiment trajectory for “E.T. The Extra-Terrestrial” (without preprocessing) 
+
+In literary works of the 90’s and 2000’s, the entropy-complexity values in 
+
+texts  with  and  without  preprocessing  stages,  remain  almost  at  the  same  level 
+
+except  for  some  novels,  like  “The Bridges of Madison County” and “The Lost 
+
+45 
+
+ 
+ 
+ 
+ 
+Symbol”. For “Scarlett”, for example, just few changes are observed: statistical 
+
+complexity  in  non-processed  text  is  located  a  little  higher  (Figure  10,  Figure 
+
+11).   
+
+Figure 10. Sentiment trajectory for “Scarlett” (with preprocessing) 
+
+Figure 11. Sentiment trajectory for “Scarlett” (without preprocessing) 
+
+An interesting fact: there are practically no cases where the complexity of 
+
+preprocessed text is higher than that of unprocessed text. Mean value of entropy 
+
+from 1974 to 2023 makes up to 0,94.  
+
+46 
+
+ 
+ 
+ 
+ 
+ 
+2.3.2 Complexity 
+
+Many  different  definitions  of  complexity  have  been  proposed  to  date, 
+
+mainly  in  the  realm  of  physical  and  computational  sciences,  e.g.,  algorithmic 
+
+complexity  (Solomonoff-Kolmogorov-Chaitin  complexity),  the  Lempel-Ziv 
+
+complexity, 
+
+the  complexity  of  a  system  based 
+
+in 
+
+its  diversity, 
+
+the 
+
+thermodynamic  depth,  the  ε-machine  complexity,  the  physical  complexity  of 
+
+genomes,  complexities  of  formal  grammars,  etc.  (Feldman  &  Crutchfield, 
+
+1998).  The  key  figures  in  proposing  the  idea  of  statistical  complexity  were 
+
+David Feldman and James Crutchfield, they put forward the idea that “the larger 
+
+and  more  intricate the “correlations” between the system’s constituents are, the 
+
+more  structured its underlying distribution is” (1997).   So, all existing methods 
+
+of  defining  complexity  led  scientists  to  develop  a  general  measure  that 
+
+quantifies  the  degree of structure present in a space. In our case high statistical 
+
+complexity  also  indicates  ordering  of  data,  however,  high  complexity  value  is 
+
+not  a  tendency  for  texts  analyzed  in  the  present  work.  The  following  section 
+
+provides the fiction’s changes in the complexity characteristics presented on the 
+
+timeline.  
+
+2.3.3 Lyapunov Exponent 
+
+Method of Lyapunov exponent was applied in order to determine whether 
+
+sentiment  trajectories  tend  to  chaotic  behavior  or  the  system  tends  to  a 
+
+deterministic  state  and  indicates  stable  behavior  of  the  system.  If  the  system 
+
+eventually  comes  down  to  one  equilibrium  point,  then  we  can assume that the 
+
+text  has  low  entropy  and  all  phenomena,  that  is,  events,  are  predictable.  As  it 
+
+has  been  already  mentioned  above,  the  positive  indicator  shows  chaotic 
+
+behaviour  of  the  system,  whereas  the  negative  indicator  represents  the 
+
+deterministic process (Zhang et al., 2023). Among all analyzed literary works a 
+
+thriller  novel  “The  Fourth  Protocol”  has  the  greatest  indicator  which  equals 
+
+47 
+
+ 
+ 
+0,021,  since  it  is  considered  the  novel  with  the  most chaotic system of events. 
+
+This is a completely understandable fact for such a genre as thriller.  For science 
+
+fiction,  though,  such  dynamics  usually  are  not  observed.  If  the  Lyapunov 
+
+exponent equals zero, it means that the system is in the stationary mode.  
+
+The  results also led us to the conclusion that the Lyapunov exponent has 
+
+generally  increased  over  time.  Thus,  in  1974  it  was  0,002,  and  in  2023  it was 
+
+0,003. So, the deviation between these two indicators is 0, 0016. Based on Table 
+
+1,  we  cannot  observe  significant  differences  between  indicators,  yet  generally 
+
+we  see  that  the  indicator  in  2023  is bigger than the indicator in 1974. Besides, 
+
+the  Lyapunov  exponent  in  texts  without  data  preprocessing  is  smaller  than  in 
+
+preprocessed  text.  From  this  observation  one  may  conclude  that  data 
+
+preprocessing increased the complexity of the text by removing useless data and 
+
+getting  rid  of  the  noise.  Therefore,  after  preprocessing  procedures  such  as 
+
+tokenization,  lemmatization  and  lowercasing,  the  number  of  unique  tokens 
+
+increases,  so  the  text  becomes  more  chaotic,  more  unpredictable  because  of 
+
+more pronounced use of stylistic devices and hidden meanings. 
+
+ Table 1. Dynamics of Lyapunov exponent 
+
+48 
+
+ 
+ 
+2.4  Сomparison  of  entropy-complexity  measures  of texts in different 
+
+time periods 
+
+As  it  was  mentioned  in  the  previous  section,  we  did  not  observe  any 
+
+significant  changes  in  entropy  measure,  however,  we  explored  some  сurious 
+
+behaviour  of  complexity  and  Lyapunov  exponent  measures  over  time.  The 
+
+complexity value reached its peak in 2021. This year corresponds to the science 
+
+fiction  novel  “The  Four  Winds”  by  Kristin  Hannah  (Figure  12).  Sentiment 
+
+trajectory,  developed  without  pre-processing,  peaked  in  2009  as  we  can  see in 
+
+the book “The Lost Symbol” by David Brown (Figure 13).  
+
+To summarize, trajectories tend to lean towards chaos, a complex system, 
+
+hence  the  cross  between  random  and  predictable.  The  system  is  quite 
+
+predictable  at  the  beginning,  but  small  changes  in  the  system  lead  to 
+
+unpredictability of its behavior. 
+
+Figure 12. Complexity values over time (with preprocessing) 
+
+49 
+
+ 
+ 
+ 
+ 
+Figure 13. Complexity values over time (without preprocessing) 
+
+50 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Results and Сonclusions of the Second Chapter 
+
+In  the  second  chapter,  the  choice  of  literary  works  for  analysis,  their 
+
+volume  and  time  frame  for  publication  were  substantiated.  We  explained  why 
+
+the  NYT  is  considered  an  authoritative  source  when  choosing  a  literary  work 
+
+not  only  for  reading  but  also  for  using  as  a  research  material.  The  use  of  two 
+
+main  methods  in  the  work  was described in detail. One of them is the analysis 
+
+of  text  tonality  and  the  second  is  the  determination of mathematical indicators 
+
+such  as  stochasticity  and  determinism,  that  is,  Shannon  entropy and Lyapunov 
+
+exponent. In addition, we looked at how the Lyapunov exponent is applied to a 
+
+text  system,  which  means  its  positive  and  negative  exponents.  This  is  an 
+
+important,  characteristic  speed  of  the  run-up  of  infinitely  close  trajectories.  A 
+
+dynamic  system  with  the  Lyapunov  effect  is called chaotic. A negative system 
+
+on the contrary points to a non-chaotic dynamical system. Entropy is a measure 
+
+of  how  orderly  or  chaotic  a  system  is.  The  results  presented  above  show  high 
+
+entropy and low complexity. The more chaos is observed, the higher the entropy 
+
+is.  In  addition  to  Shannon  entropy,  statistical  complexity  was  included  in  the 
+
+work  as  one  of  the  research  methods.  Concept  of  complexity  is  closely 
+
+connected with entropy, however it quantifies the difficulty of predicting system 
+
+behaviour based on patterns present in data. Low complexity indicates that there 
+
+is no structure or patterns in the data. Thus, in the English texts we selected for 
+
+analysis,  the  results  show  us  the  unstructured  randomness  of  the  data.  After 
+
+calculating  the  entropy-complexity  measures,  the  results  showed  that  entropy 
+
+does  not  tend  to  change  over  time,  however,  there  are  slight  differences  in 
+
+complexity  values.  In  earlier  works  from  the  80’s  and  90’s,  the  complexity 
+
+measures of the texts are higher compared to the two thousandth years.  
+
+51 
+
+ 
+ 
+CONCLUSION 
+
+From the results it was proved that sentiment analysis is widely used not 
+
+only in understanding customer opinions, reviews, and social media comments. 
+
+With  the  help  of such analysis, it is possible to study an array of messages and 
+
+other  data  and  determine  how  they  are  emotionally  colored  -  positively, 
+
+negatively  or  neutrally.  This  process  is  also  used  as  a first step for further text 
+
+analysis using mathematical analysis methods.  
+
+The following sub-approaches are applied to sentiment analysis: 
+
+●  Based on lexical rules and language norms. 
+
+●  Based  on  sentiment  dictionaries  with  calculation  of  the  emotional 
+
+coloring  of  each  individual  expression  -  for  example,  the  negative 
+
+sentiment of the word “terrible” is stronger than the sentiment of the word 
+
+“bad”. 
+
+●  Based on machine learning and analysis of large data sets. 
+
+It 
+
+is  generally  agreed 
+
+that  rule-based  systems  are  simple  and 
+
+cost-efficient,  but  lack  adaptability  and  struggle  with  ambiguity  and  bias. 
+
+Machine  learning  systems  are  dynamic,  adaptable,  and  can  handle  complex 
+
+situations  better.  The  findings  suggest  that  an  optimal  strategy  for  natural 
+
+language processing (NLP) involves a hybrid machine learning approach, where 
+
+multiple  ML  models  are  integrated  with  traditional  NLP techniques to achieve 
+
+superior results.  
+
+Сhaos  is  a  situation where the behaviors of a system appear random and 
+
+unpredictable.  To  sum  up  all  that  was  mentioned  above,  entropy  is  a  concept 
+
+that  is  used  in  both  statistical physics and information theory, but with slightly 
+
+different  meanings  and  contexts.  Although  both  entropies  reflect  the  idea  of 
+
+disorder,  they  belong  to  different  fields  and  have  different  definitions  and 
+
+applications.  Physical  entropy  describes  the  state  of  physical  systems,  while 
+
+information  entropy  describes  the  uncertainty  of data.The latter quantifies how 
+
+much  information  is  needed  to  accurately  determine  the  outcome  of  an  event. 
+
+52 
+
+ 
+The greater the uncertainty is observed, the higher the entropy is. High entropy 
+
+indicates that it is difficult to predict the next symbol or event. Low entropy lets 
+
+us  know  that  it  is  easier  to  predict.  Despite  significant  differences  between  
+
+concepts  of  entropy  in  physics  and  information  entropy, both terms are related 
+
+to  the  concept  of  disorder  or  randomness.  In  physics,  entropy  measures  the 
+
+disorder  in  a  physical  system.  In  information  theory,  entropy  measures  the 
+
+disorder (uncertainty) in information.  
+
+Statistical  complexity  reflects  not  only  a  probabilistic  description  of  a 
+
+model  and  information  quantity,  such  as  information  entropy,  but  also  the 
+
+organization and interactions within a system governed by systematic rules.  
+
+As  for 
+
+the  research  perspective,  we  are  planning 
+
+to  сalculate 
+
+entropy-complexity measures for the books mentioned in the present work in its 
+
+Russian translation and to compare deviations from original text.  
+
+53 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+REFERENCE LIST 
+
+1.  Al'shanskii, M. A. (2011). Gaussian white noise with trajectories in the space 
+
+S′(H). Russian Mathematics, × 55 ×, (p 1-7).  
+
+2.  Altrabsheh,  N.,  Gaber,  M.,  &  Cocea,  M.  (2013).  SA-E:  Sentiment  Analysis 
+
+for  Education.  Paper  presented  at  5th  KES  International  Conference  on 
+
+Intelligent Decision Technologies, Sesimbra, Portugal.  
+
+3.  Amirkumar, M., Orynbekova, K., Talasbek, A., Ayazbayev, D., & Cankurt, S. 
+
+(2024).  Comparative  effectiveness  of  rule-based  and  machine  learning 
+
+methods in sentiment analysis of kazakh language texts. Scientific Journal of 
+
+Astana IT University.  
+
+4.  Bar-Yam,  Y.  (2002).  General  features  of  complex  Systems, Encyclopedia of 
+
+Life Support Systems (EOLSS), EOLSS Publishers.  
+
+5.  Bear, J. (1992). The #1 New York Times best seller: Intriguing facts about the 
+
+484  books  that  have  been  #1 New York Times bestsellers since the first list, 
+
+50 years ago. Ten Speed Press.  
+
+6.  Benslama,  M.,  &  Mokhtari,  H.  (2017).  Compressed  sensing  in  Li-Fi  and 
+
+Wi-Fi networks. ISTE Press Ltd.  
+
+7.  Brownlee, J. (2020, July 13). A gentle introduction to information entropy. 
+
+Machine Learning Mastery.  
+
+8.  Burns,  T.F.,  &  Rajan,  R.  (2015).  Combining  complexity  measures  of  EEG 
+
+data:  multiplying  measures 
+
+reveal  previously  hidden 
+
+information. 
+
+F1000Research, 4. 
+
+9.  Crutchfield,  J.,  Young,  K.,  1989.  Inferring  statistical  complexity.  Physical 
+
+review letters 63, 104–107. 
+
+10. Chumak  O.V.  (2011).  Entropii i fraktaly v analize dannyh. M.–Izhevsk: NIC 
+
+«Regulyarnaya 
+
+i  haoticheskaya  dinamika», 
+
+Institut  komp'yuternyh 
+
+issledovanij. 
+
+54 
+
+ 
+ 
+11. Dabrowska,  E.,  &  Divjak,  D.  (Eds.)  (2015).  Handbook  of  Cognitive 
+
+Linguistics.  (Handbücher  zur  Sprach-  und  Kommunikationswissenschaft  / 
+
+Handbooks of Linguistics and Communication Science; Vol. 39). De Gruyter.  
+
+12. David  A.  Cox,  John  Little  &  Donal  O’Shea.  (2015).  Ideals,  Varieties,  and 
+
+Algorithms:  An  Introduction  to  Computational  Algebraic  Geometry  and 
+
+Commutative Algebra. Switzerland: Springer International Publishing. 
+
+13. Diamond, J. (1994). Guns, germs, and steel: The fates of human societies. W. 
+
+W.  Norton  &  Company. 
+
+(accessed:  May 
+
+18, 
+
+2025, 
+
+from 
+
+https://archive.org/details/behindtimesinsid00diam/page/425/mode/2up.) 
+
+14. Dostoevsky,  Fyodor.  (2014).  The  Double.  Translated  by  Constance  Garnett. 
+
+(Accessed from http://public-library.uk/pdfs/9/962.pdf) 
+
+15. Dostoevsky,  Fyodor.  (2021).  Poor  Folk.  Translated  by  C.  J.  Hogarth. 
+
+(Accessed from https://www.gutenberg.org/cache/epub/2302.) 
+
+16. Du  Bois,  J.  W.  (2007).  The  Stance  Triangle.  In  R.  Englebretson  (Ed.), 
+
+Stancetaking 
+
+in  Discourse:  Subjectivity,  Evaluation,  Interaction  (pp. 
+
+139-182). Amsterdam: John Benjamins Publishing Company.  
+
+17. El  Mahdi  Mercha,  Houda  Benbrahim.  (2023).  Machine  learning  and  deep 
+
+learning  for  sentiment  analysis  across  languages:  A  survey.  Neurocomput. 
+
+531, 195–216. https://doi.org/10.1016/j.neucom. (accessed: March 15, 2023) 
+
+18. Fedyuchenko,  L.  G.  (2009).  Slozhnost'  teksta  -  perevodcheskaya  kategoriya 
+
+teksta. Lingua mobilis, (2 (16)), (pp 182-186). 
+
+19. Feldman,  D.  P.,  &  Crutchfield,  J.  P.  (1998).  Measures  of  statistical 
+
+complexity: Why? Physics Letters A (pp. 244–252.)  
+
+20. Filippova,  A.  O.  Problems  of  translation  romanov  F.M.  Dostoevsky  in 
+
+English  and  German  languages / A. O. Filippova // The Newman in Foreign 
+
+Policy. – 2020. – T. 6, № 57(101). – S. (pp. 37-40.) 
+
+21. Gromov,  Vasilii  A.  &  Dang,  Quynh  Nhu.  (2023).  Semantic  and  sentiment 
+
+trajectories of literary masterpieces, Chaos, Solitons & Fractals  (pp 1-38.) 
+
+55 
+
+ 
+22. Gromov  V.,  Migrina  A.  (2017).  A  Language  as  a  Self-Organized  Critical 
+
+System. Complexity, 2017, (pp. 1-6) 
+
+23. Gu,  J.,  Hu,  Y.,  Qian,  L.,  &  Zhu,  Q.  (2013).  Research  on  Building  Family 
+
+Networks  Based  on  Bootstrapping  and  Coreference  Resolution.  Natural 
+
+Language 
+
+Processing 
+
+and  Chinese  Computing.  NLPCC 
+
+2013. 
+
+Communications in Computer and Information Science, 400, (pp. 200-211). 
+
+24. Gu  Q,  Wang  Z, Zhang H, Sui S, & Wang R.(2024). Aspect-Level Sentiment 
+
+Analysis  Based  on  Syntax-Aware  and  Graph  Convolutional  Networks. 
+
+Applied Sciences (p 729.)  
+
+25. Gudivada, V. N., Rao, D., & Raghavan, V. V. (2015). Big data driven natural 
+
+language  processing  research  and  applications.  In  Handbook  of  Statistics 
+
+(Vol. 33, pp. 203-238).  
+
+26. Ilina  L.,  &  Pavlovskaya  O.  (2023).  (Entropy  of  text  as  dispersion  of 
+
+meaning).  Vestnik  Severnogo  (Arkticheskogo)  federal`nogo  universiteta. 
+
+Seriya:  Gumanitarnye 
+
+i  socialnye  nauki,  23  (6),  (pp  77-87).  doi: 
+
+10.37482/2687-1505-V308. Russian.  
+
+27. Johnson,  S.  (2001).  Emergence:  The  connected  lives  of  ants,  brains,  cities. 
+
+Scribner (p. 19). 
+
+28. Kim, E., & Klinger, R. (2018). A Survey on Sentiment and Emotion Analysis 
+
+for  Computational  Literary  Studies.  Advances 
+
+in  Journalism  and 
+
+Communication, (p. 1-26).  
+
+29. Kao,  A.,  &  Poteet,  S.  (Eds.).  (2007). Natural Language Processing and Text 
+
+Mining. Springer. 
+
+30. Kaity,  M.,  &  Balakrishnan,  V.  (2020).  Sentiment  lexicons  and  non-English 
+
+languages:  a  survey.  Knowledge  and  Information  Systems,  62,  (pp.  4445  - 
+
+4480.) 
+
+31. Kolmogorov, A. N. (1965). Three approaches to the quantitative definition of 
+
+information. Problems of Information Transmission, (pp. 1-7.) 
+
+56 
+
+ 
+32. Korotaev  S.  M. 
+
+(2005).  Entropiya 
+
+i 
+
+informaciya  –  Universal'nye 
+
+estestvennonauchnye  ponyatiya.  Fenomen  i  noumen  vremeni,  2(1),  (pp. 
+
+31-537). 
+
+http://chronos.msu.ru/old/journal/files/archive/2005/01/korotaev_entropia.pd. 
+
+In Russian.  
+
+33. Kruzhkov,  M.G.  (2017).  Approaches  to  annotation  of  discourse  relations  in 
+
+linguistic corpora. Informatika i ee Primeneniya, 11, (pp. 118-125.) 
+
+34. Lempel,  A.,  &  Ziv, J. (1976). On the Complexity of Finite Sequences. IEEE 
+
+Transactions on Information Theory, 22(1), (pp. 75–81). 
+
+35. Lewis,  M.  (1989).  Review  of  Chaos:  Making  a  New  Science,  by  J.  Gleick. 
+
+Human Development (p. 32, pp. 241–245).  
+
+36. Liu, B. (2010). Sentiment Analysis and Subjectivity. In Handbook of Natural 
+
+Language Processing, 2nd Edition (pp. 1-38). 
+
+37. Liu,  B.  (2012).  Sentiment  Analysis  and opinion mining. (Synthesis Lectures 
+
+on Human Language Technologies). Morgan & Claypool Publishers.  
+
+38. Lopez-Ruiz,  R.  (1995).  A  statistical  measure  of  complexity.  Physics  Letters 
+
+A.  
+
+39. Magnini,  B.,  &  Cavaglià,  G.  (2000).  Integrating  subject  field  codes  into 
+
+WordNet.  In  Proceedings  of  the  Second  International  Conference  on 
+
+Language Resources and Evaluation (LREC’00) (pp. 1-6). 
+
+40. MarieAngeA13.  (n.d.).  Sentiment-Analysis-BERT  [Model].  Hugging  Face. 
+
+Retrieved 
+
+2025, 
+
+May 
+
+07 
+
+from 
+
+https://huggingface.co/MarieAngeA13/Sentiment-Analysis-BERT.  
+
+41. Morson,  Gary.  (2010).  The  Pevearsion  of  Russian  Literature.  Commentary 
+
+(New York, N.Y.), 130(1), (pp. 92-98.) 
+
+42. Nasukawa,  T.  and  Yi,  J.  (2003)  Sentiment  Analysis:  Capturing  Favorability 
+
+Using Natural Language Processing (pp. 70-77.) 
+
+57 
+
+ 
+43. Nekipelova,  I.  M.  (2013).  Entropiya  yazykovoj  sistemy  kak  osnovnoj 
+
+pokazatel'  eyo  razvitiya.  Russian  Journal  of  Education  and  Psychology,  (p. 
+
+12, p. 32, p. 4). 
+
+44. New 
+
+York 
+
+Times 
+
+Company 
+
+10-K. 
+
+nypost.com. 
+
+2017. 
+
+https://d18rn0p25nwr6d.cloudfront.net/CIK-0000071691/37d516f5-b9da-4ca
+
+8-a50f-d70630760094.pdf (accessed: February 19,  2025).  
+
+45. Ostanina-Olszewska,  J.,  &  Despot,  K.  S.  (2017).When  soul  is  lost  in 
+
+translation:  Metaphorical  conceptions  of  soul  in  Dostoyevsky’s  original 
+
+“Братья  Карамазовы”  (“The  Brothers Karamazov”) and its translations into 
+
+Polish, Croatian and English. Cognitive Studies, Études cognitives. 
+
+46. Pang,  B.,  Lee,  L.  &  Vaithyanathan,  S.  (2002).  Thumbs  up?:  Sentiment 
+
+Classification  Using  Machine  Learning  Techniques.  Proceedings  of  the 
+
+ACL-02  Conference  on Empirical Methods in Natural Language Processing, 
+
+10,  (pp. 79-86).  
+
+47. Pierlioni, A. (2012). Best-sellers lists: How they work and who they (mostly) 
+
+work 
+
+for. 
+
+The 
+
+Sacramento 
+
+Bee. 
+
+https://web.archive.org/web/20120125082356/http://www.sacbee.com/2012/0
+
+1/22/4203094/best-sellers-lists-how-they-work.html.  (accessed:  February  20,  
+
+2025).  
+
+48. Petrova,  Galina  &  Tarabanov,  Nikolay.  (2022).  Dostoevsky  on 
+
+the 
+
+Metaphysical  Mystery  of  the  Unhappy  Consciousness.  The  Dostoevsky 
+
+Journal (p. 24-36). 
+
+49. Qi,  Z.,  Storey,  V.C.,  &  Jabr,  W. (2015). Sentiment Analysis Meets Semantic 
+
+Analysis:  Constructing  Insight  Knowledge  Bases.  International  Conference 
+
+on Interaction Sciences (pp. 1-16). 
+
+50. Rachunok,  B.A.,  Bennett,  J.B.,  Flage,  R.,  &  Nateghi,  R.  (2021).  A  path 
+
+forward  for  leveraging  social  media  to  improve  the  study  of  community 
+
+resilience. International journal of disaster risk reduction, 59, 102236. 
+
+58 
+
+ 
+51. Rogov,  N.,  Moskin,  K.,  Kulakov,  R.,  &  Abramov,  R.  (2021).  Machine 
+
+learning methods in the problem of attribution of publicistic texts of the XIX 
+
+century.  In:  30th  Conference  of  Open  Innovations  Association  FRUCT  (pp. 
+
+229-236),  
+
+52. Rüdisüli,  M.,  Schildhauer,  T.,  Biollaz,  S.,  &  Van  Ommen,  J.  R.  (2013). 
+
+Measurement,  monitoring  and  control  of  fluidized  bed  combustion  and 
+
+gasification.  In  Fluidized  Bed  Technologies  for  Near-Zero  Emission 
+
+Combustion and Gasification (pp. 813-864).  
+
+53. Saad,  S.,  &  Saberi,  B.  (2017).  Sentiment  Analysis  or  Opinion  Mining:  A 
+
+Review.  International  Journal  on  Advanced  Science,  Engineering  and 
+
+Information Technology, 7(5) 
+
+54. Scheffer, Marten & van de Leemput, Ingrid & Weinans, Els & Bollen, Johan. 
+
+(2021).  The  rise  and  fall  of  rationality  in  language.  Proceedings  of  the 
+
+National Academy of Sciences, 118(51), 1-8. 
+
+55. Schneier,  B.  (2018).  Applied  Cryptography:  Protocols,  Algorithms  and 
+
+Source Code in C. Wiley. 
+
+56. University  of  Glasgow.  (2024).  Sentiment  Analysis:  UX  framework. 
+
+https://www.gla.ac.uk/myglasgow/ux/analyse/sentiment/  (accessed:  April  8, 
+
+24). 
+
+57. Sivan, S., & Darsan, G. (2016). Computer Vision based Assistive Technology 
+
+for 
+
+Blind 
+
+and 
+
+Visually 
+
+Impaired 
+
+People. 
+
+(pp. 
+
+1-8). 
+
+https://doi.org/10.1145/2967878.2967923. 
+
+58. Shen,  A.,  Uspensky,  V.A.,  &  Vereshchagin,  N.K.  (2017).  Kolmogorov 
+
+Complexity and Algorithmic Randomness. lirmm-01803620f.  
+
+59. Shen, A. (2024). Kolmogorov complexity as a combinatorial tool (pp. 1-5) 
+
+60. Shi,  J.,  Li,  W.,  Bai,  Q.,  Yang,  Y.,  &  Jiang,  J.  (2023).  Syntax-enhanced 
+
+aspect-based  sentiment  analysis  with multi-layer attention. Neurocomputing, 
+
+557(7), Article 12345. https://doi.org/10.1016/j.neucom.2023.126730. 
+
+59 
+
+ 
+61. Shuang,  Kai  &  Gu,  Mengyu  &  Li,  Rui & Loo, Jonathan & Su, Sen. (2021). 
+
+Interactive  POS-aware  network  for  aspect-level  sentiment  classification. 
+
+Neurocomputing, 420, (pp. 181-196). 
+
+62. Stephenson,  B.  (2019).  The  Python  Workbook:  A  Brief  Introduction  with 
+
+Exercises and Solutions. Springer. 
+
+63. Su,  F.  (2021).  The  Chaos  Theory  and  its  Application.  Journal  of  Physics: 
+
+Conference 
+
+Series, 
+
+2012(1), 
+
+012118. 
+
+https://doi.org/10.1088/1742-6596/2012/1/012118.  
+
+64. Tang,  F.,  Fu,  L.,  Yao,  B.,  &  Xu,  W.  (2019).  Aspect  based  fine-grained 
+
+sentiment analysis for online reviews. Inf. Sci., 488, (pp. 190-204). 
+
+65. Tian,  L.,  Lai,  C., & Moore, J. (2018). Polarity and intensity: the two aspects 
+
+of  sentiment  analysis.  In  Proceedings  of  Grand Challenge and Workshop on 
+
+Human Multimodal Language (Challenge-HML) (pp. 40-47) 
+
+66. Tian,   Feng,   et   al. (2009).  “Can  e-Learner’s  emotion  be  recognized  from  
+
+interactive   Chinese   texts?.” CSCWD  2009.  13th  International  Conference  
+
+on.  IEEE, 2009.  
+
+67. Tang,  J.  E.,  Arvind,  V.,  Dominy,  C.,  White,  C.  A.,  Cho, S. K., & Kim, J. S. 
+
+(2023).  How  are  patients  reviewing  spine  surgeons  online?  A  sentiment 
+
+analysis  of  physician  review  website  written  comments.  Global  Spine 
+
+Journal, 13(8), 2107-2114. https://doi.org/10.1177/21925682211069933 
+
+68. Umarani,  V.,  Julian,  A.,  &  Deepa,  J.  (2021).  Sentiment  Analysis  using 
+
+various  Machine  Learning  and  Deep  Learning  Techniques.  Journal  of  the 
+
+Nigerian 
+
+Society 
+
+of 
+
+Physical 
+
+Sciences, 
+
+3, 
+
+385-394. 
+
+https://doi.org/10.46481/jnsps.2021.308. 
+
+69. Wang,  B.,  Guo,  P.,  Wang,  X.,  He,  Y.,  &  Wang,  W.  (2021).  Transparent 
+
+aspect-level  sentiment  analysis  based  on  dependency  syntax analysis and its 
+
+application on COVID-19. Data and Information Quality, 14(2), (pp. 1-24). 
+
+70. Wongkar,  M.,  &  Angdresey,  A.  (2019).  Sentiment  Analysis  Using  Naive 
+
+Bayes  Algorithm  Of  The  Data  Crawler:  Twitter.  Paper  presented  at  the 
+
+60 
+
+ 
+International  Conference  on  Informatics  and  Computing  (ICIC),  Jakarta, 
+
+Indonesia. https://doi.org/10.1109/ICIC47613.2019.8985884.  
+
+71. Woodcock,  George.  (1995).  Dostoevsky in Our Time. The Sewanee Review, 
+
+103(3), 463-470. 
+
+72. Yurganov,  A.  A.  (2017).  Sentiment-analiz  kak  instrument  issledovaniya 
+
+tekstov  [Sentiment  analysis  as  a 
+
+tool  for 
+
+text  analysis].  Problemy 
+
+sovremennoj nauki i obrazovaniya, (pp. 39–41). 
+
+73. Zenil,  H.  (2010).  A  Review  of  Methods  for  Estimating  Algorithmic 
+
+Complexity:  Options,  Challenges,  and  New  Directions.  Entropy,  17(9), 
+
+6110–6144.   
+
+74. Zhang,  Jie  &  Bi,  Jingshun  &  Hou,  Jinyou  &  Xie,  Qinggang.  (2023). 
+
+Dynamical  analysis,  circuit  realization,  and  applications  of  4D hyperchaotic 
+
+systems  with  bursty  oscillations  and  infinite  attractor  coexistence.  The 
+
+Journal 
+
+of 
+
+Supercomputing, 
+
+80, 
+
+1-34. 
+
+https://doi.org/10.1007/s11227-023-05781-4.   
+
+61 
+
+ 
+Table 1. List of NYT Best Seller list 
+
+     APPENDIX A 
+
+Year 
+
+Title 
+
+Author 
+
+Genre 
+
+Pages  Copies Sold 
+(+-) 
+
+Lyapunov exponent 
+
+1974 
+
+“Watership Down” 
+
+Richard Adams 
+
+1975 
+
+“Curtain” 
+
+Agatha Christie 
+
+with prep.      w/o prep. 
+
+413 
+
+1 million+ 
+
+0.002     
+
+0.001 
+
+320 
+
+Unknown 
+
+0.001 
+
+-0.001 
+
+Adventure 
+novel 
+
+Detective  
+Fiction 
+
+1976 
+
+“Trinity” 
+
+Leon Uris 
+
+Romance 
+
+751 
+
+Unknown 
+
+0.002 
+
+-0.002 
+
+1977 
+
+“The Omen” 
+
+David Seltzer 
+
+Horror 
+
+240 
+
+Unknown 
+
+0.001 
+
+0.0003 
+
+1978 
+
+“The Silmarillion” 
+
+J.R.R. Tolkien 
+
+Fantasy 
+
+365 
+
+Unknown 
+
+0.002 
+
+0.002 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Continuation of the table 
+
+1979 
+
+“Overload” 
+
+Arthur Hailey 
+
+Drama 
+
+400 
+
+Unknown 
+
+0.001 
+
+0.002 
+
+“Firestarter” 
+
+Stephen King 
+
+Horror 
+
+480 
+
+1 million+ 
+
+0.002 
+
+0.001 
+
+1980 
+
+1981 
+
+1982 
+
+“Noble House” 
+
+James Clavell 
+
+“E.T.The  
+Extra-Terrestrial” 
+
+William  
+Kotzwinkle 
+
+1983 
+
+“Return of the Jedi” 
+
+James Kahn 
+
+Historical  
+Fiction 
+
+Science  
+Fiction 
+
+Science  
+Fiction 
+
+1200  Unknown 
+
+0.001 
+
+-0.0003 
+
+224 
+
+Unknown 
+
+0.0004 
+
+0.001 
+
+256 
+
+Unknown 
+
+0.003 
+
+0.001 
+
+1984 
+
+“If Tomorrow Comes” 
+
+Sidney Sheldon 
+
+Thriller 
+
+400 
+
+Unknown 
+
+0.002 
+
+0.001 
+
+1985 
+
+“Lake Wobegon Days” 
+
+Garrison Keillor 
+
+Humor 
+
+400 
+
+Unknown 
+
+0.002 
+
+ 0.0001 
+
+1986 
+
+“It” 
+
+Stephen King 
+
+Horror 
+
+1138 
+
+1 million+ 
+
+0.002 
+
+0.001 
+
+63 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Continuation of the table 
+
+1987 
+
+“The Firm” 
+
+John Grisham 
+
+Thriller 
+
+400 
+
+Unknown 
+
+0.002 
+
+0.001 
+
+1988 
+
+“Alaska” 
+
+James Michener 
+
+Historical  
+Fiction 
+
+800 
+
+Unknown 
+
+0.001 
+
+-0.001 
+
+1989 
+
+“The Silence of the  
+Lambs” 
+
+Thomas Harris 
+
+Thriller 
+
+368 
+
+10 million+ 
+
+0.002 
+
+-0.001 
+
+1990 
+
+“The Fourth Protocol” 
+
+Frederick Forsyth 
+
+Thriller 
+
+400 
+
+Unknown 
+
+0.021 
+
+0.001 
+
+1991 
+
+“Scarlett” 
+
+Alexandra Ripley 
+
+Romance 
+
+823 
+
+10 million+ 
+
+0.002 
+
+0.0001 
+
+1992 
+
+“Jurassic Park” 
+
+Michael Crichton 
+
+Science  
+Fiction 
+
+400 
+
+20 million+ 
+
+0.002 
+
+0.001 
+
+1993 
+
+1994 
+
+“The Bridges of  
+Madison County” 
+
+“Interview with the  
+Vampire” 
+
+Robert James Waller  Romance 
+
+192 
+
+60 million+ 
+
+0.003 
+
+0.002 
+
+Anne Rice 
+
+Horror 
+
+400 
+
+8 million+ 
+
+0.003 
+
+0.0004 
+
+64 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Continuation of the table 
+
+1995 
+
+1996 
+
+1997 
+
+1998 
+
+1999 
+
+2000 
+
+2001 
+
+2002 
+
+2003 
+
+2004 
+
+“The Eagle Has Flown” 
+
+Jack Higgins 
+
+Thriller 
+
+400 
+
+Unknown 
+
+0.002 
+
+0.0000 
+
+“The Celestine Prophecy”  James Redfield 
+
+Spiritual 
+
+400 
+
+23 million+ 
+
+0.002 
+
+0.001 
+
+“Harry 
+Philosopher's Stone” 
+
+Potter 
+
+and 
+
+“Harry 
+Chamber of Secrets” 
+
+Potter 
+
+and 
+
+J. K. Rowling 
+
+Fantasy 
+
+320 
+
+J. K. Rowling 
+
+Fantasy 
+
+352 
+
+“Harry Potter and the  
+Prisoner of Azkaban” 
+
+“Harry Potter and the  
+Goblet of Fire” 
+
+“Harry Potter and the  
+Order of the Phoenix” 
+
+J. K. Rowling 
+
+Fantasy 
+
+448 
+
+J. K. Rowling 
+
+Fantasy 
+
+640 
+
+J. K. Rowling 
+
+Fantasy 
+
+870 
+
+“Harry 
+Half-Blood Prince” 
+
+Potter 
+
+and 
+
+J. K. Rowling 
+
+Fantasy 
+
+652 
+
+120 million+  
+(series) 
+
+120 million+  
+(series) 
+
+120 million+  
+(series) 
+
+120 million+  
+(series) 
+
+120 million+  
+(series) 
+
+120 million+  
+(series) 
+
+0.001 
+
+0.001 
+
+0.0004 
+
+0.0003 
+
+0.002 
+
+0.002 
+
+0.003 
+
+0.002 
+
+0.001 
+
+0.002 
+
+0.0002 
+
+0.002 
+
+“The Da Vinci Code” 
+
+Dan Brown 
+
+Thriller 
+
+480 
+
+80 million+ 
+
+0.002 
+
+0.001 
+
+“The Five People You Mee
+Heaven” 
+
+Mitch Albom 
+
+Inspirational  208 
+
+14 million+ 
+
+0.002 
+
+0.0001 
+
+2005 
+
+“The Broker” 
+
+John Grisham 
+
+Thriller 
+
+400 
+
+Unknown 
+
+0.001 
+
+-0.001 
+
+65 
+
+ 
+ 
+Continuation of the table 
+
+2006 
+
+2007 
+
+“The Memory  
+Keeper’s Daughter” 
+
+“A Thousand  
+Splendid Suns” 
+
+Kim Edwards 
+
+Drama 
+
+400 
+
+5 million+ 
+
+0.002 
+
+0.0004 
+
+Khaled Hosseini 
+
+Drama 
+
+384 
+
+10 million+ 
+
+0.004 
+
+0.001 
+
+2008 
+
+“The Shack” 
+
+William P. Young 
+
+Spiritual 
+
+256 
+
+20 million+ 
+
+0.004 
+
+0.0007 
+
+2009 
+
+“The Lost Symbol” 
+
+Dan Brown 
+
+Thriller 
+
+528 
+
+30 million+ 
+
+0.0001 
+
+-0.001 
+
+2010 
+
+“The  Girl  Who  Kicked 
+Hornet's Nest” 
+
+Stieg Larsson 
+
+Thriller 
+
+576 
+
+30 million+ 
+
+0.002 
+
+0.001 
+
+2011 
+
+“The Help” 
+
+Kathryn Stockett 
+
+Historical  
+Fiction 
+
+464 
+
+10 million+ 
+
+0.001 
+
+0.001 
+
+2012 
+
+“Fifty Shades of Grey” 
+
+E. L. James 
+
+Romance 
+
+514 
+
+125 million+ 
+
+0.003 
+
+0.001 
+
+2013 
+
+2014 
+
+“Inferno” 
+
+Dan Brown 
+
+Thriller  
+
+480 
+
+15 million+ 
+
+0.002 
+
+0.0003 
+
+“The Fault in Our Stars” 
+
+John Green 
+
+Romance 
+
+336 
+
+23 million+ 
+
+0.001 
+
+0.0009 
+
+2015 
+
+“Go Set a Watchman” 
+
+Harper Lee 
+
+Drama 
+
+288 
+
+1.6 million+ 
+
+0.002 
+
+0.0003 
+
+66 
+
+ 
+ 
+ 
+ 
+Continuation of the table 
+
+2016 
+
+“The Girl on the Train” 
+
+Paula Hawkins 
+
+Thriller 
+
+336 
+
+20 million+ 
+
+0.003 
+
+0.0002 
+
+2017 
+
+2018 
+
+2019 
+
+“Origin” 
+
+Dan Brown 
+
+Thriller 
+
+480 
+
+5 million+ 
+
+0.001 
+
+-0.0004 
+
+“Becoming” 
+
+Michelle Obama 
+
+Memoir 
+
+448 
+
+14 million+ 
+
+0.001 
+
+-0.001 
+
+“Where the Crawdads  
+Sing” 
+
+Delia Owens 
+
+Mystery,  
+Drama 
+
+384 
+
+12 million+ 
+
+0.001 
+
+0.001 
+
+2020 
+
+“A Promised Land” 
+
+Barack Obama 
+
+Memoir 
+
+768 
+
+8 million+ 
+
+0.003 
+
+0.001 
+
+2021 
+
+“The Four Winds” 
+
+Kristin Hannah 
+
+Historical  
+Fiction 
+
+464 
+
+3 million+ 
+
+0.002 
+
+0.001 
+
+2022 
+
+“It Ends with Us” 
+
+Colleen Hoover 
+
+Romance 
+
+384 
+
+4 million+ 
+
+0.001 
+
+0.002 
+
+2023 
+
+“Fourth Wing” 
+
+Rebecca Yarros 
+
+Fantasy 
+
+400 
+
+Unknown 
+
+0.003 
+
+0.0001 
+
+Note. The following abbreviations are used: “prep” - preprocessing (refers to preprocessing of text as a method). 
+
+67 
+
+ 
+ 
+ 
+ 
+     
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+        
+ 
+ 
+                                               APPENDIX B     
+
+Table 1. Methodology 
+
+Python Library 
+NLTK 
+
+Tasks 
+Natural Language Processing 
+
+Nolds 
+
+PyTorch  
+
+ТеxtBlob 
+
+Pandas 
+
+Plotly 
+
+NumPy 
+
+SciPy 
+
+Math 
+
+Matplotlib 
+
+Sympy 
+
+Learning  resource  for nonlinear measures 
+for 
+on 
+systems 
+one-dimensional time series. 
+
+dynamical 
+
+based 
+
+Text preprocessing, image processing 
+
+Sentiment analysis (polarity, subjectivity) 
+
+Creating a dataframe 
+
+Creating graphs 
+
+Mathematical calculations 
+
+computing 
+
+and 
+Scientific 
+computing (Shannon entropy) 
+Mathematical functions 
+
+technical 
+
+Creating  comprehensive  and  interactive 
+visualization 
+Symbolic computation 
+
+68 
+
+ 
+                        
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ APPENDIX C 
+
+Figure 1. Modified algorithm of text´s preprocessing 
+
+Figure 2. Modified algorithm of sentiment trajectory´s establishment 
+
+69 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 3. Modified algorithm of entropy-сomplexity plane 
+
+70 
+
+ 
+ 
+ 
+ 
+

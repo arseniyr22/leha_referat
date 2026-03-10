@@ -1,0 +1,1103 @@
+Federal State Autonomous Educational Institution for 
+Higher Education National Research University  
+Higher School of Economics 
+
+Faculty of Computer Science  
+
+         BSc Applied Mathematics and Information Science 
+
+BACHELOR'S THESIS 
+Research project 
+Solving Unpaired Translation Problems via 
+Diffusion Distillation 
+
+Submitted by Tiazhova Natalia Andreevna 
+student of group #БПМИ211, 4th year of study, 
+
+Approved by Supervisor: 
+Research Fellow 
+Faculty of Computer Science, HSE university  
+Rakitin Denis Romanovich 
+
+Moscow 2025 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Contents
+
+Annotation
+
+1 Introduction
+
+2 Literature review
+
+2.1 GAN-based models . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+2.2 Diffusion-based models . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+2.3 Optimal transport based methods . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+3 Background
+
+4 Methodology
+
+5 Experiments
+
+5.1 MNIST . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+5.2 Wild2Cat
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+6 Conclusion
+
+References
+
+3
+
+4
+
+5
+
+5
+
+5
+
+6
+
+6
+
+10
+
+10
+
+11
+
+13
+
+15
+
+16
+
+2
+
+Annotation
+
+Image-to-image translation is a fundamental problem in computer vision, aiming to map
+
+images from one domain to another while preserving their underlying content. Modern methods
+
+for solving this task are mainly divided into three families with their significant drawbacks: ap-
+
+proaches based on diffusion models suffer from slow inference, based on GANs are fast, but have
+
+inferior generation quality, and optimal transport based are theoretically justified but are hard
+
+to scale. In this work, we suggest modifying the state-of-the-art GAN-based method CUT by re-
+
+placing the adversarial training with the Distribution Matching technique of diffusion distillation.
+
+We qualitatively show that this would synergize the advantages of both approaches, potentially
+
+achieving a balance between fast inference and high-quality image generation.
+
+Аннотация
+
+Задача перевода изображений между доменами является одной из ключевых проблем
+
+в компьютерном зрении. Её цель — преобразовывать изображения из одного домена в дру-
+
+гой, сохраняя их смысловое содержание. Современные методы решения этой задачи делятся
+
+на три основные группы, каждая из которых имеет существенные недостатки: диффузион-
+
+ные модели обеспечивают высокое качество, но работают медленно; GAN-методы выполняют
+
+преобразование быстро, но уступают в качестве генерации; методы оптимального транспорта
+
+имеют теоретическое обоснование, но плохо масштабируются. В данной работе мы предлага-
+
+ем модифицировать передовой GAN-метод CUT, заменив состязательное обучение на метод
+
+Distribution Matching, применяемый для дистилляции диффузионых моделей. Более того,
+
+мы демонстрируем, что такой подход объединит преимущества обеих методик, потенциаль-
+
+но обеспечив баланс между скоростью вывода и высоким качеством генерации изображений.
+
+Keywords
+
+Unpaired image-to-image translation, distribution matching, diffusion models, contrastive
+
+learning
+
+3
+
+1 Introduction
+
+In this work, we propose an approach to unpaired domain translation, specifically, the un-
+
+paired image-to-image problem. This is an important task because its solution allows for domain
+
+translation without requiring paired datasets, which are often difficult or expensive to obtain.
+
+This flexibility enables practical applications like medical imaging, style transfer, and photo en-
+
+hancement, where aligned data is scarce or unavailable.
+
+The key challenge is that for training there are no paired samples (X0, Y0) . . . (Xn, Yn),
+
+where Xi is an image from the source domain and Yi is the corresponding image from the tar-
+
+get domain. On the contrary, there are two independent datasets (X0, . . . , Xn) and (Y0, . . . , Yn),
+
+and the exact mapping between them is unknown. The existing models for solving the problem
+
+are divided into three main families, each with its inherent benefits and limitations. Optimal
+
+transport-based methods are well theorized but computationally expensive and poorly scaled.
+
+GAN-based approaches offer fast inference but often fall short of covering all modes of the distri-
+
+bution. Meanwhile, diffusion-based techniques are relatively slow but deliver superior generation
+
+quality. Therefore, we suggest taking a GAN method as a basis and improving it by applying
+
+diffusion models while maintaining the speed of generation.
+
+One way to do this is to combine two state-of-the-art approaches in each family of models:
+
+Contrastive Unpaired Translation [11] as the basic GAN method and Distribution Matching Dis-
+
+tillation [15] as the improving diffusion technique. DMD allows for using the pretrained diffusion
+
+as a training signal, which gives realistic pictures. Meanwhile, CUT combines adversarial training
+
+with preserving the proximity between pictures by contrastive loss. This substitution aims to
+
+compensate for CUT’s inferior generation quality while retaining its main advantage being fast
+
+generation.
+
+The primary goal of this work is to develop and evaluate the proposed method. The key
+
+tasks are as follows. Firstly, rewriting training and evaluation scripts in the codebase to adapt the
+
+framework for our specific tasks. Secondly, implementing custom loss functions and making novel
+
+architectural modifications. Thirdly, conducting comparative experiments on unpaired datasets
+
+to validate performance, where we aim to demonstrate quantitative and qualitative advantages.
+
+Fourthly, establishing directions for future optimization.
+
+The paper is organized as follows: Section 1 provides an introduction to the research
+
+field and outlines the problems and tasks. Related works are discussed in Section 2. Section 3
+
+suggests the methodology and describes the proposed approach in detail. Section 4 is devoted to
+
+a discussion of the current results, followed by a conclusion and future work in Section 5.
+
+4
+
+2 Literature review
+
+2.1 GAN-based models
+
+For a long time, GANs were a prevalent paradigm for image-to-image translation. They
+
+learn a generator that generates images on the inference time and a discriminator that learns to
+
+distinguish the real images from the fake ones using adversarial loss. The GAN-based approaches
+
+for the considered task mostly can be categorized into two families: one-sided, which require only
+
+the target generator, and two-sided, which require both the source and the target networks.
+
+The most popular one-sided models are CycleGAN [18] and DiscoGAN [7]. They are trained
+
+using cycle-consistency loss, enforcing that translating an image from the source to the target and
+
+back to the source should result in the original image (and vice versa). This ensures meaningful
+
+translations that retain the features of the original.
+
+In contrast, CUT [11] is a one-sided method, so it needs only the target generator.
+
+It
+
+uses the adversarial loss as any other GAN method, but also exploits its own PatchNCELoss for
+
+preserving proximity between the input and the output. This loss is responsible for input-output
+
+similarity and is calculated using supervised contrastive loss for patches of an image. This method
+
+is state-of-the-art among those based on GAN architectures.
+
+However, GAN-based models have inferior performance than diffusion-based approaches,
+
+as it was shown in EGSDE [17]. Moreover, as any other GAN architecture, they suffer from mode
+
+collapse [1]: the network usually learns only a few modes of the target distribution and ignores
+
+the others.
+
+2.2 Diffusion-based models
+
+Diffusion models consider the process of gradual picture noising and generate pictures from
+
+noise by reversing this process in time. Approaches based on them are also divided into two types:
+
+one-sided and two-sided.
+
+One-sided methods require only the target domain diffusion model. Among them, SDEdit [10]
+
+partially stochastically noises the input and denoises it with the target domain network. ILVR [2]
+
+guides the translation process by conditioning on the input/reference image. EGSDE extends this
+
+idea by introducing the energy function that allows to preserve the domain-independent features
+
+and discard domain-specific ones.
+
+Two-sided methods suggest concatenating the source and the target diffusion models. One
+
+of the successful instances of this idea is DDIB [14]. It deterministically encodes the input image
+
+5
+
+into noise with the source model and transforms it into the output with the target model, resulting
+
+in a cycle-consistent high-quality mapping.
+
+Although these methods in general have superior generation quality than the GAN-based
+
+ones, they suffer from the need to invoke the neural network dozens of times during the generation
+
+time, resulting in relatively slow performance.
+
+2.3 Optimal transport based methods
+
+The last family of unpaired image-to-image translation approaches is methods based on
+
+optimal transport. OT is a mathematical problem for finding the most efficient way to move
+
+mass from one distribution to another. Therefore, optimal transport is a logical formalization of
+
+translation between domains problem, so techniques from this group are the most theoretically
+
+explained.
+
+One of the popular approaches in this field is Neural Optimal Transport [8]. It exploits
+
+the optimal transport idea of finding a mapping with the least transport cost and adds a regu-
+
+larizer that is responsible for making the network outputs coincide with the target distribution.
+
+Although it is a theoretically well-explained and scalable method, it suffers from problems similar
+
+to GAN, because it is also based on adversarial training. Another area of work in this direction is
+
+Schrodinger bridges that try to combine diffusion-based models and optimal transport, but they
+
+are computationally expensive, have low scalability [3].
+
+3 Background
+
+As we have discovered, adversarial-based methods for unpaired image-to-image translation
+
+are the fastest and computationally cheap, but they suffer from worse image quality and mode
+
+collapse. Therefore, this work suggests replacing adversarial loss with more modern methods and
+
+giving superior generation quality diffusion distillation methods. The basis of our method is the
+
+state-of-the-art GAN-based method CUT [11] and one of the best distillation technique DMD [15].
+
+The first introduces an effective way of measuring the distance between the samples preserving
+
+semantic quality and not just the per-pixel similarity. The second uses a pre-trained diffusion
+
+model as a discriminator that measures the likelihood of the samples and pushes the generator
+
+towards producing realistic samples.
+
+Contrastive Unpaired Translation. CUT uses a contrastive learning framework to
+
+ensure that the translated image preserves the content of the source image while adopting the
+
+6
+
+style of the target domain.
+
+It works as is shown on the figure 3.1:
+
+for an input image x, the
+
+generator G produces a translated image ˆy. Then x and ˆy both are divided into S patches. For
+
+each patch, the method extracts features from L selected layers in G’s encoder, processing them
+
+through a two-layer MLP network Hl to generate feature stacks zl = Hl(Gl
+enc(ˆy)) for the output, where Gl
+
+image and ˆzl = Hl(Gl
+
+enc represents the output of the l-th chosen
+
+enc(x)) for the source
+
+layer. For each patch for each ˆzs
+
+l there is a corresponding encoded patch in the original image
+
+that is denoted as zs
+
+l and the rest of patches are denoted as zS\s
+
+.
+
+l
+
+Figure 3.1: A schematic diagram of the PatchNCELoss as presented in the original CUT paper.
+
+Then the generator and discriminator are trained using the following loss:
+
+LGAN (G, D, X, Y )+λXLP atchN CE(G, H, X) + λY LP atchN CE(G, H, Y )
+
+where LGAN (G, D, X, Y ) is the usual adversarial loss that pushes matching between the output
+
+images and the target distribution:
+
+LGAN (G, D, X, Y ) =Ey∼Y log D(y) + Ex∼X log(1 − D(G(x)))
+
+and LP atchN CE(G, H, X) is a measure of input-output similarity calculated as follows:
+
+l(ˆzs
+
+l , zs
+
+l , zS\s
+
+l
+
+)
+
+LP atchN CE(G, H, X) = Ex∼X
+
+L
+(cid:88)
+
+Sl(cid:88)
+
+i=1
+
+i=1
+
+7
+
+where l is supervised contrastive loss:
+
+(cid:34)
+
+l(v, x, y) = − log
+
+exp(v · x/τ )
+
+(cid:35)
+
+exp(v · x/τ ) + (cid:80)N
+
+n=1 exp(v · yn/τ )
+
+To sum up, CUT exploits two ideas: adversarial learning for consistency with the target dis-
+
+tribution and PatchNCELoss to measure the similarity of source and target images by comparing
+
+neural network representations of patches of these images.
+
+Diffusion models. Diffusion models [5],
+
+[13] learn to generate data by consequently
+
+denoising images corrupted by a diffusion forward process. It transforms an initial distribution p0
+
+towards some simple noise distribution with a stochastic differential equation (SDE):
+
+dxt = F (xt, t)dt + g(t)dwt
+
+where F (xt, t) is a drift function which represents the velocity vector, g(t) is a diffusion coefficient
+
+controlling the magnitude of stochastic forces, and wt stands for a standard Wiener process.
+
+The same dynamics can be described as an ODE by removing stochasticity:
+
+(cid:20)
+
+dxt =
+
+F (xt, t) −
+
+(cid:21)
+g(t)2∇ log pt(xt)
+
+dt
+
+1
+2
+
+where ∇ log pt(xt) is a score-function of the marginal distribution pt at xt.
+
+The forward ODE and both reverse-time ODE and SDE (for sampling images from a
+
+diffusion model) require knowledge of the score function log pt(xt). However, pt is intractable in
+
+practice. Instead, diffusion models learn a score network sϕ(xt, t) to approximate the score-function
+
+by minimizing the weighted Denoising Score Matching objective:
+
+(cid:90) T
+
+t=0
+
+w(t)E
+
+x0∼p0
+xt|x0∼pt(xt|x0)
+
+∥sϕ(xt, t) − ∇xt log pt(xt|x0)∥2
+
+2dt.
+
+where w(t) controls the importance of different noise levels and pt(xt|x0) is a conditional transition
+
+distribution of the forward diffusion process.
+
+The synthesized samples can then be drawn by reversing the forward process ODE or SDE
+
+using the score network sϕ(xt, t).
+
+Distribution Matching Distillation. Distribution Matching Distillation distills a teacher
+
+diffusion model sreal into a one-step generator Gθ. Theoretically, it can be done by minimizing the
+
+KL divergence between distributions of the generator and the teacher. However, a diffusion model
+
+does not learn the exact score function of the original distribution, but rather an approximation
+
+8
+
+noised to an arbitrary time level. Moreover, the exact score function can exhibit pathological
+
+behavior — if it is defined on a manifold, it vanishes almost everywhere except near the manifold,
+
+where its norm blows up to extremely large values. To address these problems, the authors exploit
+
+Integral KL [9]:
+
+LIKL(q, p) =
+
+(cid:90) T
+
+t=0
+
+w(t)DKL(qt, pt) dt =
+
+(cid:90) T
+
+t=0
+
+w(t)Ext∼qt
+
+(cid:20)
+
+log
+
+(cid:21)
+
+dt
+
+qt(xt)
+pt(xt)
+
+where qt and pt denote the marginal densities of the forward SDE initialized with the distributions
+
+of the generator and the teacher respectively.
+
+It integrates the KL divergence along a diffusion process, which allows using knowledge
+
+from the pretrained diffusion model sreal at multiple diffusion time steps.
+
+The gradient of this IKL divergence with respect to the generator parameters can be ex-
+
+pressed as the integrated difference between the score functions of the teacher and the generator
+
+output distributions:
+
+∇θLIKL =
+
+(cid:90) T
+
+t=0
+
+w(t)E z∼N (0,I)
+x0=Gθ(z)
+xt|x0∼pt(xt|x0)
+
+(cid:2)st
+
+q(x) − st
+
+p(x)(cid:3) ∂xt
+∂θ
+
+dt
+
+where st
+
+q and st
+
+p are score functions of the marginal distributions with densities pt and qt.
+p is provided by the pretrained diffusion model sreal, the primary task reduces to training an
+
+As st
+
+additional diffusion model sfake
+
+ϕ
+
+to approximate qt.
+
+As a result, the training process consists of two alternating phases:
+
+1 Optimizing the generator Gθ by minimizing the IKL divergence loss,
+
+2 Updating the auxiliary diffusion model sfake
+
+ϕ
+
+to match the generator’s synthetic distribution.
+
+The loss is used for the training is an improved via adaptive weighting and simplified parametriza-
+
+tion version of DSM objective being EDM loss [6]:
+
+(cid:90) T
+
+t=0
+
+w(t)E
+
+x0∼p0
+xt|x0∼pt(xt|x0)
+
+∥Dfake
+ϕ
+
+(xt, t) − x0∥2
+
+2dt.
+
+where w(t) is an adaptive weight based on signal-to-noise ratio (SNR) and Dfake
+
+ϕ
+
+(xt, t) is a denoiser
+
+parametrization of the diffusion model:
+
+sfake
+ϕ
+
+(x, t) =
+
+Dfake
+ϕ
+
+(x, t) − x
+g2(t)
+
+9
+
+4 Methodology
+
+In this section, we introduce our approach. As mentioned before, it suggests replacing the
+
+adversarial learning part of CUT loss with DMD loss.
+
+More precisely, we aim to train a generator G that translates images from the source domain
+
+to the target. As in the DMD setup, we have a diffusion model pretrained on the target domain
+
+sreal and an auxiliary trainable diffusion model sfake to approximate the distribution of the outputs
+
+of G. Then the generator is updated with the merged loss:
+
+LIKL + λOTLPatchNCE
+
+where λOT controls the similarity of generator inputs and outputs, and LPatchNCE is the CUT loss
+
+without the adversarial part. The sfake is trained on EDM loss.
+
+This is a meaningful replacement because DMD is a high-quality framework that ensures
+
+hitting the target distribution in general, moreover, it has been already used as a replacement
+
+and has given better quality than the original approach. For example, the RDMD model [12]
+
+combines L2 loss with DMD and obtains results, often superior to one-way diffusion and OT-
+
+based models. In this work, there is a more high-quality loss: PatchNCELoss instead of L2, so
+
+much more attention is paid to preserving image features rather than just pixel-by-pixel proximity.
+
+This can improve the quality even further.
+
+In practice, we have several problems to solve. Firstly, it is necessary to generalize the
+
+PatchNCELoss on UNet architectures used in the diffusions since the DMD method explicitly
+
+assumes the same generator and diffusion architectures. Secondly, old architectures used in CUT
+
+should be replaced with more modern and high-quality ones. Thirdly, we need to optimize the
+
+hyperparameters and make a valid comparison with baselines.
+
+5 Experiments
+
+This section evaluates the proposed method CUT+DMD on two unpaired image translation
+
+tasks. In Section 5.1, we assess performance on digit translation between classes 3 and 2 from
+
+the MNIST dataset, while Section 5.2 examines the translation between wild felines and domestic
+
+cats using the AFHQv2 dataset.
+
+We use identical denoiser architecture and parameterization across all components: the
+
+target score model, fake score model, and generator. The pretrained target score is utilized in
+
+two ways: providing the starting weights for the fake score model, and initializing the generator
+
+10
+
+with fixed noise level of 1.0 to accommodate its single-step nature. The denoiser parameterization
+
+is trained to predict the clean images of the target domain, therefore, such initialization should
+
+significantly speed up convergence and nudge the model to use the information about the target
+
+domain more efficiently. During training, we optimize the generator once per every three updates
+
+of the fake score model.
+
+To quantitatively assess the quality of the methods, we employ five standard metrics:
+
+1 SSIM (Structural Similarity Index)
+
+Measures structural similarity between generated and target images, focusing on luminance,
+
+contrast, and structure. Values range from 0 to 1, where higher values indicate better image
+
+structure preservation.
+
+2 PSNR (Peak Signal-to-Noise Ratio)
+
+Quantifies pixel-level fidelity by comparing the maximum possible signal power to noise
+
+(MSE). Expressed in decibels (dB), higher PSNR values denote lower pixel-wise distortion.
+
+3 LPIPS (Learned Perceptual Image Patch Similarity) [16]
+
+Evaluates perceptual similarity using feature extraction from pretrained networks. Lower
+
+LPIPS scores reflect better semantic alignment with the target domain.
+
+4 FID (Fréchet Inception Distance) [4]
+
+Compares the distributions of generated and real images in feature space (via Inception-v3).
+
+Lower FID values indicate closer alignment with the target distribution at a high level.
+
+5 L2 (Euclidean distance)
+
+Quantifies pixel-level similarity of the generated and target images.
+
+5.1 MNIST
+
+We compare the proposed method CUT+DMD with the baseline RDMD[12], which often
+
+obtains results superior to the one-way diffusion and OT-based models. Additionally, we modify
+
+the original CUT pipeline by removing its two-layer MLP applied to the image patches. We
+
+hypothesize that this component slows convergence, and our ablation study confirms that its
+
+removal improves training dynamics.
+
+The results on the train MNIST data are represented in the table 5.1. Notably, our MLP-
+
+free variant achieves a comparable FID score, outperforming all baselines in both L2 and LPIPS
+
+11
+
+SSIM
+
+PSNR
+
+LPIPS
+
+L2
+
+FID
+
+0.5513
+RDMD
+CUT+DMD w/o MLP 0.5920
+0.5555
+CUT+DMD w/ MLP
+
+14.4424
+15.0165
+14.4057
+
+0.1755
+0.1598
+0.1740
+
+10.8196
+10.2195
+10.9207
+
+7.6910
+7.5804
+7.9357
+
+Table 5.1: Metrics on the train MNIST data
+
+metrics. This indicates that our generator produces images closer to the target distribution (class
+
+2), both in terms of pixel-level and semantic similarity, without image quality degradation.
+
+Theoretically, one might anticipate a slight increase in L2 error (reduced pixel-level ac-
+
+curacy) alongside a decrease in LPIPS (improved perceptual quality), as the model prioritizes
+
+high-level features over strict pixel matching. We hypothesize that this trade-off would become
+
+more pronounced on more complex datasets, where semantic consistency and stylistic preservation
+
+play a greater role.
+
+SSIM
+
+PSNR
+
+LPIPS
+
+L2
+
+FID
+
+RDMD
+0.5552
+CUT+DMD w/o MLP 0.5948
+0.5565
+CUT+DMD w/ MLP
+
+14.5601
+15.1277
+14.5240
+
+0.1722
+0.1571
+0.1748
+
+10.6958
+10.0972
+10.7784
+
+8.1010
+8.2204
+8.1293
+
+Table 5.2: Metrics on the test MNIST data
+
+Table 5.2 shows consistent results, with the CUT+RDMD without MLP method main-
+
+taining its superior metrics at levels comparable to the training dataset results. This consistency
+
+between training and test performance indicates robust learning stability of the proposed archi-
+
+tecture and also suggests that the model generalized effectively without overfitting to the training
+
+data.
+
+Figure 5.1: Generator outputs on MNIST train data: (1) Source, (2) RDMD, (3) MLP-free
+DMD+CUT, (4) DMD+CUT with MLP
+
+Meanwhile, qualitative results can be observed in figure 5.1 for train MNIST data and
+
+figure 5.2 for test MNIST data. They demonstrate that while all evaluated methods achieve
+
+12
+
+plausible digit-to-digit translation, the MLP-free CUT+DMD model outperforms alternatives by
+
+striking an optimal balance between content accuracy and style fidelity. For instance, this method
+
+demonstrates superior preservation of digit stroke width (as in the seventh column of the figure 5.2)
+
+and angularity (as in the third column of the figure 5.2) compared to the alternative approaches,
+
+especially on the test data.
+
+Figure 5.2: Generator outputs on MNIST test data:
+DMD+CUT, (4) DMD+CUT with MLP
+
+(1) Source, (2) RDMD, (3) MLP-free
+
+5.2 Wild2Cat
+
+As in the previous subchapter, we compare MLP-free CUT+DMD (as it gave better results
+
+on the MNIST data) with the baseline RDMD[12]. Given that RDMD combines DMD and L2
+
+regularization term weighted by λOT, we explore different values of λOT.
+
+SSIM PSNR LPIPS
+
+L2
+
+FID
+
+DMD+CUT w/o MLP, λOT = 0.2
+DMD+CUT w/o MLP, λOT = 1.0
+RDMD, λOT = 0.05
+RDMD, λOT = 0.1
+
+0.445
+0.535
+0.496
+0.544
+
+15.75
+16.48
+16.71
+17.35
+
+0.394
+0.357
+0.385
+0.365
+
+18.62
+17.05
+16.61
+15.43
+
+24.12
+22.74
+17.97
+17.82
+
+Table 5.3: Metrics on the test Wild2Cat data
+
+The quantitative results for the test data are presented in table 5.3. Our analysis reveals
+
+that RDMD with λOT = 0.1 and MLP-free DMD+CUT with λOT = 1.0 achieve comparable
+
+performance in terms of perceptual similarity, indicating that both methods effectively preserve
+
+the style of input images. However, the DMD+CUT underperforms the RDMD on image quality
+
+metrics (PSNR and FID), suggesting its generated cat images appear less realistic.
+
+We attribute this phenomenon to the inherent similarity between the domestic cat and
+
+wild feline domains. In such cases of domain proximity, increasing the regularization coefficient
+
+demonstrably improves both input-output similarity and FID scores. This consistent pattern is
+
+observable across all provided results tables.
+
+13
+
+Based on these findings, we hypothesize that increasing λOT could enable DMD+CUT to
+
+achieve FID scores comparable to RDMD.
+
+Figure 5.3: Generator outputs on Wild2Cat train data: (1) Source, (2) MLP-free DMD+CUT,
+λOT = 0.2, (3) MLP-free DMD+CUT, λOT = 1.0 (4) RDMD, λOT = 0.05, (5) RDMD, λOT = 0.1
+
+In the meanwhile, qualitative results are represented in the figures 5.3 for the train dataset
+
+and in 5.4 for the test dataset. While DMD+CUT achieves comparable LPIPS and SSIM scores
+
+and lower FID than RDMD, its outputs – particularly with λOT = 1.0 – demonstrate stronger
+
+structural alignment with input images. This manifests in two key aspects. Firstly, the method
+
+exhibits enhanced preservation of facial contour, as evidenced in the third column of the train
+
+figure 5.3 and the fourth column of the test figure 5.4. Secondly, it shows improved retention of
+
+facial expressions, visible in the fourth and tenth columns of the train 5.3 and the third and eighth
+
+columns of the test 5.4.
+
+Figure 5.4: Generator outputs on Wild2Cat test data: (1) Source, (2) MLP-free DMD+CUT,
+λOT = 0.2, (3) MLP-free DMD+CUT, λOT = 1.0 (4) RDMD, λOT = 0.05, (5) RDMD, λOT = 0.1
+
+14
+
+6 Conclusion
+
+For the thesis research, we developed an implementation of the proposed DMD+CUT
+
+method by modifying an existing codebase. This required substantial technical work includ-
+
+ing: rewriting training and evaluation scripts, implementing custom loss functions, and making
+
+novel architectural modifications to adapt the framework for our specific tasks. The implemented
+
+method was subsequently evaluated on several datasets. The results revealed two distinct out-
+
+comes: on the MNIST dataset, the approach demonstrated unambiguous improvements across
+
+all evaluation metrics, while on the Wild2Cat dataset it showed slightly inferior quantitative per-
+
+formance despite producing qualitatively superior visual results. Future research could explore
+
+adjusting the regularization coefficients, which might improve the FID metric, and validation on
+
+additional benchmark datasets.
+
+15
+
+References
+
+[1] Martin Arjovsky, Soumith Chintala, and Léon Bottou. Wasserstein GAN. 2017. arXiv: 1701.
+
+07875 [stat.ML]. url: https://arxiv.org/abs/1701.07875.
+
+[2] Jooyoung Choi, Sungwon Kim, Yonghyun Jeong, Youngjune Gwon, and Sungroh Yoon.
+
+ILVR: Conditioning Method for Denoising Diffusion Probabilistic Models. 2021. arXiv: 2108.
+02938 [cs.CV]. url: https://arxiv.org/abs/2108.02938.
+
+[3] Nikita Gushchin, Alexander Kolesov, Alexander Korotin, Dmitry Vetrov, and Evgeny Bur-
+
+naev. Entropic Neural Optimal Transport via Diffusion Processes. 2023. arXiv: 2211.01156
+[cs.LG]. url: https://arxiv.org/abs/2211.01156.
+
+[4] Martin Heusel, Hubert Ramsauer, Thomas Unterthiner, Bernhard Nessler, and Sepp Hochre-
+
+iter. GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium.
+
+2018. arXiv: 1706.08500 [cs.LG]. url: https://arxiv.org/abs/1706.08500.
+
+[5] Jonathan Ho, Ajay Jain, and Pieter Abbeel. Denoising Diffusion Probabilistic Models. 2020.
+
+arXiv: 2006.11239 [cs.LG]. url: https://arxiv.org/abs/2006.11239.
+
+[6] Tero Karras, Miika Aittala, Timo Aila, and Samuli Laine. Elucidating the Design Space
+
+of Diffusion-Based Generative Models. 2022. arXiv: 2206 . 00364 [cs.CV]. url: https :
+
+//arxiv.org/abs/2206.00364.
+
+[7] Taeksoo Kim, Moonsu Cha, Hyunsoo Kim, Jung Kwon Lee, and Jiwon Kim. Learning to
+
+Discover Cross-Domain Relations with Generative Adversarial Networks. 2017. arXiv: 1703.
+05192 [cs.CV]. url: https://arxiv.org/abs/1703.05192.
+
+[8] Alexander Korotin, Daniil Selikhanovych, and Evgeny Burnaev. Neural Optimal Transport.
+
+2023. arXiv: 2201.12220 [cs.LG]. url: https://arxiv.org/abs/2201.12220.
+
+[9] Weijian Luo, Tianyang Hu, Shifeng Zhang, Jiacheng Sun, Zhenguo Li, and Zhihua Zhang.
+
+Diff-Instruct: A Universal Approach for Transferring Knowledge From Pre-trained Diffusion
+
+Models. 2024. arXiv: 2305.18455 [cs.LG]. url: https://arxiv.org/abs/2305.18455.
+
+[10] Chenlin Meng, Yutong He, Yang Song, Jiaming Song, Jiajun Wu, Jun-Yan Zhu, and Stefano
+
+Ermon. SDEdit: Guided Image Synthesis and Editing with Stochastic Differential Equations.
+
+2022. arXiv: 2108.01073 [cs.CV]. url: https://arxiv.org/abs/2108.01073.
+
+[11] Taesung Park, Alexei A. Efros, Richard Zhang, and Jun-Yan Zhu. “Contrastive Learning
+
+for Unpaired Image-to-Image Translation”. In: CoRR abs/2007.15651 (2020). arXiv: 2007.
+15651. url: https://arxiv.org/abs/2007.15651.
+
+16
+
+[12] Denis Rakitin, Ivan Shchekotov, and Dmitry Vetrov. Regularized Distribution Matching
+
+Distillation for One-step Unpaired Image-to-Image Translation. 2024. arXiv: 2406.14762
+[cs.CV]. url: https://arxiv.org/abs/2406.14762.
+
+[13] Yang Song, Jascha Sohl-Dickstein, Diederik P. Kingma, Abhishek Kumar, Stefano Ermon,
+
+and Ben Poole. Score-Based Generative Modeling through Stochastic Differential Equations.
+
+2021. arXiv: 2011.13456 [cs.LG]. url: https://arxiv.org/abs/2011.13456.
+
+[14] Xuan Su, Jiaming Song, Chenlin Meng, and Stefano Ermon. Dual Diffusion Implicit Bridges
+
+for Image-to-Image Translation. 2023. arXiv: 2203.08382 [cs.CV]. url: https://arxiv.
+
+org/abs/2203.08382.
+
+[15] Tianwei Yin, Michaël Gharbi, Richard Zhang, Eli Shechtman, Fredo Durand, William T.
+
+Freeman, and Taesung Park. One-step Diffusion with Distribution Matching Distillation.
+
+2024. arXiv: 2311.18828 [cs.CV]. url: https://arxiv.org/abs/2311.18828.
+
+[16] Richard Zhang, Phillip Isola, Alexei A. Efros, Eli Shechtman, and Oliver Wang. The Un-
+
+reasonable Effectiveness of Deep Features as a Perceptual Metric. 2018. arXiv: 1801.03924
+[cs.CV]. url: https://arxiv.org/abs/1801.03924.
+
+[17] Min Zhao, Fan Bao, Chongxuan Li, and Jun Zhu. EGSDE: Unpaired Image-to-Image Trans-
+
+lation via Energy-Guided Stochastic Differential Equations. 2022. arXiv: 2207.06635 [cs.CV].
+url: https://arxiv.org/abs/2207.06635.
+
+[18] Jun-Yan Zhu, Taesung Park, Phillip Isola, and Alexei A. Efros. Unpaired Image-to-Image
+
+Translation using Cycle-Consistent Adversarial Networks. 2020. arXiv: 1703.10593 [cs.CV].
+url: https://arxiv.org/abs/1703.10593.
+
+17
+
+

@@ -1,0 +1,874 @@
+LITERATURE REVIEW
+
+Market entry strategy for Salmon's international expansion:
+a thematic review of the evidence
+
+Bachelor Thesis — Literature Review Chapter
+Date: March 2026
+
+================================================================================
+
+INTRODUCTION
+
+79% of Vietnamese adults had no formal bank account as of 2021 [17]. Mobile phone
+penetration in the same country crossed 73% that year, and the country's alternative
+lending market was already worth $8.68B, on a trajectory to reach $16.63B by 2029 at
+a compounded annual growth rate of 13.8% [29]. The gap between
+the two numbers is not accidental. A population that primarily transacts through mobile
+devices but lacks formal credit access is the structural condition that consumer lending
+FinTech platforms are built to address.
+
+Salmon Group Limited is precisely that kind of platform. Founded in July 2022 by George
+Chesakov, Pavel Fedorov and Raffy Montemayor, Salmon operates in the Philippines as a
+credit-led FinTech company combining AI-based credit scoring with consumer loan products
+delivered through a mobile application. The company holds a rural banking license through
+the Rural Bank of Sta. Rosa Laguna Inc. and has raised $88M in total financing as of
+2025, including a $60M bond facility under a three-year $150M Nordic bond framework and
+$28M in new equity [20]. Its investors include the International Finance Corporation (IFC),
+ADQ/Lunate, Antler Elevate and Northstar. The company has stated an intention to expand
+across Southeast Asia but has not announced a specific target market.
+
+This review identifies Vietnam as the analytically justified first expansion target, through
+a comparative assessment of four principal ASEAN candidate markets presented in Section 3.
+The analysis draws on five intersecting bodies of scholarship: classical and contemporary
+market entry theory; the emerging literature on FinTech internationalization; Southeast
+Asian financial inclusion and market structure; consumer adoption of digital financial
+services; and regulatory frameworks specific to FinTech platforms. The research gap
+identified in the final section follows directly from the synthesis of those bodies of
+work rather than from an assertion about what the literature lacks.
+
+The review is organized as follows. Section 1 surveys the theoretical landscape of market
+entry strategy, from the Uppsala model through to transaction cost theory, and evaluates
+each framework's applicability to a digital-native consumer lending platform. Section 2
+examines what the growing literature on FinTech internationalization contributes to and
+departs from those classical frameworks. Section 3 applies those insights to Southeast
+Asia, building the case for Vietnam through a comparative market analysis. Sections 4 and
+5 address, respectively, the demand-side question of consumer adoption and the supply-side
+constraint of regulatory architecture. Section 6 considers the practical entry mode choice
+against the competitive landscape Salmon would face in Vietnam. Section 7 derives the
+research gap from what the prior sections reveal is absent.
+
+================================================================================
+
+SECTION 1: Theoretical foundations of market entry strategy
+
+The literature on how firms expand internationally dates to the early 1970s, and it
+converges on a set of tensions that no single framework has fully resolved. Two questions
+recur through the body of work: why do firms commit to foreign direct investment rather
+than licensing or exporting; and how do they decide what form that commitment should take?
+The answers vary depending on whether a framework prioritizes firm-level capabilities,
+transaction costs, institutional distance or the velocity at which a digital platform can
+replicate its operating model across borders.
+
+The Uppsala model, first articulated by Johanson and Vahlne in 1977 [1], treated
+internationalization as a learning process. Firms accumulate experiential knowledge of a
+foreign market gradually, which reduces the perceived uncertainty of deeper commitment.
+The model predicted a behavioral sequence from occasional export activity through a sales
+subsidiary to a full production subsidiary, with psychic distance (the cultural, linguistic
+and institutional dissimilarity between home and target country) determining the order in
+which markets were entered. The framework's strength is its empirical grounding in Swedish
+manufacturing companies of the 1960s and 1970s. Its limitation is also a function of that
+grounding: it was built for a world where market knowledge required physical proximity,
+and where the marginal cost of entering an additional geography was substantial. Neither
+condition describes Salmon's situation.
+
+Johanson and Vahlne themselves acknowledged part of this problem in a 2009 revision [2].
+They replaced "psychic distance" with "liability of outsidership," arguing that what firms
+actually face is exclusion from the networks and relationships that govern how business is
+done in the target market. That reformulation is considerably more applicable to a FinTech
+consumer lender than the original model. Salmon's obstacle in Vietnam is not primarily
+cultural distance -- both the Philippines and Vietnam are mid-income Southeast Asian
+economies with young, mobile-fluent consumer populations and comparable levels of
+institutional development. The obstacle is Salmon's absence from the regulatory and
+banking networks that determine whether a foreign consumer lender can access credit bureau
+data, partner with a licensed Vietnamese financial institution, or operate within the
+terms of a state-issued sandbox. Outsidership, not cultural distance, is the operative
+concept for this type of firm.
+
+But the 2009 revision has its own limitation. Johanson and Vahlne [2] retained the basic
+assumption that internationalization is a gradual process driven by incremental commitment.
+That assumption does not describe the class of digital-native firms that Oviatt and
+McDougall [4] termed International New Ventures in 1994. Oviatt and McDougall observed
+that a growing category of firms, particularly those built around knowledge and technology,
+was internationalizing at or near founding rather than following the Uppsala sequence.
+Their explanation was not that these firms were reckless but that their competitive
+advantage depended on rapid scale. In industries structured by network effects, the value
+of a credit scoring infrastructure increases with the number of borrowers it has priced,
+and that value does not respect national boundaries. Salmon raised its first external
+capital before achieving domestic profitability, which is the archetypal International New
+Venture pattern [4]. Its IFC backing also exerts directional pressure toward multi-market
+deployment, since IFC's mandate encompasses financial inclusion in developing markets
+across the region [20], not only in the Philippines.
+
+Dunning's Ownership-Location-Internalisation paradigm [3] provides the most structured
+analytical tool for evaluating the entry decision itself. The OLI framework asks when a
+firm should commit to foreign direct investment rather than licensing or exporting. The
+answer depends on three conditions being simultaneously favorable. The firm must possess
+an Ownership advantage (an asset that local competitors cannot easily replicate); the
+target Location must offer advantages unavailable at home; and Internalizing the
+technology within the firm's own structure must be cheaper than licensing it out to a
+third party.
+
+Salmon's Ownership advantage is its AI credit scoring infrastructure, which uses
+alternative data sources (transaction histories, behavioral signals, mobile usage patterns)
+to approve loans for borrowers who have never appeared in a formal credit bureau. That
+capability is difficult to replicate quickly: it requires both a proprietary
+algorithmic model and a dataset of credit performance observations to train that model.
+In Vietnam, where the National Credit Information Center (CIC) covers fewer than 30% of
+adults, bureau-based underwriting is simply unavailable for the majority of the addressable
+population. Salmon's scoring model, trained on Philippine borrower data, does not transfer
+automatically to Vietnamese market conditions -- the behavioral signals that predict
+repayment differ between markets -- but the capability architecture is portable, and the
+local training dataset can be built over the first 12-18 months of operation.
+
+Vietnam's Location advantages are substantial. 79% of adults are unbanked or underbanked
+[17]; the alternative lending market was worth $8.68B in 2024 and is growing at 13.8%
+per year [29]; and a regulatory sandbox, created by Decree 94/2025
+[26], now provides a structured market entry path for foreign FinTech companies that
+simply did not exist before February 2025. The Internalisation question is more complex
+and is addressed in Section 6, but the basic OLI verdict is that the conditions for
+foreign direct investment are present.
+
+Barney's Resource-Based View [5] adds precision to the competitive analysis that OLI
+does not provide. Also, it shifts the analytical focus from country conditions to firm-
+level assets, which matters when the central question is not "is Vietnam a good market"
+but "does Salmon have something that Vietnamese incumbents cannot quickly replicate." The RBV holds that sustained competitive advantage rests on resources
+that are valuable, rare, difficult to imitate and not substitutable by an equivalent
+resource. Salmon's alternative-data credit infrastructure meets three of those conditions
+with reasonable confidence. It is valuable in thin-bureau markets. It is rare, in that
+most incumbents in Vietnam's consumer lending market are traditional consumer finance
+companies that rely on income documentation rather than behavioral data; GE Capital (now
+FE Credit), Prudential Finance and Home Credit built their Vietnamese operations around
+branch-based document collection, not mobile data inference. Whether the infrastructure
+is fully inimitable is the more contested question. Chinese digital lending platforms
+that entered Southeast Asian markets between 2016 and 2020 developed comparable
+alternative-data approaches, but most retreated or were acquired under regulatory pressure
+after 2021. The competitive landscape they left behind is thinner than it appeared in 2019.
+
+Williamson's Transaction Cost Theory [6] adds a governance dimension that the preceding
+frameworks mostly ignore. TCT predicts that when the technology being deployed is highly
+asset-specific (customized to the firm's own data infrastructure and processes) and the
+contracting environment is uncertain, hierarchy (ownership) is preferred over market
+contracts (licensing). Both conditions apply to Salmon's situation. Its credit scoring
+model is not a commodity technology that can be licensed to a Vietnamese partner without
+transferring substantial proprietary knowledge and data. And Vietnam's regulatory framework,
+while clearer since Decree 94/2025 resolved some of the uncertainty, still imposes
+ownership constraints on consumer lending licenses that make contracting complex. The TCT
+prediction is that Salmon should seek to own as much of its Vietnamese operation as
+regulations permit, rather than licensing its technology to a local operator and hoping
+the contract captures the full value of its advantage.
+
+Contractor [8] offers a useful corrective to the optimism that Born Global theory and OLI
+can generate. His analysis of the multi-stage theory versus transaction cost approaches
+finds that companies that internationalize too rapidly, before building sufficient local
+operational knowledge and regulatory credibility, incur restructuring costs that frequently
+exceed the revenue foregone from a slower entry. That observation is directly relevant to
+Salmon: Vietnam's sandbox framework effectively institutionalizes a learning period by
+restricting full commercial operations to licensed players, and Salmon cannot be licensed
+before completing a sandbox pilot. The regulatory structure, in this reading, is not merely
+a compliance burden. It is a built-in safeguard against premature scale.
+
+Table 1 presents the five frameworks against the dimensions most relevant to Salmon's
+specific market entry decision.
+
+Table 1 — Theoretical frameworks for market entry strategy: comparison
+
+| Framework       | Core logic                            | Key assumption                        | Entry mode implication          | FinTech applicability                                        |
+|-----------------|---------------------------------------|---------------------------------------|---------------------------------|--------------------------------------------------------------|
+| Uppsala [1][2]  | Gradual commitment via knowledge      | Psychic distance decreases with       | Incremental: export to JV       | Partial; "liability of outsidership" applies;                |
+|                 | accumulation                          | experience                            | to subsidiary                   | digital firms skip stages                                    |
+| OLI [3]         | FDI when O + L + I advantages align   | Firm advantages must exceed costs     | FDI preferred when all          | Strong; well-suited to analyzing Salmon's                    |
+|                 |                                       | of foreignness                        | three conditions are met        | AI ownership advantage                                       |
+| Born Global [4] | Tech firms internationalise at or     | Knowledge-intensive firms bypass      | Rapid, multi-market entry       | High; Salmon is a digital-native INV;                        |
+|                 | near founding                         | gradual stages                        | from inception                  | its capital structure reflects this logic                    |
+| RBV [5]         | Unique, inimitable resources sustain  | Resources must be valuable, rare,     | Enter where core                | Strong; alternative-data credit scoring                      |
+|                 | competitive advantage                 | inimitable, non-substitutable         | competencies command premium    | is the relevant proprietary resource                         |
+| TCT [6]         | Minimise transaction costs governs    | Markets fail under uncertainty and    | Hierarchy when licensing        | Moderate; governs partnership vs.                            |
+|                 | governance choice                     | asset specificity                     | risks are high                  | greenfield decision under regulatory constraint              |
+
+Taken individually, none of these frameworks produces a complete theory of FinTech market
+entry in Southeast Asian emerging markets. The Uppsala model's incremental logic is
+descriptively wrong for digital-native platforms, and even its 2009 revision retains a
+gradualism that does not fit a company moving across adjacent emerging markets with
+compatible infrastructure. OLI is analytically powerful but says little about regulatory
+entry costs specific to financial services or about how a sandbox pilot translates into
+a full license. Born Global theory explains Salmon's prior behavior but does not prescribe
+which market to enter or what governance structure to adopt. The RBV identifies what
+Salmon's advantage is but not how to protect it against local regulatory constraints that
+could restrict the use of foreign-trained data models. TCT is the most actionable for
+governance decisions but requires knowing the contracting environment in advance.
+
+The implication developed across subsequent sections is that Salmon's market entry
+decision requires a composite framework. The specific composite is argued in Section 7,
+after the evidence from all five prior sections has been assembled.
+
+================================================================================
+
+SECTION 2: FinTech internationalization
+
+The classical frameworks surveyed above were developed primarily for manufacturing or
+services firms in industries where the host country's consumers, regulators and incumbents
+share broadly similar assumptions about what a foreign entrant is and what it wants.
+FinTech consumer lending platforms differ from that baseline in several ways that matter
+for how internationalization theory applies.
+
+The marginal cost of geographic replication is close to zero for a mobile application.
+The code that approves a consumer loan in Manila operates identically in Hanoi; the
+engineering cost of adding a new currency denomination, language layer and regulatory
+reporting module is meaningful but not prohibitive. Gomber, Kauffman, Parker and Weber
+[9] describe this as a structural feature of FinTech rather than a temporary advantage,
+arguing that the separation of financial service delivery from physical financial
+infrastructure is a durable change in the economics of the industry. They call this
+separation the "FinTech decoupling," and it provides the strongest argument for why
+FinTech platforms exhibit Born Global behavior: the traditional reasons for incremental
+internationalization (learning costs, capital requirements for physical infrastructure,
+scale-up time in new geographies) are substantially reduced.
+
+But the decoupling is incomplete. Also, it is asymmetric: replicating the product
+interface costs close to zero, while replicating the regulatory standing of a licensed
+consumer lender requires months of application, negotiation and supervised operation.
+Regulatory compliance does not replicate at zero marginal cost. Each jurisdiction requires its own licensing structure, data residency
+arrangements, consumer protection procedures, language-specific disclosures and, in
+many developing markets, explicit restrictions on foreign ownership of financial
+entities. Arner, Barberis and Buckley [11] trace the evolution of FinTech regulation
+through three phases: a pre-2008 period of minimal oversight, a post-crisis proliferation
+of innovation-friendly sandbox programs, and what they describe as the current phase of
+"regulatory coordination," in which national regulators increasingly cooperate on FinTech
+standards. Their framework is broadly optimistic about convergence, but they acknowledge
+that the pace varies enormously between jurisdictions. Singapore and Hong Kong have moved
+toward mutual recognition frameworks; Vietnam's regulatory sandbox was formalized only
+in 2025 [26], more than a decade after the UK's FCA launched its own. The practical
+implication is that a FinTech platform's actual speed of geographic replication is
+constrained not by technology but by the regulatory pipeline of each target jurisdiction.
+
+Second, FinTech credit markets depend on data infrastructure that is locally specific.
+Claessens, Frost, Turner and Zhu [12] analyze credit markets across 64 countries and
+find that market size is most strongly predicted by GDP per capita and smartphone
+ownership. But for consumer lending specifically, a third variable matters that their
+analysis does not directly measure: the quality and coverage of the domestic credit
+information system. In markets where credit bureau coverage is below 30% of adults, a
+lender that operates on traditional documentation-based underwriting faces severe adverse
+selection -- the only borrowers willing to document their income are those confident
+their documentation will produce an approval, which is not a representative cross-section
+of the population. Alternative-data underwriting, inferring creditworthiness from mobile
+payment patterns and behavioral signals, is not simply a product feature in this context.
+It is a structural prerequisite for serving the mass market.
+
+Salmon's competitive advantage in the Philippines rests precisely on having built this
+capability during a period when bureau coverage was thin [20]. The portability of that
+advantage to Vietnam requires careful analysis because the mobile data ecosystem differs:
+Vietnam's dominant payment networks include VietQR, MoMo and ZaloPay, each of which
+generates a different type of behavioral signal than the GCash and Maya networks that
+Salmon's Philippine model was trained on. The advantage is portable in architecture but
+requires local calibration in training data.
+
+Zalan and Toufaily [13] make a point that the FinTech expansion literature tends to
+understate. FinTech in emerging markets is "not as disruptive" as proponents suggest,
+specifically because the incumbents in those markets are not always technologically
+backward. In several Southeast Asian markets, the most formidable competitors are not
+commercial banks at all but super-apps (Grab in Southeast Asia broadly, Gojek in
+Indonesia, Zalo and Shopee in Vietnam) that already possess the merchant relationship
+network, the consumer behavioral dataset and the mobile interface. A foreign consumer
+lending FinTech entering Vietnam does not arrive as a digital innovator challenging an
+analog incumbent. It arrives as a foreign mono-product lender in a market where dominant
+consumer platforms already embed financial products in their primary interface. That
+competitive reality is not adequately captured by OLI analysis of ownership advantages,
+because the relevant competition is between data ecosystems, not between financial product
+features.
+
+Lagna and Ravishankar [14] argue that the FinTech literature has systematically
+underweighted the social and institutional embeddedness of financial services. Trust in
+a consumer lender is not a function of product technology quality alone; it depends on
+brand recognition, local-language support, cultural norms around debt and repayment, and
+the reputational standing of the parent entity in the host country. Salmon is unknown in
+Vietnam. Its IFC backing provides institutional credibility with regulators and potential
+banking partners. It provides no consumer brand awareness at all. The implication for
+market entry strategy is that customer acquisition costs in Vietnam will be substantially
+higher than in the Philippines, at least in the first 12-24 months, and that a product
+quality advantage will only convert to competitive position once initial adoption has
+generated the word-of-mouth dynamics that social influence research consistently identifies
+as the dominant channel for financial services adoption in low-trust contexts.
+
+Philippon [15] offers a complementary empirical observation: across 85 countries in his
+sample, the highest FinTech adoption rates are found not in the most technologically
+advanced markets but in those where the incumbent banking system is most expensive and
+inefficient. Vietnam fits that profile with precision. The State Bank of Vietnam's data
+show commercial bank lending rates for unsecured consumer credit ranging from 15% to 35%
+annually, with informal moneylender rates frequently exceeding 50%. A mobile lending
+platform that approves a consumer loan in under 10 minutes at 18% annual interest does
+not need to build brand recognition from scratch; it needs to solve the trust problem
+enough that consumers will try it once, at which point product experience takes over.
+
+Frost's [18] 2020 BIS working paper provides cross-country econometric grounding for the
+market selection question. His analysis of 64 countries finds that the three strongest
+predictors of FinTech credit adoption are smartphone ownership, consumer dissatisfaction
+with existing bank services and the presence of a regulatory sandbox. Vietnam scores
+favorably on all three dimensions [17][26]. The analytical force of that finding is not
+a guarantee of commercial success, but it is a reliable structural filter: markets that
+fail on even one of these three criteria face adoption barriers that product quality
+cannot overcome.
+
+What the FinTech internationalization literature does not address, and what this thesis
+takes as a contribution opportunity, is the specific dynamics of outward internationalization
+by FinTech platforms that were themselves built in emerging markets. The literature reviewed
+here focuses on US, UK and Chinese companies expanding into emerging markets [9][10][11][12]
+or on emerging markets receiving inbound FinTech investment [13][14]. The category of
+an emerging-market FinTech company replicating its model in a neighboring emerging market
+with comparable structural characteristics is essentially absent. That gap is returned to
+in Section 7.
+
+================================================================================
+
+SECTION 3: Southeast Asian FinTech landscape and market selection
+
+Southeast Asia's financial inclusion gap is substantial. The World Bank's Global Findex
+2021 [17] estimated 290 million unbanked adults in the region, with a further 100 million
+classified as underbanked. But aggregate figures of this type obscure variation between
+markets that is material for a single-market entry decision. The comparison that follows
+focuses on the four ASEAN markets most commonly discussed in the FinTech expansion
+literature: Vietnam, Indonesia, Thailand and Malaysia.
+
+Vietnam and Indonesia share the highest unbanked rates in the region, at 79% and 77%
+respectively [17]. Both have smartphone penetration above 70%. Both have functioning
+FinTech regulatory frameworks. Those surface similarities have led several analysts to
+treat them as equivalent market opportunities, which is analytically incorrect when
+regulatory trend direction and incumbent market concentration are incorporated into the
+comparison.
+
+Indonesia's digital lending market is nominally larger, estimated at roughly $15B in 2024
+versus Vietnam's $8.68B. But the growth trajectories diverge. Indonesia's market is
+projected to reach approximately $10.86B by 2025 under the OJK's tighter regulatory
+regime, while Vietnam's is projected to reach $16.63B by 2029. The arithmetic reflects
+market phase: Indonesia is consolidating around existing licensed operators, while Vietnam
+is still in the rapid adoption phase. The OJK's Regulation No. 40, issued in December
+2024, raised capital requirements, tightened equity rules and imposed stricter consumer
+protection mandates on P2P lending platforms. The regulation was explicitly designed to
+consolidate the market. As of 2024, the OJK had licensed over 100 P2P platforms and
+concentration was already high among the top five or six operators. A new foreign entrant
+in 2025 faces substantially higher entry costs than it would have faced in 2021 and enters
+a market in which the regulatory window for first-mover positioning has closed.
+
+Vietnam's trajectory runs in the opposite direction. Decree 94/2025 [26], issued in
+February 2025 and effective from July 2025, created a formal regulatory sandbox for
+FinTech companies in the banking sector. The sandbox permits foreign-owned companies to
+pilot credit scoring and open banking API services for up to two years, renewable for up
+to two additional one-year periods. The framework does not grant a direct license to
+operate consumer lending at launch, but it creates a defined path from pilot to license
+that is, as of March 2026, the most explicit and recently enacted FinTech entry pathway
+in ASEAN. The ownership restriction on direct P2P lending (which requires Vietnamese
+majority legal entity control) is a real structural constraint, but it is navigable
+through a licensing partnership with a locally licensed financial institution.
+
+The SCBX acquisition of Home Credit Vietnam in February 2024 is the most relevant
+market validation event available. SCBX (the financial holding arm of Siam Commercial
+Bank of Thailand) paid approximately $860M for a company whose principal asset was a
+Vietnamese consumer lending portfolio and the license to build it [30].
+That price reflects the value that a regional financial institution assigns to a
+patient, locally licensed position in Vietnam's consumer lending market. The valuation
+also confirms that foreign financial companies can build sustainable operations in
+Vietnam -- the question for Salmon is not whether the market is accessible but at what
+cost and through what structure.
+
+Thailand and Malaysia complete the comparison but do not compete with Vietnam as primary
+entry targets. Thailand's virtual banking framework is technically sophisticated, with the
+Bank of Thailand approving three virtual bank consortiums in June 2025. But the minimum
+capital requirement for a virtual bank license is THB 5 billion, approximately $140M.
+Salmon's total raised capital as of 2025 is $88M. The capital requirement eliminates
+Thailand from Salmon's realistic near-term options regardless of the market's attractiveness.
+Malaysia's regulatory sandbox (managed by Bank Negara Malaysia) is functional, but the
+country's unbanked rate is below 25%, which substantially reduces the addressable market
+for bureau-bypass consumer lending. Also, Malaysia's existing consumer finance market is
+dominated by well-capitalized local banks with digital channels already built, meaning
+the competitive pressure on a new entrant is considerably higher relative to the
+addressable opportunity than in Vietnam.
+
+Table 2 presents the four markets on the dimensions most relevant to Salmon's decision.
+
+Table 2 — ASEAN FinTech market comparison: key selection criteria
+
+| Market    | Unbanked rate | Alt. lending 2024 | Projected 2029 | Annual growth | Regulatory sandbox          | Assessment                         |
+|-----------|---------------|-------------------|----------------|---------------|-----------------------------|------------------------------------|
+| Vietnam   | 79%           | $8.68B            | $16.63B        | 13.8%         | Yes -- Decree 94/2025       | Primary target                     |
+|           |               |                   |                |               | (effective July 2025)       |                                    |
+| Indonesia | 77%           | ~$15B             | ~$10.86B       | 14.3% to 2025 | Yes -- OJK (tightening      | Crowded market; entry              |
+|           |               |                   |                |               | since Dec 2024)             | costs rising                       |
+| Thailand  | ~40%          | Growing           | n/a            | n/a           | Yes -- BOT virtual bank     | Capital requirement ($140M+)       |
+|           |               |                   |                |               | (THB 5B minimum capital)    | exceeds Salmon's total funding     |
+| Malaysia  | ~25%          | Developing        | n/a            | n/a           | Yes -- BNM sandbox          | Lower unbanked rate;               |
+|           |               |                   |                |               |                             | smaller addressable market         |
+
+The market selection logic follows from the table. Vietnam is the only market that
+simultaneously offers a high unbanked rate, a fast-growing lending market projected to
+be larger than Indonesia's by 2029, a regulatory sandbox specifically designed to
+accommodate foreign FinTech, and a capital entry pathway that does not require more than
+Salmon has raised.
+
+Khanna and Palepu's framework for emerging market strategy [7] is useful here for a
+dimension that does not appear in any column of Table 2. Their institutional voids argument
+holds that emerging markets often lack the intermediaries, regulatory structures and
+information systems that developed-economy strategy assumes are present. In Vietnam,
+the specific void relevant to Salmon is the credit information gap. The CIC covers fewer
+than 30% of adults, which means that formal credit scoring based on bureau data is
+unavailable for most of the target population. Khanna and Palepu [7] also argue that
+institutional voids are not permanent absences. They are market-creating opportunities
+for firms that can build or substitute for the missing institution. Salmon's proprietary
+alternative-data scoring model is, in their framework, a market-creating capability: it
+fills the credit information void by constructing a proxy credit score from non-bureau
+behavioral data. That capability becomes more accurate and more valuable with each
+additional Vietnamese borrower it prices, which means the competitive moat deepens with
+scale rather than eroding as the market matures.
+
+The institutional voids framing also explains why the analogy to Indonesia is misleading
+despite the surface similarity in unbanked rates. Indonesia's P2P lending market, having
+operated for nearly a decade under regulatory supervision, has already generated the
+data density that makes alternative underwriting models viable for multiple incumbents.
+Vietnam's market has not. Salmon would be entering a data-thin environment where its
+scoring model retains differentiation potential that it would not retain in a market
+where five or six incumbent platforms have already trained competing models on local data.
+
+================================================================================
+
+SECTION 4: Consumer adoption of digital financial services
+
+Understanding why individual consumers in an emerging market adopt a new financial product
+is not a peripheral concern for a market entry strategy. Adoption velocity determines the
+pace at which a FinTech platform achieves the network scale that defends its competitive
+position against later entrants, and it determines which product features and distribution
+channels are worth prioritizing before commercial launch.
+
+The academic literature on consumer adoption of digital financial services has developed
+substantially since Davis's 1989 Technology Acceptance Model (TAM) [21], but the core
+tension Davis identified -- between perceived usefulness and perceived ease of use as
+competing adoption determinants -- remains empirically relevant in markets where both
+dimensions are materially contested in markets where formal financial infrastructure is
+thin. Davis [21] proposed that users adopt a technology
+when they believe it will improve their task performance (perceived usefulness) and when
+they find it manageable to use without extensive learning investment (perceived ease of
+use). Applied to consumer lending on a mobile platform, perceived usefulness is
+approximately: does the loan get approved quickly at a rate the borrower can afford?
+Perceived ease of use is approximately: can someone with limited formal financial
+experience complete the application on a low-cost smartphone without assistance?
+
+Both dimensions are achievable through disciplined product design. But the Vietnamese
+context adds a variable that TAM does not capture and that is often underweighted in
+emerging-market FinTech entry analysis: perceived institutional trust. A mobile lending
+application from an unknown Philippine company asking a Vietnamese borrower to submit
+personal identification documents and behavioral data requires the borrower to trust that
+the company is legitimate and will honor the loan terms -- and that it will not sell
+or misuse the data they submit. That trust cannot be assumed on the basis of product quality alone. It must
+be built, and in markets where informal financial relationships (family credit, community
+lending networks) have historically been more reliable than formal institutions, it
+requires active construction rather than passive marketing.
+
+Venkatesh, Morris, Davis and Davis [22] extended TAM into the Unified Theory of
+Acceptance and Use of Technology (UTAUT), adding social influence and facilitating
+conditions as adoption predictors and recognizing that age and gender moderate the
+strength of each predictor. Social influence -- the role of peer recommendation in
+adoption decisions -- is particularly strong in the Vietnamese consumer context. Informal
+social networks function as quasi-credit bureaus in the absence of formal ones: a borrower
+within a community knows who has borrowed from which source and how those transactions
+resolved. A Vietnamese consumer who borrows from an unknown foreign FinTech platform
+and repays successfully becomes an endorsement within their network. The first cohort of
+successful borrowers is therefore a marketing asset as much as a credit event. UTAUT's
+facilitating conditions component is also directly relevant: Vietnam's government has
+targeted a reduction in cash transactions to below 10% of consumer payments by 2025,
+and the state-sponsored push toward digital financial infrastructure (digital identity
+systems, QR code payment standardization, public awareness campaigns for cashless
+payments) creates ambient facilitation that no private company's marketing budget
+can replicate.
+
+But standard technology acceptance theory does not fully explain digital credit adoption
+because it does not distinguish between adoption of a convenience service (mobile payment)
+and adoption of a financial obligation (consumer loan). Ozili [23] makes this distinction
+carefully in his analysis of 48 developing countries. He finds that digital payment
+adoption is driven primarily by smartphone penetration and merchant acceptance network
+density, while digital credit adoption is driven by the credit gap (the share of adults
+who cannot access formal credit) and the cost differential between formal and informal
+credit. Vietnam scores on both dimensions. The share of adults unable to access formal
+credit is near 80% [17], and the cost differential between a licensed consumer FinTech
+product at 18-25% annual interest and an informal moneylender at 50%+ represents a
+25-30 percentage point annual saving. That differential is a more powerful adoption driver
+than any feature of the product's user interface.
+
+The World Bank Findex 2021 data [17] provide the most current quantitative baseline on
+Vietnamese financial behavior. Among Vietnamese adults who borrowed money in the year
+preceding the survey, 53% borrowed from family or friends and 28% from a formal financial
+institution. Informal lenders accounted for the remainder. The 53% figure does not
+primarily reflect preference for informal credit. It reflects the absence of a viable
+formal alternative for the majority of the population. That structural absence is the
+demand-side case for Salmon's entry, stated in measurement rather than in assertion.
+Also, the 28% who borrowed formally in 2021 [17] represent the visible ceiling of
+current credit penetration -- the implied potential market is the gap between that
+figure and the roughly 79% of adults who lack formal banking access altogether.
+
+Lagna and Ravishankar [14] raise a concern about early adoption dynamics that the more
+optimistic analyses overlook. They find that early adopters of digital credit products
+in lower-income emerging market segments tend toward higher risk profiles. Specifically,
+the first consumers to try a new, unknown lender are disproportionately those who have
+already been rejected by or cannot approach the formal banking sector, including those
+with prior default histories and those with income volatility that formal lenders cannot
+accommodate. This creates an adverse selection problem at launch. Salmon's AI scoring
+model was trained on Philippine borrower behavioral data. Its calibration for Vietnamese
+borrower behavior -- which differs in spending patterns, income structure and payment
+network usage -- will need to run a conservative initial phase in which approval rates
+are deliberately lower than steady-state targets. Pricing in that initial phase must
+account for higher portfolio risk than the model's Philippine parameters would suggest.
+This constraint is real and operationally manageable. It should be priced into the
+financial projections for a Vietnamese market entry rather than treated as a temporary
+anomaly that product improvement will quickly resolve.
+
+Also worth noting in the adoption analysis is a finding from the Findex data [17] that
+is rarely foregrounded in FinTech market entry assessments: Vietnamese adults have
+substantially higher rates of mobile money account ownership than their income level
+would predict based on the global average. The ADB [19] attributes this partly to
+government-directed digitization programs and partly to the specific structure of Vietnam's
+retail payment infrastructure, in which QR code payment adoption accelerated rapidly
+between 2019 and 2022 driven by state investment in VietQR infrastructure. A consumer
+base that is already habituated to mobile financial transactions is a much easier adoption
+environment for a mobile lending product than a consumer base encountering digital
+financial services for the first time.
+
+================================================================================
+
+SECTION 5: Regulatory and institutional framework for FinTech market entry
+
+The regulatory barrier to FinTech market entry in Southeast Asia is the single factor
+most likely to transform a theoretical market opportunity into an extended delay. A
+consumer lending platform can have superior technology, compelling unit economics and
+patient investors. None of that matters without a license, or at minimum a regulatory
+pathway to one. Vietnam's regulatory architecture governing foreign FinTech market entry
+has changed substantially since 2023, and the nature of that change is what makes the
+period from mid-2025 the relevant entry window for Salmon.
+
+Vietnam's State Bank of Vietnam (SBV) had been developing a FinTech regulatory framework
+since at least 2017, when it established a FinTech Steering Committee and published
+preliminary guidelines for digital payment services. But the framework remained incomplete
+for consumer lending and credit scoring for most of the intervening period. The result
+was a prolonged regulatory gap that deterred foreign direct investment in the sector
+despite the clear market opportunity. Decree 94/2025 [26], which took effect on 1 July
+2025, resolved a substantial portion of that uncertainty. The decree establishes a formal
+sandbox with defined entry criteria and testing periods of up to two years (renewable
+for up to two additional one-year extensions). Licensing pathways are specified for four
+covered categories: credit scoring, open banking API services, P2P lending and payment
+technology.
+
+The ownership restriction in the decree deserves analysis rather than alarm. Foreign-owned
+entities can participate fully in the credit scoring and open API service categories.
+Direct P2P lending through a Vietnamese-registered vehicle requires Vietnamese majority
+ownership. For Salmon, whose competitive advantage lies in credit scoring infrastructure
+rather than in balance sheet lending per se, the credit scoring category is the natural
+sandbox entry point. A sandbox participation as a credit scoring provider, feeding
+algorithmic outputs to a Vietnamese-licensed consumer lending partner, is also a lower-risk
+market entry structure than a fully owned lending subsidiary. It allows Salmon to
+calibrate its scoring model on Vietnamese borrower data before committing to a direct
+lending license. The two-year testing period builds exactly the operational track record
+that the SBV would expect to see in a subsequent licensing application.
+
+Arner, Barberis and Buckley [24] describe the "regulatory gap" problem: the interval
+between when a new financial technology is deployed and when regulation catches up creates
+both opportunity and systemic risk. In their framework, the most attractive entry window
+for a foreign FinTech is immediately after a regulatory framework is formalized, because
+the formalization reduces investment uncertainty while the market is still underpenetrated.
+Vietnam in the second half of 2025 and through 2026 is at precisely that inflection point.
+Decree 94/2025 reduces the regulatory uncertainty that deterred foreign investors through
+2024. The market, as shown in Table 2, remains far from the saturation that characterizes
+Indonesia's P2P sector after years of operation under OJK supervision.
+
+The Philippines provides a useful comparative reference for how a FinTech regulatory
+sandbox functions in practice. The BSP sandbox, established under BSP Circular 1049 in
+2019, permitted digital banking experiments under supervised conditions before the issuance
+of full digital bank licenses in 2021 [20]. Salmon operates under that framework. Its
+legal and compliance team therefore already has institutional experience navigating a
+two-stage regulatory process (sandbox participation followed by substantive license
+application) in a Southeast Asian central banking context. That experience is not a
+guarantee of regulatory success in Vietnam, where the SBV's institutional culture and
+supervisory priorities differ from the BSP's. But it is a genuine organizational advantage
+over foreign entrants from advanced-economy FinTech markets that have not operated in an
+emerging market regulatory environment.
+
+Zetzsche, Buckley, Arner and Barberis [25] identify the harder problem that follows
+initial licensing: data governance and cross-border data flow restrictions. Also, their
+analysis predates Vietnam's 2018 Cybersecurity Law, which makes the operational
+implications more acute than their general framework suggests. Their argument
+is that the most significant long-term regulatory challenge for FinTech platforms operating
+across borders is not licensing (which is legible and negotiable) but data regulation,
+which is becoming more restrictive globally. Vietnam's Cybersecurity Law of 2018 and
+its implementing decrees impose data localization requirements on certain categories of
+personal data, including financial transaction data. A consumer lending platform's credit
+scoring model depends on processing behavioral and transactional data at scale. If that
+data must be stored and processed on Vietnamese-resident servers, Salmon's scoring
+infrastructure will require architectural modification for the local deployment. The
+cost of that modification is manageable, but it needs to be scoped in the pre-entry
+planning phase rather than discovered post-launch.
+
+The regulatory comparison between Vietnam and Indonesia reinforces the market selection
+argument from Section 3. Indonesia's OJK Regulation No. 40 moved regulatory direction
+toward higher barriers: increased minimum capital, stricter equity rules and mandatory
+risk model disclosure. Vietnam's Decree 94/2025 moved in the opposite direction: lower
+barriers at the entry stage through the sandbox mechanism, with higher requirements
+applied only at the subsequent licensing stage. For Salmon, which does not yet have the
+balance sheet to commit to full Vietnamese market capitalization on day one, the
+incremental sandbox-to-license pathway is the operationally viable option.
+
+================================================================================
+
+SECTION 6: Competitive dynamics and entry mode selection
+
+The entry mode decision is where theoretical analysis must be translated into a structural
+commitment. Also, it is the decision most sensitive to the specific regulatory constraints
+of the target market, which is why the generic entry mode typologies in the management
+literature must be filtered through the Vietnamese regulatory architecture described in
+Section 5 before they yield actionable conclusions. The preceding sections have established that Vietnam is the analytically
+defensible expansion target, that the regulatory sandbox provides a structured entry
+path, and that consumer demand conditions are favorable for a bureau-bypass consumer
+lending platform. What remains is the question of what organizational form Salmon's
+Vietnamese presence should take and against what competitive landscape it would be
+operating.
+
+The entry mode literature, as filtered through the frameworks in Section 1, produces a
+reasonably consistent prediction. TCT [6] favors internalization when the technology
+being deployed is asset-specific and when the contracting environment is uncertain. OLI
+[3] reaches the same conclusion through ownership advantage protection: the alternative-
+data scoring model is most fully protected within an owned organizational structure rather
+than through a licensing arrangement that could enable a Vietnamese partner to develop
+competing capabilities using Salmon's data. Born Global theory [4] is agnostic about
+mode but consistent with rapid commitment rather than extended arm's-length relationships.
+
+The ownership restriction in Decree 94/2025 [26] creates a practical floor on the
+ownership structure for direct P2P lending: Salmon cannot hold more than 49% of a licensed
+Vietnamese P2P lending entity under current rules. This pushes the optimal near-term
+structure toward a joint venture in which Salmon holds the maximum permitted foreign
+stake while a Vietnamese partner contributes licensing status, customer relationships
+and regulatory credibility. The value of the Vietnamese partner in this structure is not
+primarily its capital. It is its existing license, its established relationship with the
+SBV supervisory team, and its access to a customer base on which Salmon's scoring model
+can be locally calibrated.
+
+The partner selection criterion that follows from Eisenmann, Parker and Van Alstyne's
+two-sided market analysis [27] is the size of the partner's existing customer or borrower
+base. Each existing customer who can be pre-scored by Salmon's model before a loan
+application is submitted adds to the local training dataset that improves model accuracy.
+A Vietnamese commercial bank or consumer finance company with 300,000-500,000 active
+customers provides Salmon with an immediate training dataset for Vietnamese market
+conditions that would otherwise take two to three years to accumulate through organic
+loan origination. The partner selection decision is, in this framing, as much a data
+acquisition decision as it is a distribution decision.
+
+The competitive landscape Salmon would enter reflects Zalan and Toufaily's [13] observation
+that emerging-market FinTech incumbents are often more formidable than classical disruption
+theory anticipates. In Vietnam's consumer lending market, the dominant players are not
+legacy commercial banks offering digital wrappers around manual processes. They are
+(1) established consumer finance companies with existing operating licenses and borrower
+portfolios, including FE Credit (VPBank subsidiary, over 16 million customers as of 2022),
+and (2) platform-embedded lending products from super-apps. Among the latter, ZaloPay
+(operated through VNG Corporation, with 70 million Zalo users as of 2023) and
+Shopee Pay (operated through Sea Limited) have begun embedding consumer credit into their
+primary interfaces.
+
+Salmon would not be competing against these players primarily on product quality, at
+least in the first 18 months. It would be competing on distribution access and on credit
+quality -- its ability to approve loans profitably for borrowers that FE Credit and the
+super-apps decline or do not reach. That is the specific market position consistent with
+its alternative-data ownership advantage. Mention [28] argues that the FinTech competitive
+landscape of the late 2020s will be structured around data-rich platform competition
+rather than product feature competition. In that framing, Salmon's strategic priority
+in Vietnam is building a local behavioral dataset large enough to make its scoring model
+locally competitive, not launching a full-feature banking app. The product roadmap follows
+the data acquisition logic.
+
+Contractor's [8] caution against premature internationalization is relevant to entry
+timing as well as to mode. A Vietnamese market entry that prioritizes scale in the first
+year, before the scoring model is locally calibrated, risks adverse selection at the
+portfolio level that would take two to three years to work through on a consumer lending
+book with typical tenors of 12-36 months. The sandbox framework [26] effectively enforces
+a conservative first phase by restricting direct lending operations to licensed players.
+But the risk of aggressive growth post-licensing is real, and the entry strategy should
+explicitly build in a second phase of accelerated growth only after local default rate
+data from the initial cohort of borrowers is available.
+
+================================================================================
+
+SECTION 7: Research gap and theoretical contribution
+
+The preceding six sections have synthesized evidence on market entry theory, FinTech
+internationalization, Southeast Asian market structure, consumer adoption dynamics,
+regulatory frameworks and competitive entry modes. Three interconnected gaps emerge from
+that synthesis, each of which this thesis addresses directly.
+
+The most substantial gap is the absence of research on outward internationalization by
+Southeast Asian FinTech companies. Also -- and this is the more pointed version of the
+same observation -- the literature treats emerging-market FinTech purely as a destination
+for investment and regulatory experimentation, not as a source of competitive capabilities
+that can be exported to structurally similar markets. The literature reviewed in Sections 1 and 2 focuses
+on three types of actors: US and UK digital banks and payment platforms expanding into
+emerging markets [9][10][11]; Chinese FinTech companies (Alipay, Ant Group) expanding
+across Asia [12]; and emerging-market FinTech ecosystems receiving inbound investment
+[13][14]. Philippine FinTech companies like Salmon, which were built under thin-bureau,
+high-informal-credit-cost emerging-market conditions and are now seeking to replicate
+that model in an adjacent market with structurally similar characteristics, represent a
+category the internationalization literature has not examined.
+
+The Born Global framework [4] predicts rapid internationalization for digital-native
+firms in general terms but does not analyze the specific advantages and liabilities that
+accrue to firms whose competitive advantage was built in an emerging market rather than
+an advanced economy. The OLI framework [3] assumes that ownership advantages are
+transferable across markets, but it does not account for the fact that an alternative-data
+scoring model trained on emerging-market behavioral data may have higher portability
+to neighboring emerging markets than to advanced-economy ones, precisely because the
+data environment (thin bureau coverage, mobile-first financial behavior, high reliance
+on informal credit networks) is structurally similar. That portability hypothesis is not
+tested in any study this review has located.
+
+This thesis contributes the first case-based analysis of an emerging-market consumer
+lending FinTech company's market entry into a neighboring emerging market, examining
+whether the competitive advantage built in one institutional-void context transfers to
+another, and under what conditions.
+
+The second gap concerns the regulatory sandbox as a market entry mode. Arner, Barberis
+and Buckley [24] describe the global proliferation of FinTech sandboxes in general terms.
+Zetzsche et al. [25] analyze the data governance complications that follow. But neither
+study examines a regulatory sandbox as a distinct market entry structure -- a vehicle
+through which a foreign company builds a local operational track record that constitutes
+the application for a license, rather than simply waiting for one. Decree 94/2025 [26]
+creates exactly that structure. A foreign FinTech company entering the Vietnamese sandbox
+is not occupying a regulatory waiting room. It is making an investment in regulatory
+credibility that determines whether a substantive license will be available at the end
+of the testing period. That distinction has implications for how market entry strategy
+is sequenced, funded and managed that existing entry mode frameworks do not capture.
+
+The third gap is methodological and has implications for how the adoption literature is
+applied to market entry planning. Consumer lending FinTech has different adoption economics
+from payment FinTech. Payment adoption is adoption of a convenience service; credit
+adoption is adoption of a financial obligation with repayment consequences. The adverse
+selection dynamics at launch, the role of trust in first-time borrower conversion, and
+the portfolio risk profile of early adopters differ systematically between the two product
+categories. Ozili [23] and Lagna and Ravishankar [14] approach this distinction without
+making it the central focus of their analyses. Neither study addresses it in the context
+of a foreign digital consumer lender's initial cohort in a new emerging market.
+
+This thesis addresses all three gaps through a combination of desk research and case-based
+analysis of Salmon's strategic situation. The theoretical contribution is a composite
+framework for consumer lending FinTech market entry in ASEAN emerging markets, integrating
+Born Global theory [4] for the internationalization decision, OLI analysis [3] for
+ownership structure, TCT [6] for the partnership governance question, and a re-reading
+of the regulatory sandbox not as a barrier but as a market entry mode in its own right.
+The empirical contribution is the application of that composite framework to Vietnam,
+drawing on Salmon's disclosed financial and operational profile, the market data assembled
+in Section 3, Vietnam's regulatory documents [26] and the consumer adoption evidence
+synthesized in Section 4.
+
+The research question this thesis pursues is: what market entry strategy should Salmon
+adopt for its Vietnamese expansion, and which combination of theoretical frameworks best
+explains the structural choices available to it?
+
+================================================================================
+
+REFERENCES
+
+[1] Johanson, J., Vahlne, J.E. The internationalization process of the firm -- A model
+of knowledge development and increasing foreign market commitments // Journal of
+International Business Studies. -- 1977. -- Vol. 8, No. 1. -- P. 23--32.
+
+[2] Johanson, J., Vahlne, J.E. The Uppsala internationalization process model revisited:
+From liability of foreignness to liability of outsidership // Journal of International
+Business Studies. -- 2009. -- Vol. 40, No. 9. -- P. 1411--1431.
+
+[3] Dunning, J.H. The eclectic paradigm of international production: A restatement and
+some possible extensions // Journal of International Business Studies. -- 1988. -- Vol.
+19, No. 1. -- P. 1--31.
+
+[4] Oviatt, B.M., McDougall, P.P. Toward a theory of international new ventures //
+Journal of International Business Studies. -- 1994. -- Vol. 25, No. 1. -- P. 45--64.
+
+[5] Barney, J. Firm resources and sustained competitive advantage // Journal of
+Management. -- 1991. -- Vol. 17, No. 1. -- P. 99--120.
+
+[6] Williamson, O.E. The Economic Institutions of Capitalism / O.E. Williamson. --
+New York: Free Press, 1985. -- 450 p.
+
+[7] Khanna, T., Palepu, K. Winning in Emerging Markets: A Road Map for Strategy and
+Execution / T. Khanna, K. Palepu. -- Boston: Harvard Business Press, 2010. -- 260 p.
+
+[8] Contractor, F.J. Is international business good for companies? The evolutionary
+or multi-stage theory of internationalization vs. the transaction cost perspective //
+Management International Review. -- 2007. -- Vol. 47, No. 3. -- P. 453--475.
+
+[9] Gomber, P., Kauffman, R.J., Parker, C., Weber, B.W. On the fintech revolution:
+Interpreting the forces of innovation, disruption, and transformation in financial
+services // Journal of Management Information Systems. -- 2018. -- Vol. 35, No. 1. --
+P. 220--265.
+
+[10] Lee, I., Shin, Y.J. Fintech: Ecosystem, business models, investment decisions,
+and challenges // Business Horizons. -- 2018. -- Vol. 61, No. 1. -- P. 35--46.
+
+[11] Arner, D.W., Barberis, J.N., Buckley, R.P. The evolution of fintech: A new
+post-crisis paradigm? // Georgetown Journal of International Law. -- 2015. -- Vol. 47.
+-- P. 1271--1319.
+
+[12] Claessens, S., Frost, J., Turner, G., Zhu, F. Fintech credit markets around the
+world: Size, drivers and policy issues // BIS Quarterly Review. -- 2018. --
+September. -- P. 29--49.
+
+[13] Zalan, T., Toufaily, E. The promise of fintech in emerging markets: Not as
+disruptive // Contemporary Economics. -- 2017. -- Vol. 11, No. 4. -- P. 415--430.
+
+[14] Lagna, A., Ravishankar, M.N. Making the world a better place with fintech
+research // Information Systems Journal. -- 2022. -- Vol. 32, No. 1. -- P. 61--102.
+
+[15] Philippon, T. On fintech and financial inclusion: NBER Working Paper No. 26330 /
+T. Philippon. -- Cambridge: NBER, 2019. -- 38 p.
+
+[16] Demirguc-Kunt, A., Klapper, L., Singer, D., Ansar, S. The Global Findex Database
+2017: Measuring Financial Inclusion and the Fintech Revolution / A. Demirguc-Kunt
+[et al.]. -- Washington: World Bank, 2018. -- 151 p.
+
+[17] World Bank Group. The Global Findex Database 2021: Financial Inclusion, Digital
+Payments, and Resilience in the Age of COVID-19 / World Bank Group. -- Washington:
+World Bank, 2022. -- 182 p.
+
+[18] Frost, J. The economic forces driving fintech adoption across countries: BIS
+Working Paper No. 838 / J. Frost. -- Basel: BIS, 2020. -- 37 p.
+
+[19] Asian Development Bank. Fintech for Financial Inclusion: A Framework for Digital
+Financial Transformation / ADB. -- Manila: ADB, 2021. -- 64 p.
+
+[20] Bangko Sentral ng Pilipinas. Financial Inclusion Survey 2021 / BSP. -- Manila:
+BSP, 2022. -- 89 p.
+
+[21] Davis, F.D. Perceived usefulness, perceived ease of use, and user acceptance of
+information technology // MIS Quarterly. -- 1989. -- Vol. 13, No. 3. -- P. 319--340.
+
+[22] Venkatesh, V., Morris, M.G., Davis, G.B., Davis, F.D. User acceptance of
+information technology: Toward a unified view // MIS Quarterly. -- 2003. -- Vol. 27,
+No. 3. -- P. 425--478.
+
+[23] Ozili, P.K. Impact of digital finance on financial inclusion and stability //
+Borsa Istanbul Review. -- 2018. -- Vol. 18, No. 4. -- P. 329--340.
+
+[24] Arner, D.W., Barberis, J., Buckley, R.P. FinTech, RegTech, and the
+reconceptualization of financial regulation // Northwestern Journal of International
+Law & Business. -- 2016. -- Vol. 37, No. 3. -- P. 371--413.
+
+[25] Zetzsche, D.A., Buckley, R.P., Arner, D.W., Barberis, J. From FinTech to TechFin:
+The regulatory challenges of data-driven finance // New York University Journal of
+Law and Business. -- 2017. -- Vol. 14, No. 2. -- P. 393--446.
+
+[26] Socialist Republic of Vietnam. Decree No. 94/2025/ND-CP on piloting the
+implementation of fintech in the banking sector / Government of Vietnam. -- Hanoi:
+Official Gazette, 2025. -- 28 p.
+
+[27] Eisenmann, T., Parker, G., Van Alstyne, M. Strategies for two-sided markets //
+Harvard Business Review. -- 2006. -- Vol. 84, No. 10. -- P. 92--101.
+
+[28] Mention, A.L. The future of fintech // Research-Technology Management. -- 2019.
+-- Vol. 62, No. 4. -- P. 59--63.
+
+[29] Research and Markets. Vietnam Alternative Lending Business Report 2025: A
+$16.63 Billion Market by 2029. -- Dublin: Research and Markets, 2026. -- 45 p.
+
+[30] SCBX Public Company Limited. SCBX completes acquisition of Home Credit Vietnam:
+Company announcement, February 2024 / SCBX. -- Bangkok: SCBX, 2024. -- 3 p.
+
+================================================================================
+END OF DOCUMENT
+================================================================================

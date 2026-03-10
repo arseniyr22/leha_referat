@@ -1,0 +1,4665 @@
+The Government of Russian Federation 
+
+State Budgetary Higher Education Unit 
+
+National Research University 
+«Higher School of Economics» 
+
+Faculty of World Economy and World Politics 
+
+International Bachelor's Programme in World Politics 
+
+Thesis Paper 
+
+On the discipline 
+
+«Research seminar in international relations» 
+
+On the topic: 
+
+« The impact of the EU refugee crisis on the socio-economic and political 
+development of Italy (2015-2020) » 
+
+By the student  
+of the fourth year, 
+group 214 
+Smertin Vsevolod 
+
+Academic supervisor: 
+Ostrovskaya Elena 
+
+Moscow, 2025  
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Abstract 
+
+The  paper  focuses  on  conducting  comprehensive  research  on  the 
+
+influence  of  the  EU  refugee  crisis  on  political  and  socio-economic  spheres  of 
+
+Italy. The purpose of this thesis was to test the hypothesis about the correlation 
+
+between  the  rising  number  of  refugees  entering  Italy  as  a  frontier  state  of  the 
+
+European  Union,  and  internal  political  and  socio-economic  shifts.  The  paper 
+
+will  use  case-study  and  correlation  methods  in  order  to  establish  a  clear  link 
+
+between 
+
+the  events,  along  with 
+
+implication  of  Classical  Realism, 
+
+Constructivism,  Securitisation  Theory  and  Migration  Systems  Theory that will 
+
+stand  as  a  theoretical  framework  of  the  research.  The  study  will  cover  an 
+
+overwhelming  amount  of  primary  and secondary data to process, calculate and 
+
+apply in order to deliver comprehensive research with credible inferences. Some 
+
+of  the  datasets  serving  as  an  example  to  be  analysed:  comparison  of  seat 
+
+allocation  between  the  coalitions  in  2013  and  2018  General  elections  to  the 
+
+Parliament  (both  houses),  2019  EU  Parliament  elections,  political  protests 
+
+timeline,  public  opinion  (concern  over  refugee  issue  surveys),  unemployment 
+
+rate,  regional  GDP  dynamics  (high  vs.  low  migration  areas),  national  budget 
+
+shifts,  crime  rate,  incarceration  share  of  foreigners  in  Italian  prisons,  Security 
+
+Threat  and  Terrorism  indexes  etc.,  with  respective  application  of  the  refugee 
+
+crisis  numbers  to  the  listed  dimensions.  The  conclusions  will  comprise  key 
+
+findings  of  the  research  together  with  final  testing  of  the  hypothesis:  the 
+
+de-facto  extensive  and  far-reaching  influence  of  the  EU  refugee  crisis  on 
+
+political  development  of  Italy,  with  limited/invisible  shifts  in  economic sphere 
+
+and moderate effect on the social dimensions.  
+
+1 
+
+ 
+ 
+ 
+ 
+ 
+ 
+Table of contents 
+
+Introduction 
+Abstract.................................................................................................................................... 2 
+     Relevance...........................................................................................................................3 
+    Goal and Tasks...............................................................................................................6 
+    Literature review....................................................................................................... 7 
+    Research Gap.................................................................................................. 10 
+    Expected Outcomes....................................................................................11 
+    Structure............................................................................................... 12 
+                                      Research question & hypothesis......................................................13 
+                                   Methodology..................................................................................13 
+                                  Theoretical Framework.............................................................15 
+                                 Limitations........................................................................... 16 
+
+Main Body 
+1.The impact of the migration crisis on the regulation of migration in the EU 
+1.1 Transformation of the EU's common migration policy in the context of the crisis............ 17 
+     1.2 Italy's position in the context of the migration crisis.................................................... 24 
+
+2. Migration flows as a factor of political and socio-economic development of Italy 
+2.1 Political sphere 
+2.1.1 Institutional and Electoral Structure of Italy...................................................................29 
+
+2.1.2 Coalition Dynamics and Political Instability: Political Conditionalities and Structural      
+Limitations (2006–2013)...................................................................................................33 
+2.1.3 The Impact of the Refugee Crisis on Party Politics (2013–2018)......................36 
+2.1.4 Electoral Outcomes and Parliamentary Shifts (2018 General Elections).... 40 
+2.1.5 Securitization and institutionalization of Migration: The Salvini Decrees 
+and triumph of the League in the EU Parliamentary elections....................... 50 
+
+2.1.6 Regional Reorientation, Migration Geography and Continued 
+Coalitional Split......................................................................................... 52 
+                                   2.1.7 Theory application to the case of Italy........................................57 
+                                  2.1.8 Politics: Conclusion............................................................... 59 
+
+2.2 Economic sphere 
+2.2.1 Refugee expenditures: shifts in budget allocation.........................................................61 
+    2.2.2  Labor market and GDP............................................................................................ 63 
+          2.2.3 Inflation and Housing Prices............................................................................... 66 
+               2.2.4 Economy: Conclusion.................................................................................... 68 
+2.3 Social sphere 
+2.3.1 Crime rate and incarceration.........................................................................................70 
+    2.3.2 Security Threats and Terrorism................................................................................. 72 
+        2.3.3 Social sphere: Conclusion.....................................................................................75 
+Conclusion 
+Conclusion............................................................................................................................. 75 
+     References........................................................................................................................80 
+
+2 
+
+ 
+ 
+Relevance 
+
+The EU refugee crisis is a far-reaching phenomenon that has been driven 
+
+by  numerous  factors,  forcing  millions  of  people  to  flee  their  homes  and  seek 
+
+shelter  on  the  other  continent.  It  is  the Arab Spring and the Civil War in Syria 
+
+that  predominantly  spreaded  the  inflow  of  the  refugees  to  the  neighboring 
+
+countries and to the European Union as well. To be more precise, the escalation 
+
+of  the  conflict  facilitated  this humanitarian shock, namely due to the following 
+
+factors:  the  excessive  rise  of  ISIS  and its control over the territories, increased 
+
+sectarian  violence,  chemical  weapon  attacks,  humanitarian  crisis  (food,  water, 
+
+medical  care),  and  intensified  U.S.  assistance  for  rebel  groups  (Human  Rights 
+
+Watch,  2015).  The  United  Nations  Human  Rights  Office  reports  over  300,000 
+
+deaths  in  an  ongoing  conflict  in  Syria  as  of  June  2022.  The  official  statistics 
+
+reveal 5,2 million asylum-seekers in countries adjacent to the state of Syria, and 
+
+over  6.8  million  Internally  Displaced  Persons  (IDP)  (The  United  Nations 
+
+Refugee  Agency,  2024).  Besides,  instability  in Iraq intensified the situation, as 
+
+the inner armed conflict dated from 2003 to 2017 coerced over 1 million Iraqi to 
+
+leave  the  country and ask for protection, with over 5 million IDPs (The United 
+
+Nations  Refugee  Agency,  2024).  Another substantial confrontation has been in 
+
+active  phase  in  Afghanistan,  with  several  non-official armed groups struggling 
+
+for  power,  considerably  aggravating  the  social  conditions  within  the  country, 
+
+hence  triggering  5,2  million  Afghani  to urgently escape from the country, with 
+
+the  IDP  score  of  3,3  million  (The  United  Nations  Refugee  Agency,  2024).  A 
+
+large  number  of  refugees  settled  down in neighboring nations, even with some 
+
+imposing  limitations  on  the  entry  of  Syrian  asylum  seekers  (e.g  as  Egypt  and 
+
+Lebanon).  However,  many  individuals  pursued  leaving  the  Middle  East  and 
+
+instead  sought  support  beyond  the  continent  due  to  safety  concerns  and  have 
+
+applied  for  asylum  in  European  Union  countries.  It  is  the  EU’s  solidarity  and 
+
+3 
+
+ 
+ 
+goodwill  standards  that  enlisted  the  refugee  inflow  on  a  par  with  the 
+
+geographical  proximity.  The  European  Union  recognizes 
+
+the  right 
+
+to 
+
+non-refoulement  -  “no  one  may  be  removed,  expelled  or  extradited  to  a  State 
+
+where  there  is  a  serious  risk  that  he  or  she  would  be  subject  to  the  death 
+
+penalty,  torture  or  other  inhuman  or  degrading  treatment  or  punishment” 
+
+(Article 19(2), the EU Charter on Fundamental Rights), similarly with the legal 
+
+right  for  asylum  of  every  individual  (Article  18,  EU  Charter  of  Fundamental 
+
+Rights).  The  European  Union  as  a  complex  organisation  with  supranational 
+
+authorities and   regulations, varying and intersecting legislature, appeared to be 
+
+ineffective and dissipated in managing the boom of refugees, framing the border 
+
+countries to combat the inflow by themselves. This created and exacerbated the 
+
+conflicts  over  the  ways  of  managing  the  crisis  and  treating  the  refugees  both 
+
+between  the  members  of  the  European  Union,  and  national  authorities  versus 
+
+EU supranational heads. The theme of refugee crisis is highly relevant as it has 
+
+sprawn  large-scale  consequences  within  the  European  Union  that  continue  to 
+
+have  an  effect  nowadays:  EU  member  states  are  polarized  on  the  topic  of 
+
+refugee  policy  (e.g  radical  attitude of the Visegrad Group (V4) versus absolute 
+
+tolerance  of  Germany),  they  continue  struggling  to  manage  social,  economic 
+
+and political aftereffects brought by the refugee incoming. So does Italy, an EU 
+
+member state that has taken the main blow. What is more, the refugee dilemma 
+
+is  a  global  problem that should be profoundly researched in order to find ways 
+
+of  resolution,  especially  in  the  European  Union  as  an  outstanding  case  of 
+
+massive scale. The migrant crisis has been a central driver of Brexit, the split of 
+
+the EU member states and political parties within them. It has entailed not only 
+
+intra-state  struggle,  but  also  the  clashes  between  the  supranational  authorities 
+
+and national governments demonstrated by the unilateral border closures, public 
+
+dissent over refugee policies and refusals to accept refugees.  
+
+The  study's  relevance  is  embedded  in  the  migration  phenomenon 
+
+spreading  around  the  world  and  hence  becoming  a  global  problem.  The  crisis 
+
+4 
+
+ 
+delivered  significant  challenges  to  the  EU  as  a  whole  that  has  resulted  in 
+
+numerous  changes  regarded  as  negative  influence:  the  growing  contradictions 
+
+among  member  states,  as  well  as  the  political  and  economic  circumstances  of 
+
+the  member  states,  have  strengthened  centrifugal  trends  in  unification.  Italy, 
+
+being  the  EU's  southern  border  and  one  of  the  founding  fathers,  suffered 
+
+tremendously  as  a  result  of  the  migration  crisis.  It  is  therefore  of  increased 
+
+concern  to  examine  how  the  migration  crisis  has  affected  Italian  politics,  the 
+
+country's economy and social sphere. 
+
+Henceforth,  the  paper  intends  to  investigate  the  timeline  of  the  refugee 
+
+crisis  by  exploring  the  supranational  agenda,  Italian  inner  situation  and 
+
+interaction  between  them  to  fully  comprehend  the  causality  of  the  events  and 
+
+reveal  the  real  aftermath  in  Italy,  based  on  statistical  indicators  and  official 
+
+documents.  For  the  supranational  level  it  is  suggested  to  research  the  EU 
+
+refugee policy dynamics, legislative acts and initiatives to understand the set of 
+
+conditions  under  which  the  state  of  Italy  had  to  take  action.  In regard to Italy, 
+
+the  paper  will  primarily  describe  the  chronic  of  events,  limited  from  2015  to 
+
+2020  due  to  the beginning of the COVID-19 that has suspended the movement 
+
+of people for decent period of time, and afterwards delve into statistical analysis 
+
+of  various  indicators  from  political,  economic  and  social  spheres  to  assess  the 
+
+influence  of  the  refugee  crisis  on  the  development  of  Italy.  The  available 
+
+literature either focuses on the regional group of states (e.g Visegrad Group) or 
+
+selects  one  state  and  examines  the  transformations  within  one specific field. It 
+
+lacks  comprehensive,  full-scale  examination  of  Italian  development  dynamics 
+
+within  the  context  of  the  migration  crisis  linked  to  shifts  in  political  and 
+
+socio-economic spheres.    
+
+5 
+
+ 
+ 
+ 
+ 
+ 
+Goal and Tasks  
+
+Accordingly,  the  fundamental  purpose  of  the  paper  is  to  establish  the 
+
+links between the advent of the refugee crisis and shifts within the state of Italy. 
+
+By  proper  selection  and  collection  of  necessary  data,  accurate  and  profound 
+
+analysis,  the paper will be competent enough to derive substantiated inferences 
+
+that will be of much usefulness for political science.  
+
+Literature review 
+
+In  order  to  determine  the  main  points  of the events, the paper intends to 
+
+examine  a  number  of  publications  and  significant  scholarly results or opinions 
+
+while researching the body of current literature. Key terms like "refugee crisis," 
+
+"impact,"  "consequences,"  "management"  and  "challenges"  have  been  applied 
+
+within  the  framework  of  the  migrant  crisis  in  Italy  to  select  and  analyze  the 
+
+articles  in  focus  based  on  their  historical  relevance  and  relevance  to  the topic. 
+
+Colombo (2017) claims that refugee discourse in Italy has been overwhelmingly 
+
+constructed  by  far-right and extreme nationalist parties that framed migrants as 
+
+a security threat to the wellbeing of the Italian state, conducting the "politics of 
+
+fear" while discrediting humanitarian concerns. Far-right parties like Brothers of 
+
+Italy and Northern League propagandised "massive invasion", "clandestine" and 
+
+"politics  of  fear"  to  generate  explicitly  negative  views  of  refugees,  with 
+
+center-left  political  parties  adjusting  to  this  agenda.  The  populist  rhetoric 
+
+heavily emphasized threats rather than humanitarian considerations, dominating 
+
+the  sentiments  within  Italy.  Ambrosetti&Paparusso  (2019)  argue  that  the 
+
+reaction of the European Union appeared to be fragmented and sluggish, relying 
+
+6 
+
+ 
+ 
+ 
+ 
+ 
+ 
+on  the  initiatives  like  the  relocation  scheme,  hotspot  approach  and  bilateral 
+
+agreements  with  Libya  and  Turkey  regarding  the  joint  management of refugee 
+
+flows. Additionally, due to limited labor migration channels since 2009, people 
+
+are  unable  to  officially  seek  asylum, which presents a dilemma for Italy. Since 
+
+effective  repatriation  agreements  have  expired,  unauthorized  migrants  are now 
+
+employed on the black market. Reopening legal migration channels would help 
+
+Italy  meet  its  demographic  demands  and  labor  shortages.  By  balancing 
+
+economic  acceptance,  this  strategy  seeks  to  lessen  unfavorable  opinions  about 
+
+migration.  Campo  et  al.  (2024),  examining  the  data  from  2014  to  2017, 
+
+discovers that an increase in every 1% of migrants is tied to the slightly stronger 
+
+support  to  right-wing  parties  among  the  population,  at  the  same  time  the 
+
+popularity  of  left-wing  centrist  parties  declines.  Italy  has  not  experienced  any 
+
+visible  short-term  financial  impact  that  could  be traced by the study, hence the 
+
+paper concludes that anti-migrant voting behavior is largely shaped and framed 
+
+by  the  far-right  populist  agenda  on  security  issues  and  ideological  anxieties, 
+
+especially  in  the  regions  of  refugee-hosting.  Gianfreda  (2017)  reviews 
+
+parliamentary  debates  on  migration  in  the  UK  and  Italy, and finds that in both 
+
+countries  centre-left  parties  view  the  crisis  as  a  humanitarian  catastrophe, 
+
+underlining  the  necessity  to  assist  women,  children  and  families  as  a  part  of 
+
+inclusive policies. Contrarily, centre-right political parties frame the crisis as an 
+
+uncontrolled issue, advocating for imposition of restrictions and safeguarding of 
+
+national  sovereignty.  The  paper  emphasizes  the Forza Italia as a locomotive of 
+
+right-wing  proponents  that  used  the  refugee  crisis  issue  to  oppose  the 
+
+government  and  criticize  the  European  Union.  What  is  more, Gattinara (2018) 
+
+notes  that  the  manifestation  of  the  migrant  crisis  has  shifted  the  anti-refugee 
+
+protest in both qualitative and quantitative terms: Italian politics experienced an 
+
+increase in far-right activism, which reoriented from institutional form of action 
+
+to  street  protests.  The  far-right  political  parties  effectively  used  public debates 
+
+as  a  tool  to  oppose  the  current  government and conducted grassroots activities 
+
+7 
+
+ 
+in  order  to  engage  the  local  population  in  the  issue.  The  mainstream  for  the 
+
+far-right  agenda  was  predominantly  the  threat  of  ‘invasion’  by  migrants,  with 
+
+corruption  of  the government and population disillusionment on Italian politics 
+
+being  in focus as well. Molnár (2019) emphasizes the approaches of Renzi and 
+
+Gentiloni  governments  focused  on  genuine  European asylum policy and moral 
+
+obligation  to  save  lives  of  refugees  while  managing  the  crisis.  Italy  supported 
+
+the  Libyan  national  unity  government  by  sending  missions  and  troops,  with 
+
+further  memorandum  of  understanding  being  bilaterally  signed  in  order  to 
+
+reduce the inflow of the Libyans, resulting in a 68% decrease in arrivals by the 
+
+sea.  Yet  the  paper  concludes  that  effective  management  of  the  refugee  crisis 
+
+requires  a  common  European  solution  and  international  cooperation,  without 
+
+which  Italian  efforts  would  have  been  in  vain.  Dimitrov&Angelov  (2017) 
+
+concluded  that  in  the  short-term  despite  popular  unrest  of  the  public  in  Spain 
+
+and  Italy,  where  there  is  a high youth unemployment rate, on the arrival of the 
+
+refugees  and  the  impact  on  the  jobs,  it  appeared  to  be  positive.  However, 
+
+long-term  implications  are  proposed  to  be  excessively  negative,  as  refugees 
+
+disrupt  the  education  process that implies incompetence on the labor market in 
+
+the  future,  which  is  already  weakened  by  high  unemployment  rate.  Migrants 
+
+thus cannot contribute positively in the economy of the EU members, moreover 
+
+they  are  likely  to  be  prone  to  terrorist  recruitment  or  criminal  groups. 
+
+Triandafyllidou  (2018)  concluded  that  the  refugee  crisis  cannot  be  only 
+
+attributed  to  the  numbers  of  incoming  refugees,  but  also  the  crisis of effective 
+
+governance  and  public  perception  of  the  issue  which  depended  on  the  media 
+
+coverage and respective framing of the crisis. Geddes & Scholten (2016) argued 
+
+that  the  migration policies of Italy have been reactive, which enabled the crisis 
+
+to  perform  as  a  magnifier  of  political  instability,  incentivise  the  usage  of 
+
+populist  agenda  and  create  short-term  policy  improvisation.  Finotelli  &  Ponzo 
+
+(2018)  found  that  the  already  shattered  Italian  welfare  system  has  become  a 
+
+pre-conditionality  and  an  obstacle  for  successful  integration  of  refugees  into 
+
+8 
+
+ 
+socio-economic  spheres  of  the  state,  concluding  that  the  combination  of  strict 
+
+measures and rising number of refugees augmented social tensions and impeded 
+
+long-term  integration.  Ambrosini  (2017)  derives  that  Italian  inconvenient 
+
+policies  triggered  a  formation  of  the  grey  zone, which offered opportunities of 
+
+irregular  jobs  for  illegal  refugees  and thus fuelled socio-economic inequalities, 
+
+insofar  refugees’  cheap  labor  dumped  the  labor  market.  Dines  &  Rigo  (2015) 
+
+argued that the EU refugee crisis fueled the identity crisis in Italy as a long-term 
+
+effect,  with  the  increased migration triggering unresolved social tensions about 
+
+nationhood, initiating the rise of the right-wing populist parties. Lavenex (2018) 
+
+concluded  that  Italy’s  discontent  with  the  actions  of  the  European  Union 
+
+highlights  ‘organized  hypocrisy’,  emphasizing  the  situation  at  which  the  EU 
+
+institutions  promise  solidarity  and  assistance  yet  leave  frontier  states  alone  to 
+
+manage  the  crisis  on  their  own.  Triandafyllidou  (2016)  revealed  that  Italy’s 
+
+management  of  the  refugee  crisis  was  constrained  by  the  dilemma  of  choice 
+
+between the efficiency of its policies and dignity, meaning the protection of the 
+
+refugee’s  rights.  During  the peak years, none of the two dilemma’s dimensions 
+
+was met due to overload.  
+
+Research Gap 
+
+Albeit  many  articles  have  been  dedicated  to  the  examination  of  the  EU 
+
+refugee  crisis  and  its  influence  at  large,  with  sufficient attention to the state of 
+
+Italy  as  one  of  the  states  mostly  affected  by  the  crisis,  there  exist  several 
+
+omissions  in  this  field  of  research  that  should  be  fulfilled.  To  begin  with, it is 
+
+important  to  assess  the  structural  changes  of  Italy’s political life by examining 
+
+both federal and supranational elections, to see if there was a change in balance 
+
+of  power between right-wing and left-wing fractions. The paper will take exact 
+
+numbers  and  calculate  the  actual  shifts  with  respective  conclusions.  Also, it is 
+
+important  to  investigate  local  sentiments  by  reviewing  numerous  surveys  to 
+
+9 
+
+ 
+ 
+ 
+portray  the  opinion  of  the population, and its change within the years of crisis, 
+
+as  a  part  of  social  research.  Another  important  point  is  limited  focus  on 
+
+socio-economic impact, with several articles only barely mentioning the issue of 
+
+black-market employment. The sufficient labor market analysis, public services 
+
+and  regional  disparities  should  be  studied  to  complement  the  overall 
+
+well-covered  political  scene.  Additionally,  many  articles  compare  the  stats 
+
+within 2014-2017, which is inappropriate as the time frame is too short to assess 
+
+the  effects,  the  paper  suggests  to  widen  it  to  2019,  and  even  sometimes  use 
+
+years  before  2014  to  comprehend  the  actual  change  in  some  indicators  that 
+
+require more time to demonstrate the change. In overall, the gap consists of the 
+
+limited  study  of  some  spheres of Italy, lack of an in-depth analysis, absence of 
+
+coverage  of  some  important  issues,  which  may  distort  general  conclusions. 
+
+Lastly, as many papers analyze the overall EU economic burden, there are very 
+
+few articles that study explicitly economic impact for Italy. While it is possible 
+
+to cover some of the economic insights on Italy in generalized articles, the field 
+
+lacks  more  in-depth,  targeted study to create and assess the full economic state 
+
+of affairs.  
+
+Expected Outcomes 
+
+The  study  is  anticipated  to  uncover  major  changes  in  Italy's  political 
+
+landscape,  showing  a  rise  in  backing  for  right-wing  groups  at  regional  and 
+
+national  levels  after  the  refugee  crisis.  Public  opinion  analysis  is  expected  to 
+
+reveal an increasing doubt about migration policies, with significant differences 
+
+across  various regions of the nation. The research anticipates a growth in illicit 
+
+job  opportunities  for  refugees,  emphasizing  the  socio-economic  difficulties 
+
+worsened  by  the  crisis,  including  uneven  access  to  public  services  and 
+
+integration  into  the  labor  market.  Longitudinal  data  analysis  is  expected  to 
+
+reveal  persistent  negative  patterns  in  economic  indicators  for  impacted  areas, 
+
+such  as  increased  unemployment  rates  and  diminished  public  resource 
+
+10 
+
+ 
+distribution.  Prolonging  the  time  frame  to  2019  is  anticipated  to  yield insights 
+
+into  the  lasting  impacts  of  the  crisis,  such  as  slow  economic  recovery  and 
+
+ongoing political division. Furthermore, the study expects to reveal deficiencies 
+
+in  Italy's  institutional  reactions  to  the  crisis,  which  could  have  led  to  the 
+
+worsening  of  these  adverse  trends.  In  general,  the  results  are  expected  to 
+
+underscore  the  multifaceted  effects  of  the  refugee  crisis  on  Italy,  stressing  the 
+
+interrelatedness of political, social, and economic repercussions.  
+
+Structure 
+
+The  structural  framework  of  the paper is the following: the introduction, 
+
+which  acquaints  the  topic,  its  relevance,  goal  and  tasks  literature  review, 
+
+research  gap,  expected  outcomes, 
+
+research  question  and  hypothesis, 
+
+methodological groundwork, limitations and structure. In the main body section, 
+
+the  paper  will  consist  of  two  major  chapters.  First,  historical  overview  and 
+
+statistical  context,  which  implies  contextual  narration  in  a  chronic  order  to set 
+
+up  a  logical  chain  of  events.  It  will  represent  two  subchapters:  the  European 
+
+Union  and 
+
+Italy,  as 
+
+the  context  of 
+
+the  EU  supranational  policies, 
+
+decision-making,  and  its  intersection  with  Italy’s  position  matters.  The  second 
+
+chapter is data analysis that entails three subchapters. Politics, where the results 
+
+of  elections,  respective  changes  in  seats  will  be  tracked  and  examined,  along 
+
+with  the  political  protests,  government  interaction  with the EU, and legislature 
+
+changes.  The  second  one  is  the  Economic  subchapter,  where  the  fundamental 
+
+economic  patterns  will  be  analysed:  the  Unemployment,  GDP  change, 
+
+government  expenditures,  approximate  expenses  on  subsidies  to  refugees  will 
+
+be  presented  and  investigated.  The  third  one  is the Social sphere, in which the 
+
+paper  will  cover  the  crime rate along with the share of foreigners in the Italian 
+
+prisons,  as  well  as  security  threat  and  terrorism  indexes  with  respective 
+
+application  to  the  rising  number  of  refugees.  Finally,  the  last  chapter  will 
+
+11 
+
+ 
+ 
+contain  summarized  inferences,  that  is,  de-facto  causal  relationships  between 
+
+the refugee crisis and changes in Italian spheres that will either be confirmed or 
+
+refuted by general evaluation of the hypothesis. In conclusion, the paper intends 
+
+to briefly emphasize the results and assemble the overall view of the study. 
+
+Research question & hypothesis 
+
+Research Question: “How did the EU refugee crisis affect the socio-economic 
+
+and political development of Italy?” 
+
+Hypothesis  :  The  EU  refugee  crisis  has  affected  Italian  political  and 
+
+socio-economic  spheres  in  a  negative  manner: triggering social anxiety, rise of 
+
+the  right-wing  parties  and  numerous  protests  across  the  country  in  political 
+
+sphere,  visible  economic  challenges  with  increased  public  and  security 
+
+spendings, rise in unemployment, and social insecurity demonstrated by security 
+
+threat and terrorism indexes, crime and incarceration rates.   
+
+Methodology 
+
+While  investigating  the  essence  of  the  refugee  crisis,  the  paper  will  use 
+
+statistical  data  sorted by time frame 2010 to 2020, as it is oftentimes necessary 
+
+to  study  indicators  years  before the crisis, for the aims of comparison, analysis 
+
+and  inference-making.  Data  collection  will  represent  both  primary  and 
+
+secondary  data,  where  the  former  stands  for  the  interviews  and  focus  groups, 
+
+surveys  and  field  observations,  and  the  latter  -  official  policy  documents  and 
+
+government  reports  and  declarations,  Non-Governmental  Organization  (NGO) 
+
+reports,  statistical  data and media analysis. When it comes to exploring the EU 
+
+discourse, the paper plans to appeal to the official site of the European Council 
+
+(consilium.europa.eu)  that  will  provide  the  timeframe  of  the  EU  migration 
+
+policy  with  all  summits,  suggestions,  amendments  and  fierce  debates.  It  will 
+
+likewise  introduce  the  data  on  policy  reforms  and  legislative  proposals.  The 
+
+12 
+
+ 
+ 
+World Bank (worldbank.org) will assist in numerical data, such as the number 
+
+of  incoming  refugees  for  each  year,  the  change  of  GDP,  federal  budget 
+
+dynamics  and  other  aspects.  The  websites  of  the  United  Nations  High 
+
+Commissioner 
+
+for  Refugees 
+
+(UNHCR) 
+
+(unhcr.org) 
+
+and  Eurostat 
+
+(ec.europa.eu) will help in evaluating the legally registered refugees to estimate 
+
+the  approximate  economic  damage,  roughly  ‘direct’  damage  to the budget and 
+
+economy  being  calculated  by  multiplying the official number of people having 
+
+shelter  to  the  standard  subsidies  of  Italian  state  as  one  of  the  economic 
+
+indicators  for  assessing  the situation. The source of official legislative acts and 
+
+actions of the Italian government is Gazzetta Ufficiale (gazzettaufficiale.it) that 
+
+will help in analyzing Italian response to the crisis on official state level, and its 
+
+relationship  to  the  policies  proclaimed  by  the  EU  supranational  authorities. 
+
+Ministero  dell'interno 
+
+(interno.gov.it),  publishing  official  statistics  of 
+
+authorized  state  agencies  on  migration,  residence  permits  and  asylum 
+
+applications, together with Istituto Nazionale di Statistica (istat.it) that provides 
+
+labor  market  statistics,  social  integration  indicators  and  residing  foreign 
+
+populations,  will  be  the  major  sources  of  statistical  data  to  be  covered  and 
+
+analyzed  in  the  research.  In  the  section  of  data  analysis  methods,  the  paper 
+
+proposes  to  similarly  use  both  quantitative  and  qualitative  methods,  with 
+
+statistical  analysis  as  a  central pillar of the former, and discourse analysis - the 
+
+latter.  In  the  media  coverage  and  discourse  analysis,  the  paper  will  focus  on 
+
+dynamics in the social media called ‘X’ (x.com) with an emphasis on statements 
+
+made by political leaders, including those of the opposition and opinion leaders 
+
+as well.  
+
+For  the  methods  in  use,  the  case-study  is  most  applicable  as  the  paper 
+
+selects  Italy  as one EU member state that is sharing the burden of the common 
+
+problem,  further  assessing  the  correlation  as  a  statistical  analysis  method  to 
+
+prove the causality of the variables.  
+
+13 
+
+ 
+The  research  boundaries  consist  of geographic focus (i.e the selection of 
+
+Italian  state  as  a  unit  for  analysis),  temporal  scope  (  highlighting  a  defined 
+
+period  (2010  to  2020)  to  reflect  the  before,  beginning,  the  peak,  and  recent 
+
+developments)  and  thematic  limit  (  i.e  the  studying  of  political,  economic and 
+
+social impacts).  
+
+Theoretical Framework 
+
+The Realist school of thought will serve as the theoretical foundation for 
+
+this  research.  Due  to  its  emphasis  on  security,  state  authority,  and  national 
+
+interests  -  all  of  which  served  as  major  tenets  of  divergent  strategies  and 
+
+conflicts  among  member  states  and  inner-state  political  parties  in dealing with 
+
+the refugee crisis - classical realism would be more appropriate than structural 
+
+one.  Classical  realism  at  its  core  emphasizes  rationality  of  governments,  their 
+
+pursuit  of  the  self-interest  on  the  international  arena,  with  an  objective  of 
+
+enhancing the power and security in a competitive environment that is linked to 
+
+the  idea  of  survival.  The  security  of  a  region,  state,  people,  and  interests  is 
+
+typically assumed when security concerns are the focus of attention.  
+
+It is highly persisted to utilize Constructivism to study the perceptions of  
+
+national  threat  and  circumstances  following  from  it.  The  fundamental  idea  of 
+
+Constructivist school states that the definition of national threat derives from an 
+
+actor's social construction, that is, perception and interpretation of reality. It will 
+
+therefore  assist  in  exploring  the  motives  beyond  Italy's  behavior  based  on  its 
+
+perceptions and constructions of essence.  
+
+Another  theoretical  framework  to  be  implemented  is  Securitization 
+
+theory,  which  would  be  of  much  importance  while  analysing how the refugee 
+
+crisis  has  evolved  into  a  security  threat  via  political  dynamics.  The  theory 
+
+assumes  that  state  officials  may  ‘securitize’  an  issue  by  framing  it  as threat to 
+
+state  stability  and  even  existence.  They  often  advocate  for  emergency  policies 
+
+14 
+
+ 
+ 
+that  suspend  the  normal  environment  (e.g  unilateral  fence  constructions  in  the 
+
+context of the EU), and influence public opinion.  
+
+Lastly, the paper intends to apply the Migration Systems Theory (MST) 
+
+that  stresses  both  push  (conflict,  prosecution,  instability)  and  pull  (promise  of 
+
+better living conditions, safety and opportunities) factors. It will assist in a more 
+
+profound  understanding  of 
+
+inter-state  dynamics, 
+
+the 
+
+involvement  of 
+
+international  organizations  and  identification  of  factors  affecting  migration 
+
+patterns.  
+
+Limitations 
+
+Some  primary  sources  are  likely  to  be  limited  in  access  and  appear 
+
+controversial  in reliability. Therefore, in order to avoid biased data sources, the 
+
+paper  will  employ  bias-mitigation  techniques  such defining precise assessment 
+
+criteria  and  promoting  a  range  of  viewpoints.  Besides,  variables  like 
+
+illegal(undocumented)  border  crossings  may  undermine  the  objectivity  of  the 
+
+conclusions.  i.e  data  variability.  The  research  might  also be constrained by the 
+
+absence of the official data for the specific period of time and/or accordingly for 
+
+the  specific  variable.  Nonetheless,  the  paper  will  endeavor  to  overcome  such 
+
+limitations by covering the maximum number of sources and archives available, 
+
+to  discover,  replace  or  compare  the  information, and extract most input for the 
+
+analysis.  
+
+15 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Main Body  
+
+The impact of the migration crisis on the regulation of migration in the EU 
+
+1.1 Transformation of the EU's common migration policy in the context of the crisis 
+
+The  European  Union,  remarkably  complex  supranational  structure 
+
+consisting of 27 sovereign states being united and interlinked via miscellaneous 
+
+economic  and  political  agreements  and  commitments,  is  a  representative 
+
+example  of  successful  deep  supranational  integration.  Its  decision-making 
+
+requires  more  time  than  a  usual  procedure  within  one  state,  insofar  dozens  of 
+
+countries should converge on the same viewpoint. There exist several structures 
+
+of  decision-making,  the  first  of  which  is  unanimous  voting  that  requires  all 
+
+member states to agree in order for the decision to be implemented. This applies 
+
+to  taxation,  social  security,  the  accession  of  new  members,  Common  Foreign 
+
+and Security Policy (CFSP), Common Security and Defence Policy (CSDP) and 
+
+operational  police  cooperation  (Official  Journal  of the European Union, 2021). 
+
+Another type of voting is Qualified Majority Voting (QVM), or double majority 
+
+voting,  which  reflects  two  necessary  conditions  to  be  simultaneously  met  in 
+
+order  for  the decision to come true: 55% of members states agree (typically 15 
+
+out  of  27)  and the proposal is approved by the member states that represent no 
+
+less than 65% of the total EU population (Treaty of the European Union, 1992). 
+
+The  Ordinary  Legislative  Procedure  (OLP)  involves  the  proposal  by  the 
+
+European  Commission  as  the  first  step,  the  executive  body  consisting  of  27 
+
+representatives overall - one from each country, and a simple majority is enough 
+
+to initiate the proposal (14 out of 27). It is important to mention that at the time 
+
+of the crisis the European Union was composed of 28 members as Great Britain 
+
+was  a part of it, so there was a need for a larger proportion (15 out of 28). The 
+
+second  step  is  the  approval  by  the  European  Parliament(EP)  with  a  simple 
+
+majority  system  as  well,  where  the  seat  allocation  is  based  on  the principle of 
+
+degressive  proportionality  (nowadays  705  members),  that  is  the distribution of 
+
+16 
+
+ 
+ 
+seats  based  on  the  population  but  with  a  slight  over-representation  of 
+
+small-population  states.  The  European  Parliament  is  empowered  to  refuse  the 
+
+law  and  send  it  back  for  modification  by  the  Commision.  After  successful EP 
+
+approval  the  initiative  is  supervised  by  the  Council  of  the  European  Union, 
+
+where one government minister from each member state represents the country's 
+
+interests of the current governments. It can likewise suggest amendments, deny 
+
+or  accept  the  law.  Its  decision-making  is  based  on  the  Qualified  Majority 
+
+System.  Afterwards  there  are  several  rounds for the EP and Council of the EU 
+
+to agree upon the initiative with an option of Conciliation Committee creation to 
+
+resolve the controversies. Both institutions are obliged to approve the final draft 
+
+of  the  text  in  order  for  it  to  become  a  law.  The  laws  created  via  OLP  have  a 
+
+fundamental 
+
+institutional  power  of  ‘direct  effect’, 
+
+implying  automatic 
+
+come-in-force  across  the  whole  territory  of  the  European  Union.  The 
+
+understanding  of  such  nuances  is  of  much  importance  in  the  context  of 
+
+exploring  the  EU  response  to  the  crisis,  its  lack  of  effectiveness  and 
+
+coordination,  inner  fragmentation  on  migration  and  security  policies,  and 
+
+EU-Italy relations.   
+
+The  current  migration  policy  time  frame  begins  in  April  2015  when the 
+
+formal  meeting of EU Commissioners takes place due to security concerns and 
+
+intention  for 
+
+internal  solidarity  for  smugglers  dying  in  the  sea.  The 
+
+Commissioners  formulated  the  migration  agenda  as  the  need  for  shared 
+
+responsibility,  increased  tolerance,  but  at  the  same  time  fighting  the  illegal 
+
+migration,  establishing  local  operations  like  EUCAP  Sahel  Niger  to  assist  in 
+
+preventing  smuggling,  and  organizing  the  summits  like  Valletta  Summit  on 
+
+Migration  in  November  2015.  The EU also established operation EUNAVFOR 
+
+Med  in  May  2015,  referring  to  a  comprehensive  response  in  combating 
+
+sea-crossing,  as  a  formal  start  of  operational  strategy-planning  for  the  naval 
+
+forces.  By  the  end  of  May 2015, the European Commision announced the first 
+
+package of proposals that included the emergency relocation of 40.000 refugees 
+
+17 
+
+ 
+from  Italy  and  Greece,  as well as 20.000 from abroad, precise plan on fighting 
+
+smuggling,  and  recommendations  on  fingerprinting  (European  Commission, 
+
+2015).  The  proposal  went directly to the Council of the European Union under 
+
+Article  78(3  TFEU)  that  implied  using  QMV  in  decision-making  on  the 
+
+migration  agenda,  along with excluding the European Parliament’s compulsory 
+
+role  (European  Parliament,  2020).  The  proposal  has  legally  been  approved 
+
+though  facing  opposition  from  Eastern  parts  of  the European Union (Hungary, 
+
+Slovakia,  Poland,  Czech  Republic).  Visegrad  Group  (V4)  countries  vainly 
+
+applied  to  the  European  Court  of  Justice  (ECJ),  blaming  the  binding  decision 
+
+illegitimate.  Later  on,  the  ECJ  began  infringement  procedures  against  Poland, 
+
+Hungary  and  Czech  Republic  for  disobedience  as  countries  unilaterally closed 
+
+their borders, built fences, and used military force to secure the national borders. 
+
+This  was  the  starting  point  of  the  EU  political  split  over  migration  agenda, 
+
+increase  in  ineffectiveness  and  inefficiency,  further  resulting  in  uncoordinated 
+
+European  response  to  the  crisis.  While  the  total  refugee  inflow  into  the 
+
+European  Union  exceeded  one  million  in  2015,  Italy  accounted  for  more  than 
+
+150.000,  with  exceptionally  peaked  numbers  between  April  and  September 
+
+(International  Organization  for  Migration,  2015).  With  the  rising  numbers  of 
+
+incoming refugees, the European Commission published the second package of 
+
+proposals  in  the  beginning  of  September  2015,  which  listed  the  following 
+
+aspects:  emergency  relocation  of  120.000  refugees,  a  permanent  relocation 
+
+mechanism  for  all  members  states,  a  more  effective  return  policy,  and 
+
+establishment of the trust fund for Africa (European Commission, 2015). At the 
+
+same  time  the  second  phase  of  EUNAVFOR  Med  begins, that is the boarding, 
+
+search,  seizure  and  diversion  of  the  smuggler’s  vessels  under  the  appropriate 
+
+international  law,  as  the  first  phase  -  deployment  of  naval  forces  -  is  now 
+
+complete  (The European External Action Service, 2018). In the same period of 
+
+time  the  Justice  and  Home  Affairs  Council  on  migration  adopted  the  final 
+
+decision for relocation of 40.000 refugees from Italy and Greece, increasing the 
+
+18 
+
+ 
+number  to  120.000  1  week  later,  as  well  as  intensified  its  support  towards 
+
+operations  TRITON  2015  and  POSEIDON  2015  by  the  European  Agency  for 
+
+the  Management  of  Operational  Cooperation  at the External Borders (Frontex) 
+
+on a par with EUNAVFOR Med (Council of the European Union, 2015). It is of 
+
+the  same  importance  to  mention  the  Dublin  Regulation  (Regulation  (EU)  No 
+
+604/2013)  that  prescribed  several  conditions  for  states’  responsibilities  and 
+
+refugees’  conditionalities.  To  begin  with,  Article  7(2)  prescribes  the  Single 
+
+Application  Rule  that  points  to  the  inability  to  apply  to  several  member-states 
+
+(Official  Journal  of  the  European  Union  2013).  Additionally,  Article  13(1) 
+
+outlines  the  Country  of  the  First  Entry  Rule,  meaning  the  state  of  entry  being 
+
+responsible  for  examining  the  asylum  application  (Official  Journal  of  the 
+
+European Union 2013). The Dublin Regulation conditionalities of 2013 put high 
+
+pressure  on the states of Greece and Italy to handle such inflow of refugees, as 
+
+the  member  states  were  initially  responsible  for  handling  with  the  incomers, 
+
+though relocation proposals came in force. What is even more crucial is that the 
+
+refugees  seeked  the  Northern parts of the European Union that proposed better 
+
+conditions  like  a  more  developed  economy,  higher  subsidies  and  standard  of 
+
+living.  Given  the  ambitions  to  move  northward,  Single  Application  and  First 
+
+Entry  Rules,  the  refugees  avoided  interaction  with  state  representatives 
+
+(especially  fingerprinting)  while  trying  to  move  deeper  in  the  Schengen  Area, 
+
+practicing  the  ‘asylum  shopping’  (Open  Migration,  2019).  It  has  therefore 
+
+complicated  the  track  and  management  of  refugees  as  a  whole.  In  the  end  of 
+
+October  2015,  the  Luxembourg  presidency  triggered  the  Integrated  Political 
+
+Crisis  Response  (IPCR)  on  the  mode  of  information  sharing,  requesting  more 
+
+coordinated actions by the structures of the EU (Council of the European Union, 
+
+2015). The decision was driven by the exacerbating conditions of the crisis and 
+
+EU’s  inability  to  properly  track  and  manage  the  migratory  inflows.  IPCR 
+
+provided concrete tools like universal web-platform, roundtables and Integrated 
+
+Situational  Awareness  and  Analysis  (ISAA)  reports,  suggesting  intensified 
+
+19 
+
+ 
+collaboration  and  additional  allocation  of  resources  (Council  of  the  European 
+
+Union,  2018).  By  the  mid  of  January  2016,  the  Foreign  Affairs  Council 
+
+concluded  the  enforcement  of  the  High  Seas  UN  Security  Council  Resolution 
+
+2240  within  the  framework  of  the  EUNAVFOR Med Operation Sophia, that is 
+
+combating  human-trafficking  from  the  territory  of  Libya  and  off  its  coast 
+
+(Official  Journal  of  the  European Union, 2016). The European Union has been 
+
+allocating enormous amounts of money abroad to assist the displaced people by 
+
+basic  human  needs  provision.  Thereby the European Council President Donald 
+
+Tusk pledged the 3 billion euros of EU contribution in the lives of IDP Syrians 
+
+as  well  as  hosting  communities  abroad  in  London  conference,  February  2016 
+
+(European  Council,  2016).  The  day  before,  member  states  agreed  on  how  to 
+
+finance  the  EU  refugee  facility  in  Turkey  with  an  approved  sum  of  3  billion 
+
+euros 
+
+(European  Council,  2016).  The  opposition 
+
+to  aforementioned 
+
+contributions,  besides  permanent  Visegrad  Group,  appeared  to  be  Austria  and 
+
+Netherlands.  Most  of  the  opposition  representatives  claimed  the  deal-making 
+
+with  the  authoritarian  Turkish  government  that  violates  basic  human  rights  is 
+
+perilous  and ineffective. Hungary openly resisted the plan, while other skeptics 
+
+just  criticised  the  plan  but  contributed.  So  did  Italy,  the  government  of  which 
+
+was in a big favor of such measures, advocating for EU common burden-sharing 
+
+and  responsibility.  The  Foreign  Affairs  Council  in  May  2016  extended  the 
+
+EUNAVFOR  MED  Operation  Sophia  for  one  year,  as  well  as  sets  additional 
+
+aims:  capacity  building and training of Libyan Navy and Coastguard, extended 
+
+information-sharing  and  introduction  of  the  UN  arms  embargo (Council of the 
+
+European  Union,  2016).  On  the  7th  of  June  2016,  the  European  Commission 
+
+published  a  communication-partnership  framework  with  third  countries,  the 
+
+core  notion  of  which  was  intensifying  interaction,  information-sharing, 
+
+engagement,  and  extensive  investment  plan  to  humanely  combat  the  refugee 
+
+problem. The EU planned to agree compacts with Niger, Nigeria, Senegal,Mali 
+
+and Ethiopia, as well as providing additional support to the Libyan government 
+
+20 
+
+ 
+(Council  of  the  European  Union,  2016).  The  Council  of  the  EU  stated  its 
+
+readiness  to  allocate  additional  8  billion  euros  within  2016-2020  given  all 
+
+member-state  engagement,  and  potential  long-term  mobilisation  of  62  billion 
+
+euros under the conditions of the international institutions full involvement and 
+
+dedication  of  the  same  level  as  the  EU  supranational  bodies  (Council  of  the 
+
+European Union, 2016). The plan clearly demonstrated the EU’s anxiety and its 
+
+efforts to full-scale deployment of complex operations aimed at preventing such 
+
+a  challenge  for  Europe,  still  with  high  emphasis  on  human  rights  even  at  the 
+
+cost  of  European  wellbeing.  The  Council  of  the  European  Union  continued 
+
+recommending  temporary  internal  border  checks  for  the  most  affected  states, 
+
+including  Germany,  Austria,  Denmark,  Sweden  and  Norway  -  the  members of 
+
+the EU that were the final destination for refugees, with up to 6 months of such 
+
+regime being approved (Council of the European Union, 2016). In 2018 the EU 
+
+supranational  bodies  approved  extra  3.7  billion  euros  to  eliminate  the  original 
+
+causes  of  migration,  and  new  3  billion  euros  for  refugee  facilities  in  Turkey 
+
+(Council of the European Union, 2016). The European Union capabilities failed 
+
+to   handle  such  rapid  intervention,  and  many  members  decided  to  unilaterally 
+
+build  barriers  and  deploy  an  army  to  prevent  the  inflow.  Those  actions  were 
+
+against  the  EU law, spreading the clashes between the national governments of 
+
+states  (predominantly  Hungary  and  Poland)  and  EU  supranational  structures 
+
+(European  Court  of  Justice).  Therefore  Hungarian  border  barrier  with  Croatia 
+
+and  Serbia  (2015),  Austrian  border  barrier  with  Slovenia  (2015),  Slovenian 
+
+border  barrier  with  Croatia  (2015),  Macedonian  fence  with  Greece  (2015), 
+
+Bulgaria-Turkey  barrier  (2016),  UK-France  Calais  border  barrier  (2016), 
+
+Norway-Russia  border  barrier  (2016),  and  Poland-Russia  Kaliningrad  barrier 
+
+(2020).  Some  of  the  constructions  were  heavily  criticised  by  the  EU  member 
+
+states,  mainly  Visegrad  Group’  ones,  insofar  them  being  aimed  at  complete 
+
+prevention  of  refugee  inflow,  while  others  built  to  ensure  management  and 
+
+generate  conditions  for legally accounted migration. The European Commision 
+
+21 
+
+ 
+in 2017 started the infringement procedures against Hungary, Poland and Czech 
+
+Republic,  referring  to  the  European Court of Justice (ECJ), for confronting the 
+
+2015  Council  decisions  (European  Commission,  2017). The ECJ onward ruled 
+
+the  violation  of  the  EU  law by 2020, however no penalties were imposed. The 
+
+ECJ  warned  member  states  of  breaking  the  law,  with  potential  financial 
+
+sanctions if they continue to move by confronting trajectory. The accused states 
+
+restored  confronting  national  policy 
+
+in  defiance  of  the  warnings  and 
+
+infringement procedures by the EU supranational bodies, signalling the split not 
+
+only by state policy (e.g Germany ‘Open Doors Policy’ and Hungarian national 
+
+security-driven  policies)  ,  but  also  non-compliance  and  conflicting  attitude 
+
+between  member  states  and  supranational  authorities.  In  2019  the  EU  set  a 
+
+migration  policy  agenda  for 2019-2024 to continue working on comprehensive 
+
+migration  strategies,  returns  of  refugees  to  home  countries  and  increased 
+
+cooperation  with  Turkey  to  calm  down  the  situation.  With  regard  to  all 
+
+aforementioned material, the paper may infer that the European Union appeared 
+
+to  be  unprepared  to  the  2015  migration  crisis,  having  a  complex  multi-level 
+
+decision  making,  increased  bureaucracy,  and  fragmented  opinions,  further 
+
+resulting  in  slow,  ineffective  response,  confrontational  attitudes  within  the 
+
+union,  disobedience  and non-compliance with supranational acts. Nevertheless, 
+
+the EU deployed a full-scale engagement and management of the crisis, heavily 
+
+investing  in  the  inner  migratory  structures,  along  with  financing  foreign 
+
+operations and projects. With lack of rapid decision-making and polarization in 
+
+migration policies, the European Union tried its best in managing and relocating 
+
+the  migration  inflows.  The  most  important  point  is  that  managing  such inflow 
+
+for  the  EU  meant  legal,  correctly  located,  subsidised  refugee  in  a  state  of 
+
+wellbeing.  The  range  of  success  in handling the refugee crisis may come to be 
+
+estimated  differently,  as  for  most  of  the  nation  states  it  primarily  mattered  the 
+
+prevention of the inflows.  
+
+22 
+
+ 
+ 
+Italy's position in the context of the migration crisis 
+
+The  issue  of  migration  has  long  been  prominent  for Italy, starting in the 
+
+early 2000s,  and  seeing  its  first  peak  in  2011  with  the  advent  of  the  ‘North 
+
+African  Emergency’,  the  chaotic  environment  in  the  Northern  part  of  Africa 
+
+(primarily  Libya,  Tunisia  and  Egypt)  caused  by  the  Arab  Spring,  a  series  of 
+
+protests  and  anti-government  political  militarized  movements.  The  Central 
+
+Mediterranean  route  saw  the  first  solid  surge  of  refugees,  insofar  several  civil 
+
+wars  in  Libya  and  the  end  of  Gadaffy’s  tyranny  destroyed  the  government 
+
+apparatus and weakened its abilities to combat smugglers. Libya hence became 
+
+the strategic point for all North Africans for traveling to Europe, with numerous 
+
+smuggling  networks  being  available  through  the  Central  Mediterranean. Libya 
+
+has been labelled a failed state since 2011, the one that cannot perform its basic 
+
+duties,  i.e  security  and  development  functions.  Therefore  governmental  forces 
+
+could  not  effectively  combat  the  trafficking  of  people,  making  Italy  the  most 
+
+vulnerable  to  refugee  arrivals  on  a  par  with  Greece by geographical proximity 
+
+and  temporal  conditionalities  (window  of  opportunity  to  illegally  travel  via 
+
+Libya).  People  seeking  the  penetration to the European Union most commonly 
+
+travelled  by  Turkey,  or  Libya.  Therefore,  the  consequences  of  the  ‘North 
+
+African  Emergency’  has  shaped  the  foundation  for  further  demand  on  the 
+
+Central Mediterranean route during the 2015 refugee crisis.  
+
+The  state  of  Italy  together  with  Greece  formed  the  most  in-use  area  for 
+
+refugee  arrivals:  Central  Mediterranean  route,  though  being  more  treacherous 
+
+and  distant  than  Eastern  Mediterranean,  has  become  popular  for  North Africa, 
+
+especially  Libya.  In  the  context  of  escaping  inner  state  instability,  refugees’ 
+
+primary objective was to leave their home country’s territorial waters that were 
+
+protected  by  national  navies,  and  afterward  count on rescue by the EU fleet or 
+
+getting to their final destination independently. The aforementioned strategy has 
+
+23 
+
+ 
+ 
+led to numerous tragic sinkings, and the EU’s primary concern in the advent of 
+
+the crisis implied assistance to refugees: saving the lives over security concerns. 
+
+Even the Italian fleet while encountering the boats with refugees, in accordance 
+
+with  domestic  and  international  standards,  had  to  deliver  the  people  to  Italy, 
+
+insofar  home  countries  were  unfavourable  destinations  due  to  instability.  The 
+
+Eastern  Mediterranean  route  largely  included  Turkey-to-Greece  path,  with 
+
+minor  deviations  to  Bulgaria  and  Romania.  The  Aegean  Sea  appeared  to  be  a 
+
+safer  alternative  for  refugees  due 
+
+to  curtailed  distance,  and  Turkish 
+
+companionability.  Some  less  popular  routes  included  Western  Balkans  - 
+
+entrance  to  the  EU  via  the  former  Yougoslavian  states,  and  Western 
+
+Mediterranean  -  chiefly  from  Morocco  to  Spain  (crossing  the  sea,  or  invading 
+
+Melilla  and  Ceuta).  Geographic  conditionalities  played  a  key  role: Greece and 
+
+Italy  jointly  totalled  1  million  arrivals  in  2015,  breaking  an  absolute  record  in 
+
+comparison to other destinations: Spain (3.845), Bulgaria (29.959), Malta (106) 
+
+and  Cyprus  (269)  (International  Organisation  for  Migration,  2015).  Italy  has 
+
+experienced  the  inflow  of  324.000  refugees  for  2014  and  2015  combined,  an 
+
+unprecedented  level  of  human  trafficking,  even  compared  to  2011  ‘North 
+
+African Emergency’, that is the beginning of the Arab Spring in Egypt, Tunisia, 
+
+Yemen, Syria and the start of the first civil war in Libya (Initiatives and Studies 
+
+on  Multiethnicity,  2015).  For  Italy,  the  2015 refugee crisis started even before, 
+
+when  the  government  launched  a  one-year  Operation  Mare  Nostrum  in  2013, 
+
+aimed at rescuing migrants fleeing Northern Africa, with estimated saving of at 
+
+least  150.000  people  (International  Organization  for  Migration,  2014).  The 
+
+European  Commision  sponsored  Italy’s  naval  efforts,  providing  finance  by 
+
+External  Borders  Fund.  The  operation  faced  criticism  by  the  UK  officials, 
+
+namely  the  Foreign  Office  Minister  Baroness  Joyce  Anelay  and  Immigration 
+
+Minister  James  Brokenshire,  who  claimed that the Italian operation serves as a 
+
+‘pull factor’ for smugglers that will put even more people on insecure boats and 
+
+anticipate  the  Italian  Navy  to  save  people.  Of  course  the  opinions  were 
+
+24 
+
+ 
+contested  by  the  international  organisation’s  officials,  like  International 
+
+Organisation  for  Migration  and  Frontex,  with  the  former  praising  Italy  for 
+
+life-saving efforts, and the latter denying the correlation between the Operation 
+
+Mare  Nostrum  and  increased  smuggling.  Italy’s  economic  performance  and 
+
+repayment  of  national  debt  has  been  problematic  over  decades,  especially 
+
+demonstrated by the Global Financial Crisis of 2008 and Eurozone crisis in the 
+
+mid  2010s.  Celidoni  et  al.  (2016)  in  the  analysis  within  Institute  for  Fiscal 
+
+Studies  concluded  that  Italy  performed  the  most  dramatic  GDP  contraction by 
+
+5%,  large  drop  in  consumer  expenditure,  calling  it  the  ‘Great  Recession’.  The 
+
+World  Bank  accounts  for  -5,7%  of  GDP  per  capita  growth  in  2009.  The 
+
+financial  crisis  of  2008  has  affected  the  Italian  economy  enormously,  further 
+
+leading  to  the  Eurozone  crisis.  The group of Portugal, Italy, Greece, and Spain 
+
+(PIGS), sometimes combined with Ireland (PIIGS), failed to repay national debt 
+
+and  stuck  in  severe  interest  rates  within  the  national  economy,  creating 
+
+instability  within  the  Eurozone,  where national economies tied with each other 
+
+in  aspects  like  common  currency  and  fiscal  policy.  It  was  hence  even  more 
+
+challenging  for  Italy  to  allocate  additional  finance  to  operations  aimed  at 
+
+rescuing  of  refugees, settling and provisioning, as the economy remained weak 
+
+and required assistance by the EU structures. The resource consisted not only of 
+
+financial  aspect, but human, equipment, infrastructure and others that came out 
+
+to  be  overloaded  by  an  overwhelming  number  of  incomers.  Therefore  the 
+
+stemming  operations  of  Triton  (2014)  and  Sophia  (2015-2020)  were  primarily 
+
+led  by  the  European  Union  and  coordinated  by  Frontex,  with  emphasis  on 
+
+supranational  effort,  supported  by  Italy but as a supporting party, in as much it 
+
+lacked  resources  to  conduct  national  operations.  Perhaps  joint  operations  with 
+
+Libyan  Coast  Guard  may  only  be  considered  as  a  nationally  financed  effort, 
+
+with  largely  training  and  equipping  of  Libyan  forces  to  safeguard  national 
+
+waters  and catch fleeing refugees. Italy was one the most furious advocates for 
+
+burden sharing within the member states of the European Union, often referring 
+
+25 
+
+ 
+to  itself  as a Southern EU frontier that is in need of coordinated assistance: the 
+
+handling  of  rescuing  refugees  in  the  sea,  the  management  of  providing  basic 
+
+necessities  in  the  land,  the  combating  of  unregistered  trafficking.  It  is  worth 
+
+mentioning  the  role  of  Non-Governmental  Organisations’  assistance  to  the 
+
+Mediterranean,  the  most  notable  of  which  were  Médicins  Sans  Frontières 
+
+(MSF),  Save  the  Children,  and  International  Organization  for  Migration.  MSF 
+
+has  conducted  a  ‘Search  and  Rescue’  operation  in  the  Mediterranean  in  2015, 
+
+resulting  in  saving  thousands  of  refugees  and providing food and medical care 
+
+to  them.  In  2016,  Save  the  Children  started  ‘Welcome  to  Europe’  program, 
+
+which envisaged the help in Italian reception centers and support provision with 
+
+the  future  of  refugee  children  arriving  by  Mediterranean.  As  a  result,  over 
+
+10.000 documented children received emergency help, psychological assistance 
+
+and  legal  aid  to unaccompanied and unprotected minors. In 2015, International 
+
+Organisation  for  Migration  launched  ‘Mediterranean  Migration  Response’  by 
+
+building  shelters,  providing  medical  care  and  information  dissemination  for 
+
+migrants  that  arrived  in  Italy  and  Greece.  IOM  helped  over 100.000 people, it 
+
+coordinated  reception  and  integration  of  them,  standing  by  the  Italian 
+
+government  to  manage  the  inflows  more  effectively.  In  general,  Italian 
+
+authorities  welcomed  such  efforts  by  IOs,  yet  with  some  instances  of tensions 
+
+regarding the effect of such rescue efforts that may trigger more migration (‘Pull 
+
+factors’  by  MST).  At  the  same  time,  Italy  continued  to  criticise  the  EU  for 
+
+inconvenient  measures  and 
+
+lack  of  solidarity,  stressing 
+
+the  need  for 
+
+burden-sharing. Regarding the aforementioned material, the paper may come to 
+
+the  conclusion  that  Italy  has  been  engaged  in  migration  issues  way  before  the 
+
+2015  refugee  crisis,  it  has  become  the  most  popular  way  of  getting  to  the 
+
+European  Union  because  of  its  geographical  location  and  Libyan  previously 
+
+established  smuggling  networks.  Italy  struggled  with  economic  hardships 
+
+because  of  the  2008  Global  Financial  Crisis  and  was  one  of  the  drivers of the 
+
+Eurozone  Crisis,  which  made  it  impossible  to  attract  more  funds  in  a  limited 
+
+26 
+
+ 
+pool of finance. It therefore failed to effectively manage the inflows of refugees, 
+
+asking  for  burden-sharing  and  coordinated  response.  Conditionalities  like 
+
+Dublin  Regulation  (country  of  arrival  principle)  put  responsibilities on Italy to 
+
+finance  the  refugees  and  keep  them  in  the  country,  along  with  trying  to  catch 
+
+illegal border crossings both to and from Italy, since most of the refugees seeked 
+
+to the North of the EU, pursuing better conditions. The Dublin Regulation made 
+
+it highly disproportionate since most of the refugees arrived in Greece and Italy, 
+
+and  they  had  to  keep  and  provide  for  them.  Eventually  it  was  suspended  by 
+
+Germany (Merkel’s Open Door policy) and eased by several states like Sweden 
+
+and  Austria  in  the  second  half  of  2015, but the ineffective management within 
+
+EU  complex  bureaucracy,  rapid crisis expansion, and lack of Greek and Italian 
+
+resources made it a catastrophe within months.  
+
+Migration flows as a factor of political and socio-economic development of 
+Italy 
+
+2.1 Political sphere 
+
+2.1.1 Institutional and Electoral Structure of Italy 
+
+The  existing  Parliamentary  system  of  Italy  functions  through  a 
+
+multi-party  dynamics.  The  bicameral  Parliament  represents  the  legislative 
+
+branch  of  the  Italian  Republic,  with  the  Senate  being the upper house, and the 
+
+Chamber  of  Deputies  -  the  lower  house. The Senate nowadays takes shape via 
+
+combined  processes  of  majoritarian  (37%  of  total  seats)  and  proportional 
+
+representation  (63%)  systems  .  The  basic  functions  of  the  upper  house  are: 
+
+participation  in  legislature  (amending,  approving),  ratifying  international 
+
+treaties, the use of impeachment, and government supervision. The Senate does 
+
+not  have  a  veto  power,  hence  the  Chamber  of  Deputies  may  override 
+
+disapproval  and  adopt  the  same  draft  of  the  law  regardless  of  the  Senate  in 
+
+27 
+
+ 
+ 
+ 
+ 
+critical cases, where reaching consensus is surreal. One great example would be 
+
+the passing of the 2015 Electoral Law Reform (Italicum), which was initiated by 
+
+the Chamber of Deputies yet rejected by the Senate. Consequently, the Chamber 
+
+of Deputies utilized its constitutionally guaranteed right to pass exactly the same 
+
+version  of  law  despite  the  Senate's  anxiety  and  reluctance  to  approve  it. 
+
+However,  bicameralism  means  two  equal  legislative  bodies,  and  even  so  the 
+
+Chamber of Deputies has a right to override in some critical cases, this does not 
+
+automatically infer the Senate's submissive role. The lower house, the Chamber 
+
+of  Deputies, also has a mixed-member majoritarian representation with 37% of 
+
+the  seats  distributed  in  accordance  to  the  first-past-the-post  voting (FPTP) and 
+
+63%  by  proportional  representation. It also has a minority bonus to assist large 
+
+parties.  Some  of  the  most  fundamental  functions  of  the  Chamber  of  Deputies 
+
+are:  initiating,  amending  and  approving  legislation,  government  oversight, 
+
+forming  and  approving  the  budget  and  taxation,  ratifying  international  treaties 
+
+and  the  use  of  impeachment  if  needed.  The  composition  of  both  houses  may 
+
+seem identical, however there exist principal differences in the structure and the 
+
+way  of  functioning.  To begin with, the Chamber of Deputies largely represents 
+
+the  population  since  it  is  proportionally  formed  based  on  the  population  size, 
+
+while  the  Senate  chiefly  speaks  for  the  regions  that  provide  their  regional 
+
+interests  into  the  federal  politics  of  Italy.  The  Chamber  of  Deputies  has  more 
+
+political  power  in  the  legislature,  namely  an  ability  to  override  the  denials  of 
+
+drafts by the Senate, with the latter being unable to do so in this manner. Lastly, 
+
+when  it  comes  to  government  oversight,  the  Chamber  of  Deputies  possesses 
+
+more  influence  especially  in  confidence  votes  or  major  government  policies 
+
+endorsing.  This  means  that  the  Chamber  of  Deputies  has  a  pivotal  role  in 
+
+overseeing the government's legitimacy and the approval of policies vital for the 
+
+country’s  economy.  The  Council  of  Ministers  being  the  principal  organ  of  the 
+
+executive  branch,  consists  of  the  President  (usually  the  Prime  Minister  of  the 
+
+state)  and  Ministers  that  are  both  appointed  by  the  Italian  head  of  state.  The 
+
+28 
+
+ 
+Italian  President  likewise  belongs  to  the  executive  branch,  together  with  the 
+
+Council  of  Ministers  and  Prime  Minister  forming  the  government.  The 
+
+government  is  responsible  for  the  following  functions:  policy  implementation 
+
+(the  execution  of  laws  and  administration  of  the  country),  coordination  over 
+
+internal & external affairs, defense industry and finance, the military command, 
+
+and the right to take serious measures in case of emergency, meaning the threat 
+
+to  national  security  and  stability.  The  Prime  Minister  does  not  have  a  veto 
+
+power  on  bill-passing,  however  the  Head  of  the  Republic  does,  in  a  specific 
+
+manner:  most  commonly  the  president  vetoes  when  the  draft  contradicts  the 
+
+constitution, and if the Parliament decides to override, the president may appeal 
+
+to  the  Constitutional Court to examine the legitimacy of such law-making. The 
+
+judicial  branch  consists  of  the  Constitutional  Court  and  the  Supreme  Court  of 
+
+Cassation,  with  the former overseeing constitutional legitimacy, and the latter - 
+
+procedural  accuracy.  Therefore,  the  Republic  of  Italy  possesses  an  imperfect 
+
+balance of power: the executive is dependent on legislative (direct appointment 
+
+and vote of confidence), the judiciary (especially the Constitutional Court) may 
+
+raise  attention  to  some  laws  and  annul  it,  however  far  from  authority  over 
+
+blocking  all.  The  head  of  the  state  may  veto  legislation,  yet  only  through  the 
+
+Constitutional  Court,  exactly  the  same  process.  Within  the  Parliament,  the 
+
+Chamber of Deputies exercises way more power than the Senate, insofar it may 
+
+override  the  appeals.  Therefore,  the  paper  intends  to  admit  the  Chamber  of 
+
+Deputies the most influential structure that violates the balance of power within 
+
+Italy.  The  issue  of  balance  of  power  has  long  been  a  central  pillar  in  political 
+
+discussions  within  the  state  of  Italy,  and  many  legislative  initiatives  aimed  at 
+
+fixing  this  imbalance  were  proposed,  with  only  a  few  becoming  a  law. 
+
+Nonetheless,  the  issue  was  not  the  change  of  the  balance  of  power  between 
+
+branches,  but  rather  the  electoral  process  and  regional  representation  in 
+
+government.  Rich  North  (e.g Lombardy, Veneto) and poor South (e.g Calabria, 
+
+Sicily)  unevenly  shared  the  power  in core governmental structures. The North, 
+
+29 
+
+ 
+being highly industrialized and developed in terms of trade, finance and overall 
+
+economic  indicators,  had  long  been  holding  more  political  power  than  the 
+
+mostly  agricultural,  underdeveloped  and  economically  weak  South.  The 
+
+electoral  system  of  Italy  has  experienced  numerous  amendments:  Matarellum 
+
+(1993-2005),  Porcellum  (2005),  Italicum(2015),  and  Rosatellum  (2017), 
+
+Constitutional  Reform  (2020)  -  all  aimed  at  fixing  the  imperfections  of  the 
+
+electoral  system  by  shifting  focus  on  regional  representation  yet  trying  to 
+
+compensate  with  majority  bonuses  or  shortage  in  number  of  seats  to  uphold 
+
+efficiency of the government. The Italian political system embodies divergency 
+
+in  regions,  views  of  the  coalitions,  and  extent  of  exercising  power  in 
+
+governmental structures, at the same time Italian Republic struggles to maintain 
+
+the  balance  between  the  regional  representation  (via  electoral  reforms)  and 
+
+efficiency  (by  decreasing  the  number of state officials, relying on less political 
+
+fragmentation).  
+
+2.1.2 Coalition Dynamics and Political Instability: Political Conditionalities and 
+
+Structural Limitations (2006–2013) 
+
+With  regards  to  the  partly  representation  within  the  federal  politics  of 
+
+Italy, it is reasonable to begin by outlining the structure before the refugee crisis, 
+
+and  shortly  outline  the  ruling  coalitions  even  prior  to  the  North  African 
+
+Emergency,  to  fully  comprehend  and  calculate the proportions of changes, and 
+
+further  analyse  transformation of migration agenda. The paper intends to begin 
+
+by  outlining  the  2006  general  election, a highly competitive federal election to 
+
+Parliament  of  the  Italian  Republic  with  two  major  coalitions.  The  House  of 
+
+Freedoms,  a  centre-right  political  coalition  with  Forza Italia (Centre-right) and 
+
+National  Alliance  (National-conservative)  as  two  leading locomotives on a par 
+
+with  minor  parties 
+
+like  Union  of  Christian  and  Centre  Democrats 
+
+(Christian-democratic)  and  Northern  League  (Regionalism)  participated  in  the 
+
+elections. The leader, Silvio Berlusconi, struggled to reunite the opposition into 
+
+30 
+
+ 
+ 
+a  strong  alliance to increase competency after the collapse of its Cabinet in the 
+
+90s,  particularly  caused by tense relations between National Alliance and Lega 
+
+Nord  and withdrawal from the latter. The reason was that Lega Nord requested 
+
+greater regional autonomy, and the government’s federalist policies did not fully 
+
+reflect  and  address  the  issue  of  regionalism,  being  a  central  pillar  within  the 
+
+Lega Nord. The second alliance was The Union, a centre-left coalition of parties 
+
+predominantly  led  by  Democrats  of  the  Left  (Social-democratic),  The  Daisy 
+
+(Christian-left,  social-liberal)  and  including  other  less  popular  parties  like 
+
+Communist  Refoundation  Party  (communist),  Rose  in  the  First  (liberal, 
+
+social-democratic) and others. The head, Romano Prodi, was at that time current 
+
+Prime-Minister  of  Italy  and  Former  President  of  the  European  Commision. 
+
+During  the  General  Election  of  2006,  the  House  of  Freedoms  experienced  the 
+
+withdrawal  of  the  Union  of  Christian  and  Central  Democrats,  explaining  it  by 
+
+ideological  controversies  with  the  Lega  Nord  and  National  Alliance  and 
+
+disagreements  over  policy  orientation.  With  hesitant  victory  of  The  Union  by 
+
+20.755  votes,  and  turnout  over  38  million,  and  respective  number  of  votes  in 
+
+favor of the Union of Christian and Central Democrats (UdC) being 2.580.190, 
+
+the paper derives the defeat of the centre-right coalition was a result of the loss 
+
+of  support  by  the  UdC  (International  Foundation for Electoral Systems, 2006). 
+
+Nevertheless,  the  newly  elected  government  under  the  rule  of  the  Prodi 
+
+collapsed in 2008, due to withdrawal of the Communist Refoundation Party and 
+
+a  loss of confidence vote in the Senate. The debates included the government’s 
+
+foreign  policy,  more  precisely  Italy’s  involvement  in  Afghanistan.  Inter-party 
+
+fragmentation  began,  with  Prodi’s  supporters  blaming  the  communists  for 
+
+sabotage, and them in response accusing Prodi of not following anti-war stance. 
+
+The coalition likewise possessed fragmented views on how to combat economic 
+
+hardship  (i.e  existing  rising debt and economic stagnation), and the persistence 
+
+of  the  European  Union  for  Italy  to  introduce  reforms  (fiscal  austerity  and 
+
+structural  changes)  was  strongly  opposed  by  the  communists.  What  is  more, 
+
+31 
+
+ 
+ideological  controversies  persisted  over  time,  personal  rivalries  between  the 
+
+leaders of parties that all participated in abnormal fragility of the coalition. The 
+
+economic  governance  with  slow  recovery,  floating GDP and rising debt fueled 
+
+discontent in coalition. All in all, the alliance appeared to be highly fragmented, 
+
+polarized,  and  inefficient  -  with  loss  of  confidence  and incapacity to arrange a 
+
+caretaker  government  due  to  excessively  divided  political  landscape,  a  2008 
+
+snap  general  election  was  held.  As  a  result,  the  newly  formed  right  coalition 
+
+under Silvio Berlusconi won by a large margin of almost 10% by popular vote, 
+
+and  received  55%  of  seats  both  in  the  Chamber  of  Deputies  and  Senate, 
+
+possessing  an  absolute  majority.  The  rule  of  the  Prime-Minister  Berlusconi 
+
+ended  in  2011  with  respective  resignations,  as the country plunged into a deep 
+
+economic  crisis  (higher  public  debt,  recession,  unemployment)  and  migration 
+
+debates,  along  with  loss  of  parliamentary  majority  because  of  withdrawal  of 
+
+Future  of  Freedom  and  Union  of  the  Centre  support.  President  Napolitano 
+
+appointed  Mario  Monti  with  a  technocratic  government,  which  was  supported 
+
+by  an  overwhelming  number  of  political  parties  (The  People  of  Freedom, 
+
+Democratic  Party  and  Union  of  the  Centre).  However,  there  was  no  absolute 
+
+majority  in  the  Parliament,  making  the  system  highly  inefficient,  with  the 
+
+People of Freedom (PdL) and Democratic Party (PD) being political rivals, and 
+
+Union of the Centre - a mediator. There was no common political approach and 
+
+similarity  of  views.  By  the  second  half  of  2012,  Monti  resigned  due  to 
+
+withdrawal  of  PdL  support  and  Berlusconi’s  accusations  of  Monti  being  too 
+
+submissive  to  EU  requirements  harming  Italian  economy  (tax  increases, 
+
+austerity  measures,  pension  reforms)  and  deepening  the  economic catastrophe, 
+
+triggering  earlier  2013  general  elections.  The  aforementioned  political 
+
+conditionalities  of  Italy  are  critical  (institutional  disbalance,  fragmentation  of 
+
+alliances,  instability  of  parliament  coalitions),  insofar  it  has  become  the 
+
+structural  limitation,  in  the  framework  of  which  Italy  came  across  the  EU 
+
+refugee  crisis.  Due  to  constantly  happening  dissolutions  of  the  governments, 
+
+32 
+
+ 
+inter-party  splits  and  conflict  of  interests  between  the  North  and  South,  the 
+
+country appeared to be unable to establish a coherent and sustainable migration 
+
+strategy, with governments acting situationally in a short-term perspective under 
+
+the  pressure  of  coalitional  and  electoral  interests.  The  migration  issue  has 
+
+become the field of political competition, not systematic management.  
+
+2.1.3 The Impact of the Refugee Crisis on Party Politics (2013–2018) 
+
+The  state  of  Italy  faced  the  EU refugee crisis in the composition formed 
+
+via  2013  general  elections.  The  centre-left  forces  established  a  new  coalition 
+
+called ‘Italy. Common Good’,consisting of two locomotives - Democratic Party, 
+
+and  Left  Ecology  Freedom,  with  some  minor participants. It won the elections 
+
+by  a  0.37%  margin  from  the  centre-right  coalition,  and  received  55%  seats  in 
+
+the  Chamber  of  Deputies.  The  centre-right  coalition,  led  by  The  People  of 
+
+Freedom,  together  included  medium  size  parties  like  Northern  League  and 
+
+Brothers of Italy, along with many small parties that did not pass the threshold. 
+
+Yielding a little, it only received 19.8% of seats in the Chamber of Deputies due 
+
+to a bonus system. The third significant political force, the Five Star Movement 
+
+populist  party,  winning  any  party  in  terms  of  popular  vote  for  party,  but  not 
+
+allying  with  anyone  else,  received  17.3% of seats. The Senate seat distribution 
+
+appeared  to  be  non-majoritarian,  with  both  three  main  powers  combined.  The 
+
+centre-left  forces  dominated  the  government  insofar  the  withdrawal  of 
+
+Berlusconi  coalition  support  and  further  formation  of  new  Forza  Italia. 
+
+Therefore,  Italy’s  government  structure  consisted  of  a  left-centrist  majority  in 
+
+the  Chamber  of  Deputies  (legislative)  and  Council  of  Ministers  (executive), 
+
+with  possibility  of  gridlock  only  by  Senate’s  statements  or  judiciary  records. 
+
+The  government  collapsed  in  less  than  a  year  following  the  withdrawal  of 
+
+Berlusconi  and  formation  of new Forza Italia in 2014. The new government of 
+
+Matteo Renzi came into office in 2014, and with the advent of the refugee crisis 
+
+continuing  the  Mare  Nostrum  and  calling  for  European  solidarity.  Renzi 
+
+33 
+
+ 
+castigated  the  EU’s  actions,  calling  it  a  ‘bureaucratic  perversion’, meaning the 
+
+EU’s  reluctance to compensate migratory expenses from the budget deficit. The 
+
+relocation  scheme  has  fueled  intra-state  controversies within the EU, as Italian 
+
+suggestions  of  relocating  refugees  faced  opposition  by  Hungary,  Slovakia, 
+
+Czech  Republic  and  Romania.  Some  of  the  members  abstained  -  the  United 
+
+Kingdom,  Denmark  and  Finland.  Renzi  later  on  shamed  abstaining  and 
+
+opposing  states  for  not  sharing  the  burden  of  the  common  EU  problem, 
+
+spreading  the  internal  fragmentation  on  the  refugee  issue. In June 2015, Renzi 
+
+intimidated  the  EU  by  imposing  unilateral  measures  like  refugee  processing 
+
+camps 
+
+in  Libya.  The  EU’s  response  appeared  to  be  protective,  with 
+
+supranational  bodies  agreeing  on  relocating  refugees,  but  stressing  no  need  in 
+
+menaces.  The  Visegrad  Group  countries,  in  contrast,  negated  the  idea  of 
+
+redistribution  and  escalated  the  disagreements  between  the  member  states  on 
+
+migration  policy.  Renzi’s  government  has  been  heavily  criticized  for  its 
+
+insufficient  policies  and  ever  counting  on  the  EU  burden  sharing.  In  2015 
+
+Salvini  launched  a  Northern  League  Rally,  with  thousands  of  participants, 
+
+against immigration, the European Union membership and Renzi’s government. 
+
+Salvini  speeches  were  translated  via  X  (former  Twitter)  by  personal  official 
+
+account  and  Northern  League  official  account.  Salvini  advocated  for complete 
+
+naval blockade in 2015, he accused the Democratic Party of racism as it offered 
+
+monetary  reward  for  companies  hiring  refugees,  calling  them  ‘fake’(Salvini, 
+
+2015).  Salvini  likewise  identified the problem of confusing the ‘fake’ migrants 
+
+and  refugees  that  actually  escaped  the  war.  He  also  criticised  democratic 
+
+government for providing subsidies, comparing it to well building in the village 
+
+and  the  struggle  with  earthquakes  (Salvini,  2016).  He  revealed that the cost of 
+
+hosting  a  refugee  is  35  euro  per  day,  with  Berlusconi  claiming  the  actual 
+
+refugees being 10.000 out of 630.000 migrants. The cost of hosting a refugee in 
+
+Northern African camps is 3 euros per day, calling it an economic disaster. With 
+
+the  highly  inefficient  bicameral  system  of  the  parliament  and  numerous 
+
+34 
+
+ 
+gridlocks  caused  by  the  multi-coalitional  structure  of  the  Senate,  Renzi’s 
+
+government  law  initiation  efficacy  was  close  to  zero.  Reforms  were  mainly 
+
+blocked, or delayed, further leading to the 2016 Constitutional Reform proposal 
+
+by Renzi. It chiefly proposed the decrease of legislative power of the Senate, in 
+
+order  to make the Chamber of Deputies the main organ responsible for making 
+
+the legislature. Renzi was charged for violating the balance of power and trying 
+
+to  centralize the power in the hands of the Prime Minister by Forza Italia, Five 
+
+Star  Movement,  Northern  League  and  even  by  leftists  of  his  own  Democratic 
+
+party.  The  referendum  was  held,  with  59.1%  voting  against,  triggering 
+
+immediate resignation of Renzi and admittance of the failure (Italian Ministry of 
+
+Internal  Affairs,  2016).  The  new central figure, a democrat and Minister of the 
+
+Internal Affairs, Marco Minniti rather ruled a caretaker government till the next 
+
+elections,  with  exactly  the  same  balance  of  power  within  governmental 
+
+structures, in some cases with even less support (subtracted by the leftists of the 
+
+Democratic  Party).  Minniti  signed  several  agreements  with  Libya  on 
+
+intercepting the boats before reaching international waters and on equipping and 
+
+training Libyan military, facing criticism and being shamed for violating human 
+
+rights  and  supporting  militias  with  abusive  conditions.  He  also  worked  on  the 
+
+Code  of  Conduct  for  NGOs,  proclaiming  specific  conditions  on  search  and 
+
+rescue,  resulting in sharp decrease of its activities and arrivals of refugees. The 
+
+Democratic Party, slightly before the 2018 General Elections, understanding the 
+
+collapse  of  its  government  and  at  most  policies,  internal  fragmentation  and 
+
+inability to govern effectively, started the campaign against the Northern League 
+
+and  fast-growing  Salvini  with  a  hard  stance  on  the  refugee  issue.  The 
+
+Democratic  Party  and  Minniti  warned  the electorate that the political stance of 
+
+the  Northern  League  may  result  in international isolation, withdrawal from the 
+
+EU,  and  the  end  of  democracy  in  Italy.  The  Five  Star  Movement continued to 
+
+position  itself  as  a  central  populist  force  without  belonging  to  any  coalition 
+
+(though  in  2018  allying  with  the  League  anyways),  criticised  the  Democratic 
+
+35 
+
+ 
+Party  of  being  corrupt,  inefficient  and  elite-benefiting.  It  proclaimed  less 
+
+extreme  solutions  to the existing issues, including not only migratory ones, but 
+
+remaining  economic  problems  like  unemployment and corruption. It possessed 
+
+skepticism  in  EU  membership  but  did  not  denote  a  clear  will  to  leave.  It 
+
+promised  stricter  border  controls,  citizen’s  income,  lower  taxes,  to  reduce 
+
+immigration  in  general  and  revise  the  EU  rules  claiming  it  to  be  harmful  for 
+
+Italy. The coalition of the right, with the protagonist being Northern League and 
+
+with  support  of  the  Forza  Italia,  shared  different  approaches  aimed  at  similar 
+
+objectives.  Lega  promised  mass  deportation  of  refugees  (approximately 
+
+400.000),  ‘Italy  first’ economic policies, flat tax of 15% for all, and opposition 
+
+to mandatory EU rules like borders and budget. It positioned itself as a far-right 
+
+nationalist, anti-EU and populist political party that used failures of the previous 
+
+governments and remaining problems to get the support of the electorate. Forza 
+
+Italia, in its turn,  promised to stay in the EU but push for reform, evict irregular 
+
+refugees and flat tax form 15 to 23 %, placing itself as center-right, pro-EU and 
+
+liberal-conservative political force. All in all, it is clear that the result of another 
+
+government collapse and shifts in Italian political structure was caused not only 
+
+by  the  approach  of  the  ruling  party,  but  political  conditionalities  (i.e  hung 
+
+Parliament  at  that  time,  constant  gridlocks  and  inefficiency),  and  the 
+
+combination of factors participated in it, namely the reluctance, bureaucracy and 
+
+inefficiency of the EU, the populist slogans used by the opposition to frame the 
+
+crisis and reconfigure the electorate, and the actual reflection and feeling of the 
+
+failure  via  invasion  of  the  refugees  into  the  lives  of  Italian  citizens  (everyday 
+
+sensitive  issue).  The  failure  of  the government and respective populist rhetoric 
+
+to  address  mass  needs  used  by  the  right-wing  coalition  and  the  Five  Star 
+
+Movement  increased  the  chances  of  the  opposition  to  occupy  the  seats  in  the 
+
+Parliament,  at dawn of the 2018 General Elections. In 2015, Italy’s sea arrivals 
+
+were  153.842  refugees,  in  2016  -  181.436, and in 2017 - 119.369 (Operational 
+
+Data Portal, 2025) : totalling more than 450.000 refugees, with failed relocation 
+
+36 
+
+ 
+scheme,  collapse  of  the  government,  irregular  migration,  economic  hardship, 
+
+EU  inter-state  debates,  inefficiency  of  legislature  and  political  fragmentation  - 
+
+in such chaotic environment the 2018 General Elections were held.  
+
+2.1.4 Electoral Outcomes and Parliamentary Shifts (2018 General Elections) 
+
+The  right-wing  coalition  received  the  most  electoral  support  (265  total 
+
+seats out of 630 = 42%), with Lega’s biggest ever support rising from 16 to 125 
+
+seats  (+681.25%).  The  M5S  party  came  out  the  second,  totalling  227  seats 
+
+compared  to  108  in  2013  General  Elections  (an  increase  by  110.2%).  The 
+
+centre-left  coalition,  being  the  third  power,  accounted  for  a  total  of  122  seats, 
+
+with the Democratic Party intensely losing its electorate (from 292 seats in 2013 
+
+to 112 in 2018,  a decrease by 61.64%). With the new Rosatellum (2017) law, as 
+
+mentioned  previously,  none  of  the  coalitions  receive  an  automatic  bonus  if 
+
+crossing  a  40%  of  seats.  In  any  way,  the  center-right  coalition  in  the  popular 
+
+national  vote  acquired  only  37%,  which means even under the Italicum (2015) 
+
+law  the  coalition  could  not  obtain  the  bonus  seats.  Therefore,  the  hung 
+
+parliament  with  no  clear  majority  was  formed,  meaning  the  obstructed 
+
+decision-making  through  consensus  between  the  rival  parties,  and  potential 
+
+questioning  of  promises  given  during  the  campaigns,  since  none  of the parties 
+
+had an absolute power of sticking to its own policies. What made the issue even 
+
+more  complex  is  the  newly  established  balancing  structure  of  the  Senate, 
+
+inasmuch  it  similarly  represented  three  political  powers  with  none  of  them 
+
+possessing  an  absolute  majority  over  political  processes.  The  centre-right 
+
+coalition, being the most popular among the population, received 137 out of 315 
+
+seats (42.86% after final seat distribution), with Lega’s support rising from 19 to 
+
+58  seats  (205.26%  increase).  The  Five  Star  Movement  totalled  112  seats 
+
+(35.56%),  demonstrating  a rise by 58 seats (107.41%). The coalition of the left 
+
+received 60 seats in total (18.41%), with the Democratic Party accounting for 53 
+
+seats,  compared  to  110  in  2013  (51.82%  decrease).  The Democratic Party was 
+
+37 
+
+ 
+not a sole party losing voter preferences, the Forza Italia likewise experienced a 
+
+solid decline in the 2018 General Election. However, FI lost its support only in 
+
+the  Senate,  receiving  57  seats  compared  to  98  previously  (41.84%),  and 
+
+remained  in  the  same  position  within the Chamber of Deputies. The fall of the 
+
+Forza  Italia  is  usually  referred  to  the  age  of  the  party’s  leader  Berlusconi,  his 
+
+noncompliance  with  dynamic  political  landscape,  several  scandals,  and 
+
+traditional  views  of  the  party  on  the  issues  (compared  to  populist  and 
+
+anti-establishment  mottos  of  the  new  locomotive  of  the  right  coalition,  and 
+
+differing  in  terms  of approach but similarly anti-establishment and populist the 
+
+Five Star Movement). The right coalition rather redistributed the votes between 
+
+the  two  major  parties,  and  increased  its  total  support  as  well.  While  the  left 
+
+alliance  lost  electoral  support,  yielding  to  the  non-affiliative  Five  Star 
+
+Movement and the right coalition.    
+
+Figure №1   Seat distribution change between major coalitions, Chamber 
+
+of Deputies, Italy, 2013-18 
+
+Source:  Compiled  by  the  paper  based  on  the  data  from  Ministry  of  the 
+
+Interior (Ministero dell’Interno) 
+
+38 
+
+ 
+ 
+Based on the graph, it is logical to infer that the coalitional balance of power has 
+
+dramatically  changed  towards  right-wing  (22.26%  rise  in  seats)  ,  with  the 
+
+independent  Five  Star  Movement  (18.78%  rise)  forming  the  coalitional  rule 
+
+together  with  the  Northern  League  via  government.  The  former  opposition, 
+
+though being two divergent political forces, jointly redistributed more than 40% 
+
+of  new  seats  ,  indicating  a  stronger  support  by  the  electorate.  The  left-wing 
+
+coalition yielded more than 35% of total seats, displaying failed governance and 
+
+stemming  public  dissatisfaction/reorientation  towards  alternative  political 
+
+powers.  
+
+Figure №2  Refugee Inflow to Italy and Governments, 2013-18 
+
+Source:  Compiled  by  the  paper  based  on  the  data  from  the  UNHCR 
+
+Operational Portal – Mediterranean Situation 
+
+The graphs altogether demonstrate a strong tendency of correlation between the 
+
+refugee inflow and the decline of the left coalition. The paper reflects the Letta 
+
+government  collapse  in  2014  and  Renzi  resignation  in  2016  as  two  stemming 
+
+events from two peaks of the refugee incoming. These institutional shocks gave 
+
+space  for  populist  slogans  being  utilized  by  the  opposition  and  compounded 
+
+public skepticism. The weak humanitarian approach conducted by the left-wing 
+
+coalition  and  its  over-reliance  on  technocratic  government  alienated  key  voter 
+
+39 
+
+ 
+ 
+blocks.  Overall,  the  data  reveal  an  apparent  link  between  the  migratory 
+
+pressures  and  the internal political transformation in Italy. The sudden collapse 
+
+of  the  centre-left  and  the  simultaneous  rise  of  right-wing  and  populist  parties 
+
+indicate  a  major  realignment,  with  migration  serving  the  dual  role  of 
+
+precipitating party-switching voters and as a stand-in for deeper-seated concerns 
+
+regarding  globalization,  sovereignty,  and  governance.  The  M5S-League 
+
+electoral  victory  in  March  2018  is  an expression of population discontent with 
+
+the  manner  in  which  the  centre-left  had  handled  the  migration  crisis.  The 
+
+precipitous  decline  in  refugee  volumes  that  has  followed  is  a  reflection  of  the 
+
+success of the new government's more restrictive immigration policies. 
+
+Figure №3   Changes in Seats in Italian Chamber of Deputies by Parties, 
+
+Coalitions and Government Alliance, 2013-18 
+
+Source:  Compiled  by  the  paper  based  on  the  data  from  Ministry  of  the 
+
+Interior (Ministero dell’Interno) 
+
+The  following graph demonstrates repartition of political power between major 
+
+political parties within the Chamber of Deputies by 2018, illustrating the fall of 
+
+the  Democratic  Party  by  62.3%,  the  largest  political  party  in  the  period  of 
+
+2013-18.  The  two  most  prominent  political  parties  of  the  left  in  total  lost  222 
+
+40 
+
+ 
+ 
+seats,  while  the  largest  parties  of  the  opposition  gained  256  seats  (M5S  - 118, 
+
+right-wing  coalition  -  138).  The  number  slightly  exceeds  the  loss  of  the  left, 
+
+which may be referred to as minor changes (losses) by secondary parties, yet it 
+
+is  evident  that  the  electorate  reoriented  towards  the  right-wing  and  populist 
+
+political parties, alienating from the leftist ones.  
+
+Figure №4  Italian Senate Party Distribution, 2013-18  
+
+Source:  Compiled  by  the  paper  based  on  the  data  from  Ministry  of  the 
+
+Interior (Ministero dell’Interno) 
+
+The  tendency of voter reorientation and stronger support to alternative political 
+
+views  is  similarly  visible  in  comparing  graph  of  the  Senate  seat  distribution 
+
+between  the  parties  by  2013  and  2018  General  elections.  The  left  coalition 
+
+analogously  lost  a  large  number  of  seats  (52.3%),  yielding  to  both  right-wing 
+
+coalition  and  the  Five  Star  Movement.  The  M5S  rose  almost  by  the  same 
+
+number  (107.4%  rise  in total seats in the Senate vs. 108.3% in the Chamber of 
+
+Deputies).  In  the  right  coalition,  despite  solid  gains  of  the  Northern  League 
+
+(222.2%  of  its  total), the Forza Italia compensated the gain by losing 41.8% of 
+
+its  seats,  with  both percentages being almost the same number of seats (loss of 
+
+41 
+
+ 
+ 
+41  by  FI,  gain  of  39  by  the  League)  .  Nevertheless,  in total the alliance of the 
+
+right-wing parties still rose by 14.7%, underlining the attraction of a new part of 
+
+the  electorate  believing  in  its  political  viewpoints.  The  respective  total gain of 
+
+the  opposition  in  the  past  was  44.1%.  The  right  wing  since  then  occupied 
+
+42.86% of the total Senate seats, M5S - 35.56%, and declining leftists - 18.41%. 
+
+Therefore,  it  can  be  concluded  that  the  left  coalition  similarly  lost  a  huge 
+
+proportion of the electorate’s support.   
+
+Figure №5  Italian Senate Share by coalition, 2013-18 
+
+Source:   Compiled  by  the  paper  based  on  the  data  from  Ministry  of  the 
+
+Interior (Ministero dell’Interno) 
+
+The following graph indicates dynamics in the Italian Senate, clearly showing a 
+
+serious  decline  of  the  left  wing  coalition  (-52.9%),  and  ambitious  rise  of  the 
+
+M5S(108%) yet moderate increase of seats for the right-wing coalition (15.5%). 
+
+The  numbers  are  final  for  coalitional  comparison  insofar  in  previous  graphs 
+
+only  locomotives  of  the  alliances were taken, summarized and analyzed.   With 
+
+regard  to  all  analyzed  graphs,  it  is  apparent  that  the  EU  refugee  crisis  has 
+
+affected Italian internal political structure by shifting voter preferences towards 
+
+42 
+
+ 
+ 
+the  right-wing  coalition  (with  Northern  League  as  a  leader)  and  the  populist, 
+
+chiefly of the same viewpoint with the right-wing but less radical, the Five Star 
+
+Movement,  becoming  the  second  political  force  and  leaving  the  former  ruling 
+
+centre-left  alliance  behind  in  both  the  Chamber  of  Deputies  and  the  Senate  of 
+
+the Italian Republic.  
+
+Another 
+
+important  aspect 
+
+to  be  examined 
+
+to  complement 
+
+the 
+
+comprehensive view of shifts within Italian politics is the landscape of political 
+
+protests.  
+
+Figure №6 Refugee-Related Protests in Italy, 2015-2020 
+
+Source:  Compiled  by  the  paper  based  on  the  data  from  Amnesty 
+
+International,  Pew  Research  Center  and  International  Organization  for 
+
+Migration  
+
+The  graph  demonstrates  a  clear  trend  of  anti-refugee  protests  being  popular 
+
+during  peak  years  of  the  EU  refugee  crisis  under  the  Democratic  government. 
+
+The  only  one  pro-refugee  protest  was  held  in  2017  by  the  ruling  Democratic 
+
+party and a large number of participants - approximately 100.000 people. All the 
+
+other  protests,  though  being  not  that  numerous,  expressed  anti-establishment 
+
+and  anti-refugee  sentiments.  The  rally  against  Renzi  and  his  Constitutional 
+
+Reform  took  place  in Rome with roughly 30.000 participants. The anti-refugee 
+
+43 
+
+ 
+ 
+protest  (10.000  participants)  in  Rome  2016,  Casale San Nicola protest, Gorino 
+
+refugee  block,  Rome  pro-Lega  rally  and  Piazza  Indipendenza  eviction  of 
+
+refugees  by  locals  -  all  these  events  took  place  between  2015-2018,  showing 
+
+population’s  resentment  with  the  migratory  issue,  pro-refugee  policies  and 
+
+democratic  party  governance  in  general.  Yet,  after  2018  the  refugee  protests 
+
+largely  disappear,  with  the  population  switching  the  focus  towards  the  rise  of 
+
+nationalism and exclusionary politics. The migration becomes a secondary issue 
+
+because  of  the  decreasing  numbers  of arrivals, and the protests follow the idea 
+
+of  protecting  the  rule  of  law,  democracy  and  humanitarianism.   It  is  of  much 
+
+importance  to  understand  the  approach  conducted  by  the  new  government, 
+
+which  will  be  reviewed  and  analyzed  later.  Therefore  it  can  be  concluded that 
+
+the  protest  analysis  provides  an  insight  over  internal  political  shifts:  the 
+
+2015-2017  organised  protests  signal  anti-refugee  and  anti-government 
+
+sentiments  due to failed policies and aggravated situation. What is more, in the 
+
+aftermath  (2017-20)  the  anti-establishment  protests  demonstrate  social  unrest 
+
+over  the  ruling  government  due  to  democratic  concerns,  since  Lega  has 
+
+numerously  been  accused  of  violating  human  rights,  hence  underlying  the 
+
+institutional dimension of unrest, not migratory issue (though being included in 
+
+the former).    
+
+44 
+
+ 
+ 
+Figure №7 Public opinion and Refugee Arrivals in Italy (2014-2020) with 
+
+Political Context and Salvini Decrees 
+
+Source:  Compiled  by  the  paper  based  on  the  data  from  the  European 
+
+Commission's  Eurobarometer  surveys,  Pew  Research  Center  and  the  United 
+
+Nations High Commissioner for Refugees (UNHCR) 
+
+By  analysing  the  correlation  between  the  public  threat  perception  and  refugee 
+
+inflows,  the paper may reveal several inferences. First of all, the rising number 
+
+of  refugee  incoming  directly  affects  population’s  concern  over  migration:  the 
+
+peak  years  (2014-2017)  totalling  624.747  migrant  inflow  has  multiplied  the 
+
+percentage of public concern several times, rising from 20% in 2014 to 85% in 
+
+2017,  signalling  population’s  awareness  and  anxiety  about  the  situation.  The 
+
+statistics  confirm  the  hypothesis  of  a  direct  link  between  the  high  inflow  of 
+
+refugees  period  and  the  rise  of  public  concern.  Second,  the  peak  of  public 
+
+concern  did  not  coincide  with  the  year  of  highest incoming levels, the reasons 
+
+for  which  might  be the rising political pre-election competition (and respective 
+
+use  of  anti-immigrant  rhetoric  as  a  tool  for  political  contest  by right-wing and 
+
+populist  parties),  cumulative  effect  of  the  previous  years  and  conflicts  over 
+
+refugee accommodation. Thirdly, though already visible in the previous graphs, 
+
+Table  7  demonstrates  the  direct  effect  of  the  Salvini  Security  Decrees  being 
+
+implemented  in 2018, 2019 respectively. The Decrees, despite being debatable, 
+
+appeared  to  be  an  efficient  way  of  handling  enormous  amounts  of  incoming 
+
+refugees. Nevertheless, the last observation is a relatively high level of concern 
+
+(~50%)  over  the  refugee  issue  despite  the  negligible  number  of  refugees  from 
+
+2018-2020,  which  may  signal  problematic  integration  of  the  refugees  into  the 
+
+society of Italy and the remaining usage of the migration as a threat/tool by the 
+
+right-wing government. 
+
+45 
+
+ 
+ 
+Figure  №8  Cumulative  Refugee  Arrivals,  Protection  and  Exits,  Italy 
+
+(2014-2020) 
+
+Source: Compiled by the paper based on the data from the United Nations 
+
+High Commissioner for Refugees (UNHCR) and Eurostat 
+
+The  following  graph  indicates  a  rising  gap  between  the  arrivals  into  Italy  and 
+
+received  international  protection,  also  depicting  the  increasing  number  of 
+
+refusals  and  deportations  yet  leaving  a  huge  difference  in  two  indicators, 
+
+meaning  an  overwhelming  majority  continued  its  journey  to  the  European 
+
+Union,  using  Italy  as  an  entry  point  or  escaped  it  because  of  the 
+
+refusal/deportation  (further  undocumented  refugees).  Nevertheless,  the number 
+
+of refugees under international protection has been rising until 2020, which may 
+
+come off as an insight for continued public dissent/concern depicted in the Table 
+
+7.  The  paper  may henceforth infer the remaining public concern continued due 
+
+to  relatively  high  numbers  of  refugees  under  international  protection  that 
+
+remained  in  Italy.  What  is  more,  in  the  years  of  2018  and  2019,  the  Salvini 
+
+Decrees made it possible on the graph to indicate that while cumulative arrivals 
+
+slowed  down,  the  number  of  individuals  receiving  international  protection 
+
+remained the same and even declined in 2020, with the refusals and deportations 
+
+46 
+
+ 
+ 
+continuing  its  rise.  All  in  all,  it  effectively  decreased  the  pipeline  of  legal 
+
+inclusion.  
+
+2.1.5  Securitization  and  institutionalization  of  Migration:  The  Salvini  Decrees 
+
+and triumph of the League in the EU Parliamentary elections  
+
+It  is  worth  introducing  the  core  of  the  Salvini  Decrees,  to  further 
+
+comprehend  the  prolonged  influence  of  the  refugee  crisis  not  only  on  the 
+
+internal  political  structure  of  Italy  but  also  on  its  policy.  The  fundamental 
+
+changes to the migration policy established by Matteo Salvini and approved by 
+
+the  majority-government  via  collaboration  of  the  Five  Star  Movement  and  the 
+
+Right-wing  coalition  in  both  houses  of  the  Parliament  included  several 
+
+significant  aspects.  The  most  principal  policy  change  was  the  abolition  of 
+
+humanitarian  protection  that  applied  to  people  not  fitting  the  ‘refugee’  set  of 
+
+conditions, yet faced hardship in return. Accounting for about 25 to 30% of total 
+
+approvals  before,  it  was  replaced  by  a  very  narrow  set  of  terms  (e.  g  health 
+
+emergency  or  natural  disasters).  The  second  change  regarded  the  SPRAR 
+
+(Protection  System  for  Asylum  Seekers  and  Refugees)  that  offered  general 
+
+support  like  housing,  learning-language  classes  and  legal  support.  After  the 
+
+reforms,  only  status-granted  refugees  could  access  this  system,  with  asylum 
+
+seekers  being  redistributed  to  the  centralized  reception  centers  with  poor 
+
+conditions.  Another  introduction  was  aimed  at  extending  the  deportation 
+
+grounds  (those  with  conviction  of  crimes,  or  considered  a  threat  to  public 
+
+security)  with  reducing  judicial  discretion  for  refugees  in  allowing  them  to 
+
+object.  The  reforms  also  extended  the  time  for  detention  in  reception  centers 
+
+from  90  to  180  days,  to  have  more  time  for  identification  and  deportation 
+
+logistics.  Lastly,  the  authorities  extended  the  period  of  waiting  for  citizenship 
+
+from  2  to  4  years,  with  an  ability  of  revocation  if  terrorism-related  crimes are 
+
+committed. Generally, all aforementioned introductions made it harder to legally 
+
+accommodate  in  Italy,  and  simplified  bureaucratic  processes  to  deport/refuse 
+
+47 
+
+ 
+refugees.  The  Salvini  Decrees  officially  institutionalised  securitization  on 
+
+migration.  What  is  more,  on  a  par  with  the  Decrees,  Salvini-led  government 
+
+organised  Port  closures  to  migrant  rescue  ships  (e.g  Open  Arms,  Aquarius), 
+
+facing  criticism  by  the  European  Commission  and  the  UN  and  spreading  the 
+
+tensions. Italy utilized the refusals of taking refugees by the Visegrad Group as 
+
+a  part  of  burden-sharing,  justifying  its  hard  stance  on  migration  and  unilateral 
+
+decisions  that violate the regulations of the EU and human rights. Thereinafter, 
+
+the  paper  may  logically  infer  the  transformation  of  Italian  approach  (from 
+
+humanitarian  and  solidary  to  anti-refugee  and  protectionist)  towards  the 
+
+migration  as  a  part  of internal political transformations (as a part of right-wing 
+
+shift)  chiefly  influenced  by  the  refugee  crisis,  further  leading  to  increased 
+
+controversies  with  the  European  Union  and  United  Nations,  as  a  broader 
+
+consequence of the refugee crisis.  
+
+The  two  elections  to  the  European  Parliament  in  Italy  to  be  analysed, 
+
+were  held  in  the  same  period  of  time:  in  2014  and  2019  respectively.  The 
+
+Northern  League  promised  several  key  changes  apropos  of  the  European 
+
+Parliament:  ending  illegal  migration  by  blocking  of  any  new  NGO  rescuing 
+
+missions,  revive  national  sovereignty  on  border  issues  and  economic  policy, 
+
+stop  relocation  quotas  and end EU interference into the migration policies, and 
+
+reform or ignore the EU budget rules.  
+
+48 
+
+ 
+Figure  №9  Change  in  Vote  Share  (European  Parliament  Elections  in 
+
+Italy, 2014-19) 
+
+Source:  Compiled  by  the  paper  based  on  the  data  from  Ministry  of  the 
+
+Interior (Ministero dell’Interno) 
+
+The  following graph indicates the triumph of the League in the elections to the 
+
+European  Parliament  ,  rising  enormously  from  6.1%  to  38.2%  and  hence 
+
+becoming  the  largest  in  the  Italian  delegation.  The  graph  likewise  shows  a 
+
+strong decline of the democratic party, along with moderate decline of the Five 
+
+Star Movement and steady erosion of the Forza Italia. The paper thus infers that 
+
+the population sentiment coincided with the promises given by the League, with 
+
+respective support provided to the party in the European Parliament.  
+
+2.1.6  Regional  Reorientation,  Migration  Geography  and  Continued  Coalitional 
+
+Split 
+
+The  regional  dynamics  are  crucial  in  understanding  the  dynamics  of 
+
+general  elections  based  on  the  refugee  entry  points  and  main  regions  of 
+
+accommodation.  The paper has briefly explained a huge multi-dimensional gap 
+
+49 
+
+ 
+ 
+between  the  North  and  South,  emphasising  it  due  to  further  benefit  for  the 
+
+research.   
+
+Figure  №10  2013  Italian  General  Election:  Voting  Majority  by  Region 
+
+and Zone 
+
+Source:   Compiled  by  the  paper  based  on  the  data  from  Ministry  of  the 
+
+Interior (Ministero dell’Interno) 
+
+In  2013  most  of  the  regions  preferred  the  centre-left  coalition  insofar  the 
+
+refugee  issue  was  not  that  vital  at  the  moment,  with  the  peak  economic  crisis 
+
+being already active from 2009-10 (Eurozone Crisis). 
+
+50 
+
+ 
+ 
+Figure  №11  2018  Italian  General  Election:  Voting  Majority  by  Region 
+
+and Zone 
+
+Source:  Compiled  by  the  paper  based  on  the  data  from  Ministry  of  the 
+
+Interior (Ministero dell’Interno) 
+
+Nevertheless the regional dynamics reveal via 2018 General Elections that all of 
+
+the  Northern  regions  of  Italy  favoured  the  Centre-right, with almost taking the 
+
+central  regions  of  the  state. In the South, the Five Star Movement Appeared to 
+
+be  most  popular  among political forces. Now the paper intends to correlate the 
+
+shifts with the most vulnerable to migration regions.  
+
+51 
+
+ 
+ 
+Figure №12 Migrant Presence by Region in 2018 (+ change from 2013) 
+
+Source: Compiled by the paper based on the data from Istituto Nazionale 
+
+di Statistica (ISTAT) 
+
+52 
+
+ 
+ 
+The  graphs  together  indicate  a  strong  tendency  of  regional  reorientation.  The 
+
+most  affected  regions  by  the  refugees  (e.g  Friuli-Venezia  Giulia,  Marche, 
+
+Umbria,  Emilia-Romagna,  Molise  and  Calabria)  reoriented  towards  the 
+
+right-wing  coalition.  Another  insight  is  that  most  of  the refugees settled in the 
+
+central  administrative  regions  of  Italy,  which  may  be  explained  by  being  a 
+
+humanitarian  centre  for  the  refugees  (i.e  the  main  directorate  of  the  migration 
+
+service,  IOs  like  UNHCR  and  IOM  and  the  largest  reception  and  distribution 
+
+centers).  Some  of  the  Southern  vulnerable  regions  like  Molise  and  Calabria 
+
+came  off  being  overwhelmed  by  the refugees due to standing as an entry point 
+
+and  further  inability  of  the  asylum-seekers  to  move  northwards  (Dublin 
+
+Regulation). It is thus clear that the most-affected regions regardless of the zone 
+
+shifted  its  preferences  towards  the  right-wing  coalition,  with  the  South largely 
+
+relying  on  the  Five  Star  Movement  (only  non-affected  regions)  and  complete 
+
+loss of the electorate by the centre-left alliance. 
+
+It  is vital to bind the migration crisis with the coalitional instability even 
+
+after  the  2018  General  Elections. The coalition government formed in 2018 by 
+
+the  Five  Star  Movement  and  the  Right-wing  alliance,  had  divergent  views  on 
+
+economy  and  governance  but  the  migration  issue  served  as  a  unifying  aspect. 
+
+Both political powers were in favor of stricter management of the issue, yet the 
+
+right  coalition  possessed  way  more  radical  dimensions  of  it  than  a  populist 
+
+M5S, which later on resulted in numerous clashes. One of the debate fields was 
+
+port  policy  (closing  the  ports  to NGO ships) and the questioning of its legality 
+
+by  Foreign  Minister  Moavero  Milanesi  and  further  distancing  of  the  M5S  on 
+
+that  issue.  Another  clash  happened  due  to  Security  (Salvini)  Decrees  that  has 
+
+fueled  instability  within  the  M5S  between  the  left-leaning  and  nationals 
+
+fractions.  The  final  issue  happened  in  2019  when  the M5S called for common 
+
+burden-sharing  in  relocation,  while  Lega  advocated  for  full  closure,  with  the 
+
+former  blaming  the  latter  for  unwillingness  to  cooperate.  The  Lega  initiated  a 
+
+confidence  vote  to  create  a  crisis  hoping  for  a  snap  election.  However,  the 
+
+53 
+
+ 
+president  of  the  Republic  allocated  time  for  alliance  formation,  and  the  M5S 
+
+reoriented  towards  the  former  rival  Democratic  party.  Together  the  M5S, 
+
+Democratic  party  and  new Italia Viva   accounted for a majority in both houses 
+
+without  a  need  for snap election. Matteo Salvini lost legislative power, and the 
+
+migration  policy  was eased towards a more humanitarian and solidary. Though 
+
+being out of scope of the analysis, it is of much importance to mention that the 
+
+newly established coalition experienced another split, with the Brothers of Italy 
+
+receiving  enormous  amounts  of  support  and  standing  as  a  head  of  the 
+
+Right-wing  coalition,  winning  the  majority  of  seats  in  both  houses.  A  logical 
+
+inference  is  that  the  EU  refugee crisis not only stimulated the internal political 
+
+transformations  meaning  the  evolution  of  electorate’s  preferences,  but  fueled 
+
+instability  within  coalitions,  many  times  leading  to  splits,  crises, redistribution 
+
+of seats in the parliament, and occasionally snap elections. The intra-coalitional 
+
+disagreements  over  policy  implementation  towards  the  management  of  the 
+
+refugee crisis was one of the most important fields of controversies, being vital 
+
+for the state’s stability and security.   
+
+2.1.7 Theory application to the case of Italy 
+
+Morgentau  (1948)  and  Carr  (1939)  as  two  founding  fathers  of  Classical 
+
+Realism,  argue  that  international  politics dynamics is rooted in the struggle for 
+
+power,  being  a  part  of  human  nature.  States’  actions  are  based on the national 
+
+interest  (power),  including domestic and foreign policy formation. States strive 
+
+for  power  not  only  to  survive,  but  also as a demonstration of fear (threat to its 
+
+security),  and  ambition  (power-maximization).  Over  time,  when  the  migration 
+
+issue has become vital on the individual level (not only state one), the respective 
+
+structural  changes  happened,  namely  the  electorate  reorientation towards more 
+
+radical,  nationalistic  political  powers  framing  the  crisis  as  a  threat  to  national 
+
+security  and  cultural  identity.  The  radical  policies  (e.g  Salvini  Decrees,  Port 
+
+closure policies) implied at the state level later on purely reflect state’s framing 
+
+54 
+
+ 
+the crisis as a threat and radical policies aimed at securitization. In the realm of 
+
+power  politics,  moral  concerns  become  secondary  to  the  state's  survival  and 
+
+security.  Realism  thus  explains  the  state's  actions  as  rational  and  necessary  to 
+
+ensure its security and identity in response to major threats to its survival.  
+
+Constructivist  scholars  like  Wendt  (1992)  and  Finnemore  &  Sikkink 
+
+(1998)  claimed  that  state  behavior  is  moulded  by  norms,  identities  and 
+
+intersubjectivity.  The  state’s  identification  of  threats  heavily  relies  on  its 
+
+perceptions,  meaning  the  image  is  being  shaped  and  influenced  in  a  dynamic 
+
+process.  Constructivist  school  of  thought  might  be  applied  in  the  case  of Italy 
+
+via framing. In the advent of the crisis (2015-16), the public discourse included 
+
+humanitarian  responsibility  and  European  solidarity,  with  the democratic party 
+
+and  Prime  Minister  Renzi often referring to Christian and humanitarian norms, 
+
+creating  an  image  of  Italy  as  a  responsible  gateway.  After  the  reorientation 
+
+towards  the  centre-right  coalition,  the  leader,  Matteo  Salvini,  changed  the 
+
+official  state  narrative  by  framing  the  refugee  crisis  as  a  threat  to  national 
+
+identity  and  security,  presenting  the  migrants  as  criminals  and  therefore 
+
+constructing a new perception. The narrative of Italy being left alone by the EU 
+
+has  dominated  the  state,  with  the  image  of  Italy  as  a  victim  of  the  EU. 
+
+Constructivism  therefore  provides  comprehensive  insight by demonstrating the 
+
+discursive  shift  from  humanitarian  approach  to securitization due to constantly 
+
+evolving state perceptions.  
+
+With regard to Securitization theory, scholars like Buzan, Wæver , and de 
+
+Wilde  (1998) together laid the groundwork by emphasizing non-inferent nature 
+
+of security threats. They stated that it should be a successful framing strategy of 
+
+existential  threat  for  the  problem  to  transform  into  a  national  security  threat 
+
+which requires extraordinary attention and measures to be implemented.   In the 
+
+case  of  Italy,  it  is  clear  that  during  the  domination  of  the  alliance between the 
+
+Five Star Movement and the Centre-right coalition, the migration has become a 
+
+central pillar in political discourse and underwent serious securitization. Former 
+
+55 
+
+ 
+Minister  of  the  Interior  Matteo  Salvini,  for  instance,  framed  the  migrants  as 
+
+invaders and NGO ships as complicit to illegal human trafficking. The Security 
+
+Decrees  that  have  been  implemented  bypassing  the  ordinary  (prolonged)  legal 
+
+procedures  demonstrated  the  state  of  emergency.  The  Decrees  have  become 
+
+popular  among  the  population  that  indicated  the  support  and  shift  of  the 
+
+migration  issue from humanitarian to national survival. Securitization theory in 
+
+general explains the policy shift despite the relatively similar number of refugee 
+
+arrivals  from  2014  to  2017,  providing  an  insight  on  how  the  framing  of 
+
+existential  threat  shapes  opinions,  later  on  making  it possible to take measures 
+
+previously surreal due to placing it into the security realm.  
+
+The Migration Systems Theory, headed by Mabogunje (1970), Massey et 
+
+al.  (1993),  and  de  Haas  (2010) describes the motives of migration, underlining 
+
+complex  transnational  interdependencies  -  geographic,  colonial,  economic  and 
+
+social. The theory also claims that the migration flows are embedded into wider 
+
+systems  and  path  dependencies.  Its  application  to  Italy  reveals  its  role  as  a 
+
+transit  country  due  to  geographical  proximity  as  a  major  factor,  and  historical 
+
+ties  and  informal  economy  as  secondary  ones.  Despite  restrictive  policies  the 
+
+migration  flows  continued  due 
+
+to  adaptation  of  smuggling  networks, 
+
+particularly  infrastructure.  What  is  more,  the  circular  logic  of  coercion  and 
+
+irregularity  (meaning  the  more  enforcement  the  more  irregularity)  within  the 
+
+framework  of  the  Migration  Systems  Theory  is  a  classical  outcome.  The 
+
+Migration  Systems Theory consequently helps in comprehending the migration 
+
+flows  and  evolving  smuggling  networks  regardless  of  the  Italian  approach 
+
+insofar its embeddedness into a broader frameworks.   
+
+2.1.8 Politics: Conclusion 
+
+Therefore,  the  paper  intends  to  conclude  the  influence  of  the  EU 
+
+migration  crisis  on  the  political  sphere  of  Italy.  The  political  sphere  has 
+
+undergone  numerous  changes  due  to  the  refugee  crisis.  The  first  one  is  the 
+
+56 
+
+ 
+realignment  of  the  electorate.  Democratic  government’s  policies  have  failed 
+
+sharply  due  to  the  pursuit  of  humanitarian  foundations  and  moral  duties. 
+
+Constantly  turbulent  coalitional  structure  many  times  resulted  in its instability, 
+
+on  a  par  with  the  electorate's  failed  expectations.  All  these  factors  pushed  the 
+
+population  to  prefer  an  alternative,  more  conservative,  nationalist  right-wing 
+
+coalition, which has been positioning the refugee crisis from its beginning as an 
+
+existential  problem  to  Italian  security  and  identity.  The  right-wing  coalition 
+
+managed to get a majority in the Parliament by aligning with the populist M5S. 
+
+The  formerly  ruling  Democratic  Party  lost  over  60%  of  its  seat  share  in  the 
+
+Senate,  and  over  30%  in  the  Chamber  of  Deputies  in  the  2018  General 
+
+Elections,  with  the  League  rising  excessively  from  a  small-medium  regional 
+
+party  to  a  leader of the right-wing coalition. The Five Star Movement received 
+
+support due to its anti-establishment and populist slogans, being popular among 
+
+the  disillusioned  voters.  The  second  inference  is  that  the  refugee  crisis 
+
+destabilized  the  government  coalitions  and  deepened  political  fragmentation. 
+
+Traditionally  consisting  of  two  coalitions,  the  Italian  political  sphere  included 
+
+divergent political forces joining the coalitions to have a say. The refugee crisis 
+
+bared ideological differences insofar the parties possessed divergent viewpoints 
+
+on  the  management  of  the  crisis,  that  has  regularly  been  resulting  in  the 
+
+government  collapses,  withdrawal  of  support  and  political  alienations.  The 
+
+demonstrative  examples  are:  the  collapse  of  the  Letta  government  (2014), 
+
+resignation of Renzi (2016) and fall of the M5S-Lega coalition (2019). The third 
+
+outcome of the EU refugee crisis is the increasing public concern over refugees 
+
+and  security  correlating  with  the  inflow  numbers  and  numerous  political 
+
+protests  during  the  peak  years:  the  public  reacted  to  the  issue  negatively, 
+
+expressing its anxiety and organising the protests to influence the situation (see 
+
+Tables  6  and  7).  Another  insight  is  that  with  the  change  of  the  Italy’s  internal 
+
+political  composition,  the  approach  and  official  state  framing  of  the  issue 
+
+evolved  as  a  broader  consequence:  with  the  rise  of  the  centre-right,  the  state 
+
+57 
+
+ 
+implemented hard stance on migration (e.g Security Decrees, Port closures) and 
+
+officially framed migration as a threat to national security. It is also important to 
+
+note  that  most  vulnerable  regions  in  number  of  arriving  refugees  (Calabria, 
+
+Friuli-Venezia  Giulia,  Marche,  Umbria,  etc.)  shifted  its  voter  preferences 
+
+towards  the  centre-right  coalition:  the  electorate  followed  the  radical promises 
+
+provided  by  the  centre-right  alliance,  alienating  from  the  leftists  and  largely 
+
+ignoring  the  M5S.  Another  consequence  of  the refugee crisis is the triumph of 
+
+the  League  in  the  2019  European  Parliament  elections: the electorate similarly 
+
+preferred  the  radical  approach  (e.g  blocking  NGO  boats,  reviving  national 
+
+sovereignty  and  stopping  relocation  quotas)  of  the  centre-right  alliance  over 
+
+moderate promises of the M5S and preservation of the humanism by the leftists. 
+
+Similarly,  the  refugee  crisis  has  affected  the  transformation  of  the  public 
+
+discourse  and  identity:  the  discourse  shifted  from  the  humanitarian  narrative 
+
+(Italy  as  a  gateway  to  the  EU)  towards  identity  protection,  fear  and  exclusion 
+
+(Italy left alone), with the elites presenting it as an existential threat to the state 
+
+security,  prioritizing  the  security  over  moral  obligations.  Lastly,  the  refugee 
+
+crisis stimulated the institutionalization of the migration securitization:  
+
+Constant  gridlocks  and  failed  Constitutional  reform  indicated  the  increased 
+
+legislative  attention  to  the  issue,  with  governmental  branches  of  power 
+
+constantly  involved  in  disagreements  over  policy  making,  and Salvini Decrees 
+
+officially  politicizing  the  migration  issue  by  embedding  it  in  legislative  and 
+
+executive action, beyond traditionally established humanitarian frameworks.   
+
+Economic sphere 
+
+2.2.1 Refugee expenditures: shifts in budget allocation  
+
+When it comes to examination of economic indicators when assessing the 
+
+influence  of  the  EU  refugee  crisis  on  the  state  of  Italy,  it  should  be  clear  that 
+
+58 
+
+ 
+ 
+there  exist  numerous  conditionalities  that  determine  the  impact.  Insofar Italian 
+
+economy  has  long  been  vulnerable,  undergoing  serious  stagnations  and 
+
+recessions, especially demonstrated by the Eurozone crisis, the paper intends to 
+
+be  accurate  when  making  conclusions  on  the  economic  dimensions  of  the 
+
+refugee  crisis,  paying  much  attention  to  the  complexity  of  economic  and 
+
+financial  processes  within  a  country.  The  paper suggests to begin by analysing 
+
+the  budget  allocation  shifts  from  2014  to  2020,  correlating  it  with  the  refugee 
+
+arrivals.  
+
+Figure  №13  Italy  Refugee  Expenditures  and  EU  Co-Financing  with  Refugee 
+
+Arrivals, 2014-20. 
+
+Source:  Compiled  by  the  paper  based  on  the  data  from  the  Italian 
+
+Ministry  of  Economy  and  Finance  (MEF),  Ministry  of  the  Interior  (Ministero 
+
+dell’Interno), and the European Commission Directorate-General for Migration 
+
+and Home Affairs 
+
+The  chart  demonstrates  Italy’s  national  budget  refugee  costs,  together  with 
+
+financial  assistance  by  the  European  Union:  the  Asylum,  Migration  and 
+
+Integration  Fund  (AMIF)  and  Internal Security Fund (ISF). The graph shows a 
+
+59 
+
+ 
+ 
+strong tendency of rising refugee costs, which grew more than two times in the 
+
+peak  years  (from  1.5  billion  to  more  than  4  billion  in  2017  peak),  deriving  a 
+
+clear  conclusion  that  during  2015-17,  when most of the refugees flooded Italy, 
+
+the  costs  of  rescue, distribution and accommodation rose dramatically. The EU 
+
+assistance, though being present and stable, appeared to be a minor bonus to the 
+
+actual  costs  for  Italy,  indicating  the  disbalance  between  the  national  and 
+
+supranational  efforts  in  combating  the  crisis.  What  is  more,  during  2018-20, 
+
+with  way  less numbers of incoming refugees, the costs did not fall sharply, but 
+
+slightly  decreased  and  remained  on  relatively  high  level  (4.2  billion  in  2018 
+
+compared  to  1.5  billion  in  2014)  due  to  persisting  costs  of  integration, 
+
+bureaucracy and providing of necessities. Nevertheless, closer to 2020 the costs 
+
+start to decline in a bigger proportion, reflecting hard policies of the Salvini (e.g 
+
+Salvini  Decrees,  Port  policies).  Altogether,  the  graph  provides  an  insight  by 
+
+outlining  the  correlation  between  the  rising  numbers of refugees and increased 
+
+costs (financial burden) in Italy depicted in shifts of national budget allocations, 
+
+with  little  EU assistance and comparatively persisting high expenditures due to 
+
+remaining bureaucratic, accommodation and integration costs.   
+
+2.2.2 Labor market and GDP 
+
+One of the fundamental economic indicators reflecting the situation in the 
+
+economy is the unemployment rate, which has long been high in Italy due to the 
+
+number  of  crises  and  stemming  economic  problems.  It  is  hence  essential  to 
+
+examine  the  correlation  between  the  number  of  incoming  refugees  and 
+
+unemployment  rate,  to  assess  the  influence  on  the  labor  market,  though 
+
+suggesting  limited  influence  due  to  complexity  of  the  indicator. It is crucial to 
+
+remember  that  during  the  rule  of  the  left  coalition,  the  Democratic  Party 
+
+encouraged  integration  of  the  refugees  by  a  wide  set  of instruments, including 
+
+promotion of the refugee employment by the local agencies and businesses. The 
+
+paper  also  acknowledges  that  such  an  indicator  as  unemployment  rate  is 
+
+60 
+
+ 
+complex  in  its  structure  and  depends  on  a  multi-dimensional  set  of  economic 
+
+conditionalities, therefore the derived conclusions may come off approximate.  
+
+Figure  №14  Unemployment  Rate,  Refugee  Arrivals  and  Protection  in 
+
+Italy (2014-2020) 
+
+Source:  Compiled  by  the  paper  based  on  the  data from the World Bank, 
+
+Eurostat and UNHCR 
+
+The  following  graph  demonstrates  a  gradual  decline  in  unemployment  rate, 
+
+being  more  than  12.5%  in  2014,  and  less  than  9.5%  in  2020.  Also,  while  the 
+
+tendency of refugee inflow decreased sharply from 2017 to 2020, the number of 
+
+people  receiving  international  protection  continued to rise. The most important 
+
+inference is that there is no correlation between the rising number of refugees in 
+
+Italy  and  rise  in  unemployment,  insofar the latter has been falling consistently.  
+
+The drop in unemployment is due to non-migration factors, which now intersect 
+
+with  the  analysis  and  hence  make  it  impossible  to  derive  direct  conclusions, 
+
+except  for  no  influence  of  the  EU  refugee  crisis  on  the  labor  market  of  Italy. 
+
+There  is  a  wide  set  of  the  reasons  for  drop  in  unemployment  during  2014-20, 
+
+which  the  paper  intends  to  shortly  outline  for  a  comprehensive  view  of  the 
+
+61 
+
+ 
+ 
+ 
+ 
+ 
+object  under  study.  The first one is the post-crisis economic recovery: after the 
+
+Eurozone  crisis,  the  economy  started  to  recover  from  a  massive  crisis  due  to 
+
+exports,  tourism  and  manufacturing,  with  the  GDP  growth  being  slow  but 
+
+positive  (from  0.8%  to  1.7%)  which  reflected  in  the  employment  dynamics 
+
+(European Commission, 2020). The second factor was a Labor Market Reforms 
+
+introduced  by  Renzi’s  government:  ‘Jobs  Act’  of  2015  introduced  easier 
+
+mechanisms  for  firing  and  hiring,  stimulated  incentives  for  open-ended 
+
+contracts  and  erased  duality  between  temporary  and  permanent  contracts 
+
+(Organisation  for  Economic  Cooperation and Development, 2019). Some other 
+
+factors  like  demographic  dynamics,  growth  of  informal  and  precarious  work 
+
+likewise contributed to the fall of unemployment rate (ISTAT, 2023). Therefore, 
+
+with  regard  to  the  graph  the paper may infer that the EU refugee crisis did not 
+
+display any influence on the unemployment rate.  
+
+Figure  №15  GDP  Growth  in  High  vs.  Low  Migration  Regions  in  Italy 
+
+(2014-2020) 
+
+Source:  Compiled  by  the  paper  based  on  the  data  from  ISTAT, 
+
+Organisation  for  Economic  Cooperation  and  Development  and  European 
+
+Commission 
+
+62 
+
+ 
+ 
+Regions  with  high  migration  are  Marche,  Calabria,  Emilia-Romagna,  Molise 
+
+and  Umbria,  while  low-migration  ones  are  Lazio,  Abruzzo,  Toscana  and 
+
+Lombardy respectively. The paper likewise put the periods that might affect the 
+
+GDP to complement the full picture, and especially elaborate on the GDP fall in 
+
+2020  due  to  Covid-19.  The  cumulative  of  the  high  migration  regions  and  low 
+
+migration  regions  almost  coincide  with  each  other,  which  is  explained  by 
+
+different zones: high migration regions represent all parts of Italy, with Calabria 
+
+and  Molise  being  in  the  South,  Umbria  and  Marcha  in  the  center  and 
+
+Emilia-Romagna in the North. In the low migration regions all are located in the 
+
+Center except for Lombardy that is in the North. Therefore, a huge gap between 
+
+underdeveloped  South  and  leading  North,  with  Centre  slightly  yielding  to  the 
+
+North,  removes  divergence  in  indicators,  insofar  the  groups represent different 
+
+zones  of  Italy.  Both  groups  performed  moderate  increases  in  GDP  throughout 
+
+the period except for the 2020 Covid-19 shock, showing no distinctions due to: 
+
+refugees  being  located  in  different  zones  of  Italy,  the  zones  being  different  in 
+
+terms  of  economic  development  (poor  South, rich North and moderate Centre) 
+
+which  in  total  provides  no  insight.  The  paper  hence  may  conclude  that  an 
+
+analysis  of  the  GDP dynamics in high-refugee and low-refugee regions reveals 
+
+no  insights  of  any  influence  of  the  EU  refugee  crisis  on  actual  GDP 
+
+performance of the regions.  
+
+2.2.3 Inflation and Housing Prices 
+
+Fundamental  indicators  like  inflation  and  housing  prices  index  are 
+
+non-excludable  while  analysing  economic  dynamics.  The  paper  suggests 
+
+expertise in the housing prices index in the low and high migration areas.  
+
+63 
+
+ 
+Figure №16 Housing Price Growth by Region in Italy (2014-2020) 
+
+Source: Compiled by the paper based on the data from ISTAT 
+
+The  graph  includes  major  high  and  low refugee areas in Italy, with cumulative 
+
+rise  of  the  housing  prices  from  2014  to  2020.  The  paper  derives  a  conclusion 
+
+that there is no correlation between the overwhelming numbers of refugees and 
+
+increases in housing prices, since in the top five, only one high-migration region 
+
+is  listed.  The  absence  of  linkage  may  be  due  to  refugee’s  inability  to  rent  an 
+
+apartment, since an absolute majority of the people in need of protection had no 
+
+financial resources to afford a good standard of living.  
+
+Lastly,  the  paper  plans  to  compare  levels  of  inflation  in  high  and  low 
+
+migration regions.  
+
+64 
+
+ 
+ 
+ 
+ 
+Figure  №17  Average  Annual  Inflation  Rate  By  Region  In  Italy 
+
+(2014–2020) 
+
+Source: Compiled by the paper based on the data from ISTAT 
+
+The  chart  shows  most  and  least  affected  by  migration  regions, with respective 
+
+average  inflation  rates  in  each  for  the  years  2014-2020.  The  least  affected 
+
+regions  occupy  3  out  of  5  places  in  the  least  with  the  highest  inflation.  The 
+
+paper  henceforth  may  derive  an  inference  that  there  is  no  link  between  the 
+
+refugee  inflow  and  rising  inflation  in  the  regions,  which  complements  the 
+
+overall picture of the absence of negative effect of the EU refugee crisis on the 
+
+Italian economy.  
+
+2.2.4 Economy: Conclusion 
+
+With regard to all analysed material, the paper is ready to deliver several 
+
+key inferences on the influence of the EU refugee crisis on the economic sphere 
+
+of  Italy.  First  of  all,  the  refugee  crisis  has  affected  Italy’s  annual  budget 
+
+allocation,  pushing  the  state  to assign greater proportion of the national budget 
+
+towards the refugee issue: totalling 1.5 billion euros  in 2014, it has dramatically 
+
+increased  throughout  the  time, seeing its peak in 2017 (slightly above 4 billion 
+
+euros)  coinciding  with  the  peak  of  the  refugee  crisis  years  (2015-17).  Italy, 
+
+65 
+
+ 
+ 
+ 
+ 
+receiving little support from the EU budget on migration, deepened its financial 
+
+burden  by  allocating resources on migration over investing them. By exploring 
+
+labor  market  dynamics,  namely  correlating  the  unemployment  rate  with  the 
+
+numbers  of  arriving  refugees  and  people  who  officially  received  status  of 
+
+international  protection,  the  paper  may  reveal  that  the  indicators  lack 
+
+interrelation  and  the  EU  refugee  crisis  did  not  affect  the  unemployment  rate. 
+
+Another observation was conducted via comparison of the regional GDPs of the 
+
+most  and  least  affected  regions  by  the  migration,  to  see  if  overloaded  regions 
+
+performed better or worse. The cumulative results showed that migration flows 
+
+did  not  affect  the  indicator,  and  hence  no  correlation  was  proved.  Then,  the 
+
+paper  focused  on  analysing  the  housing  prices  index  in  the  most  and  least 
+
+affected  regions,  where  it  concluded  that  the  number  of  refugees  in the region 
+
+does  not  affect  the  housing  prices  dynamics,  at  least  directly.  Lastly,  the 
+
+inflation  index  was  selected  on  a  regional  dimension  to  see  if  most  affected 
+
+regions  differed  from  the  least  affected  ones  in  terms  of  inflation.  The 
+
+conclusion  is  that  no  correlation  is  found  between  the  variables,  meaning  the 
+
+inflation does not depend on the numbers of refugees in the region. Overall, the 
+
+economic sphere of Italy did not undergo any serious shifts in its nature, insofar 
+
+the economic side is less prone to visible direct changes than political one when 
+
+it  comes  to  the  refugee  issue,  which  was  institutionalized  and  politicized  over 
+
+time.  Economic  complexity  largely  consists  of  pure  economic phenomena that 
+
+may  have  a  dramatic  influence  over  state’s  economic  indicators,  and  with 
+
+migration as a politicized phenomenon, the influence is small or even invisible. 
+
+However, it is worth mentioning that one economic change was a serious rise in 
+
+federal  budget  costs  to  the  refugee  issue,  which  is  a  direct  effect  of  the  EU 
+
+refugee  crisis,  stemming  Italy’s  unilateral  attempts  to  manage  the  inflow  by 
+
+itself.  
+
+66 
+
+ 
+ 
+ 
+Social sphere 
+
+2.3.1 Crime rate and incarceration 
+
+When assessing the effect of the EU refugee crisis on the social sphere of 
+
+Italy,  one  of  the  most  fundamental  indexes  to  include  is  the  crime  rate.  The 
+
+paper  suggests  timeline  analysis  of  crime  rate  dynamics  being  applied  to  the 
+
+numbers  of  the  refugee  crisis  for  the  period  of  2014-20.  The  paper  also  states 
+
+that there is no credible information on regional dynamics of the crime rates for 
+
+selected  periods, which makes it impossible to examine regional dimensions of 
+
+such 
+
+an 
+
+index. 
+
+Figure №18. Italy: Crime Rate vs. Net Migration (2014-2020) 
+
+Source:  Compiled  by  the  paper  based  on  the  data  from  UNHCR  and 
+
+Macrotrends 
+The following graph demonstrates timeline comparison of net migration inflows 
+
+and  general  crime  rate  dynamics  in  Italy.  It  also  applies  the  periods of Salvini 
+
+Decrees  introduction  and  start  of  the  refugee  crisis,  to  complement the overall 
+
+picture. The paper may infer based on the chart that the crime rate, regardless of 
+
+the numbers of incoming refugees, has been steadily decreasing and henceforth 
+
+showed  no  interrelation  with  the  EU  refugee  crisis.  The  advent  of  the  crisis 
+
+67 
+
+ 
+ 
+ 
+ 
+(2014-17)  with  the  highest  numbers  of  refugees  did  not  increase  the  levels  of 
+
+crime,  moreover  it  even  decreased  significantly  from  0.78  in  2014  to  0.63  in 
+
+2017. Another observation is that applied periods of time (e.g start of the crisis 
+
+and  Salvini  Decrees)  cannot  be  recognized  as  those  affecting  the  crime  index, 
+
+insofar  its  tendency  over  the  whole  period  demonstrated  gradual  decline. 
+
+Therefore  it  is  apparent  that  the  EU  refugee  crisis  did  not  affect  the  level  of 
+
+crime  rate  in  Italy,  though  being  a  part  of  right-wing  parties’  treatment  and 
+
+framing  of  the  refugee  crisis:  the  politicians  oftentimes  referred  to  individual 
+
+cases of refugee violence, presenting them as those who disrupt Italy’s security. 
+
+Nevertheless,  there  exist  documented  cases  of  refugee  violence,  but  that  does 
+
+not  reverse  the  trend  of  the  crime  rate,  making  it  invisible,  and  hence  not 
+
+affecting.  
+
+Another  index  to  go  through  examination  is  incarceration,  or  prison 
+
+population  by  nationality.  The  comparison  between  the  refugee  inflows  and 
+
+dynamics  of  the  imprisoned  population  are  vital  in  understanding  the  social 
+
+effect of the refugees, when it comes to social security issues. The paper intends 
+
+to widen the timeline starting from 2010 and till the 2020, insofar it is important 
+
+to  comprehend  the  lasting  effect  (starting  from  earlier  years)  of  the  refugee 
+
+accommodation, and the absence of immediate imprisonment shifts. 
+
+68 
+
+ 
+ 
+ 
+Figure  №19  Foreign  Nationals  in  Italian  Prisons  vs.  Refugee  Arrivals 
+
+(2010-2020) 
+
+Source: Compiled by the paper based on the data from ISTAT 
+
+The following table demonstrates shifts in the percentage of foreign nationals in 
+
+Italian  prisons,  compared  to  the  refugee  arrivals  over the years 2010-2020. By 
+
+analyzing both trends, the paper may conclude that starting from 2014, when the 
+
+number  of  incoming   refugees  increased  dramatically,  the  foreign  prisoners 
+
+index  started  to  rise  as  well,  with  the  local  peaks  matching  in  2017,  and 
+
+afterwards both declining proportionally. However, there is an insight of an even 
+
+greater  proportion  of  foreign  prisoners  before  the  refugee  crisis,  which refutes 
+
+the  logic  of  correlation  between  two  indexes.  It  is  also  worth  mentioning  that 
+
+the  proportions  of  indexes  differ  significantly,  e.g  more  than 200% increase in 
+
+refugee  arrivals  from  2013  to  2014  and  foreign  prisoner’s  index  remaining 
+
+stable  in  the  prolonged  period  of  2014-17,  later  on  even  declining  given  the 
+
+remaining  refugees.  Henceforth,  the  paper  may  infer  that  though  having  some 
+
+local  coincidences,  the  two  trends  do  not  have  direct  interrelation.  The  EU 
+
+refugee  crisis  thus  cannot  be  attributed  to  shifts  in  proportions  of  foreign 
+
+prisoners.   
+
+2.3.2 Security Threats and Terrorism  
+
+The  Security  threats  index  shows  the  level  of  threats  within  the  state, 
+
+including 
+
+bombings, 
+
+attacks, 
+
+rebel  movements,  mutinies, 
+
+coups, 
+
+organised/political violence and terrorism. It is important to distinguish between 
+
+the  indexes,  insofar  security  index  provides  a  general  picture  of a wider set of 
+
+state  threats,  and  terrorism  as  one  of  the  elements  but  not  the  only  one.  The 
+
+terrorism index will guide precise numbers and hence provide valuable insights 
+
+on dynamics. By analyzing both trends, the results will complement each other, 
+
+forming a comprehensive view.  
+
+69 
+
+ 
+   
+ 
+Figure  №20  Security  Threats  Index  and  People  Under  International 
+
+Protection, Italy(2014-2020) 
+
+Source:  Compiled  by  the  paper  based  on  the  data  from  The  Global 
+
+Economy  
+
+The graph indicates the Security Threats Index in Italy for a period from 2014 to 
+
+2020,  on  a  par  with  refugees  holding  international  protection  in  Italy  for  the 
+
+same  period  of  time.  One  inference  is  that  with  the  advent  of  the  crisis   and 
+
+during  its  peak  the  Security  Threats  indicator reversed its direction and started 
+
+to  rise  gradually.  With  more  people  receiving  international  protection,  the 
+
+Security  Threats  has  been  increasing  proportionally,  rising  by  more  than  25% 
+
+during  2015-19,  signalling  correlation  between  the  two  variables.  The  number 
+
+of  people  under  international  protection  decreased  sharply  by  2020,  due  to 
+
+COVID-19  restrictions,  harsh  migration  policy  and  decreasing  NGO  rescue 
+
+activity  (Salvini  Decrees),  yet  the  Security  Threat  indicator  continued  to  rise 
+
+probably  due  to  the  prolonged  effect  of  refugee  accommodation  in  Italy. 
+
+Therefore the paper may come to the conclusion that gradual increase in people 
+
+holding  international  protection  in  Italy  correlates  with  steady  increase  in 
+
+70 
+
+ 
+ 
+ 
+Security Threats index, making it logical to infer the former variable influencing 
+
+the latter.  
+
+Lastly,  the  Terrorism  index  should  be  studied  and  applied  to  the  exact 
+
+indicator  of  people  under  international  protection,  to  see  the  dynamics  and 
+
+ensure the credibility of derived conclusions.  
+
+Figure №21 Terrorism Index and People Under International Protection, 
+
+Italy(2014-2020) 
+
+Source:  Compiled  by  the  paper  based  on  the  data  from  Trading 
+
+Economics 
+
+The  following  graph  includes  Terrorism  index  in Italy for 2014-20, along with 
+
+the  dynamics  of  the  people  under  international  protection.  Terrorism  index 
+
+shows  gradual  increase  over  the  whole  period of time, slightly falling in 2020, 
+
+probably due to restrictions of movement of people or decreased number of the 
+
+refugees under international protection. The graph confirms correlation between 
+
+the  two  variables  that  both  have  been  increasing  from  2014  to  2019,  and  the 
+
+actual  rise  of  Terrorism  index  starting  from  2015  with  the  advent  of  the  EU 
+
+refugee  crisis.  Thus  the  paper  may  conclude  that  the  rising numbers of people 
+
+71 
+
+ 
+ 
+ 
+holding international protection correlates with the increase in Terorrism index, 
+
+which  confirms  the  inference  on correlation between the Security Threat index 
+
+and numbers of people under protection in Italy.  
+
+2.3.3 Social sphere: Conclusion 
+
+The  paper  is  ready  to  deliver  several  key  inferences  on  the  influence  of 
+
+the  EU  refugee  crisis  on  the  social  dynamics  of  Italy.  First  of all, the research 
+
+concluded  that  the  refugee  crisis  did  not  possess  any  direct  influence  on  the 
+
+crime  rate  within  Italy,  with  the  graph  demonstrating  fluctuating  unbound 
+
+tendencies.  With  regard  to  analysis  of  incarceration  of  foreign  nationals 
+
+compared  to  the  number  of  arriving  refugees,  the paper concluded that despite 
+
+having  local  coincidences  on  the  graph,  there  is  no  clear link between the two 
+
+indicators, especially noting the difference in proportions, e.g the tremendously 
+
+rising  number  of  refugee  arrivals  and fall of the foreign prisoners’ share in the 
+
+same period of time. However, the paper found correlation between the Security 
+
+Threats  Index  and  the  people  under  international  protection  in  Italy,  later  on 
+
+linking it to the Terrorism index to create a comprehensive view of the situation 
+
+and  ensure  the  credibility  of  the  inferences.  The  rise  in  the numbers of people 
+
+under international protection proportionally increased both Security Threat and 
+
+Terorrism indexes. Thus the paper comes to the conclusion that the EU refugee 
+
+crisis  had  a  moderate  effect  on  the  social  development  of  Italy,  influencing 
+
+several indicators but not all of them.  
+
+Conclusion 
+
+The  paper is now equipped to list key findings of the research that it has 
+
+derived  via  complex  analysis  of  the  political  and  socio-economic  spheres  of 
+
+Italy,  with  an  application  of  the  EU  refugee  crisis.  To  begin  with,  Italy’s 
+
+handling  of  the  crisis  heavily  depended  on  several  pre-conditionalities  that 
+
+formed  the  position,  in  which  Italy  came  across  the  EU  refugee  crisis,  and 
+
+72 
+
+ 
+ 
+defined its structural limitations: ineffective governance due to political balance 
+
+of power within a state (constantly hung parliament, Letta government collapse, 
+
+Renzi  resignation after failed Constitutional Reform), obligations under the EU 
+
+law  (Dublin  Regulation  required  accommodation  and  maintenance  in  the  first 
+
+state  of  entry),  limited/inconvenient  EU  assistance  (minor  financial  support  to 
+
+Italy  as  an  ‘entry  to  the  EU’,  failed  relocation  scheme),  lack  of  national 
+
+economic  and  humanitarian  resources  to  handle  the crisis (overall Italy’s weak 
+
+economy,  even  more  vulnerable  after  the  Eurozone  crisis),  geographical 
+
+proximity  (making  the  Central  Mediterranean  one  of  the  most  popular  routes 
+
+even  before  the  EU  refugee  crisis  with  North  African  Emergency,  and  after 
+
+Libyan  civil  wars  most  usable  because  of  developed  smuggling  networks). 
+
+Aforementioned  conditionalities  defined  the  range  of  Italian  abilities  to  take 
+
+action  in  the  advent  of  the  refugee  crisis.  The  political  sphere  has  undergone 
+
+substantial  shifts  due  to  the  EU  refugee  crisis.  First,  it  is  worth  mentioning 
+
+reorientation  of  the  electorate  due  to  unmet  expectations  of  the  centre-left 
+
+coalition  governance,  its  humanitarian  policies  and  coalitional  instability. 
+
+Inconvenience  of  the  traditional  ruling  party  has  led  to  realignment  of  the 
+
+population.  The  right-wing  alliance,  with  way  more  radical  views  (politics  of 
+
+exclusion,  criminalization  of  migrants),  framed  the  migration  issue  as  an 
+
+existential  threat  to  the  security  and  identity  of  Italy.  Consequently,  the 
+
+right-wing coalition received greater support in the 2018 General Elections and 
+
+became  the  largest  coalition  in  Italy.  By  aligning  with  the  anti-establishment 
+
+Five  Star  Movement,  the  political  forces  together  formed  a  majority  in  both 
+
+houses  of  the  parliament,  thus  indicating  a  complete  change  in  the  internal 
+
+political  conjuncture  of  Italy.  The  League  (former  Northern  League)  has 
+
+experienced  an  excessive  rise  in  popularity,  becoming  the  new  leader  of  the 
+
+right-wing coalition, with its leader, Matteo Salvini becoming a Prime Minister, 
+
+signalling the change of the Italian approach towards more radical, nationalistic 
+
+and conservative. The Democratic Party lost over 60% of its seats’ share in the 
+
+73 
+
+ 
+Senate, and more than 30% in the Chamber of Deputies, revealing the fall of its 
+
+traditional  rule  and  centre-left  coalition.  The  Five  Star  Movement  became  a 
+
+third  significant  force  in  Italian  politics,  attracting  the  support  from  the 
+
+disillusioned  voters,  popularizing  the  anti-establishment,  populist  slogans.  The 
+
+change  in  Italian internal political structure has logically led to radical shifts in 
+
+its  policy  as  a  part  of  the  right-wing  alliance’s  agenda.  Italy  tightened  asylum 
+
+application  rules,  complicated  bureaucratic  procedures  for  citizenship,  eased 
+
+legal  procedures of deportations, closed its ports to NGO rescue ships, reduced 
+
+judicial discretion abilities, abolished access to SPRAR system for undistributed 
+
+refugees,  extended  the  time  for  location  in  reception  centers  with  poor 
+
+conditions.  Therefore  another  prolonged  outcome  of  the  refugee  crisis  was 
+
+transformation  of  the  Italian  approach  from  humanitarian  to  anti-refugee  and 
+
+protectionist.  Another  key  finding  is  increased  public  concern  expressed  by 
+
+correlation with the numbers of incoming refugees: during 2015-17 peak years, 
+
+the percentage of Italian respondents perceiving migration as a major issue rose 
+
+significantly  to 85% in 2017. The EU refugee crisis similarly caused numerous 
+
+anti-refugee  protests  during  the  peak  years  (and  democratic  governance), 
+
+validating  the  inferences  on  public  concern  over  the  issue  as  a  consequence. 
+
+What  is  more,  the  research  found  that  most  affected  by  the  migration  regions 
+
+(Calabria,  Friuli-Venezia  Giulia,  Marche,  Umbria, etc.) all followed right-wing 
+
+coalition’s radical principles in the 2018 General Elections, which indicates the 
+
+causation  between  the  two  variables:  the  more refugees entered the region, the 
+
+higher the chance of reorientation towards right-wing policies. Another outcome 
+
+of the EU refugee crisis is a victory of the Lega in the 2019 elections to the EU 
+
+Parliament:  by  promising  stopping  relocation  quotas  and  reviving  national 
+
+sovereignty over migration and economy, the coalition received strong support, 
+
+and hence started to represent Italian national interests on the EU supranational 
+
+level. Likewise, the crisis has affected the transformation of the public discourse 
+
+and  identity:  the discourse shifted from the humanitarian (Italy as a gateway to 
+
+74 
+
+ 
+the  EU)  to protectionist, fear-driven and exclusionist (Italy left alone), with the 
+
+ruling  elites  framing  the  issue  as  an  existential  threat  to  security.  Last  but  not 
+
+least, 
+
+the  EU 
+
+refugee  crisis 
+
+resulted 
+
+in 
+
+the  official  politicization, 
+
+institutionalization and securitization of migration as an issue: going far beyond 
+
+traditional  humanitarian  networks,  the  issue  attracted  much  of  the  legislative 
+
+attention  (gridlocks,  failed  Constitutional  reform)  and  stimulated  political 
+
+fragmentation over the issue, with the Salvini Decrees deploying legislative and 
+
+executive  action,  officially  politicizing  the  migration.  With  regard  to  the 
+
+economic  side,  the  paper  may  conclude  that  the  EU  refugee  crisis  influenced 
+
+Italy’s  budget  by  pushing  the  state  to allocate more resources on the migration 
+
+issue: In the peak years Italy has been spending more than 4 billion euros on the 
+
+migration  issue,  compared  to  1.5  billion  euros  in  2014,  deteriorating  financial 
+
+burden  within  Italy’s  vulnerable  economy.  The refugee crisis did not affect the 
+
+unemployment  rate,  as  analysis  proved  lack  of correlation between the studied 
+
+variables.  The  regional  GDP  dynamics  selected  by  most  and  least  affected  by 
+
+the  migration  regions  likewise  demonstrated  no  direct  influence  of  the  crisis. 
+
+Lastly,  while  analysing  the  housing  prices  by regions (most and least affected) 
+
+and  overall  inflation  index  in  Italy,  the  paper  established  no  link  between  the 
+
+numbers of incoming refugees and indexes. Therefore, stressing the complexity 
+
+of economic processes, the paper concluded no direct visualisation of the crisis' 
+
+influence on Italy’s economic development, except for a clear dramatic increase 
+
+in  migration  expenses’  share  in Italy’s national budget as a consequence of the 
+
+refugee crisis and Italy’s unilateral attempts to handle the issue. Apropos of the 
+
+social sphere, the paper has come to several conclusions. There is no correlation 
+
+between  the  rising  numbers  of  refugees  and  crime  rate  in  Italy,  with  the 
+
+variables  having  completely  individual  dynamics.  In  the  analysis  of  the 
+
+incarceration,  the  research  inferred  lack  of  proof  in  actual  interconnection: 
+
+despite  having  some  local  coincidences,  the  general  picture  appeared  to  be 
+
+differing,  especially  in  proportional  comparison,  e.g  the  refugee  numbers 
+
+75 
+
+ 
+increased  significantly  in  2016-17,  but  the  share  of  foreign  nationals  even 
+
+declined. Nevertheless, the Security threat and Terrorism performed analogously 
+
+when  being  applied  to  the  index  of  people  under  international  protection.  The 
+
+Security  Threat  index,  being  a  comprehensive  indicator,  coincided  with  the 
+
+dynamics  of  people  under  the  international  protection  index,  demonstrating  a 
+
+correlation  between  the  two  variables.  The  Terrorism  index,  as  a  more precise 
+
+indicator,  confirmed  the  paper's  assertions  by  similarly  correlating  with  the 
+
+index  of  people  under  international  protection  in  Italy.  Thus  the  research  may 
+
+conclude  that  the  EU  refugee  crisis  has  made  a  moderate  effect  on  the  social 
+
+sphere  of  Italy.  It  did  not  affect  crime  rate  and  incarceration,  but  visibly 
+
+correlated with the security threat and terrorism indexes’ rise.   
+
+The  hypothesis  of  the  research  has  partially  been  proven.  The  political 
+
+shifts  listed  in  the  general  conclusion  vindicate  the  paper's  hypothesis: the EU 
+
+refugee  crisis  indeed  triggered  internal  political  shift  towards  right-wing 
+
+coalition,  increased  public  anxiety  over  the issue and provoked organisation of 
+
+anti-refugee  political  protests  in  the  peak  years.  The  economic  side  of  the 
+
+research  was  partly  proven,  insofar  the  analysis  of  the  unemployment  and 
+
+regional  GDPs  indicated  no  influence  of  the  refugee  crisis  on  the  dynamics, 
+
+though  increased  public  and  security  spending  reaffirmed  the  causation.  The 
+
+social  dimension  of  the  hypothesis  was  similarly  partly  proven,  since  the 
+
+tendency of correlation between the refugee dynamics and crime rate, as well as 
+
+incarceration  rate,  was  not  confirmed.  However,  the  Security  Threat  and 
+
+Terrorism  indexes  performed  similarly  to  the  people  under  the  international 
+
+protection  index  (legal  refugees),  therefore  confirming  the  partial  influence  of 
+
+the crisis on the social sphere.  
+
+76 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+References  
+
+Ambrosetti, E., & Paparusso, A. (2019). Migrants or Refugees? The Evolving Governance 
+
+of Migration Flows in Italy during the “Refugee Crisis”. Retrieved from 
+
+https://shs.cairn.info/revue-europeenne-des-migrations-internationales-2018-1-page-15
+
+1?lang=fr&tab=resume  
+
+Ambrosini, M. (2017). Why irregular migrants are more vulnerable to exploitation: The 
+
+role of institutional frameworks. International Migration, 55(6), 68–79. 
+
+https://library.oapen.org/bitstream/id/b55eb04b-5daf-4547-9db0-cffbfaa35e1b/978-3-03
+
+1-30838-3.pdf  
+
+Amnesty International. (n.d.). Italy: Human rights in the Republic of Italy. Retrieved from 
+
+https://www.amnesty.org/en/location/europe-and-central-asia/western-central-and-south
+
+-eastern-europe/italy/report-italy/ 
+
+Buzan, B., Wæver, O., & de Wilde, J. (1998). Security: A new framework for analysis. 
+
+Boulder, CO: Lynne Rienner Publishers. Retrieved from 
+
+https://www.academia.edu/39047709/Buzan_Waever_and_De_Wilde_1998_Security_
+
+A_New_Framework_For_Analysis 
+
+Campo, F., Giunti, S., & Mendola, M. (2024). Refugee crisis and right-wing populism: 
+
+Evidence from the Italian Dispersal Policy. Retrieved from 
+
+https://www.sciencedirect.com/science/article/pii/S0014292124001557  
+
+Carr, E. H. (1939). The twenty years' crisis, 1919–1939: An introduction to the study of 
+
+international relations. London: Macmillan. Retrieved from 
+
+https://hostnezt.com/cssfiles/internationalrelations/Twenty%20Years%20Crisis%20191
+
+9%201939%20an%20Introduction%20to%20the%20Study%20of%20International%20
+
+Relations%20By%20E%20H%20Carr.pdf 
+
+77 
+
+ 
+ 
+Children of Prisoners Europe. (n.d.). Foreign prisoners. Retrieved April 24, 2025, from 
+
+https://childrenofprisoners.eu/facts_and_figures/foreign-detainees/ 
+
+Colombo, M. (2017). The Representation of the “European Refugee Crisis” in Italy: 
+
+Domopolitics, Securitization, and Humanitarian Communication in Political and 
+
+Media Discourses. Retrieved from 
+
+https://www.tandfonline.com/doi/abs/10.1080/15562948.2017.1317896  
+
+Council of the European Union. (2015). Justice and Home Affairs Council conclusions. 
+
+Retrieved from https://www.consilium.europa.eu/media/21906/st12002-re01en15.pdf 
+
+Council of the European Union. (2015). Migratory crisis: Activating the IPCR mechanism. 
+
+Retrieved from 
+
+https://www.consilium.europa.eu/en/press/press-releases/2015/10/30/migratory-crisis-a
+
+ctivating-ipcr/ 
+
+Council of the European Union. (2016). Council Decision (EU) 2016/118: Establishing 
+
+measures in the field of migration. Official Journal of the European Union. Retrieved 
+
+from 
+
+https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32016D0118&qid=
+
+1454343903616&from=EN 
+
+Council of the European Union. (2016). EUNAVFOR MED operation SOPHIA. Retrieved 
+
+from 
+
+https://www.consilium.europa.eu/en/press/press-releases/2016/05/23/fac-eunavfor-soph
+
+ia/ 
+
+Council of the European Union. (2016). Refugee Facility for Turkey: EU pledges 3 billion 
+
+euros. Retrieved from 
+
+https://www.consilium.europa.eu/en/press/press-releases/2016/02/03/refugee-facility-fo
+
+r-turkey/ 
+
+78 
+
+ 
+Council of the European Union. (2017). Schengen area: Prolongation of internal border 
+
+controls. Retrieved from 
+
+https://www.consilium.europa.eu/en/press/press-releases/2017/05/11/schengen-area-six
+
+-month-prolongation-internal-border-controls/ 
+
+Council of the European Union. (2018). Facility for refugees in Turkey: Member states 
+
+agree details of additional funding. Retrieved from 
+
+https://www.consilium.europa.eu/en/press/press-releases/2018/06/29/facility-for-refuge
+
+es-in-turkey-member-states-agree-details-of-additional-funding/ 
+
+Council of the European Union. (2018). Integrated Political Crisis Response (IPCR) 
+
+mechanism. Retrieved from 
+
+https://www.consilium.europa.eu/media/45843/ipcr-mechanism.pdf 
+
+de Haas, H. (2010). The internal dynamics of migration processes: A theoretical inquiry. 
+
+Journal of Ethnic and Migration Studies, 36(10), 1587–1617. 
+
+https://doi.org/10.1080/1369183X.2010.489361 
+
+Dimitrov, A., & Angelov, G.  (2017) Refugee Integration in the EU: Challenges and 
+
+Economic Impact. Retrieved from 
+
+https://www.researchgate.net/profile/Atanas-Dimitrov/publication/322870082_Refugee
+
+_Integration_in_the_EU_Challenges_and_Economic_Impact/links/5a7384efa6fdcc53fe
+
+1473ba/Refugee-Integration-in-the-EU-Challenges-and-Economic-Impact.pdf  
+
+Dines, N., & Rigo, E. (2015). Postcolonial Italy: Immigration and the crisis of national 
+
+identity. Modern Italy, 20(1), 77–92. 
+
+https://www.academia.edu/15071119/Postcolonial_Citizenships_and_the_Refugeeizatio
+
+n_of_the_Workforce_Migrant_Agricultural_Labor_in_the_Italian_Mezzogiorno  
+
+79 
+
+ 
+European Commission. (2014). Standard Eurobarometer 81: Public opinion in the 
+
+European Union. Retrieved from 
+
+https://ec.europa.eu/citizenship/pdf/spring_eurobarometer_july_2014.pdf 
+
+European Commission. (2015a). European Agenda on Migration: First relocation 
+
+proposal. Retrieved from 
+
+https://ec.europa.eu/commission/presscorner/detail/en/ip_15_5039 
+
+European Commission. (2015b). European Agenda on Migration: Second package of 
+
+measures. Retrieved from 
+
+https://ec.europa.eu/commission/presscorner/detail/en/ip_15_5596 
+
+European Commission. (2017). Managing migration: EU financial support to Italy. 
+
+Retrieved from 
+
+https://home-affairs.ec.europa.eu/system/files/2021-01/202101_managing-migration-eu
+
+-financial-support-to-italy_en.pdf 
+
+European Commission. (2020). 2020 European Semester: Country report - Italy. 
+
+Retrieved from 
+
+https://commission.europa.eu/publications/2020-european-semester-country-reports_en 
+
+European Commission. (2021). Italy country report: Regional disparities and economic 
+
+trends. Retrieved from 
+
+https://ec.europa.eu/info/publications/2021-european-semester-country-reports_en 
+
+European Commission. (2022). Special Eurobarometer: integration of immigrants in the 
+
+European Union. Retrieved from 
+
+https://migrant-integration.ec.europa.eu/library-document/special-eurobarometer-integr
+
+ation-immigrants-european-union_en  
+
+80 
+
+ 
+European Council. (2016). EU pledge for Syrians: 3 billion euros support. Retrieved from 
+
+https://www.consilium.europa.eu/en/press/press-releases/2016/02/04/eu-pledge-for-syri
+
+ans/ 
+
+European Parliament. (2020). Article 78(3) TFEU: Temporary protection and emergency 
+
+migration response. Retrieved from 
+
+https://www.europarl.europa.eu/RegData/etudes/ATAG/2020/649325/EPRS_ATA(2020
+
+)649325_EN.pdf 
+
+European Union. (1992). Treaty on European Union. Retrieved from 
+
+https://eur-lex.europa.eu/resource.html?uri=cellar:2bf140bf-a3f8-4ab2-b506-fd71826e6
+
+da6.0023.02/DOC_1&format=PDF 
+
+European Union. (2013). Dublin Regulation (Regulation (EU) No 604/2013). Retrieved 
+
+from https://eur-lex.europa.eu/eli/reg/2013/604/oj 
+
+European Union. (2021). Unanimity voting in the EU. Retrieved from 
+
+https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=LEGISSUM:unanimity 
+
+Eurostat. (2023). Asylum and first-time asylum applicants by citizenship, age, and sex – 
+
+Annual aggregated data (rounded). Retrieved from https://ec.europa.eu/eurostat  
+
+Finnemore, M., & Sikkink, K. (1998). International norm dynamics and political change. 
+
+International Organization, 52(4), 887–917. https://doi.org/10.1162/002081898550789  
+
+Finotelli, C., & Ponzo, I. (2018). Integration in times of economic decline: Migrant 
+
+inclusion in Southern European welfare states. Journal of European Social Policy, 
+
+28(2), 129–143. 
+
+https://www.researchgate.net/publication/319405076_Integration_in_times_of_econom
+
+ic_decline_Migrant_inclusion_in_Southern_European_societies_trends_and_theoretica
+
+l_implications  
+
+81 
+
+ 
+Gattinara, P. (2018). Mobilizing against ‘the invasion’: Far right protest and the ‘refugee 
+
+crisis’ in Italy. Retrieved from 
+
+https://www.francoangeli.it/riviste/Scheda_rivista.aspx?IDArticolo=60914  
+
+Geddes, A., & Scholten, P. (2016). The politics of migration and immigration in Europe 
+
+(2nd ed.). London: SAGE Publications. 
+
+https://sk.sagepub.com/book/mono/the-politics-of-migration-and-immigration-in-europ
+
+e-second-edition/toc  
+
+Gianfreda, S. (2017). Politicization of the refugee crisis?: a content analysis of 
+
+parliamentary debates in Italy, the UK, and the EU in Cambridge University Press. 
+
+Retrieved from 
+
+https://www.cambridge.org/core/journals/italian-political-science-review-rivista-italian
+
+a-di-scienza-politica/article/abs/politicization-of-the-refugee-crisis-a-content-analysis-
+
+of-parliamentary-debates-in-italy-the-uk-and-the-eu/3FA5C8EDF1CFCF2B9E5DE5A2
+
+0F91B18E  
+
+International Organization for Migration. (n.d.). IOM monitors migrant and refugee 
+
+arrivals in Europe. Retrieved from 
+
+https://www.iom.int/news/iom-monitors-migrant-refugee-arrivals-europe  
+
+International Organization for Migration. (n.d.). Irregular migrant and refugee arrivals in 
+
+Europe top one million in 2015. Retrieved from 
+
+https://www.iom.int/news/irregular-migrant-refugee-arrivals-europe-top-one-million-20
+
+15-iom  
+
+International Organization for Migration. (n.d.). Migrants continue to arrive in Europe; 
+
+asylum seekers relocated. Retrieved from 
+
+https://www.iom.int/news/migrants-continue-arrive-europe-asylum-seekers-relocated  
+
+82 
+
+ 
+International Organization for Migration. (n.d.). Missing Migrants Project: 
+
+Mediterranean. Retrieved from https://missingmigrants.iom.int/region/mediterranean  
+
+Istituto Nazionale di Statistica (ISTAT). (2013). Demographic indicators – Year 2013. 
+
+Retrieved from https://www.istat.it/en/press-release/demographic-indicators-year-2013  
+
+Istituto Nazionale di Statistica (ISTAT). (2018). Demographic indicators – Year 2018. 
+
+Retrieved from https://www.istat.it/en/press-release/demographic-indicators-year-2018  
+
+Istituto Nazionale di Statistica (ISTAT). (2021). Regional gross domestic product – Years 
+
+2014–2020. Retrieved from https://www.istat.it/en/archive/regional-accounts  
+
+Istituto Nazionale di Statistica (ISTAT). (2022). Resident foreign population by region and 
+
+citizenship. Retrieved from https://demo.istat.it/index_e.html  
+
+Istituto Nazionale di Statistica (ISTAT). (2024). Safety1. Retrieved April 24, 2025, from 
+
+https://www.istat.it/wp-content/uploads/2024/11/7.pdf  
+
+Lavenex, S. (2018). "Failing forward" towards which Europe? Organized hypocrisy in the 
+
+common European asylum system. Journal of European Public Policy, 25(3), 407–426. 
+
+https://www.researchgate.net/publication/348248144_The_EU-Turkey_deal_in_the_20
+
+15_'refugee_crisis'_when_intergovernmentalism_cast_a_shadow_on_the_EU's_normati
+
+ve_power 
+
+Mabogunje, A. L. (1970). Systems approach to a theory of rural–urban migration. 
+
+Geographical Analysis, 2(1), 1–18. https://doi.org/10.1111/j.1538-4632.1970.tb00140.x  
+
+Massey, D. S., Arango, J., Hugo, G., Kouaouci, A., Pellegrino, A., & Taylor, J. E. (1993). 
+
+Theories of international migration: A review and appraisal. Population and 
+
+Development Review, 19(3), 431–466. https://doi.org/10.2307/2938462  
+
+Ministero dell’Interno. (2013). Elezioni politiche del 24–25 febbraio 2013 – Camera dei 
+
+Deputati. Retrieved from 
+
+83 
+
+ 
+https://elezionistorico.interno.gov.it/index.php?tpel=C&dtel=24/02/2013&tpa=I&tpe=
+
+A&lev0=0  
+
+Ministero dell’Interno. (2014). Elezioni europee del 25 maggio 2014. Retrieved from 
+
+https://elezionistorico.interno.gov.it/index.php?tpel=E&dtel=25/05/2014&tpa=I&tpe=A
+
+&lev0=0  
+
+Ministero dell’Interno. (2018a). Reception of migrants and refugees in Italy: Report with 
+
+data and policies. Retrieved from 
+
+https://www.libertaciviliimmigrazione.dlci.interno.gov.it/sites/default/files/allegati/rapp
+
+orto_accoglienza_eng_isbn_appendice_rev3b.pdf  
+
+Ministero dell’Interno. (2018b). Elezioni politiche del 4 marzo 2018 – Camera dei 
+
+Deputati. Retrieved from 
+
+https://elezionistorico.interno.gov.it/index.php?tpel=C&dtel=04/03/2018&tpa=I&tpe=
+
+A&lev0=0  
+
+Ministero dell’Interno. (2019). Elezioni europee del 26 maggio 2019. Retrieved from 
+
+https://elezionistorico.interno.gov.it/index.php?tpel=E&dtel=26/05/2019&tpa=I&tpe=A
+
+&lev0=0  
+
+Molnár, A. (2019). Italy and the Mediterranean Refugee Crisis. Retrieved from Italy and 
+
+the Mediterranean Refugee Crisis 
+
+Morgenthau, H. J. (1948). Politics among nations: The struggle for power and peace. New 
+
+York: Alfred A. Knopf. Retrieved from 
+
+http://slantchev.ucsd.edu/courses/ps240/04%20Conflict%20with%20States%20as%20
+
+Unitary%20Actors/Morgenthau%20-%20Politics%20among%20nations%20(selected%
+
+20chapters).pdf  
+
+Open Migration. (2019). Asylum shopping. Retrieved from 
+
+https://openmigration.org/en/glossary-term/asylum-shopping/  
+
+84 
+
+ 
+Open Society Foundations. (2015). Open Society Initiative for Europe: Our grantees 2015. 
+
+Retrieved from 
+
+https://www.opensocietyfoundations.org/uploads/cd6e5010-c2d2-4938-b3d6-058b896f
+
+6877/open-society-initiative-for-europe-2015-20170424.pdf  
+
+Organisation for Economic Co-operation and Development (OECD). (2015). Labour 
+
+market reform for more and better quality jobs in Italy. Retrieved from 
+
+https://www.oecd.org/en/publications/labour-market-reform-for-more-and-better-qualit
+
+y-jobs-in-italy_5jrqhrw7rfzq-en.html  
+
+Organisation for Economic Co-operation and Development (OECD). (2019). 
+
+Strengthening active labour market policies in Italy. Retrieved from  
+
+https://www.oecd.org/en/publications/strengthening-active-labour-market-policies-in-it
+
+aly_160a3c28-en.html  
+
+Organisation for Economic Co-operation and Development (OECD). (2022). OECD 
+
+regions and cities at a glance 2022: Italy – Country note. Retrieved from 
+
+https://www.oecd.org/regional/italy-regions-and-cities-2022.pdf  
+
+Pew Research Center. (2018). Europeans not convinced immigration is good or bad for 
+
+their country. Retrieved from 
+
+https://www.pewresearch.org/global/2018/09/10/europeans-not-convinced-immigration
+
+-is-good-or-bad-for-their-country/  
+
+Triandafyllidou, A. (2016). Governing Irregular Migration and Asylum at the borders of 
+
+Europe: Between efficiency and dignity. Comparative Migration Studies, 4(1), 1–17. 
+
+https://doi.org/10.1186/s40878-015-0016-0 
+
+Triandafyllidou, A. (2018). A “Refugee Crisis” unfolding: “Real” events and their 
+
+interpretation in media and political debates. Journal of Immigrant & Refugee Studies, 
+
+16(1–2), 198–216. https://doi.org/10.1080/15562948.2017.1309089 
+
+85 
+
+ 
+United Nations High Commissioner for Refugees (UNHCR). (2023). Operational data 
+
+portal – Mediterranean situation. Retrieved from 
+
+https://data.unhcr.org/en/situations/europe  
+
+United Nations High Commissioner for Refugees (UNHCR). (n.d.). Italy Sea Arrivals 
+
+Dashboard. Retrieved from 
+
+https://data.unhcr.org/en/situations/europe-sea-arrivals/location/24521  
+
+Wæver, O. (1995). Securitization and desecuritization. In R. D. Lipschutz (Ed.), On 
+
+security (pp. 46–86). New York: Columbia University Press. Retrieved from 
+
+https://www.libraryofsocialscience.com/assets/pdf/Waever-Securitization.pdf  
+
+Wendt, A. (1992). Anarchy is what states make of it: The social construction of power 
+
+politics. International Organization, 46(2), 391–425. 
+
+https://doi.org/10.1017/S0020818300027764  
+
+World Bank. (2023). Unemployment, Italy. Retrieved from 
+
+https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=IT  
+
+World Bank. (2025). Unemployment, total (% of total labor force) – Italy. Retrieved from 
+
+https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=IT  
+
+World Prison Brief. (n.d.). Italy. Institute for Crime & Justice Policy Research. Retrieved 
+
+April 24, 2025, from https://www.prisonstudies.org/country/italy  
+
+86 
+
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+87 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+

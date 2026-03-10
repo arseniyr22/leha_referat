@@ -1,0 +1,406 @@
+{
+  "economics": [
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/Economics/-_m-_povyshenie-innovacionnyh-kompetenciy-v-razvivayushchihsya-stranah-rol-ustoychivosti-i-lichnostnyh-kachestv_208044.pdf",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/-_m-_povyshenie-innovacionnyh-kompetenciy-v-razvivayushchihsya-stranah-rol-ustoy.pdf.txt",
+      "is_english": true,
+      "word_count": 16175,
+      "folder": "Economics"
+    },
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/Economics/belikova_ia_osobennosti-avstriyskoy-politiki-okazaniya-mejdunarodnoy-pomoshchi-v-celyah-razvitiya-20142020_309806.docx",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/belikova_ia_osobennosti-avstriyskoy-politiki-okazaniya-mejdunarodnoy-pomoshchi-v.docx.txt",
+      "is_english": true,
+      "word_count": 26554,
+      "folder": "Economics"
+    },
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/Economics/bezdenejnov_ka_volneniya-i-oppozicionnye-smi-pri-avtokratii-svidetelstva-iz-carskoy-rossii_288607.pdf",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/bezdenejnov_ka_volneniya-i-oppozicionnye-smi-pri-avtokratii-svidetelstva-iz-cars.pdf.txt",
+      "is_english": false,
+      "word_count": 8880,
+      "folder": "Economics"
+    },
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/Economics/borisov_sv_modelirovanie-dividendnyh-gepov-s-pomoshchyu-sluchaynyh-processov-s-pryjkovym-elementom_292345.pdf",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/borisov_sv_modelirovanie-dividendnyh-gepov-s-pomoshchyu-sluchaynyh-processov-s-p.pdf.txt",
+      "is_english": true,
+      "word_count": 13075,
+      "folder": "Economics"
+    },
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/Economics/korsakov_ai_vstuplenie-ksa-v-briks-vliyanie-vstupleniya-v-organizaciyu-na-vneshnyuyu-politiku-saudovskoy-aravii_309539.pdf",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/korsakov_ai_vstuplenie-ksa-v-briks-vliyanie-vstupleniya-v-organizaciyu-na-vneshn.pdf.txt",
+      "is_english": true,
+      "word_count": 33601,
+      "folder": "Economics"
+    },
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/Economics/maksimenko_da_vliyanie-kreditnogo-reytinga-kompaniipokupatelya-na-effektivnost-sdelok-sliyaniy-i-pogloshcheniy-v-rossi_317769.pdf",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/maksimenko_da_vliyanie-kreditnogo-reytinga-kompaniipokupatelya-na-effektivnost-s.pdf.txt",
+      "is_english": true,
+      "word_count": 20318,
+      "folder": "Economics"
+    },
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/Economics/malyutina_ks_rol-ssha-v-transformacii-mirovyh-energeticheskih-rynkov-vliyanie-na-rossiyu-i-otnosheniya-rossii-i-es-2_310482.pdf",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/malyutina_ks_rol-ssha-v-transformacii-mirovyh-energeticheskih-rynkov-vliyanie-na.pdf.txt",
+      "is_english": true,
+      "word_count": 39650,
+      "folder": "Economics"
+    },
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/Economics/sanches-romero_m-_dobrovolnye-uglerodnye-rynki-v-meksike-kak-alternativa-programme-sohraneniya-lesov-na-yugo-vostoke_327103.pdf",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/sanches-romero_m-_dobrovolnye-uglerodnye-rynki-v-meksike-kak-alternativa-program.pdf.txt",
+      "is_english": true,
+      "word_count": 45389,
+      "folder": "Economics"
+    },
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/Economics/smertin_va_vliyanie-migracionnogo-krizisa-es-na-socio-ekonomicheskoe-i-politicheskoe-razvitie-italii-20152020-gg_309492.pdf",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/smertin_va_vliyanie-migracionnogo-krizisa-es-na-socio-ekonomicheskoe-i-politiche.pdf.txt",
+      "is_english": true,
+      "word_count": 21745,
+      "folder": "Economics"
+    },
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/Economics/smirnov_e-_vliyanie-kreditnogo-reytinga-kompaniipokupatelya-na-effektivnost-sdelok-sliyaniy-i-pogloshcheniy-v-rossi_317768.pdf",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/smirnov_e-_vliyanie-kreditnogo-reytinga-kompaniipokupatelya-na-effektivnost-sdel.pdf.txt",
+      "is_english": true,
+      "word_count": 20318,
+      "folder": "Economics"
+    },
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/Economics/vorobey_ae_vliyanie-terroristicheskoy-aktivnosti-v-nigere-nigerii-mali-chade-burkina-faso-na-institucionalnuyu_309927.docx",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/vorobey_ae_vliyanie-terroristicheskoy-aktivnosti-v-nigere-nigerii-mali-chade-bur.docx.txt",
+      "is_english": true,
+      "word_count": 28355,
+      "folder": "Economics"
+    }
+  ],
+  "cs": [
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/IT/belonovskiy_pi_raschet-value-at-risk-i-expected-shortfall-s-pomoshchyu-glubokih-generativnyh-modeley_285514.pdf",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/belonovskiy_pi_raschet-value-at-risk-i-expected-shortfall-s-pomoshchyu-glubokih-.pdf.txt",
+      "is_english": true,
+      "word_count": 7683,
+      "folder": "IT"
+    },
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/IT/buabidi_m-_analiz-vremennyh-ryadov-aktivnosti-mozga-s-pomoshchyu-neyronnyh-setey-i-interpretiruemogo-mashinnogo-obuch_320934.pdf",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/buabidi_m-_analiz-vremennyh-ryadov-aktivnosti-mozga-s-pomoshchyu-neyronnyh-setey.pdf.txt",
+      "is_english": true,
+      "word_count": 21097,
+      "folder": "IT"
+    },
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/IT/buchkov_vk_hedjirovanie-derivativov-v-usloviyah-nepolnogo-rynka-s-ispolzovaniem-metodov-glubinnogo-obucheniya_291142.pdf",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/buchkov_vk_hedjirovanie-derivativov-v-usloviyah-nepolnogo-rynka-s-ispolzovaniem-.pdf.txt",
+      "is_english": false,
+      "word_count": 21524,
+      "folder": "IT"
+    },
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/IT/chigay_ks_razrabotka-prototipa-platformy-nizkogo-koda-low-code-dlya-upravleniya-orosheniem-v-rossiyskom-selsko_320174.pdf",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/chigay_ks_razrabotka-prototipa-platformy-nizkogo-koda-low-code-dlya-upravleniya-.pdf.txt",
+      "is_english": true,
+      "word_count": 21257,
+      "folder": "IT"
+    },
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/IT/evdokimova_aa_izuchenie-aktivnosti-regulyatornyh-elementov-genov-razvitiya-drosophila-melanogaster-v-tkanyah-lichinki_320333.pdf",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/evdokimova_aa_izuchenie-aktivnosti-regulyatornyh-elementov-genov-razvitiya-droso.pdf.txt",
+      "is_english": true,
+      "word_count": 18900,
+      "folder": "IT"
+    },
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/IT/gorelskiy_re_apliftmodelirovanie-v-rekomendatelnyh-sistemah_316291.pdf",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/gorelskiy_re_apliftmodelirovanie-v-rekomendatelnyh-sistemah_316291.pdf.txt",
+      "is_english": true,
+      "word_count": 9608,
+      "folder": "IT"
+    },
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/IT/medvedev_ia_ispolzovanie-mashinnogo-obucheniya-dlya-prediktivnoy-analitiki-potokov-vhodyashchih-i-ishodyashchih-tovarov-v-s_325580.pdf",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/medvedev_ia_ispolzovanie-mashinnogo-obucheniya-dlya-prediktivnoy-analitiki-potok.pdf.txt",
+      "is_english": true,
+      "word_count": 9357,
+      "folder": "IT"
+    },
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/IT/shipilov_fa_primenenie-mashinnogo-obucheniya-dlya-rekonstrukcii-fokusiruyushchego-aerogelevogo-detektora_323784.pdf",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/shipilov_fa_primenenie-mashinnogo-obucheniya-dlya-rekonstrukcii-fokusiruyushcheg.pdf.txt",
+      "is_english": true,
+      "word_count": 8632,
+      "folder": "IT"
+    },
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/IT/sinicin_im_razrabotka-sistemy-kratkosrochnogo-prognozirovaniya-vremennyh-ryadov_316781.pdf",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/sinicin_im_razrabotka-sistemy-kratkosrochnogo-prognozirovaniya-vremennyh-ryadov_.pdf.txt",
+      "is_english": true,
+      "word_count": 9617,
+      "folder": "IT"
+    },
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/IT/spirina_ma_vybor-optimalnoy-arhitektury-modeli-transformer-dlya-rekomendatelnyh-sistem-v-proizvodstvennoy-sfer_316777.pdf",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/spirina_ma_vybor-optimalnoy-arhitektury-modeli-transformer-dlya-rekomendatelnyh-.pdf.txt",
+      "is_english": true,
+      "word_count": 9754,
+      "folder": "IT"
+    },
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/IT/tyajova_na_reshenie-zadach-neparnogo-perenosa-stilya-s-pomoshchyu-distillyacii-diffuzionnyh-modeley_315369.pdf",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/tyajova_na_reshenie-zadach-neparnogo-perenosa-stilya-s-pomoshchyu-distillyacii-d.pdf.txt",
+      "is_english": true,
+      "word_count": 4593,
+      "folder": "IT"
+    }
+  ],
+  "general": [
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/Law/abrashin_rp_ispolzovanie-koncepcii-prav-cheloveka-v-borbe-s-izmeneniem-klimata-mejdunarodno-pravovoe-issledova_309140.pdf",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/abrashin_rp_ispolzovanie-koncepcii-prav-cheloveka-v-borbe-s-izmeneniem-klimata-m.pdf.txt",
+      "is_english": true,
+      "word_count": 27346,
+      "folder": "Law"
+    },
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/Other/ahmad-abudakin_a-_hedjirovanie-i-stimulirovanie-v-mediadiskurse-sravnitelnyy-analiz-dvuh-tendenciy-v-angliyskih-i-ar_317897.pdf",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/ahmad-abudakin_a-_hedjirovanie-i-stimulirovanie-v-mediadiskurse-sravnitelnyy-ana.pdf.txt",
+      "is_english": true,
+      "word_count": 56151,
+      "folder": "Other"
+    },
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/Other/chekulaeva_sv_multimodalnyy-sravnitelnyy-analiz-jenskih-obrazov-v-russkoy-i-ispanskoy-reklame-1930-e-i-2020-e_321042.docx",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/chekulaeva_sv_multimodalnyy-sravnitelnyy-analiz-jenskih-obrazov-v-russkoy-i-ispa.docx.txt",
+      "is_english": true,
+      "word_count": 12529,
+      "folder": "Other"
+    },
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/Other/lettieva_ev_rol-diskursa-o-gorodskom-sjatii-v-mnogourovnevom-upravlenii-v-arkticheskoy-zone-rossiyskoy-federacii_316586.pdf",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/lettieva_ev_rol-diskursa-o-gorodskom-sjatii-v-mnogourovnevom-upravlenii-v-arktic.pdf.txt",
+      "is_english": true,
+      "word_count": 32174,
+      "folder": "Other"
+    },
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/Other/nazarov_ns_vliyanie-razlichnyh-procedur-predobrabotki-teksta-na-ego-harakteristiki-slojnosti_319971.pdf",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/nazarov_ns_vliyanie-razlichnyh-procedur-predobrabotki-teksta-na-ego-harakteristi.pdf.txt",
+      "is_english": false,
+      "word_count": 15258,
+      "folder": "Other"
+    },
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/Other/pudrenko_ai_analiz-lingvokulturologicheskih-osobennostey-prezentacii-predvybornyh-i-pobednyh-rechey-na-primere-p_323152.pdf",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/pudrenko_ai_analiz-lingvokulturologicheskih-osobennostey-prezentacii-predvyborny.pdf.txt",
+      "is_english": true,
+      "word_count": 45597,
+      "folder": "Other"
+    },
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/Other/tveneboah_r-_rol-kokosovyh-plantaciy-v-usilenii-vnutrennih-konfliktov-svidetelstva-na-urovne-nacionalnyh-i-su_317711.pdf",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/tveneboah_r-_rol-kokosovyh-plantaciy-v-usilenii-vnutrennih-konfliktov-svidetelst.pdf.txt",
+      "is_english": true,
+      "word_count": 24443,
+      "folder": "Other"
+    },
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/Other/vasileva_es_lingvokreativnost-v-angloyazychnom-restorannom-diskurse-na-primere-okkazionalizmov_320260.docx",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/vasileva_es_lingvokreativnost-v-angloyazychnom-restorannom-diskurse-na-primere-o.docx.txt",
+      "is_english": true,
+      "word_count": 14810,
+      "folder": "Other"
+    }
+  ],
+  "management": [
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/Management/aksenov_iv_osobennosti-strategiy-rosta-poluprovodnikovyh-kompaniy-na-zarubejnyh-rynkah-aziatsko-tihookeanskogo_277649.docx",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/aksenov_iv_osobennosti-strategiy-rosta-poluprovodnikovyh-kompaniy-na-zarubejnyh-.docx.txt",
+      "is_english": true,
+      "word_count": 15702,
+      "folder": "Management"
+    },
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/Management/arhipova_aa_prichiny-vybora-mejdunarodnogo-sovmestnogo-predpriyatiya-v-processe-internacionalizacii-neftegazovymi-k_277708.docx",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/arhipova_aa_prichiny-vybora-mejdunarodnogo-sovmestnogo-predpriyatiya-v-processe-.docx.txt",
+      "is_english": true,
+      "word_count": 15777,
+      "folder": "Management"
+    },
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/Management/besh_r-_institucionalnaya-teoriya-ponimanie-dinamiki-investiciy-v-esg-v-menyayushchemsya-landshafte_281856.pdf",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/besh_r-_institucionalnaya-teoriya-ponimanie-dinamiki-investiciy-v-esg-v-menyayus.pdf.txt",
+      "is_english": true,
+      "word_count": 28905,
+      "folder": "Management"
+    },
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/Management/emenari_o-_faktory-formirovaniya-sprosa-na-ustoychivuyu-modu-na-primere-rossii-i-nigerii_318627.docx",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/emenari_o-_faktory-formirovaniya-sprosa-na-ustoychivuyu-modu-na-primere-rossii-i.docx.txt",
+      "is_english": true,
+      "word_count": 14006,
+      "folder": "Management"
+    },
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/Management/fataliev_sz_rol-individualnyh-pokazateley-v-predprinimatelstve_213626.docx",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/fataliev_sz_rol-individualnyh-pokazateley-v-predprinimatelstve_213626.docx.txt",
+      "is_english": true,
+      "word_count": 9623,
+      "folder": "Management"
+    },
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/Management/ilyashchenko_ka_faktory-signaliziruyushchie-ob-uspehe-filma-prognozirovanie-pribylnosti-filma-na-ranney-stadii-proi_283141.pdf",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/ilyashchenko_ka_faktory-signaliziruyushchie-ob-uspehe-filma-prognozirovanie-prib.pdf.txt",
+      "is_english": true,
+      "word_count": 15592,
+      "folder": "Management"
+    },
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/Management/mashistov_ni_shodstva-i-razlichiya-instrumentov-cifrovogo-marketinga-ispolzuemyh-kompaniyami-proizvoditelyami-elekt_277726.docx",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/mashistov_ni_shodstva-i-razlichiya-instrumentov-cifrovogo-marketinga-ispolzuemyh.docx.txt",
+      "is_english": true,
+      "word_count": 16439,
+      "folder": "Management"
+    },
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/Management/murchich_nn_vliyanie-vnedreniya-oblachnyh-vychisleniy-na-rezultativnost-kompanii-moderiruyushchaya-rol-chelovecheskogo_284177.docx",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/murchich_nn_vliyanie-vnedreniya-oblachnyh-vychisleniy-na-rezultativnost-kompanii.docx.txt",
+      "is_english": true,
+      "word_count": 12370,
+      "folder": "Management"
+    },
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/Management/rshtuni_ma_faktory-vliyayushchie-na-vybor-strategiy-internacionalizacii-v-art-biznese-v-razvivayushchihsya-stranah-proi_309925.docx",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/rshtuni_ma_faktory-vliyayushchie-na-vybor-strategiy-internacionalizacii-v-art-bi.docx.txt",
+      "is_english": true,
+      "word_count": 15726,
+      "folder": "Management"
+    },
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/Management/tashchyan_aa_cifrovye-tehnologii-i-kraudfanding-dlya-razvitiya-predprinimatelstva-na-razvivayushchihsya-rynkah_280183.docx",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/tashchyan_aa_cifrovye-tehnologii-i-kraudfanding-dlya-razvitiya-predprinimatelstv.docx.txt",
+      "is_english": true,
+      "word_count": 16296,
+      "folder": "Management"
+    },
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/Management/vendramin_a-_faktory-vliyayushchie-na-vybor-investiciy-v-novye-proekty-i-sozdaniya-sovmestnyh-predpriyatiy-mejdunarodny_277528.docx",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/vendramin_a-_faktory-vliyayushchie-na-vybor-investiciy-v-novye-proekty-i-sozdani.docx.txt",
+      "is_english": true,
+      "word_count": 17242,
+      "folder": "Management"
+    },
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/Management/yaskina_av_dilemma-standartizacii-i-adaptacii-produkta-v-mejdunarodnyh-marketingovyh-strategiyah-kosmeticheskih-k_277714.docx",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/yaskina_av_dilemma-standartizacii-i-adaptacii-produkta-v-mejdunarodnyh-marketing.docx.txt",
+      "is_english": true,
+      "word_count": 15193,
+      "folder": "Management"
+    }
+  ],
+  "math": [
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/Math/beldiev_is_verteksnye-algebry-associirovannye-s-celymi-reshetkami-i-vektornye-rassloeniya-na-proektivnoy-pryamoy_290827.pdf",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/beldiev_is_verteksnye-algebry-associirovannye-s-celymi-reshetkami-i-vektornye-ra.pdf.txt",
+      "is_english": true,
+      "word_count": 26794,
+      "folder": "Math"
+    },
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/Math/chilina_ee_klassifikaciya-gomeomorfizmov-trehmernyh-mnogoobraziy-s-psevdoanosovskimi-attraktorami-i-repellerami_315925 (1).pdf",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/chilina_ee_klassifikaciya-gomeomorfizmov-trehmernyh-mnogoobraziy-s-psevdoanosovs.pdf.txt",
+      "is_english": true,
+      "word_count": 10253,
+      "folder": "Math"
+    },
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/Math/demurov_sa_teoremy-edinstvennosti-dlya-nekompaktnyh-elektrostaticheskih-mnogoobraziy-s-kraem_324645.pdf",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/demurov_sa_teoremy-edinstvennosti-dlya-nekompaktnyh-elektrostaticheskih-mnogoobr.pdf.txt",
+      "is_english": true,
+      "word_count": 10017,
+      "folder": "Math"
+    },
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/Math/holinov_ra_prikladnoe-primenenie-rpatehnologiy-dlya-povysheniya-effektivnosti-upravleniya-kadrovymi-processami-v-k_316404.pdf",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/holinov_ra_prikladnoe-primenenie-rpatehnologiy-dlya-povysheniya-effektivnosti-up.pdf.txt",
+      "is_english": true,
+      "word_count": 9620,
+      "folder": "Math"
+    }
+  ],
+  "social-science": [
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/Politics/knapskog_e-_vliyanie-administraciy-trampa-i-baydena-na-oboronnuyu-politiku-francii-v-20172025-gg_310066.pdf",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/knapskog_e-_vliyanie-administraciy-trampa-i-baydena-na-oboronnuyu-politiku-franc.pdf.txt",
+      "is_english": true,
+      "word_count": 33102,
+      "folder": "Politics"
+    },
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/Politics/kopnina_ed_osobennosti-kommunikacionnoy-strategii-oon-po-celyam-v-oblasti-ustoychivogo-razvitiya-20152024-gg_310163.pdf",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/kopnina_ed_osobennosti-kommunikacionnoy-strategii-oon-po-celyam-v-oblasti-ustoyc.pdf.txt",
+      "is_english": true,
+      "word_count": 20059,
+      "folder": "Politics"
+    },
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/Politics/nazmeeva_yaa_transformaciya-diskursa-predstaviteley-kommunisticheskoy-partii-kitaya-po-arktike-s-2013-go-po-2024-g_309782.pdf",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/nazmeeva_yaa_transformaciya-diskursa-predstaviteley-kommunisticheskoy-partii-kit.pdf.txt",
+      "is_english": true,
+      "word_count": 24533,
+      "folder": "Politics"
+    },
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/Politics/osokina_av_rol-partiynoy-polyarizacii-ssha-v-formirovanii-vneshney-politiki-ssha-v-otnoshenii-rossii-v-kontekste-uk_309458.pdf",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/osokina_av_rol-partiynoy-polyarizacii-ssha-v-formirovanii-vneshney-politiki-ssha.pdf.txt",
+      "is_english": true,
+      "word_count": 18174,
+      "folder": "Politics"
+    },
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/Politics/pachosik_ai_puti-transformacii-energeticheskoy-politiki-italii-20192024-gg_310177.docx",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/pachosik_ai_puti-transformacii-energeticheskoy-politiki-italii-20192024-gg_31017.docx.txt",
+      "is_english": true,
+      "word_count": 28831,
+      "folder": "Politics"
+    },
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/Politics/suhareva_es_faktory-pobujdayushchie-gubernatorov-ssha-otklonyatsya-ot-partiynoy-povestki-v-publichnyh-vystupleniyah_315969.docx",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/suhareva_es_faktory-pobujdayushchie-gubernatorov-ssha-otklonyatsya-ot-partiynoy-.docx.txt",
+      "is_english": true,
+      "word_count": 13192,
+      "folder": "Politics"
+    },
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/Politics/vasileva_vv_vliyanie-subnacionalnogo-potenciala-gosudarstva-na-grajdanskoe-uchastie-v-rossii_315964.docx",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/vasileva_vv_vliyanie-subnacionalnogo-potenciala-gosudarstva-na-grajdanskoe-uchas.docx.txt",
+      "is_english": true,
+      "word_count": 13550,
+      "folder": "Politics"
+    },
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/Social Sciense/bogatyreva_aa_cennostnye-razlichiya-mejdu-molodymi-mujchinami-i-jenshchinami-est-li-v-rossii-ideologicheskiy-gendernyy_315962.pdf",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/bogatyreva_aa_cennostnye-razlichiya-mejdu-molodymi-mujchinami-i-jenshchinami-est.pdf.txt",
+      "is_english": true,
+      "word_count": 17947,
+      "folder": "Social Sciense"
+    },
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/Social Sciense/samyltyrova_k-_kultura-dostigatorstva-v-amerikanskih-francuzskih-i-nemeckih-video-blogah--kross-kulturnyy-anali_322927.pdf",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/samyltyrova_k-_kultura-dostigatorstva-v-amerikanskih-francuzskih-i-nemeckih-vide.pdf.txt",
+      "is_english": true,
+      "word_count": 18876,
+      "folder": "Social Sciense"
+    },
+    {
+      "path": "/Users/arseniybelobzheskiy/Desktop/Examples with human text/Social Sciense/skvorcova_om_dostigaem-li-my-luchshih-rezultatov-nahodyas-v-sostoyanii-stressa-empiricheskoe-issledovanie-na-rossi_322748.pdf",
+      "cache_txt": "/Users/arseniybelobzheskiy/Desktop/AI Anti-anti plag/.examples_cache/skvorcova_om_dostigaem-li-my-luchshih-rezultatov-nahodyas-v-sostoyanii-stressa-e.pdf.txt",
+      "is_english": false,
+      "word_count": 15912,
+      "folder": "Social Sciense"
+    }
+  ]
+}

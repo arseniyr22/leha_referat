@@ -1,0 +1,2516 @@
+National Research University Higher School of Economics 
+
+Faculty of Computer Science 
+
+Programme: Data Science and Business Analytics 
+
+BACHELOR'S THESIS 
+
+Software Project 
+
+Applied Usage of RPA-Technologies for Improving the 
+Efficiency of HR Process Management in Companies 
+
+Prepared by the student of Group 211, Year 4 (year of study), 
+
+Kholinov Roman Andreevich 
+
+Thesis Supervisor: 
+
+Kholinov Andrey Borisovich 
+
+Moscow 
+
+2025 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Abstract 
+
+This  paper  considers  the  application  of  Robotic  Process  Automation  (RPA) 
+
+technologies  for  optimization  of  HR-department  processes  within  a  company.  The 
+
+author of the paper determines which HR tasks have processes consisting of routine and 
+
+repetitive manual work and proposes to speed them up with the help of software bots. 
+
+Such  processes  usually  do  not  require  intellectual  involvement  of  employees  and 
+
+making any decisions, so their fulfillment can be entrusted to an RPA-bot. The author 
+
+of this paper has developed and tested three RPA-bots that are able to perform some of 
+
+the resource-intensive HR tasks in shorter time intervals and with minimal employee 
+
+involvement.  Based  on  the  resulting  measurements,  we  draw  a  conclusion  about  the 
+
+effectiveness and usefulness of using RPA-technology for automating the work of HR 
+
+department. 
+
+1 
+
+ 
+ 
+ 
+Contents 
+
+Abstract ....................................................................................................................... 1 
+
+List of Key Words ....................................................................................................... 3 
+
+1. 
+
+Introduction .......................................................................................................... 3 
+
+2.  Problem statement ................................................................................................ 6 
+
+3.  Relevance of the topic .......................................................................................... 6 
+
+4.  Review of existing approaches and methods ......................................................... 9 
+
+5.  Selection of the platform..................................................................................... 13 
+
+5.1 Chapter conclusions ......................................................................................... 13 
+
+6.  The plan for addressing the assigned task ........................................................... 14 
+
+6.1 Database description ........................................................................................ 17 
+
+6.2 RPA-bots description........................................................................................ 21 
+
+6.2.1 Description of the bot for profile searching ................................................ 21 
+
+6.2.2 Description of the bot for calculating salaries ............................................ 25 
+
+6.2.3 Description of the bot for generating employment certificates ................... 26 
+
+6.3 Chapter conclusions ......................................................................................... 29 
+
+7.  Obtained results .................................................................................................. 30 
+
+8.  Conclusions ........................................................................................................ 34 
+
+8.1 Profile search ................................................................................................... 34 
+
+8.2 Calculation of salary data ................................................................................. 35 
+
+8.3 Employment certificate bot .............................................................................. 35 
+
+8.4 Common conclusions ....................................................................................... 36 
+
+9.  Further development ........................................................................................... 36 
+
+10.  Reference list ...................................................................................................... 38 
+
+11.  Appendix ............................................................................................................ 39 
+
+11.1 Main Terminology and Definitions ................................................................. 39 
+
+11.2 Link to the implemented RPA-bots (GitHub) ................................................. 40 
+
+2 
+
+ 
+ 
+List of Key Words 
+
+Robotic Process Automation, Human Resources Management, Business Process 
+
+Automation, Information technologies, Employee Onboarding. 
+
+1. Introduction 
+
+Productive  work  of  human  resources  departments  is  an  integral  part  of  the 
+
+success  of  almost  any  modern  enterprise.  The  main  duties  of  HR  specialists  are  to 
+
+search and select new qualified personnel, manage the process of evaluating the results 
+
+of the accomplished work, develop and establish relationships between employees and 
+
+divisions within the company, develop employee qualification improvement programs, 
+
+eliminate  disputes,  and  maintain  the  corporate  culture. All  of  the  business  processes 
+
+listed above, among other things, imply the performance of a huge number of various 
+
+routine tasks of any complexity that are repeated every day in large volumes, which do 
+
+not  require  the  performer  to  apply  cognitive  functions,  i.e.  decision-making.  Such 
+
+routine operations can take up a significant amount of the total working time of their 
+
+performers [1]. 
+
+This report proposes the application of modern robotization process technologies 
+
+to  improve  the  efficiency  of  human  resource  departments  of  enterprises  in  various 
+
+industries.  It  is  planned  to  analyze  different  approaches  to  the  automation  of  human 
+
+resources processes and tasks, and to compare information technologies currently used 
+
+by  companies.  The  thesis  aims  to  show  the  advantages  of  RPA-technology  and 
+
+efficiency in the use of program robots to accelerate and improve the quality of work 
+
+of human resources departments. As a result of the thesis, the author is going to develop 
+
+an RPA-solution consisting of a set of software robots, that implement the automation 
+
+of part of the tasks of HR employees in order to improve the efficiency of the main 
+
+business processes of this department. 
+
+3 
+
+ 
+Concerning the aims and objectives of the project, we are firstly trying to answer 
+
+the question whether RPA technology can be useful to improve the efficiency of the HR 
+
+department.  To  do  this,  we  need  to  analyze  where  robotic  process  automation  is 
+
+applicable  in  particular,  what  advantages  this  technology  has,  and  why  it  might  be 
+
+useful specifically in this case. After determining which HR processes are eligible for 
+
+optimization  and  providing  an  explanation  of  why,  we  should  move  on  to  the 
+
+development of RPA solutions to automate the selected processes. As a part of this, we 
+
+should demonstrate the efficiency gains that can be achieved by using the RPA software 
+
+bots that we develop. After completing the development of the RPA solution, a tangible 
+
+comparison should be made in order to reflect the qualitative result of the completed 
+
+work. 
+
+This paper contains 10 chapters, starting with “Introduction”, where we discuss 
+
+the general idea of the work, state its main aims and objectives.  
+
+In the next chapter called “Problem statement” we identify the specific metrics 
+
+by  which  we  should  evaluate  the  efficiency  that  we  have  achieved  as  a  result  of 
+
+implementing our RPA-bots.  
+
+In the chapter “Relevance of the topic” we take a brief overview of what exactly 
+
+HR  departments  are  doing  in  a  company,  and  propose  the  application  of  RPA 
+
+technology  to  speed  up  the  HR  processes  that  mainly  involve  repetitive  and  time-
+
+consuming  labor.  By  demonstrating  the  presence  of  such  repetitive  processes,  we 
+
+explain the importance and relevance of our work and demonstrate that it has a practical 
+
+application.  
+
+In  the  “Review  of  existing  approaches  and  methods”  we  provide  a  literature 
+
+review for a number of academic articles,  related to the RPA technology, theoretical 
+
+basis, practical cases of implementation, efficiency and possible risks.  
+
+4 
+
+ 
+Going further, in the “Selection of the platform” we are explaining our choice of 
+
+the  RPA-platform  that  we  will  use  in  the  project.  In  this  chapter  we  state  the  main 
+
+advantages of this software and provide a brief description of its functionality.  
+
+In the chapter “The plan for addressing the assigned task”, we describe what HR 
+
+processes we will optimize in our work: we clarify what these processes consist of, and 
+
+how the use of robotization could improve the efficiency of their execution. Next, we 
+
+provide a description and architecture of the database that we will use in our project, 
+
+with  the  details  for  all  variables  and  tables.  In  this  chapter,  we  also  describe  the 
+
+architecture  of  our  bots.  For  each  of  them,  we  outline  a  step-by-step  algorithm  that 
+
+describes how they work and shows what exactly these bots do.  
+
+In the chapter “Obtained results” we test our RPA bots on a number of different 
+
+user queries and demonstrate the achieved results. In addition to that, we compare these 
+
+results with those of an actual HR employee, who was assigned to perform the same 
+
+tasks.  
+
+Moving forward, in the “Conclusions” chapter we provide the outcomes that we 
+
+drew from the obtained results. We discuss the insights that we have obtained for each 
+
+of the three scenarios of robotization, and summarize the overall results of our work.  
+
+Going on, in the “Future development” we speculate on the perspectives of the 
+
+work  we  have  done  and  suggest  in  which  particular  directions  this  project  could  be 
+
+continued. As for the potential perspectives, we describe the possibility of using our 
+
+work  for  the  implementation  of  a  full-scale  automation  solution,  which  could 
+
+comprehensively cover the HR tasks for organizations in specific industries.  
+
+Finally,  the  “Reference  list”  contains  links  to  the  sources  that  have  been  used 
+
+during the development of this project. 
+
+5 
+
+ 
+2. Problem statement 
+
+We are trying to evaluate the effect that could be achieved by using RPA-bots to 
+
+perform the routine and repetitive tasks of HR department. Thus, we want to estimate 
+
+how much we can increase the execution speed of certain processes and how significant 
+
+this  acceleration  may  be. We  are  also  interested  in  the  possibility  of  eliminating  the 
+
+human-related mistakes while processes execution; an RPA-bot works according to a 
+
+predetermined  algorithm,  unlike  a  human employee  who  may  make  mistakes  due  to 
+
+inattention or fatigue. Thus, we are going to justify the utility of the completed work by 
+
+the increased speed of the process execution and the reduced number of errors made. 
+
+3. Relevance of the topic 
+
+In order to assess the relevance of this task, we first need to dive into the existing 
+
+processes and tasks performed by HR in modern companies. The first thing that should 
+
+be discussed is what HR department is responsible for and what are its main functions 
+
+and  aims.  Human  Resources  is  the  branch  in  a  company  that  is  responsible  for  the 
+
+human  resource  management  —  in  other  words,  this  department  is  responsible  for 
+
+maintaining the workforce in the organization. We can identify the main functions of 
+
+the  HR  department  that  form  the  scope  of  its  responsibility:  personnel  management, 
+
+recruitment, employee training and development, evaluation of personnel performance, 
+
+compensation & benefit (C&B) [2]. Let’s make a brief overview of all of them. 
+
+For  the  personnel  management,  it  involves  various  administrative  tasks  about 
+
+employee’s performance. This usually includes maintaining employee’s data, operating 
+
+with HR requests, setting up personal schedule and resolving conflicts that appear on 
+
+the workplace. Going further, recruitment is one of the most important tasks performed 
+
+by HR: it implies searching for the job candidates that fit company’s needs, evaluating 
+
+their skills and hiring them. This task involves various complicated business processes 
+
+related to vacancies planning, forming company’s requirements, checking resumes and 
+
+6 
+
+ 
+etc. Moving on to employee training and development, this function is responsible for 
+
+investing  in  the  development  of  the  company  employees'  professional  skills  and 
+
+competencies,  and  providing  them  with  the  opportunities  for  further  career  growth. 
+
+Monitoring  employees'  progress  in  learning  new  material,  estimating  training  needs, 
+
+and managing the organization's training processes are just a few  tasks where HR is 
+
+involved in. The next important function of HR is to evaluate the efficiency and quality 
+
+of staff performance. This task also breaks into several business processes that take a 
+
+lot  of  time  from  HR  employees:  for  example,  designing  and  setting  KPI’s  (Key 
+
+Performance  Indicators)  and  OKR’s  (Objectives  and  Key  Results),  collecting  and 
+
+working on feedback from company workers, identify those who deserve a bonus and 
+
+those who underperform, etc. Next, compensation and benefit (C&B) is a function that 
+
+involves managing employee salary structure, assigning benefits and bonuses. The HR 
+
+department  initiates  payments  and  also  monitors  the  timely  fulfilment  of  paychecks. 
+
+Also,  they  should  track  the  market  salary  levels  to  maintain  competitiveness  and 
+
+optimal wages. 
+
+As we can see, a modern HR department handles many different tasks, and each 
+
+of  them  consists  of  a  large  number  of  certain  business  processes  that  require  some 
+
+amount  of  effort  from  HR  employees.  Moreover,  most  of  the  above  tasks  are  time-
+
+consuming and resource-demanding for HR staff. If we take, for example, such a typical 
+
+HR task as reviewing submitted resumes for a job and sending responses, we can notice 
+
+how  long  this  process  could  be  if  it  is  done  manually.  Then  for  the  company's 
+
+management it becomes clear that such sort of tasks as we mentioned above should be 
+
+optimized: this is the point when modern IT solutions come up [3]. 
+
+The  main  focus  of  this  work  is  the  utilization  of  Robotic  Process Automation 
+
+(RPA) technology and its applicability for the task automation of HR business unit. RPA 
+
+is a technology that allows to automate the execution of some repetitive and rule-based 
+
+tasks  by  using  software  robots  (bots).  These  bots  do  repetitive  and  routine  work, 
+
+7 
+
+ 
+replacing human employees, and thus saving their time and resources while speeding 
+
+up the entire working process, following the compliance and reducing the number of 
+
+errors. RPA bots operate with other software through the API or directly through the 
+
+user  interface. This  technology  has  received  a  lot  of  attention  in  the  last  decade  and 
+
+many  large  companies  are  implementing  RPA  solutions  in  order  to  optimize  the 
+
+performance of their various departmental processes. Currently there are many RPA-
+
+vendors  that  are  leading  on  the  international  market;  for  example,  we  can  mention 
+
+UiPath, Automation Anywhere, Blue Prism, Microsoft Power Automate and etc. On the 
+
+Russian  market,  one  of  the  most  recognizable  local  solutions  is  Pix  RPA  platform; 
+
+subsequently, we will implement our research aims using this particular software and 
+
+later the choice of software will be explained. 
+
+8 
+
+ 
+ 
+ 
+4. Review of existing approaches and methods 
+
+One  of  the  most  interesting  papers  on  this  topic  is  ‘Improving  Efficiency  and 
+
+Effectiveness  of  Robotic  Process Automation  in  Human  Resource  Management’.  It 
+
+describes the development of a human resource management system (HRMS) model 
+
+using RPA-bots to optimize repetitive manual tasks. In this paper, the authors show a 
+
+step-by-step methodology for developing an RPA solution, from process selection and 
+
+preparation  to  testing  accuracy  and  speed  of  execution. As  for  results,  the  authors 
+
+developed a number of RPA bots that optimize some HR-tasks related to operation with 
+
+employee’s personal data. These bots are designed for gathering, storing and accessing 
+
+data  from  the  database  and  performing  some  repetitive  tasks  using  this  data.  In  the 
+
+conclusion of the paper, the authors emphasize the reliability of RPA bots in terms of 
+
+accomplishing  their  tasks  in  comparison  to  real  employees.  The  reliability  and 
+
+efficiency are especially noticeable for large amounts of work; the authors highlight the 
+
+accuracy of bots in comparison to real employees, who tend to make mistakes when 
+
+performing  large  tasks  due  to  fatigue  or  poor  attention.  As  a  result,  the  authors 
+
+succeeded in developing an RPA solution that significantly accelerated the execution of 
+
+HR processes and greatly reduced the amount of workload carried out by HR employees 
+
+[4]. 
+
+The article “The Future Digital Work Force: Robotic Process Automation (RPA)” 
+
+explores  RPA  technology  as  a  solution  that  can  radically  change  the  approach  to 
+
+automation of routine manual tasks. This paper explores the knowledge in this direction 
+
+in details, giving possible implementation scenarios of RPA technology and illustrating 
+
+them with real business cases of large companies. The authors of the paper give a brief 
+
+overview of possible applications of RPA technology. In particular, they emphasize the 
+
+possibility  of  using  software  bots  in  the  IT  sphere,  telecom,  financial  services  and 
+
+banking, insurance industry, healthcare, manufacturing, and energy sector. The authors 
+
+9 
+
+ 
+note that in such different sectors we can find business processes that are quite similar 
+
+in their nature and problematics, so they can be optimized by using software bots [5]. 
+
+The article “Automating HR processes with Robotic Process Automation (RPA)” 
+
+is  a  qualitative  review  of  the  application  of  RPA  technology  for  optimizing  HR 
+
+processes with a focus on practical application. The article describes in details in which 
+
+processes  of  HR  department  automation  with  the  help  of  software  bots  can  achieve 
+
+maximum efficiency. The overview of this approach also covers its application in the 
+
+financial sector, as well as integration with modern artificial intelligence systems and 
+
+the possibility of using machine learning algorithms for other projects of a larger scale. 
+
+The  author  concludes  that  with  the  use  of  RPA-technologies  there  will  be  a 
+
+transformation of the roles of HR-employees in companies: they will have more time 
+
+to focus on such things as talent management, organizational development and culture 
+
+building,  while  processes  that  do  not  require  active  intellectual  work  could  be 
+
+performed by software bots [6]. 
+
+The article “Robotic Process Automation (RPA) as a Digitalization Related Tool 
+
+To  Process  Enhancement  and  Time  Saving”  analyzes  RPA  technology  as  a  digital 
+
+transformation tool for improving process efficiency. Special attention in the article is 
+
+paid  to  business  cases  that  show  the  effectiveness  of  this  technology  in  different 
+
+business  areas.  As  for  examples,  it  mentions  the  use  of  software  bots  for  data 
+
+management,  optimization  of  document  preparation  process  and  automation  of 
+
+financial  calculation  processes. A  significant  part  of  the  paper  is  focused  on  SWOT-
+
+analysis for RPA-technology. The author has conducted a comprehensive study of the 
+
+strengths  and  weaknesses  of  this  technology,  as  well  as  identified  potential 
+
+opportunities  and  threats. As  strengths,  the  author  notes  significant  cost  reduction, 
+
+increased business efficiency and quality of work, as well as employee satisfaction and 
+
+faster  job  completion. As  weaknesses  of  RPA-technology  the  author  pointed  out  the 
+
+need to intervene in the work of program bots in case of errors, as well as the need for 
+
+10 
+
+ 
+high quality data. Potential opportunities of RPA-technology are integration with AI, 
+
+solving problems with staff shortages and transformation of employee roles in favor of 
+
+more  intellectual  work.  Possible  threats  are  the  emergence  of  specialized  software 
+
+solutions that make the development of RPA-bots less useful, problems with change 
+
+management in companies and development problems. As a conclusion of this work, 
+
+the  author  emphasizes  that  the  use  of  RPA  can  bring  real  economic  and  operational 
+
+benefits  to  a  company  if  the  processes  to be  automated  are  properly  chosen  and  the 
+
+potential threats are taken into account [7]. 
+
+The article “Risks Associated With Robotic Process Automation” analyzes the 
+
+potential risks that emerge during the application of RPA-technology. The authors have 
+
+performed a detailed review of other works and business cases on the topic of software 
+
+robotization, as a result of which several classifications of possible risks associated with 
+
+the RPA implementation were presented. The authors focus on several key risks that 
+
+affect the overall success from the use of software bots; these risks include technology 
+
+risks, human factors, financial risks, and the risks of making the incorrect choices of 
+
+business processes to automate. Technology risks include software compatibility issues, 
+
+security  issues,  and  vulnerabilities  due  to changes  in  interface  design  (especially  for 
+
+bots  that  are  interacting  with  web  forms).  The  human  factor  involves  change 
+
+management problems, such as resistance to change from employees and lack of staff 
+
+competence  in  dealing  with  new  technology.  Regarding  financial  risks,  the  authors 
+
+mention  that  expectations  of  cost  reductions  are  often  overstated.  Furthermore,  they 
+
+mention  the  waste  of  resources  in  the  development  of  an  obviously  unsustainable 
+
+automation  project. Among  other  things,  the  authors  highlight  the  risks  of  choosing 
+
+unsuitable  processes  for  automation;  often  customers  do  not  understand  what  RPA 
+
+technology is used for and to which processes it can be applied, which leads to costly 
+
+and  inefficient  projects.  The  authors  conclude  their  work  with  the  opinion  that  the 
+
+adoption of RPA technology requires not only an understanding of the technical aspects, 
+
+11 
+
+ 
+but  also  business  knowledge  and  a  proper  assessment  of  all  potential  risks  for  each 
+
+particular case [8]. 
+
+12 
+
+ 
+ 
+ 
+5. Selection of the platform 
+
+As previously mentioned, the RPA-platform Pix RPA was chosen to implement 
+
+the  stated  objectives.  One  of  the  key  advantages  of  this  platform  is  its  flexible  and 
+
+convenient interface, which allows not only to write your own scripts in C#, but also to 
+
+take advantage of low-code systems, in particular, to use the built-in activities. Having 
+
+such a variety of standard activities, as well as documentation for each of them, makes 
+
+the development process much simpler. Thus, due to the combination of the advantages 
+
+of the low-code platform and the C# language, we can develop our scripts significantly 
+
+faster.  Another  remarkable  advantage  is  flexibility  and  scalability.  This  platform 
+
+provides all the tools essential for working with attended and unattended bots (attended 
+
+bots – run in user environment, unattended bots – run mostly on the server side without 
+
+user interaction); in addition, there are also necessary activities for the integration with 
+
+the  web  browsers  and  operating  system  elements,  as  well  as  various  assets  for 
+
+integration  with  databases  engines  (MS  SQL  Server,  Oracle,  PostgreSQL,  MySQL, 
+
+etc.), messengers (WhatsApp, Telegram, etc.), office application packages, and so on. 
+
+In addition, this  vendor of this software is  a Russian company, which minimizes the 
+
+possible problems with licensing and allows to get technical support and maintenance 
+
+much faster. 
+
+5.1 Chapter conclusions 
+
+As  a  result  of  this  chapter,  we  decided  to  select  Pix  RPA  platform  for  the 
+
+implementation  of  our  project.  This  particular  software  fits  all  our  requirements, 
+
+including  the  integration  with  MSSQL  databases  engine  and  Microsoft  Office.  In 
+
+addition to that, it is possible to use an add-on activity for setting up the integration with 
+
+Telegram messenger: this is especially beneficial if we want to organize the data input 
+
+for one of our bots in a dialog format.  
+
+13 
+
+ 
+6. The plan for addressing the assigned task 
+
+We  also  should  outline  where  exactly  the  RPA  technology  can  be  applied. As 
+
+stated earlier, this technology includes the creation of software bots that can emulate 
+
+the work of a human employee in routine and repetitive tasks. Thus, we can suggest the 
+
+following  types  of  tasks  that  can  be  handled  by  this  technology:  routine  (repetitive, 
+
+identical) tasks with lots of iterations, structured rule-based tasks, and tasks involving 
+
+dealing with large amounts of data, as well as on-demand manual tasks. In addition, 
+
+RPA technology is extremely effective in building integration with legacy or custom-
+
+developed  systems (usually, such systems  do not have integration points like API or 
+
+web-services) [9].  
+
+We  need  to  conduct  an  analysis  of  HR  tasks  that  would  show  us  for  which 
+
+specific processes we could apply RPA technology. From our list, the most appropriate 
+
+process for robotization is the process of recruiting new staff. The process of hiring new 
+
+employees necessarily involves a search for candidates. Often, the search for specialists 
+
+is being performed through special job portals, where candidates post their  CVs and 
+
+express  their  desire  to  find  a  job  in  a  particular  area.  The  candidate  search  process 
+
+includes the selection of profiles that meet the needs and policies of the company. This 
+
+process  fits  perfectly  with  the  description  of  the  process  for  robotization  that  we 
+
+outlined  above;  it  is  a  routine,  time-consuming  activity  that  involves  gathering 
+
+information  about  potential  job  candidates  and  saving  that  information  for  later 
+
+processing and communication with them. Thus, we can develop a software bot that 
+
+searches for the specific profiles for the required parameters and then saves the obtained 
+
+data  into  an  Excel  document  or  a  database.  We  will  develop  our  solution  based  on 
+
+priorities on the Russian market. In Russia, one of the most popular employee search 
+
+portals is HeadHunter's “hh.ru” service. Thus, we have to develop a bot that interacts 
+
+with the Web-interface of the “hh.ru” portal and emulates the work of an HR employee. 
+
+14 
+
+ 
+Moving  on  from  this,  Compensation  and  Benefits  (C&B)  HR  unit  also  has 
+
+suitable processes for robotization. This field of activity of the HR department involves 
+
+working with data and calculating certain indicators. Among these processes, there are 
+
+the  ones  that  are  repeated  at  certain  intervals,  calculating  values  according  to  some 
+
+certain pattern or template. One of the examples of such processes can be the calculation 
+
+of employee salaries in a form of “Base salary plus variable commission”. This type of 
+
+salary  implies  that  an  employee  has  a  fixed  monthly  salary,  as  well  as  bonuses  or 
+
+commissions for the completed deals and sales made at the end of every month. Often 
+
+this form of salary is applied to  employees of sales department, where the bonus for 
+
+each sale is calculated according to some coefficient (not necessarily constant for each 
+
+deal). This  process  perfectly  fits  the  criteria  that  we  have  established  earlier;  in  this 
+
+case, the human work could be replaced by a bot that accesses the company's database, 
+
+looks up the necessary information for each employee, and calculates their full monthly 
+
+salary (the sum of salary and commission). This bot can save a considerable amount of 
+
+time  that  an  ordinary  HR  employee  usually  spends  on  searching  the  database  and 
+
+calculating salaries manually. 
+
+Another activity that we want to automate is personnel management. As we have 
+
+described  earlier,  the  responsibilities  of  HR  employees  include  the  preparation  of 
+
+various  documents  requested  by  company  employees.  One  of  such  documents  is  a 
+
+certificate  of  employment.  Such  certificates  are  often  made  according  to  the  same 
+
+template, they contain personal information about the employee and his/her position in 
+
+the company. The preparation of such documents and their equivalents is often a routine 
+
+activity that HR department employees perform upon the requests of the company staff. 
+
+This process is an on-demand manual process, which involves extracting the necessary 
+
+information  about  the  employee  and  drafting  a  document  based  on  a  template.  Such 
+
+work  could  also  be  replaced  by  some  kind  of  an  RPA-bot  that  would  access  the 
+
+company's  employee  directory  (a  database, Active  Directory,  ERP  system,  etc.)  and 
+
+15 
+
+ 
+then prepare a compiled document of the specified format (usually, Microsoft Excel, 
+
+Word or .pdf document). This is another good example of a process where the usage of 
+
+RPA technology impacts the company a lot, with greater efficiency. Implementing the 
+
+interaction with an RPA-bot via a popular messenger (for example, Telegram), we can 
+
+reduce  the  total  time  spent  by  a  company  employee  for  communication  with  HR 
+
+department, thereby freeing the latter from the time-consuming task, that they can spend 
+
+for more intellectual work.  
+
+It is also worth mentioning the other HR tasks we described at the beginning of 
+
+our study. When we are trying to automate certain processes, we should always keep in 
+
+mind for what exactly  our approaches are used. In our case, we first outlined where 
+
+exactly  RPA  technology  is  applicable,  and  then  listed  the  processes  in  the  HR 
+
+department  where  this  technology  can  give  a  significant  increase  in  productivity. 
+
+Regarding  employee  training  and  development,  this  process  mostly  requires  a 
+
+personalized  approach  to  each  employee.  This  means  that  in  order  to  effectively 
+
+perform  these  duties,  an  individualized  approach  to  each  particular  case  is  essential. 
+
+This type of tasks does not contain repetitive and identical elements, but on the contrary, 
+
+require a lot of intellectual resources. Thus, in this type of HR tasks robotization is not 
+
+applicable by its definition. Moving on to the evaluation of personnel performance, here 
+
+the  question  is  raised  about  the  advisability  of  using  the  RPA-technology  for  this. 
+
+Unlike all previous HR tasks, there are plenty of software solutions for performance 
+
+evaluation that allow managers to calculate the necessary coefficients quickly. This is 
+
+a  whole  separate specialty  that  has  its  own  software  and  its  own  unique  methods  of 
+
+evaluation and visualization of outcomes. RPA technology focuses more on automating 
+
+certain actions within business processes and speeding up manual work. Thus, RPA-
+
+technology will not be the most effective solution in this area, as it does not fit the main 
+
+criteria in which this type of automation is used. 
+
+16 
+
+ 
+To store the data of this project securely and performing data management, we 
+
+will need to use a database. We will use MS SQL server, which will have an architecture 
+
+that  simulates  the  database  of a  real  organization. We  will  use  synthetic  data,  as  the 
+
+purpose of our project is first of all to demonstrate the effectiveness of RPA-technology 
+
+application in the field of HR. 
+
+Below you can see a visualization of the database architecture we will use in our 
+
+work, as well as comments on each table and the descriptions for the variables [Fig.1]. 
+
+Fig. 1. Database diagram of the project 
+
+ 6.1 Database description 
+
+Employees – this table contains information about company’s staff. It includes 
+
+employee’s full name, contact data and dates of birthday, hiring and retirement (last one 
+
+for the case if some employee had left the company). Description is presented on Table 
+
+1. 
+
+17 
+
+ 
+ 
+ 
+Table 1. Employees table 
+
+Column name 
+EmployeeID 
+LastName 
+FirstName 
+MiddleName 
+BirthDate 
+HireDate 
+RetireDate 
+
+Phone 
+Email 
+Address 
+
+Description 
+ID of an employee (primary key, autoincremented) 
+Last name of an employee 
+First name of an employee 
+
+Datatype 
+int 
+nvarchar(50) 
+nvarchar(50) 
+nvarchar(50)  Middle name of an employee 
+date 
+date 
+date 
+
+Birth date of an employee 
+Day when employee was hired 
+Day when employee retired and left the position (empty 
+for employees who are not retired) 
+Phone number of an employee 
+Active email of an employee 
+
+nvarchar(50) 
+nvarchar(50) 
+nvarchar(255)  Address of an employee 
+
+Sales – this table contains a historic data about successful sales made. Each sale 
+
+is supervised by one of the company’s employees, so  his/her name is saved, together 
+
+with  the  monetary  amount  of  sale  and  the  commission  percentage,  assigned  to  the 
+
+salesman. Description is presented on Table 2. 
+
+Table 2. Sales table 
+
+Column name 
+SaleID 
+EmployeeID 
+
+SaleDate 
+Amount 
+Commission 
+
+Datatype 
+int 
+int 
+
+Description 
+ID of the sale (primary key, autoincremented) 
+ID of an employee who is responsible for this sale 
+(foreign key) 
+Date when sale happened 
+
+datetime 
+decimal(18, 2)  Sale amount 
+decimal(18, 2)  Commission percentage for the salesman 
+
+SalaryData  –  this  table  contains  a  historic  data  about  payrolls.  For  each 
+
+particular payroll, it contains the ID of a recipient, date when payroll was made and the 
+
+total amount paid. Description is presented on Table 3. 
+
+Table 3. SalaryData table 
+
+Column name 
+SalaryID 
+EmployeeID 
+SalaryDate 
+TotalSalary 
+
+Datatype 
+int 
+int 
+datetime 
+decimal(18, 2)  Total amount of salary 
+
+Description 
+ID of the payroll (primary key, autoincremented) 
+ID of an employee who receives this salary (foreign key) 
+Date when the salary was paid 
+
+18 
+
+ 
+ 
+ 
+EmploymentCertificatesLog  –  this  table  contains  a  historic  data  about 
+
+employment certificates that were created. For each log, there is an ID of a certificate, 
+
+ID of an employee who ordered it, date of creation and an explanation of the purpose 
+
+for creating this certificate (in text form). Description is presented on Table 4. 
+
+Table 4. EmploymentCertificatesLog table 
+
+Column name 
+LogID 
+CertificateID 
+EmployeeID 
+
+Datatype 
+int 
+int 
+int 
+
+DateOfCreation 
+Purpose 
+
+datetime 
+nvarchar(255) 
+
+Description 
+ID of the log (primary key, autoincremented) 
+ID of the certificate  
+ID of the employee who ordered the certificate (foreign 
+key) 
+Date when the certificate was created 
+Purpose for giving this certificate 
+
+EmployeePositions  –  this  table  is  a  technical  one,  it  was  created  in  order  to 
+
+simplify  Many-To-Many  relation  between  tables  Employees  and  Positions.  For  each 
+
+relation, it contains ID of employee and an ID of this employee’s position. Description 
+
+is presented on Table 5. 
+
+Table 5. EmployeePositions table 
+
+Column name 
+ID 
+EmployeeID 
+
+Datatype 
+int 
+int 
+
+PositionID 
+
+int 
+
+Description 
+ID of connection (primary key, autoincremented) 
+ID of the employee who occupies a certain position 
+(foreign key) 
+ID of the position taken by a particular person (foreign 
+key) 
+
+Positions  –  this  table  contains  information  about  all  positions  that  exist  in  a 
+
+company. For each position, there is an ID of the department in belongs to, its full title 
+
+and fixed salary. Description is presented on Table 6. 
+
+Table 6. Positions table 
+
+Column name 
+PositionID 
+
+Datatype 
+int 
+
+DepartmentID 
+
+int 
+
+Description 
+ID of a certain position in the company (primary key, 
+autoincremented) 
+ID of the department to which the position belongs to 
+(foreign key) 
+
+19 
+
+ 
+ 
+ 
+PositionTitle 
+FixedSalary 
+
+nvarchar(255)  Name of the position  
+decimal(18, 2)  Fixed amount of salary assigned to this position 
+
+Departments  –  this  table  contains  information  about  the  departments  in  the 
+
+company. For each ID in this table, there is a full title of the department. Description is 
+
+presented on Table 7. 
+
+Table 7. Departments table 
+
+Column name 
+DepartmentID 
+DepartmentName 
+
+Datatype 
+int 
+nvarchar(255)  Name of the department 
+
+Description 
+ID of the department (primary key, autoincremented) 
+
+CandidateSearchParams - this table contains the ID of the launch, as well as 
+
+the selected parameters that user has specified. Description is presented on Table 8. 
+
+Table 8. CandidateSearchParams table 
+
+Column name 
+SearchID 
+SearchRole 
+
+Datatype 
+int 
+nvarchar(500) 
+
+Description 
+ID of bot launching (primary key, autoincremented) 
+Specialization of the employee the company is looking 
+for 
+
+SearchCountry 
+SearchGender 
+SearchStatus 
+RelocationStatus 
+WorkExperience 
+AgeFrom 
+AgeTo 
+VacancyCount 
+
+Job search status given by the candidate 
+
+nvarchar(200)  Citizenship of the candidate 
+nvarchar(200)  Gender of the candidate 
+nvarchar(200) 
+nvarchar(200)  Candidate's status regarding relocation 
+nvarchar(200)  Candidate’s work experience 
+nvarchar(200)  The minimum age of the candidate 
+nvarchar(200)  The maximum age of the candidate 
+nvarchar(200)  Number of profiles searched during the launching 
+
+CandidateSearch  –  this  table  contains  data  on  searched  profiles,  which  were 
+
+obtained by using our bot. The primary key is VacancyID, which is the identifier of the 
+
+found profile; SearchID contains the bot launch identifier, during which this profile was 
+
+found. This table includes the title of the profile and brief personal information about 
+
+the candidate, as well as his/her specialization, work experience, education, expected 
+
+20 
+
+ 
+ 
+ 
+ 
+salary, citizenship, place of residence and a link to this profile on “hh.ru”. Description 
+
+is presented on Table 9. 
+
+Table 9. CandidateSearch 
+
+Column name 
+VacancyID 
+SearchID 
+
+ResumeTitle 
+PersonalInfo 
+Speciality 
+WorkingExperience 
+Education 
+ExpectedSalary 
+Citizenship 
+Location 
+ResumeURL 
+
+Datatype 
+int 
+int 
+
+Description 
+ID of the profile (primary key, autoincremented) 
+ID of the search in which the profile was found (foreign 
+key) 
+nvarchar(255) 
+Title of the profile 
+nvarchar(MAX)  Brief information about the candidate 
+nvarchar(1000)  Candidate specialization 
+nvarchar(MAX)  Working experience of the candidate 
+nvarchar(MAX)  Brief information about the candidate's education 
+nvarchar(255) 
+nvarchar(255) 
+nvarchar(500) 
+nvarchar(500) 
+
+Candidate’s expected salary (if provided) 
+Candidate’s citizenship 
+Candidate’s place of living 
+URL to the original profile 
+
+6.2 RPA-bots description 
+
+ 6.2.1 Description of the bot for profile searching 
+
+•  The bot starts with generating an ID of the launch, and then allows the user to set 
+
+up  the  parameters  in  the  dialog  window  for  searching  the  required  profiles 
+
+[Fig.2]. After  entering  the  parameters  and  the  number  of  vacancies,  the  user 
+
+clicks “OK” button, and then the bot performs all the searching job on its own.  
+
+•  Bot starts its search by launching the Google Chrome browser and navigating to 
+
+the “hh.ru” portal via the URL address. This address was previously constructed 
+
+according to the parameters that user entered in the form.  
+
+•  Bot loads the page where the required profiles are listed one by one [Fig.3]. In 
+
+this representation the majority of required data is listed on the page, so our bot 
+
+starts parsing. Initially, bot scans all the data using the XPath, and stores it in 
+
+temporary files; then it processes the data for each particular profile, removing 
+
+the unnecessary constructions and saving the obtained data in the resulting Excel 
+
+document. During the process described above, the bot obtains the information 
+
+21 
+
+ 
+ 
+about the resume title, specialization, working experience, education, citizenship, 
+
+current location and link to the original resume. Candidate’s brief description and 
+
+expected salary are listed inside each of these profiles, so our bot needs to iterate 
+
+through all of them and collect this data.  
+
+•  Bot navigates the profile links one by one and collects data about the candidate 
+
+and  the  preferred  salary  [Fig.  4].  On  this  stage,  bot  has  prepared  an  Excel 
+
+document that was requested by user, with styles and all necessary information 
+
+for the candidates [Fig. 5].  
+
+•  The last step is saving all the data to the company’s database. For this, bot uses 
+
+the Pix RPA platform’s built-in activity for interaction with databases. The bot 
+
+creates an SQL query and saves the resulting table to the database, additionally 
+
+putting the ID of the search in a separate column.  
+
+•  After performing all the above operations, the bot closes the Chrome browser. 
+
+Fig.2. Input form 
+
+22 
+
+ 
+ 
+Fig.3 "hh.ru" portal page, bot navigates it after obtaining the search parameters 
+
+Fig.4 Interface of the profile page 
+
+23 
+
+ 
+ 
+ 
+ 
+ 
+Fig.5 Resulting Excel table with collected profiles 
+
+The profile data that was saved to the company’s database could be used on the 
+
+further stages of approval by HR employees, so we decided to demonstrate the usability 
+
+of our RPA-bot by adding to our project a web-interface for interacting with collected 
+
+data [Fig. 6]. The interface that we have developed could be used for finding vacancies 
+
+among those ones that were collected by our bot. The web form was done with K2 Low-
+
+Code  Designer,  which  makes  it  very  easy  to  develop  the  interface  and  set  up  the 
+
+communication with the database without any coding.  
+
+24 
+
+ 
+ 
+Fig. 6 Web-interface for interacting with collected data 
+
+6.2.2 Description of the bot for calculating salaries 
+
+•  The bot starts with opening a form for initial details input by the user [Fig.7]. On 
+
+this  form  a  user  can  select  some  particular  year  and  month,  for  which  he  can 
+
+calculate salaries of the employees. After the form is completed, the user clicks 
+
+“OK” to initiate the calculation process. 
+
+•  Bot  starts  execution.  It  makes  a  request  to  the  company’s  MSSQL  server. To 
+
+calculate salaries and outputting the amount for the month, bot needs to find out 
+
+the performed sales activities of company’s employees, get their fixed salaries 
+
+corresponding to their roles and calculate the total commission and total salary.  
+
+•  The  resulting  data  is  saved  to  the  Excel  spreadsheet  which  is  being  generated 
+
+from the template and may contain some corporate styling [Fig. 8].  
+
+•  The bot sets up a correct data format for the columns (monetary values in Russian 
+
+rubles). 
+
+25 
+
+ 
+ 
+ 
+•  The bot saves the file and stops execution. 
+
+Fig. 7 Form for input data from the user 
+
+Fig.8 Salaries that were calculated by the bot and presented in an Excel format 
+
+6.2.3 Description of the bot for generating employment certificates 
+
+This bot will perform communication with a user via Telegram messenger, and 
+
+generate the employment certificate by addressing company’s database. We decided to 
+
+organize the architecture of this bot in the following way: we have created a master 
+
+RPA-script that is responsible for integration with Telegram messenger and dialog with 
+
+users and a sub-bot responsible for generating certificates that can be triggered by the 
+
+master.  The  sub-bot  obtains  the  parameters  that  user  imputed  via  chat,  gets  all  the 
+
+necessary  information  from  a  company’s  database  and  generates  an  employment 
+
+certificate.  
+
+26 
+
+ 
+ 
+ 
+ 
+For the master bot we have used an activity called “Telegram Manager” that was 
+
+introduced by Pix Robotics company. We created a chat for our bot by using the special 
+
+Telegram services, and used a generated security token to connect to it.  
+
+•  To start a dialog with our bot, a user needs to write a greeting word to the chat; 
+
+the  bot  will  respond  with  brief  instructions  on  how  to  enter  the  required  data 
+
+properly [Fig. 9]. Each step of communication is denoted by some state value, 
+
+which is stored in an integer variable.  
+
+•  When the dialog with the user progresses to the next stage, our bot goes to the 
+
+next state and executes its commands [Fig. 10]. If an error occurred on some of 
+
+the states due to the wrong format of inputted data, bot will inform the user and 
+
+ask to re-apply the application for employment certificate. Bot saves states for 
+
+each user independently (using dictionary): this means that bot could be used by 
+
+several people at one time.  
+
+•  For  the  script  that  generates  the  employment  certificates,  it  starts  with 
+
+establishing  a  connection  to  the  database and  creates  a  request  to  the MSSQL 
+
+server of the company. It is necessary for obtaining employee’s position, ID, date 
+
+of  hiring  and  size  of  salary;  this  data  will  be  used  to  generate  the  required 
+
+document.  
+
+•  Then script fills the document according to the predefined template given by the 
+
+company,  inserts  all  the  necessary  data  and  obtains  the  ID  of  the  resulting 
+
+employment certificate.  
+
+•  The bot saves the resulting document to the predefined folder, where it can be 
+
+picked  up  by  the  master script  that  is  responsible  for  the  communication  with 
+
+Telegram.  
+
+•  After this, the generated document is sent to the user via the messenger [Fig. 11].  
+
+27 
+
+ 
+ 
+Fig.9 User initiates dialog with the bot 
+
+Fig.10 Interaction with the bot via the messenger 
+
+28 
+
+ 
+ 
+ 
+ 
+ 
+Fig.11 Example of the generated employment certificates for one of the employees of the company. The screenshot is taken from the 
+PDF document that was generated by the RPA-bot 
+
+6.3 Chapter conclusions 
+
+In this chapter, we have outlined the specific HR tasks that are addressed by our 
+
+RPA-bots. Additionally, we have given a detailed structure of our project. For each of 
+
+the  selected  categories  of  tasks  that  we  have  chosen  as  suitable  for  robotization,  we 
+
+have picked the specific HR duties that we will work with, and for which we aim to 
+
+reach the maximum efficiency. Within the separate paragraphs, we have described the 
+
+database architecture that we used in our project, as well as provided  the descriptions 
+
+of how each of our RPA-bots is operating. We have categorized the operation process 
+
+of each of the bots into the separate points, and demonstrated the way each of our RPA-
+
+scripts  works.  As  a  result  of  this  chapter,  we  have  developed  the  three  RPA-bot 
+
+according to the architecture that we have described in these paragraphs.  
+
+29 
+
+ 
+ 
+Links to the RPA-scripts are published on GitHub, and could be accessed by the 
+
+link that is stated in the Appendix [11]. URL of the web-form for reviewing results of 
+
+profile searching is stated in Appendix [12]. 
+
+7. Obtained results 
+
+In  order  to  demonstrate  the  effectiveness  of  our  bots,  we  should  test  their 
+
+functionality, record their time of execution and evaluate the result. For our case, the 
+
+most  representative  comparison  is  to  compare  the  results  of  our  test  with  the  real 
+
+activities of human employees. In order to perform this task, I decided to collect  the 
+
+data from an HR-specialist in the company where I work. The HR-employee should 
+
+perform the same tasks with the same input parameters as the bot will do. We will focus 
+
+our attention mostly on the execution time; also, we will validate the obtained result for 
+
+errors and ensure the quality of the results. 
+
+Analyzing  the  performance  of  the  first  bot,  I  decided  to  do  the  following.  I 
+
+decided to design nine different candidate requests; they are presented in the Table 10 
+
+below.  
+
+Table 10. Requests for the first bot 
+
+Request 
+number 
+
+Position 
+
+Citizenship  Gender 
+
+Request 1  ML-Engineer  Russia 
+
+Female 
+
+Request 2 
+
+Request 3 
+
+Frontend-
+developer 
+
+.NET 
+developer 
+
+Russia 
+
+Male 
+
+Russia 
+
+Male 
+
+Request 4 
+
+System 
+Analyst 
+
+Request 5  Web-
+
+developer 
+
+Any 
+
+Any 
+
+Russia, 
+Kazakhstan, 
+Belarus, 
+Armenia, 
+Azerbaijan  
+Russia, 
+Kazakhstan, 
+Belarus 
+
+Relocation 
+
+Live in their 
+place or ready 
+to relocate 
+Live in their 
+place or ready 
+to relocate 
+Live in their 
+region 
+
+Search 
+status 
+
+Looks 
+for offers 
+
+Looks 
+for offers 
+
+Actively 
+searches 
+for the 
+job 
+Looks 
+for offers 
+
+Work 
+experience 
+
+1-3 years 
+
+Age: 
+lower 
+bound 
+20 
+
+Age: 
+Upper 
+bound 
+- 
+
+Number 
+of 
+profiles 
+4 
+
+3-6 years 
+
+25 
+
+1-3 years 
+
+20 
+
+50 
+
+40 
+
+5 
+
+6 
+
+8 
+
+Live in their 
+region 
+
+- 
+
+30 
+
+45 
+
+1-3 years 
+
+25 
+
+- 
+
+10 
+
+Actively 
+searches 
+for the 
+job 
+
+Live in their 
+place or ready 
+to relocate 
+
+30 
+
+ 
+Request 6 
+
+System 
+Administrator 
+
+Russia 
+
+Male 
+
+- 
+
+Request 7 
+
+Data-
+Engineer 
+
+Russia 
+
+Male 
+
+Request 8 
+
+DevOps-
+Engineer 
+
+Russia 
+
+Male 
+
+Request 9 
+
+Tester 
+
+Russia 
+
+Male 
+
+Looks 
+for offers 
+
+Looks 
+for offers 
+
+Looks 
+for offers 
+
+Live in their 
+place or ready 
+to relocate 
+Not living in 
+the region, 
+ready to 
+relocate 
+Live in their 
+place or ready 
+to relocate 
+Live in their 
+place or ready 
+to relocate 
+
+3-6 years 
+
+- 
+
+50 
+
+12 
+
+- 
+
+- 
+
+- 
+
+21 
+
+49 
+
+14 
+
+25 
+
+49 
+
+16 
+
+- 
+
+40 
+
+18 
+
+These  requests  will  be  offered  to  both  the  real  employee  and  the  bot  I  have 
+
+created. In the Table 11 below you can find the resulting outcomes. 
+
+Table 11. First scenario results 
+
+Request 1  Request 2  Request 3  Request 4  Request 5 
+
+Request 6 
+
+Request 7  Request 8  Request 9 
+
+Human 
+HR-
+employee 
+
+RPA-bot 
+
+12 min 44 
+sec 
+
+14 min 58 
+sec 
+
+17 min 34 
+sec 
+
+21 min 18 
+sec 
+
+24 min 14 
+sec 
+
+26 min 34 
+sec 
+
+27 min 21 
+sec 
+
+28 min 5 
+sec 
+
+28 min 44 
+sec 
+
+1 min 10 
+sec 
+
+1 min 17 
+sec 
+
+1 min 30 
+sec 
+
+1 min 56 
+sec 
+
+2 min 36 
+sec 
+
+2 min 53 
+sec 
+
+2 min 58 
+sec 
+
+3 min 46 
+sec 
+
+4 min 2 
+sec 
+
+For the second bot, the task is to make a calculation of employee salaries for five 
+
+months randomly selected by me. These months are indicated in the Table 12 below. 
+
+Table 12. Requests for the second bot 
+
+Request name 
+
+Request 1 
+
+Request 2 
+
+Request 3 
+
+Request 4 
+
+Request 5 
+
+Year 
+
+2024 
+
+2024 
+
+2024 
+
+2025 
+
+2025 
+
+Month 
+
+May 
+
+August 
+
+November 
+
+January 
+
+March 
+
+For comparison, a real employee is given the exact same task with the same dates. 
+
+The results by time are presented in the Table 13 below. 
+
+31 
+
+ 
+ 
+ 
+ 
+ 
+Table 13. Results for the second scenario 
+
+Request 1 
+
+Request 2 
+
+Request 3 
+
+Request 4 
+
+Request 5 
+
+Human HR-employee 
+
+11min 43 sec 
+
+12 min 34 sec 
+
+11 min 22 sec 
+
+10 min 56 sec 
+
+11 min 15 sec 
+
+RPA-bot 
+
+9 sec 
+
+8 sec 
+
+9 sec 
+
+10 sec 
+
+9 sec 
+
+The task of the third bot is to generate certificates to 18 different employees of 
+
+the company. Relevant employees will be selected and the reasons why they take the 
+
+certificate will be provided. The input parameters for testing can be found in the Table 
+
+14 below. 
+
+Table 14. Requests for the third bot 
+
+Request number 
+
+Name of the employee 
+
+Reason 
+
+Request 1 
+
+Request 2 
+
+Request 3 
+
+Request 4 
+
+Request 5 
+
+Request 6 
+
+Request 7 
+
+Request 8 
+
+Request 9 
+
+Request 10 
+
+Request 11 
+
+Request 12 
+
+Request 13 
+
+Request 14 
+
+Request 15 
+
+Request 16 
+
+Request 17 
+
+Request 18 
+
+Устинова Валерия Денисовна 
+
+“Хочу получить визу” 
+
+Вишняков Леонид Вячеславович 
+
+“Получение визы” 
+
+Филиппова Василиса Всеволодовна 
+
+“Беру для новой визы” 
+
+Кириллова Александра Вениаминовна 
+
+“Нужно для оформления документов” 
+
+Евсеев Виктор Евдокимович 
+
+“Хочу оформить справку для отпуска.” 
+
+Полякова Лидия Арсениевна 
+
+“Для съема квартиры” 
+
+Логинов Ярополк Гуриевич 
+
+Гордеев Зиновий Олимпиевич 
+
+“Нужно подать документы на визу. Нужна справка о 
+трудоустройстве” 
+“Оформляю документы на визу” 
+
+Якушева Евдокия Гостомысловна 
+
+“Для съема жилья” 
+
+Юдина Элеонора Творимировна 
+
+“Нужно подтвердить занятость” 
+
+Пахомов Лавр Проклович 
+
+“Оформление визы” 
+
+Громова Иванна Симоновна 
+
+“Нужна справка для получения визы” 
+
+Гришина Елизавета Егоровна 
+
+“Нужна справка для съема квартиры в г. Москве” 
+
+Николаева Елизавета Фотиевна 
+
+Белоусов Ладимир Твердиславович 
+
+Дроздов Епифан Германович 
+
+Зыков Адам Егорович 
+
+“Хочу оформить документы для получения визы, 
+чтобы поехать в отпуск.” 
+“Беру для новой визы” 
+
+“Нужна справка для оформления визы, прошу 
+сделать побыстрее” 
+“Беру справку о трудоустройстве для съема жилья” 
+
+Бобылева Вера Афанасиевна 
+
+“Нужна справка для оформления новой визы” 
+
+The manual creation of these references was assigned to a real HR employee and 
+
+a comparison of the results is presented in the Table 15-17 below. 
+
+32 
+
+ 
+ 
+ 
+ 
+ 
+Table 15. Results for the third scenario 
+
+Human HR-employee 
+
+Request 1 
+10 min 40 sec 
+
+Request 2 
+10 min 53 sec 
+
+Request 3 
+11 min 8 sec 
+
+RPA-bot 
+
+51 sec 
+
+48 sec 
+
+53 sec 
+
+Request 4 
+10 min 45 
+sec 
+49 sec 
+
+Request 5 
+9 min 12 sec 
+
+50 sec 
+
+Request 6 
+11 min 47 
+sec 
+47 sec 
+
+Table 16. Results for the third scenario 
+
+Human HR-employee 
+
+Request 7 
+13 min 45 sec 
+
+Request 8 
+10 min 48 sec 
+
+Request 9 
+8 min 18 sec 
+
+Request 10 
+9 min 56 sec 
+
+RPA-bot 
+
+50 sec 
+
+54 sec 
+
+51 sec 
+
+51 sec 
+
+Request 11 
+10 min 32 
+sec 
+49 sec 
+
+Request 12 
+14 min 21 
+sec 
+50 sec 
+
+Table 17. Results for the third scenario 
+
+Human HR-employee 
+
+Request 13 
+13 min 16 sec 
+
+Request 14 
+15 min 6 sec 
+
+RPA-bot 
+
+52 sec 
+
+50 sec 
+
+Request 15 
+14 min 56 
+sec 
+48 sec 
+
+Request 16 
+11 min 54 
+sec 
+50 sec 
+
+Request 17 
+13 min 36 
+sec 
+52 sec 
+
+Request 18 
+12 min 34 
+sec 
+51 sec 
+
+33 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+8. Conclusions 
+
+After obtaining the performance results and measuring the execution speed for 
+
+all  three  RPA  bots  created  during  this  work,  it  is  possible  for  us  to  formulate 
+
+conclusions.  For  each  scenario,  we  conducted  a  series  of  tests  in  order  to  measure 
+
+possible performance deviations for different user requests. 
+
+8.1 Profile search 
+
+The requests for applications were quite detailed and contained a lot of additional 
+
+parameters. A person who searched for such profiles  manually had to spend time on 
+
+opening  the  browser,  navigating  to  “hh.ru”,  authentication,  selecting  “search 
+
+candidates”  menu  item,  filling  the  necessary  tags  on  the  search  form,  getting  and 
+
+validating results, and lastly transferring the results to Excel spreadsheet and a database 
+
+manually (field-by-field). Alternatively, our RPA-bot performs all the specified actions 
+
+in auto-mode (for example, accesses the server directly with URL with embedded tags, 
+
+uses XPath technology to parse the data from the web pages, and use out-of-the-box 
+
+integration  capabilities  to  populate  data  into  Excel  spreadsheet  and  database 
+
+simultaneously).  
+
+Based on the performed test results we can make the following conclusions: 
+
+•  RPA-bot reduces the execution time to complete a vacancy search request from 
+
+~3.5 minutes to ~24 seconds per one search profile.  
+
+•  RPA-bot will be more effective in case we need to process more vacancy search 
+
+requests. RPA-bot works 24/7 and does not have to take a break or switch to 
+
+another task in between.  
+
+•  During our tests, RPA-bots did zero mistakes.  
+
+•  RPA-bot  uploads  the  data  and  search  parameters  directly  to  the  company's 
+
+server; an HR employee would have needed additional time to connect to the 
+
+system  and  enter  the  data  using  the  standard  method.  More  integrated 
+
+34 
+
+ 
+informational systems the company has, the greater efficiency will be achieved 
+
+with RPA technology. 
+
+8.2 Calculation of salary data 
+
+Normally,  HR  employee  does  all  the  calculations  with  the  help  of  third-party 
+
+software, like CRM or ERP tool, MS Excel or manually. Our solution allows to increase 
+
+the total speed and performance of calculating dynamic salaries. The key difference is 
+
+the  time  spent  on  connecting  to  the  database  and  entering  the  necessary  values  and 
+
+formulas into the system interface. The RPA-bot produces the final result in less than 
+
+10 seconds; unlike the manual process, the bot only asked for the required data (year, 
+
+month) for which the calculation has to be made. In our tests, we have demonstrated 
+
+that  RPA  bots,  due  to  their  integration  capabilities  and  flexibility,  can  be  extremely 
+
+effective  in  optimizing  processes  that  consist  of  uniform  and  repetitive  database 
+
+queries.  
+
+8.3 Employment certificate bot 
+
+In this scenario, we managed to achieve a significant acceleration of document 
+
+generation with no data errors. As an example, we have started the bot 18 times, and 
+
+recorded the resulting execution time. In all the cases, the bot performed the task almost 
+
+ten  minutes  faster  than  a  human;  whereas  a  human  needed  almost  11  minutes  to 
+
+compose and send the document to Telegram chat to the applicant, RPA-bot handled 
+
+this task in ~50 seconds. With large volumes, RPA-bot saves a significant amount of 
+
+time,  it  gives  almost  16  hours  of  economy  for  every  100  documents.  It  also  gives  a 
+
+significant financial value. 
+
+In addition, the bot recorded a log of issued certificates: information about issued 
+
+certificates, applicants, dates and written explanations of the reasons for the request was 
+
+recorded in the company's database, which makes it possible to create different kind of 
+
+reports and KPIs. 
+
+35 
+
+ 
+8.4 Common conclusions 
+
+Concluding the results of our work, it should be noted that we managed to show 
+
+in  practice  the  advantages  of  RPA-technology  application  for  HR  tasks  automation. 
+
+While  working  on  this  project,  we  have  identified  the  areas  of  HR  where  RPA 
+
+automation could significantly speed up the work processes overall. We also saw that 
+
+using RPA technology reduces the number of errors to zero,  it solves the problem of 
+
+integration with internal and legacy systems. In addition, RPA technology significantly 
+
+increases the efficiency and performance due to 24/7 continuous work without holidays, 
+
+weekends,  vacations,  and  sick  leaves.  What  is  even  more  important,  with  RPA 
+
+technology we can free large amount of employees’ time to perform more intellectual 
+
+and decision-making work.  
+
+9. Further development 
+
+Considering the future of the work we have done, we can say that it has a great 
+
+potential  regarding  the  further  optimization  of  performance  of  HR  activities  that  we 
+
+have discussed here. This program project has covered only a fraction of the activities 
+
+that HR performs. Therefore, we suggest that this work has many options for further 
+
+development, including deepening into the specific areas of HR activities and creating 
+
+more detailed program solutions based on what we have done in this work.  
+
+For the recruitment process, for example, we may suggest the development of a 
+
+digital solution for a complete multi-level approval system for the onboarding process. 
+
+In this case, we can use the bot we have developed for profile searching as a basis for 
+
+the future RPA-project of onboarding automatization, because the search of candidates 
+
+is always one of the first and most important steps during the process of recruiting new 
+
+employees. This project will also involve integration with the company's BPM or ERP 
+
+systems, as well as working with the organization's database. 
+
+36 
+
+ 
+The  future  project  may  evaluate  the  usefulness  of  robotization  for  candidate 
+
+approval processes, forming job offers, automatic creation of new employee’s accounts 
+
+in company’s active directory, and so on. So, there are lots of opportunities for further 
+
+development of the project in this area. 
+
+We can also add some ideas about applying AI technology together with RPA for 
+
+optimizing some other HR processes. For example, we thought about extension to our 
+
+work,  which  would  imply  the  development  of  AI  model  for  analyzing  the  parsed 
+
+resumes  and  determining  the  most  suitable  candidates  for  the  position. This  project 
+
+could  demonstrate  the  effectiveness  from  the  collaborative  usage  of  RPA  and AI,  as 
+
+well  as  demonstrate  the  acceleration  of  this  business  process  execution  in  practice. 
+
+Moreover, various machine learning and neural network techniques could be used for 
+
+classification of the resumes collected by our bot, which could allow HR employee to 
+
+select the appropriate types of candidates much faster, without reading through all of 
+
+them. 
+
+The future solution could also focus on more detailed robotization of personnel 
+
+management functions. In our work, we have considered only one type of requests, and 
+
+made  it  possible  to  create  them  directly  via Telegram.  In  the  future,  it  is  possible  to 
+
+expand this part of the project and make a larger RPA-solution that could create a larger 
+
+number of different documents, as well as make requests within the corporate portal 
+
+and forward documents for signing. Thus, we could speed up the creation of a greater 
+
+variety of documents and make it possible to do all these processes via the messenger. 
+
+37 
+
+ 
+ 
+ 
+ 
+10. Reference list 
+
+[1]  Charles,  Cayrat. The  roles  of  the  HR  function: A  systematic  review  of  tensions, 
+continuity and change  / Cayrat Charles, Boxall Peter. — text // Elsevier. — 2023. — 
+Human Resource Management Review 33. 
+
+[2] Goyal, K. Human resource management practices and employee engagement / K. 
+Goyal, A. Nigam, N. Goyal. — text // International Journal of Human Capital in Urban 
+Management (IJHCUM). — 2023. — 8(4). — 559-572. 
+
+[3]  Dr.  Malla  Jogarao. Workplace Automation  and  Its  Impact  on  HR  Practices  /  Dr. 
+Malla  Jogarao,  Dr.  S. T.  Naidu,  Hemalatha Tattikota.  —  text  //  JETIR.  —  2019.  — 
+Volume 6, Issue 3. 
+
+[4]  Syaiful,  A.  M.  Improving  Efficiency  and  Effectiveness  of  Robotic  Process 
+Automation  in  Human  Resource  Management  /  A.  M.  Syaiful,  A.  M.  Moamin, 
+Najah,Mahdi,and,Salama,A Mohammed. — text // Sustainability. — 2022. — Vol.14.  
+
+[5]  Somayya,  Madakam.  THE  FUTURE  DIGITAL  WORK  FORCE:  ROBOTIC 
+PROCESS AUTOMATION (RPA) / Madakam Somayya, M. H. Rajesh, K. J. Durgesh. 
+— text // Journal of Information Systems and Technology Management – Jistem USP. 
+— 2019. — Vol. 16. 
+
+[6] Naveen, E. V. Automating HR Processes with Robotic Process Automation (RPA) / 
+E. V. Naveen. — text // Journal of Engineering and Applied Sciences Technology.  — 
+2023. — Volume 5(1). — 1-5. 
+
+[7] lmari, P., & Juha, L. (2021). Robotic process automation (RPA) as a digitalization 
+related tool to process enhancement and time saving. 
+
+[8] Danijel, Horvat. Risks associated with robotic process automation / Horvat Danijel, 
+Gluscevic  Luka,  Ivanišević  Rajko.  —  text  //  Journal  of  Process  Management  New 
+Technologies. — 2024. — Volume 12(1-2). — 72-82. 
+
+[9]  Vijai,  C,and,Mariyappan,M,S  Robotic  Process  Automation  (RPA)  in  Human 
+Resource  Functions 
+//  Advances  In 
+/  C,and,Mariyappan,M,S  Vijai.  — 
+Management. — 2023. — Vol. 16 (3).  
+
+text 
+
+[10] Pix Robotics. — Текст : электронный // База Знаний Pix RPA : [URL]. — URL: 
+https://docs.pixrobotics.com/articles/#!rpa/welcome. 
+
+38 
+
+ 
+ 
+11. Appendix 
+
+11.1 Main Terminology and Definitions 
+
+Main terminology, abbreviations and definitions could be found in Table 18. 
+
+Table 18. Main terminology and abbreviations used in this work 
+
+Terminology 
+
+Explanation 
+
+Robotic Process Automation (RPA) 
+
+Robotic Process Automation (RPA) is a technology that implies 
+
+the creation of software robots (attended or unattended, or in other 
+
+words that work with or without human intervention respectively) 
+
+for emulating humans’ actions of interacting with digital systems 
+
+and software, performing repetitive and routine tasks, or 
+
+integrating with 3rd-party systems (especially legacy). 
+
+HR department 
+
+HR is the organizational unit that is responsible for human 
+
+resources management: finding, recruiting, hiring and training 
+
+new employees for the company, as well as supporting the 
+
+workforce and maintaining the harmony and wellbeing as an 
+
+employee. 
+
+RPA-bot 
+
+RPA-bot is the script that emulates the sequence of human 
+
+activities in the digital environment. Such bots are usually 
+
+performing the tasks that do not require decision making, but take 
+
+too much time and efforts from the employees. A bot can be 
+
+attended (human’s intervention required) or unattended (works 
+
+without constant control of a human employee). 
+
+Repetitive, monotonous or rule-based 
+
+Repetitive, monotonous or rule-based tasks are the tasks that 
+
+tasks 
+
+require no or minimum intellectual work, take lots of time, have 
+
+repetitive nature and based on some set of rules or expressions. 
+
+C&B (Compensations and Benefits) 
+
+C&B is one of the core functions of the HR department, which is 
+
+focused on the management of payrolls and benefits. 
+
+BPM (Business Process 
+
+BPM software is the set of tools that helps companies to manage 
+
+Management) software 
+
+and automate their business processes, thus increasing the speed 
+
+and quality of how their business operates. Such software 
+
+39 
+
+ 
+ 
+ 
+normally includes tools for data management, forms and 
+
+workflows development and execution. 
+
+ERP (Enterprise Resource Planning) 
+
+ERP software is a set of tools that helps to optimize the day-to-
+
+software 
+
+day operations of core business processes, usually related to 
+
+finance and supply chains.  
+
+Active Directory 
+
+Active Directory (AD) is a directory service of maintaining users 
+
+MSSQL Server 
+
+MSSQL is a relational database engine that uses the T-SQL 
+
+and organizational units’ information from Microsoft. 
+
+syntaxis for doing various operations with data. This engine is 
+
+used for handling various systems, including transaction 
+
+processing, business intelligence, and data analytics. 
+
+Pix RPA 
+
+Pix RPA is a Robotic Process Automation (RPA) platform that 
+
+was developed by Pix Robotics (Russia). This is a low-code 
+
+platform that allows the creation, launch and administration of 
+
+RPA-bots.  
+
+Telegram Messenger 
+
+Telegram Messenger is a popular messenger application, that is 
+
+widely used and provides instruments for creating and 
+
+administrating chat-bots. 
+
+11.2 Link to the implemented RPA-bots (GitHub) 
+
+[11] Link to the GitHub: https://github.com/romakholinov/Thesis_Project_2025  
+
+[12] Link to the web-interface for working with parsed profiles: 
+https://k2demo.ru/Runtime/Runtime/Form/CandidateSearch.List/  
+
+40 
+
+ 
+ 
+ 
+

@@ -1,0 +1,3923 @@
+FEDERAL STATE AUTONOMOUS EDUCATIONAL INSTITUTION  OF 
+
+HIGHER EDUCATION 
+
+NATIONAL RESEARCH UNIVERSITY HIGHER SCHOOL OF ECONOMICS  
+
+School of Foreign Languages  
+
+Anastasiya A. Baravikowa and Karina Samyltyrova  
+
+ GRADUATE QUALIFICATION WORK - BACHELOR THESIS 
+
+Hustle Culture in American and Russian Vlogs: Cross-Cultural Analysis 
+
+Qualification: Linguistics (45.03.02) 
+
+Educational program “Foreign Languages and Intercultural communication” 
+
+Supervisor 
+
+Styrina E. V. 
+
+Associate professor, PhD 
+
+Moscow 2025
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Contents 
+
+2 
+
+Introduction ................................................................................................................ 4 
+
+Literature Review ....................................................................................................... 6 
+
+Hustle Culture Phenomenon .................................................................................. 6 
+
+Hustle Culture: Historical Background ............................................................. 6 
+
+Notion of Hustle Culture .................................................................................. 7 
+
+Discourse of Hustle Culture ................................................................................ 10 
+
+Definition of Discourse .................................................................................. 10 
+
+Definition of Hustle Culture Discourse .......................................................... 11 
+
+Hustle Culture Discourse in Social Media ...................................................... 15 
+
+Hustle Culture and Vlogs .................................................................................... 16 
+
+Understanding Cultural Dimensions .................................................................... 17 
+
+Hofstede’s Cultural Dimensions Framework ....................................................... 19 
+
+Methodology ............................................................................................................ 23 
+
+Data Collection ................................................................................................... 23 
+
+Data Analysis ...................................................................................................... 24 
+
+Results and Discussion ............................................................................................. 26 
+
+American Vlogs .................................................................................................. 26 
+
+Text level ....................................................................................................... 26 
+
+Discursive Practice Level ............................................................................... 33 
+
+Social Practice Level ...................................................................................... 35 
+
+Russian Vlogs ..................................................................................................... 37 
+
+Text Level ...................................................................................................... 37 
+
+Discursive Practice Level ............................................................................... 43 
+
+Social Practice Level ...................................................................................... 44 
+
+Comparative Analysis of American and Russian Vlogs....................................... 47 
+
+3 
+
+Text Level ...................................................................................................... 47 
+
+Discursive Practice Level ............................................................................... 52 
+
+Social Practice Level ...................................................................................... 53 
+
+Conclusion ............................................................................................................... 54 
+
+References................................................................................................................ 56 
+
+Introduction 
+
+4 
+
+In recent years, social media has integrated deeply into everyday life, with 
+
+individuals dedicating substantial time to engaging with diverse platforms as both 
+
+consumers and content creators. This constant interaction plays a pivotal role in shaping 
+
+social values, beliefs, and personal identities. Among the most influential trends to 
+
+emerge from this digital environment can be considered a “hustle culture”, or a 
+
+“workaholic culture associated with non-stop busyness, workload, limited time, and 
+
+pressure” (Assariy, Hersari, Sitorus, Arifin, & Faisal, 2024). In the contemporary world, 
+
+it has become a popular phenomenon in response to increasing economic challenges and 
+
+elevated standards of living (Hasanah, Vardhani & Martha, 2024) that force people to 
+
+rush and strive for success often neglecting one’s well-being. This cultural trend has 
+
+been actively propagated through social media tools, particularly on YouTube as one of 
+
+the most popular video sharing platforms. In video blogs, or vlogs, which constitute a 
+
+primary format on YouTube, content creators employ the power of storytelling to 
+
+engage their audiences and convey meaningful messages, including those centered 
+
+around the ideals of constant productivity and success. Despite the popularity of the 
+
+trend on the media resource, while hustle culture has been explored as a force to impact 
+
+mental and physical health (Hasanah et al., 2024; Mardiana et al., 2023; Verma, 2022;  
+
+Wong, Chan, & Ngan, 2019), its verbal and cultural representation in media remains 
+
+underexplored (Jepsen & Eaton, 2025). 
+
+  Thus, this research aims to examine and compare the linguistic and cultural 
+
+features that contribute to the construction of hustle culture in American and Russian 
+
+YouTube vlogs. Accordingly, the paper includes the following research questions: 
+
+1) What is the linguistic representation of hustle culture in American and Russian 
+
+YouTube vlogs? 
+
+2) How are cultural dimensions represented in American and Russian vlogs about 
+
+hustle culture? 
+
+In order to achieve the aim of this study, this paper will employ a mixed-methods 
+
+approach to investigate the hustle culture discourse. Firstly, Norman Fairclough’s 
+
+(1995) Critical Discourse Analysis will be applied to explore the linguistic 
+
+5 
+
+representation of hustle culture. Secondly, Hofstede’s (2010) Cross-Cultural Analysis 
+
+will be utilised to analyse how hustle culture portrayal in American and Russian 
+
+YouTube vlogs corresponds to the cultural dimensions connected with this 
+
+phenomenon. By combining these methodological approaches, the present study 
+
+endeavors to offer a deeper comprehension of hustle culture across cultural settings. 
+
+Overall, this study aims to compare linguistic and cultural representation of the 
+
+hustle trend in American and Russian communities. Firstly, the theoretical aspects 
+
+concerning the impact of hustle culture on health as well as the description of hustle 
+
+culture discourse as discussed in previous studies will be explored. Subsequently, a 
+
+critical discourse analysis will be conducted on a corpus of selected 32 YouTube videos 
+
+that explore the themes of hustle culture, success, and productivity, offering 
+
+perspectives that both endorse and challenge these concepts. The analysis will be 
+
+confined to videos that explicitly invoke the specified concepts within their titles, 
+
+thereby ensuring clarity of focus and minimising any ambiguity or interference from 
+
+unrelated phenomena. Drawing on the findings of the critical discourse analysis, the 
+
+cross cultural analysis may provide new insights into the ways hustle culture operates 
+
+within varied linguistic and cultural contexts. 
+
+Regarding the practical significance of this research, the findings are expected to 
+
+enhance individuals’ awareness of the linguistic mechanisms1 employed within hustle 
+
+culture, thereby enabling a more critical evaluation and resistance to its influence. 
+
+Additionally, this study may contribute meaningfully to the field of intercultural 
+
+communication and serve as a valuable resource in seminars and courses related to 
+
+Intercultural Corporate Communication. By elucidating the processes through which 
+
+cultural phenomena, namely hustle culture, are formed and sustained across various 
+
+societies, the research advances a more comprehensive understanding of the interactions 
+
+between language, culture, and social practices in a global context. 
+
+The work was validated in the format of a presentation at the Scientific Student 
+
+Conference “The Youth in Science: Challenges and Prospects” and the X Scientific 
+
+1 For convenience, the terms means, tools and mechanisms will be used interchangeably in this study. 
+
+                                                   
+6 
+
+Interuniversity Online Conference of Young Scientists “Space of scientific interests: 
+
+foreign languages and intercultural communication – modern development vectors and 
+
+prospects”. 
+
+As for the contribution of each author, Anastasiya Baravikowa was responsible 
+
+for the discussion section, the parts connected to cultural dimensions as a student 
+
+specialised in intercultural communication as well as the analysis of 8 American (vlogs 
+
+3, 5, 6, 9, 10, 11, 13, 15 in Appendices) and 8 Russian videos (vlogs 1, 3, 4, 8, 9, 10, 12, 
+
+14 in Appendices). Karina Samyltyrova prepared the methodology section and the 
+
+analysis of 8 American (vlogs 1, 2, 4, 7, 8, 14, 12, 16 in Appendices) and 8 Russian 
+
+videos (vlogs 2, 5, 6, 7, 11, 13, 15, 16 in Appendices). Both authors contributed equally 
+
+to introduction, literature review, results, and conclusion along with searching relevant 
+
+sources, data analysis, compiling appendices and editing the paper. 
+
+Literature Review 
+
+In recent years, the idea of “hustle culture” has become increasingly prominent 
+
+across digital platforms, influencing societal attitudes toward work, achievement, and 
+
+self-identity. This section explores various sides of hustle culture, including its 
+
+definition, effects on mental and physical health, and its representation on social media. 
+
+Particularly, the vlog as a media genre is considered due to the format serving as a 
+
+powerful instrument for portraying and disseminating hustle ideas. An additional focus 
+
+is placed on the discourse of hustle culture and the attempt to identify its main 
+
+characteristics. Furthermore, culture-specific traits of hustle phenomenon are analysed 
+
+through Hofstede’s cultural dimensions theory (2010) to comprehend how American 
+
+and Russian cultural values shape attitudes toward work, success, and social behavior. 
+
+By investigating these interrelated themes, this review seeks to deepen the 
+
+understanding of hustle culture’s complexity and the influential role of  vlogs together 
+
+with cultural values in both reflecting and reinforcing the trend. 
+
+Hustle Culture Phenomenon 
+
+Hustle Culture: Historical Background 
+
+In order to explore the phenomenon of hustle culture, it seems essential to start 
+
+with its origins. The researchers suggest that the emergence of hustle culture is linked to 
+
+7 
+
+the industrial revolution, which transpired in the 1970s, and marked the era of the 
+
+harshest labor conditions with long hours and low wages (Balkeran, 2020; Bellini & 
+
+Lomazz, 2024; Ulfah & Nurdin, 2022; Peric, 2024; Putri, 2022). The concept of “Time 
+
+is Money”, introduced by mechanised factory work, linked productivity directly to 
+
+working hours (Putri, 2022). Corporate culture, shaped since the 1980s, began to 
+
+emphasise shared values and behaviors reflected in its dress code, business hours, office 
+
+setup, and employee benefits (Tarver, 2021). By the 1990s, technology firms began to 
+
+dominate the market, setting a new standard that encouraged young workers to accept 
+
+overwork as normal (Alp Consulting, 2023). During this time, prominent entrepreneurs 
+
+actively promoted the idea of excessive working hours, framing it as a form of personal 
+
+freedom and empowerment. With the rise of social media in the early 2000s, sharing 
+
+personal experiences became easier, but these platforms quickly evolved into highly 
+
+competitive spaces that highlight only the most successful and polished aspects of 
+
+people’s lives. This environment of constant comparison helped fuel the widespread 
+
+influence of hustle culture, which promises a glorified lifestyle achieved through 
+
+relentless hard work. 
+
+  The sociological foundations of hustle culture can be linked to Max Weber’s 
+
+analysis of Protestant work ethics, which emphasised individual responsibility, 
+
+diligence, and the pursuit of professional perfection as a moral imperative (Weber, 1905 
+
+as cited in Bellini & Lomazz, 2024). This ethic fostered an endless race for success, 
+
+where work became central to personal identity and a pathway to fulfillment as devotion 
+
+to God, which now seems as an alienated version of contemporary hustle culture.  
+
+While Marx’s concept of “value” originally highlighted how capitalism exploited 
+
+workers through long hours and low pay, this notion has transformed (Ulfah & Nurdin, 
+
+2022), the Industrial Revolution 4.0 has progressed into a new phase characterised by a 
+
+stronger focus on human-centered values within the industrial landscape. This latest 
+
+evolution, often referred to as Industry 5.0, sees the rise of companies whose corporate 
+
+culture and values have become crucial in attracting talent, emphasising shared beliefs 
+
+and behaviors. Despite these cultural shifts, fundamental expectations in the modern 
+
+8 
+
+work ethic remain consistent: workers are still required to exercise self-discipline, 
+
+prioritise productivity, and avoid wasteful habits (Faler, 2015). 
+
+Notion of Hustle Culture 
+
+It can be seen that the understanding of the hustle phenomenon has been altered 
+
+from harsh labour with long working hours in the modernist times to the corporate value 
+
+of hard work and productivity in the post-modern society. It has acquired various 
+
+interrelated names such as  “toxic productivity” (Achmad & Lubna, 2023; Assariy et al., 
+
+2024; Hasanah et al., 2024; Perić, 2024), “rise and grind mentality” (Balkeran, 2020; 
+
+Perić, 2024), “toil glamour” (Balkeran, 2020; Perić, 2024), “culture of bustle” (Assariy 
+
+et al., 2024; Chairunnisah & Kurnia, 2023), “rush culture” (Assariy et al., 2024), and 
+
+“workaholic culture” (Assariy et al., 2024; Balkeran, 2020; Hasanah et al., 2024; Kaur 
+
+Arora et al., 2024; Maharani et al., 2024; Mardiana et al., 2023; Perić, 2024). Despite 
+
+the common ground, the notion of hustle culture is not unified and includes a wide 
+
+range of additional meanings.  
+
+First, most authors define “hustle culture” as a culture that encourages non-stop 
+
+work, long working hours, refusal to rest, and a constant drive for productivity to 
+
+achieve success (Assariy et al., 2024; Balkeran, 2020; Bellini & Lomazz, 2024; 
+
+Chairunnisah & Kurnia, 2023; Hasanah et al., 2024; Mardiana et al., 2023; Perić, 2024). 
+
+In this culture, work is considered to be above all health and personal life (Hasanah et 
+
+al., 2024; Mardiana et al., 2023), and being successful – working hard without time 
+
+constraints (Assariy et al., 2024; Hasanah et al., 2024; Perić, 2024).  
+
+Second, hustle culture can be understood as a movement that fosters motivation 
+
+and is accompanied by anticipated rewards (Ulfah & Nurdin, 2022). This phenomenon, 
+
+which implies individuals reducing their available time for work, is often linked to 
+
+particular generations. Several studies (Achmad & Lubna, 2023; Assariy et al., 2024; 
+
+Chairunnisah & Kurnia, 2023; Hasanah et al., 2024; Patri 2022) suggest that Millennials 
+
+(1981-1996) and Generation Z (1997-2012) are the primary demographics associated 
+
+with hustle culture. Internal factors such as desire for self-actualization, independence, 
+
+high ambitions, and external factors, including economic instability, financial demands, 
+
+changing labor markets, are assumed to intensify the pressure on younger generations to 
+
+9 
+
+adopt a "hustle" mindset and push them toward multiple income streams and continuous 
+
+upskilling (Ulfah & Nurdin, 2022). Social media platforms play a crucial role in shaping 
+
+generational attitudes toward hustle culture and amplify the pressure through hashtags, 
+
+reinforcing the idea that success is achieved through constant work and effort 
+
+(Chairunnisah & Kurnia, 2023). 
+
+Third, hustle culture can be perceived as an ideology, a system of beliefs and 
+
+values concerning success, relentless work, and productivity. It is interpreted as a 
+
+product of late capitalism, reviving the myths of the “American Dream” through 
+
+technological optimism (Hill, 2020). Besides, capitalism together with globalisation, has 
+
+affected people’s lifestyle, leading individuals toward consumerist behaviors and, in 
+
+some cases, hedonism (Hennessy, 2017 as cited in Maharani et al., 2024). Hustle culture 
+
+is also assumed to inherit elements of the Protestant work ethic (the value of labor) but 
+
+shifts the focus from spiritual to economic goals (Hill, 2020). 
+
+Overall, hustle culture is characterised by the glorification of relentless work, 
+
+productivity, and success. Formed by social, cultural, and technological forces that 
+
+prioritise professional achievement over work-life balance, it is increasingly recognised 
+
+as a source of workaholism and unsustainable living. 
+
+Additional attention is devoted to the investigation of how hustle culture 
+
+influences individuals’ lives. Evaluating whether this phenomenon reflects a benign 
+
+lifestyle choice popularised via social media or signifies significant threats to well-being 
+
+is pivotal for analysing modern societal norms. Existing evidence underscores negative 
+
+repercussions linked to hustle culture, including detrimental effects on both physical 
+
+and mental health. 
+
+  Specifically, research discovered the correlation between prolonged working 
+
+hours and physiological health concerns such as digestive problems, headaches, muscle 
+
+tension, cardiovascular issues, including heart disease, heart attack, high blood pressure, 
+
+and stroke (Clinic Staff as cited in Perić, 2024), as well as fatigue and sleep disorders 
+
+(Hasanah et al., 2024; Mardiana et al., 2023; Verma, 2022;  Wong, Chan, & Ngan, 
+
+2019).  
+
+10 
+
+Other studies indicate negative impact of hustle culture on mental health, namely 
+
+postponed life syndrome (Najdenova, 2022), imbalance between personal and 
+
+professional life (Putri, 2022; Test Gorilla as cited in Perić, 2024), affecting family 
+
+relationships and social interactions, poor lifestyle choices and neglect of necessary rest 
+
+(Chairunnisah & Kurnia, 2023; Saputra, 2024), chronic stress, resulting in burnout and 
+
+mental exhaustion (Balkeran, 2020; Hasanah et al., 2024) as well as anxiety, depression 
+
+(Assariy et al., 2024; Hasanah et al., 2024; Kim et al., 2019; Mardiana et al., 2023; 
+
+Perić, 2024), and the desire to commit suicide (Assariy et al., 2024; Perić, 2024). 
+
+Thus, hustle culture appears to evoke serious concern regarding individuals’ well-
+
+being. Some researchers suggest prevention efforts to reduce work stress-induced health 
+
+problems, advocating for inclusive company practices prioritising long-term success 
+
+through flexible work arrangements, setting boundaries, skill development, and health 
+
+support comprising psychological safety (e.g., encouraging breaks, accepting mistakes), 
+
+stress management programs, and shifting focus from profit to people (Hasanah et al., 
+
+2024; Perić, 2024). However, little research is dedicated to the role of social media in 
+
+influencing individuals’ work habits and wellness, since most studies focus primarily on 
+
+examining face-to-face interactions among employees within specific companies or 
+
+organisations to assess the effects of participating in “hustle culture,” often overlooking 
+
+the significance of digital influence among these workers. 
+
+Discourse of Hustle Culture 
+
+Definition of Discourse  
+
+In order to examine the linguistic and cultural representation of the hustle 
+
+trend, it seems necessary to analyse the discourse surrounding this phenomenon. 
+
+Discourse, as a notion in general, serves as a foundational framework for 
+
+interdisciplinary research that integrates insights from linguistics, sociology, 
+
+psychology, political science, and cultural studies. It functions as a critical lens through 
+
+which social phenomena, such as power relations, identity construction, and ideological 
+
+formations, are examined across diverse contexts and modes of communication 
+
+(Muxtorova & Abdullaeva, 2024). This broad applicability has given rise to Discourse 
+
+Studies as a transdisciplinary field, characterised by its theoretical orientations and 
+
+ 
+11 
+
+methodological tools that explore the interplay between language and society, 
+
+particularly focusing on how discourse shapes and is shaped by social structures and 
+
+power dynamics. 
+
+In Discourse Studies, “discourse” is generally understood as a social practice 
+
+whereby participants engage in communication using linguistic and other semiotic 
+
+resources within specific contexts (Angermuller, Maingueneau, & Wodak, 2014). The 
+
+scholars emphasise the constitutive nature of discourse, which can be divided into two 
+
+approaches: one that treats discourse as an intellectual and epistemological issue central 
+
+to social, political, and cultural theory, which can be referred as “discourse theory”, and 
+
+another that addresses the analytical and methodological processes involved in 
+
+examining discourse as a tangible and empirical phenomenon, or, in other words, 
+
+“discourse analysis”. 
+
+In particular, discourse theory encompasses three main approaches: post-
+
+structuralist, normative-deliberative, and critical-realist. First, post-structuralist theory 
+
+highlights the constitutive role of language in shaping social reality, viewing discourse 
+
+as constructing social structures and power relations. Influenced by Foucault (2013) and 
+
+Pêcheux (1975), this perspective focuses on the contingent character of knowledge and 
+
+identity. Second, normative-deliberative theory sees discourse as a means of negotiating 
+
+agreements among participants to resolve conflicts in the public sphere, promoting free 
+
+deliberation and rational consensus. While strong versions, exemplified by Habermas, 
+
+assert that communicative processes are governed by inherent rational norms and 
+
+universal principles that enable participants to reach consensus through reasoned 
+
+argumentation (1985), weaker versions challenge this universalism (Lyoutard, 1994). 
+
+Third, critical-realist theory considers discourse a social practice embedded in power 
+
+structures, producing and reproducing inequalities between social groups. Influenced by 
+
+critical realism, linguists have integrated its philosophical principles into Critical 
+
+Discourse Analysis (CDA) to deepen the examination of social issues through language. 
+
+This approach, notably advanced by Norman Fairclough, treats discourse not merely as 
+
+text or talk but as a social practice embedded within real-world power structures and 
+
+material conditions (1995). 
+
+12 
+
+Thus, these strands share a focus on language, communication, and meaning in 
+
+social theory but differ in their approaches to power, knowledge, and subjectivity. Post-
+
+structuralism decenters identities, normative-deliberative theory highlights tensions 
+
+between ideal and actual discourse, and critical realism reveals power structures hidden 
+
+beneath representations. Together, these theories demonstrate how discourse shapes and 
+
+is shaped by power, knowledge, and the construction of subjectivity. 
+
+Definition of Hustle Culture Discourse 
+
+ Although hustle culture has gained widespread global popularity, its discourse 
+
+remains largely undescribed in academic literature. In order to address this gap, the 
+
+terminology and methodological framework proposed by Norman Fairclough (1995), 
+
+whose critical discourse analysis (CDA) approach has been applied in this study, was 
+
+adopted. Fairclough’s framework conceptualises discourse as both socially shaped and 
+
+socially constitutive, meaning that language use reflects existing social conventions 
+
+while also having the potential to transform social relations and identities (Fairclough, 
+
+1995, p. 131). Applying this to hustle culture, Hustle Culture Discourse can be defined 
+
+as a socially constructed and socially influential way of representing and 
+
+communicating the values, behaviors, and ideologies associated with relentless, 
+
+excessive work, and constant productivity. Thus, the discourse of hustle culture not only 
+
+mirrors prevailing societal norms about work ethic and success but also actively shapes 
+
+individuals’ perceptions and practices related to labor and achievement. 
+
+Drawing on various discourse classification systems (See Table 1), Hustle 
+
+Culture Discourse can be understood as encompassing multiple interconnected 
+
+discourse types, each contributing to its overall communicative function and social 
+
+impact. 
+
+Table 1 
+
+Classifications of Discourse 
+
+Discourse types 
+
+Author 
+
+narration, exposition, description, 
+
+(Bain, 1890)  
+
+13 
+
+argumentation 
+
+transactional, expressive, poetic 
+
+(Britton, J., Burgess, 
+
+T., Martin, N., McLeod, A., 
+
+& Rosen, 1975)  
+
+expressive, referential, persuasive, 
+
+(Kinneavy, 1980) 
+
+literary 
+
+narration, procedural, behavioral, 
+
+(Longacre, 1996) 
+
+expository 
+
+personal, institutional 
+
+monologic, dialogic 
+
+(Karasik, 2002) 
+
+(Bakhtin, 2010) 
+
+Primarily, it functions as an argumentation discourse, where claims about the 
+
+value and necessity of relentless work and productivity are put forward and justified. 
+
+This argumentative dimension constructs a rationale that frames hustle culture as 
+
+essential for success and self-worth in contemporary society.  
+
+Furthermore, Hustle Culture Discourse operates as persuasive discourse, aiming 
+
+to influence and motivate audiences to adopt the values and behaviors associated with 
+
+constant productivity and overwork. Through motivational language, success stories, 
+
+and social validation, this discourse encourages individuals to internalize the hustle 
+
+ethos as a desirable lifestyle choice.  
+
+In addition, it can be classified as transactional discourse because it involves 
+
+exchanges of expectations and commitments between various social roles, such as 
+
+employers, employees, influencers, and followers. These interactions often implicitly or 
+
+explicitly set standards for work ethic and dedication, shaping workplace norms and 
+
+individual behaviors. The transactional nature is evident in the unspoken agreements 
+
+within organisations that equate employee worth with visible commitment and 
+
+productivity, reinforcing hustle culture as a baseline expectation. 
+
+14 
+
+Moreover, Hustle Culture Discourse embodies behavioral discourse, as it not only 
+
+promotes particular values but also prescribes specific actions and habits. It encourages 
+
+individuals to engage in continuous work, sacrifice leisure time, and prioritize career 
+
+advancement, effectively shaping everyday practices and lifestyle choices. This 
+
+behavioral aspect is reinforced through social media narratives that romanticise 
+
+exhaustion and glorify workaholism as a symbol of pride. 
+
+Beyond these types, Hustle Culture Discourse can be attributed to an institutional 
+
+discourse, reflecting and reinforcing the norms, values, and role expectations imposed 
+
+by powerful social institutions, especially media and mass culture. These institutions 
+
+disseminate and legitimise the hustle ideology by promoting narratives that equate 
+
+success with unceasing productivity and self-sacrifice. Media platforms, particularly 
+
+social media, play a pivotal role in normalising hustle culture by showcasing curated 
+
+success stories and productivity performances, often glossing over the detrimental 
+
+effects on well-being. Besides, institutional discourse functions to maintain and 
+
+reproduce social order by embedding these values within organisational cultures and 
+
+societal expectations. For example, workplace communication often perpetuates hustle 
+
+culture norms through implicit demands for constant productivity and exceptional 
+
+dedication, which become internalised by employees as professional standards. 
+
+Finally, Hustle Culture Discourse can be fruitfully analysed as a form of dialogic 
+
+discourse in the sense that it carries two semantic intentions simultaneously: the voice 
+
+promoting hustle culture ideals and the implicit or explicit response to critiques or 
+
+alternative viewpoints. For instance, motivational posts on social media may adopt a 
+
+tone that simultaneously endorses the hustle ethos while subtly responding to societal 
+
+concerns about burnout or work-life balance. Based on Bakhtin’s theoretical framework 
+
+(2010), Hustle Culture Discourse can be called polyphonic, meaning it involves a 
+
+coexistence and interaction of diverse voices and attitudes toward work, productivity, 
+
+and success. For example, within this discourse, while some people glorify relentless 
+
+effort and constant productivity, framing them as moral imperatives, there are counter-
+
+voices, often emerging from mental health advocates, critics of overwork, or alternative 
+
+lifestyle proponents that challenge the sustainability and ethics of such a lifestyle. Thus, 
+
+15 
+
+this form can enrich the discourse, making it a site of negotiation rather than a fixed, 
+
+authoritative narrative.  
+
+According to Hill (2020), hustle culture relies on three main principles, which 
+
+constitute the core of its discourse: entrepreneurialism, psychological and digital tools. 
+
+First, hustle culture promotes the belief that entrepreneurial qualities such as grit, hard 
+
+work, persistence, optimism, and market savvy are essential for modern success. This 
+
+mindset is reflected in popular slogans and the idea that anyone can approach life with 
+
+the drive of a CEO. Second, adherents of hustle culture emphasise the importance of a 
+
+positive, growth-oriented mindset, believing that overcoming a “limited mindset” is 
+
+crucial to success, and so they adopt various productivity hacks, routines, and self-
+
+improvement tactics. This focus on mindset often leads to reframing structural barriers 
+
+as personal challenges to be overcome by attitude and effort, offering a sense of 
+
+empowerment even in the face of inequality. Third, technology platforms provide 
+
+opportunities to monetise skills, products, services or even personality to achieve 
+
+financial freedom. 
+
+With regard to the foregoing, Hustle Culture Discourse has a complex, multi-
+
+layered nature that prescribes behaviors linked to relentless productivity, empowerment, 
+
+and success. Its institutional and dialogical form underscores the powerful role of media 
+
+and organisational structures in shaping and sustaining this discourse, making it a 
+
+pervasive and influential force in contemporary social life. 
+
+Hustle Culture Discourse in Social Media 
+
+  The trend of hustle culture has become increasingly popular in modern society, 
+
+promoting nonstop productivity and ambition that is actively reinforced by the impact 
+
+of social media. In fact, it is distributed through various hashtags that are commonly 
+
+used to tag and search for hustle culture-related content on social media, for instance, 
+
+“#riseandgrind” (Assariy et al., 2024; Chairunnisah & Kurnia, 2023; Griffith as cited in 
+
+Absher, 2020), “#hustle” (Assariy et al., 2024; Griffith as cited in Absher, 2020), 
+
+“#grindtime” (Assariy et al., 2024), “#cantstopwontstop” (Griffith as cited in Absher, 
+
+2020), #ThankGodItsMonday, #NoDaysOff or #EverydayImHustling (Perić, 2024). 
+
+16 
+
+Social media platforms such as Instagram*2,  Twitter*3, and TikTok*4 amplify the 
+
+hustle culture trend through visually appealing content that normalises overwork. For 
+
+example, there have been identified four common types of content observed in posts 
+
+related to hustle culture on social media: 1) “the hustle bustle”, which is depictions of 
+
+constant productivity measured by multitasking and long hours; 2) “achievements and 
+
+income”, posts showcasing salaries or professional milestones; 3) “lifestyle”, 
+
+represented by trends “a day in my life”, glamorising urban work environments; and 4) 
+
+motivational content with inspirational quotes and success stories that equate self-worth 
+
+with productivity (Chairunnisah & Kurnia, 2023). 
+
+Besides, hustle culture popularises slogans and motivational phrases. A study 
+
+examined motivational hustle culture quotes combining text and imagery to construct 
+
+meaning, using Multimodal Discourse Analysis (MDA) (Christina & Shasita, 2022). 
+
+The findings showed that, within 30 motivational quotes, declarative and imperative 
+
+clauses were used at the textual level as well as metaphorical imagery, literal imagery, 
+
+tones, and techniques as visual elements to reinforce the hustle trend. Some other 
+
+examples of quotes in another work suggest that one can approach all aspects of life 
+
+with the same dedication and resilience as a CEO to maximise success: “Be the CEO of 
+
+your life.”; “It’s not about money or connections. It’s the willingness to outwork and 
+
+outlearn everyone when it comes to your business.”; “I’d rather hustle 24/7 than slave 9 
+
+to 5.” (Hill, 2020, p. 9). 
+
+Despite previous research focusing on hustle culture’s presence in social media 
+
+posts and motivational quotes, the trend remains underexplored in video formats, 
+
+particularly in YouTube vlogs. Exploring hustle culture through YouTube vlogs could 
+
+deepen the understanding of how this discourse shapes identities and social expectations 
+
+not only in static posts or quotes, but also in a more dynamic and interactive type of 
+
+content. 
+
+2 Meta*, including its products Instagram* and Facebook*, are recognised as an extremist organisation in Russia. 
+3 Roskomnadzor blocked Twitter in early March 2022 by the decision of the Prosecutor General’s Office dated 
+
+February 24, 2022 on the basis of Article 15.3 of the law on Information, Information Technologies, and Information 
+Protection. 
+
+4 On March 6, 2022, Tik Tok suspended its operations in Russia due to new amendments to Russian legislation. 
+
+                                                   
+17 
+
+Hustle Culture and Vlogs 
+
+Although research has focused on hustle culture short multimedia content, there is 
+
+a growing recognition that longer narratives about hustle culture are better suited to 
+
+video-sharing platforms, most notably YouTube (Holland, 2016). YouTube stands out 
+
+as one of the most popular platforms for both uploading and consuming extended video 
+
+content, providing a space where creators can delve deeper into their experiences and 
+
+perspectives. 
+
+A central format on YouTube is the vlog, or video blog, which merges ongoing 
+
+storytelling with rich audio-visual elements to engage viewers in a more immersive way 
+
+(Kim, 2017, p. 7). Vlogs serve multiple important functions, including self-expression, 
+
+self-presentation, role modeling, and even advertisement, making them powerful tools 
+
+for shaping public perceptions and influencing audiences (Maden & Kalafatoğlu, 2022). 
+
+While Maden and Kalafatoğlu emphasise how vloggers build and influence 
+
+communities through parasocial or one-sided connections where viewers feel personally 
+
+connected to creators, Werner (2012) highlights that vlogging can function both as a 
+
+monologue and as a dynamic dialogue between creators and their audiences. 
+
+This interactive dimension is a defining characteristic of vlogs, alongside their 
+
+intimate tone, relatively short duration, and asynchronous format, which allows viewers 
+
+to engage with content on their own time. Such interactivity is particularly significant in 
+
+shaping how viewers perceive and internalize hustle culture, as it enables creators to 
+
+respond to comments and feedback, fostering a sense of belonging and community 
+
+among followers. This ongoing exchange strengthens viewer loyalty and trust, which 
+
+are essential for effective communication and influence. 
+
+Werner (2012) further describes vlogging as a potent rhetorical practice 
+
+distinguished by its conversational style, emotional expressiveness, and capacity to 
+
+disseminate information of public interest while providing immediate opportunities for 
+
+public expression. Despite the comprehensive vlog typologies proposed by scholars like 
+
+Gercely (2018) (as cited in Maden & Kalafatoğlu, 2022), motivational vlogs remain 
+
+underrecognised as a distinct genre. These motivational vlogs are particularly important 
+
+due to its aim to inspire and encourage viewers to take proactive steps toward achieving 
+
+18 
+
+their personal and professional ambitions, aligning closely with the motivational content 
+
+described by Chairunnisah and Kurnia (2023) (p. 188). 
+
+Given that motivational vlogs on YouTube have not yet been thoroughly studied 
+
+as a medium for the dissemination and popularisation of hustle culture, this research 
+
+seeks to explore how motivational vloggers use linguistic elements to construct 
+
+narratives around hustle culture. As vlogs offer a unique blend of storytelling, emotional 
+
+connection, and interactivity, it can deeply influence viewers’ values, attitudes, and 
+
+behaviors related to work ethic, ambition, and self-identity in the digital era. 
+
+Understanding Cultural Dimensions 
+
+With the aim of deeply analysing cross-cultural differences and peculiarities of 
+
+perception of various social phenomena, researchers often appeal to the theories of 
+
+cultural dimensions. These models allow structuring and quantifying differences 
+
+between cultures based on their values, attitudes, and behaviours. First and foremost, 
+
+Gеrt Hofstede’s model of cultural dimensions, which is one of the most well-known and 
+
+widely used models, is grounded on the investigation of variations in values within 
+
+different sectors of IBM, a global computer manufacturing company (Hofstеde, 1980). 
+
+The framework was further expanded and refined to encompass six dimensions, namely 
+
+Mаsculinity/Fеmininity, Individuаlism/Collеctivism, Shоrt-/Long-Term Orientation, 
+
+Power Distance, Uncertainty Avoidance, and Indulgence (Hofstede et al., 2010). It is 
+
+pointed out that each of the dimensions illustrates the value system intrinsic to a culture 
+
+and, therefore, they have the potential to be used to predict people’s behaviour in 
+
+professional and everyday environments (Hofstede, 2011). 
+
+Although Hofstede’s model is widely used and reasonably popular, it is not 
+
+entirely unique. Another imperative theoretical framework worth mentioning is the 
+
+approach of Fons Trоmpenaаrs and Charles Hampden-Turner, who distinguished seven 
+
+cultural dimensions: Universalism vs. Particularism, Individualism vs. 
+
+Communitarianism, Neutral vs. Emotional, Specific vs. Diffuse, Achievement vs. 
+
+Ascription, Attitudes to Time, and Attitudes to the Environment (Trоmpenaаrs & 
+
+Hampden-Turner, 1997). Unlike Hofstede,  they concentrated on solving cultural 
+
+19 
+
+dilemmas, i.e. how people choose between opposing behavioural strategies in different 
+
+situations. 
+
+Another significant contribution to the study of cultural differences was a study 
+
+by Ronald Inglehart and Christopher Welzel, based on data from the World Values 
+
+Survey (Inglehart & Welzel, 2005). They identified two main axes of cultural change: 
+
+Traditional vs. Secular-Rational values and Survival vs. Self-Expression values. The 
+
+authors present a model of social change that predicts how value systems are likely to 
+
+evolve in the coming decades under conditions of economic development and 
+
+democratisation.  
+
+It is noteworthy that these models are actively utilised in media and 
+
+communication studies. For instance, cultural dimensions have been applied to analyse 
+
+the content of advertising, political discourse, and video content on social media. For 
+
+example, Guftométros and Guerreiro (2021) employ Hofstede’s model to identify 
+
+cultural differences in Facebook* user behaviour, such as the propensity to like, 
+
+comment and repost, in order to predict consumers' online reactions in different 
+
+countries.  
+
+In the context of YouTube, Hofstede's framework has also found application. For 
+
+example, a study by Park et al. (2017) demonstrated that countries’ cultural values 
+
+influence the consumption of popular YouTube videos and limit cultural convergence 
+
+despite global access to content. Besides, in the research by Choi (2021), this 
+
+framework was  used to compare cultural values reflected in popular YouTube 
+
+commercials in the United States and South Korea, which helped to reveal that unlike 
+
+traditional advertising, online video advertising is less reflective of cultural differences 
+
+and more focused on individual and emotional characteristics. 
+
+Hence, cultural measurement theories provide powerful tools for comparative 
+
+analysis, especially in the context of digital globalisation, when media content becomes 
+
+accessible to representatives of different cultures. Hofstede’s Cultural Dimensions 
+
+Theory (2010) was chosen in this study owing to its clarity, broad applicability in cross-
+
+cultural research, and the possibility of a specific numerical expression of the 
+
+characteristics of cultures, which is convenient when analysing YouTube video content. 
+
+20 
+
+Hofstede’s Cultural Dimensions Framework 
+
+  YouTube’s global platform brings together a culturally diverse audience, 
+
+making it possible to examine how cultural values might shape the interpretation of 
+
+hustle culture as portrayed in motivational vlogs. The way viewers perceive and respond 
+
+to the ethos of constant productivity and success may vary significantly depending on 
+
+their cultural backgrounds. . Hofstede’s Cultural Dimensions Theory (2010) is 
+
+employed as a guiding framework in this study in order to systematically investigate 
+
+these differences. This theory identifies six key dimensions that can be used to describe 
+
+and distinguish cultures: Masculinity/Femininity, Individualism/Collectivism, Short-
+
+/Long-Term Orientation, Power Distance, Uncertainty Avoidance, and Indulgence (see 
+
+Table 2). 
+
+Table 2  
+
+Hofstede’s Cultural Dimensions Theory (Hofstede et al., 2010) 
+
+Dimension 
+
+Explanation 
+
+Masculinity/ 
+
+Masculinity is associated with traits such as 
+
+Femininity 
+
+competitiveness, ambition, and assertiveness, often 
+
+driving a focus on material accomplishments and status. 
+
+Femininity, instead, underscores the importance of 
+
+cooperation, empathy, and overall well-being, 
+
+emphasising harmony and strong interpersonal 
+
+connections. 
+
+Individualism/ 
+
+Individualism centers on personal independence 
+
+Collectivism 
+
+and self-definition, placing individual achievements and 
+
+aspirations above those of the group. In contrast, 
+
+collectivism highlights the importance of group 
+
+affiliation and shared objectives, often prioritising the 
+
+needs and interests of the group over those of the 
+
+individual. 
+
+Power Distance 
+
+Power Distance refers to the degree to which 
+
+21 
+
+individuals in a society accept and expect unequal 
+
+distribution of power among its members. A high Power 
+
+Distance Index (PDI) reflects a society’s acceptance of 
+
+established hierarchies and authority, whereas a low 
+
+PDI indicates a stronger preference for egalitarian 
+
+relationships and equal power sharing. 
+
+Short-/Long-  
+
+Short-term orientation prioritises immediate 
+
+Term Orientation 
+
+outcomes and quick results, while Long-Term 
+
+Orientation reflects a society’s emphasis on future 
+
+planning and perseverance. 
+
+Uncertainty 
+
+Uncertainty avoidance refers to the degree to 
+
+Avoidance 
+
+which people within a culture experience discomfort or 
+
+anxiety when faced with ambiguous or unfamiliar 
+
+circumstances. This unease often manifests as stress and 
+
+a strong desire for predictability, which is typically 
+
+addressed through the establishment and adherence to 
+
+formal and informal rules. 
+
+Indulgence/ 
+
+Indulgence refers to the inclination to freely 
+
+Restraint  
+
+satisfy fundamental human desires associated with 
+
+pleasure and enjoyment of life, whereas Restraint 
+
+represents the belief that these desires should be 
+
+controlled and limited by rigid social rules. 
+
+  Based on the definition of hustle culture and the dimensions described above, it 
+
+seems reasonable to consider three of the six cultural dimensions due to their close 
+
+relation to the hustle trend: 
+
+22 
+
+1) Masculinity/Femininity dimension contrasts societies valuing competition and 
+
+material success (masculinity) with those prioritising quality of life and harmony 
+
+(femininity). 
+
+2) Individualism/Collectivism dimension distinguishes societies prioritising 
+
+personal success (individualism) from those valuing social achievements (collectivism). 
+
+3) Short-/Long-Term Orientation dimension represents immediate results along 
+
+with sustained, future-focused planning. 
+
+In accordance with these characteristics, hustle culture demonstrates a strong 
+
+alignment with masculine values, as evidenced by its emphasis on ambition and 
+
+material gain, often resulting in work-life imbalance. Furthermore, it is closely 
+
+associated with an individualistic orientation, wherein personal achievement is regarded 
+
+as a primary indicator of self-worth. Additionally, hustle culture frequently reflects a 
+
+short-term orientation, focusing on rapid and visible accomplishments over sustained, 
+
+long-term progress. 
+
+From the perspective of Hofstede’s cultural dimensions, American and Russian 
+
+cultures show notable contrasts in the dimensions of Masculinity/Femininity, 
+
+Individualism/Collectivism, and Short-/Long-Term Orientation (see Figure 1). 
+
+Figure 1 
+
+Comparison of dimensions for American and Russian cultures (Country Comparison 
+
+Tool, 2023) 
+
+ 
+23 
+
+As seen from the bar chart, The United States scores relatively high on 
+
+masculinity (62), reflecting a culture that values competitiveness, achievement, and 
+
+assertiveness. This translates into a strong emphasis on career success, ambition, and 
+
+material rewards. In contrast, Russia scores lower on masculinity (36), indicating a 
+
+culture that is less focused on competition rather than oriented toward cooperation and 
+
+quality of life, meaning that Russian society tends to emphasise social cohesion and 
+
+interpersonal relationships. 
+
+The US is also an individualistic society (60), with a strong focus on personal 
+
+autonomy, self-expression, and individual achievement. Americans prioritise individual 
+
+goals over group interests and value independence highly. Russia, however, is much 
+
+more collectivist, a legacy of its Soviet past, where group loyalty, social conformity, 
+
+and collective well-being are highly valuable. Russians tend to place greater importance 
+
+on group norms and social harmony, often subordinating personal desires to the needs 
+
+of the community or family.  
+
+Finally, both cultures show some pragmatism in balancing future planning with 
+
+present needs, nevertheless, Russia exhibits a slightly stronger long-term oriented 
+
+perspective. Russian culture tends to focus on foresight, perseverance, and preparing for 
+
+future uncertainties, reflecting a cautious approach to change and a preference for 
+
+stability. The US, while capable of long-term planning, may apply a more short-term 
+
+orientation, focusing on quick results, immediate benefits, and responsiveness to current 
+
+opportunities. 
+
+In view of the above, this study seeks to expand existing research by analysing 
+
+the hustle culture representation in American and Russian YouTube vlogs, with a 
+
+particular focus on how the language reflects the phenomenon and the cultural 
+
+dimensions considered. Hustle culture, widely promoted through social media 
+
+platforms, encourages audiences to pursue productivity and success; however, it 
+
+presents potential health risks, such as burnout, stress, and depression. Therefore, it 
+
+seems necessary to critically examine the specific language that glorifies relentless work 
+
+and achievement. This research will pay special attention to how hustle culture values 
+
+are portrayed by American and Russian YouTube vloggers, exploring the cultural 
+
+nuances that might influence their audiences’ reception and adoption of this popular 
+
+24 
+
+trend. 
+
+Data Collection 
+
+Methodology 
+
+For the aim of this research, a purposive sampling method was applied with a 
+
+systematic set of criteria to ensure the relevance of the selected videos. The selection 
+
+criteria included the language of the video, the keywords, the publication date, the 
+
+length of the video, the popularity of the channel as well as the number of views and 
+
+likes. 
+
+Firstly, vlogs centered on hustle culture in the American and Russian languages 
+
+were selected for their pronounced prominence on the YouTube platform compared to 
+
+the relevant content in other languages (i.e. French and German vlogs, initially 
+
+prioritised for the study, proved scarce, with few aligning fully with the established 
+
+criteria). Additionally, selecting the American and Russian languages served to 
+
+facilitate the transcription5 and analysis processes. Secondly, the video search by 
+
+keywords hustle culture, success, productivity, the terms identified as interconnected in 
+
+the literature review, guaranteed that the chosen American vlogs corresponded closely 
+
+with the motivational vlog genre and the theme of hustle culture. However, only a 
+
+limited number of Russian-language vlogs featured the translated versions of the 
+
+corresponding terms – “культура достигаторства” (“hustle culture”) and “успех” 
+
+(“success”) – in their titles. Consequently, the selection process shifted to prioritise 
+
+videos containing the keywords “продуктивность” (“productivity”) and 
+
+“продуктивный” (“productive”) as these more accurately reflected the core themes of 
+
+the phenomenon within the Russian YouTube community. This adjustment ensured the 
+
+inclusion of relevant content that aligns with the study’s focus on the linguistic and 
+
+cultural manifestations of hustle culture. Thirdly, the study focused on videos published 
+
+within the past five years, with a duration not exceeding 25 minutes, accumulating 
+
+5 AI tools, including NoteGPT and YouTubeToTranscript, were used to transcribe videos into text, and ChatGPT 
+
+and DeepSeek were used to add punctuation marks. 
+
+                                                   
+ 
+25 
+
+either at least 100,000 views or 10,000 likes, or created by vloggers boasting at least 
+
+10,000 subscribers. This deliberate approach ensured the incorporation of material from 
+
+influential channels, thereby enriching the study with content that is both impactful and 
+
+representative of the phenomenon. 
+
+To ensure a diverse range of perspectives, the study selected 32 videos — 16 
+
+American and 16 Russian — that met the aforementioned criteria. The transcriptions of 
+
+the selected videos have been systematically compiled in the Appendices. 
+
+Data Analysis 
+
+  The data analysis commenced with the transcription of the selected YouTube 
+
+vlogs to compile accurate textual records of the speakers’ monologues. The transcripts 
+
+were carefully reviewed and subjected to a coding process, wherein linguistic choices 
+
+related to hustle culture were identified and categorised. 
+
+Following transcription, a two-step analysis was implemented. The first step 
+
+consisted of Critical Discourse Analysis based on Fairclough’s three-dimensional 
+
+framework (1995) to systematically explore discourse at multiple levels. The analysis of 
+
+each level with the corresponding examples is provided in tables 1 and 2 for American 
+
+and Russian videos respectively. 
+
+The first level, textual analysis, concentrated on the micro-level linguistic features 
+
+present within the vlog transcripts. This phase entailed an examination of vocabulary 
+
+choices, grammatical constructions, and syntactic patterns to uncover how language was 
+
+utilised to construct and convey messages associated with hustle culture. Particular 
+
+attention was paid to identifying lexical fields, metaphorical language, modality, and 
+
+other stylistic devices that contributed to framing success, productivity, and work ethic 
+
+within the discourse.  
+
+The second level, discursive analysis, extended the investigation beyond the text 
+
+itself to encompass the processes involved in the production, distribution, and reception 
+
+of the vlog content. This stage examined how vlog creators crafted their messages, the 
+
+platforms and channels through which these messages were disseminated, and how 
+
+audiences might engage with and interpret the content. By situating each vlog within the 
+
+broader discursive field of motivational and productivity-oriented media, this analysis 
+
+26 
+
+illuminated the intertextual relationships and positioning strategies vloggers employed 
+
+to align their narratives with or differentiate them from prevailing trends in hustle 
+
+culture discourse.  
+
+The third level, social practice analysis, positioned the vlogs within their broader 
+
+socio-cultural context. This involved interpreting how the discourse surrounding hustle 
+
+culture in American and Russian vlogs both reflected and influenced dominant societal 
+
+values, norms, and ideological frameworks. The analysis explored whether and how 
+
+these vlogs reinforced traditional cultural narratives about work ethic and success. It 
+
+also provided critical insights into the role of discourse as a social practice that not only 
+
+mirrors but also actively shapes cultural understandings related to hustle culture in 
+
+diverse linguistic and cultural settings. 
+
+Based on the findings of the Critical Discourse Analysis, the study incorporated 
+
+Cross-Cultural Analysis applying Hofstede’s framework (2010) to reveal how American 
+
+and Russian vloggers interpret hustle culture through three cultural dimensions – 
+
+Masculinity/Femininity, Individualism/Collectivism, and Short-/Long-Term 
+
+Orientation. This methodological choice, outlined in the literature review, was guided 
+
+by the dimensions’ conceptual relevance to the core themes of hustle culture, including 
+
+work ethic, personal gain, and temporal orientations toward success. 
+
+By analysing representations of American and Russian cultures in vlogs through 
+
+Hofstede’s cultural dimensions framework, this study seeks to compare the 
+
+classifications established by Hofstede with their actual manifestations in media 
+
+discourse. Furthermore, the research aims to determine the extent to which each 
+
+community exhibits an orientation toward hustle culture, thereby assessing the 
+
+alignment between theoretical cultural profiles and contemporary media portrayals. 
+
+Overall, given the broad and complex nature of the analysis, this study could not 
+
+encompass all videos related to the hustle culture phenomenon. However, the selected 
+
+sample of 32 videos may provide a representative overview, establishing a basis for 
+
+more detailed future investigations. Moreover, the limitations could be mitigated in 
+
+subsequent research by expanding the scope to include a wider variety of platforms and 
+
+languages. Despite these constraints, the present study offers valuable perspectives into 
+
+27 
+
+the representation of the hustle culture phenomenon within the context of media 
+
+discourse. By combining critical discourse analysis and cross-cultural analysis, the 
+
+study aims to identify linguistic patterns and cultural values that shape the 
+
+representation of hustle culture within the digital community. 
+
+Results and Discussion 
+
+At the end of the data collection, 32 videos, 16 American and 16 Russian videos 
+
+were transcribed and analysed. The American vlogs comprised a total of 38,925 words, 
+
+while the Russian vlogs contained 24,579 words, resulting in an aggregate word count 
+
+of 63,504. The cumulative duration of the American vlogs was 3 hours, 15 minutes, and 
+
+39 seconds, the Russian vlogs totaled 2 hours, 58 minutes, and 53 seconds, amounting 
+
+to an overall duration of 6 hours, 14 minutes, and 32 seconds. 
+
+First and foremost, a Critical Discourse Analysis (CDA) was conducted following 
+
+Fairclough’s three-dimensional model, comprising textual, discursive, and social 
+
+practice analyses. After that, a Cross-Cultural Analysis utilising Hofstede’s cultural 
+
+dimensions helped interpret how each culture’s values shape the representation of hustle 
+
+culture in American and Russian vlogs. As a result, tables for Critical Discourse 
+
+Analysis of American and Russian vlogs were compiled (see Appendix C, Tables С1 
+
+and С2), as well as a table for Cross-Cultural Analysis (see Appendix C, Table С3). 
+
+These tables illustrate linguistic means, features of discourse and social practice levels 
+
+and their examples encountered in the vlogs, which are to be analysed below. 
+
+American Vlogs  
+
+Text level 
+
+According to Table C1 (see Appendix C), the linguistic representation of hustle 
+
+culture in American vlogs is characterised by a strong emphasis on personal agency, 
+
+urgency, and self-optimisation. At the morphemic level, modals and quasi-modals 
+
+(Collins, 2009) such as “can” (217), “would” (55), “could” (46), “might” (41), 
+
+“should” (24), “have to” (74), and “need to”  (49) are frequently employed, 
+
+constructing a discourse of obligation and personal responsibility. For instance, 
+
+statements such as “You need to create a non-negotiable routine for yourself” 
+
+28 
+
+(LenaLifts, 2024) or “You must time each of your tasks” (Tam Kaur, 2023) present 
+
+productivity as a personal moral imperative.  
+
+Besides, the frequent use of imperatives is vivid in videos, e.g. “Organize your 
+
+life in a way that you can maximize your time” (mikayla mags, 2025), “Structure your 
+
+day effectively” (Sophie DiLoreto, 2024), “For right now, just focus on the task at 
+
+hand” (Helaine Zhao, 2024), “Stop thinking that you are a lazy person or a 
+
+procrastinator and switch that mindset around” (Helaine Zhao, 2024). Imperative verbs 
+
+could be used to enhance the perception of self-discipline and efficiency. This may 
+
+therefore reflect high masculinity, which values competitiveness and achievement, and 
+
+individualism, which implies that people should be self-reliant. 
+
+Pronoun usage also highlights some peculiarities.  American content creators 
+
+heavily rely on personal pronouns like “you” and “I”, highlighting personal 
+
+accountability, as in “You can choose today to reinvent yourself and make 2024 your 
+
+year” (Leyla Tavas, 2023), “I graduated from University…, and I graduated with a 
+
+first-class degree…I got straight A's in my exams… I'm a full-time content creator. …I 
+
+run my own business” (Tam Kaur, 2023),  “You’re going to decide for yourself right 
+
+now that you are done with this” (LenaLifts, 2024) or “... it is about you and exactly 
+
+how you can stop wasting the amazing life planned for you and make all your dreams a 
+
+reality”  (Helaine Zhao, 2024); “And, you know, I'm gonna live my life in a way that 
+
+matters to me” (Mayuko, 2021). It can be inferred that this linguistic choice enhances 
+
+the idea that success or failure is an individual responsibility, which is consistent with 
+
+the individualistic nature of American society. 
+
+At the textual level within CDA, lexical choices further illustrate the ideological 
+
+framing of hustle culture in American vlogs (see Table 3).  
+
+Table 3 
+
+The most frequent nouns utilised to describe hustle culture in American vlogs 
+
+Nouns 
+
+time 
+
+Frequency 
+
+141 
+
+work 
+
+routine 
+
+productivity 
+
+goal 
+
+feeling 
+
+29 
+
+87 
+
+79 
+
+58 
+
+54 
+
+35 
+
+From this it can be inferred that the lexical choices of American vloggers indicate 
+
+a strong action orientation and self-optimisation. The frequent use of “time” and 
+
+“productivity” reflects the attitude of self-optimisation and the constant use of every 
+
+moment to one's advantage, which is a feature of a masculine culture that values 
+
+success, achievement, and results. “Time”, “goal”, and “work” emphasise in most 
+
+vlogs that working is the meaning of life, which correlates with high individualism, 
+
+namely personal responsibility and career success are equated with the value of the 
+
+individual. “Routine” is typically associated with a long-term orientation in the sense of 
+
+building structure and discipline for sustainable growth and future success. However, in 
+
+American vlogs it is often presented in a way that makes it seem short-term, e.g.  “Now 
+
+you know my go-to routine for feeling balanced and productive on my days off, but 
+
+maybe you want to learn about the micro habits that set me up for success even with a 
+
+busy schedule” (Dr Faye Bate, 2025); “Maybe in those 30 minutes, I could be editing, I 
+
+could be crossing things off my to-do list, I could be doing my morning routine” 
+
+(mikayla mags, 2025). Finally, “feeling” demonstrates a strong affective involvement in 
+
+the processes of productivity and self-improvement. In the context of hustle culture, 
+
+emotions become an integral part of it and a criterion of success, which could emphasise 
+
+the features of a masculine attitude, where feeling becomes part of the toolkit for 
+
+achieving goals (e.g. emotional control).  
+
+ 
+30 
+
+When describing the attitude towards hustle culture, the majority of American 
+
+vloggers have a tendency to employ adjectives6, which carry a positive evaluation such 
+
+as “productive”, “motivated”, “positive”, “happy”, “perfect”, contributing to the 
+
+desire of becoming like the person being described. The content creators use them to 
+
+praise the idea behind the phenomenon of hustle culture and what it stands for.  
+
+Adjectives “busy” and “disciplined” might be regarded as neutral. These adjectives and 
+
+the frequency with which they are used are presented in Table 4.  
+
+Table 4 
+
+The most frequent adjectives utilised to describe hustle culture in American vlogs 
+
+Adjectives 
+
+productive 
+
+busy 
+
+motivated 
+
+positive 
+
+happy  
+
+perfect  
+
+focused 
+
+disciplined 
+
+Frequency 
+
+87 
+
+26 
+
+15 
+
+13 
+
+12 
+
+11 
+
+9 
+
+9 
+
+The table depicts that adjectives indicate a strong emotional orientation, ambition 
+
+and self-improvement, which implies that productivity leads to the fact that one should 
+
+feel “hаppy”, and “perfect”. As a result, this may point out a high level of 
+
+6 In this study, adjectives are understood as anything that is utilised as an attribute to characterise the attitude 
+
+toward hustle culture. Past participle is also considered an adjective. Fairclough identifies a separate category of 
+‘participial adjectives’, e.g. required, allowed, etc. (Fairclough, 2003), however, other studies based on Fairclough’s 
+three-dimensional framework treat this category as ‘adjectives’ (Abcha, 2016; Ånmark, 2015; Isbuga-Erel, 2008). 
+
+                                                   
+31 
+
+individualism and masculinity in American society, where personal success and the 
+
+expression of individual feelings are valued. 
+
+The frequent use of verbs like “feel”, “work”, “change”, and “optimize” in 
+
+American videos reflects emotional labour and relentless self-improvement (see Table 
+
+5). The verb “feel” links productivity to affective states, representing success as an 
+
+inner psychological achievement, whereas “work” reinforces the moral imperative of 
+
+continuous effort. Such verbs as “change” and “optimize” point out the expectation of 
+
+perpetual improvement of oneself.  
+
+Table 5 
+
+The most frequent verbs utilised to describe hustle culture in American vlogs 
+
+American verbs 
+
+Frequency 
+
+feel 
+
+work 
+
+change 
+
+optimize 
+
+179 
+
+48 
+
+15 
+
+11 
+
+These verbs shape hustle culture in American vlogs as an individualistic, 
+
+highlighting results-oriented ideology that prioritises personal agency, measurable 
+
+results and emotional control, which is in line with Hofstede's dimensions of high 
+
+individualism and masculinity. 
+
+American vloggers often describe hustle culture through metaphors of 
+
+mechanisation, pressure, and optimisation, reflecting the general idea that efficiency and 
+
+results are focal. For instance, “accelerate your productivity and unlock your creative 
+
+side” (LenaLifts, 2023); “optimize the chunks of time” (sarah pan, 2024); “maximize 
+
+your productivity” (Tam Kaur, 2023). At the same time, some American content 
+
+creators illustrate hustle culture from a negative perspective by turning oneself into a 
+
+“work machine”, e.g.  “I feel like part of hustle culture is to make yourself some sort of 
+
+32 
+
+work machine”;  “...this position just feels very counterculture to hustle culture, where 
+
+a lot of it is about maxing ourselves out like machines” (Mayuko, 2021).  
+
+ Similarly, metaphors such as “brain dump”, “mental load”, and “cluttered 
+
+brain” (Dr Faye Bate, 2025; Sophie DiLoreto, 2024) represent the self as a data 
+
+processor that must be periodically cleared to remain functional. Even positive routines 
+
+are reframed as tools for performance optimisation, e.g. “diamonds are made under 
+
+pressure” (Anna Neubert, 2025), which implies that stress and hustle are productive by 
+
+nature. As a consequence, these metaphorical framings indicate a high Masculinity 
+
+stressing productivity, ambition and competitiveness, as well as a strong Individualism 
+
+where personal autonomy and responsibility dominate the narrative. Furthermore, the 
+
+focus on life hacks to save time and instant productivity is observable, e.g. “Even 
+
+though cleaning dishes won’t take you more than 30 minutes, it’s still unloading a lot of 
+
+mental load” (sarah pan, 2024),  is consistent with a Short-Term Orientation, favouring 
+
+immediate results over gradual development. 
+
+The following frequently repeated metaphors that have come to be used as slang 
+
+are “get out of the lazy rut” and “enter “that girl” era” (Leyla Tavas, 2023; Tam Kaur, 
+
+2023). Both metaphors reflect core aspects of hustle culture, namely that unproductivity 
+
+is a disease or a trap to eliminate, whereas development is a transformation of the 
+
+individual, as if one can ‘enter’ a new way of life. Notwithstanding the fact that the 
+
+image of ‘that girl’ is feminine in appearance but metaphorically linked to masculine 
+
+values such as determination, productivity, and inner toughness. 
+
+One more peculiar linguistic means that is bound to be regarded in the research is 
+
+personification. In American videos, hustle culture itself is personified as a powerful 
+
+external force: “It [hustle culture] promises this sort of utopia that we're, I guess, trying 
+
+to reach, in which our whole self is defined by the work we do” (Mayuko, 2021); and 
+
+the “life you want” is depicted as something that “requires to put in work and make 
+
+sacrifices” (LenaLifts, 2024). These constructions depict goals as demanding entities 
+
+that the subject must serve, reinforcing a vision of externalised discipline and self-
+
+sacrifice for the sake of the desired life.  
+
+33 
+
+Furthermore,  in the American vlogs, repetition emerges as an affirmative 
+
+strategy. Lexical units such as “productive”, “mindset”, and “maximize” are not merely 
+
+repeated for emphasis, they serve to instil that people must strive for success and 
+
+constantly develop, as required by the hustle culture. For instance, “Maximize your 
+
+productivity…maximize all of the success” (Tam Kaur, 2023); “Mindset is everything,.. 
+
+then the very first step is to change your mindset and the identity that you've created for 
+
+yourself…switch that mindset around” (Helaine Zhao, 2024). From the lens of 
+
+Hofstede’s dimensions, this reflects individualistic values since the self is regarded as 
+
+an autonomous, self-improving agent. 
+
+Finally, at the syntactical level,  American vloggers employ rhetorical questions 
+
+mainly so as to engage the audience in reflection, e.g. “...what is even the point in 
+
+working so hard if you don't have time to be fully present with the people who matter 
+
+most?” (Dr Faye Bate, 2025). American vloggers have been found to utilise several 
+
+more syntactic structures such as inversion structures, which appear to be used to 
+
+highlight personal revelations and emphasise the abnormality of choices reflecting a 
+
+deviation from conventional career expectations, e.g. “Not only have I built my creative 
+
+side hustle, I have a fuller life now, and I'm so grateful that I was brave enough to make 
+
+this decision” (Hippy Highland Living, 2022); “Not only does it feel good, but studies 
+
+show that meaningful social interactions can reduce stress hormones and boost 
+
+oxytocin, also known as the love hormone” (Dr Faye Bate, 2025). Another imperative 
+
+stylistic device that is vivid is antithesis. American vlogs provide examples where the 
+
+device is utilised as a tool for increasing motivation, e.g. “So consider this the last day 
+
+of your lazy lifestyle and the first of your success story” (Tam Kaur, 2023). In this 
+
+context, the syntactic device expresses the orientation towards masculine values and 
+
+short-term motivation as the emphasis is not on the process, but on the moment of 
+
+transformation and immediate results. One more peculiar device is syntactic parallelism 
+
+that is present in both American and Russian videos. Regarding American vlogs, 
+
+content creators most often apply parallelism to personal narratives that display 
+
+behavioral patterns and inner transformation, e.g. “I'm walking downstairs to get a cup 
+
+of water, I'm holding my phone; I go into the bathroom, I'm bringing my phone; go to 
+
+34 
+
+make food, I'm bringing my phone”(Sophie DiLoreto, 2024). This device allows the 
+
+author in this example to question unconscious patterns of behavior (e.g., using a cell 
+
+phone unnecessarily) and motivate a conscious change, which is rather consistent with a 
+
+high degree of individualism and short-term orientation. What that means is that the 
+
+person is responsible for their own performance and needs to reassess his or her current 
+
+patterns. Moreover, syntactic parallelism is utilised in order tо express opposing options 
+
+as equivalent, for instance, “Maybe you really enjoy living a fast-paced or eccentric 
+
+life, and there's nothing wrong with that, but there's also nothing wrong with not 
+
+wanting that” (Malama Life, 2021). What is emphasised here is a sense of acceptance 
+
+and variation in choice, which is characteristic of a more feminine culture where 
+
+diversity and well-being are valued, not just the outcome. It should be also pointed out 
+
+that syntactic parallelism is employed in order to motivate people to change their 
+
+lifestyle, and to keep them engaged until the end of the video, e.g. “I can promise you, 
+
+by the end of this video, you'll know exactly how to stop procrastinating, how to stop 
+
+being lazy, break free from your phone addiction (with some unique tips), how to create 
+
+a simple plan to stay organized, and how to overcome perfectionism so that you can 
+
+actually start making real progress in your life” (fayefilms, 2024).  Besides, cleft 
+
+sentences are frequently used by American vloggers to point out the source of personal 
+
+fulfillment or dissatisfaction, e.g. “More importantly, this ordinary, boring life is what 
+
+fulfills me” (Malama Life, 2021); “Because that means every day you wake up, you're 
+
+dreading the day ahead. And that dread is what leads to procrastination” (Tam Kaur, 
+
+2023); “Building good habits is so important for staying productive and motivated 
+
+because that is what keeps you going, and especially when you're super busy, you'll 
+
+really appreciate having good habits in place so you don't really have to think about 
+
+doing the right thing” (LenaLifs, 2024). This syntactic emphasis reflects a cultural 
+
+orientation toward introspection and emotional well-being, revealing an underlying 
+
+critique of traditional hustle culture from a more feminine and long-term perspective. 
+
+These examples demonstrate a cultural orientation that deviates from Hofstede’s 
+
+cultural dimensions theory, which stresses self-reflection and emotional wellbeing, 
+
+revealing an implicit critique of the conventional idea of hustle culture from a more 
+
+35 
+
+feminine perspective.  
+
+Discursive Practice Level 
+
+American vlogs show a strong alignment with the wellness/self-help genre and 
+
+draw heavily on popular productivity literature and motivational media. Frequent 
+
+intertextual references to mainstream self-help authors, e.g., James Clear’s Atomic 
+
+Habits, social media influencers, and wellness platforms underscore how ideas about 
+
+self-improvement and working hard are closely connected to the business of online 
+
+content. For instance, the following statements point out how productivity narratives are 
+
+spread through the media people tend to consume every day:“I actually took this from 
+
+the book Atomic Habits by James Clear. Highly, highly recommend—especially if you 
+
+struggle with organizing and getting things done like me” (LenaLifts, 2024), “This 
+
+reminds me of the principle from the book Atomic Habits where he says to make the bad 
+
+habit difficult” (Sophie DiLoreto, 2024), “I go on TikTok, and I'll type in motivational 
+
+content, motivational speeches” (Tam Kaur, 2023), I actually got it from this law 
+
+student TikToker that I follow (LenaLifts, 2024), “You can also listen to motivational 
+
+podcasts (I love these ones) or look at a Pinterest board with your goals or your 
+
+favorite quotes” (Leyla Tavas, 2023). 
+
+Another core discursive feature in American vlogs is the commercialisation of 
+
+self-optimisation and productivity. A significant number of American vloggers 
+
+recommend or promote services and products that promise to increase productivity, 
+
+from fitness supplements and apps to online platforms. These recommendations are 
+
+usually seamlessly woven into the narrative as personal recommendations, blurring the 
+
+line between genuine experience and sponsored advertising. For example, “HelloFresh 
+
+has truly made my life 10 times easier. As a busy girl with so many tasks and work to 
+
+juggle,... maximize all of the success I have in my working life because mealtime is just 
+
+done” (Tam Kaur, 2023) or “I use Notion to do all of that in one—to organize my life, 
+
+plan my videos, make my daily to-do list. And how I know Notion works for me is 
+
+because every time I've fallen off with using it, my productivity level is just completely 
+
+tanked” (mikayla mags, 2025). 
+
+36 
+
+Reflections related to the pandemic are also featured prominently, showing how 
+
+the socio-political context shaped personal attitudes towards work, slowness, and 
+
+reassessment of life goals, e.g. “I idolized being busy and gave up any sort of hobbies – 
+
+my life was my work. Then a lockdown happened” (Hippy Highland Living, 2022); 
+
+During the pandemic, we saw more slow YouTube channels and blogs pop up. Why? 
+
+Because we had to take it easy thanks to government lockdowns and home quarantines 
+
+(A Slow Simple Life, 2023). 
+
+In addition, a tendency to combine different genres has been found in American 
+
+vlogs, namely the genres of tutorials, confessions, motivational speeches, and diaries, 
+
+which results in a mixed discourse. For instance, “Even if I feel better when I'm 
+
+productive, sometimes rest is needed. I fall into a rut at times too, and that is completely 
+
+okay. Every human needs time to relax, to rewind, and to charge—just like your phone. 
+
+It needs to charge in order to keep running and to keep providing” (Helaine Zhao, 
+
+2024). In this example, Helaine Zhao combines several genres in the vlog, namely 
+
+confession and tutorial. 
+
+Social Practice Level 
+
+At the level of social practice, American content creators construct hustle culture 
+
+as a lifestyle choice that combines discipline and aesthetic self-care. Productivity is seen 
+
+not simply as a functional goal, but as a representation of identity, especially within a 
+
+feminine aesthetic: “…so that I can be productive but also live my soft girl life, which is 
+
+extremely important” (Tam Kaur, 2023), “My beautiful pre-workout cocktail—in a 
+
+wine glass, of course. Cheers! Fire” (LenaLifts, 2024), “What I love most about this 
+
+planner is that I can make cute little spreads on it” (mikayla mags, 2025). 
+
+These examples highlight how in American culture, and more specifically in 
+
+American vlogs, visualised productivity (complete with planners, vision boards, and 
+
+curated routines) is represented as both individual self-actualisation and public display, 
+
+especially on platforms such as YouTube. This aestheticised approach is in line with the 
+
+feminine code of productivity, where “softness” and “productivity” blend well and 
+
+complement each other. 
+
+37 
+
+At the same time, these vlogs emphasise personal achievement, self-control, and 
+
+discipline as core values: “Discipline is about mastering self-control, and the way you 
+
+do that is you start practicing setting boundaries with yourself—saying no to yourself, 
+
+taking control of your life” (Tam Kaur, 2023), “But motivation can't keep you going 
+
+forever, so discipline is where it's really at” (Helaine Zhao, 2024). It is also worth 
+
+noting the frequent reference to James Clear among American vloggers, many of them 
+
+repeatedly mention his quote, but do not name the author himself, e.g. “So I want you 
+
+guys to remember this quote, okay? “The cost of procrastination is the life that you 
+
+could have lived” (LenaLifts, 2024); “A quote that I heard, and I've not been able to get 
+
+out of my head since, is: “The cost of procrastination is the life you could have lived” 
+
+(Sophie DiLoreto, 2024). In this quote, time is regarded as a finite resource that needs to 
+
+be invested wisely and lost time is equated with lost opportunities, which is in line with 
+
+the capitalist ideology that turns human behaviour and productivity into a commodity. 
+
+This reflects the notion that each individual is responsible for their own success, 
+
+and that being able to manage their time and be disciplined is considered mandatory to 
+
+achieve anything in life. Furthermore, a high achievement orientation is vivid here 
+
+(Masculinity), equating performance with self-esteem and success. 
+
+To conclude, the analysis of American vlogs fully confirms the high rate of 
+
+individualism (60 points) in American culture, according to Hofstede (Country 
+
+Comparison Tool, 2023). The dominance of the pronouns “I” and “you”, the emphasis 
+
+on personal responsibility and personal choice reflect the value of personal autonomy 
+
+characteristic of American society. The use of imperatives in the form of direct 
+
+instructions, which presupposes independent decision-making by the addressee, is 
+
+especially indicative.   
+
+Furthermore, it is worth noting that the high indicator of masculinity (62 points) 
+
+is also vividly reflected in the content. The analysis reveals the predominance of terms 
+
+related to achievements. The metaphors of mechanisation and competitive attitudes 
+
+demonstrate a typically masculine orientation towards results, competition and success. 
+
+However, it is worth noting a certain contradiction: despite the general masculine 
+
+orientation, feminine elements can be traced in the aestheticisation of productivity 
+
+38 
+
+(“soft girl life”), which may indicate the evolution of gender stereotypes in the modern 
+
+digital space. 
+
+As for long-term orientation, the most remarkable divergence from Hofstede’s 
+
+theory is detected here. While the official figures suggest a lack of clear orientation  (50 
+
+points), the analysis of the vlogs reveals a pronounced short-term perspective. The 
+
+emphasis on instant actions and results indicate a desire for immediate effect. Even the 
+
+concept of “routine”, traditionally associated with long-term planning, is presented 
+
+through immediate benefits, consistent with American culture’s tendency toward short-
+
+term orientation. At the discursive practice level, short-term orientation can be seen in 
+
+the emphasis on “life hacks”, which is vivid in the promotion of products, e.g. 
+
+“HelloFresh has truly made my life 10 times easier” (Tam Kaur, 2023). 
+
+However, the study revealed two significant aspects that do not fully fit the 
+
+theory. To start with, the paradox of emotionality, which means that despite 
+
+masculinity, a strong affective component is noted, which is traditionally considered a 
+
+feminine characteristic. This can be explained by the commodification of emotions in 
+
+self-help discourse, where feelings become a tool for productivity. A hybridity of 
+
+temporal perspective is also evident, namely along with the dominance of short-term 
+
+strategies, a narrative of long-term “discipline” is evident, making unambiguous 
+
+categorisation complicated. 
+
+The deviations might be explained by the specificity of digital content, which 
+
+reinforces certain cultural trends, also by the evolution of traditional values under the 
+
+influence of the wellness movement, and by the commercialisation of the self-help 
+
+industry, which creates new discursive hybrids. 
+
+Russian Vlogs 
+
+Text Level 
+
+According to Table C2 (see Appendix C), at the morphemic level, the use of 
+
+modal constructions with social and normative colouring  becomes a key feature of 
+
+Russian vlogs. The frequent use of the words “нужно” (87) and “должен” (25) and 
+
+negated constructions such as “не надо” (5) forms a discourse of external obligation, 
+
+where productivity appears as a social norm rather than a personal choice. These 
+
+39 
+
+formulations often reflect an external necessity or a communal expectation rather than 
+
+an individual decision, which might indicate a collectivist orientation. For example, 
+
+“Ваш мозг должен иметь конкретный алгоритм: что и когда ему делать и ради 
+
+чего” (Kristina Laktionova, 2024) presents discipline as something imposed from the 
+
+outside, which corresponds to the collectivist orientation of Russian culture according to 
+
+Hofstede. 
+
+Besides, it cannot but be mentioned that imperative constructions in Russian 
+
+vlogs are softened through the form of advice. Phrases such as “Хвалите себя за 
+
+маленькие победы” (Alina Marketing, 2024), “Старайтесь грамотно 
+
+распределять свою нагрузку” (AlexGoldenGirl, 2024), “Мой вам совет: приводите 
+
+себя в порядок как можно скорее после того, как проснулись, и не оттягивайте 
+
+это до последнего” (Anya Ru, 2022) carry a friendly recommendation rather than an 
+
+orderly character, reflecting more “feminine” values of caring and mutual support. 
+
+What is more, it is notable that Russian content creators mostly stick to inclusive 
+
+pronouns like  “мы”, e.g. “Многие вещи, которые мы выполняем ежедневно, уже 
+
+становятся автоматическими, и порой мы забываем, к чему именно хотим прийти” 
+
+(Kristina Laktionova, 2022), and collective encouragements “Давайте коллективно 
+
+поделимся своими успехами и неудачами под роликом”(Alina Marketing, 2024), 
+
+which implies a collectivist society where mutual support and sharing of experiences is 
+
+paramount. 
+
+Moreover, Russian vloggers often reflect on personal failures and daily struggles, 
+
+creating a more realistic and less idealised view of productivity, e.g. “Мне 
+
+достаточно сложно встать с кровати сразу после будильника, думаю, как 
+
+большинству из вас” (mitiny, 2024a). This is consistent with Hofstede’s description of 
+
+Russian culture as lower in individualism and higher in long-term orientation, where 
+
+delayed gratification and collective values are more culturally embedded. 
+
+Lexical analysis reveals the prioritisation of notions of stability and gradual 
+
+growth over instantaneous results (see Table 6). 
+
+Table 6 
+
+The most frequent nouns utilised to describe hustle culture in Russian vlogs 
+
+Nouns 
+
+время 
+
+привычка 
+
+дисциплина 
+
+рутина 
+
+чувство 
+
+действие 
+
+цель 
+
+достижение 
+
+40 
+
+Frequency 
+
+129 
+
+49 
+
+39 
+
+32 
+
+26 
+
+24 
+
+14 
+
+13 
+
+The frequent use of “время” and “дисциплина” illustrates self-control and 
+
+fulfilment of obligations, which may indicate low individualism and an uncharacteristic 
+
+tendency towards masculinity in Russian culture. “Привычки”and “рутина”  stress 
+
+repetition and order rather than inspiration, this denotes that productivity is seen as the 
+
+result of daily work, which correlates with long term orientation. It cannot but be 
+
+mentioned that “чувство” is often found in the context of self-care, which corresponds 
+
+with a feminine culture dominated by caring. Regarding “действие”, “цель”,  and 
+
+“достижение”, they might indicate a result-orientation and the idea of an effective 
+
+life, which reflects elements masculine culture as well as the aspect of short-term 
+
+orientation, which underscores immediate action and specific goals. 
+
+So as to describe hustle culture and the attitude towards it, Russian vloggers 
+
+mostly employ adjectives which possess positive evaluation (see Table 7). 
+
+Table 7 
+
+The most frequent adjectives utilised to describe hustle culture in Russian vlogs 
+
+Russian adjectives 
+
+Frequency 
+
+продуктивный 
+
+полезный 
+
+здоровый 
+
+идеальный 
+
+дисциплинированный 
+
+41 
+
+ 62 
+
+32 
+
+20 
+
+14 
+
+9 
+
+Russian content creators predominantly utilise adjectives “продуктивный”, 
+
+“полезный”, “здоровый”,  and “дисциплинированный”. It is also pivotal to mention 
+
+the word “идеальный”, which focuses on high standards and perfectionism, as well as 
+
+in American discourse. 
+
+Regarding the most frequent verbs associated with hustle culture (see Table 8) 
+
+Russian content creators often use verbs related to emotion (“feel”, “чувствовать”) 
+
+and activity (“work”, “работать”), which highlight experiencing hustle culture as an 
+
+emotionally intense process that requires effort. 
+
+Table 8 
+
+The most frequent verbs utilised to describe hustle culture in Russian vlogs 
+
+Russian verbs 
+
+работать 
+
+чувствовать 
+
+изменить 
+
+контролировать 
+
+развиваться 
+
+Frequency 
+
+54 
+
+43 
+
+27 
+
+11 
+
+10 
+
+Russian vlogs often employ the verbs “контролировать” and “развиваться”, 
+
+which could point out a focus on self-regulation, discipline, and self-improvement. The 
+
+idea of sustainable development within rules and norms, characteristic of collectivist 
+
+42 
+
+and more structurally oriented societies, is observable. Besides, it is notable that the 
+
+verb “изменить” also features prominently, which is associated with getting out of a 
+
+“lazy” state rather than with the search for an ideal version of oneself. 
+
+At the lexical level, Russian vloggers rely on metaphors grounded in emotional 
+
+and social cognition, often employing figurative language to highlight self-awareness 
+
+and long-term growth. For example, discomfort is framed not as an obstacle (as in many 
+
+American vlogs) but as an ally: “...воспринимать его не как врага, а как союзника” 
+
+(Kristina Laktionova, 2024). The juxtaposition of “враг” and “союзник”  puts the 
+
+individual not in conflict with the inner state, but in dialogue with it, which leads to 
+
+self-awareness and acceptance. In addition, the recurring metaphor of a journey, for 
+
+instance, the comparison of personal growth to steering a bicycle already in motion, 
+
+emphasises movement, continuity, and self-direction: “На самом деле всегда всё 
+
+только в ваших руках, и решение стать лучшей версией себя – я считаю, что это 
+
+лучшее проявление любви к себе. Всё это можно сравнить с катанием на 
+
+велосипеде: гораздо легче поменять направление и, так скажем, крутануть руль, 
+
+когда ты уже крутишь педали, а не когда ты только думаешь о том, как ты 
+
+будешь крутить педали” (AlexGoldenGirl, 2025). Meanwhile, the metaphor “...путь 
+
+лени — это путь сожаления” (Alina Marketing, 2024) presents laziness as a path 
+
+leading to a specific and emotionally negative outcome – regret. (Alina Marketing, 
+
+2024). Another vivid metaphor is “ведро с крабами ” (the crab bucket), where others 
+
+prevent one’s escape (Kristina Laktionova, 2024), which brings attention to collective 
+
+dynamics, illustrating how group environments can hinder or support individual 
+
+progress. One more example that is to be mentioned is “...просто находимся в своей, 
+
+так скажем, зоне. И на самом деле это не совсем правильно – это просто нужно 
+
+суметь перебороть” (AlexGoldenGirl, 2025). This metaphor depicts a metaphorical 
+
+“zone” of comfort and inactivity. It suggests that although being in this zone is pleasant, 
+
+it hinders progress and must be overcome. The metaphor illustrates the internal tension 
+
+between comfort and progress, reflecting an internal dialogue rather than an external 
+
+struggle, indicative of collectivism and feminine values. The author implies that the 
+
+solution is not to “maximise” but to gradually break down inertia. Last but not least, 
+
+43 
+
+Russian vloggers value the notion of “routine” and regard it as safe, e.g. “Рутина и 
+
+режим – это не только про ваши цели и привычки. Это прежде всего про 
+
+безопасность, про стабильность” (Kristina Laktionova, 2024). Overall, these 
+
+metaphorical constructions tend to foreground Long-Term Orientation and a Collectivist 
+
+sensibility, emphasising not immediate results but the integrity of the process, emotional 
+
+resilience, and gradual self-improvement within social ecosystems. 
+
+One more vivid linguistic means in Russian vlogs is personification.Vloggers 
+
+often personify internal psychological states: “Негативные мысли могут сильно 
+
+тормозить и не давать продвигаться вперёд” (Marie Kory, 2025). One more 
+
+peculiar example is the following: “Цель должна вдохновлять, вызывать тот 
+
+самый трепет, а привычки должны вызывать дискомфорт” (Kristina Laktionova, 
+
+2024). This quote shows a double personification: the goal and habits are endowed with 
+
+the ability to evoke feelings – inspiration, awe, and discomfort. Such emotional states 
+
+are usually associated with interpersonal relationships, but here they are tied to abstract 
+
+notions that act as subjects of influence. 
+
+Among the devices it is also worth mentioning repetition, which is used by 
+
+Russian vloggers utilise in order to show struggle, underline emotional tension, and 
+
+normalise internal conflict as part of the hustle process:  “Вы чаще всего сдаётесь, вы 
+
+чаще всего не выполняете свои обещания, не выполняете свою рутину…” (Alina 
+
+Tereshko, 2024). The repeated negation “не выполняете” creates an atmosphere of 
+
+emotional exhaustion and anticipated guilt as the viewer realises their moral deviation 
+
+from the norm. Next repeated term is “навык” (skill), e.g. “Навык организовывать 
+
+своё время, навык создания рутины, навык преодолевать трудности…” (Kristina 
+
+Laktionova, 2024). It reveals a cultural framing of productivity as something that must 
+
+be acquired through laborious effort, not assumed as innate.  
+
+At the syntactical level, Russian content creators utilise rhetorical questions 
+
+mainly so as to engage the audience in reflection and to serve a more motivational and 
+
+corrective purpose. It might be suggested that they are used to make the viewer think 
+
+about themselves and their actions, emphasising that they deserve the best and should 
+
+strive for it. , e.g. “Разве ты этого заслужила? Нет. Ведь ты заслуживаешь всего 
+
+44 
+
+самого лучшего…Разве ты хочешь, чтобы в твоей истории ты была вечно 
+
+грустным и страдающим персонажем? Думаю, что нет” (Alina Marketing, 2024); 
+
+“Сколько раз вы писали список дел на день и сколько раз он потерпел неудачу?” 
+
+(Kristina Laktionova, 2022). Furthermore, it is worth mentioning that rhetorical 
+
+questions in Russian vlogs  Next, Russian vlogs also actively incorporate antithesis, 
+
+which is done in the form of instructive advice or moralising, for instance, “Дисциплина 
+
+– это одна из высших форм проявления уважения к себе. А лень способна 
+
+привести только к одному – сожалению” ; “Система - это ежедневные 
+
+действия, это привычки. Цель - это конечный результат. Цель должна 
+
+вдохновлять, вызывать тот самый трепет, а привычки должны вызывать 
+
+дискомфорт” (Kristina Laktionova, 2024). These examples are consistent with a 
+
+collectivist and long-term oriented culture that values continuous self-improvement 
+
+through habits, effort, and the “right” system of behavior rather than instant success. 
+
+Moreover, syntactic parallelism is employed to reinforce the “correct” thought pattern, 
+
+e.g. “Когда идёте учиться через “не хочу”, когда собираетесь на тренировку 
+
+сквозь “миллиарды я не могу”” (Kristina Laktionova, 2024). It can be assumed that 
+
+the repetitive constructions reinforce the heroism of everyday coping, which expresses a 
+
+masculine orientation towards struggle, effort and discipline. In other cases, parallelism 
+
+is used to validate feelings, for example, “Нужно давать своим эмоциям место: 
+
+хочешь плакать — поплачь, злишься — позлись, устала — отдохни” (Alina 
+
+Marketing, 2024), which demonstrates a feminine shift within the Russian 
+
+understanding of self-discipline (emotional flexibility becomes part of productivity). 
+
+Discursive Practice Level 
+
+Russian content creators draw on self-help literature, e.g., James Clear: “Меня 
+
+очень вдохновила книга Джеймса Клира “Атомные привычки” (Kristina 
+
+Laktionova, 2024). However, the discourse is more introspective, Russian vloggers 
+
+often express feelings, psychological difficulties, and personal development. There is a 
+
+sense of reflection and a desire to make sense of the issues in their speech, and thеy talk 
+
+openly about trauma, burnout and inner obstacles. Statements such as “Тебя 
+
+травмировали, и ты не справляешься? Самое время обратиться к психологу” 
+
+45 
+
+(Alina Marketing, 2024), “Бумага — это самый быстрый и экстренный 
+
+терапевт” (Kristina Laktionova, 2024), or “Если вы чувствуете, что у вас есть 
+
+"болезни души", то лучше сразу идти к нужному врачу — ведь работа не уберет 
+
+депрессию, а под ленью может скрываться апатия”(Фая, 2023) indicate a deeper 
+
+integration of psychological discourse into vloggers’ ruminations on self-discipline. 
+
+A recurring theme is self-diagnosis and self-regulation as key components of 
+
+productivity. Emotional states (fear, anxiety, laziness) are seen not only as obstacles to 
+
+success, but also as symptoms that need to be dealt with, often with the help of therapy 
+
+or spiritual practices, e.g. “Исследования подтверждают, что книги для 
+
+саморазвития могут избавить читателя от депрессивного настроя и изменить 
+
+укоренившийся образ мышления” (Фая, 2023), “Также, когда я встаю рано, 
+
+больше времени могу уделить себе: различным практикам, которые наполняют 
+
+меня энергией на весь день” (Marie Kory, 2024). 
+
+Russian vlogs also show the influence of social media on the formation of self-
+
+perception, motivation, and self-organisation of speakers, for instance, “Итак, ты 
+
+хочешь стать идеальной студенткой – той девушкой из Pinterest, которая всегда 
+
+без особых усилий проходит обучение и получает пятёрки” (Julia Avis, 2024), 
+
+“Меня вдохновляют фильмы, книги и видео на YouTube…Pinterest я использую, 
+
+если нужно придумать что-то интересное – он даёт вдохновение на новые идеи” 
+
+(Marie Kory, 2025). These examples illustrate how youth bloggers rely on aesthetic 
+
+patterns from Pinterest, YouTube, and other platforms, borrow visual and speech 
+
+formats and embed them in their behaviour. 
+
+Despite less overt product placement, Russian vloggers also mention tools and 
+
+products, but these typically emphasise emotional authenticity and peer-like 
+
+relationships, e.g. “Пользуясь таким невероятным случаем, хочу поделиться с 
+
+вами своей находкой за последний месяц - а именно сервисом “О смысле”. “О 
+
+смысле” – это образовательная платформа с огромным перечнем различных 
+
+лекций: от психологии до маркетинга, развития блога и soft skills” (Kristina 
+
+Laktionova, 2022) or “И, господи, я вам отдаю от чистого сердца свою находку – 
+
+это YouTube-канал Русский язык с Нелли” (sosomak, 2023). 
+
+46 
+
+Social Practice Level 
+
+In Russian vlogs, hustle culture is portrayed through the prism of external 
+
+pressures. In this context, productivity is considered not as a lifestyle, but rather as a 
+
+forced measure and a necessity for survival and competition: “Так что запоминаем 
+
+как мантру: пока ты плачешь, кто-то дисциплинированно работает”; “Если ты 
+
+не найдёшь в себе силы ответить на приглашение, то упустишь свой шанс, и 
+
+твоё место займёт кто-то другой” (Alina Marketing, 2024); “...Меня окружает 
+
+очень много трудолюбивых людей. И у них у всех есть одна черта - они никогда, 
+
+никогда не жаловались” (Kristina Laktionova, 2024). 
+
+These statements create a harsh environment in which emotional softness is a 
+
+hindrance, indicative of the culture’s tendency towards Masculinity. The implication is 
+
+that the vlogger's success is not related to personal pleasure, but to his ability to tolerate, 
+
+persevere, and suppress weakness. This also reflects Russian collectivist society, where 
+
+productivity is seen as a moral obligation, often enforced by social comparison and the 
+
+threat that one is easily replaceable. 
+
+However, there is also a parallel discourse that mitigates this rigidity through an 
+
+aestheticised, feminine environment, as in American vlogs, e.g. “Собери доску на 
+
+Pinterest с эстетичными картинками, связанными с дисциплиной” (Alina 
+
+Marketing, 2024), “Последний, одиннадцатый совет — это создать себе 
+
+благоприятную атмосферу для учёбы” (AlexGoldenGirl, 2024), “Эти ограничения 
+
+— это мужская история. Это вот не про любовь к себе, не про расслабление, не 
+
+про кайф, не про поток” (Алина Терешко, 2024). 
+
+In addition, it is pivotal to point out that Russian vlogs stress an increasing 
+
+emphasis on mindset change and emotional self-management as focal components of 
+
+success. Vloggers tend to encourage viewers  to restructure their mindset by switching 
+
+from external obligations to voluntary ones: “Вместо “я должен”, “мне нужно это 
+
+сделать” попробуйте говорить себе: “я выбираю” или “я хочу”” (Kristina 
+
+Laktionova, 2022). This linguistic pеculiarity illustrates a deeper ideological shift 
+
+towards psychological responsibility for one’s actions. Moreover, the motivational 
+
+discourse in Russian vlogs treats procrastination and failure not as something 
+
+47 
+
+unchangeable, but as something that can be challenged and replaced with empowering 
+
+alternatives. For instance, “я провалюсь” can be replaced with “я сделаю всё 
+
+возможное” (Marie Kory, 2025) puts the emphasis on internal effort and emotional 
+
+resilience rather than external outcomes. This approach shows that in Russian modern 
+
+society people are increasingly expected to manage themselves, namely to control their 
+
+emotions, behaviour and habits as if they were running their own business. At the same 
+
+time, one can notice a duality: on the one hand, the idea of constant employment and 
+
+productivity remains the main idea, but on the other hand, people try to reduce its 
+
+psychological pressure with the help of the right words, cosy environment, and 
+
+emotional support. 
+
+All things considered, the analysis of Russian vlogs demonstrates a complex 
+
+picture with elements of both conformity and partial divergence from the theory. To 
+
+start with, vlogs strongly supports Hofstede’s cultural dimensions theory, where 
+
+individualism is remarkably low (46 points), indicating a collectivist society (Country 
+
+Comparison Tool, 2023). Next, the frequent usage of such a pronoun as “мы”,  and 
+
+emphasis on common difficulties reflect the collectivist orientation typical of Russian 
+
+culture. Especially indicative is the use of modal constructions “нужно” and 
+
+“должен”, which represent productivity as a social norm rather than a personal choice. 
+
+Сollectivism manifests itself through social pressure, which reflects the prioritisation of 
+
+group standards over individual desires. 
+
+According to Hofstede, Russian culture can be classified as feminine with a score 
+
+of 36 on the masculinity dimension. The linguistic features of the content clearly show 
+
+features of feminine culture, especially in the use of softened imperatives, which are 
+
+presented not as harsh commands but as friendly advice. The frequent use of adjectives 
+
+with an obvious feminine colouring, e.g. “полезный” and “здоровый”, which link 
+
+productivity not so much with achievements as with well-being, is particularly 
+
+revealing, which fully corresponds to the parameters of feminine culture according to 
+
+Hofstede. However, there is a discrepancy between the theory according to Hofstede 
+
+and the vlogs. The discourse of Russian vlogs contains pronounced masculine elements 
+
+that create a certain tension with the theory. First of all, this is manifested in the lexical 
+
+48 
+
+choice, namely words “дисциплина”, “работать” or “контролировать” occur 
+
+much more frequently than in typically feminine cultures, and metaphors of struggle 
+
+and leaving one's comfort zone reflect a rather masculine orientation towards 
+
+achievement and competition. It should be stressed that even the cоncept of 
+
+“самодисциплина” is presented through harsh language, which is typical of masculine 
+
+cultures. Despite the presence of some masculine elements, which might be explained 
+
+by the specificity of the hustle culture genre itself,  these concepts are mitigated through 
+
+a feminine discourse of care, imperatives are presented as advice rather than orders, and 
+
+there is an emphasis on emotion and reflection. Even the notion of discipline is often 
+
+associated with self-care rather than external achievement, which is particularly evident 
+
+in constructions such as “рутина и режим это про безопасность” (Kristina 
+
+Laktionova, 2024).  
+
+The analysis of Russian vlogs in the context of long-term orientation (58 points) 
+
+demonstrates full compliance with the theoretical parameters, with a number of 
+
+peculiarities. Lexical analysis reveals a systemic emphasis on processes rather than 
+
+outcomes, for example, the noun “привычка” (49) occurs three times more frequently 
+
+than “достижение” (13), and the verb “развиваться” (10) prevails over 
+
+“оптимизировать” (the latter is virtually absent). This reflects the fundamental 
+
+attitude to gradual improvement characteristic of cultures with a high long-term 
+
+orientation. The reinterpretation of of “routine” is particularly revealing. It is stated that 
+
+“Рутина и режим - это не только про ваши цели и привычки. Это прежде всего 
+
+про безопасность, про стабильность” (Kristina Laktionova, 2024), which 
+
+emphasises its function as a long-term support. Metaphors in Russian vlogs also 
+
+invariably reflect a long-term perspective. It is peculiar that the images of the path and 
+
+gradual movement and development prevail, where the emphasis is on the process 
+
+rather than the point of arrival. At the level of discursive practice, long-term orientation 
+
+is manifested in the integration of educational platforms (e.g. “О смысле”). Regarding 
+
+the social practice level, it is seen in the rethinking of productivity as a lifelong skill (“я 
+
+выбираю” вместо “я должен”), with a focus shifting from external coercion to 
+
+internal transformatiоn. 
+
+49 
+
+Comparative Analysis of American and Russian Vlogs 
+
+The comparison of Russian and American vlogs through a Critical Discourse 
+
+Analysis (CDA) framework and Cross-Cultural Analysis reveals both similarities and 
+
+differences in how linguistic choices reflect broader societal values.  
+
+Text Level 
+
+The analysis of morphemic level reveals that both American and Russian 
+
+vloggers frequently utilise modal verbs. As for American vlogs, they feature modals and 
+
+quasi-modals (Collins, 2009) such as “can” (217), “would” (55), “could” (46), 
+
+“might” (41), “should” (24), “have to” (74), and “need to”  (49), creating a discourse 
+
+imbued with obligation, urgency, and personal responsibility. In contrast, Russian vlogs 
+
+exhibit a different tone in their use. Vloggers utilise modal verbs like “должен” (25), 
+
+“нужно” (87), and negated constructions such as “не надо” (5) which convey a more 
+
+normative and socially framed sense of obligation in Russian culture. These 
+
+formulations often reflect an external necessity or a communal expectation rather than 
+
+an individual decision, which might indicate a collectivist orientation.  
+
+Another linguistic device often detected in bоth cultures is imperative vеrbs. 
+
+While in American vlogs the frequent use of imperatives reinforces a sense of self-
+
+discipline and efficiency, which is consistent with Hofstede’s characterisation of 
+
+American culture as highly individualistic and masculine, i.e. people are expected to be 
+
+confident, success-oriented and competitive, Russian content creators tend to soften 
+
+imperatives with context and frame them as advice or encouragement rather than 
+
+commands, resulting in a more caring and feminine approach. 
+
+In addition, the usage of personal pronouns also differs across the cultures. In 
+
+American-language content, the personal pronouns “you” and “I” are utilised so as to 
+
+stress personal choice and responsibility, implying that each individual determines his 
+
+or her own success or failure. By contrast, Russian vlogs show a stronger tendency 
+
+toward inclusive pronouns, namely“мы”, therefore, creating the effect of a shared path 
+
+to productivity, which helps to erase the boundaries between vlogger and viewer, 
+
+forming an imaginary community of like-minded people. This is in line with the 
+
+50 
+
+collectivist attitude of Russian culture, where individual achievements are often 
+
+understood through the prism of group affiliation. 
+
+At the textual level within Fairclough’s critical discourse analysis, lexical choice 
+
+plays a pivotal role in how hustle culture is linguistically constructed and ideologically 
+
+framed. The findings of the study demonstrate both similarities and differences in what 
+
+American and Russian vloggers associate hustle culture with. In American content, the 
+
+nouns “time” (141), “work”(87), “productivity”(58) and “goal” (54) are more 
+
+frequently used, reflecting an orientation towards efficient use of time, achievement of 
+
+goals and personal productivity. These lexical preferences correspond to the values of 
+
+individualism and masculinity, where success is measured by concrete results and 
+
+personal achievements. On the contrary, in Russian-language vlogs, the words “время” 
+
+(129), “дисциплина” (39), “привычка” (49) and “рутина” (32) are more common, 
+
+emphasising the importance of systematic work and self-control. As a result, the lexical 
+
+choice sticks to a long-term orientation in the perception of productivity due to the fact 
+
+that the emphasis is on process rather than instant results. It is noteworthy that both the 
+
+noun “чувство”  in Russian vlogs and the noun “feeling” in American vlogs are used 
+
+in the context of self-care, which might lead to a more balanced approach to the topic of 
+
+productivity. 
+
+Concerning the description of the attitude towards hustle culture, the majority of 
+
+American and Russian vloggers have a tendency to implement similar adjectives. 
+
+Overall, the adjectives tend to carry a positive evaluation, contributing to the desire of 
+
+becoming like the person being described. The content creators use them to praise the 
+
+idea behind the phenomenon of hustle culture and what it stands for. However, it is 
+
+pivotal to underscore the main differences that manifest themselves in the evaluation 
+
+and connotation, namely American аdjectives (“perfect”, “happy”) reflect the cult of 
+
+the ideal result and positive emotions as indicators of success, while Russian ones 
+
+(“полезный”, “здоровый”) emphasise practical value and balance. This corresponds to 
+
+general cultural trends, that the American emphasis on individual achievements versus 
+
+the Russian focus on usefulness and sustainability. At the same time, both discourses 
+
+51 
+
+retain a common core (“productive”/ “протворенный”), but fill it with different 
+
+cultural content. 
+
+Comparing the frequency of verbs in American and Russian vlogs we can find 
+
+both similarities and differences in the representation of productivity. Both American 
+
+and Russian content creators often use verbs related to emotion and activity 
+
+(“feel”/”чувствовать”, “work”/”работать”), which highlight the generalised nature 
+
+of experiencing hustle culture as an emotionally intense process that requires effort. 
+
+However, some differences also were detected while analysing other verbs. First and 
+
+foremost, American content creators tend to focus on inner transformation and 
+
+effectiveness, using verbs such as “change” and “optimize”. What that means is that 
+
+American vloggers emphasise personal growth and changing oneself for the better, 
+
+which presumably implies a high degree of individualism and masculinity in the culture. 
+
+On the contrary, Russian vlogs more often employ the verbs “контролировать” and 
+
+“развиваться”, which could point out a focus on self-regulation, discipline, and self-
+
+improvement. Unlike “optimize”, the idea of sustainable development within rules and 
+
+norms, characteristic of collectivist and more structurally oriented societies, is 
+
+observable. Besides, it is notable that the verb “изменить” appears to be significant, 
+
+but in the Russian context it is often associated with getting out of a “lazy” state rather 
+
+than with the search for an ideal version of oneself.  
+
+Metaphorical constructions in American and Russian vlogs demonstrate 
+
+fundamentally different approaches to the notion of “productivity”. The American 
+
+content is characterised by predominant metaphors of mechanisation, representing the 
+
+human being as a mechanism that requires optimization: “work machine”, “brain 
+
+dump”, “mental load”. These images reflect an orientation towards maximum 
+
+efficiency, where even rest (“diamonds are made under pressure” (Anna Neubert, 
+
+2025)) is seen as a tool for increasing productivity. It is notable that laziness is 
+
+metaphorically portrayed as a technical malfunction (“get out of the lazy rut” (Leyla 
+
+Tavas, 2023) that needs to be urgently eliminated. Russian vloggers use a 
+
+fundamentally different system of images based on existential and social metaphors. 
+
+The key notion is the path (“путь лени — это путь сожаления” (Alina Marketing, 
+
+52 
+
+2024)), where productivity is conceptualised as a long-term movement rather than an 
+
+instant result. The redefinition of discomfort is particularly revealing: while in 
+
+American vlogs it is an “enemy”, in Russian vlogs it tends to be an “ally” with whom a 
+
+dialogue must be built. The metaphor of the “ведро с крабами” emphasises the 
+
+importance of the social context, which is absent in the individualistic American 
+
+discourse. A striking contrast is observed in the interpretation of routine. American 
+
+authors present it as a tool for quick results, while Russian authors present it as a basis 
+
+for stability (“Рутина и режим – это про безопасность, про стабильность” 
+
+(Kristina Laktionova, 2024)).  
+
+Another linguistic means that is considered in the research is personification.  The 
+
+research reveals fundamental differences in the ways that Аmerican and Russiаn 
+
+vloggers personify the notion of “productivity”. In American vlogs, hustle culture is 
+
+presented as an external force that requires submission and sacrifice. The image of  “life 
+
+you want” (LenaLifts, 2024) is presented as something that can be achieved only 
+
+through constant work on oneself, creating a sense of external pressure and the need to 
+
+meet high standards. Russian vloggers take a completely different approach, 
+
+personifying internal psychological states. In their discourse, abstract notions like 
+
+“goals” and “habits” are endowed with the ability to influence a person's emotional 
+
+state. It is noteworthy that even “discomfort” from new habits is presented as a 
+
+necessary element of growth rather than an obstacle. 
+
+Moreover, some repetitions were detected in both American and Russian videos. 
+
+In American-language content, the repetition of focal words such as “productivity”, 
+
+“maximisation”, “mindset” serves as a tool to affirm a successful lifestyle, creating an 
+
+attitude of continuous self-improvement. This approach reflects individualistic values, 
+
+where the individual is perceived as an independent agent of change. On the contrary, in 
+
+Russian vlogs, repetitions fulfil a different function, which is the emphasis on the 
+
+complexity of the path to productivity. For instance, the frequent use of the word 
+
+“навык”, which highlights the need for gradual mastery of productivity practices 
+
+through hard work. 
+
+53 
+
+It is also worth noting that special attention is paid to the notion of “discipline” by 
+
+both American and Russian content creators. For instance, American vloggers tend not 
+
+to rely merely on motivation, but also on discipline since “it is sustainable long-term”, 
+
+e.g. “I focus on discipline. And everyone wants to know, How can you become more 
+
+disciplined? Discipline is about mastering self-control, and the way you do that is you 
+
+start practicing setting boundaries with yourself—saying no to yourself, taking control 
+
+of your life” (Tam Kaur, 2023); “But motivation can’t keep you going forever, so 
+
+discipline is where it’s really at” (Helaine Zhao, 2024). Although American culture is 
+
+traditionally seen as a culture that seeks quick results, the vlogs demonstrate the 
+
+tendency of American content creators to shift towards long-lasting, gradual changes in 
+
+themselves by sticking to discipline. Russian vloggers also underscore the significance 
+
+of the notion of “discipline” and “self-discipline”: “Когда ты становишься 
+
+дисциплинированным человеком, ты понимаешь, что масштабные и самые 
+
+заветные мечты достигаются путём долгой и последовательной работы. Это 
+
+достигается путём усилий и терпения. Именно поэтому развивать 
+
+самодисциплину очень важно”(Marie Kory, 2025). Moreover, it is stressed that 
+
+discipline is a blessing: “Дисциплина - это одна из высших форм проявления 
+
+уважения к себе”(Kristina Laktionova, 2024). Hence, it can be assumed that control, 
+
+effort, and strictness is seen as a virtue, while gentleness and giving in is a weakness, 
+
+which demonstrates high masculinity. It is also worth emphasising that discipline is 
+
+seen as a discomfort to help heal from the addiction to comfort, namely laziness:“Лень 
+
+— это твоя привычка находиться в комфорте. Ты зависима от комфорта. А 
+
+дисциплина — это зависимость от дискомфорта” (Alina Marketing, 2024). 
+
+At the syntactical level, there are both similarities and differences in the use of 
+
+stylistic techniques between American and Russian vloggers. Rhetorical questions in 
+
+both cases serve to engage the audience, but in Russian vlogs, they are often 
+
+motivational and expository in nature. What is more, American content creators 
+
+extensively use inversion constructions and cleft sentences to point out personal 
+
+revelations and deviations from traditional career paths. These techniques reflect 
+
+individualistic values and a focus on personal choice.  It is noteworthy that in Russian 
+
+54 
+
+vlogs no examples of cleft sentences were detected since there is no equivalent in the 
+
+Russian language. As for antithesis in American vlogs, it tends to serve as a 
+
+motivational tool in order to oppose old and new versions of oneself, which corresponds 
+
+to the masculine orientation towards rapid transformation; whereas in Russian vlogs, 
+
+antithesis often takes the form of enlightening statements, contrasting “дисциплина” 
+
+and “лень”, “система” and “цель”. This reflects collectivist values and a long-term 
+
+orientation towards gradual self-improvement. Syntactic parallelism is also used in 
+
+different ways. While American content creators tend to use it to analyse personal 
+
+behavioural patterns, Russian vloggers frequently employ it to assert “correct” patterns 
+
+of thinking and validate emotions.   
+
+Discursive Practice Level 
+
+It is imperative to underscore that while both cultures engage in a commercialised 
+
+discourse of self-improvement, American vlogs are shaped by a masculine culture 
+
+where success, achievement, and productivity are key values. What is more, the vlogger 
+
+might be positioned as an individual entrepreneur of the self, a person who makes the 
+
+most of time and integrates tools to achieve ever higher personal goals. This 
+
+corresponds to a high level of Individualism where personal autonomy and self-
+
+responsibility is dominant. The strong focus on structured systems such as goal setting, 
+
+habit tracking, stresses a long-term strategic mindset, namely success is seen as the 
+
+result of consistent, intentional investment in one’s future, which tends to deviate from 
+
+Hofstede’s cultural dimensions theory, where American culture is regarded as a culture 
+
+where there is no dominant preference to Short- or Long-Term Orientation.  
+
+By contrast, Russian content creators have a tendency to express a more feminine 
+
+approach, where empathy, emotional openness, and psychological wellbeing are 
+
+dominant. The vloggers allow viewers to explore their inner world of doubt, trauma, 
+
+and reflection. Additionally, the collectivist overtones expressed through shared 
+
+emotional experiences and the use of informal, intimate language indicate a decrease in 
+
+individualism and a greater emphasis on relatedness and reciprocal support. While 
+
+many vloggers are not as explicitly focused on long-term effectiveness, they advocate 
+
+55 
+
+personal development practices that support sustained mental and emotional resilience, 
+
+indicating Long-Term Orientation based on psychological resilience. 
+
+Social Practice Level 
+
+At the level of social practice, vlogs by both American and Russian authors 
+
+integrate hustle culture into broader cultural and societal discourses, reflecting social 
+
+expectations and gender norms. While both cultures tend to endorse productivity and 
+
+self-discipline, the ways in which these are articulated and justified differ significantly, 
+
+reflecting their corresponding cultural contexts and ideologies. 
+
+American authors present hustle culture as a conscious lifestyle where 
+
+productivity becomes part of personal branding. Visual aesthetics (“beautiful planners” 
+
+and “vision boards”) are combined with rigid attitudes to self-control, creating a 
+
+paradoxical image of “productive gentleness”. The core message is individual 
+
+responsibility for success, where discipline and time management become a personal 
+
+moral imperative, which corresponds to high Masculinity and Individualism. 
+
+Furthermore, quotes from popular authors on self-development are used as universal 
+
+mantras, emphasising the commodified nature of productivity under capitalism. Time in 
+
+this discourse is presented as a limited resource, and its loss is equated with missed 
+
+opportunities, reflecting the values of capitalist society, e.g. “The cost of 
+
+procrastination is the life you could have lived”” (Sophie DiLoreto, 2024). 
+
+By contrast, Russian-speaking vloggers view productivity often as a forced 
+
+necessity in a competitive environment. Harsh formulations create an atmosphere of 
+
+constant social pressure, where productivity becomes not so much a personal choice as 
+
+a moral obligation to society. As a consequence, this reflects collectivist attitudes where 
+
+comparison with others and the fear of being “replaceable” play an important role. 
+
+Nevertheless, there is also discourse that elevates this rigidity through an aestheticised, 
+
+feminine environment, as in American vlogs (“доска на Pinterest”, “благоприятная 
+
+атмосфера”). It is also worth noting that Russian vlogs are developing a 
+
+counterintuitive trend, namely the “psychologisation” of productivity discourse. 
+
+Vloggers increasingly emphasise intrinsic motivation, suggesting that obligations (“я 
+
+должен”) should be reformulated into conscious choices (“я выбираю”). Special 
+
+56 
+
+attention is paid to the emotional state and the creation of a comfortable working 
+
+atmosphere, which softens the initially harsh rhetoric, which might represent the feature 
+
+of feminine culture. 
+
+Conclusion 
+
+This research aimed to explore and compare the linguistic and cultural 
+
+representation of the hustle trend in American and Russian YouTube vlogs. Through the 
+
+Critical Discourse Analysis, the study examined the linguistic representation of hustle 
+
+culture in American and Russian YouTube vlogs, while the Cross-Cultural Analysis 
+
+allowed to assess the cultural dimensions represented in American and Russian vlogs 
+
+about hustle culture. 
+
+Primarily, the notion of hustle culture was analysed, which can be understood as a 
+
+culture, as a movement or a trend, and as an ideology, or system of beliefs fostering the 
+
+idea of hard work, productivity, and success. Besides, the negative impact of the hustle 
+
+trend on health was considered, which highlights the importance of recognising and 
+
+addressing the potential harms associated with the glorification of relentless work and 
+
+the need for sustainable approaches to productivity and self-care.  
+
+Furthermore, the hustle culture discourse was derived as a socially constructed 
+
+and socially constructing way of representing and communicating the values and 
+
+ideologies of excessive work and constant productivity. It was further defined as 
+
+argumentation, persuasive, transactional, behavioural, institutional, and dialogic 
+
+discourse based on various classifications of discourse types. The core principles of the 
+
+hustle culture discourse, as also identified through the analysis of American and Russian 
+
+vlogs, were found to encompass entrepreneurialism or entrepreneurial qualities, 
+
+psychological strategies such as life hacks, tactics, routines, and mindset, as well as 
+
+digital tools that facilitate the monetization of content. 
+
+The findings of the Critical Discourse Analysis and Cross-Cultural Analysis 
+
+reveal that the language employed in American and Russian YouTube vlogs discussing 
+
+hustle culture is characterised by the use of modal verbs, imperative forms, personal 
+
+pronouns, metaphors, personification, rhetorical questions, and antithesis. However, 
+
+these linguistic features serve to construct distinct cultural representations of the hustle 
+
+57 
+
+phenomenon. American vlogs depict hustle culture through a predominantly masculine, 
+
+individualistic, and short-term oriented framework, partially diverge from Hofstede’s 
+
+traditional classification of American culture. In contrast, Russian vlogs present a 
+
+feminine with some inclination towards masculine, collectivist, and long-term oriented 
+
+perspective on the trend, reflecting differing cultural values and interpretations. 
+
+Regarding the theoretical value, this study contributes to the existing research by 
+
+critically examining the linguistic construction and cultural distinction of hustle culture. 
+
+The comprehensive analytical framework for understanding the discourse surrounding 
+
+hustle culture may be further developed and utilised in future discourse studies, 
+
+particularly those examining digital content. This framework can facilitate deeper 
+
+investigations into how multimodal elements, combining verbal, nonverbal language, 
+
+visual imagery, construct and perpetuate the values, norms, and ideologies embedded in 
+
+hustle culture. By extending the approach, researchers can better analyse the interplay 
+
+between language, culture, and media in shaping contemporary social phenomena 
+
+across diverse platforms and cultural contexts. 
+
+From a practical point of view, the research is expected to raise awareness among 
+
+individuals regarding the linguistic strategies employed within hustle culture discourse, 
+
+fostering critical engagement and enabling resistance to its potentially adverse 
+
+influences. Furthemore, such research provides organisations, managers, and employees 
+
+with a clearer understanding of how hustle culture shapes workplace expectations, 
+
+behaviors, and professional relationships. Moreover, the study holds relevance for the 
+
+field of intercultural communication, providing material for academic seminars and 
+
+courses to illuminate the mechanisms through which cultural phenomena such as hustle 
+
+culture are constructed and sustained in diverse societies.
+
+References 
+
+58 
+
+A Slow Simple Life. (2023, November 3). 5 Lessons Helped Me Quit Hustle Culture | 
+
+Slow Living. YouTube. https://www.youtube.com/watch?v=jBNG9SMX7RU  
+
+Abcha, S. (2016). Critical Discourse Analysis of adjectives used with the word 
+
+multiculturalism in British Print Media. International Journal of Linguistics, 8(6), 
+
+185. https://doi.org/10.5296/ijl.v8i6.10405  
+
+Absher, E. (2020). What you love is killing you: Stopping hustle culture in the 
+
+performing arts. 
+
+Achmad, Z. A., & Lubna, P. N. C. (2023). Toxic positivity content uploads on 
+
+Instagram in encouraging the growth of hustle culture Gen Z. JOSAR (Journal of 
+
+Students Academic Research), 9(1), 73–86. 
+
+https://doi.org/10.35457/josar.v9i1.2730  
+
+adelala. (2024, November 29). Getting productive vlog: entering my winter arc, locking 
+
+in for 2025, + creating the perfect routine. YouTube. 
+
+https://www.youtube.com/watch?v=jlbIVypmJ9o  
+
+Aleqedat, H. Q. (2021). Does Cultural Hofstede dimension “Indulgence versus 
+
+Restraint” impact the corporate performance. Journal of Sustainable Community 
+
+Development (JSCD), 3(2), 111–118. https://doi.org/10.32924/jscd.v3i2.49  
+
+AlexGoldenGirl. (2024, October 28). Как быть продуктивным после учебы, когда 
+
+устал 😴 | советы для учебы. YouTube. 
+
+https://www.youtube.com/watch?v=BHQ25N9wbMs  
+
+AlexGoldenGirl. (2025, March 10). Как изменить свою жизнь за 14 дней😴: 
+
+пошаговый гайд & советы для достижения целей. YouTube. 
+
+https://www.youtube.com/watch?v=j6v7uBX7AIs  
+
+Alina Marketing. (2025). Как выйти из “lazy girl era”? | Секреты продуктивных 
+
+девушек. Youtu.be. https://youtu.be/fZ592HgaZ3k?si=mfHAXYY8EvnbeLtP  
+
+Aлина Терешко. (2024, January 6). 5 шагов к дисциплине по-женски. Как 
+
+сохранять высокую продуктивность и расслабленность? YouTube. 
+
+https://www.youtube.com/watch?v=T1KxUr4g0Ws  
+
+59 
+
+Angermuller, J., Maingueneau, D., & Wodak, R. (2014). The Discourse Studies Reader. 
+
+An Introduction. The Discourse Studies Reader, 1–14. 
+
+https://doi.org/10.1075/z.184.002int  
+
+Ånmark, J. (2015). Descriptions of gender in swedish efl-textbooks: a linguistic study 
+
+on adjectives, adverbs and social roles used to describe women and men in two 
+
+EFL textbooks. 
+
+Anna Neubert. (2025, January 19). How to be more productive & successful in 2025. 
+
+YouTube. https://www.youtube.com/watch?v=fpPB9WaY2-g  
+
+ANYA RU. (2022, November 25). Как оставаться продуктивной | мои советы, 
+
+мотивация. YouTube. https://www.youtube.com/watch?v=q4DEy3137pc  
+
+Assariy, M. Z., Hersari, N. I., Sitorus, N. A., Arifin, S., & Faisal, F. (2024, April). 
+
+Literature review: The influence of hustle culture on mental health. AIP 
+
+conference proceedings, (vol. 3048, no. 1). https://doi.org/10.1063/5.0201952  
+
+Bain, A. (1890). English composition and rhetoric. Longmans, Green & Company. 
+
+Balkeran, A. (2020). Hustle culture and the implications for our workforce [thesis]. 
+
+https://academicworks.Cuny.Edu/bb_etds/101    
+
+Bellini, F., & Lomazzi, V. (2024). Changing work values: beyond hustle culture. 
+
+Sociológia - Slovak Sociological Review, 56(6), 555–580. 
+
+https://doi.org/10.31577/sociologia.2024.56.6.20  
+
+Britton, J., Burgess, T., Martin, N., McLeod, A., & Rosen, H. (1975). The development 
+
+of writing abilities (11-18). London: Macmillan Education LTD. 
+
+Budiarjo, M. A., & Ulinnuha, R. (2023). Strategic appropriation on hustle culture as 
+
+positive trend. Jurnal mahasiswa bk an-nur berbeda bermakna mulia, 9(3), 102. 
+
+https://doi.Org/10.31602/jmbkan.V9i3.11807    
+
+Chairunnisah, A., & Kurnia, L. (2023). Hustle culture in social media: exploring the 
+
+imagined success in the modern era. Athena Journal of Social Culture and 
+
+Society, 1(4), 180–191. https://doi.org/10.58905/athena.v1i4.151  
+
+Choi, C.W. (2021). Cross-cultural comparisons of popular YouTube ads: A content 
+
+analysis of YouTube video ads in the U.S. and South Korea. Journal of Global 
+
+60 
+
+Scholars of Marketing Science, 32(2), 145–161. 
+
+https://doi.org/10.1080/21639159.2020.1808828  
+
+Christina, C., & Shasita, R. (2022). Multimodal discourse analysis on motivational 
+
+hustle culture quotes. Metaphor, 4(2), 52-69. 
+
+Country comparison tool. (2020). Theculturefactor.com. 
+
+https://www.theculturefactor.com/country-comparison-
+
+tool?countries=russia%2Cunited+states  
+
+daria.z. (2024, August 13). 😴log: встаю в 5 утра 😴продуктивный день летом & 
+
+pack with me чемодан на море ⊹+ ⋆ 😴😴. YouTube. 
+
+https://www.youtube.com/watch?v=ApdGpUXgDZI  
+
+Dr Faye Bate. (2025, March 2). Top 1% woman routine: how i stay productive, healthy 
+
+& balanced. YouTube. https://www.youtube.com/watch?v=ymVkv3GFzN0  
+
+Fairclough, N. (2003). Analysing discourse: textual analysis for social research. 
+
+Routledge. 
+
+Fairclough, N. (1995). Critical discourse analysis: the critical study of language. 
+
+Longman. 
+
+Fairclough, N. (2003). Analysing discourse: textual analysis for social research. 
+
+Routledge. 
+
+Foucault, M. (2013). Archaeology of knowledge. Routledge 
+
+Фая. (2023, October 20). Как стать продуктивной 😴😴 советы, лайфхаки, 
+
+мотивация. YouTube. https://www.youtube.com/watch?v=M9AVJIlo3pM  
+
+fayefilms. (2024, September 23). How to stop being lazy and wasting your life away (no 
+
+bs) + free schedule. YouTube. https://www.youtube.com/watch?v=9Cq8fG9lSYo  
+
+Guftométros, M., & Guerreiro, J. (2021). The effects of cultural differences on social 
+
+media behaviour. International Journal of Internet Marketing and Advertising, 
+
+15(4), 412. https://doi.org/10.1504/ijima.2021.117561 
+
+Habermas, J. (1985). The theory of communicative action: Volume 1: Reason and the 
+
+rationalization of society (Vol. 1). Beacon press. 
+
+61 
+
+Hasanah, U., Vardhani, N. K., & Martha, F. L. (2024). Examining the impact of hustle 
+
+culture on South Korean workers. East Asian review, 2(2), 143–158. 
+
+https://doi.org/10.22146/ear.11902 
+
+Helaine Zhao. (2024, May 3). How to be productive | life-changing tips, study 
+
+motivation, work-life balance, live your dream life. YouTube. 
+
+https://www.youtube.com/watch?v=RJI5n50Mjl8  
+
+Hill, J. D. (2020). The hustle ethic and the spirit of platform capitalism. Stanford 
+
+University. 
+
+Hippy Highland Living. (2022, August 7). Why I choose slow living over the hustle 
+
+culture. YouTube. https://www.youtube.com/watch?v=6D6wrh1LUyg  
+
+Hofstede, G. (1980). Culture’s consequences: International Differences In Work-
+
+Related Values. Sage Publications. 
+
+Hofstede, G., Hofstede, G. J., & Minkov, M. (2010). Cultures and organizations: 
+
+Software of the mind, third edition. Mcgraw hill professional. 
+
+Hofstede, G. (2011). Dimensionalizing cultures: the Hofstede model in context. Online 
+
+Readings in Psychology and Culture, 2(1), 1–26. https://doi.org/10.9707/2307-
+
+0919.1014  
+
+Inglehart, R., & Welzel, C. (2005). Modernization, cultural change, and democracy the 
+
+human development sequence. Cambridge University Press. 
+
+Isbuga-Erel, R. F. (2008). A CDA approach to the translations of taboos in literary texts 
+
+within the historical and socio-political Turkish context. In Papers from the 
+
+Lancaster University postgraduate conference in linguistics & language teaching 
+
+(Vol. 2, pp. 58-77). 
+
+Jepsen, N. C., & Eaton, L. (2025). Hustle: A conceptual exploration of work at the 
+
+margins. Management & Organizational History, 1–22. 
+
+https://doi.org/10.1080/17449359.2025.2503154  
+
+Julia Avis. (2024, September 3). 9 привычек для комфортной учебы | 
+
+продуктивность, учеба на отлично, советы по учебе. YouTube. 
+
+https://www.youtube.com/watch?v=K0mgflVqvsI 
+
+62 
+
+Karasik, V. (2002). Yazykovoj krug: lichnost', koncepty, diskurs. [Language circle: 
+
+personality, concepts, discourse]. Volgograd: Peremena.  
+
+Kaur, T. (2023). How to be productive | discipline, healthy habits, motivation, balance + 
+
+THAT GIRL routine. In YouTube. 
+
+https://www.youtube.com/watch?v=sJwtVFEiBLk 
+
+Kaur Arora, dr. A., Khanna, B., Kamra, A., & Kaur rai, M. (2024). Relationship 
+
+between hustle culture and psychological wellbeing of secondary school students. 
+
+International journal of humanities and social science invention, 13(9), 101–107. 
+
+https://doi.org/10.35629/7722-1309101107   
+
+Kim, D. (2017). Vlog as a branding tool: how to build a brand with a video blog in 
+
+social media [thesis]. 
+
+https://www.theseus.fi/bitstream/handle/10024/135609/kim_daeun.pdf   
+
+Kim, I., Koo, M. J., Lee, H. E., Won, Y. L., & Song, J. (2019). Overwork-related 
+
+disorders and recent improvement of national policy in South Korea. Journal of 
+
+occupational health, 61(4), 288–296. https://doi.org/10.1002/1348-9585.12060  
+
+Kinneavy, J. L. (1980). A theory of discourse: the aims of discourse. Norton. 
+
+Kristina Laktionova. (2021, November 8). Привычка, которая изменила мою жизнь 
+
+// организация жизни, продуктивность, саморазвитие, мотивация. 
+
+YouTube. https://www.youtube.com/watch?v=wYF_U9qnBpo  
+
+Kristina Laktionova. (2024, July 21). Как выйти из эры лени? Дисциплина, полезные 
+
+привычки и лайфхаки для ленивых людей #продуктивность. YouTube. 
+
+https://www.youtube.com/watch?v=k0785lsNpq4  
+
+LenaLifts. (2023a, May 14). How to exit your lazy girl era: how to be productive & 
+
+motivated, disciplined, & radiate confidence. YouTube. 
+
+https://www.youtube.com/watch?v=WNcwQIIACTA  
+
+LenaLifts. (2023b, October 12). How to get in your *productive* girl routine: how to 
+
+exit your lazy era, be motivated, & confident! YouTube. 
+
+https://www.youtube.com/watch?v=F0t0-AP7lhc  
+
+63 
+
+Leyla Tavas. (2023, December 26). 15 habits you NEED in 2024 ✧ exit lazy girl era 
+
+✧･ﾟ: *✧･ﾟ:*. Www.youtube.com. 
+
+https://www.youtube.com/watch?v=bANzmaUoLa4 
+
+Longacre, R.E. (1996). The Grammar of discourse. New York, Plenum Press. 
+
+Lyotard, J. F. (1994). The postmodern condition. The postmodern turn: new 
+
+perspectives on modern theory, 27-38. 
+
+Maden, T. O., & Kalafatoğlu, Ş. T. (2022). An assessment on genres of video blogs. 
+
+Uluslararası kültürel ve sosyal araştırmalar dergisi, 8(2), 1-17. 
+
+Maharani, A. P., Martono, N., & Rizkidarajat, W. (2024). The behavior of hustle culture 
+
+among students in Faculty of Social and Political Science Jenderal Soedirman 
+
+University. International Journal of Multidisciplinary Sciences, 2(1), 24–36. 
+
+https://doi.org/10.37329/ijms.v2i1.2796  
+
+Malama Life. (2021, April 13). Why i choose to live a “boring” life. YouTube. 
+
+https://www.youtube.com/watch?v=4wv4wEBAY8Q 
+
+Mardiana, N., Jima, H., & Prasetya, M. D. (2023, May). The effect of hustle culture on 
+
+psychological distress with self compassion as moderating variable. In 3rd 
+
+universitas lampung international conference on social sciences (ulicoss 2022) 
+
+(pp. 1062-1073). Atlantis press. 
+
+Marie Kory. (2024, June 21). Утренняя рутина, которая изменила мою жизнь | 
+
+полезные утренние привычки. YouTube. 
+
+https://www.youtube.com/watch?v=K0cwG9wlPdc  
+
+Marie Kory. (2025, January 6). Сделай это, чтобы стать лучшей версией себя в 
+
+2025 году | 10 полезных советов и привычек. YouTube. 
+
+https://www.youtube.com/watch?v=shn_Gmj97rw  
+
+mayuko. (2021, February 18). I realized that Hustle Culture isn’t for me. YouTube. 
+
+https://www.youtube.com/watch?v=b2z4EvK9h0M  
+
+mikayla mags. (2024, November 27). Become the most productive in 2025😴😴how to 
+
+enjoy productivity, organize ur life, maximize ur time. YouTube. 
+
+https://www.youtube.com/watch?v=BCUHCRURibo  
+
+64 
+
+mitiny. (2024a, February 4). Как побороть лень?|| как быть продуктивной, 
+
+сохранять мотивацию, все успевать. YouTube. 
+
+https://www.youtube.com/watch?v=5Qog4mK52nc  
+
+mitiny. (2024b, April 2). Как оставаться продуктивной? Как побороть лень? || как 
+
+начать менять жизнь, стать that girl. YouTube. 
+
+https://www.youtube.com/watch?v=X58F06IolIQ 
+
+Muxtorova, A., & Abdullaeva, C. B. (2024). The concept of discourse: interdisciplinary 
+
+study of language, influence and social processes. Eurasian Journal of Academic 
+
+Research, 4(12 (Special issue 2)), 297-300. 
+
+Najdenova, E. V. (2022). Zavyshennye social'nye ozhidaniya kak faktor formirovaniya 
+
+sindroma otlozhennoj zhizni. [High social expectations as factors in the formation 
+
+of delayed life syndrome]. Innovacionnaya nauka: psihologiya, pedagogika, 
+
+defektologiya, 5(1), 40-52. 
+
+Park, M., Park, J., Baek, Y. M., & Macy, M. (2017). Cultural values and cross-cultural 
+
+video consumption on YouTube. PLOS ONE, 12(5), e0177865. 
+
+https://doi.org/10.1371/journal.pone.0177865 
+
+Pêcheux, M. (1975). Language, semantics and ideology. Springer. 
+
+Perić, N. (2024). Hustle culture and mental health. Psychē: časopis studenata 
+
+psihologije [psyche: the description of a psychology student], 7, 104-116. 
+
+Peter Collins. (2009). Modals and quasi- modals in English. Rodopi. 
+
+Putri, E. (2022): The impact of hustle social culture on employees’ mental health and 
+
+work-life balance in the millenial generation, Masters’ Thesis, Institut Teknologi 
+
+Bandung 
+
+RI IRA. (2024, September 25). Продуктивный день: учёба, работа & 
+
+мотивация😴✨ | Рабочий влог | Vlog. YouTube. 
+
+https://www.youtube.com/watch?v=g0mB-cyrG_8 
+
+Saputra, J. A. (2024). Teologi istirahat dan hustle culture [theologians of istirahat in 
+
+hustle culture]. Teologis-relevan-aplikatif-cendikia-kontekstual, 3(2), 50–72. 
+
+https://doi.Org/10.61660/track.V3i2.186    
+
+65 
+
+sarah pan. (2024, March 30). How to *actually* stay productive (and motivated!) | 10 
+
+tips to build healthy habits & stay focused. YouTube. 
+
+https://www.youtube.com/watch?v=QXCmirNKej8  
+
+Sophie DiLoreto. (2024, November 15). How to actually be productive 😴 productivity 
+
+tips to increase efficiency & work smarter. YouTube. 
+
+https://www.youtube.com/watch?v=TvZRTJTBO9M  
+
+sosomak. (2023, March 23). Планирование | Как все успевать? | Способы 
+
+планирования | Продуктивность ♡. YouTube. 
+
+https://www.youtube.com/watch?v=DgrcPtzGzUc  
+
+Trompenaars, F., & Hampden-Turner, C. (1997). Riding the waves of culture : 
+
+understanding cultural diversity in business. Nicholas Brearby. 
+
+Ulfah, M. N., & Nurdin, M. F. (2022). Hustle culture: a new face of slavery. Aliansi: 
+
+Jurnal Politik, Keamanan Dan Hubungan Internasional, 226-233. 
+
+Verma, O. (2022). The impact of poor work life balance on employees health, 
+
+organisation and society. International journal of research in finance and 
+
+management, 5(2):01-08. Doi: 10.33545/26175754.2022.V5.I2a.143  
+
+Werner, E. A. (2012). Rants, reactions, and other rhetorics: Genres of the YouTube 
+
+vlog [dissertation]. 
+
+https://www.proquest.com/openview/6fd122448ad6678cd501cb5d8c8a49df/1?pq
+
+-origsite=gscholar&cbl=18750   
+
+Wong, K., Chan, A. H. S., & Ngan, S. C. (2019). The effect of long working hours and 
+
+overtime on occupational health: A meta-analysis of evidence from 1998 to 2018. 
+
+International journal of environmental research and public health, 16(12), 2102. 
+
+https://doi.org/10.3390/ijerph16122102  
+
+Yuningsih, M., & Prasetya, M. (2022, April). Technology makes hustle culture still 
+
+happened in pandemic Covid 19. In ICEBE 2021: proceedings of the 4th 
+
+international conference of economics, business, and entrepreneurship, ICEBE 
+
+2021, 7 October 2021, lampung, indonesia (p. 475). European alliance for 
+
+innovation.
+
+66 
+
+Acknowledgment of AI Assistance: 
+In accordance with POPATKUS guidelines, we hereby confirm that AI tools were 
+utilised to transcribe the videos into texts, particularly NoteGPT and 
+YouTubeToTranscript, and to place punctuation marks, specifically ChatGPT 
+and DeepSeek. 
+
+ 
+ 
+

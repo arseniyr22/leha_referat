@@ -1,0 +1,7825 @@
+FEDERAL STATE AUTONOMOUS EDUCATIONAL INSTITUTION
+FOR HIGHER EDUCATION
+NATIONAL RESEARCH UNIVERSITY HIGHER SCHOOL OF ECONOMICS
+
+Faculty of Mathematics
+
+Beldiev Ivan Sergeevich
+
+Vertex Algebras Associated to Integral Lattices and
+Vector Bundles on the Projective Line
+
+Master’s Thesis
+Field of Study: 01.04.01 «Mathematics»
+Master’s Programme «Mathematics and Mathematical Physics»
+
+Reviewer:
+Candidate of Sciences
+Makedonskyi Ievgen
+
+Supervisor:
+Doctor of Sciences, professor
+Kirichenko Valentina Alekseevna
+
+Advisor:
+Doctor of Sciences, professor
+Feigin Evgeny Borisovich
+
+Moscow 2024
+
+Abstract
+
+There is a general construction producing a vector bundle on any smooth alge-
+braic curve from a ﬁnite-dimensional representation of the «positive half» Vir+ of
+the Virasoro algebra. We study this construction in detail when the curve is the
+projective line. We prove, in particular, that in this case the bundle is completely
+determined by the action of the operators L0 and L1 and show how to compute it
+explicitly (i.e., to ﬁnd the decomposition into the direct sum of line bundles) knowing
+the Jordan decomposition of L1. After that, we compute explicitly these bundles
+for two families of representations of Vir+: the Fock modules and the Demazure
+modules of level 1 corresponding to a multiple of the ﬁrst fundamental weight for
+the aﬃne Kac-Moody algebra (cid:98)sl(n, C).
+
+Contents
+
+1 Introduction
+
+2 Preliminaries
+
+3 Vector bundles on the projective line
+
+4 The representations of Vir+ on the space of semi-inﬁnite products
+
+5 The representation of Vir+ on the principal subspace of π√
+2(z)
+
+bosonic vertex operator V√
+
+2Z for the
+
+6 Demazure modules of level 1: the case of sl(2, C)
+
+7 Demazure modules of level 1: the case of sl(n, C)
+
+8 Explicit computation of vector bundles corresponding to Demazure mod-
+
+ules of level 1 for sl(3, C)
+
+9 Explicit computation of vector bundles corresponding to Demazure mod-
+
+ules of level 1 for sl(n, C)
+
+1
+
+Introduction
+
+2
+
+3
+
+6
+
+9
+
+17
+
+25
+
+29
+
+37
+
+45
+
+We work over the ﬁeld of complex numbers C.
+Let V be a representation of the «non-negative» half Vir+ of the Virasoro algebra. In
+other words, V is equipped with an action of linear operators Ln, n ∈ Z(cid:62)0, satisfying the
+commutation relations
+
+[Lm, Ln] = (m − n)Lm+n.
+Suppose that V is ﬁnite-dimensional and the operator L0 is diagonalizable with integer
+eigenvalues. Then, there exists a natural way to construct a vector bundle on an arbitrary
+smooth algebraic curve starting from the representation V . One can ﬁnd this construction
+in [2, Chapter 6]. Let us describe it brieﬂy.
+
+Consider the algebra of formal power series C[[z]]. This algebra can be equipped with
+the topology whose neighbourhood basis of zero consists of the subspaces zN C[z], N ∈ Z.
+
+2
+
+It is easy to see that this turns C[[z]] into a complete topological algebra. Denote by AutO
+the group of continuous automorphisms of C[[z]]. Note that any continuous automorphism
+of C[[z]] is uniquely determined by its action on z ∈ C[[z]]. The map z (cid:55)→ f (z) gives an
+automorphism C[[z]] if and only if f (z) = a1z + a2z2 + a3z3 + . . . and a1 (cid:54)= 0.
+
+It can be checked via direct computation that the Lie algebra of the group AutO is
+isomorphic to the «non-negative part» Vir+ of the Virasoro algebra. The isomorphism is
+given by Ln (cid:55)→ −zn+1∂z.
+
+If V is a ﬁnite-dimensional representation of Vir+ such that L0 is diagonalizable with
+integer eigenvalues, then the action of Vir+ on V can be exponentiated to an action of
+the group AutO on V thus turning V into a left AutO-module.
+
+Now, let X be a smooth algebraic curve. Denote by Ox the local ring of a point x ∈ X.
+Recall that a local parameter at x is any element tx ∈ mx, where mx ⊂ Ox is the unique
+maximal ideal of the ring Ox. We deﬁne AutX as the set consisting of the elements (x, tx),
+where x ∈ X and tx is a local parameter at x.
+
+The vector bundle associated to the representation V is deﬁned as follows:
+
+VX = AutX ×
+AutO
+
+V = AutX × V /{((x, tx), f · v) ∼ ((x, f (tx)), v)}.
+
+It is natural to ask how to describe this vector bundle more explicitly in some particular
+cases. In this paper, we consider the case when X is the complex projective line CP1. It is
+well-known that any ﬁnite-dimensional vector bundle on the projective line is isomorphic
+to a direct sum of some line bundles which are all of the form O(k), k ∈ Z. So, the
+question we want to answer is how to decompose the vector bundles on CP1 emerging
+from the abstract construction into the direct some of line bundles.
+
+In Section 3, we work with an arbitrary ﬁnite-dimensional representation of Vir+ and
+show that the corresponding vector bundle on P1 is uniquely determined by the action of
+the operators L0 and L1. Moreover, we see how to compute this bundle explicitly knowing
+the Jordan decomposition of L1.
+
+In Section 4, we consider a concrete example of representation of Vir+, namely the
+so-called Fock modules deﬁned in terms of certain semi-inﬁnite monomials. We describe
+these modules explicitly and compute the corresponding vector bundles on P1.
+
+In Sections 5 and 6, we consider Demazure modules of level 1 corresponding to the
+aﬃne Kac-Moody algebra (cid:98)sl(2, C). Again, we describe these modules explicitly and com-
+pute the corresponding vector bundles.
+
+In Sections 7-9, we work with Demazure modules of level 1 for (cid:98)sl(n, C), where n (cid:62) 2
+In this case, we compute the vector bundles corresponding to Demazure
+is arbitrary.
+modules with highest weight equal to a multiple of the ﬁrst fundamental weight of the
+root lattice of sl(n, C). In the case n = 3 considered in Section 8 the answer is given in a
+particularly compact form.
+
+2 Preliminaries
+
+We start with describing the main construction that we are going to study. The details
+
+can be found in [2, Chapter 6].
+
+Denote by O the C-algebra of formal power series C[[z]]. We introduce a topology on O
+letting the set of subspaces zN C[z] be a neighbourhood basis of zero. This turns O into a
+complete topological algebra. We deﬁne AutO as the group of continuous automorphisms
+
+3
+
+of O. Any such automorphism is determined uniquely by its action on the topological
+generator z of O, so any element ρ ∈ AutO is given by a formal power series ρ(z) ∈ C[[z]].
+Note that ρ is a continuous automorphism of O if and only if ρ(z) = a1z +a2z2 +a3z3 +. . .
+and a1 (cid:54)= 0.
+
+Also, we need the following abstract construction. Suppose that G is a group and S
+is a set. The set S is called a G-torsor if S is equipped with a free transitive right action
+of G, i. e. for any x, y ∈ S there exists a unique element g ∈ G such that y = x · g. If we
+ﬁx any element x ∈ S, we can identify S with G via the map x · g (cid:55)→ g.
+
+If V is a left G-module and S is a G-torsor, we deﬁne the S-twist of V as the set
+
+VS = S ×
+G
+
+V = S × V /{(s · g, v) ∼ (s, gv)}.
+
+Choosing x ∈ S, we can identify V with VS via the map v (cid:55)→ (x, v). This identiﬁcation
+depends on x. Nevertheless, since the action of G on V is linear, the vector space structure
+on VS is independent of the choice of x ∈ S. Note, however, that VS does not have a left
+G-module structure (unless the group G is abelian).
+
+Now, let X be a smooth algebraic curve. For any point x ∈ X denote by Ox the local
+ring at x. Recall that a local parameter (a local coordinate) at x ∈ X is deﬁned as any
+element tx ∈ mx ⊂ Ox, where mx is the unique maximal ideal of the ring Ox. A choice
+∼= O = C[[z]],
+of a local parameter tx ∈ Ox deﬁnes a (non-canonical) isomorphism Ox
+tx (cid:55)→ z.
+
+Let Autx be the set of all local coordinates of Ox. The group AutO acts naturally on
+Autx: if tx ∈ Autx and ρ ∈ AutO, then ρ(tx) ∈ Autx. Also, (ρ (cid:63) µ)(t) = µ(ρ(t)), so it is
+indeed a right action of AutO on Autx. It is clear that this action is free and transitive.
+So, Autx is a AutO-torsor.
+
+Let V be a AutO-module. Then, we deﬁne the Autx-twist of V in the following way:
+
+Vx = Autx ×
+AutO
+
+V.
+
+We wish to combine all torsors Autx into one bundle on X. For this purpose, deﬁne
+AutX as the set of pairs {(x, tx) | x ∈ X, tx is a local parameter at x}. Note that AutX is
+also an AutO-torsor since ρ ∈ AutO maps (x, tx) to (x, ρ(tx)).
+
+We are ready to give the main deﬁnition.
+
+Deﬁnition 1. If V is a ﬁnite-dimensional AutO-module, then
+
+VX = AutX ×
+AutO
+
+V
+
+is the vector bundle associated with V and AutX.
+
+Note that the ﬁbre of VX over x ∈ X is identiﬁed with Vx.
+A natural way to construct left AutO-modules is to exponentiate modules over the
+corresponding Lie algebra. Namely, consider the Lie algebra Der0O = zC[z]∂z. It is not
+hard to check that Lie(AutO) = Der0O. So, if V is a Der0O-module, it is natural to try
+to exponentiate the action of Der0O on V and obtain the corresponding action of AutO
+on V . However, this is possible if the action of Der0 on V satisﬁes certain conditions. We
+are going to ﬁnd these conditions.
+
+A representation of the Lie algebra Lie(Gm) ∼= C · z∂z on a vector space V can be
+exponentiated to a representation of the multiplicative group Gm if and only if the action
+
+4
+
+of the element z∂z on V is diagonalizable with integer eigenvalues. In this case, a ∈ Gm
+acts on the eigenvectors of the operator z∂z with eigenvalues n multiplying them by an.
+A short way to write this is the following: a (cid:55)→ az∂z .
+
+Next, there is the exponential map
+
+Der+O = z2C[z]∂z → Aut+O = {z + a2z2 + a3z3 + . . . | ai ∈ C}
+
+which is an isomorphism between Der+O and Aut+O.
+
+A Der+-action on a vector space M can be exponentiated to an Aut+O-action if it is
+locally nilpotent, i.e. for any v ∈ M and x ∈ Der+O we have xN · v = 0 for suﬃciently
+large N .
+
+So, we arrive at the following proposition.
+
+Proposition 1. An action of Der0O on a vector space M can be exponentiated to an
+action of AutO if the following condions hold:
+
+• the action of the vector ﬁeld z∂z is diagonalizable with integer eigenvalues;
+
+• the action of Der+O is locally nilpotent.
+
+From now on, we assume that all representations we consider satisfy these two condi-
+
+tions.
+
+Recall the deﬁnition of the Virasoro algebra.
+
+Deﬁnition 2. The Virasoro algebra Vir is a complex Lie algebra generated as a vector
+space by Ln, n ∈ Z, and the central element c, satisfying the commutation relations:
+c
+12
+
+[Lm, Ln] = (m − n)Lm+n +
+
+(m3 − m)δm+n,0,
+
+[c, Ln] = 0.
+
+It can be checked directly that the elements −zn+1∂z ∈ Der0O, n ≥ 0, satisfy the
+same commutation relations as Ln ∈ Vir. This means that the Lie algebra Der0O can be
+identifed with the Lie subalgebra Vir+ ⊂ Vir generated by Ln, n ≥ 0. For brevity, we will
+often write simply Ln = −zn+1∂z.
+
+Let V be a representation of Der0O satisfying these two conditions. One can ask how
+to write the action of AutO on V explicitly. Recall that any element of the group AutO
+can be viewed as a power series
+
+z (cid:55)→ f (z) = a1z + a2z2 + a3z3 + . . . , a1 (cid:54)= 0.
+
+We need to ﬁnd vi ∈ C such that
+
+f (z) = exp
+
+(cid:33)
+
+vizi+1∂z
+
+vz∂z
+0
+
+· z.
+
+(cid:32)
+
+(cid:88)
+
+i>0
+
+(1)
+
+Since z∂z · z = z, we have vz∂z
+
+0
+
+· z = v0z. This means that
+
+exp
+
+(cid:32)
+
+(cid:88)
+
+i>0
+
+(cid:33)
+
+vizi+1∂z
+
+v0z = v0z +
+
+viv0zi+1 +
+
+(cid:88)
+
+i>0
+
+1
+2
+
+(cid:32)
+
+(cid:88)
+
+i>0
+
+vizi+1∂z
+
+(cid:33)
+
+(cid:88)
+
+·
+
+i>0
+
+viv0zi+1 + . . . ,
+
+which implies consecutively
+
+v0 = f (cid:48)(0),
+
+5
+
+1
+6
+The linear operator R(f ) : V → V is given by the formula
+
+f (cid:48)(cid:48)(cid:48)(0)
+f (cid:48)(0)
+
+, etc.
+
+v2 =
+
+1
+4
+
+−
+
+(cid:19)2
+
+v1 =
+
+1
+2
+
+,
+
+f (cid:48)(cid:48)(0)
+f (cid:48)(0)
+(cid:18) f (cid:48)(cid:48)(0)
+f (cid:48)(0)
+
+(cid:32)
+
+R(f ) = exp
+
+−
+
+(cid:33)
+
+vjLj
+
+v−L0
+0
+
+(cid:88)
+
+j>0
+
+(2)
+
+.
+
+3 Vector bundles on the projective line
+
+Let V be a ﬁnite-dimensional representation of Vir+ satisfying the conditions of Propo-
+sition 1. In this section, we prove that the corresponding vector bundle on the projective
+line depends only on the action of the operators L0 and L1 and show a way to compute
+the bundle explicitly (i.e. to ﬁnd its decomposition into the direct sum of line bundles)
+knowing the Jordan decomposition of L1.
+
+Recall that the vector bundle we are interested in is deﬁned by the formula
+
+VP1 = AutP1 ×
+AutO
+
+V,
+
+where
+
+AutP1 = {(x, tx) | x ∈ P1, tx is a local parameter at x}.
+
+The identiﬁcation of pairs (x, tx) is done as follows:
+
+((x, f (tx)), v) ∼ ((x, tx), R(f )v),
+
+where
+
+f = f (z) = a1z + a2z2 + a3z3 + . . . , R(f ) = exp(−
+
+(cid:88)
+
+j>0
+
+vjLj)v−L0
+
+0
+
+,
+
+and the numbers vj, j (cid:62) 0, are deﬁned uniquely by the formula
+
+f (z) = exp(−
+
+vjzj+1∂z)v0z.
+
+(cid:88)
+
+j>0
+
+Consider homogeneous coordinates (z0 : z1) on P1. Then, P1 is covered by the two
+standard aﬃne charts U0 = {(z0 : z1) | z0 (cid:54)= 0}, U1 = {(z0 : z1) | z1 (cid:54)= 0}. A vector bundle
+on P1 is deﬁned uniquely by the gluing cocycle ϕ01 corresponding to these two charts.
+
+Let (a0 : a1) be any point of P1. The chart U0 deﬁnes the local parameter at (a0 : a1)
+= t − a, while the chart U1 deﬁnes the local parameter z0
+t − 1
+z1
+a
+). The element f ∈ AutO mapping the ﬁrst local parameter to the
+
+equal to z1
+z0
+(here t = z1
+z0
+second one must satisfy the equality
+
+− a1
+a0
+, a = a1
+a0
+
+− a0
+a1
+
+= 1
+
+f (t − a) =
+
+1
+t
+
+−
+
+1
+a
+
+, so
+
+f (z) =
+
+1
+z + a
+
+−
+
+1
+a
+
+= −
+
+z
+a2 +
+
+z2
+a3 −
+
+z3
+a4 + . . .
+
+The following proposition gives an explicit formula for the gluing cocycle ϕ01 = R(f ).
+
+6
+
+Proposition 2. ϕ01 = R(f ) = exp( L1
+Proof. By deﬁnition, R(f ) = exp(− (cid:80)
+uniquely by (1). So, it suﬃces to check that the values v0 = − 1
+a2
+. . . = 0 satisfy (1).
+
+a2 )−L0.
+j>0 vjLj)v−L0
+
+a )(− 1
+
+0
+
+, where v0, v1, v2, . . . are determined
+, v2 = v3 =
+, v1 = − 1
+a
+
+Denote T = z2∂z. We are going to prove by induction that T nz = n!zn+1. The base
+
+n = 1 is clear. The induction step is done as follows:
+
+T n+1z = T (T nz) = T (n!zn+1) = z2(n + 1)n!zn = (n + 1)!zn+2.
+
+This implies that
+
+−
+
+z2∂z
+a
+
+)z = −
+
+1
+a2 exp(−
+z3
+1
+a2 − . . .) = −
+a2 (z −
+This ﬁnishes the proof of the proposition.
+
+1
+a2 (1 −
+
+z2
+a
+
+= −
+
++
+
+T
+a
+
++
+
+z
+a2 +
+
+T 2
+T 3
+3!a3 + . . .)z =
+2!a2 −
+z3
+z2
+a4 + . . . = f (z).
+a3 −
+
+Example 1. Consider a one-dimensional vector space V = (cid:104)v(cid:105) such that L0(v) = N v,
+N ∈ Z (and Li(v) = 0 if i > 0). In this case,
+
+R(f )v = (−
+
+a2
+0
+a2
+1
+
+)−N = (−1)N (
+
+a1
+a0
+
+)2N ,
+
+so the gluing cocycle ϕ01(z) is equal to (−1)N ( z1
+z0
+this cocycle is O(2N ).
+
+)2N . The line bundle corresponding to
+
+Example 1 is generalized in the following proposition.
+
+Proposition 3. Let V be an s-dimensional representation of the algebra Vir+ such that
+the action of L1 on V is one Jordan block (the corresponding eigenvalue is automatically 0)
+and v1, v2, . . . , vn are L0-homogeneous vectors of V forming a Jordan basis of L1. Then,
+if L0(v1) = lv1, the corresponding vector bundle on P1 is isomorphic to O(2l − s + 1)⊕s.
+In other words, this bundle is isomorphic to O(lmax + lmin)⊕s, where lmax = l and lmin are
+the maximal and minimal L0-degrees of vectors in V .
+
+Proof. The commutation relation [L1, L0] = L1 implies that L0(vi) = (l − i + 1)vi for all
+i = 1, 2, . . . , s.
+
+The matrix of the operator exp( L1
+
+a ) relative to the given basis is the following:
+
+
+
+
+
+
+
+
+
+1 1
+a
+0 1
+...
+...
+0 0
+
+1
+2!a2
+1
+a
+
+...
+0
+
+1
+3!a3
+1
+2!a2
+
+...
+0
+
+. . .
+. . .
+. . .
+. . .
+
+1
+(s−1)!as−1
+1
+(s−2)!as−2
+
+...
+1
+
+,
+
+
+
+
+
+
+so the gluing cocycle is given by the matrix
+
+
+
+
+
+
+
+
+a2l−2s+2 a2l−2s+3
+a2l−2s+4
+...
+0
+
+0
+...
+0
+
+1
+
+2!a2l−2s+4
+a2l−2s+5
+...
+0
+
+7
+
+1
+
+1
+
+3!a2l−2s+5
+2!a2l−2s+6
+...
+0
+
+. . .
+. . .
+. . .
+. . .
+
+1
+
+1
+
+(s−1)!a2l−s+1
+(s−2)!a2l−s+2
+...
+a2l
+
+
+
+
+
+
+
+
+.
+
+For convenience, we factor out the factor a2l−2s+2 from all elements of the matrix.
+tensor multiplication by
+
+In geometric terms, this corresponds to the «twisting», i.e.
+O(−2l + 2s − 2). We obtain the matrix
+
+
+
+
+
+
+
+
+
+
+a
+1
+0 a2
+0
+0
+...
+...
+0
+0
+
+1
+
+2!a2
+a3
+a4
+...
+0
+
+1
+
+1
+
+3!a3
+2!a4
+a5
+...
+0
+
+. . .
+. . .
+. . .
+. . .
+. . .
+
+1
+
+1
+
+1
+
+(s−1)! as−1
+(s−2)!as
+(s−3)! as+1
+...
+a2s−2
+
+
+
+
+
+
+
+
+
+
+.
+
+We can perform the following actions with this matrix:
+
+• add a linear combination of any set of columns with coeﬃcients in C[a−1] to another
+column (this corresponds to a regular change of trivialization over the chart U1);
+
+• add a linear combination of any set of rows with coeﬃcients in C[a] to another row
+
+(this corresponds to a regular change of trivialization over the chart U0).
+
+We can also permute the columns and the rows and multiply them by arbitrary non-zero
+numbers.
+
+First, we add the rightmost column multiplied by suitable coeﬃcients to all other
+columns in such a way that all elements in the ﬁrst row vanish (except for the last one).
+This gives us the matrix
+
+
+
+
+
+
+
+
+
+
+
+
+0
+0
+a2
+a
+0 2a3
+0
+0
+...
+...
+0
+0
+
+1
+
+0
+2!a3
+2a4
+3a5
+...
+0
+
+1
+
+2
+
+0
+3!a4
+2!a5
+3a6
+...
+0
+
+. . .
+. . .
+. . .
+. . .
+. . .
+. . .
+
+1
+
+1
+
+1
+
+(s−1)!as−1
+(s−2)!as
+(s−3)!as+1
+. . .
+...
+a2s−2
+
+
+
+
+
+
+
+
+
+
+
+
+.
+
+Now, we add the ﬁrst row multiplied by suitable coeﬃcients to the remaining ones.
+After this operation, all elements in the rightmost column become zero (except for the
+ﬁrst one). Finally, we move the last column to the leftmost position, divide the i-th row
+by i − 1 (i = 2, 3, 4, . . . , s) and multiply the ﬁrst row by (s − 1)!. The matrix we obtain
+is the following:
+
+as−1 0
+
+
+
+
+
+
+
+
+
+
+
+
+0
+0
+0
+...
+0
+
+0
+a a2
+0 a3
+0
+0
+...
+...
+0
+0
+
+1
+
+0
+2!a3
+a4
+a5
+...
+0
+
+. . .
+. . .
+. . .
+. . .
+. . .
+. . .
+
+
+
+
+
+
+
+
+
+
+
+
+.
+
+1
+
+1
+
+0
+(s−2)!as−2
+(s−3)!as−3
+. . .
+...
+a2s−3
+
+Note that right bottom (s − 1) × (s − 1) minor of this matrix is of the same form as
+the initial matrix of the cocycle. Now, we can apply the procedure we just described to
+this minor. Continuing similarly with the minors of sizes (s − 2) × (s − 2), (s − 3) × (s − 3)
+etc., we eventually obtain the scalar matrix with all diagonal elements equal to as−1. The
+cocycle given by this matrix corresponds to the bundle O(s − 1)⊕s. It remains to «twist»
+back this bundle by O(2l − 2s + 2) obtaining the bundle O(2l − s + 1)⊕s.
+
+8
+
+So, we can speak about vector bundles corresponding to spaces equipped with the
+action of only two operators L0, L1 such that [L1, L0] = L1. We will use it later computing
+vector bundles corresponding to subspaces of Vir+-modules that are invariant under L0
+and L1 but not necessarily under the whole algebra Vir+.
+
+4 The representations of Vir+ on the space of semi-
+
+inﬁnite products
+
+In this section, we compute the vector bundles associated with certain representations
+
+of Vir+ called the Fock modules. First, we deﬁne these representations.
+
+Denote by F the space with a basis consisting of all semi-inﬁnite monomials of the
+
+form
+
+where i1 < i2 < i3 < . . . and in+1 − in = 1 for n (cid:29) 0.
+
+The space F is the direct sum
+
+ψi1 ∧ ψi2 ∧ ψi3 ∧ . . . ,
+
+F =
+
+(cid:77)
+
+F (m),
+
+m∈Z
+where F (m) is the linear span of all semi-inﬁnite monomials of charge m, i.e. the monomials
+coinciding with |m(cid:105) = ψm∧ψm+1∧ψm+2∧. . . for all suﬃciently large indices. The monomial
+|m(cid:105) is called the vacuum monomial of charge m.
+
+Introduce the free fermions ψj, ψ∗
+j
+
+, j ∈ Z acting on the space F. By deﬁnition,
+
+ψj(ψi1 ∧ ψi2 ∧ . . .) =
+
+(cid:40)
+
+0, if j = is for some s,
+(−1)sψi1 ∧ . . . ∧ ψis ∧ ψj ∧ ψis+1 ∧ . . . , if is < j < is+1,
+
+.
+
+ψ∗
+
+j (ψi1 ∧ ψi2 ∧ . . .) =
+
+(cid:40)
+
+0, if j (cid:54)= is for all s,
+(−1)s+1ψi1 ∧ . . . ∧ ψis−1 ∧ ψis+1 ∧ . . . , if is = j.
+satisfy the following relations:
+
+.
+
+It is easy to check that the operators ψj, ψ∗
+j
+
+ψiψ∗
+
+j + ψ∗
+
+j ψi = δij, ψiψj + ψjψi = 0, ψ∗
+
+i ψ∗
+
+j + ψ∗
+
+j ψ∗
+
+i = 0.
+j (F (m)) ⊂ F (m−1).
+
+It follows from the deﬁnitions that ψj(F (m)) ⊂ F (m+1), ψ∗
+Next, we introduce the so-called free bosons. They are deﬁned by the formulas
+
+bn =
+
+(cid:88)
+
+k∈Z
+
+ψ∗
+
+kψn+k, n (cid:54)= 0; b0 =
+
+(cid:88)
+
+k(cid:62)0
+
+ψ∗
+
+kψk −
+
+(cid:88)
+
+k<0
+
+ψkψ∗
+k.
+
+(3)
+
+It follows from the deﬁnitions that bn(F (m)) ⊂ F (m). It can also be checked that b0
+
+acts on F (m) by the scalar m.
+
+The free bosons satisfy the following commutation relations:
+
+[bn, bm] = nδn,m.
+
+and act on the Fock space B = C[x1, x2, . . . ; q, q−1] by the formulas
+
+r(bm) = m
+
+∂
+∂xm
+
+, r(b−m) = xm, r(b0) = q
+
+∂
+∂q
+
+.
+
+Recall the deﬁnition of the Heisenberg algebra.
+
+9
+
+Deﬁnition 3. The Heisenberg algebra H is a Lie algebra with the basis {an, n ∈ Z; h}
+satisfying the commutation relations [h, an] = 0, [am, an] = mδm,−nh.
+
+It follows that the operators r(bm) deﬁne a representation of the Heisenberg algebra
+on the Fock space B (the element h acts as the identity). In the deﬁnition, we used the
+notation an in order not to confuse with the operators bn introduced previously. From
+now on, we use bn instead of an as in [2].
+
+The boson-fermion correspondence (see [2, 3]) identiﬁes the spaces B and F. Any
+
+vacuum vector |m(cid:105) is mapped to qm under this identiﬁcation.
+
+The Virasoro algebra acts on B and hence on F by the following formulas:
+
+L0 =
+
+1
+2
+
+b2
+0 + b−1b1 + b−2b2 + . . . , Lk =
+
+1
+2
+
+(cid:88)
+
+s
+
+bsbk−s при k (cid:54)= 0.
+
+Now, we are ready to deﬁne the Fock modules Vn,k. Consider the vector
+
+vn,k = ψ−n ∧ ψ−n+1 ∧ . . . ∧ ψ−n+k ∧ ψk+1 ∧ ψk+2 ∧ ...
+
+Deﬁnition 4. The Fock module Vn,k is the linear span of all vectors obtained from the
+vector vn,k under the action of all polynomials in bn, n (cid:62) 0.
+
+We are going to do the following:
+
+1. Describe the spaces Vn,k explicitly and ﬁnd their dimensions.
+
+2. Show that Vn,k are invariant under the action of Vir+.
+
+3. Compute explicitly the vector bundles on P1 associated with the representations of
+
+Vir+ on the spaces Vn,k.
+
+Proposition 4. The space Vn,k is the linear span of all semi-inﬁnite monomials of the
+form ψi0 ∧ ψi1 ∧ . . . ∧ ψik ∧ ψk+1 ∧ ψk+2 ∧ . . ., где −n (cid:54) i0 < i1 < . . . < ik (cid:54) k.
+
+To prove this proposition, we need the following lemma.
+
+Lemma 1. Suppose that
+
+b−jsb−js−1 . . . b−j1(|0(cid:105)) =
+
+(cid:88)
+
+t=(t0,t1,...,tk)
+
+atψt0∧ψt1∧. . .∧ψtk∧ψk+1∧ψk+2∧. . .+«extra» monomials,
+
+where the sum is taken over all t such that −n (cid:54) t0 < t1 < . . . < tk (cid:54) k and all monomials
+not of this form are called «extra». Then
+
+bjsbjs−1 . . . bj1(vn,k) =
+
+(cid:88)
+
+t=(t0,t1,...,tk)
+
+atψk−n−tk ∧ ψk−n−tk−1 ∧ . . . ∧ ψk−n−t0 ∧ ψk+1 ∧ ψk+2 ∧ . . .
+
+Proof. We prove the lemma by induction on s. The base for s = 0 is trivial. Let us prove
+the induction step from s to s + 1.
+
+First, we note that formulas (3) imply Vn,k ⊂ F (0) and b0(Vn,k) = 0. The explicit
+
+formula for the action of bm on the semi-inﬁnite monomials is the following:
+
+bm(ψi1∧ψi2∧ψi3∧. . .) = −(ψi1+m∧ψi2∧ψi3∧. . .+ψi1∧ψi2+m∧ψi3∧. . .+ψi1∧ψi2∧ψi3+m∧. . .)
+(4)
+
+10
+
+(we assume here that the elements ψis
+
+anti-commute). So, we have
+
+= b−js+1(
+
+(cid:88)
+
+t=(t0,t1,...,tk)
+
+b−js+1b−js . . . b−j1(ψ0 ∧ ψ1 ∧ ψ2 ∧ . . .) =
+
+atψt0 ∧ ψt1 ∧ . . . ∧ ψtk ∧ ψk+1 ∧ ψk+2 ∧ . . . + («extra» monomials)) =
+
+(cid:88)
+
+= −
+
+t
+
+at(ψt0−js+1∧ψt1∧. . .∧ψtk∧ψk+1∧ψk+2∧. . .+ψt0∧ψt1−js+1∧. . .∧ψtk∧ψk+1∧ψk+2∧. . .+. . .
+
+. . . + ψt0 ∧ ψt1 ∧ . . . ∧ ψtk−js+1 ∧ ψk+1 ∧ ψk+2 ∧ . . .) + «extra» monomials.
+
+We remark that some of the summands in the last sum might be «extra».
+
+At the same time,
+
+bjs+1bjs . . . bj1(ψ−n ∧ ψ−n+1 ∧ . . . ∧ ψ−n+k ∧ ψk+1 ∧ ψk+2 ∧ . . .) =
+
+(cid:88)
+
+= bjs+1(
+
+= −
+
+t
+(cid:88)
+
+t
+
+atψk−n−tk ∧ ψk−n−tk−1 ∧ . . . ∧ ψk−n−t0 ∧ ψk+1 ∧ ψk+2 ∧ . . .) =
+
+at(ψk−n−tk+js+1 ∧ ψk−n−tk−1 ∧ . . . ∧ ψk−n−t0 ∧ ψk+1 ∧ . . . +
+
++ψk−n−tk∧ψk−n−tk−1+js+1∧. . .∧ψk−n−t0∧. . .+. . .+ψk−n−tk∧ψk−n−tk−1∧. . .∧ψk−n−t0+js+1∧. . .).
+
+We are ready to prove Proposition 4
+
+Proof of Proposition 4. The explicit formula for the action of the operators bi immediately
+implies that each element of the space Vn,k is a linear combination of monomials of the
+form ψi0 ∧ ψi1 ∧ . . . ∧ ψik ∧ ψk+1 ∧ ψk+2 ∧ . . ., where −n (cid:54) i0 < i1 < . . . < ik (cid:54) k. Our
+purpose is to prove that all such monomials lie in Vn,k.
+
+Any semi-inﬁnite monomial ψi0 ∧ ψi1 ∧ . . . ∧ ψik ∧ ψk+1 ∧ ψk+2 ∧ . . . of this form is an
+element of the space F (0), so the corresponding under the boson-fermion correspondence
+polynomial is indepenedent of q, q−1. It follows that
+
+ψi0 ∧ ψi1 ∧ . . . ∧ ψik ∧ ψk+1 ∧ ψk+2 ∧ . . . = P (b−1, b−2, . . .)(ψ0 ∧ ψ1 ∧ ψ2 ∧ . . .)
+
+for some polynomial P . We are going to prove that
+
+P (b1, b2, . . .)vn,k = ψk−n−ik ∧ ψk−n−ik−1 ∧ . . . ∧ ψk−n−i0 ∧ ψk+1 ∧ ψk+2 . . .
+
+But this follows easily from Lemma 1. Indeed, since
+
+ψi0 ∧ ψi1 ∧ . . . ∧ ψik ∧ ψk+1 ∧ ψk+2 ∧ . . . = P (b−1, b−2, . . .)(ψ0 ∧ ψ1 ∧ ψ2 ∧ . . .),
+
+application of Lemma 1 to each of the monomials of the polynomial P gives us the equality
+
+P (b1, b2, . . .)vn,k = ψk−n−ik ∧ ψk−n−ik−1 ∧ . . . ∧ ψk−n−i0 ∧ ψk+1 ∧ ψk+2 . . .
+
+This concludes the proof of Proposition 4.
+
+Corollary 1. dim Vn,k = (cid:0)n+k+1
+
+(cid:1).
+
+n
+
+Next, we are going to prove that Vn,k is a representation of Vir+.
+
+11
+
+Proposition 5. The space Vn,k is invariant under the action of Vir+.
+
+Proof. Recall that Ln is given by the following formulas:
+
+L0 =
+
+1
+2
+
+b2
+0 + b−1b1 + b−2b2 + . . . , Lk =
+
+1
+2
+
+(cid:88)
+
+s
+
+bsbk−s for k (cid:54)= 0.
+
+One can check (see [2, Chapters 2,3]) that the action of L0 on any homogeneous
+polynomial f ∈ C[x1, x2, . . .] consists in multiplying it by deg f . Under the boson-fermion
+correspondence, any semi-inﬁnite monomial is identiﬁed with a homogeneous in x1, x2, . . .
+polynomial in the Fock space B = C[x1, x2, . . . ; q, q−1] (the L0-degree of any semi-inﬁnite
+monomial ψi1 ∧ ψi2 ∧ ψi3 ∧ . . . ∈ F (0) is equal to −i0 + (1 − i1) + (2 − i2) + . . .). So, the
+space Vn,k is L0-invariant.
+
+We need to check that Lm(Vn,k) ⊂ Vn,k if m > 0. Consider the action of Lm on
+an arbitrary semi-inﬁnite monomial v = ψi1 ∧ ψi2 ∧ ψi3 ∧ . . ., i1 < i2 < i3 < . . ..
+It
+follows from the formulas for Lm that Lm(v) is a linear combination of the monomials
+ψj1 ∧ ψj2 ∧ ψj3 . . . such that not more than two indices js diﬀer from is (we do not assume
+here that j1 < j2 < j3 < . . .).
+
+Suppose that js (cid:54)= is and jr (cid:54)= ir. Then, the monomial ψj1 ∧ ψj2 ∧ ψj3 . . . either does
+not appear or appears twice in the expression for Lm(v). In the second case, it appears
+to the monomial v. The application of
+after the applicatoin of bjr−irbjs−is
+gives us this monomial with coeﬃcient +1 while the application of bjr−isbjs−ir
+bjr−irbjs−is
+gives us this monomial with coeﬃcient −1. So, these two monomials cancel each other.
+If exactly one index js does not equal is, then js > is for L0-degree reasons since Lm
+
+and bjr−isbjs−ir
+
+changes the L0-degree of an L0-homogeneous monomial by m.
+
+So, we proved that the expression for Lm(v) (m > 0) contains only the monomials
+ψj1 ∧ ψj2 ∧ ψj3 . . . such that js ≥ is for all s (moreover, the equality holds for all s except
+one). This implies Vir+-invariance of Vn,k.
+
+Example 2. Before we proceed to the general situation, let us compute the vector bundle
+associated with Vn,k for k = 0. Denote by vk the semi-inﬁnite monomial vk = ψ−k ∧ ψ1 ∧
+ψ2 ∧ . . .. Then, the vectors vn, vn−1, . . . , v1, v0 form a basis of the space Vn,0. It is easy to
+see from the formula for L1 that L1(vs) = (s − 1)vs−1, s = 1, 2, . . . , n, L1(v0) = 0. So, the
+space Vn,0 is the direct sum of two Jordan blocks
+
+Vn,0 = (cid:104)vn, vn−1, . . . , v1(cid:105) ⊕ (cid:104)v0(cid:105).
+
+Moreover, v1, v2, . . . , vn is a Jordan basis of the ﬁrst block up to multiplication of the vec-
+tors by non-zero coeﬃcients. Since L0(vn) = nvn, L0(v0) = 0, it follows from Proposition 3
+that the ﬁrst and the second blocks give us the bundles O(n + 1)⊕n and O respectively. So,
+the whole vector bundle is isomorphic to
+
+O(n + 1)⊕n ⊕ O.
+
+In order to work with the case of general k, we need an explicit formula for the action
+
+of L1 on the semi-inﬁnite monomials. This formula is given in the following lemma.
+
+Lemma 2.
+
+L1(ψ−i0 ∧ ψ−i1 ∧ . . . ψ−ik ∧ ψk+1 ∧ . . .) = (i0 − 1)ψ−i0+1 ∧ ψ−i1 ∧ . . . ψ−ik ∧ ψk+1 ∧ . . . +
+
++(i1 −1)ψ−i0 ∧ψ−i1+1 ∧. . . ψ−ik ∧ψk+1 ∧. . .+. . .+(ik −1)ψ−i0 ∧ψ−i1 ∧. . . ψ−ik+1 ∧ψk+1 ∧. . .
+
+12
+
+Proof. It follows from the proof of Proposition 5 that the expression for L1(ψ−i0 ∧ ψ−i1 ∧
+. . . ψ−ik ∧ ψk+1 ∧ . . .) can contain only the monomials from the right hand side of the
+formula we prove (they are obtained from the initial monomial by increasing one index
+by 1). It remains to ﬁnd the coeﬃcient of each of these monomials.
+
+Rewrite the formula for L1 in the following more convenient form:
+
+L1 = b0b1 + b−1b2 + b−2b3 + . . .
+
+It follows from this formula that the result of the action of L1 on the monomial
+ψ−i0 ∧ ψ−i1 ∧ . . . ψ−ik ∧ ψk+1 ∧ . . . is the sum of monomials obtained by the following
+operation: we choose two (probably coinciding) indices −ir, −is, replace one of them
+(say, −ir) with −ir + m + 1, m ≥ 1 and, assuming that the monomial we obtained is not
+zero (i.e., −ir + m + 1 is not equal to any of ip), replace −is with −is − m.
+
+Consider, for example, the monomial ψ−i0+1 ∧ ψ−i1 ∧ . . . ψ−ik ∧ ψk+1 ∧ . . . It can be
+obtained from the initial monomial by shifting i0 to an arbitrary index from −i0 + 2 to
+k except for −i1, −i2, . . . , −ik and then returning the new index to the position −i0 + 1.
+This gives us the coeﬃcient k + i0 − 1 − k = i0 − 1.
+
+A similar argument for the monomial ψ−i0 ∧ ψ−i1+1 ∧ . . . ψ−ik ∧ ψk+1 ∧ . . . gives the
+coeﬃcient k + i1 − 1 − (k − 1) = i1. However, this monomial can also be obtained in the
+following way: we can replace −i0 by −i1 + 1 and then replace −i1 with −i0. The result
+of this operation is the monomial
+
+ψ−i1+1 ∧ ψ−i0 ∧ . . . ∧ ψ−ik ∧ ψk+1 ∧ . . .
+equal to −ψ−i0 ∧ ψ−i1+1 ∧ . . . ψ−ik ∧ ψk+1 ∧ . . . due to the anticommutation relations. The
+resulting coeﬃcient is equal to i1 − 1.
+
+For the other monomials, the argument is similar.
+
+It is easy to deduce the following proposition from Lemma 2.
+
+Proposition 6. The Fock module Vn,k is the direct sum of the L1-invariant subspaces V r
+r = 0, 1, . . . , k, k + 1, where V r
+Vn,k with exactly r negative indices.
+
+n,k,
+n,k is the linear span of all semi-inﬁnite monomials from
+
+Denote by Vn the linear span of all monomials of the form ψi ∧ ψ0 ∧ ψ1 ∧ . . . such
+that −n (cid:54) i (cid:54) −1. Also, denote by Wk the linear span of the monomials of the form
+is isomorphic to the
+ψi ∧ ψk+1 ∧ ψk+2 ∧ . . . such that 0 (cid:54) i (cid:54) k. Note that each space V r
+n,k
+tensor product Vn
+with the relations of anticommutation of the ﬁrst k and
+the last k − r + 1 tensor factors. Moreover, this identiﬁcation agrees with the L1-action
+is identiﬁed with the action of the operator
+on V r
+, Vn and Wk: the action of L1 on V r
+n,k
+n,k
+L1 ⊗ Id ⊗ Id ⊗ . . . ⊗ Id + Id ⊗ L1 ⊗ Id ⊗ . . . ⊗ Id + . . . + Id ⊗ Id ⊗ Id ⊗ . . . ⊗ L1
+
+⊗r ⊗ W ⊗k−r+1
+k
+
+⊗r ⊗ W ⊗k−r+1
+k
+
+on Vn
+sense: L0(v1 ⊗ v2 ⊗ . . . ⊗ vk+1) = (cid:80)
+
+L0(vi) up to adding a constant.
+
+. Also, this identiﬁcation agrees with the L0-grading in the following
+
+i
+
+So, the problem is reduced to the following question. Suppose that we have L0-
+graded ﬁnite-dimensional vector spaces V1, V2, . . . , Vm equipped with an action of nilpotent
+operators A1, A2, . . . , Am such that each Ai acts by one Jordan block and has a Jordan
+basis consisting of L0-homogeneous vectors. Consider the space V1 ⊗V2 ⊗. . .⊗Vn equipped
+with the action of the operator
+
+A = A1 ⊗ Id ⊗ . . . ⊗ Id + Id ⊗ A2 ⊗ . . . ⊗ Id + . . . + Id ⊗ Id ⊗ . . . ⊗ Am.
+
+13
+
+Let V be the vector space obtained from V1 ⊗ V2 ⊗ . . . ⊗ Vn under factorization by some
+relations agreeing with the A-action. The question is how to ﬁnd the Jordan decomposi-
+tion of the operator on V induced by A and also to compute the L0-degrees of the vectors
+in each Jordan block.
+
+We start with the case when there are no relations, i.e. V = V1 ⊗ V2 ⊗ . . . ⊗ Vn.
+It turns out that the most important case is n = 2.
+In this case, we have L0-graded
+ﬁnite-dimensional vector spaces V , W with the action of nilpotent operators A, B re-
+spectively such that both operators act by one Jordan block. Also, suppose that A,
+B are L0-homogeneous of degree 1, i.e.
+these operators reduce the L0-grading of any
+L0-homogeneous vector by 1. Let v1, v2, . . . , vn and w1, w2, . . . , wm be L0-homogeneous
+Jordan basis of V and W respectively, and degL0(vn) = l1, degL0(wm) = l2. Then, the
+following proposition holds.
+
+Proposition 7. The space V ⊗ W equipped with the action of the operator A ⊗ Id + Id ⊗ B
+is the direct sum of Jordan blocks of sizes n + m − 1, n + m − 3, n + m − 5, . . .. Each of
+these blocks has an L0-homogeneous Jordan basis and the maximal L0-degrees of vectors
+in these bases are equal to l1 + l2, l1 + l2 − 1, l1 + l2 − 2, . . . respectively.
+
+Proof. The vector spaces V , W can be equipped with a structure of representations of
+the Lie algebra sl(2, C) in such a way that the action of the element f ∈ sl(2, C) on V
+and W coincide with the action of the operators A and B respectively and the action
+of h ∈ sl(2, C) is diagonalizable in the given bases (the h-grading is obtained from the
+L0-grading after a shift and multiplication by 2). This turns V and W into irreducible
+representations of sl(2, C) with highest weights n−1 and m−1 respectively (since dim V =
+n and dim W = m). It is known that the sl(2, C)-representation V ⊗ W is the direct sum
+of irreducible subrepresentations with highest weights n + m − 2, n + m − 4, n + m − 6
+etc. These subrepresentations are Jordan blocks of the operator A ⊗ Id + Id ⊗ B.
+
+Denote by (A ⊗ B)d the subspace of A ⊗ B consisting of all L0-homogeneous vector
+
+of degree d. Proposition 7 implies the following useful observation.
+
+Corollary 2. Denote by T the operator A ⊗ Id + Id ⊗ B. Then
+
+dim(T k(A ⊗ B)d) = min(dim(A ⊗ B)d, dim(A ⊗ B)d−k)
+
+for all d and k.
+
+In other words, the kernel of the operator T k : (A⊗B)d → (A⊗B)d−k is of the minimal
+dimension allowed by the dimensions of the spaces (A⊗B)d and (A⊗B)d−k. In particular,
+if dim(A ⊗ B)d (cid:62) dim(A ⊗ B)d−k, then this operator is surjective.
+
+Next, we need the following observation. Let V1, V2, . . . , Vn be L0-graded ﬁnite-
+dimensional vector spaces equipped with the action of nilpotent operators A1, A2, . . . ,
+An such that each of these operators is one Jordan block. Also, suppose that these spaces
+satisfy the conditions from Proposition 7, i.e. the operators Ai are L0-homogeneous of
+degree 1 and each Vi has an L0-homogeneous Jordan basis. Denote by
+
+T = A1 ⊗ Id ⊗ . . . ⊗ Id + Id ⊗ A2 ⊗ . . . ⊗ Id + . . . + Id ⊗ Id ⊗ . . . ⊗ An
+
+the operator acting on V = V1 ⊗ V2 ⊗ . . . ⊗ Vn. Denote by Vd the L0-homogeneous
+component of degree d of the space V . Let D, d be the maximal and the minimal numbers
+(respectively) such that the spaces VD and Vd are non-zero. Then, it is easy to see that
+
+14
+
+dim VD−s = dim Vd+s for all integer s. Informally, this can be viewed as the symmetry of
+the decomposition of V into the direct sum of the homogeneous components. From now
+on, we sometimes refer to this property as «the symmetry of L0-decomposition». Now,
+we state the following proposition.
+
+Proposition 8. T k(VD−s) = Vd+s for all s.
+
+Proof. We proceed by induction on the number n of the spaces. The base of induction
+n = 2 is Corollary 2. Now, we are going to prove the induction step from n to n + 1.
+
+By the induction hypothesis, V1 ⊗ V2 ⊗ . . . ⊗ Vn = J1 ⊕ J2 ⊕ . . . ⊕ Jr is the direct sum
+of L0-homogeneous Jordan subspaces such that Di + di is the same for all i, where Di and
+di are the maximal and the minimal L0-degrees respectively of vectors in Ji.
+
+The operator An+1 acts on the space Vn+1 by one Jordan block. Denote by D(cid:48), d(cid:48) the
+
+maximal and the minimal L0-degrees respectively of the vectors in Vn+1. Now,
+
+V1 ⊗ V2 ⊗ . . . ⊗ Vn ⊗ Vn+1
+
+∼= (J1 ⊗ Vn+1) ⊕ (J2 ⊗ Vn+1) ⊕ . . . ⊕ (Jr ⊗ Vn+1).
+
+Applying the statement of the induction base to each of the spaces Jk ⊗ Vn+1, we obtain
+that Jk ⊗ Vn+1 is the direct sum of Jordan blocks such that the maximal and the minimal
+L0-degrees of vectors in such blocks are equal to Dk + D(cid:48) and dk + d(cid:48), Dk + D(cid:48) − 1
+and dk + d(cid:48) + 1 etc. respectively. The sum of the numbers in these pairs are equal to
+Dk + dk + D(cid:48) + d(cid:48), so they do not depend on k due to the induction hypothesis. This
+proves the proposition.
+
+k
+
+⊗r ⊗ W ⊗k−r+1
+k
+
+. Recall that V r
+n,k
+
+is isomorphic to the space Vn
+
+Now, we return to the spaces V r
+n,k
+
+⊗r ⊗
+with the relations of anticommutation of the ﬁrst k and the last k − r + 1 tensor
+W ⊗k−r+1
+factors. Note that this factorization does not aﬀect the symmetry of the decomposition
+of Vn
+into the direct sum of L0-homogeneous components (i.e., the L0-
+homogeneous components of degrees d + s и D − s (s ∈ Z) have the same dimension also
+after the factorization). It is also clear that the factorization preserves surjectivity of the
+n,k)d+s, so this map is an isomorphism of the corresponding
+map LD−d−2s
+n,k)D−s → (V r
+1
+spaces due to the equality of their dimensions.
+Informally, the decomposition of V r
+n,k
+into the direct sum of L0-homogeneous components if symmetric. This implies that the
+decomposition of V r
+into the Jordan subspaces of the operator L1 is also symmetric.
+n,k
+More formally, this result can be stated as follows.
+
+: (V r
+
+Proposition 9. Let D and d be, respectively, the maximal and the minimal number such
+that the spaces (V r
+n,k)d are non-zero. Then, each Jordan subspace of the
+operator L1 acting on V r
+n,k has an L0-homogeneous Jordan basis such that the maximal
+and the minimal L0-degree of vectors in this Jordan subspace are equal to D − s and d + s
+respectively for some s ∈ Z(cid:62)0.
+
+n,k)D and (V r
+
+of the maximal possible de-
+Proof. Choose a non-zero homogeneous vector u1 ∈ V r
+n,k
+1(v), . . . until we obtain zero for the ﬁrst time.
+gree D. We consider the vectors L1(v), L2
+Denote by v1 the last non-zero vector of this form. Our observations imply that the map
+n,k)d is an isomorphism, so degL0(v1) = d. The vectors u1, L1(u1),
+LD−d
+1
+1(u1),. . . , v1 span the ﬁrst Jordan subspace which we denote by U1.
+L2
+
+n,k)D → (V r
+
+: (V r
+
+Next, let s be the minimal integer number such that (V r
+
+Choose a vector u2 ∈ (V r
+is an isomorphism, we see that the vector v2 = LD−d−2s
+
+n,k)D−s not contained in U1. Since LD−d−2s
+
+1
+
+1
+
+n,k)D−s is not contained in U1.
+n,k)d+s
+(u2) is also not contained in U1.
+
+n,k)D−s → (V r
+
+: (V r
+
+15
+
+At the same time, L1(v2) ∈ U1 due to the symmetry of the L0-decomposition of our space.
+(˜u2) = 0 (we obtain ˜u2 by
+Now, we can replace u2 with a vector ˜u2 such that LD−d−2s+1
+adding a vector from U1 to u2). The linear span of the vectors Lp
+1(˜u2), p = 0, 1, . . . , D −
+d − 2s, is the second Jordan subspace of the operator L1. Denote by U2 the sum of this
+subspace and U1.
+
+Proceeding similarly, we construct a desired decomposition into Jordan blocks. The
+
+1
+
+symmetry with respect to the L0-grading is clear from the construction.
+
+Now, it is easy to compute the vector bundle associated with the space V r
+n,k
+
+.
+
+Proposition 10. The vector bundle associated with V r
+
+O((k + 1)(n + k + 1))⊕( n
+
+n,k is isomorphic to
+k+1).
+
+Proof. Let us choose a Jordan subspace of maximal dimension in V r
+. Let l and s be
+n,k
+the greatest L0-degree of a vector in this subspace and its dimension respectively. We
+know from Proposition 3 that the vector bundle associated with this block is isomorphic
+to O(2l − s + 1)⊕s.
+
+Next, Proposition 9 implies the following: if l − x is the maximal L0-degree of a vector
+in another Jordan subspace, then its dimension is equal to s−2x. Thus, the vector bundle
+associated with this Jordan subspace is isomorphic to
+
+O(2(l − x) − (s − 2x) + 1)⊕(s−2x) = O(2l − s + 1)⊕(s−2x).
+It is clear now that the vector bundle associated with the whole space V r
+n,k
+n,k. It remains to compute l and s.
+The Jordan subspace of the maximal dimension in V r
+n,k
+
+to O(2l − s + 1)⊕ dim V r
+
+is generated by the monomial
+
+is isomorphic
+
+ψ−n ∧ ψ−n+1 ∧ . . . ∧ ψ−n+r−1 ∧ ψ0 ∧ ψ1 ∧ . . . ∧ ψk−r ∧ ψk+1 ∧ . . . ,
+
+while the monomial of the least L0-degree in this subspace is equal to
+
+ψ−r ∧ ψ−r+1 ∧ . . . ∧ ψ−1 ∧ ψr ∧ ψr+1 ∧ . . . ∧ ψk ∧ ψk+1 ∧ . . .
+The L0-degrees of these monomials are equal to nr + r(k − r + 1) = r(n + k − r + 1) and r2
+respectively, so the dimension of this Jordan subspace is equal to
+
+r(n + k − r + 1) − r2 + 1 = r(n + k − 2r + 1) + 1.
+
+Now,
+
+2l − s + 1 = 2r(n + k − r + 1) − r(n + k − 2r + 1) + 1 = r(n + k + 1),
+n,k = (cid:0)n
+
+and dim V r
+is determined by a
+choice of r negative indices from the set {−1, −2, . . . , −n} and k − r + 1 non-negative
+indices from the set {0, 1, . . . , k}. The computation we did shows that the vector bundle
+we want to compute is isomorphic to O((k + 1)(n + k + 1))⊕( n
+
+(cid:1) since a semi-inﬁnite monomial in V r
+
+k+1) as stated.
+
+(cid:1) · (cid:0) k+1
+
+k−r+1
+
+n,k
+
+r
+
+The vector bundle associated with the whole Fock module Vn,k is the direct sum of
+, r = 0, 1, . . . , k + 1. This implies the main
+
+the bundles associated with the subspaces V r
+n,k
+result of this section.
+
+Proposition 11. The vector bundle on CP1 associated with the representation of Vir+
+on the Fock module Vn,k is isomorphic to the direct sum
+
+k+1
+(cid:77)
+
+r=0
+
+O(r(n + k + 1))⊕(n
+
+r)( k+1
+
+k−r+1).
+
+16
+
+5 The representation of Vir+ on the principal subspace
+2Z for the bosonic vertex operator V√
+
+of π√
+
+2(z)
+
+In this section, we compute explicitly the bundles on P1 corresponding to another class
+of representations of Vir+. The details of the following construction can be found in [2,
+Section 5.2].
+
+For λ ∈ C, deﬁne πλ as the H-module generated by the vacuum vector |λ(cid:105) such that
+bn|λ(cid:105) = 0, n (cid:62) 0, b0|λ(cid:105) = λ|λ(cid:105).
+
+In other words, πλ is the vector space C[bn]n<0|λ(cid:105) where bn acts as:
+• the multiplication by bn if n < 0;
+• the derivation n∂/∂b−n if n > 0;
+• the scalar multiplication by λ if n = 0,
+
+while h acts identically. Deﬁne a Z-grading on πλ by the rule deg |λ(cid:105) = 0, deg bn = −n.
+Each πλ is equipped with the following action of the Virasoro algebra:
+
+L0 =
+
+1
+2
+
+b2
+0 + b−1b1 + b−2b2 + . . . , Lk =
+
+1
+2
+
+(cid:88)
+
+s
+
+bsbk−s при k (cid:54)= 0.
+
+For any positive integer N , deﬁne the space
+(cid:77)
+
+V√
+
+N Z =
+
+√
+πm
+
+N .
+
+The algebra Vir acts on V√
+
+N Z by the same formulas as above.
+
+One can deﬁne the so-called bosonic vertex operators
+Vλ[n]z−n−λ2/2,
+
+Vλ(z) =
+
+(cid:88)
+
+where Vλ[n] are certain linear operators on π√
+Vλ(z) is the following:
+
+N Z, λ ∈
+
+n∈Z
+
+√
+
+N Z. The explicit formula for
+
+Vλ(z) = Sλzλb0 exp
+
+−λ
+
+(cid:32)
+
+(cid:88)
+
+n<0
+
+bn
+n
+
+(cid:33)
+
+(cid:32)
+
+z−n
+
+exp
+
+−λ
+
+(cid:33)
+
+z−n
+
+,
+
+(cid:88)
+
+n>0
+
+bn
+n
+
+(5)
+
+where Sλ : πµ → πλ+µ is the shift operator deﬁned by the conditions
+
+Sλ|ν(cid:105) = |ν + λ(cid:105);
+
+[Sλ, bn] = 0, n (cid:54)= 0.
+
+The introduced bosonic vertex operators deﬁne a structure of vertex algebra on V√
+N Z
+if N is even (for odd N , it is a vertex superalgebra). The other vertex operators are
+determined by the standard reconstruction theorem (see, for example, [2, Chapter 2.3]).
+Moreover, it is a conformal vertex algebra with the conformal vector 1
+
+.
+
+2b2
+
+−1
+
+The vertex operators Vλ(z) satisfy the following relations:
+
+[bn, Vλ(z)] = λznVλ(z).
+
+(6)
+
+We will work with the subspace W2n ⊂ π√
+
+N [k], k (cid:62) 0, to the vector | − n
+
+N Z obtained by the application of all poly-
+N (cid:105), n (cid:62) 0. In this paper, we
+
+√
+
+nomials in the operators V√
+deal only with the case N = 2.
+
+We are going to follow the same plan as in the previous section.
+
+17
+
+1. First, we describe the space W2n more explicitly. In particular, we prove that this
+
+space is ﬁnite-dimensional and compute its dimension.
+
+2. The, we show that W2n is invariant under the action of Vir+.
+
+3. Finally, we compute explicitly the vector bundles on P1 corresponding to the repre-
+
+sentation of V ir+ on W2n.
+
+The structure of W2n is described by the following proposition.
+
+√
+
+2 having a non-trivial intersection with W2n are pre-
+Proposition 12. The subspaces πk
+cisely the ones for which −n (cid:54) k (cid:54) n. Each space W2n ∩πk
+2 is obtained by application of
+all possible polynomials in bm, m (cid:62) 0, to one vector vk ∈ πk
+√
+2. Moreover, the polynomial
+in bm, m < 0, corresponding to the vector vk is obtained from the polynomial correspond-
+ing to the highest weight vector of the space Vn+k,n−k−1 from the previous section after the
+change b−m (cid:55)→
+
+2b−m.
+
+√
+
+√
+
+The following corollary follows immediately from Proposition 12.
+
+Corollary 3.
+
+1. dim W2n = 22n;
+
+2. W2n is invariant under the action of Vir+.
+
+The proof of Corollary 3. 1. An explicit calculation:
+
+dim W2n =
+
+n
+(cid:88)
+
+k=−n
+
+dim(W2n ∩ πk
+
+√
+
+2) =
+
+n
+(cid:88)
+
+k=−n
+
+(cid:19)
+
+(cid:18) 2n
+n + k
+
+=
+
+2n
+(cid:88)
+
+i=0
+
+(cid:19)
+
+(cid:18)2n
+i
+
+= 22n.
+
+2. Let Q(b−1, b−2, . . .) ∈ W2n ∩ πk
+
+√
+
+2
+
+. It follows easily from Proposition 12 that
+
+Q(b−1, b−2, . . .) = P (
+
+√
+
+√
+
+2b−2, . . .),
+
+2b−1,
+
+where the polynomial P (b−1, b−2, . . .) corresponds to some vector in the space Vn+k,n−k−1
+under the boson-fermion correspondence. Vice versa, if P ∈ Vn+k,n−k−1 (here, we identify
+polynomials in b−1, b−2, . . . and the corresponding vectors in Vn+k,n−k−1), then
+√
+
+√
+
+P (
+
+2b−1,
+
+2b−2, . . .) ∈ W2n ∩ πk
+
+√
+2.
+
+Indeed, this is true for the generating vector vk ∈ W2n ∩ πk
+due to Proposition 12. All
+other vectors are obtained from vk by application of all possible polynomials in n (cid:62) 0.
+Up to multiplication by a constant, each bn acts as the derivation ∂/∂b−n, so the space
+we consider is obtained from the polynomial
+
+√
+
+2
+
+vk = Q0(b−1, b−2, . . .) = P0(
+
+√
+
+√
+
+2b−2, . . .)
+
+2b−1,
+
+under all possible derivations. The space Vn+k,n−k−1 (under the boson-fermion correspon-
+dence) is also obtained from the polynomial P0 under all possible derivations. But
+
+∂/∂b−m(P (
+
+√
+
+2b−1,
+
+√
+
+2b−2, . . .)) =
+
+√
+
+√
+(
+
+2
+
+∂P
+∂b−m
+
+√
+
+2b−1,
+
+2b−2, . . .),
+
+which implies our assertion.
+
+18
+
+Next, the formula for Lm, m (cid:62) 0, can be rewritten in the following way:
+
+Lm = R(b0, b1, b2, . . .) + b−1bm+1 + b−2bm+2 + . . . ,
+
+where R is some polynomial. The space Vn+k,n−k−1 is invariant under the action of bm
+and Lm, m (cid:62) 0, so
+
+((m+1)b−1
+
+∂
+∂b−m−1
+
++(m+2)b−2
+
+∂
+∂b−m−2
+
+At the same time,
+
++. . .)P (b−1, b−2, . . .) = P (cid:48)(b−1, b−2, . . .) ∈ Vn+k,n−k−1.
+
+((m + 1)b−1
+
+∂
+∂b−m−1
+
++ (m + 2)b−2
+
+∂
+∂b−m−2
+
++ . . .)P (
+
+√
+
+2b−1,
+
+√
+
+2b−2, . . .) =
+
+√
+
+= (m+1)
+
+2b−1
+
+∂P
+∂b−m−1
+
+√
+(
+
+2b−1,
+
+√
+
+2b−2, . . .)+(m+2)b−2
+
+∂P
+∂b−m−2
+
+√
+(
+
+√
+
+2b−1,
+
+2b−2, . . .)+. . . =
+
+√
+
+= P (cid:48)(
+
+2b−1,
+
+√
+
+2b−2, . . .).
+
+Due to invariance of W2n under the action of b0, b1, . . ., this implies invariance of W2n
+under Lm.
+
+Now, we are going to prove Proposition 12.
+
+In order to do this, we ﬁrst need to
+consider the case N = 1. In this case, the bosonic vertex operator V1(z) is given by the
+formula
+
+V1(z) = S1zλb0 exp(b−1z +
+
+b−2
+2
+
+z2 +
+
+b−3
+3
+
+z3 + . . .) exp(−(∂b−1z−1 + ∂b−2z−2 + . . .)).
+
+The boson-fermion correspondence gives us the equality V1(z) = (cid:80)
+m∈Z
+Consider the power series
+
+mzm.
+ψ∗
+
+exp(b−1z +
+
+b−2
+2
+
+z2 + . . .) = P0 + P1z + P2z2 + . . .
+
+(7)
+
+Here, P0, P1, P2, . . . are polynomials in b−1, b−2, . . . (in particular, P0 = 1). We also write
+Pm = 0 for m < 0. Then, the action of V1(z) on the vector |n(cid:105) is given by the formula
+
+V1(z)|n(cid:105) = (P0zn + P1zn+1 + P2zn+2 + . . .)|n − 1(cid:105).
+
+Denote by (cid:101)V1(z) the expression
+
+(cid:101)V1(z) = exp(b−1z +
+
+b−2
+2
+
+z2 +
+
+b−3
+3
+
+z3 + . . .) exp(−(∂b−1z−1 + ∂b−2z−2 + . . .)).
+
+Lemma 3. (cid:101)V1(z)(Pn) = (Pn − z−1Pn−1) (cid:101)V1(z).
+Proof. We have
+
+exp(−∂b−1z−1 − ∂b−2z−2 − . . .) exp(b−1w +
+
+b−2
+2
+
+w2 + . . .) =
+
+= exp(b−1w +
+
+b−2
+2
+
+w2 + . . .) exp(−∂b−1z−1 − ∂b−2z−2 − . . .) exp(−
+
+w
+z
+
+−
+
+w2
+2z2 −
+
+w3
+3z3 − . . .) =
+
+19
+
+= (1 −
+
+w
+z
+
+) exp(b−1w +
+
+b−2
+2
+
+w2 + . . .) = (1 −
+
+w
+z
+
+)(1 + P1w + P2w2 + . . .) =
+
+= 1 + w(P1 − z−1) + w2(P2 − P1z−1) + . . .
+
+This implies
+
+(cid:101)V1(z)(Pn) = exp(b−1z +
+
+b−2
+2
+
+z2 +
+
+b−3
+3
+
+z3 + . . .)(Pn − z−1Pn−1) =
+
+= (Pn − z−1Pn−1) exp(b−1z +
+
+b−2
+2
+
+z2 +
+
+b−3
+3
+
+z3 + . . .) = (Pn − z−1Pn−1) (cid:101)V1(z).
+
+Now, let us describe explicitly the polynomials obtained from | − n(cid:105) by applying the
+
+operators V1[m] = ψ∗
+m
+
+, m (cid:62) 0.
+
+Proposition 13. Up to the sign, the result of application of the operator V1[mk] . . . V1[m2]V1[m1]
+to the vector | − n(cid:105) is the polynomial
+
+Pm1−k+1 Pm1−k+2
+Pm2−k+1 Pm2−k+2
+
+
+
+
+
+
+
+
+det
+
+...
+
+Pmk−k+1 Pmk−k+2
+
+
+
+
+
+
+
+
+.
+
+. . . Pm1
+. . . Pm2
+...
+. . .
+. . . Pmk
+
+(8)
+
+Proof. We proceed by induction on k. The base for k = 1 is clear: the coeﬃcient of zm1
+in the expression for V1(z) is equal precisely to Pm1
+To prove the induction step, we use Lemma 3.
+
+.
+
+(cid:101)V1(z)(Pm) = (Pm − z−1Pm−1)(P0 + P1z + P2z2 + . . .),
+
+so V1[mk] . . . V1[m2]V1[m1]|n(cid:105) is equal to the coeﬃcient of zmk+1+k in the expression
+
+
+
+
+Pm1−k+1 − z−1Pm1−k Pm1−k+2 − z−1Pm1−k+1
+Pm2−k+1 − z−1Pm2−k Pm2−k+2 − z−1Pm2−k+1
+
+det
+
+
+
+
+
+
+...
+
+Pmk−k+1 − z−1Pmk−k Pmk−k+2 − z−1Pmk−k+1
+
+. . . Pm1 − z−1Pm1−1
+. . . Pm2 − z−1Pm2−1
+. . .
+. . . Pmk − z−1Pmk−1
+
+...
+
+·
+
+
+
+
+
+
+...
+
+...
+
+·(P0 + P1z + P2z2 + . . .).
+Using multilinearity of determinant with respect to the columns, we obtain the sum
+
+Pmk+1−k det
+
+
+
+
+
+
+
+
+Pm1−k+1 Pm1−k+2
+Pm2−k+1 Pm2−k+2
+
+...
+
+...
+
+Pmk−k+1 Pmk−k+2
+
+
+
+
+
+
+
+
+−Pmk+1−k+1 det
+
+
+
+
+
+
+
+
+. . . Pm1
+. . . Pm2
+...
+. . .
+. . . Pmk
+
+Pm1−k Pm1−k+2
+Pm2−k Pm2−k+2
+
+...
+
+...
+
+Pmk−k Pmk−k+2
+
+
+
++. . .
+
+
+
+
+
+
+. . . Pm1
+. . . Pm2
+...
+. . .
+. . . Pmk
+
+. . .+(−1)kPmk+1 det
+
+
+
+
+
+
+
+
+Pm1−k Pm1−k+1
+Pm2−k Pm2−k+1
+
+...
+
+...
+
+Pmk−k Pmk−k+1
+
+
+
+
+
+
+
+
+. . . Pm1−1
+. . . Pm2−1
+. . .
+. . . Pmk−1
+
+...
+
+= ± det
+
+
+
+
+
+
+
+
+Pm1−k
+Pm2−k
+...
+
+Pm1−k+1
+Pm2−k+1
+...
+
+Pmk+1−k Pmk+1−k+1
+
+
+
+
+
+
+
+
+,
+
+. . . Pm1
+. . . Pm2
+...
+. . .
+. . . Pmk+1
+
+which concludes the proof of the induction step.
+
+20
+
+It is easy to compute the semi-inﬁnite monomials corresponding to the polynomials
+, so V1[mk] . . . V1[m2]V1[m1]|0(cid:105) is the semi-inﬁnite
+
+from Proposition 13. Indeed, V1[m] = ψ∗
+m
+monomial
+
+This gives us the following corollary.
+
+ψ0 ∧ . . . ∧ (cid:98)ψm1 ∧ . . . ∧ (cid:98)ψm2 ∧ . . . ∧ (cid:98)ψmk ∧ . . .
+
+Corollary 4. Up to the sign, the semi-inﬁnite monomial
+
+ψ0 ∧ . . . ∧ (cid:98)ψm1 ∧ . . . ∧ (cid:98)ψm2 ∧ . . . ∧ (cid:98)ψmk ∧ . . .
+
+corresponds to the polynomial
+
+
+
+
+
+
+
+
+det
+
+Pm1−k+1 Pm1−k+2
+Pm2−k+1 Pm2−k+2
+
+...
+
+...
+
+Pmk−k+1 Pmk−k+2
+
+
+
+
+
+
+
+
+.
+
+. . . Pm1
+. . . Pm2
+...
+. . .
+. . . Pmk
+
+(9)
+
+Now, we are ready to return to the case N = 2. Recall that
+
+V√
+
+2(z) = S√
+
+2z
+
+√
+
+√
+
+2b0 exp(
+
+2(b−1z +
+
+z2 + . . .)) exp(−
+
+√
+
+b−2
+2
+
+2(∂b−1z−1 + ∂b−2z−2 + . . .)).
+
+Introduce the following notation:
+
+√
+
+exp(
+
+2(b−1z−1 +
+
+b−2
+2
+
+z−2 +
+
+b−3
+3
+
+z3 + . . .) = Q0 + Q1z + Q2z2 + . . .
+
+(in particular, Q0 = 1). Assume also that Qm = 0, m < 0. It is clear that
+
+Qm(b−1, b−2, . . .) = Pm(
+
+√
+
+2b−1,
+
+√
+
+2b−2, . . .).
+
+2(z) the expression deﬁned by the same formula as V√
+Denote by (cid:101)V√
+the operator S√
+2b0. Let us state an assertion similar to Lemma 3.
+2z
+
+√
+
+2(z) but without
+
+Lemma 4. (cid:101)V√
+
+2(z)(Qm) = (Qm − 2z−1Qm−1 + z−2Qm−2) (cid:101)V√
+
+2(z).
+
+Proof. Similar to the proof of Lemma 3.
+
+Now, we prove the following proposition.
+
+Proposition 14. Each polynomial obtained from |n(cid:105) by application of the operators
+V√
+
+2[m], m (cid:62) 0, is a linear combinations of the polynomials of the following form:
+
+
+
+
+
+
+
+
+det
+
+Qm1−k+1 Qm1−k+2
+Qm2−k+1 Qm2−k+2
+
+...
+
+...
+
+Qmk−k+1 Qmk−k+2
+
+
+
+
+
+
+
+
+,
+
+. . . Qm1
+. . . Qm2
+...
+. . .
+. . . Qmk
+
+(10)
+
+where m1, m2, . . . , mk (cid:54) 2n − 1.
+
+21
+
+Proof. First, let us ignore the restriction m (cid:62) 0. Proceeding by induction, as in the proof
+of Proposition 13, we are going to compute the coeﬃcients of zs in the expression
+
+
+
+
+
+
+
+
+det
+
+Qm1−k+1 − 2z−1Qm1−k + z−2Qm1−k−1
+Qm2−k+1 − 2z−1Qm2−k + z−2Qm2−k−1
+...
+Qmk−k+1 − 2z−1Qmk−k + z−2Qmk−k−1
+
+. . . Qm1 − 2z−1Qm1−1 + z−2Qm1−2
+. . . Qm2 − 2z−1Qm2−1 + z−2Qm2−2
+. . .
+. . . Qmk − 2z−1Qmk−1 + z−2Qmk−2
+
+...
+
+
+
+
+
+
+
+
+·
+
+Due to the equality
+
+·(Q0 + Q1z + Q2z2 + . . .).
+
+Qm − 2z−1Qm−1 + z−2Qm−2 = (Qm − z−1Qm−1) − z−1(Qm−1 − z−1Qm−2),
+
+the last determinant can be expanded along the rows as the following sum of determinants:
+
+det
+
+
+
+
+
+
+
+
+Qm1−k+1 − z−1Qm1−k
+Qm2−k+1 − z−1Qm2−k
+...
+Qmk−k+1 − z−1Qmk−k
+
+. . . Qm1 − z−1Qm1−1
+. . . Qm2 − z−1Qm2−1
+. . .
+. . . Qmk − z−1Qmk−1
+
+...
+
+
+
+
+
+
+
+
+−z−1 det
+
+
+
+
+
+
+
+
+Qm1−k − z−1Qm1−k−1
+Qm2−k+1 − z−1Qm2−k
+...
+Qmk−k+1 − z−1Qmk−k
+
+. . . Qm1−1 − z−1Qm1−2
+. . . Qm2 − z−1Qm2−1
+. . .
+. . . Qmk − z−1Qmk−1
+
+...
+
+−
+
+
+
+
+
+
+
+
++ . . .
+
+So, the statement follows from the proof of Proposition 13.
+
+To prove that m1, m2, . . . , mk (cid:54) 2n − 1, it is enough to check that the coeﬃcients of
+zs, s < 0, do not contain the polynomials Qm such that m (cid:62) 2n. We check it by induction
+on k. We have
+
+√
+
+2(z)| − n
+
+V√
+
+2(cid:105) = (Q0z−2n + Q1z−2n+1 + . . . + Q2n + Q2n+1z + . . .)| − (n − 1)
+
+√
+
+2(cid:105).
+
+The coeﬃcients of the negative powers of z in this expression are only Qm, m (cid:54) 2n − 1.
+Next, we proceed by induction. At the k-th step, we are interested in the coeﬃcients
+
+of the negative powers of z in the expression
+
+
+
+
+
+
+det
+
+Qn1−k+1 − 2z−1Qn1−k + z−2Qn1−k−1
+...
+Qnk−k+1 − 2z−1Qnk−k + z−2Qnk−k−1
+
+. . . Qn1 − 2z−1Qn1−1 + z−2Qn1−2
+. . .
+. . . Qnk − 2z−1Qnk−1 + z−2Qnk−2
+
+...
+
+
+
+
+ ·
+
+·(Q0z−2n+2k + Q1z−2n+2k+1 + . . . + Q2n−1z2k−1 + Q2nz2k + . . .)
+After the full expansion of this determinant, the minimal power of z is −2k, so, after
+expanding all brackets, the polynomials Qm, m (cid:62) 2k, cannot appear in the expressions
+for the coeﬃcients of the negative powers of z.
+
+It is also easy to prove the following statement.
+
+√
+Proposition 15. The space W2n ∩ π(−n+k)
+operators bs, s (cid:62) 0.
+
+2, k (cid:62) 0, is invariant under the action of the
+
+22
+
+Proof. Induction on k. The base for k = 0 is clear. To prove the induction step, we use
+the commutation relation (6) equivalent to the equalities
+
+[bn, V√
+
+2[i]] =
+
+√
+
+2V√
+
+2[i + n].
+
+Now, if v ∈ W2n ∩ π(−n+k)
+
+√
+
+2
+
+, then
+
+bn(V√
+
+2[i](v)) = V√
+
+2[i](bn(v)) +
+
+√
+
+2V√
+
+√
+2[i + n](v) ∈ W2n ∩ π(−n+k+1)
+
+2
+
+since bn(v) ∈ W2n ∩ π(−n+k)
+√
+W2n ∩ π(−n+k+1)
+of W2n), the step is proved.
+
+√
+is of the form V√
+
+2
+
+2
+
+by the induction hypothesis. Since each vector in the space
+(by the deﬁnition
+
+2[n](v) for some v ∈ W2n ∩ π(−n+k)
+
+√
+
+2
+
+of the form
+
+We showed that the space W2n∩π(−n+k)
+
+
+√
+
+Qm1−k+1 Qm1−k+2
+Qm2−k+1 Qm2−k+2
+
+...
+
+det
+
+
+
+
+
+
+...
+
+Qmk−k+1 Qmk−k+2
+
+is contained in the linear span of polynomials
+
+2
+
+
+
+
+
+
+
+
+. . . Qm1
+. . . Qm2
+...
+. . .
+. . . Qmk
+
+√
+
+· | − (n + k)
+
+2(cid:105),
+
+where m1, m2, . . . , mk (cid:54) 2n − 1.
+√
+W2n ∩ π(−n+k)
+
+2
+
+. For this purpose, it is suﬃcient to show that the polynomial
+
+It remains to show that each such polynomial is in
+
+Qn,k = det
+
+
+
+
+
+
+
+
+Q2n−k
+Q2n−k−1
+...
+
+Q2n−k+1
+Q2n−k
+...
+
+Q2n−2k+1 Q2n−2k+2
+
+. . . Q2n−1
+. . . Q2n−2
+. . .
+. . . Q2n−k
+
+...
+
+
+
+
+
+
+
+
+· | − (n + k)
+
+√
+
+2(cid:105)
+
+is contained in Wn ∩ π(−n+k)
+corresponds to the semi-inﬁnite monomial
+
+√
+
+2
+
+. Indeed, as we know from Corollary 4, this polynomial
+
+ψ0 ∧ ψ1 ∧ . . . ∧ ψ2n−k−1 ∧ ψ2n ∧ ψ2n+1 ∧ . . .
+
+In Section 4, we proved that all semi-inﬁnite monomials of the form
+
+ψm0 ∧ ψm1 ∧ . . . ∧ ψm2n−k ∧ ψ2n ∧ ψ2n+1 ∧ . . . ,
+
+where 0 (cid:54) m0 < m1 < . . . < m2n−k < 2n, can be obtained from this monomial by applying
+polynomials in bs, s (cid:62) 0. Up to the sign, such semi-inﬁnite monomials correspond to the
+polynomials that we consider. But we proved in Proposition 15 that W2n is invariant under
+.
+the action of bs, s (cid:62) 0. This will imply that all such polynomials lie in W2n ∩ π√
+2(−n+k)
+In order to check that Qn,k lies in W2n, it is suﬃcient to ensure that the vector
+2[m] is of degree m with respect to
+V k√
+[0]| − n
+the grading
+
+2(cid:105) is non-zero. Indeed, the operator V√
+
+√
+
+2
+
+(see [2, Chapter 5.2]). So,
+
+deg(Q(b−1, . . .)|k(cid:105)) = r2 + deg Q
+
+deg V√
+
+2[mk] . . . V√
+
+2[m2]V√
+
+2[m1]| − n
+
+√
+
+2(cid:105) (cid:54) n2,
+
+and equality holds if and only if m1 = m2 = . . . = mk = 0. In this case, we have the
+equality
+
+√
+
+V k√
+
+2[0]| − n
+
+2(cid:105) = Q(b−1, b−2, . . .)|(−n + k)
+
+23
+
+√
+
+2(cid:105)
+
+for some polynomial Q that is either zero or of degree n2 − (n − k)2 = 2nk − k2. At
+the same time, the maximal possible degree of a polynomial of form (10) is equal to
+k(2n − k). This degree is equal to k(2n − k) if and only if m1, m2, . . . , mk are equal to
+2(cid:105) is non-zero, it
+2n − 1, 2n − 2, . . . , 2n − k (in some order). So, if the vector V k√
+is automatically proportional to Qn,k.
+[0]| − n
+√
+
+2(cid:105) is non-zero, we use the fact that the three
+2b0 span a Lie algebra isomorphic to sl(2, C), see [4]
+
+In order to prove that V k√
+2[0] and
+2[0], V−
+
+[0]| − n
+
+√
+
+√
+
+√
+
+2
+
+2
+
+2b0 corresponds to the Cartan element h). So, the space
+
+operators V√
+√
+(
+
+√
+
+{V k√
+
+2[0]| − n
+
+2(cid:105) | 0 (cid:54) k (cid:54) 2n}
+√
+
+√
+
+√
+
+√
+
+√
+√
+
+is a representation of this Lie algebra. Since V k
+√
+−
+2(cid:105), the vector | − n
+−2n|
+eigenvalue with respect to
+√
+erated by | − n
+{V k√
+[0]| − n
+of the form V k√
+
+2(cid:105) =
+2(cid:105) is a highest vector of this representation. Moreover, its
+2b0 is equal to −2n, so the irreducible representation gen-
+2(cid:105) has dimension 2n + 1. This implies that the whole representation
+2(cid:105) | 0 (cid:54) k (cid:54) 2n} is an irreducible representation of sl(2, C) and all vectors
+
+2(cid:105), 0 (cid:54) k (cid:54) 2n, are non-zero.
+
+2(cid:105) = 0 and
+
+2b0| − n
+
+[0]| − n
+
+[0]| − n
+
+√
+
+√
+
+2
+
+2
+
+Now, we are ready to compute explicitly the vector bundles on P1 corresponding to
+the representations of Vir+ on the spaces W2n. To this aim, we compute separately the
+, 0 (cid:54) k (cid:54) 2n. For these subspaces,
+bundles corresponding to each subspace W2n∩π√
+this problem was virtually solved in Section 4. Indeed, each of them is obtained from the
+polynomial corresponding to the semi-inﬁnite monoial
+
+2(−n+k)
+
+2
+
+ψ−k ∧ ψ−k+1 ∧ . . . ∧ ψ2n−2k−1 ∧ ψ2n−k ∧ ψ2n−k+1 ∧ . . .
+
+by application of the operators bs, s (cid:62) 0. The only diﬀerence is that we now have
+to take into account the summand b0b1 in the expression for L1. This summand acts
+by 0 on the spaces that we considered in Section 4. However, the operator b0 acts on
+2(−n + k). So, the summand b0b1 acts on the polynomial
+W2n ∩ π√
+√
+P (
+2b−1,
+
+2(−n+k)
+√
+
+√
+
+by the scalar
+2b−2, . . .) by the formula
+√
+
+√
+
+b0b1(P (
+
+2b−1,
+
+2b−2, . . .)) = 2
+
+√
+
+2b−1,
+
+√
+
+∂P
+∂b−1
+
+(
+
+2b−2, . . .).
+
+So, the result of the action of L1 on the monomial ψi1 ∧ ψi2 ∧ . . . is
+
+(i0 − 1 + 2k − 2n)ψ−i0+1 ∧ ψ−i1 ∧ . . . + (i1 − 1 + 2k − 2n)ψ−i0 ∧ ψ−i1+1 ∧ . . . + . . .
+It is convenient for us to add 2k − 2n to all indices in the monomials we consider.
+After this change, we will work with the space equal to the linear span of all semi-inﬁnite
+monomials of the form
+
+ψi1 ∧ ψi2 ∧ . . . ∧ ψi2n−k ∧ ψk ∧ ψk+1 . . . ,
+where −2n + k (cid:54) i1 < i2 < . . . < i2n−k (cid:54) k − 1. The operator L1 acts by the formula
+from Lemma 2 on these monomials. This subspace can be split into the direct sum of
+subspaces Ur, r = 0, 1, . . . , k, where each of these subspaces Ur is deﬁned as the linear
+span of semi-inﬁnite monomials having exactly r non-negative indices from 0 to k − 1.
+The bundle on P1 associated with Ur can be computed in the same way as in Section 4.
+The vector of maximal degree in such subspace is equal to
+
+ψ−2n+k ∧ ψ−2n+k+1 ∧ . . . ψ−r−1 ∧ ψ0 ∧ ψ1 ∧ . . . ∧ ψr−1 ∧ ψk ∧ ψk+1 ∧ . . . ,
+
+24
+
+while the vector of minimal degree is
+
+ψ−2n+r+k ∧ ψ−2n+r+k+1 ∧ . . . ψ−1 ∧ ψk−r ∧ ψk−r+1 ∧ . . . ∧ ψk−1 ∧ ψk ∧ ψk+1 ∧ . . .
+
+Their degrees are equal to
+
+and
+
+lmax = (n − k)2 + r(k − r) + k(2n − k − r)
+
+lmin = (n − k)2 + (k − r)(2n − k − r)
+
+respectively, while the dimension of Ur is (cid:0)2n−k
+
+(cid:1).
+
+(cid:1)(cid:0)k
+r
+
+r
+
+So, the vector bundle corresponding to Ur is isomorphic to
+
+O(lmax + lmin)⊕(2n−k
+
+r )(k
+
+r) = O(2n(n − r))⊕(2n−k
+
+r )(k
+
+r),
+
+while the vector bundle associated with the whole space Ur is
+
+k
+(cid:77)
+
+r=0
+
+O(2n(n − r))⊕(2n−k
+
+r )(k
+
+r).
+
+It remains to sum these bundles over all k, 0 (cid:54) k (cid:54) 2n. The summand O(2n(n − r))
+
+is contained with multiplicity
+
+2n
+(cid:88)
+
+k=0
+
+(cid:18)2n − k
+r
+
+(cid:19)(cid:18)k
+r
+
+(cid:19)
+
+=
+
+(cid:19)
+
+(cid:18)2n + 1
+2r + 1
+
+in this direct sum. The last equality can be proved in a combinatorial way. Indeed, its
+right-hand side is equal to the number of choices of 2r + 1 elements from 2n + 1 elements
+(without repetitions). At the same time, if we place these elements in a line, then the
+number of choices of 2r + 1 elements in such a way that the (r + 1)-th chosen element is
+the (k + 1)-th in this line is equal to (cid:0)2n−k
+(cid:1)(cid:0)k
+(cid:1). This concludes the proof of this equality.
+r
+
+r
+
+Now, we state the ﬁnal result.
+
+Proposition 16. The vector bundle on CP1 associated with the representation of Vir+
+on the space W2n is isomorphic to the direct sum
+
+n
+(cid:77)
+
+r=0
+
+O(2n(n − r))⊕(2n+1
+
+2r+1).
+
+6 Demazure modules of level 1: the case of sl(2, C)
+
+In this section, we describe Demazure modules of level 1 corresponding to the aﬃne
+Kac-Moody algebra (cid:98)sl(2, C) and compute the corresponding vector bundles on P1. We
+start with a general construction of the conformal vertex algebra associated to an even
+lattice (in the previous section, we did it for 1-dimensional lattices). The details can be
+found in [2, Chapter 5.4]. Let L be a lattice of ﬁnite rank equipped with a symmetric
+bilinear form (·, ·) : L × L → Z such that (λ, λ) > 0 for all λ ∈ L \ {0}. We assume
+that L is an even lattice, i.e. (λ, λ) is even for any λ ∈ L (without this restriction, the
+construction we describe gives a vertex superalgebra).
+
+25
+
+Let us set h = L ⊗Z C. The bilinear form on L induces a bilinear form on h. Denote
+
+by ˆh the central extension of h((t)),
+
+with the commutation relations
+
+0 → C1 → ˆh → h((t)),
+
+[A ⊗ f (t), B ⊗ g(t)] = −(A, B)(Resf (t)g(cid:48)(t)dt)1.
+
+This is the Heisenberg Lie algebra associated to h equipped with the bilinear form (·, ·).
+The Weyl algebra (cid:101)HL is deﬁned as the (completed) enveloping algebra of ˆh modulo
+the relation 1 = 1. It has (topological) generators hn = h ⊗ tn, h ∈ h, n ∈ Z, and relations
+
+[hn, gm] = n(h, g)δn,−m.
+
+For λ ∈ h, we deﬁne the Fock representation πλ of (cid:101)HL generated by the vector |λ(cid:105)
+
+such that
+
+hn|λ(cid:105) = 0, n > 0; h0|λ(cid:105) = (λ, h)|λ(cid:105).
+
+Now, denote by VL the space
+
+VL =
+
+(cid:77)
+
+λ∈L
+
+πλ.
+
+The space VL is equipped with the following Z-gradation: deg hn = −n, deg |λ(cid:105) = (λ,λ)
+.
+2
+The canonical structure of vertex algebra on VL can be deﬁned by the formulas similar
+to (5). Namely, for any λ ∈ L, we deﬁne the bosonic vertex operator Vλ by the following
+formula:
+
+Vλ(z) = Sλzλ exp
+
+(cid:32)
+
+(cid:88)
+
+n<0
+
+λn
+n
+
+(cid:33)
+
+(cid:32)
+
+z−n
+
+exp
+
+(cid:88)
+
+n>0
+
+λn
+n
+
+(cid:33)
+
+z−n
+
+,
+
+(11)
+
+where zλ is a shorthand for the linear map that takes any element of the α-Fock space Vα
+to the monomial z(λ,α), while Sλ is, up to a non-zero constant, the shift by λ. The vertex
+operators for other elements of the Fock space are, as in the previous section, determined
+by reconstruction.
+
+Finally, VL has a conformal vector given by the formula
+
+ω =
+
+1
+2
+
+dim h
+(cid:88)
+
+(hi)−1(hi)−1,
+
+i=1
+
+(12)
+
+where {hi} and {hi} are dual bases of h with respect to the given bilinear form.
+It is possible to classify all simple modules over the vertex algebra VL. Let
+
+L(cid:48) = {λ ∈ L ⊗Z Q | (λ, µ) ∈ Z ∀µ ∈ L}
+
+be the dual lattice to L. For each γ ∈ L(cid:48)/L, consider the vector space
+
+V γ
+L =
+
+(cid:77)
+
+πλ.
+
+λ∈γ+L
+
+Note that the vertex operators Vλ(z), λ ∈ L, give rise to well-deﬁned ﬁelds on each V γ
+L
+since (λ, µ) ∈ Z for all λ ∈ γ + L and µ ∈ L. Thus, for any A ∈ VL, the vertex operator
+Y (A, z) is a ﬁeld on V γ
+. It can be checked that these ﬁelds deﬁne a structure of conformal
+L
+
+26
+
+VL-module on V γ
+L
+all simple VL-modules up to isomorphism.
+
+. Moreover, it is known (see, for example, [1]) that V γ
+L
+
+Let us consider the 1-dimensional lattice L =
+
+√
+2Z from the previous section. In this
+2L. So, L(cid:48)/L ∼= Z/2Z and any element of L(cid:48) is of the form kω, k ∈ Z, where
+. Note that L is the root lattice of the simple Lie algebra sl(2, C) while L(cid:48) is its
+
+, γ ∈ L(cid:48)/L, are
+
+case, L(cid:48) = 1
+√
+2
+ω =
+2
+weight lattice.
+
+Now, we deﬁne the so-called Demazure modules of level 1 for the aﬃne Kac-Moody
+
+algebra ˆsl(2, C).
+
+Deﬁnition 5. For any λ = kω ∈ L(cid:48), the Demazure module W λ = Wk of level 1 is deﬁned
+as the subspace of VL or V ω
+L obtained from the vector |kω(cid:105) by application of all possible
+operators Vµ[m], µ ∈ L, m ≥ 0.
+
+It is easy to see that Wn = W−n for symmetry reasons. So, it is suﬃcient to consider
+only Demazure modules W−n, n ≥ 0. Moreover, it can be shown that the module Wn,
+2[m],
+n (cid:62) 0, can be obtained from the vector | − nω(cid:105) by applying only the operators V√
+m (cid:62) 0. So, for even n, the spaces Wn are precisely the spaces from the previous section.
+For odd n, the structure of Wn is very similar to that in the case of even n. We state the
+following proposition generalizing Proposition 12.
+
+2 having a non-
+Proposition 17. Let n be any positive integer. The subspaces π−nω+k
+trivial intersection with Wn are precisely the ones for which 0 (cid:54) k (cid:54) n. Each space
+2 is obtained by application of all possible polynomials in bm, m (cid:62) 0, to
+Wn ∩ π−nω+k
+2. Moreover, the polynomial in bm, m < 0, corresponding to the
+one vector vk ∈ π−nω+k
+vector vk is obtained from the polynomial corresponding to the highest weight vector of the
+space Vk,n−k−1 from the Section 4 after the change b−m (cid:55)→
+
+2b−m.
+
+√
+
+√
+
+√
+
+√
+
+Proof. The proof is similar to the proof of Proposition 12, so we only give its sketch. First,
+as in the proof Proposition 14, one shows that any polynomial obtained from | − nω(cid:105) by
+2[m], m ≥ 0 is a linear combination of determinants of form
+application of the operators V√
+(10) such that m1, m2, . . . , mk (cid:54) n − 1. Invariance of Wn under the action of bs, s (cid:62) 0,
+is proved exactly as in the proof of Proposition 15. Finally, one shows that the vector
+[0]| − nω(cid:105) is non-zero if 0 (cid:54) k (cid:54) n. This completes the proof of the proposition.
+V k√
+2
+Similarly to Corollary 3, the following corollary follows from Proposition 17.
+
+Corollary 5.
+
+1. dim Wn = 2n;
+
+2. Wn is invariant under the action of Vir+.
+
+Proof. Similar to the proof of Corollary 3.
+
+We want to compute the vector bundles on P1 corresponding to Wn. However, the
+situation is now diﬀerent from the one in the case of even n. The problem is that the
+operator L0 acts on πk
+which is not integer for odd k. In order to ﬁx
+this, we can shift the action of L0 by a scalar operator αId, i.e. replace the operator L0
+with the operator L0 + αId. Here, α is chosen in such a way that all eigenvalues of the
+operator L0 + αId are integer. Note that this would not be possible if we worked with
+representations of the whole Virasoro algebra because of the commutation relations
+
+by the scalar k2
+4
+
+2/2
+
+√
+
+[Lm, L−m] = 2mL0 +
+
+c
+12
+
+(m3 − m).
+
+27
+
+But it is easy to see that the operators L0 + αId and Lm, m (cid:62) still give a representation of
+the algebra Vir+. However, there is no canonical choice of the constant α. So, we obtain a
+family of representations of Vir+ and hence a family of the corresponding vector bundles
+on P1. Any two such bundles can be obtained from each other by tensor multiplication
+by O(2N ), N ∈ Z.
+
+Now, the computation of the vector bundles corresponding to Wn, n (cid:62) 0, can be done
+as in the case of even n. Again, we compute separately the bundles corresponding to each
+, 0 (cid:54) k (cid:54) n. As before, this space is isomorphic to the linear
+subspace Wn ∩ π−nω+k
+√
+2
+span of all semi-inﬁnite monomials of the form
+
+ψi1 ∧ ψi2 ∧ . . . ∧ ψin−k ∧ ψk ∧ ψk+1 . . . ,
+
+where −n + k (cid:54) i1 < i2 < . . . < in−k (cid:54) k − 1. This space can be split into the direct sum
+of the subspaces Ur, r = 0, 1, . . . , k, where Ur is the linear span of semi-inﬁnite monomials
+having exactly r non-negative indices from 0 to k − 1. The vector of maximal degree in
+such subspace is equal to
+
+ψ−n+k ∧ ψ−n+k+1 ∧ . . . ψ−r−1 ∧ ψ0 ∧ ψ1 ∧ . . . ∧ ψr−1 ∧ ψk ∧ ψk+1 ∧ . . . ,
+
+while the vector of minimal degree is
+
+ψ−n+r+k ∧ ψ−n+r+k+1 ∧ . . . ψ−1 ∧ ψk−i ∧ ψk−i+1 ∧ . . . ∧ ψk−1 ∧ ψk ∧ ψk+1 ∧ . . .
+
+Their degrees are equal to
+
+and
+
+lmax =
+
+1
+4
+
+(n − 2k)2 + r(k − r) + k(n − k − r) + C =
+
+lmin =
+
+1
+4
+
+(n − 2k)2 + (k − r)(n − k − r) + C =
+
+respectively, where C is a constant chosen in such a way that both numbers lmax and lmin
+are integer. Also, the dimension of Ur is (cid:0)n−k
+(cid:1). This implies that the vector bundle
+on P1 corresponding to the space Ur is isomorphic to
+
+(cid:1)(cid:0)k
+r
+
+r
+
+k
+(cid:77)
+
+r=0
+
+O(lmax + lmin)dim Ur =
+
+k
+(cid:77)
+
+r=0
+
+O(
+
+1
+2
+
+n2 − rn + 2C)(n−k
+
+r )(k
+
+r) =
+
+k
+(cid:77)
+
+r=0
+
+O(2N − rn)(n−k
+
+r )(k
+
+r),
+
+where N = 1
+
+4n2 + C. Note that N can be any integer number.
+
+In the sum over all k, 0 ≤ k ≤ n, the summand O( 1
+
+2n2 − rn + 2C) is contained with
+
+multiplicity
+
+n
+(cid:88)
+
+k=0
+
+(cid:18)n − k
+r
+
+(cid:19)(cid:18)k
+r
+
+(cid:19)
+
+=
+
+(cid:18) n + 1
+2r + 1
+
+(cid:19)
+.
+
+So, the ﬁnal result is the following.
+
+Proposition 18. The family of vector bundles on CP1 corresponding to the representa-
+tions of Vir+ on the space Wn is the direct sum
+
+where N is any integer.
+
+n
+(cid:77)
+
+r=0
+
+O(2N − nr)⊕( n+1
+
+2r+1),
+
+28
+
+7 Demazure modules of level 1: the case of sl(n, C)
+
+In this section, we discuss a more general situation. Let Ln be the root lattice of the
+simple Lie algebra sl(n, C), i.e. rk(Ln) = n − 1 and Ln has a basis α1, α2, . . . , αn−1 of
+simple roots such that (αi, αi) = 2, (αi, αi+1) = −1 and (αi, αj) = 0 if |i − j| > 1 for all
+i, j = 1, 2, . . . , n − 1.
+
+The dual lattice L(cid:48)
+n
+
+is the weight lattice of sl(n, C). Its basis is formed by the so-called
+fundamental weights ω1, ω2, . . . , ωn−1 such that (cid:104)ωi, αj(cid:105) = δij for all i, j = 1, 2, . . . , n − 1.
+It is known that the group L(cid:48)
+n/Ln is isomorphic to Z/nZ via the following isomorphism:
+n(cid:32)Ln, 1 (cid:54) k (cid:54) n − 1. This implies that there exist n pairwise
+k ∈ Z/nZ (cid:55)→ [ωk] ∈ L(cid:48)
+non-isomorphic simple modules over the conformal vertex algebra VLn
+and these modules
+and V ωk
+are VLn
+the module over VLn
+Ln
+corresponding to the weight λ).
+
+, 1 ≤ k ≤ n − 1 (as before, we denote by V λ
+Ln
+
+As in the case n = 2, we introduce the notion of Demazure module of level 1.
+
+Deﬁnition 6. For any λ ∈ L(cid:48)
+subspace of V λ
+µ ∈ L, m ≥ 0.
+
+n, the Demazure module W λ of level 1 is deﬁned as the
+Ln obtained from the vector |λ(cid:105) by application of all possible operators Vµ[m],
+
+As in the case n = 2, it is clear that W λ = W λ(cid:48) if λ and λ(cid:48) are equivalent with respect
+
+to the action of the Weyl group.
+
+In this paper, we will work only with the case λ = kω1, k (cid:62) 0. For convenience, we
+
+denote ω1 simply by ω.
+
+Similarly to the case n = 2, in order to obtain the Demazure module W kω, it suﬃces to
+apply to kω only the operators V−αi[m], m (cid:62) 0. This implies that any element of W kω can
+be represented as a polynomial in the variables αi
+, where i = 1, 2, . . . , n − 1, s > 0. Our
+ﬁrst task is to describe the space W kω explicitly. To this aim, it is convenient to consider
+another basis of the lattice Ln, namely a1, a2, . . . , an−1, where ai = α1 + α2 + . . . + αi.
+It can be checked by a direct computation that (ai, ai) = 2, (ai, aj) = 1 if i (cid:54)= j for all
+i, j = 1, 2, . . . , n − 1. Again, it can be shown that W kω can be obtained from |kω(cid:105) by
+applying only the operators V−ai[m], m (cid:62) 0.
+
+As we know, [hn, gm] = n(h, g)δn,−m, so the elements of any «vertical» component πµ
+, 1 (cid:54) i (cid:54) n − 1,
+
+can be represented in the form P |µ(cid:105), where P is a polynomial in ai
+, s > 0, act as the operators
+
+of V λ
+Ln
+s > 0, and the elements ai
+s
+
+−s
+
+−s
+
+s
+
+n−1
+(cid:88)
+
+j=1
+
+∂
+∂as
+−j
+
++ s
+
+∂
+∂a−si
+
+,
+
+(13)
+
+act as multiplication by (ai, µ).
+
+Denote by Pi, i (cid:62) 0, the polynomials deﬁned by (7). As before, we assume additionally
+
+while ai
+0
+
+that Pi = 0 if i < 0.
+
+Let r1, r2, . . . , rn−1 be any non-negative integers and r = r1 + r2 + . . . + rn−1. The fol-
+lowing proposition describes the structure of the intersection of W kω with the «vertical»
+component πkω−r1a1−...−rn−1an−1
+obtained from |kω(cid:105) by apply-
+(i.e. the elements of V kω
+Ln
+ing the operators V−a1[m] r1 times, the operators V−a2[m] r2 times, . . . , the operators
+V−an−1[m] rn−1 times, where m ≥ 0).
+
+29
+
+Proposition 19. The intersection W kω ∩ πkω−r1a1−...−rn−1an−1 is the linear span of all
+polynomials of the following form:
+
+Pt1,t2,...,tr = det
+
+
+
+
+
+
+
+
+Pt1−r+1 Pt1−r+2
+Pt2−r+1 Pt2−r+2
+
+...
+
+...
+
+Ptr−r+1 Ptr−r+2
+
+
+
+
+
+
+
+
+,
+
+. . . Pt1
+. . . Pt2
+...
+. . .
+. . . Ptr
+
+(14)
+
+where the polynomials Pi in the rows from 1 to r1, from r1 + 1 to r1 + r2, . . . , from
+r1 + . . . + rn−2 + 1 to r1 + . . . + rn−1 depend on the variables a1
+−s respectively
+and t1, t2, . . . , tr ≤ k − 1.
+
+−s, . . . , an−1
+
+−s, a2
+
+The proof of Proposition 19 is similar to the one in the case n = 2. We start with the
+following analogue of Lemmas 3 and 4. For simplicity, from now on we denote by Pj(ai)
+the polynomial Pj in variables aj
+, s < 0. Again, by (cid:101)Vλ we denote the expression deﬁned
+−s
+by the same formula as (11) but without Sλzλ.
+
+Lemma 5. For any i = 1, 2, . . . , n − 1
+
+(cid:101)V−ai(z)(Pt(ai)) = (Pt(ai) − 2z−1Pt−1(ai) + z−2Pt−2(ai)) (cid:101)V−ai(z)
+
+and for any i, j = 1, 2, . . . , n − 1, i (cid:54)= j
+
+(cid:101)V−ai(z)(Pt(aj)) = (Pt(aj) − z−1Pt−1(aj) (cid:101)V−ai(z).
+
+Proof. The ﬁrst equality is just the statement of Lemma 4. The proof of the second
+equality is the same as the proof of Lemma 3.
+
+It follows from Lemma 5that the following statement weaker than Proposition 19 holds.
+
+Proposition 20. Any element in the intersection W kω ∩ πkω−r1a1−...−rn−1an−1 is a linear
+combination of the polynomials from Proposition 19.
+
+Proof. If we consider the space obtained from the vector |kω(cid:105) by applying all possible
+operators V−ai[m] (without the restriction m ≥ 0) then the statement is proved in the
+same way as in the Propositions 13 and 14. So, it remains to show that the restriction
+m ≥ 0 implies the restriction t1, t2, . . . , tr ≤ k − 1. The proof of this fact is also similar
+to the proof of the second part of Proposition 14 although it requires more complicated
+calculations.
+
+We are going to prove this by induction on r = r1 + r2 + . . . + rn−1. The base r = 0
+is trivial. To prove the induction step, we start with computing the degrees of |kω(cid:105) and
+|kω − r1a1 − . . . − rn−1an−1(cid:105).
+
+deg |kω(cid:105) =
+
+(kω, kω)
+2
+
+=
+
+k2
+2
+
+·
+
+n − 1
+n
+
+,
+
+deg |kω−r1a1−. . .−rn−1an−1(cid:105) =
+
+1
+2
+
+(kω−r1a1−. . .−rn−1an−1, kω−r1a1−. . .−rn−1an−1) =
+
+1
+2
+
+((kω, kω) − 2(kω, r1a1 + . . . + rn−1an−1) + (r1a1 + . . . + rn−1an−1, r1a1 + . . . + rn−1an−1)) =
+
+=
+
+k2
+2
+
+·
+
+n − 1
+n
+
+− k(r1 + . . . + rn−1) + (r2
+
+1 + . . . + r2
+
+n−1) +
+
+(cid:88)
+
+i<j
+
+rirj.
+
+30
+
+If we consider, for example, the «vertical» component |kω(cid:105) − (r1 + 1)a1 − r2a2 − . . . −
+rn−1an−1(cid:105) obtained from the previous one via the shift by a1, i.e. corresponding to the
+tuple (r1 + 1, r2, . . . , rn−1), then the degree we are interested in is equal to
+
+deg |kω − (r1 + 1)a1 − r2a2 − . . . − rn−1an−1(cid:105) =
+
+=
+
+k2
+2
+
+·
+
+n − 1
+n
+
+−k(r1 +. . .+rn−1)+(r2
+
+1 +. . .+r2
+
+n−1)+
+
+(cid:88)
+
+i<j
+
+rirj +2r1 +1+(r2 +. . .+rn−1)−k =
+
+= deg |kω − r1a1 − . . . − rn−1an−1(cid:105) + 2r1 + 1 + (r2 + . . . + rn−1) − k.
+
+Consider a polynomial of form 14. It follows from Lemma 5 that the result of applica-
+tion of the bosonic vertex operator V−a1(z) to this polynomial is the following expression:
+
+
+
+
+
+
+det
+
+Pt1−r+1 − 2z−1Pt1−r + z−2Pt1−r−1
+...
+Ptr−r+1 − z−1Ptr−r
+
+. . . Pt1 − 2z−1Pt1−1 + z−2Pt1−2
+. . .
+. . .
+
+...
+Ptr − z−1Ptr−1
+
+
+
+
+ ·
+
+(the elements in the ﬁrst r1 and in the remaining rows of the matrix are of the form
+
+·(P0 + P1z + P2z2 + . . .)
+
+Pt − 2z−1Pt−1 + z−2Pt−2 and Pt − z−1Pt−1
+
+respectively).
+
+Recall that the operator V−ai[m] is of degree −m for any m ∈ Z while the degrees of the
+vacuum vectors |kω−(r1+1)a1−r2a2−. . .−rn−1an−1(cid:105) and |kω−r1a1−r2a2−. . .−rn−1an−1(cid:105)
+diﬀer by 2r1 + 1 + (r2 + . . . + rn−1) − k. So, the polynomials in the intersection of W kω with
+the «vertical» component πkω−(r1+1)a1−r2a2−...rn−1an−1 appear in the last expression as the
+coeﬃcients of zs such that s ≤ −2r1 −1−(r2 +. . .+rn−1)+k. But it is easy to see that the
+minimal power of z in the full expansion of the determinant is equal to −2r1−r2−. . .−rn−1.
+It follows that the powers of z taken from the bracket (P0 + P1z + P2z2 + . . .) cannot be
+greater than k − 1. This concludes the proof of the proposition.
+
+Proof of Proposition 19. To prove that all polynomials of form (14) lie in the space W kω ∩
+πkω−r1a1−...−rn−1an−1, consider the polynomials of the maximal degree in this space. On
+the one hand, this degree cannot be greater than
+
+deg |kω(cid:105) − deg |kω − r1a1 − . . . − rn−1an−1(cid:105) = k(r1 + . . . + rn−1) − (r2
+
+1 + . . . + r2
+
+n−1) −
+
+(cid:88)
+
+i<j
+
+rirj.
+
+On the other hand, one can easily compute that this number is the maximal possible degree
+of a polynomial of form 14 and such a polynomial has this degree if and only if the numbers
+are equal to k − 1, k − 2, . . . , k − r1 (in some order), tr1+1, tr1+2, . . . , tr1+r2
+t1, t2, . . . , tr1
+are equal to k − 1, k − 2, . . . , k − r2, etc. So, up to multiplication by a constant, there
+is only one polynomial of form 14 of this degree (of course, provided that this number
+is non-negative). We can prove that this polynomial is in W kω ∩ πkω−r1a1−...−rn−1an−1
+using the same technique as in the case n = 2. Namely, we use the fact that the operators
+V±ai[0] and ai
+(i = 1, 2, . . . , n−1) span a Lie algebra isomorphic to sl(n, C). So, the vectors
+0
+V−a1[0]r1 . . . V−an−1[0]rn−1|kω(cid:105) (for all possible tuples r1, r2, . . . , rn−1) form a representation
+of sl(n, C) with the highest vector kω. It is known that the irreducible representation of
+
+31
+
+sl(n, C) with the highest weight kω is isomorphic to the k-th symmetric power of the
+n-dimensional vector representation. So, this irreducible representation is exactly the
+representation spanned by the vectors V−a1[0]r1 . . . V−an−1[0]rn−1|kω(cid:105) and all these vectors
+are non-zero.
+
+It is not diﬃcult to prove that each space W kω ∩ πkω−r1a1−...−rn−1an−1 is invariant under
+, s ≥ 0. This statement can be proved similarly to Proposition 15 using an
+the action of ai
+s
+obvious analogue of relations (6). It follows from 13 that this is equivalent to invariance
+, s > 0 on the polynomial Pt1,t2,...,tr
+under all derivations
+is given by the following formula (for brevity, we denote by Rj the sum r1 + r2 + . . . + rj):
+
+, s > 0. But the action of
+
+∂
+∂ai
+
+∂
+∂ai
+
+−s
+
+−s
+
+∂
+∂ai
+
+−s
+
+(Pt1,t2,...,tr) =
+
+ri(cid:88)
+
+j=1
+
+Pt1,...,tRi−1 ,tRi−1+1,...,tRi−1+j −s,...tRi ,...,tr
+
+(15)
+
+In words, we reduce by s each index from Ri−1 + 1 to Ri, i.e. each index corresponding
+, and take the sum over all such polynomials (compare this with (4)).
+to the variables ai
+Now, the fact that all polynomials of form (14) can be obtained from the one of the
+maximal degree follows from the similar statement of Proposition 4.
+
+−q
+
+Let us also prove the following lemma.
+
+Lemma 6. The space W kω ∩ πkω−r1a1−...−rn−1an−1 contains all polynomials of the form
+
+
+
+
+
+
+
+
+det
+
+Pt1−jr−1 Pt1−jr−2
+Pt2−jr−1 Pt2−jr−2
+
+...
+
+...
+
+Ptr−jr−1 Ptr−jr−2
+
+. . . Pt1−j1 Pt1
+. . . Pt2−j1 Pt2
+...
+...
+. . .
+. . . Ptr−j1 Ptr
+
+
+
+
+
+
+
+
+,
+
+(16)
+
+where j1 > j2 > . . . > jr−1 are any positive integers and t1, t2, . . . , tr−1 ≤ k − 1.
+Proof. We need to prove that each polynomial (16) can be expressed as a linear com-
+bination of polynomials (14). If we replace each polynomial Pi in the j-th row of this
+determinant with xi
+(xj, j = 1, 2, . . . , r, are formal variables), we obtain the following
+j
+determinant:
+
+det
+
+
+
+
+
+
+
+
+xt1−jr−1
+1
+xt2−jr−1
+2
+...
+xtr−jr−1
+
+r
+
+xt1−jr−2
+1
+xt2−jr−2
+2
+...
+xtr−jr−2
+
+r
+
+
+
+
+
+
+
+
+. . . xt1
+1
+. . . xt2
+2
+...
+. . .
+. . . xtr
+r
+
+= xt1−jr−1
+1
+
+. . . xtr−jr−1
+r
+
+det
+
+
+
+
+
+
+
+
+1 xjr−1−jr−2
+1
+1 xjr−1−jr−2
+2
+...
+...
+1 xjr−1−jr−2
+
+r
+
+
+
+
+
+
+
+
+.
+
+1
+
+. . . xjr−1
+. . . xjr−1
+...
+. . .
+. . . xjr−1
+
+2
+
+r
+
+The last determinant is a skew-symmetric polynomial in x1, x2, . . . , xr, so it is a sym-
+metric polynomial (in fact, a Schur polynomial) multiplied by (cid:81)
+i<j(xj − xi). Writing the
+corresponding Schur polynomial as a sum of monomials, we obtain that the last expression
+is a linear combination of expressions of the following form:
+
+xt1−r+1
+1
+
+xt2−r+1
+2
+
+. . . xtr−r+1
+r
+
+det
+
+
+
+
+
+
+
+
+1 x1
+1 x2
+...
+...
+1 xr
+
+1
+
+. . . xr−2
+. . . xr−2
+...
+. . .
+. . . xr−2
+
+2
+
+r
+
+
+
+
+
+
+
+
+xr−1
+1
+xr−1
+2
+...
+xr−1
+r
+
+= det
+
+
+
+
+
+
+
+
+xt1−r+1
+1
+xt2−r+1
+2
+...
+xtr−r+1
+
+r
+
+xt1−r+2
+1
+xt2−r+2
+2
+...
+xtr−r+2
+
+r
+
+
+
+
+
+
+
+
+.
+
+. . . xt1
+1
+. . . x2t2
+...
+. . .
+. . . xtr
+r
+
+Replacing back each xi
+),
+j
+we obtain the desired expression of polynomial (16) as a linear combination of polynomi-
+als (14).
+
+with Pi (Pi depends on the corresponding set of variables am
+−s
+
+32
+
+We proved that W kω ∩ πkω−r1a1−...−rn−1an−1 is linearly spanned by the elements Pt1,...,tr
+which can be numbered by tuples (t1, t2, . . . , tr1), (tr1+1, . . . tr1+r2), etc. of non-negative
+integers not exceeding k − 1. For this numbering, the anti-commutation relations hold,
+i.e. if we permute the numbers in any of these tuples, then the corresponding polynomial
+is multiplied by the sign of the permutation. This is similar to the case n = 2 when we
+have only one tuple. However, the main diﬃculty for general n is that the polynomials
+corresponding to diﬀerent sets of such tuples are not linearly independent. For example,
+for r1 = r2 = 1 and ri = 0, i ≥ 3, the following linear combination vanishes:
+(cid:12)
+(cid:12)
+(cid:12)
+(cid:12)
+
+(cid:12)
+P0(a1)
+(cid:12)
+(cid:12)
+Pt−1(a2) Pt(a2)
+(cid:12)
+
+P0(a1)
+P1(a1)
+Pt−2(a2) Pt−1(a2)
+
+Pt−1(a1) Pt(a1)
+P0(a2)
+
++ · · · +
+
+= 0.
+
+(cid:12)
+(cid:12)
+(cid:12)
+(cid:12)
+
+(cid:12)
+(cid:12)
+(cid:12)
+(cid:12)
+
+(cid:12)
+(cid:12)
+(cid:12)
+(cid:12)
+
+(cid:12)
+(cid:12)
+(cid:12)
+(cid:12)
+
++
+
+0
+
+0
+
+So, it is natural to try to ﬁnd a linearly independent subset of the set of all polyno-
+mials (14) that spans linearly the whole space W kω ∩ πkω−r1a1−...−rn−1an−1. The following
+proposition describes a way to do that.
+
+Proposition 21. The polynomials (14) such that
+
+1. the indices corresponding to each of n − 1 set of variables ai
+
+−s (i = 1, 2, . . . , n − 1)
+
+are given in descending order (i.e., t1 > . . . > tr1, tr1+1 > . . . > tr1+r2, etc.);
+
+2. the indices of Pi on the main diagonal (i. e., t1 − r + 1, t2 − r + 2, . . . , tr) are
+
+non-negative
+
+form a basis of the space W kω ∩ πkω−r1a1−...−rn−1an−1.
+Proof. First, we prove by induction on n that such polynomials are linearly independent.
+The base n = 2 was proved in Section 5. To prove the induction step from n − 1 to n,
+suppose that there is a non-trivial linear combination of such determinants equal to 0.
+Expand all determinants in this linear combinations with respect to the last rn−1 rows.
+Each term of this expansion is, up to the sign, the product of an (rn−1 × rn−1)-minor of
+the initial matrix taken from the last rn−1 rows and the complement (Rn−2 ×Rn−2)-minor.
+Consider all terms in this expansion with the maximal degree in the variables an−1
+. The
+−s
+sum of these terms must be zero. But the (rn−1 × rn−1)-minor in each of these terms is
+the rightmost minor of the initial matrix which implies that this minor is of form (8).
+By our assumption, all indices on the main diagonal in the initial (r × r)-matrices are
+non-negative. So, the rightmost (rn−1 × rn−1)-minors are non-zero. Since these minors
+are linearly-independent by the induction base, the coeﬃcient of each such minor must be
+zero. But all these coeﬃcients are sums (with coeﬃcients) of (Rn−2 × Rn−2)-minors and
+each of these minors are leftmost ones in the initial (r × r)-matrices, so they are of form
+(14) with rn−1 = 0. By the induction hypothesis, these minors are linearly independent.
+So, each coeﬃcient of the corresponding r × r-matrices in the initial linear combination
+, we eventually
+must be 0. Proceeding similarly with the terms of smaller degree in an−1
+−s
+prove that the initial linear combination is trivial.
+
+Now, we need to prove that each polynomial (14) can be expressed as a linear combi-
+nation of polynomials satisfying the conditions of the proposition. It suﬃces to prove this
+in the case when all ri are equal to 1, i.e. the polynomials in each row depend on their own
+set of variables. For brevity, denote this space by U k
+is
+r
+equal to the number of polynomials satisfying the conditions of the proposition, i.e., as it
+is easy to see, k(k − 1) . . . (k − r + 1). To prove this, we use induction on r. The base r = 1
+,
+is clear. To do the induction step from U k
+r ⊕ V k
+r
+
+. It suﬃces to prove that dim U k
+r
+
+, consider a new space (cid:98)U k
+
+r ⊃ U k
+
+to U k
+r
+
+r−1
+
+33
+
+is spanned by all polynomials (14) such that t1 + t2 + . . . + tr (cid:54) r(k − 1) but
+where V k
+r
+without the restriction t1 ≤ k − 1. Using expansion along the ﬁrst row and Lemma 6, we
+can show by induction on t1 that the space (cid:98)U k
+
+has a basis consisting of polynomials
+
+r
+
+
+
+
+
+
+P 1
+
+t1 · det
+
+t2−r+3
+
+t2−r+2 P 2
+P 2
+...
+tr−r+2 P r
+P r
+
+...
+
+tr−r+3
+
+
+
+
+
+
+. . . P 2
+t2
+...
+. . .
+. . . P r
+tr
+
+depend on diﬀerent sets of variables for i (cid:54)= j), while V r
+k
+
+are the usual polynomials Pt; we assume that polynomials P i
+t
+
+such that t1 + t2 + . . . + tr ≤ r(k − 1) − r + 1 and the determinant satisﬁes the conditions
+and
+of our proposition (P i
+t
+P j
+has a basis consisting of
+t
+polynomials of the same form but with the additional restriction t1 ≥ k − r + 1. So,
+the dimension of U k
+is equal to the dimension of the space with a basis consisting of
+r
+polynomials of the same form but with the additional restriction t1 ≤ k − r. Applying
+the induction hypothesis, we see that this dimension is equal to
+
+(k − r + 1) · k(k − 1) . . . (k − r + 2) = k(k − 1) . . . (k − r + 1)
+
+as desired.
+
+Corollary 6. The dimension of W kω is equal to kn.
+Proof. For any (r1, r2, . . . , rn−1), the basis of the space W kω ∩ πkω−r1a1−...−rn−1an−1 consists
+of all elements of form (14) such that k − 1 ≥ t1 > t2 > . . . > tr1 ≥ 0, k − r1 − 1 ≥ tr1+1 >
+. . . > tr1+r2 ≥ 0, etc. So, the dimension of this space is equal to
+(cid:18)k − r1 − . . . rn−2
+(cid:18)k − r1
+rn−1
+r2
+which is the multinomial coeﬃcient (cid:0)
+the expansion of the expression (x1 + x2 + . . . + xn)k. So, their sum is equal to nk.
+
+k!
+r1!r2! . . . rn−1!(k − r1 − . . . − rn−1)!
+
+(cid:1). These are the coeﬃcients in
+
+k
+r1,r2,...rn−1,k−r1−...−rn−1
+
+(cid:18) k
+r1
+
+=
+
+(cid:19)
+
+(cid:19)
+
+(cid:19)
+
+·
+
+·
+
+,
+
+In Section 8, we will use the following result describing explicitly linear relations for
+
+the polynomials Pt1,...,tr
+
+.
+
+Proposition 22. If tm − m + r < 0, i.e., the m-th diagonal element of matrix (14) is
+zero, then we have
+
+(cid:88)
+
+jm+1,...,jr(cid:62)0
+J=jm+1+...+jr
+
+Pt1,...,tm−1,tm+J,tm+1−jm+1,...,tr−jr = 0.
+
+Proof. Denote by (cid:101)Pt1,...,tr
+with xs
+. We have
+i
+
+the determinant obtained from (14) after replacing each P i
+s
+
+(cid:101)Pt1,...,tr =
+
+r
+(cid:89)
+
+i=1
+
+xti−r+1
+i
+
+·
+
+(cid:89)
+
+(xi − xj)
+
+i>j
+
+(the second product is the Vandermonde determinant). Take the left-hand side of the
+relation we are proving and replace each P with (cid:101)P . We obtain
+
+(cid:88)
+
+jm+1,...,jr(cid:62)0
+J=jm+1+...+jr
+
+(cid:101)Pt1,...,tm−1,tm+J,tm+1−jm+1,...,tr−jr =
+
+34
+
+(cid:88)
+
+=
+
+jm+1,...,jr(cid:62)0
+J=jm+1+...+jr
+
+r
+(cid:89)
+
+i=1
+
+xti−r+1
+i
+
+· xJ
+
+m ·
+
+r
+(cid:89)
+
+x−ji
+i
+
+·
+
+(cid:89)
+
+(xi − xj) =
+
+i=m+1
+
+i>j
+
+=
+
+r
+(cid:89)
+
+i=1
+
+xti−r+1
+i
+
+(cid:89)
+
+(xi − xj)
+
+(cid:88)
+
+i>j(cid:54)=m
+
+jm+1,...,jr(cid:62)0
+J=jm+1+...+jr
+
+mx−j1
+xJ
+
+m+1 . . . x−jr
+
+r
+
+(cid:89)
+
+i>m
+
+(xi − xm) =
+
+=
+
+=
+
+r
+(cid:89)
+
+i=1
+
+r
+(cid:89)
+
+i=1
+
+xti−r+1
+i
+
+(cid:89)
+
+(xi−xj)
+
+(cid:88)
+
+mx−j1+1
+xJ
+
+m+1
+
+. . . x−jr+1
+r
+
+i>j(cid:54)=m
+
+jm+1,...,jr(cid:62)0
+J=jm+1+...+jr
+
+(cid:89)
+
+i>m
+
+(1+xmx−1
+
+i +x2
+
+mx−2
+
+i +. . .)−1 =
+
+xti−r+1
+i
+
+(cid:89)
+
+(xi−xj)
+
+(cid:16) (cid:88)
+
+mx−j1+1
+xJ
+
+m+1
+
+. . . x−jr+1
+r
+
+(cid:17)(cid:16) (cid:88)
+
+mx−j1+1
+xJ
+
+m+1
+
+. . . x−jr+1
+r
+
+(cid:17)−1
+
+=
+
+i>j(cid:54)=m
+
+jm+1,...,jr(cid:62)0
+J=jm+1+...+jr
+
+jm+1,...,jr(cid:62)0
+J=jm+1+...+jr
+
+r
+(cid:89)
+
+=
+
+xti−r+1
+i
+
+(cid:89)
+
+(xi − xj).
+
+i>j(cid:54)=m
+After expanding the brackets in the last product, we obtain an expression containing
+,
+with P i
+s
+
+only negative powers of xm (because tm −m+r < 0). So, after we replace back xs
+i
+this expression becomes zero.
+
+i=1
+
+Next, we are going to ﬁnd an explicit formula for the action of L1 on W kω. Generally,
+
+for an arbitrary conformal vertex algebra V , the action of Vir is given by the formula
+
+Y (ω, z) =
+
+Lnz−n−2,
+
+(cid:88)
+
+n∈Z
+
+where ω is the conformal vector and Y (v, z) ∈ EndV [[z±1]] is the vertex operator cor-
+, the conformal vec-
+responding to v ∈ V .
+tor ω is given by formula (12). The basis of L dual to {ai
+| 1 ≤ i ≤ n − 1} is
+{− a1+a2+...+an−1
++ ai | 1 ≤ i ≤ n − 1}. So, we have
+
+In our case, for the vertex algebra πLn
+
+n
+
+ω =
+
+(cid:16)
+
+1
+2n
+
+(n − 1)
+
+n−1
+(cid:88)
+
+(ai)2 −
+
+(cid:88)
+
+aiaj(cid:17)
+
+.
+
+i=1
+
+i(cid:54)=j
+
+The operator L1, i.e. the coeﬃcient of z−3 in Y (ω, z), is thus given by
+
+(cid:16)
+
+1
+2n
+
+(n − 1)
+
+(cid:88)
+
+kai
+ai
+
+−k+1 −
+
+1≤i≤n−1
+k∈Z
+
+=
+
+(cid:16)
+
+1
+n
+
+(n − 1)
+
+n−1
+(cid:88)
+
+i=1
+
+(ai
+
+0ai
+
+1 + ai
+
+−1ai
+
+2 + . . .) −
+
+(cid:88)
+
+i(cid:54)=j
+k∈Z
+
+(cid:88)
+
+i(cid:54)=j
+
+kaj
+ai
+
+−k+1
+
+(cid:17)
+
+=
+
+(ai
+
+0aj
+
+1 + ai
+
+−1aj
+
+2 + . . .
+
+(cid:17)
+
+.
+
+Consider the sum of all coeﬃcients ai
+
+kaj
+
+−k+1
+
+formula (13), we obtain that this sum is equal to
+
+in the last expression for ﬁxed k. Using
+
+n − 1
+n
+
+n−1
+(cid:88)
+
+i=1
+
+−k+1ai
+ai
+
+k −
+
+1
+n
+
+(cid:88)
+
+i(cid:54)=j
+
+−k+1aj
+ai
+
+k =
+
+35
+
+=
+
+n − 1
+n
+
+n−1
+(cid:88)
+
+i=1
+
+ka−k+1(
+
+n−1
+(cid:88)
+
+r=1
+
+∂ar
+
+−k + ∂ai
+
+−k) −
+
+1
+n
+
+(cid:88)
+
+i(cid:54)=j
+
+n−1
+(cid:88)
+
+kai
+
+−k+1(
+
+r=1
+
+∂ar
+
+−k + ∂aj
+
+−k).
+
+In the sum of these expressions for all possible j, the coeﬃcient of ai
+
+that i (cid:54)= r is equal to 1
+is 1
+
+n (2k(n − 1) − k(n − 2)) = k. So, we arrive at the following formula:
+
+n(k(n − 1) − k(n − 3 + 2)) = 0, while the coeﬃcient of ai
+
+such
+
+−k+1∂ar
+−k
+−k+1∂ai
+
+−k
+
+L1 =
+
+n−1
+(cid:88)
+
+i=1
+
+(ai
+
+0∂ai
+
+−1 + 2ai
+
+−1∂ai
+
+−2 + 3ai
+
+−2∂ai
+
+−3 + . . .).
+
+As in the case n = 2, the operator (cid:101)L1 = (cid:80)n−1
+
+−3 + . . .) acts on Pm
+by the rule (cid:101)L1(Pm) = (m − 1)Pm−1. Using this, we can prove the following proposition.
+
+−2 + 3ai
+
+i=1 (2ai
+
+−1∂ai
+
+−2∂ai
+
+Proposition 23. The action of (cid:101)L1 on any polynomial Pt1,t2,...,tr (using the notation as in
+(14)) is given by the formula
+
+(cid:101)L1(Pt1,t2,...,tr) =
+
+r
+(cid:88)
+
+i=1
+
+(ti − r)Pt1,...,ti−1ti−1,ti+1,...,tr
+
+.
+Proof. Replace each element P i
+s
+is equal to
+
+of determinant (14) with xs−1
+
+i
+
+. The resulting polynomial
+
+(cid:98)Pt1,...,tr =
+
+r
+(cid:89)
+
+i=1
+
+xti−r+1
+i
+
+·
+
+(cid:89)
+
+i>j
+
+(xi − xj).
+
+In terms of x1, . . . , xr, the action of (cid:101)L1 is the derivation ∂
+∂x1
+
++ ∂
+∂x2
+
++ . . . + ∂
+∂xr
+
+. So,
+
+(cid:101)L1( (cid:98)Pt1,...,tr) =
+
+(cid:88)
+
+(ti−r)
+
+r
+(cid:89)
+
+i=1
+
+xti−r−1 (cid:89)
+
+(xi−xj)+
+
+r
+(cid:89)
+
+i>j
+
+i=1
+
+xti−r
+i
+
+(
+
+∂
+∂x1
+
++
+
+∂
+∂x2
+
++. . .+
+
+∂
+∂xr
+
+(cid:89)
+
+)(
+
+(xi−xj)).
+
+i>j
+
+The last term of this sum is zero since ( ∂
+∂x1
+symmetric and hence is divisible by (cid:81)
+back xs−1
+
+, we obtain the initial formula.
+
+with P i
+s
+
+i
+
+)((cid:81)
+i>j(xi − xj)) is skew-
+i>j(xi − xj) but has a smaller degree. Replacing
+
++ . . . + ∂
+∂xr
+
++ ∂
+∂x2
+
+It remains to compute the action of ai
+
+0∂ai
+
+−1
+
+, 1 ≤ i ≤ n − 1. The operator ∂ai
+
+−1
+
+acts
+
+on Pt1,t2,...,tr
+
+by the formula
+
+∂ai
+
+−1(Pt1,t2,...,tr) =
+
+ri(cid:88)
+
+j=1
+
+Pt1,...,tRi−1 ,tRi−1+1,...tRi−1+j −1,...,tRi ,...tr,
+
+while the action ai
+0
+
+on πkω−r1a1−...−rn−1an−1 is the scalar multiplication by
+
+(ai, kω + r1a1 + . . . rn−1an−1) = −(k − (r1 + . . . + rn−1) − ri) = −(k − r − ri).
+
+This shows that the action of L1 on W kω ∩ πkω−r1a1+...−rn−1an−1 is given by
+
+L1(Pt1,t2,...,tr) =
+
+r
+(cid:88)
+
+i=1
+
+(ti − k + rj)Pt1,...,ti−1ti−1,ti+1,...,tr,
+
+(17)
+
+where we assume that the polynomials in the i-th row of determinant (14) depend on
+the variables aj
+. It follows, in particular, that the polynomial of the maximal degree in
+−s
+W kω ∩ πkω−r1a1−...−rn−1an−1 is sent to 0 by the operator L1.
+
+36
+
+8 Explicit computation of vector bundles correspond-
+
+ing to Demazure modules of level 1 for sl(3, C)
+
+In this section, we compute explicitly the vector bundles on CP1 corresponding to
+the Demazure modules W kω for the Lie algebra sl(3, C). For convenience, we slightly
+change the notation from the previous section. Namely, we replace a1 and a2 with a and b
+respectively. Also, we will denote the polynomials Pm depending on b−s by Qm. As we
+know from the previous section, the space W kω ∩ πkω−(k−r)a−sb is the linear span of all
+polynomials of the form
+
+(cid:101)Rµ,λ = (cid:101)Rµ1,...,µk−r;λ1,...,λs = det
+
+
+
+
+
+
+
+
+
+
+
+
+Pλ1−s+1
+...
+Pλs−s+k−r
+. . .
+...
+. . .
+
+. . . Pλ1
+...
+. . .
+. . . Pλs
+. . .
+. . .
+. . .
+
+Pλ1+1
+...
+Pλs+1
+
+. . . Qµ1−k+r+1
+. . .
+. . . Qµk−r−k+r+1
+
+...
+
+. . . Pλ1+k−r
+. . .
+. . .
+. . .
+. . .
+. . . Qµk−r
+
+...
+Pλs+r
+Qµ1
+...
+
+
+
+
+
+
+
+
+
+
+
+
+,
+
+where µ and λ are tuples (µ1, . . . , µk−r) and (λ1, . . . , λs) respectively such that µt (cid:54) k − 1
+and λt (cid:54) r − 1 for all t. Here, we do not assume that all λt and µt are non-negative.
+However, we have the following relation for any µ1, . . . , µk−r, λ1, . . . , λs−1 and p > 0 (see
+Proposition 22):
+
+(cid:101)Rµ1,...,µk−r;λ1,...,λs−1,−p = −
+
+(cid:88)
+
+i1,...,ik−r≥0
+I=i1+...+ik−r>0
+
+(cid:101)Rµ1−i1,...,µk−r−ik−r;λ1,...,λs−1,I−p
+
+(18)
+
+Let us introduce the following change of notation. We replace the tuple (µ1, . . . µk−r)
+with the tuple ((cid:101)µ1, . . . , (cid:101)µr) such that {µ1, . . . , µk−r} (cid:70){(cid:101)µ1, . . . , (cid:101)µr} = {0, 1, . . . , k − 1}.
+Now, denote by (cid:98)Rµ1,...,µr;λ1,...,λs
+
+the polynomial (cid:101)Rk−1−(cid:101)µk−r,...,k−1−(cid:101)µ1;λ1,...,λs
+
+.
+
+Lemma 7. We have the following relations:
+
+(cid:98)Rµ1,...,µr;λ1,...,λs−1,−1 = −
+
+(cid:88)
+
+δ1,...,δr=0,1
+∆=δ1+...+δr>0
+
+(cid:98)Rµ1−δ1,...,µr−δr;λ1,...,λs−1,∆−1
+
+(19)
+
+Proof. We are going to show that relations (18) imply relations (19). In formula (18),
+the sum is taken over all tuples (i1, . . . , ik−r) of non-negative integers with positive sum.
+However, it suﬃces to take the sum over all tuples (i1, . . . , ik−r) such that µ1 (cid:62) µ1 − i1 (cid:62)
+µ2 (cid:62) µ2 − i2 (cid:62) . . . (cid:62) µk−r (cid:62) µk−r − ik−r (assuming that µ1 > µ2 > . . . > µk−r). Indeed, it
+is not diﬃcult to see that the summands corresponding to other tuples mutually cancel.
+But any such shift of the indices µ1, µ2, . . . , µk−r is equivalent to shifting some of the
+indices
+
+(cid:101)µ1, (cid:101)µ2, . . . , (cid:101)µr by 1, and vice versa. This completes the proof.
+
+The operator L1 acts on the new polynomials (cid:98)Rµ,λ as follows:
+
+L1( (cid:98)Rµ,λ) = −
+
+r
+(cid:88)
+
+t=1
+
+(µt − k + r) (cid:98)Rµ1,...,µt−1,...,µr;λ +
+
+s
+(cid:88)
+
+t=1
+
+(λt − r + s) (cid:98)Rµ;λ1,...,λt−1,...,λs.
+
+37
+
+Finally, if we deﬁne Rµ,λ as Rµ,λ = (−1)µ1+...+µr (cid:98)Rµ;λ, then we have
+
+L1(Rµ,λ) =
+
+r
+(cid:88)
+
+t=1
+
+(µt − k + r)Rµ1,...,µt−1,...,µr;λ +
+
+s
+(cid:88)
+
+(λt − r + s)Rµ;λ1,...,λt−1,...,λs
+
+t=1
+
+and
+
+Ru;λ1,...,λs−1,−p =
+
+(cid:88)
+
+(−1)∆−1Rµ1−δ1,...,µr−δr;λ1,...,λs−1,∆−p
+
+(20)
+
+(21)
+
+for any p < 0.
+
+δ1,...,δr=0,1
+∆=δ1+...+δr>0
+
+It is clear that the polynomials Rµ1,...,µr;λ1,...,λs
+
+such that k − 1 (cid:62) µ1 > . . . > µr (cid:62) 0
+and r − 1 (cid:62) λ1 > . . . > λs (cid:62) 0 form a basis of the space W kω ∩ πkω−(k−r)a−sb. In order
+to compute the vector bundles corresponding to this space, we are going to do a certain
+change of basis. We start with a description of this change in the case s = 1. Denote by
+Sµ;λ (in the particular case s = 1, λ is just one number) the polynomials deﬁned by the
+following formulas:
+
+Rµ;λ = Sµ;λ if λ = r − 1,
+
+Rµ;λ =
+
+(cid:88)
+
+j1,...,jr(cid:62)0
+J=j1+...+jr(cid:54)r−2−λ
+
+Sµ1−j1,...,µr−jr;λ+J if λ (cid:54) r − 2.
+
+(22)
+
+These formulas clearly deﬁne an invertible change of basis of the space W kω ∩πkω−(k−r)a−sb.
+
+Lemma 8. The action of L1 on Sµ,λ is given by
+
+L1(Sµ1,...,µr;λ) =
+
+r
+(cid:88)
+
+(µi − k + r)Sµ1,...,µi−1,...,µr;λ if λ = r − 1
+
+i=1
+
+L1(Sµ1,...,µr;λ) =
+
+r
+(cid:88)
+
+i=1
+
+(µi − k + r − 1)Sµ1,...,µi−1,...,µr;λ − (r − λ − 1)Sµ;λ−1 if λ (cid:54) r − 2.
+
+Proof. We use descending induction on λ. The base λ = r−1 is clear since the correspond-
+ing polynomials are the «old» polynomials Rµ;λ. The step is an explicit computation:
+
+L1(Sµ;r−l) = L1(Rµ;r−l −
+
+(cid:88)
+
+Sµ1−j1,...,µr−jr;r−l+J ) =
+
+0<J=j1+...+jr(cid:54)l−2
+
+=
+
+r
+(cid:88)
+
+i=1
+
+(µi − k + r)Sµ1,...,µi−1,...,µr;r−l+
+
+(cid:88)
+
++
+
+(µi − k + r)Sµ1−j1,...,µi−ji−1,...,µr−jr;r−l+J − (l − 1)
+
+0<J(cid:54)l−2
+1(cid:54)i(cid:54)r
+
+(cid:88)
+
+(cid:18) r
+
+(cid:88)
+
+−
+
+0<J(cid:54)l−2
+
+i=1
+
+(µi−ji−k+r−1)Sµ1−j1,...,µs−js−1,...,µr−jr;r−l+J +(J−l+1)Sµ1−j1,...,µr−jr;r−l+J−1
+
+We need to compute the coeﬃcient of Sµ1−c1,...,µr−cr;r−l+c1+...+cr−1 in this expression. First,
+consider the case c1 + . . . + cr (cid:62) 2. Without loss of generality, assume that c1, . . . , ct > 0
+and ct+1 = . . . = cr = 0. Then, the coeﬃcient of Sµ1−c1,...,µr−cr;r−... is equal to
+
+t
+(cid:88)
+
+i=1
+
+(µi − k + r) − (l − 1) −
+
+t
+(cid:88)
+
+i=1
+
+(µi − ci − k + r) − (c1 + . . . + ct − l + 1) = 0.
+
+38
+
+(cid:88)
+
+0(cid:54)J(cid:54)l−1
+
+Sµ1−j1,...,µr−jr;r−l+J−1−
+
+(cid:19)
+
+If c1 + . . . + cr = 1, then (when ci = 1) this coeﬃcient is equal to
+
+µi − k + r − (l − 1) = µi − k + r − 1.
+
+Finally, if c1 = . . . = cr = 0, then this coeﬃcient is −(l − 1). This implies the stated
+formula.
+
+Also, we need an expression of Sµ;−1 in terms of Sµ,λ with λ (cid:62) 0.
+
+Lemma 9. We have Sµ1,...,µr;−1 = (−1)r−1Sµ1−1,...,µr−1;r−1
+
+Proof. We have
+
+Sµ;−1 = Rµ;−1 −
+
+(cid:88)
+
+0<J(cid:54)r−1
+
+Sµ1−j1,...,µr−jr;J−1 =
+
+(cid:88)
+
+=
+
+(−1)∆−1Rµ1−δ1,...µr−δr;∆−1 −
+
+δ1,...,δr=0,1
+∆=δ1+...+δr>0
+
+(cid:88)
+
+0<J(cid:54)r−1
+
+Sµ1−j1,...,µr−jr;J−1 =
+
+= (−1)r−1Sµ1−1,...,µr−1;r−1+
+
+(cid:88)
+
+(−1)∆−1Sµ1−δ1−j1,...,µr−δr−jr;∆+J−1−
+
+∆>0
+r−1(cid:62)J>0
+
+(cid:88)
+
+0<J(cid:54)r−1
+
+Sµ1−j1,...,µr−jr;J−1
+
+If c1, . . . , ct > 0 (t > 0) and ct+1 = . . . = cr = 0, then the number of occurrences of
+. So, the only remaining summand
+Sµ1−c1,...µr−cr
+is (−1)r−1Sµ1−1,...,µr−1;r−1 and we are done.
+
+with signs + and − are both equal to t!
+2
+
+In the case of general s, it is convenient to temporarily forget about anticommutativity
+of Rµ1,...,µr;λ1,...,λs
+in µ1, . . . , µr and λ1, . . . , λs and consider these expressions formally. The
+change of basis we are going to do can be described in several steps. The ﬁrst step is the
+following:
+
+Rµ;λ1,...,λs−1,λs = Rs
+
+µ;λ1,...,λs−1,λs
+
+if λs (cid:62) r − s,
+
+Rµ;λ1,...,λs−1,λs =
+
+(cid:88)
+
+Rs
+
+µ1−j1,...,µr−jr;λ1,...,λs−1,λs+J
+
+if λs (cid:54) r − s − 1.
+
+j1,...,jr(cid:62)0
+J=j1+...+jr(cid:54)r−s−1−λs
+
+Note that this change is similar to the one we did for s = 1. Informally, we can call
+an index λi «big» if λi (cid:62) r − s and «small» otherwise. This terminology comes from
+formula (20): if λi is «big», then L1(Rµ;λ) is a linear combination of polynomials Rµ(cid:48);λ(cid:48)
+are also «big». The same is true for formulas (22). In these terms,
+such that all indices λ(cid:48)
+i
+the formula we just described is similar. Indeed, we call λs «big» if λs (cid:62) r − s. Then, the
+µ(cid:48);λ(cid:48) with
+polynomials Rµ;λ and Rs
+s ≥ λs as in (22); the inequality J (cid:54) r − s − 1 − λs means that all λ(cid:48)
+are «small». The
+λ(cid:48)
+indices λ1, . . . , λs−1 can be viewed as parameters. It can be shown in the same way as in
+the proof of Lemma 8 that the action of L1 on Rs
+
+are equal if λs is «big». Otherwise, Rµ;λ is a sum of Rs
+
+is given by the following formulas:
+
+µ;λ
+
+s
+
+µ;λ
+
+L1(Rs
+
+µ;λ) =
+
+r
+(cid:88)
+
+i=1
+
+(µi − k + r)Rs
+
+µ1,...,µi−1,...,µr;λ +
+
+s
+(cid:88)
+
+i=1
+
+(λi − r + s)Rs
+
+µ;λ1,...,λi−1,...,λs
+
+L1(Rs
+
+µ;λ) =
+
+r
+(cid:88)
+
+(µi − k + r − 1)Rs
+
+µ1,...,µi−1,...,µr;λ +
+
+s
+(cid:88)
+
+(λi − r + s)Rs
+
+µ;λ1,...,λi−1,...,λs
+
+i=1
+
+i=1
+
+39
+
+if λ (cid:62) r − s,
+
+if λ < r − s.
+
+Indeed, the operator L1 can be written as the sum L(cid:48)
+
+1 + L(cid:48)(cid:48)
+1
+
+, where
+
+L(cid:48)
+
+1(Rµ,λ) =
+
+r
+(cid:88)
+
+t=1
+
+and
+
+(µt − k + r)Rµ1,...,µt−1,...,µr;λ + (λs − r + s)Rµ;λ1,...,λs−1,λs−1
+
+L(cid:48)(cid:48)
+
+1(Rµ,λ) =
+
+s−1
+(cid:88)
+
+t=1
+
+(λt − r + s)Rµ;λ1,...,λt−1,...,λs.
+
+is similar to the action of L1 for s = 1 if λi, 1 (cid:54) i (cid:54) s − 1 are viewed
+The action of L(cid:48)
+1
+as parameters. So, after our change of basis, the action of L(cid:48)
+is transformed in the same
+1
+way as in Lemma 8 (this can be proved in the same way as Lemma 8). The fact that the
+action of L(cid:48)(cid:48)
+µ;λ) is given by precisely the same formulas as in the basis
+1
+(Rµ;λ) can be proved even easier by descending induction on λs. So, the action of L1 on
+Rs
+
+in the basis (Rs
+
+, i = s − 1, s − 2, . . . , 1 inductively. To be precise,
+
+µ;λ
+
+is given by the formulas above.
+Then, we move to polynomials Ri
+are already deﬁned, then
+
+µ;λ
+
+if Ri
+
+µ;λ
+
+Ri
+
+Ri
+
+µ;λ = Ri−1
+µ;λ
+µ;λ =
+
+if λi (cid:54) r − s,
+
+(cid:88)
+
+Ri−1
+
+µ1−j1,...,µr−jr;λ1,...,λi+J,...,λs
+
+if λi (cid:54) r − s − 1.
+
+j1,...,jr(cid:62)0
+J=j1+...+jr(cid:54)r−s−1−λi
+
+Denote by Sµ,λ the polynomials R1
+
+µ,λ
+
+. It can be shown in the same way as above (for
+
+i = s) that the action of L1 on Sµ,λ is given by the following formula:
+
+L1(Sµ;λ) =
+
+r
+(cid:88)
+
+(µi − k + r − p)Sµ1,...,µi−1,...,µr;λ +
+
+i=1
+
+s
+(cid:88)
+
+i=1
+
+where p is the number of λi such that λi < r − s.
+
+Also, we have the following relations:
+
+(λi − r + s)Sµ;λ1,...,λi−1,...,λs ,
+
+(23)
+
+Sµ;λ1,...,λs−1,−1 =
+
+(cid:88)
+
+(−1)∆−1Sµ1−δ1,...,µr−δr;λ1,...,λs−1,∆−1
+
+(24)
+
+δ1,...,δr=0,1
+∆(cid:62)r−s+1
+
+Indeed, one can show as in the proof of Lemma 9 that these relations hold if we replace
+S with Rs. After that, it is easy to see that these relations remain unchanged when we
+pass from Ri to Ri−1, i = s, s − 1, . . . , 2.
+
+Assume that λ1 > . . . > λs−p (cid:62) r − s and r − s > λs−p+1 > . . . > λs. Then, one can
+
+write the following explicit transition formulas from Sµ;λ to Rµ;λ:
+
+Rµ;λ =
+
+(cid:88)
+
+λs−p+i+Ji<r−s
+i=1,...,p
+
+Sµ1−J 1,...,µr−J r;λ1,...,λs−p,λs−p+1+J1,...,λs+Jp.
+
+(25)
+
+The sum is taken over all possible matrices of non-negative integers of the form
+
+
+
+
+
+
+
+
+j1
+1
+j1
+2
+...
+j1
+p
+
+j2
+1
+j2
+2
+...
+j2
+p
+
+. . .
+. . .
+. . .
+. . .
+
+40
+
+
+
+
+
+
+
+
+jr
+1
+jr
+2
+...
+jr
+p
+
+,
+
+t=1 jt
+i
+
+is the sum of all elements in the i-th row and J i = (cid:80)p
+
+Ji = (cid:80)r
+is the sum of
+all elements in the i-th column. Of course, similar formulas hold without the assumption
+λ1 > . . . > λs. We can see that this agrees with anticommutativity of the basis elements
+, i = 2, . . . , s). So, these formulas deﬁne a
+in µ and λ (although this is not true for Ri
+change of basis in W kω ∩ πkω−(k−r)a−sb.
+
+t=1 ji
+t
+
+From now on, we assume again that k − r (cid:62) µ1 > . . . > µr (cid:62) 0 and r − s (cid:62) λ1 > . . . >
+
+µ,λ
+
+λs (cid:62) 0. The space W kω ∩ πkω−(k−r)a−sb is the direct sum of its subspaces
+
+Ud1,d2 = Span(Sµ;λ | µr−d1
+
+(cid:62) k − r + d2 > µr−d1+1, λs−d2
+
+(cid:62) r − s > λs−d2+1).
+
+In other words, Ud1,d2
+is the linear span of Sµ;λ with r − d1 «big» indices λi and s − d2
+«big» indices µi (again, the terminology «big» and «small» comes from formula (23)).
+Note that the subspaces Ud1,d2
+are not invariant under the L1-action. Indeed, if λs = 0,
+then the expression for L1(Sµ;λ) contains the summand Sµ;λ1,...,λs−1,−1 which is a linear
+. However, we can introduce the
+combination (24) of elements not contained in Ud1,d2
+following lexicographical order on the set of pairs (d1, d2): we say that (d1, d2) (cid:22) (d(cid:48)
+1, d(cid:48)
+2)
+. Then, one can see from (23) and (24) that
+if either d1 < d(cid:48)
+and d2 < d(cid:48)
+1
+2
+if Sµ;λ ∈ Ud1,d2
+such that
+, then L1(Sµ;λ) is a linear combination of Sµ(cid:48);λ(cid:48) lying in Ud(cid:48)
+(d(cid:48)
+
+1, d(cid:48)
+First, we are going to compute the vector bundle corresponding to the space (cid:101)U with
+a basis (cid:101)Sµ,λ, k − r (cid:62) µ1 > . . . > µr (cid:62) 0, r − 1 (cid:62) λ1 > . . . > λs (cid:62) 0 equipped with the
+L1-action given by (23) but with the assumption (cid:101)Sµ;λ1,...,λs−1,−1 = 0. After that, we will
+show that the answer for W kω ∩ πkω−(k−r)a−sb is the same.
+The space (cid:101)U is the direct sum of its subspaces (cid:101)Ud1,d2
+
+deﬁned similarly to Ud1,d2
+
+2) (cid:22) (d1, d2).
+
+or d1 = d(cid:48)
+1
+
+1,d(cid:48)
+2
+
+:
+
+(cid:101)Ud1,d2 = Span( (cid:101)Sµ;λ | µr−d1
+
+(cid:62) k − r + d2 > µr−d1+1, λs−d2
+
+(cid:62) r − s > λs−d2+1).
+
+Since (cid:101)Sµ;λ1,...,λs−1,−1 = 0, all subspaces (cid:101)Ud1,d2
+are invariant under the L1-action. This
+means that the whole vector bundle is the direct sum of all vector bundles corresponding
+to subspaces (cid:101)Ud1,d2
+. Moreover, the structure of these subspaces is the same as the structure
+of the spaces from Section 4 (i.e., they are isomorphic to tensor products of exterior powers
+of single Jordan blocks). So, we need to know only dim (cid:101)Ud1,d2
+and the maximal and the
+minimal L0-degrees of vectors in (cid:101)Ud1,d2
+
+to compute the corresponding vector bundle.
+
+The vectors of maximal and minimal degree in (cid:101)Ud1,d2
+
+are
+
+(cid:101)Sk−1,...,k−r+d1,k−r+d2−1,...,k−r+d2−d1;r−1,...,r−s+d2;r−s−1,...,r−s−d2
+
+and
+
+(cid:101)Sk−1−d1+d2,...,k−r+d2,d1−1,...,0;r−1−d2,...,r−s;d2−1,...,0
+
+respectively. Up to adding 2N , N ∈ Z, their sum is equal to
+
+(cid:0)(k − 1) + . . . + (k − r + d1)(cid:1) + (cid:0)(k − r + d2 − 1) + . . . + (k − r + d2 − d1)(cid:1)+
++(cid:0)(r − 1) + . . . + (r − s + d2)(cid:1) + (cid:0)(r − s − 1) + . . . + (r − s − d2)(cid:1)+
++(cid:0)(k − 1 − d1 + d2) + . . . + (k − r + d2)(cid:1) + (cid:0)(d1 − 1) + . . . + 0(cid:1)+
++(cid:0)(r − 1 − d2) + . . . + (r − s)(cid:1) + (cid:0)(d2 − 1) + . . . + 0(cid:1) =
+= (2k − r + d2 − 1)(r − d1) + (k − r + d2 − 1)d1 + (2r − s − 1)(s − d2) + (r − s − 1)d2 =
+
+41
+
+2kr − r2 − r − s2 − s + 2sr − kd1 = C(k, r, s) − kd1,
+
+where C(k, r, s) = 2kr − r2 − r − s2 − s + 2sr is independent of d1.
+
+The dimension of (cid:101)Ud1,d2
+and is equal to
+
+of (cid:101)Ud1,d2
+
+is just the number of choices of (λ; µ) satisfying the deﬁnition
+
+(cid:18)r − d2
+r − d1
+
+(cid:19)(cid:18)k − r + d2
+
+(cid:19)(cid:18) s
+
+(cid:19)(cid:18)r − s
+
+d1
+
+s − d2
+
+d2
+
+(cid:19)
+.
+
+To compute the vector bundle corresponding to the whole (cid:101)U , we need to sum over all
+pairs (d1, d2). So, this bundle is isomorphic to
+
+(cid:77)
+
+d1(cid:62)d2(cid:62)0
+
+O(2N − d1k)⊕(r−d2
+
+r−d1)(k−r+d2
+
+d1
+
+)( s
+
+d2 )
+s−d2)(r−s
+
+(26)
+
+1|Vi
+
+1|Vi
+
+1|Vi
+
+1|Vi + L(cid:48)(cid:48)
+
+map Vi to Vi and (cid:76)i−1
+
+j=1 Vi for any i = 1, . . . , N . Write L1|Vi = L(cid:48)
+1|Vi
+
+Now, we are going to show that U and (cid:101)U give rise to isomorphic vector bundles. To
+do this, consider a more general situation. Let V be a ﬁnite-dimensional vector space
+equipped with an L1-action. Suppose that V is a direct sum of subspaces V = (cid:76)N
+i=1 Vi
+such that L1(Vi) ⊂ (cid:76)i
+, where the
+j=1 Vi respectively. In addition, suppose
+and L(cid:48)(cid:48)
+operators L(cid:48)
+that the Jordan decomposition of each Vi with respect to L(cid:48)
+is L0-«symmetric» in the
+sense of Section 4. This means that the sum of the maximal and minimal L0-degrees of
+vectors in each Jordan block of Vi is the same. Moreover, denoting this sum by Di for Vi,
+suppose that D1 (cid:62) D2 (cid:62) . . . (cid:62) DN . The, we have the following proposition.
+Proposition 24. The vector bundles corresponding to the action of L1 and L(cid:48)
+isomorphic.
+Proof. We are going to repeat the proof of Proposition 9 with a slight modiﬁcation. First,
+following the procedure from that proof, we can construct a Jordan decomposition of V1
+(note that L1 maps V1 to itself). Then, we start constructing a Jordan decomposition of
+V2 with respect to L1. For this, we take a vector v ∈ V2 of maximal L0-degree and consider
+the vectors L1(v), L2
+(v)
+lies in the linear span of the Jordan subspaces we already constructed (in this case, this
+is V1). Then, Lk+1
+(v) is a linear combination of vectors lying in Jordan blocks J1, J2, . . . ,
+Js. But, since D2 (cid:54) D1, the maximal L0-degrees of vectors in J1, J2, . . . , Js cannot be less
+than the L0-degree of v. So, we can replace v with v − v(cid:48), v(cid:48) ∈ V1, degL0(v) = degL0(v(cid:48))
+(v − v(cid:48)) = 0. After that, we again take a vector of maximal degree lying
+such that Lk+1
+in V2 and not lying in the sum of the already constructed Jordan subspaces, and so on.
+This way, after several iterations of the process, we construct a basis of V1 ⊕ V2. Next,
+we repeat this procedure for V3, V4, . . . , VN . At the end, we obtain a decomposition of V
+into a direct sum of Jordan blocks with respect to L1. The sizes and L0-degrees of these
+. So, the vector bundles corresponding to L1
+Jordan blocks coincide with the ones for L(cid:48)
+1
+and L(cid:48)
+1
+
+1(v), . . . . Suppose that k is the minimal number such that Lk+1
+
+are isomorphic.
+
+1 on V are
+
+1
+
+1
+
+1
+
+1,d(cid:48)
+2
+
+1, d(cid:48)
+
+such that (d(cid:48)
+
+In our situation, as we already observed, L1 sends each subspace Ud1,d2
+
+to the sum
+2) (cid:22) (d1, d2). Moreover, the sum of the maximal and
+of subspaces Ud(cid:48)
+minimal L0-degrees of vectors in Ud1,d2
+is 2N −kd1 as we computed above. It is easy to see
+now that the conditions of Proposition 24 are satisﬁed for the space W kω ∩ πkω−(k−r)a−sb.
+So, the vector bundle corresponding to this space is given by (26). Therefore, the bundle
+corresponding to the whole Demazure module W kω is the direct sum of such bundles for
+all possible r, s. We state this result as a proposition.
+
+42
+
+Proposition 25. The vector bundle corresponding to the Demazure module of level 1
+W kω for sl(3, C) is isomorphic to
+
+O(2N − d1k)⊕(r−d2
+
+r−d1)(k−r+d2
+
+d1
+
+)( s
+
+d2 )
+s−d2)(r−s
+
+(27)
+
+(cid:77)
+
+r(cid:62)s(cid:62)0
+d1(cid:62)d2(cid:62)0
+
+In the remaining part of this section, we simplify this formula. Namely, we prove the
+
+following proposition.
+
+Proposition 26. The vector bundle corresponding to the Demazure module of level 1
+W kω for sl(3, C) is isomorphic to
+
+O(2N − d1k)⊕(cid:80)
+
+i(cid:62)0( k+1
+
+3d1+2−i)(3d1+2−i
+
+i
+
+).
+
+(cid:77)
+
+r(cid:62)s(cid:62)0
+d1(cid:62)d2(cid:62)0
+
+Proof. We need to prove that the following identity holds:
+
+(cid:18)r − d2
+r − d1
+
+(cid:88)
+
+r,s,d2
+
+(cid:19)(cid:18)k − r + d2
+
+(cid:19)(cid:18) s
+
+(cid:19)(cid:18)r − s
+
+(cid:19)
+
+d1
+
+s − d2
+
+d2
+
+=
+
+(cid:18) k + 1
+
+(cid:88)
+
+(cid:19)(cid:18)3d1 + 2 − i
+
+(cid:19)
+
+3d1 + 2 − i
+
+i(cid:62)0
+
+i
+
+. (28)
+
+Let us work a bit with the left-hand side of this identity. First, we know that
+
+(cid:18) s
+
+(cid:88)
+
+(cid:19)(cid:18)r − s
+
+(cid:19)
+
+s − d2
+
+d2
+
+s
+
+=
+
+(cid:19)
+
+(cid:18) r + 1
+2d2 + 1
+
+(see the end of Section 5). So, the left-hand side of (28) turns to
+
+(cid:18)r − d2
+r − d1
+
+(cid:88)
+
+r,d2
+
+(cid:19)(cid:18)k − r + d2
+
+d1
+
+(cid:19)(cid:18) r + 1
+2d2 + 1
+
+(cid:19)
+.
+
+Next, we have the following well-known identities:
+
+(cid:19)
+
+(cid:18)r − d2
+r − d1
+
+=
+
+d2(cid:88)
+
+(cid:18) r − 2d2
+
+d1 − d2 − p
+
+p=0
+
+(cid:19)
+
+(cid:19)(cid:18)d2
+p
+
+and
+
+(cid:18) r + 1
+2d2 + 1
+
+(cid:19)(cid:18) r − 2d2
+
+(cid:19)
+
+d1 − d2 − p
+
+=
+
+(cid:18)
+
+r + 1
+d1 + d2 − p + 1
+
+(cid:19)(cid:18)d1 + d2 − p + 1
+
+2d2 + 1
+
+(cid:19)
+.
+
+Applying them, we transform our sum to
+
+(cid:18)k − r + d2
+d1
+
+(cid:19)(cid:18)
+
+r + 1
+d1 + d2 − p + 1
+
+(cid:19)(cid:18)d2
+p
+
+(cid:88)
+
+r,d2,p
+
+(cid:19)(cid:18)d1 + d2 − p + 1
+
+(cid:19)
+
+2d2 + 1
+
+=
+
+=
+
+(cid:88)
+
+d2,p
+
+(cid:18) k + d2 + 2
+k − 2d1 + p
+
+(cid:19)(cid:18)d2
+p
+
+(cid:19)(cid:18)d1 + d2 − p + 1
+
+(cid:19)
+
+2d2 + 1
+
+(to sum over r, we applied a generalized version of the identity from the end of Section 5).
+Next, we have
+
+(cid:18) k + d2 + 2
+k − 2d1 + p
+
+(cid:19)
+
+(cid:88)
+
+=
+
+q
+
+(cid:18)
+
+k + 1
+k − 2d1 + p − q
+
+(cid:19)(cid:18)d2 + 1
+
+(cid:19)
+
+,
+
+q
+
+43
+
+so our sum turns to
+
+(cid:18)
+
+k + 1
+k − 2d1 + p − q
+
+(cid:88)
+
+p,q,d2
+
+(cid:19)(cid:18)d2 + 1
+
+q
+
+(cid:19)(cid:18)d2
+p
+
+(cid:19)(cid:18)d1 + d2 − p + 1
+
+2d2 + 1
+
+(cid:19)
+.
+
+Comparing the coeﬃcients of (cid:0)
+
+(cid:1) in this expression and the right-hand side
+of the identity we are proving, we see that it suﬃces to prove the following (we denote
+a = q − p)
+
+k+1
+k−2d1+p−q
+
+(cid:18)d2 + d1 − p + 1
+2d2 + 1
+
+(cid:19)(cid:18)d2 + 1
+p + a
+
+(cid:19)(cid:18)d2
+p
+
+(cid:19)
+
+=
+
+(cid:18)2d1 + a + 1
+d − a + 1
+
+(cid:19)
+
+(cid:88)
+
+p,d2
+
+.
+
+(29)
+
+The left-hand side of (29) is equal to the coeﬃcient of x2d2+1 in the expression
+
+(cid:88)
+
+(cid:18) d2
+
+(cid:19)(cid:18)d2 + 1
+p + a
+
+d2 − p
+
+(cid:19)
+
+(1+x)d2+d1−p+1 = (1+x)d1+1 (cid:88)
+
+p,d2
+The last sum is the coeﬃcient of yd2+a in (cid:80)
+d2
+time, we have
+
+(cid:32)(cid:18) d2
+
+d2 − p
+
+(cid:19)
+
+(cid:19)(cid:18)d2 + 1
+p + a
+
+(cid:33)
+
+(1+x)d2−p
+
+.
+
+p,d2
+
+(1 + y(1 + x))d2(1 + y)d2+1. At the same
+
+(1 + y(1 + x))d2(1 + y)d2+1 =
+
+((1 + y)d2−i
+
+(cid:88)
+
+i
+
+(cid:18) d2
+
+(cid:19)
+
+d2 − i
+
+xiyi)(1 + y)d2+1 =
+
+(cid:88)
+
+=
+
+i
+
+(1 + y)2d2+1−ixiyi
+
+(cid:19)
+,
+
+(cid:18)d2
+i
+
+so the left-hand side of (29) is the coeﬃcient of x2d2+1yd2+a in
+(cid:19)
+(cid:18)d2
+i
+
+(1 + x)d1+1(1 + y)2d2+1−ixiyi
+
+(cid:88)
+
+d2,i
+
+.
+
+On the other hand, the coeﬃcient of x2d2+1yd2+a is (denoting j = 2d2 + 1 − i)
+
+(cid:19)(cid:18)
+
+(cid:18)d1 + 1
+j
+
+d2
+2d2 + 1 − j
+
+(cid:19)(cid:18)
+
+(cid:19)
+
+j
+a − d2 + j − 1
+
+.
+
+(cid:88)
+
+j,d2
+
+So, denoting q = j − d2 − 1, we need to prove now that
+
+(cid:88)
+
+(cid:18) d1 + 1
+
+(cid:19)(cid:18)q + d2 + 1
+
+(cid:19)(cid:18) d2
+
+(cid:19)
+
+q + d2 + 1
+
+q + a
+
+d2 − q
+
+q,d2
+
+=
+
+(cid:18)2d1 + a + 1
+d1 − a + 1
+
+(cid:19)
+.
+
+We have
+
+(cid:18) d1 + 1
+
+(cid:19)(cid:18)q + d2 + 1
+
+(cid:19)
+
+q + d2 + 1
+and we need to prove that
+
+q + a
+
+=
+
+(cid:18)d1 − d2 + a
+q + a
+
+(cid:19)(cid:18) d1 + 1
+
+d2 − a + 1
+
+(cid:19)
+,
+
+(cid:18)d1 − d2 + a
+q + a
+
+(cid:19)(cid:18)d2
+q
+
+(cid:19)(cid:18) d1 + 1
+
+(cid:19)
+
+d2 − a + 1
+
+=
+
+(cid:18)2d1 + a + 1
+d1 − a + 1
+
+(cid:19)
+.
+
+(cid:88)
+
+q,d2
+
+It follows from a well-known combinatorial identity that
+(cid:19)(cid:18)d2
+(cid:19)(cid:18)d2
+q
+q
+
+(cid:18)d1 − d2 + a
+q + a
+
+(cid:18)d1 − d2 + a
+d1 − d2 − q
+
+(cid:88)
+
+(cid:88)
+
+=
+
+(cid:19)
+
+q
+
+q
+
+44
+
+(cid:19)
+
+=
+
+(cid:19)
+
+(cid:18) d1 + a
+d1 − d2
+
+and similarly
+
+(cid:88)
+
+(cid:18) d1 + 1
+
+d2 − a + 1
+
+d2
+
+(cid:19)
+
+(cid:19)(cid:18) d1 + a
+d1 − d2
+
+=
+
+(cid:18)2d1 + a + 1
+d1 − a + 1
+
+(cid:19)
+
+which proves the proposition.
+
+9 Explicit computation of vector bundles correspond-
+
+ing to Demazure modules of level 1 for sl(n, C)
+
+In this section, we compute the vector bundles associated with the Demazure modules
+W kω for sl(n, C) in case of arbitrary n. In this case, however, instead of working with the
+polynomials from Proposition 21, we will consider another basis of W kω. This basis does
+not have such a compact form as (14) and the formulas for its elements are rather bulky
+but it will be more convenient for computation of the corresponding vector bundles. So,
+we start with describing this basis.
+
+Recall that the space W kω can be obtained from |kω(cid:105) by applying all possible operators
+, s > 0, i = 1, 2, . . . , n − 1.
+
+V−αi[m], m (cid:62) 0. So, all elements of W kω are polynomials in αi
+−s
+We are going to describe these polynomials explicitly.
+
+As before, denote by Pt polynomials (7). Then, we have the following statement similar
+
+to Lemmas 3, 4 and 5.
+
+Lemma 10. For any i = 1, 2, . . . , n − 1
+
+(cid:101)V−αi(z)(Pt(αi)) = (Pt(αi) − 2z−1Pt−1(αi) + z−2Pt−2(αi)) (cid:101)V−αi(z),
+
+for any i, j = 1, 2, . . . , n − 1, |i − j| = 1
+
+(cid:101)V−αi(z)(Pt(αj)) = (Pt(αj) + z−1Pt−1(αj) + z−2Pt−2(αj) + . . .) (cid:101)V−αi(z),
+
+and for any i, j = 1, 2, . . . , n − 1, |i − j| (cid:62) 2
+
+(cid:101)Vαi(z)(Pt(αj)) = (Pt(αj)) (cid:101)V−αi(z),
+Proof. The same as the proof of Lemma 3. Here, we need to use the fact that (αi, αi) = 2,
+(αi, αi+1) = −1 and (αi, αj) = 0 if |i − j| (cid:62) 2.
+
+Using this lemma, we can prove inductively in the same way as in Sections 4, 5 and 7
+
+the following proposition.
+
+Proposition 27. W kω ∩ πkω−r1α1+...−rn−1αn−1 is a linear combination of polynomials of
+the form
+
+Rλ1;λ2;...;λn−1 =
+
+(cid:88)
+
+P 1
+1−A1
+λ1
+
+1,...,λ1
+r1
+
+·P 3
+1+B2
+λ3
+
+· P 2
+1+B1
+λ2
+
+−A1
+r1
+· . . . · P n−1
+1 +Bn−2
+λn−1
+
+1 −A2
+
+1,...,λ2
+r2
+
++B1
+r2
+
+−A2
+r2
+
+·
+
+,
+
+1 −A3
+
+1,...,λ3
+r3
+
+−A3
+r3
+(cid:54) rj−1 − 1 (assuming that r0 = k). Here, by λi we denote a tuple (λi
+
+λj
+i
+of integer numbers not exceeding k − 1. The notation P i
+depends on the variables αi
+
+2, . . . , λi
+)
+ri
+λ means that the polynomial Pλ
+
+rn−1 +Bn−2
+rn−1
+
+,...,λn−1
+
+1, λi
+
++B2
+r3
+
+1
+
+
+
+−s, s > 0. The sum is taken over all matrices of the form
+ci
+1,ri
+ci
+2,ri
+...
+
+ci
+1,2
+ci
+2,2
+...
+
+ci
+1,1
+ci
+2,1
+...
+
+Ci =
+
+
+
+,
+
+
+
+
+
+
+
+
+
+
+
+. . .
+. . .
+. . .
+. . .
+
+ci
+ri+1,1
+
+ci
+ri+1,2
+
+45
+
+ci
+ri+1,ri
+
+t1,t2 ∈ Z(cid:62)0, i = 1, 2, . . . , n − 2. The numbers Bi
+ci
+sums of the elements of rows and columns of these matrices respectively.
+
+s,t and Ai
+
+t=1 ci
+
+s = (cid:80)ri
+
+s = (cid:80)ri+1
+
+t=1 ci
+
+t,s are the
+
+Proof. To avoid bulky notation, we sketch a proof for n = 3. Denote by α, β the two
+simple roots. Also, denote by Pµ, Qλ the polynomials Pµ, Pλ depending on α−s, β−s
+respectively. Then, we need to show that W kω ∩ πkω−rα−sβ is linearly spanned by the
+polynomials of the form
+
+Rµ1,...,µr;λ1,...,λs =
+
+(cid:88)
+
+Pµ1−A1,...,µr−ArQλ1+B1,...,λs+Bs,
+
+where Ai, Bj are the sums of the elements of the i-th row and the j-th column of the
+matrix
+
+
+
+
+
+
+
+
+c1,1
+c2,1
+...
+cs,1
+
+c1,2
+c2,2
+...
+cs,2
+
+. . . c1,r
+. . . c2,r
+...
+. . .
+cs,r
+. . .
+
+
+
+
+
+
+
+
+whose elements are non-negative integers. Suppose that the statement is true for (r, s).
+Then, applying V−β(z) to any such polynomial, we obtain a linear combination of the
+following expressions:
+
+(cid:88)
+
+Pµ1−A1−cs+1,1,...,µr−Ar−cs+1,rz−Bs+1·
+
+
+
+
+
+
+· det
+
+Qλ1+B1−s+1 − Qλ1+B1−sz−1
+...
+Qλs+Bs−s+1 − Qλs+Bs−sz−1
+
+. . . Qλ1+B1 − Qλ1+B1−1z−1
+. . .
+. . . Qλs+Bs − Qλs+Bs−1z−1
+
+...
+
+
+ · (Q0 + Q1z + Q2z2 + . . .).
+
+
+The coeﬃcient of any power of z in this expression is a polynomial of the same form as
+stated in the proposition. So, any element of W kω ∩ πkω−rα−(s+1)β is a linear combination
+of such polynomials. To show that all such polynomials themselves lie in W kω for any
+r, s, we consider the polynomial of maximal degree lying in W kω ∩ πkω−rα−sβ, i.e. the
+polynomial Rk−1,k−2,...,k−r;r−1,r−2,...,r−s. Then, all other polynomials Rµ,λ can be obtained
+from this one by applying the «positive half» of the Heisenberg Lie algebra.
+
+For arbitrary n, the proof is similar. The only diﬀerence is that we also need to use
+
+the third relation from Lemma 10.
+
+As for the polynomials from Proposition 19, the elements we just described are linearly
+dependent. A linearly independent set of such elements spanning W kω∩πkω−r1α1−...−rn−1αn−1
+is given in the following proposition.
+
+Proposition 28. A basis of W kω ∩ πkω−r1α1−...−rn−1αn−1 is formed by all polynomials from
+Proposition 27 such that each tuple λj consists of non-negative integers.
+
+Proof. The fact that such polynomials are linearly independent can be proved in the
+same manner as in the proof of Proposition 21. Indeed, suppose that there is a non-trivial
+linear combination of such polynomials equal to zero. Consider all terms of this linear
+combination with the highest degree in α1
+r1 = 0,
+. For these terms, A1
+−s
+is maximal among the terms of
+B1
+2 + . . . + λ1
+1 + λ1
+r1
+this linear combination. The sum of these terms must also be equal to zero. But the
+sum of these terms with any ﬁxed λ1 is the product of P 1
+λ1 and a linear combination of
+polynomials Rλ2;...;λn−1. Using induction on n, we conclude that all terms of this linear
+
+r2 = 0 and the sum λ1
+
+1 = . . . = B1
+
+2 = . . . = A1
+
+1 = A1
+
+46
+
+combination must be zero. So, the initial linear combination of Rλ1;λ2;...;λn−1 must also be
+trivial.
+
+To show that such Rλ1;λ2;...;λn−1 form a basis of W kω ∩ πkω−r1α1−...−rn−1αn−1, it suﬃces
+to show now that the number of these polynomials is equal to the dimension of this space.
+The number of these polynomials is the number of choices of λ1, . . . , λn−1. Taking into
+account the restrictions 0 (cid:54) λj
+i
+
+(cid:54) rj−1 − 1, we see that it is equal to
+
+(cid:19)
+
+(cid:19)
+
+(cid:18) k
+r1
+
+(cid:18)r1
+r2
+
+·
+
+· . . . ·
+
+(cid:19)
+
+(cid:18)rn−2
+rn−1
+
+=
+
+k!
+(k − r1)!(r1 − r2)! . . . (rn−2 − rn−1)!rn−1!
+
+.
+
+Finally, recalling that αi = ai − ai−1 for any i, we obtain
+
+kω − r1α1 − . . . − rn−1αn−1 = kω − (r1 − r2)a1 − (r2 − r3)a2 − . . . − (rn−2 − rn−1)an−1,
+
+we see that this multinomial coeﬃcient coincides with the dimension of W kω∩πkω−r1α1−...−rn−1αn−1
+computed in the proof of Corollary 6.
+
+The next proposition describes linear relations that the polynomials Rλ1;...;λn−1 satisfy.
+
+Proposition 29. If λi
+ri
+
+< 0, then for any i we have
+
+(cid:88)
+
+δ1,...,δr=0,1
+∆=δ1+...+δri
+
+(−1)∆Rλ1;...;λi−1
+
+1 −δ1,...,λri−1 −δri−1 ;λi
+
+1,...,λi
+
+ri−1,λi
+ri
+
++∆;...;λrn−1 = 0.
+
+(30)
+
+Proof. First, we are going to prove this formula for n = 3. In this case, we need to show
+that
+
+(cid:88)
+
+(−1)∆Rµ1−δ1,...,µr−δr;λ1,...,λs−1,∆−p = 0
+
+δ1,...,δr=0,1
+∆=δ1+...+δr
+
+for any p > 0. First, we have
+
+(cid:88)
+
+δ1,...,δr=0,1
+∆=δ1+...+δr
+
+(−1)∆Rµ1−δ1,...,µr−δr;λ1,...,λs−1,∆−p =
+
+=
+
+(cid:88)
+
+(−1)∆ (cid:88)
+
+δ1,...,δr=0,1
+∆=δ1+...+δr
+
+Pµ1−δ1−A1,...,µr−δr−ArQλ1+B1,...,λs−1+Bs−1,∆−p+Bs,
+
+where Ai and Bj are sums of the elements of columns and rows of all possible matrices
+
+C =
+
+
+
+
+
+
+
+
+c1,1
+c2,1
+...
+cs,1
+
+c1,2
+c2,2
+...
+cs,2
+
+
+
+
+
+
+
+
+. . . c1,r
+. . . c2,r
+...
+. . .
+cs,r
+. . .
+
+whose elements are non-negative integers. Denote by A(cid:48)
+i
+i-th column of C except the last one, i.e. A(cid:48)
+
+the sum of all elements of the
+i = Ai − cs,i. Then, the last sum is equal to
+
+(cid:88)
+
+(−1)∆ (cid:88)
+
+δ1,...,δr=0,1
+∆=δ1+...+δr
+
+Pµ1−δ1−A(cid:48)
+
+1−cs,1,...,µr−δr−A(cid:48)
+
+r−cs,rQλ1+B1,...,λs−1+Bs−1,∆−p+Bs.
+
+47
+
+Consider all terms of this sum corresponding to matrices C with ﬁxed elements in all
+rows except the last one, i.e. except cs,1, cs,2, . . . , cs,r. It can be seen that all such terms
+mutually cancel except for the one corresponding to cs,1 = cs,2 = . . . = cs,r = 0 and
+δ1 = δ2 = . . . = δr = 0. So, the remaining sum is
+
+(cid:88)
+
+(−1)∆ (cid:88)
+
+δ1,...,δr=0,1
+∆=δ1+...+δr
+
+Pµ1−A(cid:48)
+
+1,...,µr−A(cid:48)
+
+rQλ1+B1,...,λs−1+Bs−1,−p.
+
+This sum is zero since Qλ1+B1,...,λs−1+Bs−1,−p is zero for −p < 0.
+
+Finally, the statement for sl(n, C) follows from the case n = 3. Indeed, we can expand
+each term of (30) using the formula from Proposition 27. After that, consider all terms of
+the sum we obtained with ﬁxed matrices Cj, j (cid:54)= i − 1. Note that the sum of such terms
+is the product of (cid:81)
+
+and the sum
+
+t(cid:54)=i,i−1 P t
+1+Bt−1
+λt
+
+1 −At
+
+1,...,λt
+rt
+
++Bt−1
+
+rt −At
+rt
+
+(cid:88)
+
+(−1)∆−1 (cid:88)
+
+δ1,...,δri−1 =0,1
+∆=δ1+...+δri−1
+
+P i−1
+1 +Bi−2
+λi−1
+
+1 −Ai−1
+
+1 −δ1,...,λi−1
+
+ri−1 +Bi−2
+
+ri−1 −Ai−1
+
+ri−1 −δri−1
+
+P i
+1+Bi−1
+λi
+
+1 −Ai
+
+1,...,λri +Bi−1
+
+ri −Ai
+ri
+
+which is of the same type as we considered above (when working with the case n = 3).
+So, it follows from what we have already done that this sum is zero.
+
+It is easy to write an explicit formula for the action of L1 on Rλ1;λ2;...;λn−1.
+
+Proposition 30. For any λ1, . . . , λn−1 we have (assuming that r0 = k)
+
+L1(Rλ1;...;λn−1) =
+
+n−1
+(cid:88)
+
+rj
+(cid:88)
+
+(λj
+
+j=1
+
+t=1
+
+t − rj−1 + rj)Rλ1;...;λj
+
+1,...,λj
+
+t −1,...,λj
+
+rj ;...;λn−1.
+
+Proof. It is easy to see from a direct computation that L1(Rλ1;...;λn−1) is a linear combi-
+rj ;...;λn−1 with coeﬃcients equal to λj
+nation of Rλ1;...;λj
+t − Cj, where Cj is some
+constant. The value Cj = rj−1 − rj is determined uniquely from the fact that the polyno-
+mial Rλ1;...;λn−1 of the maximal degree is sent to 0 by L1.
+
+t −1,...,λj
+
+1,...,λj
+
+If we look at the formulas we obtained in the case n = 3, we can see that they
+coincide with (20) and (21). For arbitrary n, they can be viewed as a generalization of
+(20) and (21). In Section 8, we replaced the basis Rµ;λ with Sµ;λ in such a way that the
+space W kω ∩ πkω−rα−sβ splits naturally into the direct sum of its subspaces Ud1,d2
+after
+this change. Recall that Ud1,d2
+are not L1-invariant which was not a problem for n = 3.
+Now, however, we are going to show how to change Sµ;λ with yet another basis Tµ;λ and
+obtain an explicit decomposition into a direct sum of L1-invariant subspaces. After that,
+we are going to extend this construction to arbitrary n and compute the corresponding
+vector bundles on P1.
+
+First, we describe this change for the space linearly spanned by elements of the form
+(cid:101)Sµ;λ, where µ = (µ1, . . . , µr) is an r-tuple of integers, µi (cid:54) k − 1, and λ (cid:54) r − 1 is just
+one number, with the following action of L1
+
+L1( (cid:101)Sµ;λ) =
+
+r
+(cid:88)
+
+t=1
+
+(µt − C) (cid:101)Sµ1,...,µt−1,...,µr;λ + (λ − a)Sµ;λ−1 if λ (cid:62) a,
+
+48
+
+L1( (cid:101)Sµ;λ) =
+
+r
+(cid:88)
+
+t=1
+
+(µt − C − 1) (cid:101)Sµ1,...,µt−1,...,µr;λ + (λ − a) (cid:101)Sµ;λ−1 if λ (cid:54) a − 1
+
+and the following relations:
+
+(cid:101)Sµ;−1 =
+
+(cid:88)
+
+(−1)∆−1 (cid:101)Sµ1−δ1,...,µr−δr;∆−1.
+
+(31)
+
+δ1,...,δr=0,1
+r(cid:62)∆(cid:62)a+1
+
+Here, a is any integer from 0 to r − 1 and C is any constant. These formulas are a
+generalized version of the formulas from Lemma 8 (in Lemma 8, a = r − 1 and C = k − r).
+Our aim is to replace the polynomials (cid:101)Sµ;λ (µ = (µ1, . . . , µr), λ is just one number) with
+(cid:101)Tµ;λ in such a way that (cid:101)Tµ;−1 = 0. The main idea is to search for such a change in the
+following form:
+
+(cid:101)Sµ;λ = (cid:101)Tµ;λ if λ (cid:62) a,
+
+(cid:101)Sµ;λ = (cid:101)Tµ;λ +
+
+(cid:88)
+
+A∆,a−λ (cid:101)Tµ1−δ1,...,µr−δr;λ+∆ if λ (cid:54) a − 1.
+
+a−λ(cid:54)∆(cid:54)r−1−λ
+
+We want to choose the coeﬃcients A∆,a−λ in such a way that the formulas for the
+L1-action remain unchanged in the new basis. Formally speaking, we want to ensure that
+the formulas for the L1-action in the new basis can be obtained from the formulas written
+above simply replacing (cid:101)S with (cid:101)T . We need to know what conditions this imposes on
+A∆,a−λ. We have
+
+L1( (cid:101)Tµ;λ) = L1( (cid:101)Sµ;λ −
+
+(cid:88)
+
+a−λ(cid:54)∆(cid:54)r−1−λ
+
+Tµ1−δ1,...,µr−δr;λ+∆) =
+
+=
+
+r
+(cid:88)
+
+t=1
+
+(µt − C − 1)
+
+(cid:16)
+
+(cid:101)Tµ1,...,µt−1,...,µr;λ +
+
+(cid:88)
+
+A∆,a−λ (cid:101)Tµ1−δ1,...,µt−δt−1,...,µr−δr;λ+∆
+
+(cid:17)
+
+−
+
+a−λ(cid:54)∆(cid:54)r−1−λ
+
+(cid:16)
+
+−(a − λ)
+
+(cid:101)Tµ;λ−1 +
+
+(cid:88)
+
+A∆,a−λ+1 (cid:101)Tµ1−δ1,...,µr−δr;λ+∆−1
+
+(cid:17)
+
+−
+
+a−λ+1(cid:54)∆(cid:54)r−λ
+
+(cid:88)
+
+−
+
+A∆,a−λ
+
+(cid:16) r
+(cid:88)
+
+(µt−δt−C) (cid:101)Tµ1−δ1,...,µt−δt−1,...,µr−δr;λ+∆+(λ+∆−a) (cid:101)Tµ1−δ1,...,µr−δr;λ+∆−1
+
+(cid:17)
+.
+
+t=1
+
+a−λ(cid:54)∆(cid:54)r−1−λ
+The coeﬃcients of (cid:101)Tµ1,...,µt−1,...,µr;λ and (cid:101)Tµ;λ−1 in this expression are equal to µt − C − 1
+and λ−a respectively as we need. The coeﬃcient of (cid:101)Tµ1−2,µ2−1,...,µm−1,µm+1,...,µr;λ+∆ is equal
+to
+
+(µ1 + . . . + µm − Cm − m)A∆,a−λ − A∆,a−λ(µ1 + . . . + µm − m − Cm) = 0,
+
+while the coeﬃcient of (cid:101)Tµ1−1,...,µm−1;µm+1,...,µr;λ+∆ for m (cid:62) 2 is
+
+A∆,a−λ(µ1 + . . . + µm − Cm − m) − (a − λ)A∆+1,a−λ+1−
+
+−A∆,a−λ(µ1 + . . . + µm − Cm) − A∆+1,a−λ(λ + ∆ − a) =
+
+= −mA∆,a−λ − (a − λ)A∆+1,a−λ+1 − (λ + ∆ − a)A∆+1,a−λ.
+
+We want the last expression to be zero which leads to the following conditions:
+
+A∆+1,a−λ+1 = −
+
+m
+a − λ
+
+A∆,a−λ −
+
+λ + ∆ − a
+a − λ
+
+A∆+1,a−λ if ∆ (cid:54)= r − 1 − λ,
+
+49
+
+Ar−λ,a−λ+1 = −
+
+m
+a − λ
+
+Ar−λ−1,a−λ if ∆ = r − 1 − λ.
+
+For a more convenient notation, let bi
+
+a−λ = Aa−λ+i,a−λ (i = 0, 1, . . . , r − a). Then,
+
+denoting t = a − λ, we have
+
+bi
+t+1 = −
+
+m
+a − λ
+
+bi
+t −
+
+λ + ∆ − a
+a − λ
+
+bi+1
+t
+
+, ∆ = a − λ + i,
+
+br−a
+t+1 = −
+
+m
+a − λ
+
+br−a
+t
+
+.
+
+These formulas show that the transition matrix from bi
+t
+
+t+1
+is invertible upper-triangular. So, if we choose arbitrary values of bi
+t
+other numbers bi
+formulas as on (cid:101)Sµ;λ.
+
+, i = 0, 1, . . . , r − a
+for one t, then all
+t(cid:48) are determined uniquely and the operator L1 acts on (cid:101)Tµ;λ by the same
+
+to bi
+
+Also, we require (cid:101)Tµ;−1 to vanish. We have
+
+(cid:101)Sµ;−1 = (cid:101)Tµ;−1 +
+
+(cid:88)
+
+∆(cid:62)a+1
+
+A∆,a+1 (cid:101)Tµ1−δ1,...,µr−δr;∆−1 =
+
+= (cid:101)Tµ;−1 +
+
+(cid:88)
+
+∆(cid:62)a+1
+
+A∆,a+1 (cid:101)Sµ1−δ1,...,µr−δr;∆−1
+
+since (cid:101)Sµ;λ = (cid:101)Tµ;λ if λ (cid:62) a. Using expression (31), we see that A∆,a+1 = b∆−a−1
+equal to (−1)∆−1. So, we are done.
+
+a+1
+
+must be
+
+For arbitrary s, we can state the following proposition.
+
+Proposition 31. The basis Sµ;λ of W kω ∩ πkω−rα−sβ can be replaced with Tµ;λ related to
+Sµ;λ by the formula
+
+(cid:88)
+
+Sµ;λ =
+
+B∆,λTµ1−∆1,...,µr−∆r;λ1+∆1,...,λs+∆s,
+
+where B0,λ = 0 for any λ. The sum is taken over all matrices of the form
+
+∆ =
+
+
+
+
+
+
+
+
+δ1
+1
+δ1
+2
+...
+δ1
+s
+
+δ2
+1
+δ2
+2
+...
+δ2
+s
+
+. . .
+. . .
+. . .
+. . .
+
+
+
+
+
+
+
+
+δr
+1
+δr
+2
+...
+δr
+s
+
+,
+
+i ∈ {0, 1}, ∆i = (cid:80)r
+δj
+t . The formulas of the action of L1 on Tµ;λ can
+be obtained from (23) simply replacing S with T . Also, we have Tµ;λ1,...,λs = 0 if λs = −1.
+
+i, ∆j = (cid:80)s
+
+t=1 δj
+
+t=1 δt
+
+Proof. The construction described above gives us a desired change of basis of Sµ;λ if λ is
+one number, i. e. if s = 1. For arbitrary s, we can change the basis Sµ;λ in several steps
+similarly to what we described in Section 8 after the proof of Lemma 9. Namely, we replace
+,
+Sµ;λ consecutively with Ss
+µ;λ
+we use the change of basis described above with respect to µ = (µ1, . . . , µr) and λi while
+λj, j (cid:54)= i, remain ﬁxed (as in Section 8, we temporarily forget about anticommutativity
+in λi). Eventually, we obtain the change of basis given in the proposition.
+
+. At each step, when replacing Si+1
+µ;λ
+
+, . . . , S1
+
+with Si
+
+, Ss−1
+µ;λ
+
+µ;λ
+
+µ;λ
+
+An important observation is that the following conditions hold:
+
+50
+
+1. The coeﬃcients B∆,λ do not depend on µ.
+
+2. There are no terms Tµ(cid:48);λ(cid:48)
+
+i > µi.
+µ(cid:48)
+
+in the right-hand side of the given formula such that
+
+Moreover, we can make the same observation for the transition from the basis Rµ;λ to the
+basis Sµ;λ (see formula (25)). This gives us the following result.
+
+Proposition 32. The space W kω ∩ πkω−rα−sβ is spanned linearly by the polynomials Tµ;λ,
+µi (cid:54) k − 1, λi (cid:54) r − 1. These polynomials are related to Rµ;λ as follows:
+
+(cid:88)
+
+Rµ;λ =
+
+Cµ(cid:48),λ(cid:48),λTµ−µ(cid:48);λ+λ(cid:48),
+
+where µ(cid:48), λ(cid:48) are tuples of non-negative integers and Cµ(cid:48),λ(cid:48),λ are coeﬃcients satisfying the
+following conditions:
+
+1. C0,0,λ = 1 for any µ, λ.
+
+2. The coeﬃcients Cµ(cid:48),λ(cid:48),λ do not depend on µ.
+
+The construction we just described can be directly generalized to the case of arbi-
+trary n. The idea is to replace the polynomials Rλ1;...;λn−1 = T n−1
+λ1;...;λn−1 successively with
+λ1;...;λn−1, . . . , T 1
+λ1;...;λn−1. At each step, when replacing T j+1 with T j, we apply the change
+T n−2
+described in Proposition 31 to T j+1 with respect to the pair (λj, λj+1) (all other indices
+remain ﬁxed). The only thing that might be unclear is why relations (30) remain un-
+changed when we pass from T j+1 to T j, j > i. To avoid bulky notation, we show this for
+n = 4, i = 1, j = 2 (for the general case, the proof is the same). In this particular case,
+we have
+
+(cid:88)
+
+(−1)∆Rλ1−δ1,...,λr−δr;µ1,...,µs+∆;ν = 0
+
+δ1,...,δr=0,1
+∆=δ1+...+δr
+
+if µs < 0. We need to show that this equality remains true if we replace R with T 2. After
+this replacement, we obtain the expression
+
+(cid:88)
+
+(−1)∆T 2
+
+λ1−δ1,...,λr−δr;µ1,...,µs+∆;ν =
+
+δ1=...=δr=0,1
+∆=δ1+...+δr
+
+=
+
+(cid:88)
+
+(−1)∆ (cid:88)
+
+δ1=...=δr=0,1
+∆=δ1+...+δr
+
+Cµ(cid:48),ν(cid:48),νRλ1−δ1,...,λr−δr;µ1−µ(cid:48)
+
+1,...,µs−µ(cid:48)
+
+s+∆;ν+ν(cid:48).
+
+Recall that µ(cid:48)
+s
+
+s < 0. So, the sum of all terms in this expression with
+ﬁxed µ(cid:48), ν(cid:48) is zero, since such sum is of the same form as (30). This implies that the whole
+sum also vanishes and we are done.
+
+(cid:62) 0, so µs − µ(cid:48)
+
+As a result, the space W kω ∩ πkω−r1α1−...−rn−1αn−1 decomposes as the direct sum of its
+. For any (n − 1)-tuple (d1, d2, . . . , dn−1) of non-negative integers,
+subspaces Ud1,d2,...,dn−1
+is deﬁned as the space with a basis formed by Rλ1;...;λn−1 such that
+the space Ud1,d2,...,dn−1
+each tuple λi has di «small» indices. Speaking precisely, assuming that the indices in each
+tuple λi are given in descending order, we have
+
+ri−1 − 1 (cid:62) λi
+
+1 > . . . > λi
+
+ri−di
+
+(cid:62) ri−1 − ri + di+1 > λri−di+1 > . . . > λri
+
+(cid:62) 0
+
+51
+
+for all i = 1, 2, . . . , n − 1 (for convenience, we assume that dn = 0 and r0 = k). Each such
+subspace is L1-invariant and isomorphic to tensor product of exterior powers of single
+Jordan blocks. So, to compute the corresponding vector bundles we need to know only
+the maximal and the minimal L0-degrees of vectors and the dimension of this subspace.
+For Ud1,d2,...,dn−1
+
+, these degrees are equal to
+
+n−1
+(cid:88)
+
+(cid:16)rt−dt(cid:88)
+
+t=1
+
+i=1
+
+(rt−1 − i) +
+
+dt(cid:88)
+
+j=1
+
+(rt−1 − rt + dt+1 − j)
+
+(cid:17)
+
+and
+
+n−1
+(cid:88)
+
+(cid:16)rt−dt(cid:88)
+
+t=1
+
+i=1
+
+(rt−1 − dt + dt+1 − i) +
+
+respectively. Their sum is equal to
+
+(cid:17)
+
+(dt − j)
+
+dt(cid:88)
+
+j=1
+
+2rt−1 − rt + dt+1 − 1)(rt − dt) + (rt−1 − rt + dt+1 − 1)dt
+
+(cid:17)
+
+=
+
+n−1
+(cid:88)
+
+(cid:16)
+
+t=1
+
+n−1
+(cid:88)
+
+(cid:16)
+
+=
+
+t=1
+
+rt−1(rt − dt) + (rt−1 − rt + dt+1 − 1)rt
+
+(cid:17)
+
+= (cid:101)C(r1, . . . , rn−1) +
+
+n−1
+(cid:88)
+
+(rtdt+1 − rt−1dt) =
+
+t=1
+
+= (cid:101)C(r1, . . . , rn−1) + rn−1dn − r0d1 = C(r1, . . . , rn−1) − kd1,
+
+where (cid:101)C(r1, . . . , rn−1) and C(r1, . . . , rn−1) are polynomials not depending on di.
+
+The dimension of Ud1,...,dn−1
+
+is also easy to compute and is equal to
+
+n−1
+(cid:89)
+
+t=1
+
+(cid:18)rt − dt+1
+rt − dt
+
+(cid:19)(cid:18)rt+1 − rt + dt+1
+
+dt
+
+(cid:19)
+.
+
+So, the vector bundle corresponding to W kω ∩ πkω−r1α1−...−rn−1αn−1 is isomorphic to
+
+(cid:77)
+
+d1(cid:62)...(cid:62)dn−1(cid:62)0
+
+O(2N − kd1)
+
+(cid:76) (cid:81)n−1
+
+i=1 (ri−di+1
+ri−di
+
+)(ri+1−ri+di+1
+di
+
+), N ∈ Z.
+
+To obtain the vector bundle corresponding to the whole Demazure module W kω, we need
+to take the sum over all r1, r2, . . . , rn−1. Therefore, the following proposition is proved.
+
+Proposition 33. The vector bundle corresponding to the Demazure module of level 1
+W kω for sl(n, C) is isomorphic to (assuming dn = 0, r0 = k)
+
+O(2N − kd1)
+
+(cid:76) (cid:81)n−1
+
+i=1 (ri−di+1
+ri−di
+
+)(ri+1−ri+di+1
+di
+
+), N ∈ Z.
+
+(32)
+
+(cid:77)
+
+d1(cid:62)...(cid:62)dn−1(cid:62)0
+r1(cid:62)...(cid:62)rn−1(cid:62)0
+
+References
+
+[1] C. Dong, Vertex algebras associated with even lattices, J. Algebra 161 (1993) 245–265
+
+[2] E. Frenkel and D. Ben-Zvi, Vertex Algebras and Algebraic Curves, Second Edition.
+
+Mathematical Surveys and Monographs, ISSN 0076-5376; v. 88, 2004
+
+52
+
+[3] V. Kac, Inﬁnite-dimensional Lie algebras, Third Edition. Cambridge University
+
+Press, 1990.
+
+[4] V.G Kac, D.A Kazhdan, J Lepowsky, R.L Wilson, Realization of the basic represen-
+tations of the Euclidean Lie algebras, Advances in Mathematics 42 (1981), Issue 1,
+pp. 83-112, https://doi.org/10.1016/0001-8708(81)90053-0
+
+[5] V. Kac and A.K. Raina, Bombay lectures on highest weight representations of in-
+ﬁnite dimensional Lie algebras. Advanced Series in Mathematical Physics 2, World
+Scientiﬁc, 1987
+
+53
+
+

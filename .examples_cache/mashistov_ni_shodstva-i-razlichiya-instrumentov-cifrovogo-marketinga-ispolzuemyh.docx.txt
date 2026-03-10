@@ -1,0 +1,670 @@
+GOVERNMENT OF THE RUSSIAN FEDERATION
+
+NATIONAL RESEARCH UNIVERSITY
+HIGHER SCHOOL OF ECONOMICS
+
+SCHOOL OF INNOVATION AND ENTREPRENEURSHIP
+
+MASTER OF INTERNATIONAL BUSINESS PROGRAM 
+
+
+
+
+
+
+
+
+
+MASTER THESIS
+
+Topic: Similarities and Differences of Digital Marketing Tools used by Electronics Companies on Domestic and Foreign Emerging Markets: Case of Xiaomi and Huawei in China and Russia
+
+
+
+
+
+                                                                                          Student 
+              Nikita Mashistov
+                                                                           
+                                                                                         Research Advisor 
+Evgeny Sidelnikov
+Guest lecturer 
+
+
+
+
+
+
+
+Moscow 2024
+ Introduction
+
+Digital marketing tools are an integral part of marketing. Which is the sphere of author’s professional activity. At the same time, electronics manufacturers, namely smartphone manufacturers, are potentially interesting companies for author. Author would like to study the peculiarities of their usage of the tools, especially in the emerging markets of China and Russia. This would allow us to better understand the current trends in the use of tools in different markets by advanced electronics companies.
+Relevance of this study can be proved by digital marketing tools usage among electronics companies. Digital marketing tools are more cost-saving than traditional marketing tools (Roncevic, Lucic, Spoljaric, 2019). Because of this, the number of tools used by companies from 2015 to 2022 increased from 25% to 48%. These companies include electronics manufacturers as well. The average returns on digital marketing tool investment are $44.25 for every dollar spent. What makes digital marketing tools extremely important and in demand in any industry, especially in B2C (Sharma, 2021). The work can be significant to electronics companies that are about to enter foreign emerging markets to guide strategic decision-making and provide a competitive advantage. This knowledge will greatly help researchers who are interested in understanding this topic and can serve as a useful foundation for future research.
+The research gap of this topic lies in the fact that while there are quite a few studies reviewing digital marketing strategies, which often include an analysis of digital marketing tools. There is a lack of theoretical models that investigate similarities and differences of digital marketing tools used by electronics companies in domestic and foreign emerging markets. 
+Object: Digital marketing tools used by international companies. Subject: Digital marketing tools used by international electronics companies. Key question: What are the Similarities and differences of digita​​l marketing tools used by electronics companies in domestic and foreign emerging markets? The main goal of this study is to identify whether there are similarities and differences in digital marketing tools of electronics companies in domestic and foreign emerging markets. Also, what are those differences and are there any peculiarities in the application of digital marketing tools in these markets. To achieve the main goal of the study, the following tasks should be accomplished: 
+Conducting a desk review of the scientific literature on the topic digital marketing tools theoretical aspects and their usage by electronics companies 
+Conducting a desk review on similarities and differences of digital marketing tools used by electronics companies on domestic and foreign emerging markets
+Conduct an analysis based on quantitative and qualitative data overview of electronics companies industry and market analysis
+Conduct an analysis based on quantitative and qualitative data of similarities and differences of digital marketing tools used by Xiaomi and Huawei in China and Russia
+Based on the data obtained, draw a conclusion about similarities and differences of digital marketing tools used by electronics companies on domestic and foreign emerging markets and peculiarities in their application
+The methodology of this research will be mixed. It will include a literature review that analyses the tools of digital marketing, as well as the specifics of their application both by electronics companies in general and in foreign and domestic emerging markets. It will be followed by an empirical case study of companies based on quantitative and qualitative data. 
+The first chapter of this paper will highlight the main digital marketing tools and their application by electronics companies both in general and in domestic and foreign emerging markets. In the second chapter the digital marketing tools used by Xiaomi and Huawei on domestic and foreign emerging markets were highlighted. In the third chapter, the similarities and differences of digital marketing tools were highlighted. The result of this work is that the digital marketing tools used by the companies under consideration in the markets under consideration have both similarities and differences. They are mainly related to the consumer funnel stage, as well as the marketing strategy of the company in a particular market.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Theoretical aspects of digital marketing tools used by electronics companies on domestic and foreign emerging markets
+1.1 Theoretical aspects of digital marketing tools
+
+According to the Merriam-Webster Dictionary (upd. 14.02.2023): “Marketing is the process or technique of promoting, selling, and distributing a product or service". The American Marketing Association believes that marketing is not only an activity, but also a network of institutions and processes that create, communicate and exchange offers not only with buyers, but also with society (Rownd, Heath, 2008). These definitions of marketing share the same essence – it is a specific process that helps promote a product or service to people. For the most part, marketing exists to create value for the consumer and motivate them to take a targeted action. A targeted action can be considered by a company to be something that they specifically need. Some researchers believe that marketing is not determined by what a company sells, but what value it creates for people (Silk, A. J, 2006).
+Digital marketing is the component of marketing that utilises the internet and communication tools to promote products and services (Kingsnorth, 2022). McStay (2017) studied development of digital marketing. It began in the 1990s at a time when technology allowed people to use digital services and those people started going to stores less often. This period can be considered a turning point in the development of digital marketing and its rapid growth (p. 13). There are also other definitions of digital marketing:
+Digital marketing refers to any marketing methods conducted through electronic devices which utilise some form of a computer, including online marketing efforts conducted on the internet (American Marketing Association, upd. 14.02.2023)
+Digital marketing are technologies that help marketing activities to improve recognition among customers  (Chaffey, 2015)
+Digital marketing is sometimes mistakenly referred to as internet marketing. However, such a name is incorrect, because the Internet is one of the channels of communication with customers. There is also TV which has nothing to do with the internet but is a tool of digital marketing (Chaffey, 2015).
+The process by which the organisations translate its business objective into the market activity is called marketing strategy (Fifield, 2012). Every marketing strategy is built on the 4Ps of marketing. This concept was created by McCarthy in 1960 who called it marketing mix (or 4Ps). The strategy consists of 4 parts. Product – is what the company offers the customer: goods or services. For the product to be useful, it is necessary to study the target audience, the functionality of the product, competitors, the market itself. Price – after analysing your product and the competitors' product, comes to pricing. It is worth considering not only the economics of the product itself, but the pricing of competitors and the sensitivity of customers to price. Place – where the products will be sold. The way and place to market the goods. It can be either physical locations or online sales of goods or services. Promotion – at this stage is fully engaged in marketing. Here it is necessary to understand how the product will be demonstrated to the user and what will be the message. It is at this stage chosen channels of promotion and communication with the end user (Dann, 2011)
+It should also be mentioned in advance that there is a more extended 4P-7P model, which was expanded at the AMA Marketing Conference in 1981 at the suggestion of Booms and Bitner and collectively endorsed by the conference participants. More variables are added to this marketing mix concept: People, Process and Physical evidence. People – human factors that affect the product in one way or another. It can be the delivery person, the staff presenting the product. In other words, it is the interaction of personnel with customers. At this stage, decisions are made about hiring and training of staff, as well as accessories such as uniforms, tone of interaction with customers. Process – activities by which the customer receives final product. This is the process of creating, monitoring the product, and other manipulations that create a good or service. Physical evidence –  refers more to physical elements that are not human, but that are encountered by the buyer. These include furniture, buildings, interior design and related physical items  (Rafiq, Ahmed, 1995)
+There are 3 types of channels in digital marketing which are different by various characteristics. Paid media – is the media which is not owned by the brand and it is paying for placement in order to get users. Owned media are the channels which are owned by the brand. Those are usually websites, mobile apps or email. Earned media could be achieved by the PR activities. Those could be user mentions on social medias or influencer outreach (Chaffey, 2019).
+Like any field of endeavour, digital marketing is just as made up of tools that allow it to achieve its goals. There are different classifications of instruments. By geographical feature (local, global), by sector (B2B, B2C, C2C and others), by purpose (product promotion, lead generation, sale of goods, uplifting the image), by originality and by type of intermediary. (Peter, Vecchia, 2021). 
+There is a difference between digital marketing tools, strategies and channels. According to the American Marketing Association marketing strategy – is the process of identifying marketing goals. In order to achieve them there is a set of channels: traditional and digital. Thus digital marketing strategy is the part of marketing strategy which considers only the digital channels of marketing (Varadarajan, 2010). Marketing channel – is the set of people, organisations and activities which are necessary to transfer goods to the end customer (Coughlan, 2012). Thus digital marketing channels are using only the internet for the same purpose. Marketing tools consist of channels and platforms. So digital marketing strategies are made up of digital marketing tools. However, we want to point out that in the process of researching digital marketing tools and channels merge. Many studies that want to look at tools call them channels. This is hardly an error, but it should be taken into account. Further in the study both ways of naming will be considered.
+	It's also worth mentioning that there is no complete list of digital marketing tools. However, researchers are trying to highlight the most popular ones. There is a significant research that reviewed 24 main mentioned digital marketing tools. 14 tools were identified as the most frequently mentioned in the research (Peter, Vecchia, 2021):
+Affiliate marketing 
+Content marketing 
+Display/Online Advertising
+Email marketing 
+Online Public Relations 
+Search engine advertising
+Social media/Communities 
+Viral marketing 
+Website 
+Mobile marketing 
+Video marketing 
+Search Engine Optimization
+E-learning 
+Ecommerce
+In addition to the basic tools, the following were not mentioned: Analytics and monitoring, CRM and big data, Directories and listings, E-commerce and web shops, Promotions and e-coupons, Marketing automation, Marketing strategy, New technology, Video marketing and Wikies. Some of these marketing tools are quite generic. For example, email marketing is part of CRM, but as a tool itself it is more utilised, so it is separated. Wikies and E-learning can also be linked, as both tools involve common information. 
+	For a better understanding of digital marketing tools, this paper will review several works that have categorised these tools. This will provide a more complete picture of the tools. Other researchers may have a different view of the basic tools of digital marketing. This may be due to a combination of reasons: from the approach to the analysis, to the personal opinion of the author. In any case, it will allow us to get the most representative tools of digital marketing. It should also be noted in advance that researchers may call the tools slightly different in their works. For example, SMM may be called Social Media. For convenience, all the names of tools will be brought to the same form, as it was in Peter and Vecchia study (2021). Since in this paper the researchers tried to disclose the most complete number of tools mentioned in the studies.
+In the tool research by Rosokhata, Rybina, Derykolenko (2020) the following main tools were identified: 
+Website 
+Ecommerce sites (platforms)
+Online storefront 
+Electronic ordering tables 
+Price aggregators 
+Electronic marketplace 
+E-shop 
+Online auction
+Direct mail 
+Social networks 
+Forums  
+Authors have identified other equally useful tools for business, such as: Electronic ordering tables, Price aggregators, Electronic marketplace, Ecommerce sites (platforms), Forums, E-shop, Online auction.
+In the research “Digital marketing: an overview of channels and tools. Practical marketing” by Schevchenko  (2019) can be highlighted such as: Targeted advertising, Banner advertising, Viral marketing, SMS marketing, Mobile marketing. Some tools have already been mentioned in the studies above. 
+Below is a table with all the tools that were found when analysing the above-mentioned works.We would like to point out that previously discussed study by Peter et. al. (2021) can be considered the most objective in terms of presenting the popular tools. Therefore, it will be taken as the basis of the study. Such tools as price aggregators, online stores and marketplaces were grouped into one position ecommerce-platforms. This will be the only addition from other studies for the main one. Also, all tools are brought to the same name format as indicated in the baseline study (form source stays). The other studies allow us to identify 15 tools that overlapped. This will allow a more objective selection of the tools considered.
+
+Table 1
+Main digital marketing tools
+
+
+Source: сompiled by the authors based on study Vecchia et al. (2021), Rosokhata et al (2020), Schevchenko (2019)
+
+Since the study is based on the tools highlighted by the authors of The Digital Marketing Toolkit Peter & Vecchia (2021), the definitions below will be from their work. Instruments which definitions were not found in that paper will be noted separately. 
+
+Affiliate marketing is a method of promoting a business online, where the business itself pays money to an affiliate or any other reward for each visitor who takes a targeted action (p. 260).
+Content marketing is used to create and publish different kinds of content online for an audience. This tool is more suitable for attracting attention, creating an image or delivering information (p. 261).
+Display/Online Advertising – could be text, images, videos, banners published on third-party websites. They could be clickable or unclickable, so their main purpose is to engage with the audience (p. 261).
+Email marketing – form of marketing which uses email as a tool to send commercial messages to a targeted group of current customers or potential customers (p. 261).
+Online Public Relations (OPR) is a communication via the internet (content marketing, website, social media) with current customers or potential buyers in the public realm. It mainly focuses on making positive comments about the company or the product (p. 261).
+Search Engine Advertising (SEA) is a form of advertising which places websites in search-engines queries. They are mainly targeted to match the key word of search in the search-engine and the advertising (p. 261).
+Search Engine Optimization (SEO) – improve website traffic (quality and quantity) to be located higher in search-engines. SEO targets organic traffic (p. 262).
+Viral marketing – uses social media to promote products and services among other users. Usually, viral and catchy content is created that spreads quickly to increase the recognition of a product or service (p. 262).
+Video marketing – uses video content to promote a product or service. They could be used in different channels (p. 261).
+Social Media Marketing (SMM) – usage of different social media or platforms to promote products and services. This tool allows you to drive traffic to share information about the organisation (p. 262).
+Website – an important tool that allows you to deliver information and bring in customers, as well as generate sales. Some tools are used to drive traffic to this particular tool (p. 263).
+Influencer marketing – famous people or opinion leaders to promote their product or service. Often used in conjunction with social media (p. 263).
+E-learning (Wiki) – The tool is related to content marketing. This is the placement of training materials that actively promote the services of the brand and raise the level of interaction with it (p. 258).
+Mobile marketing –  is the use of wireless media with integrated content as direct marketing communication. Simply put, what goes through a cell phone: SMS, in-app advertising and other. (Leppäniemi, Karjaluoto, 2008)
+Ecommerce platforms – are platforms for transactions between sellers and buyers. Some of them have the ability to compare prices and are called price aggregators (Rosokhata et al, 2020)
+
+Digital marketing tools differ not only by channel and application, but also by purpose. Thus, companies can use certain strategies more often than others, based on their own goals. There are 4 main stages in the sales funnel and 5 stages of customer status where certain tools are more suitable. Below we will review the stages by Bhandari, Rama, Seth, Niranjan, Chitalia and Berg (2017) and the state of the user before each stage defined by Kotler and Keller, (2009). 
+
+Funnel Stage: Attract 
+Customer status: Awareness 
+At this stage, the user realises the problem and starts looking for solutions. Being in this stage implies that the user realises that a certain company's product can be a solution In this case, digital marketing tools are used to attract the attention of potential customers to the product. This can be articles, learning materials, online advertising
+
+Funnel stage: Convert 
+Сustomer status: Consideration
+In the second stage, the user already knows some of the information on how they can solve the problem. At this stage, companies try to convert the user to a purchase. They can use tools for lead magnets, some buttons and banners calling to action, websites. 
+
+Funnel stage: Close 
+Сustomer status: Purchase
+At this stage, the buyer is ready to buy and the purchase takes place. Purchase may be hindered by the factor of negative feedback and willingness to accept this negative feedback. This stage is dominated by tools like email, call centre, website where the customer can be drawn to purchase.
+ 
+Funnel stage: Delight 
+Customer status: Service 
+Person has made a purchase and this process primarily affects the customer's return rate in the future. This step is supported through tools such as support, chat rooms and other ways of communicating with the user.
+
+Customer status: Loyalty 
+The user is already loyal to the brand and will come back for repeat purchases. The tools that help support this are various letters, PR, media, blogs, and websites (Bhandari et al, 2017), (Kotler et al, 2013).
+
+Below is a table with digital marketing tools and their use at each stage of the customer journey based on Chatfield (2023). As we can see, not all tools follow the customer throughout the journey. For example, most digital marketing tools are used only in the first stages of Awareness and Consideration: Affiliate and Content marketing, Display/Online Advertising. There are also tools that are used at almost all stages of the journey: Email marketing, Website, SMM, Ecommerce platforms. It can also be seen that the tools that are used in the last stages of the customer journey are tools that can deliver information to the user on an ongoing basis: Websites, Online PR, SMM.
+
+Table 2
+Tool usage according to customer jouney map
+
+
+Source: сompiled by the authors based on study: Chatfield (2023)
+
+There are also cycles that affect companies. Depending on which company's cycle a particular tool can be applied. Van Laer and Ian Lurie (2018) have developed a cycle that successful companies use to implement their strategies. This cycle consists of 7 parts: Know Thyself – at this stage marketers need to understand what their goals are and how they relate to Aaker and Smith's HATCH model (humanistic, actionable, testable, clear and ensuring happiness); Know the Room – where companies need to identify their target audience; Dress Appropriately – the challenge is to understand the audience and prepare the right marketing strategy for them; Tell Stories – this is where companies should start promoting their products to encourage the user to make a purchase; Make a Connection – this is a very close step to the past, but the authors believe that tools should be included here, which increase the credibility of the product and the company in the media sphere, creating a link between the potential customer; Brag Modestly – many consumers who want to learn more need a reminder of the company's existence and important news stories; Observe and Adjust – the last stage of the cycle, this is where the company should look at the results and adjust its strategies. The researchers note that this system works for all companies that utilise strategy in the digital space. The researchers insist that the company is constantly at different stages in its digital marketing strategy, going round and round and improving its strategy or approach time after time. The researchers also point out the inherent tools in these approaches. The first 3 stages (Know Thyself, Know the Room and Dress Appropriately) are without digital marketing tools as they do not involve launches, but rather analytics and defining a strategy or approach. Researchers believe that at the Tell Stories stage, advertising begins to work: SEA, SEO, Display/Online Advertising, Video Marketing, Mobile Marketing; at the Make Connection stage, tools from the media sphere are connected: Online PR, SMM, Influencer marketing. At the Brag Modestly stage Content Marketing, E-learning starts working (Laer et. al., 2018). In other words, the choice of the  tool can be based not only on the company's strategy or its desires, but also on the stage of the digital marketing strategy.
+	Thus, in this chapter we have discussed the essence of digital marketing, identified more than 30 digital marketing tools and examined 15 of them in more detail. We have also explained the relevance of digital marketing for business at the present time. The customer journey, which consists of 5 steps, was also mentioned. It was defined what each stage means, and it was also analysed what tools are more often used and more suitable for each step in the customer journey. It was also revealed that the researchers' opinion about the main tools of digital marketing is heterogeneous and may differ from one job to another. In addition to customer journey, there are also 7 stages of digital marketing that can also influence the choice of digital marketing tools for companies. For the last three stages, the tools that are more suitable for use have been listed.
+
+
+
+
+
+
+
+
+
+1.2 Existing research on the digital marketing tools used by electronics companies
+
+According to Vocabluarly.com electronics company is that company which produces and sells electronic instruments (upd. 19.01.2024). The word can also be divided into electronics are the technologies that use chips and a company is an organisation that produces and sells goods and services according to Collins Dictionary (upd. 19.01.2024). In this study we obsereve smartphone manufacturing companies and the digital marketing tools they use to market their smartphones to the mobile device market. According to Fernandez and McCarthy (2002) an electronics manufacturers can be subdivided into several major manufacturing departments: 
+Industrial products – includes telecommunication equipment, radios, supercomputers, and other things that may be useful to businesses rather than individuals 
+Consumer products – the most common among similar companies. It includes many products: smartphones, TV, radios, kitchen appliances, home cleaning equipment, and many other things
+Electronic components – electron tubes, semiconductors, and passive components. These components are used to construct complex devices. 
+Governmental products – can be military technologies such as missiles, medical devices, and traffic tracking machines
+The South Korean company Samsung Group is a great example of a typical electronics company that has many divisions such as Samsung Electronics (consumer products), Samsung Heavy Industries (industrial products), Samsung SDI (electronic components) and Samsung Biologics (governmental products). (Samsung, 2020). Electronics company is a broad term for a company that makes electronic components, while smartphones are one of the likely products of that company. A similar term for simplification may be found in the paper for easier perception: electronics companies producing smartphones – ECPS.
+According to Kahn (1969) an international company is an organisation that has business operations in several markets across the globe. Charles Hill (2008) considers an international company as a firm that engages in international trade or investment. The main idea of these definitions is that an international company is only a company that interacts with various kinds of entities outside its own country. This can be investment, trade, cooperation and other activities.
+Companies allocate their resources between tools that are more suitable either for the vision of marketers or for the brand itself. Accordingly, the use of certain tools is conditioned by many parameters such as: goals, product, market, specificity of the tool, budget size. In other words, we can say that ECPS covers all digital marketing tools in one way or another. (Markova et. al., 2017). A similar formulation was stated in the study by Xi (2021).
+ECPS may prioritise some digital marketing tools over others, for example, Apple uses Online PR tools to a greater extent and competently exploits Viral marketing without turning it into annoying spam, in other words - word of mouth. While the Chinese company OPPO uses influencer marketing, prioritising it over the tools of digital marketing. The choice of these strategies in foreign markets is primarily due to the fact that the companies have different advantages and products in different price categories. (Tien, Toi, Chi, 2020). Another study compared the budgets for digital marketing campaigns of Samsung and Apple. Apple uses 99% of its budget for direct marketing - social networks, email marketing, use of its own website and only 1% goes to advertising networks for SEO, SEA, Affiliate marketing and other possible tools of this type, while Samsung invests only 60% in direct promotion channels (Website, Email), 22% goes to third party advertising network (SEA, SEO, Mobile marketing, Video marketing and others) and 3% goes to affiliate marketing. This division is due to the different marketing aproaches. (Thuy, Klimova, 2022). 
+ECPS are the companies that are most likely to release product and software updates. Therefore, they can utilise traffic generation resources like Display/Online Advertising, Mobile marketing and Video marketing more than other companies. Also, these companies are more likely than others to rely on their internal resources to serve as both a place to present a product and a place to sell it. Therefore, the ECPS Website is a very advanced digital marketing tool (Markova, Chzhao, Man, 2017). 
+Another study analysed the strategies (including marketing strategies) of more than 16 Taiwanese electronics manufacturing companies including: ASUS, Benq, MSI, Genius and others. Half of which produced smartphones. It was found that two factors influenced the company's action: innovativeness and marketing strategy. The companies were categorised into 4 types: 
+Market leader group – characterised by active innovation in their marketing strategy. They actively use new strategies and look for new ways to promote products
+Market focus group – characterised by active innovation in marketing strategies. But these innovations are not aggressive and the companies prefer stable continuous growth
+Market challenge group – companies show a trend in innovation of marketing strategies, but are slow to enter the market. Only after a major player has entered the market do these companies venture into the market. 
+Market niche group – companies focus on one specific product and show little or no activity in marketing strategies. 
+Thus, only 3 types of ECPS will try to innovate their strategies and tools. This will also have an impact on the tools that companies choose (Hsu, 2011).
+	Electronics companies is a heterogeneous structure that can consist of many departments. However, specifically in this paper we look at electronics companies in the consumer goods division, which is exactly where smartphone manufacturers fall. We have also defined an international company. ECPS can resort to the use of any digital marketing tools, as there is no prohibition of use for them. They can utilise all instruments that are potentially available in the market. Companies have some peculiarities that may influence the prioritisation of a certain list of instruments. The choice of instruments may also be influenced by market position
+1.3 Existing research on digital marketing tools used by electronics companies on domestic and foreign emerging markets
+
+The World Bank defines a developing country (emerging) as a nation with a low to middle per capita income – $4,255 (EPH, 2022) and less a weak industrial base, and a low Human Development Index (HDI) relative to developed countries (Sanford, 2003). Developing countries are often characterised by a higher prevalence of agriculture-based economies, limited access to technology, and higher levels of economic inequality. Examples of developing countries include those in sub-Saharan Africa, South Asia, and Latin America. There are 152 developing countries in the world. In our work we will focus on the research of direct marketing strategies in developing countries. Russia is considered as a country with an emerging market (developed country) as well as China, India, Thailand, Indonesia and Egypt will also be mentioned in the study. (UNCTAD Report, 2021).
+	According to Cambridge Dictionary (upd. 03.02.2023) domestic market is the number of customers who consume products and services offered by companies within their own country. And according to NASDAQ (upd. 05.02.2024) foreign markets are a part of a nation's internal market, representing the mechanisms for issuing and trading securities of entities domiciled outside that nation. We would like to note in advance that the terms foreign and domestic will be used in this study without specifying emerging. In all cases it will mean emerging markets.
+	When entering foreign markets, ECPS companies try to follow their original strategies. For example, Apple, which promotes exclusively through Online PR within its home market, tries to follow this strategy in all foreign markets. At the same time, companies try to use their unique approaches to promote the product. For example, Lenovo and Huawei largely copy the strategy of the market leader in the form of Samsung but with their own peculiarities. Huawei imitates Apple, but at the same time is more oriented to the marketing tools used by Samsung. There is a strong use of Online PR, Websites, SMM and Influencers in both market types. (Markova, Chzhao, Man, 2017). Other researchers note that in the developing countries of Asia, people are willing to spend a little more on a smartphone than in Europe. Therefore, this market is important for manufacturers. ECPS trying to attract attention to their brands often use paid media: Display/Online Advertising, Mobile marketing, Video marketing, SEA (Štimac, Vajda, Franjković 2020). ECPS have a large knowledge base about their users. Therefore, their own tools are often used for their marketing strategy both in foreign and domestic emerging markets. Especially Email marketing, which allows personalization of data (Cha, Lee, Choi, Kim, 2015). Unlike in emerged markets, potential buyers in emerging ones are used to view the smartphones in person but order them online. Therefore, for example, Huawei in Arab countries actively interacts with local ecommerce platforms. Also the knowledge about smartphones in a foreign emerging market about brands from other emerging countries is often low. Therefore, the use of paid traffic is quite important, as well as viral marketing and local influencers which helps to raise brand awareness (Saif, Aimin, 2015). Researchers note that companies often apply the same strategies in emerging foreign markets from country to country. This is the case of Xiaomi and Samsung in the Indonesian and Thailand markets, where the companies used similar tactics to apply digital marketing tools (Putri, 2021). Most common digital marketing tools used by ECPS: email, websites and SMM, and also mentions the use of Google's advertising cabinet, which suggests that such companies may use: Display/Online Advertising, SEA, Video marketing and Mobile Marketing. The author noted that all of these instruments are common to both domestic and foreign emerging markets (Hardy, 2021).
+The table below summarises the digital marketing tools and how prevalent they are in domestic and foreign developed economies. It was compiled based on the data obtained from the previously mentioned studies considering ECPS digital marketing tools usage on domestic and foreign emerging markets. As mentioned earlier and would be mentioned below, companies usually have a fairly high brand awareness in their home markets, so they do not care so much about aggressive product promotion. Whereas in new markets, companies need to use paid tools at a greater extent. Online PR, SMM, Websites, SEO, Email marketing are used more frequently in all markets. These communication channels are the most massive and simple, and they are also where users can find all the basic information they need. 
+
+Table 3
+Digital marketing tools usage by ECPS on domestic and foreign emerging markets
+
+
+Source: сompiled by the authors based on studies: Markova et. al. (2023), Štimac et. al. (2020), Cha et. al. (2015), Saif et. al. (2015), Putri (2021), Hardy (2021)
+
+Also putting together the information from Table 2 and Table 3, which are based on public research as well as on the basis of references in the works. It could be found out which parts of the customer journey are more important for companies in a particular market. ECPS have good recognition in the home market, so it can be noted that mostly tools are used that target the last stage of the journey: purchase, service and loyalty. For example Website, Email Marketing, Social Media Marketing, Online PR. These tools cover exactly the latter stages. While in the foreign market, tools that are aimed at the first two stages: Awareness and Consideration: SEA, SEO, Video Marketing, Influencer marketing and e.t.c. are used to a greater extent. It is also possible to identify tools that are used equally often on both domestic and foreign emerging markets. Basically, these tools are present at all stages of the consumer journey. For example a website, email marketing or social media. It should also be noted that this study does not say that domestic companies do not use these or those mentioned tools. 
+In this chapter, we defined emerging markets. We also highlighted the distinction between home and foreign markets, which will be discussed in more detail in the analysis in chapter two. ECPS use a certain set of tools in the home market, when entering a foreign emerging market try to stick to these tools as much as possible. Based on 6 studies discussed in this chapter, a table with digital marketing tools and their number of mentions in the home and foreign emerging markets was generated. Based on the visualised data from this table, conclusions for 1.3 have been put forward in which we have identified certain similarities and differences of ECPS tools in home and foreign emerging markets.
+
+
+
+
+
+
+
+
+
+
+2. Analysis of similarities and differences of digital marketing tools used by Xiaomi and Huawei in China and Russia
+2.1 Overview of electronics companies industry and market analysis
+
+	It should be noted at once that this chapter will focus on the ECPS (Electronics Companies Producing Smartphones) market. The smartphone market is a separate market.
+Based on Business Research data (2022), the smartphone market reached $1885.5 million USD in 2022. The smartphone market continues to grow and it is anticipated to grow almost one and a half times by 2031. Smartphone market is predicted to be $2992 USD million at a CAGR of 5.2% by 2031. In other words, the market is destined for a positive future. Of all the global regions, North America and Europe are predicted to retain their large smartphone market shares, but Asia will have the largest share, due to the region's rapid development, increased purchasing power, and the technological development of 5G networks. (Business Research, 2022). 
+	Also based on Business Research data, there are currently 18 top smartphone brands: Apple, Samsung, Huawei, OPPO, Vivo, Xiaomi, Lenovo, LG Electronics, Sony, ZTE, ASUSTeK Computer, BlackBerry, Gionee Communication Equipment, Google, Micromax, Microsoft, Nokia, OnePlus, and Panasonic. (Business Research, 2022).  However, not all of them have a large stake, and it's also worth considering that some companies have multiple brands inside one holding. For example: Vivo, OnePlus are owned by the Chinese holding BBK Electronics. As of Q4 2023, only 5 companies have a significant market share in the smartphone market: Apple 23%, Samsung 16%, Xiaomi 13%, OPPO and Vivo each 7% (Counterpoint research, 2024). The table below demonstrates the market share distribution of smartphone brands in the world from 2022 to 2023. It can be seen that the shares of the companies do not change significantly. In some periods Apple has the largest share, and in some periods Samsung has the largest share.
+
+
+
+
+Figure 1. Global Smartphone Shipments Market Data 2022-2023
+Source: Counterpoint research (2024)
+
+The case of Huawei will also be considered in this study. The share of this manufacturer in the smartphone market is 4% as for 2023 (Enterprise Statistics, 2024)
+The smartphone market is considered to be a highly competitive market. Players in this market are forced to innovate very quickly, introduce new products and actively compete with each other. However, despite all of the above, this market belongs to the type of markets with imperfect competition, which gravitates towards significant product differentiation and market segmentation (Krasova, 2016). Within the types of imperfect competition, this market belongs to oligopoly. This is explained by the high barriers to entry in the industry, as the sale of smartphones requires its own R&D and large monetary investments. Also, there are a limited number of manufacturers of the product in the market (Fan, Young, 2020).
+There are several major trends that will directly affect the ECPS market according to Business Research (2024):
+The development of 5G mobile networks, which will motivate companies to adapt their products to this network. GSMA (Global System for Mobile Communications) predicts that by 2025. 20% of all connections will be via 5G;
+Virtual and augmented reality will also develop, which will interact more with 5G technology;
+Continued expansion of the smartphone market in developing countries.
+The development of the smartphone market has its own factors that contribute to the increasing, slowing down or stopping the growth. Growing role of developing countries for manufacturers. Consumers in these countries have started to buy premium smartphones more actively, and there is also an increase in income, which contributes to more active spending on phones. Also, some drivers in the smartphone market may be the development of artificial intelligence, which will be increasingly used in the marketplace. However, there are also factors that will slow down the development of this market. These include global conflicts and trade wars between countries, especially between the US and China (Technoavio, 2024).
+	The digital marketing tools used by 5 ECPS in domestic and foreign emerging markets will also be analysed. Four Chinese companies: OPPO, Vivo, Realme and Infinix, as well as one Indian company Lava. To minimise the influence of one country on the analysis results, different emerging foreign countries will be reviewed. For OPPO it will be Thailand, for Lava it will be Egypt, Vivo in India, Realme in Indonesia and Infinix in Russia. It should be noted in advance that these companies are not targeted in this study, so a simplified analysis will be conducted for them. The purpose of which is to supplement the data for the study. As well as a better overview of the use of digital marketing tools by smartphone companies. For this analysis, two brands from the same holding company (BBK Electronics) were specifically taken: Realme and Vivo, to have an idea of whether tools can overlap across different brands from the same company. Also a company from India, to parse out brands other than Chinese brands. Company called Infinix, which only entered the Russian market in 2021, which may affect the choice of tools. 
+	OPPO in China's domestic market relies on the use of influencers as well as domestic platforms. The company has had to contend with larger players in the domestic market (Karthikeyan, Baji, 2023). The company actively uses SEA and Affiliate marketing. It hardly uses Email marketing and Display/Online Advertising (SimilarWeb, 2024). In the Thai market, the company is actively using ecommerce platforms. According to the frequency of user mentions, 73% of purchases were made through local partners. And only 27% through the company's official website in the country. Researchers note the active use of social networks by the company in the local market (Chen, 2020). In the external market, the same reliance is placed on partner advertising networks. There is a high level of use of video marketing (Tien, Thoi, Chi, 2020). As for Vivo, in its home market, the company is trying to copy successful social media experiences and is also using celebrities to promote its brand. The company is wary of Viral marketing and is not fully copying Xiaomi's strategy in the home market (Yuan, 2021). In the foreign market of Indonesia, the company uses 360 degree marketing. This strategy involves placing the same advertising message in several sources at once: SEO, Social Media, Content, Online PR (Reddy, Nalamalapu, Reddy, 2023). For Realme, the domestic market has not become the main market; in 2019, the company has not even chosen it as the first market to enter. In general, the company uses a rather meagre toolkit. On the domestic market, it is a website, SEO, some SEA and SMM (André, 2020). The company entered the Indian market and immediately began collaborations with local platforms, Affiliate marketing platforms, very actively using strategies related to paid traffic (Fortune India, 2022). Infinix is a fairly young company. On the domestic market it actively uses Influencer marketing, Affiliate marketing, SMM (Apac, 2022). In general, the company's strategy is quite the same for all markets. Therefore, the list of instruments is almost the same both in the domestic market and in the foreign market. The company generally targets its products specifically at emerging markets. Indian Lava Company has become popular in the domestic market. The company is very actively promoting its website both through SEA and SEO. Social media and Affiliate marketing are also actively used (SimilarWeb, 2024). The company follows a similar strategy in the Egyptian market, but tries to use the experience of local chains. 
+Below is a table that summarises the data obtained during the analysis of digital marketing tools. In the future, the table will be used in the analysis of each company. Below are the criteria by which a particular level of use of certain tools was given: 
+Not used: Score 0 - the tool is rarely or not used at all. It has minimal or no impact on marketing campaigns.
+Used: Score 1 - the tool is used and makes impact on digital marketing campaigns
+D – stands for Domestic emerging market. F – stands for Foreign emerging market.
+OPPO uses 13 out of 15 tools in both markets. 6 of them were mainstream and matched. Vivo uses 12 out of 15 tools in the home market and 11 tools in the foreign market. The company's strategy in the foreign market is slightly different. Realme has a meagre 10 tools in its home market versus 12 in the foreign market. Infinix uses one list of 13 instruments in both markets. Lava has 13 instruments at home and 12 instruments in the foreign market.
+
+Table 4
+Digital marketing tools usage by OPPO, Vivo, Realme, Infinix, Lava on domestic and foreign emerging markets
+
+Source: сompiled by the authors based on studies and reports: Karthikeyan et. al. (2023), Chen (2020), Tien (2020), Andre (2020), Fortune India (2022), Apac (2022), SimilarWeb (2024)
+
+Also during the analysis of the companies an approximate budget will be calculated. Since companies do not publicise their data, the budget calculation will be extremely approximate. However, it will allow us to reflect a certain picture. As a basis for calculations, we will take the average cost of the keyword 'buy smartphone', which is equal to 1.3$ USD. This cost we will multiply by the number of people who visited the site March 2023 - February 2024 through paid traffic accroding to Similarweb data. This will roughly reflect the company's budget for a particular country. Below is a table that visualises a company's approximate spending on paid traffic. Companies spend more of their budget on their domestic emerging markets than on foreign ones. It should be noted that this budget can be influenced by several factors. Among them: the company's strategy in a particular market, which determines the prioritisation of certain tools, the size and importance of the market for the company, the total marketing budget and the size of the company itself as a whole.
+
+Table 5
+ECPS approximate budget for paid media
+
+
+Source: сompiled by the authors based on authors calculations
+
+In this subchapter, the major players in the ECPS market have been discussed along with the major market trends that are related to 5G. It has also been determined that this market is an oligopoly. Further, an overview of the digital marketing tools used by companies in the domestic and foreign emerging markets and that the number of them may differ has been made. The approximate budgets based on public data for paid traffic of the companies were also determined. They appear to be larger in host emerging markets.
+
+
+
+
+
+2.2 Case study of Xiaomi digital marketing tools in China and Russia
+
+Subchapters 2.2 and 2.3 will emphasise quantitative and qualitative data, from which the prioritisation of certain digital marketing tools for companies will be derived. Qualitative research will be those studies that analysed the digital tools used by the company. For quantitative data, statistics provided by Similarweb will be used to analyse the tools on the Russian and Chinese market. The period of analysis taken in Similarweb: March 2023 - February 2024 (12 months). Certain conclusions will be drawn based on the data obtained. These findings will be digitised in a table on a scale of 1 to 5. The criteria for the scale will be given below.
+Xiaomi was founded by the creator Lei Jun in 2011 in the city of Beijing in China. Already in the same year, the company produced its first smartphone. By 2014, the company had a significant market position in the smartphone market. In 2023, the company became the 3rd largest global smartphone manufacturer with an active user base of 500 million people annually and a market share of 12% in the global market (Kan, 2014). In 2016, the company officially appeared on the Russian market. A year after the company's appearance on the Russian market, smartphone sales increased almost 20-fold (Cnews, 2017). After 4 years, the company has become the largest seller of smartphones on the Russian market, taking 32% of the market for smartphone shipments (Semenovykh, 2021). Such active growth of the company in both emerging markets is nothing short of admirable. Undoubtedly, this impressive growth of the company is not only due to good technology, proper management and sales strategy, but also due to competent marketing strategy. 
+It should be noted in advance that the company's competitive advantage is the creation of products of excellent quality and functionality at an affordable price. This advantage permeates the marketing strategy of the company. As it endeavours to draw attention to itself. The company has placed minimal reliance on traditional marketing, relying more on digital channels  (Panigrahi, 2019). The company uses a low price strategy. That is, their strategy as partially mentioned above is to sell the product at the lowest possible price. Thus, the company utilises internet marketing and its resources to lower the final cost of the product (Su, 2021)
+
+Digital marketing tools used by Xiaomi on Chinese Market 
+Xiaomi started out by selling smartphones exclusively online, but in 2015 it began utilising the Brick and Mortar scheme by selling electronics in stores (Kan, 2014). So now the company in China is focusing on selling devices in its showrooms or online on its website, moving away from its strategy of using ecommerce platforms in the home market (Panigrahi, 2019). However, the company cannot and will not completely get rid of resellers. Xiaomi actively uses online and offline stores such as Taobao and JD. COM, as well as sales channels such as Xiaomi Mall and Xiaomi Youpin. Thus, the company is diversifying its smartphone sales opportunities both through its own channels and through the e-commerce channels of major players. However, it should be noted that the company primarily relies on its own resources (Luan, 2022).
+Researchers note the company's active use of social networks in the domestic market to promote its products. The creator Lei Jun himself posted more than 100 comments on the social network Weibo regarding news about his company. It is noted that the company responded very actively and positively to the posts of users, thereby rewarding them with attention. The company was actively gaining market share through C2C stimulation, where users spread the news themselves and used somewhat viral marketing, based simply on PR news on the Internet . This marketing tool can be a bit dangerous for the company. Since stimulation to C2C can lead to the rapid spread of incorrect information or even faster spread of negativity, in case the company fails. In other words, such a strategy can both drown a company in glory or damage it very badly. In Xiaomi's case, it has been an extremely positive experience. In its home market, marketers dubbed it the "Xiaomi Phenomenon" (Shih, Lin, Luarn, 2014). With an active fan base and strong social media presence in the Chinese market, the company can do "Flash Promotions'' on potentially high sales days, generating huge revenue. (MarketMeChina, 2016).  In other words, social media is the foundation for Xiaomi to sell and promote its products in China. 
+Similarweb was also used to analyse the traffic to Xiaomi's official website (mi.com). 56.4 mln people visited the company's website. In the case of Xiaomi, they have a predominance of direct conversions: 49% and organic traffic around 30%. The company also uses Social Media – 6% of website traffiс. The company uses Referrals and Paid Search 5% and 3% respectively. Display/Online Advertising are also purchased slightly. Of all social networks, the company actively uses Chinese Tik-Tok, where 17% of traffic to the site comes from, and Weibo, where about 32% of all traffic to the site comes from. The remaining traffic comes from social networks such as QQ, Duoyin and Baidu Tieba. The budget for the realisation of paid traffic was also calculated, which amounted to $3.04m USD.
+
+
+
+Figure 2. Xiaomi website traffic in China: March 2023 - February 2024
+Source: Similarweb (2024)
+
+Below is a table that summarises the data obtained during the analysis of digital marketing tools. In the future, the table will be used in the analysis of each company. Below are the criteria by which a particular level of use of certain tools was given:
+Low level of usage: Score 1 – the tool is rarely or not used at all. It has minimal or no impact on marketing campaigns.
+Limited usage: Score 2 – the tool is used occasionally or to a limited extent. It makes little or no contribution to marketing efforts.
+Moderate usage: Score 3 – the tool is used regularly and plays a prominent role in the marketing strategy. It is used in some campaigns with moderate effect.
+High usage: Score 4 – the tool is used extensively and is an important component of the marketing strategy. It is consistently applied in campaigns with significant effect.
+Very High usage: Score 5 – the tool is used extensively and is a major focus of the marketing strategy. It is given strategic attention and is of exceptional value and importance.
+Clarification that these figures are based on the synergy of quantitative and qualitative data. Where Similarweb's quantitative data allowed us to refine the conclusions. Accordingly, the primacy was determined both by the opinion of the authors of the research, and by the number of mentions, as well as by the traffic of the tool. This table format will be used later in this paper to visualise the data obtained during the analysis.
+
+Table 6
+Xiaomi’s digital marketing tools usage on domestic emerging market
+
+
+Source: сompiled by the authors based on studies and reports: SimilarWeb (2024), Kan (2014), Panigrahi (2019), Luan (2022), Shih et. al. (2014), MarketMeChina (2016)
+
+Thus, during the analysis of both qualitative and quantitative data, we can conclude that Xiaomi uses a certain set of tools in the domestic market, prioritising some of them. We can say with certainty that the main tool in the domestic market of China for the company is Social Media, through which they try to convey information and warm up the audience. Through this channel they launch Viral marketing and successfully deliver their PR statements, which are picked up by the audience and spread through C2C. It is also possible to note the active use by the company of its resources, for example, the Web-site for realisation of marketing strategy. The company relies more on good brand awareness in the domestic market, so it does not launch online advertising. This can be seen as 63% of the customers get to the website by direct request, which indicates good brand awareness within China. The remaining minority of 27% get through search, which means that SEO marketing (Search Engine Optimization) is well developed. The company also uses Affiliate marketing, but to a much lesser extent. The amount of traffic to the site from social networks shows that the company uses this tool to a greater extent to raise awareness rather than sales. Email channels are also used, but its share is extremely small.
+
+Digital marketing tools used by Xiaomi on Russian Market 
+	In its foreign strategy, the company emphasises both the development of its online outlets like website and interaction with ecom platforms to expand sales channels. For example, Xiaomi in 2019 used the MTS online store to sell its devices, and trading platforms like Yandex Market were also actively exploited by the Chinese company (Avdokushin, Wei,  Kostromin, 2023). Also, the company not only tries to cooperate with e-commerce stores in the home market, but also organises joint cases of product promotion. For example, the company organised a joint launch of SEA and Display/Online Advertising on the Russian market together with DNS. According to Ingate, the company achieved impressive campaign results, reaching more than 8 million users (upd. 25.03.2024)
+Researchers note that the company tries to follow a "word of mouth" strategy, which has been their key to social media success at home and in other countries. To do this, the company engages influencers in the home market (Avdokushin, et. al., 2023). Other studies also note that the company decided to conduct the most cost-effective marketing in Russia and abandoned traditional marketing, giving all resources to the digital channel. Namely their most familiar strategy, which they have successfully implemented in China: the active use of social networks (Grigan, 2021). Overall, it can be seen that the company has a slightly different strategy in the foreign market. 
+It should be noted that Xiaomi after the events of 2022 is trying to take a cautious position in the Russian market in order not to be subjected to secondary sanctions. Thus, for example, in 2022 Wall Street Journal stated that the company is gradually reducing supplies to the Russian market and plans to leave it (Strumpf, 2022). However, as early as 2023 in January, the company began recruiting for its offices (Chernousov, 2023), and a Russian website has revealed information about the new Xiaomi 13 model. However, already in September of the same year, the company ran into secondary sanctions (Dorofeev, 2023). After that, the company became more cautious and, for example, information about the new Xiaomi 14 model did not appear on the official Russian website of the company. Of course, the company has not abandoned its official website and as the analysis below will show, it still uses paid media. However, now the Chinese company is trying to promote its products through a certified reseller Inventive Retail Group, which has a website ru-mi.com. In the course of the quantitative analysis, both sites will be considered to get the most representative data.  
+First, we will analyse the traffic to the official site of the company in Russia – www.mi.com. During this time, the company's website was visited by more than 25 million people with an average visit time of about 3 minutes. Mostly users came to the site from mobile devices. The most users came from organic search (3 million), which shows that SEO is well developed.  This most likely means that users already know the brand quite well on the domestic market. However, these conversions could be the result of various campaigns that push users to come to the site. A fairly large portion of traffic is referral conversions. The company utilises Affiliate Marketing. To a lesser extent, the company engages with channels such as Email and Display ads.
+
+
+
+Figure 3. Xiaomi website traffic in Russia: March 2023 - February 2024
+Source: Similarweb (2024)
+
+In 2022, the company reduced its marketing spend, especially on the paid traffic channel. However, in May 2023, the display advertising channel actively started to grow, almost 5 times. Apparently, the company has put paid promotion back into its marketing budget. Social media traffic distribution is also worth noting. 50% of all transitions to the site come from YouTube. 38% from the social network Vkontakte, the remaining networks: Telegram, WhatsApp and Odnoklassniki occupy a very small share of traffic to the site. These figures can mean the following. The company is actively using Influencer marketing on video hosting, promoting its products at local Influencers.  It is also interesting that one of the most significant places where Xiaomi ads lead is Yandex Market. 28% of outbound advertising leads to this platform. 
+	Most of the traffic on the official reseller of Xiaomi to the site comes from organic search - 60%. 28% of people come from direct conversions. 4% each belong to the Referral Channel and Social Media. The company uses SEA (Search Engine Advertising), which brings 3% of traffic to the site, as well as Email Marketing, but almost does not use Display/Online Advertising. It is worth noting that the company uses quite strong SEO, as 96% of organic queries are non-branded. For example, the official website of the company has 70% of this figure (Similarweb, 2024).
+
+
+
+Figure 4. Xiaomi’s reseller website traffic in Russia: March 2023 - February 2024
+Source: Similarweb (2024)
+
+The company pays money for the keyword Xiaomi. This word is quite expensive, so the company tries to move above the official site to get traffic. The company also actively buys articles on dzen.ru from which comes about half of all referral traffic. The company actively uses the social network Vkontakte, from which it receives a little more than half of the traffic, and also attracts traffic from YouTube - 38%. To an equally small extent, the company uses messengers from WhatsApp and Telegram, which give it only 11% of traffic to the site. The budget for the realisation of paid traffic was also calculated, which amounted to $126k USD in a year for both websites.
+	
+Table 7
+Xiaomi digital marketing tools usage on foreign emerging market
+
+
+Source: сompiled by the authors based on studies and reports: SimilarWeb (2024), Avdokushin et. al. (2023), Grigan (2021), Strumpf (2022), Chernousov (2014), Dorofeev (2016)
+
+In the course of analysing the traffic to both sites: the official site of the company and the official site of the Russian reseller, it can be seen that they share a common approach to advertising. Quite a strong emphasis on SEO, as well as general promotion of their site. The company tries to promote it through Affiliate marketing, Influencer marketing, Viral marketing. The company also actively uses its social networks, especially Vkontakte. Of course, there is a slight difference in approaches. Reseller has to emphasise SEA (Search Engine Advertising) in order to interrupt direct requests to the official site. There is a sort of unified approach to marketing campaigns.
+	
+Table 8
+Xiaomi digital marketing tools usage on domestic and foreign emerging markets
+
+
+Source: сompiled by the authors based on: Table 6 and Table 7
+
+Prioritisation of company tools differs in domestic and foreign markets. For example, in China there is more emphasis on social networks and Online PR. In Russia, however, the company focuses on e-commerce, Influencers, SEO optimization and Affiliate marketing. According to indirect signs, it is noticeable that the company has a higher brand awareness in China than in Russia. In the foreign market the company tries to emphasise those tools that will help to raise it. However, we can also notice that the company also has its own style of marketing, which it keeps both in the home and foreign market. In Xiaomi's case, it is the active use of social media and interaction with the public. Of course, this style is as much related to the practices that have led the company to success as it is to the positioning of the product. Below is a table that will help to visually highlight the difference in prioritising the use of certain tools in the foreign market.
+Also, if we refer to Van Laer and Ian Lurie's Seven Stages of Digital Marketing model, we can determine, based on the tools inherent in each stage, that this company is at different stages in two different countries. In China, there is already a greater emphasis on the tools inherent in the Brag Modestly and Make Connection stages. While in Russia it is still “Make connection” and “Tell Stories”. This is due to the fact that the company has already gained a lot of brand knowledge in the market and should invest in other tools, while the Chinese company in Russia has only been in Russia since 2017 and the brand knowledge of consumers, as well as the company's own knowledge of consumers is at a different level. It should be noted in advance that this division is rather conventional, but it is representative. Also, the company in this case is in the Market focus group in Russia and in the Market leader group in China.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2.3 Case study of Huawei digital marketing tools in China and Russia
+
+Huawei is a Chinese multinational technology company based in Shenzhen. The company was established in 1987 by Ren Zhengfei. Initially, the company's business was based solely on telecommunications equipment, from which it began its international expansion in the 90s (Feng, 2019). In 2003 she opened a handset department and in 2004 presented her first device C300 (Huawei, 2024). In 2015, the company overtook Apple in the number of smartphones released, it is believed that the company now holds about 14% of the global smartphone market according to IDC data (upd. 31.03.2024). In the domestic market, this figure is 17% (Forbes, 2024). The company appeared in Russia in 1997 and only in 2013 officially opened its online store, starting to sell smartphones to Russian consumers  (Huawei, 2024). The company notes its particular affinity for the Russian market, as it is officially the first international market it has entered. Despite this, the company held a modest 2.8% share of the Russian smartphone market in 2022 (Forbes, 2022). 
+It should be noted in advance that Huawei has quite strong ties with the Chinese government and the Red Army, as it is a strategic enterprise. This not only imposes some peculiarities of conducting marketing strategies, but also affects the relations with other countries. This makes the company behave a bit differently  (Chung, Mascitelli, 2015). The company emphasises people who do business as its key audience. Tries to emphasise the performance and quality of its smartphones (Labbrand, n.d.). Huawei tries to use both digital marketing and classic marketing. The Chinese company utilises a competitive pricing strategy, trying to occupy both upper and lower price segments with its products. Marketing messages are mainly delivered through its website and also uses influencers and brand collaborations to create the desired media image (Shastri, 2022). 
+
+Digital marketing tools used by Huawei on Chinese Market 
+	Building a public relationship with its potential audience was one of Huawei's main strategies during its early marketing in the smartphone market. In general, this strategy has remained in the company's circulation. The company is quite open in its Online PR activities: it comments, posts news, actively talks about its new products and advertises their features. Recently, the company has begun to exploit social networks more actively for its own purposes, but in this case their role is a little less for the Chinese smartphone brand. It should also be noted that the company is trying to get the attention of users by using Influencers. Moreover, Hollywood-scale Influencers. For example, in China, advertising with "Superman" (Henry Cavill) and "Black Widow" (Scarlett Johansson) is very popular. Of course, such contracts, because of their price, are global and not exclusive to the Chinese market. Alone and in the domestic market, the company is betting pretty high on local influencers as well. Researchers attribute this to the manufacturers' desire to appear the same as Korean and American smartphone brands. Huawei had a negative experience with perception in the domestic smartphone market at the beginning of its operations (Guanghui, 2019).
+	The company is also engaged in paid media tools. Company's active use of resources to place Video and Display/Online Advertising on such Chinese resources as Youku, Tencent Video and Iqiyi (Guaghui, 2019). In general, during the development of marketing channels, the company began to deviate towards digital resources. Especially paid media. The company has very large resources especially in the domestic market (Alhassan, Alajmi, 2019). Also due to its resources and great influence (the company is the largest manufacturer and supplier of telecommunication equipment in the domestic market). Huawei actively uses Affiliate marketing, involving local operators and even the authorities (Low, 2007). 
+The website consumer.huawei.com, which is used to officially sell Huawei devices in China, was analysed. Over the course of 12 months, 51 million people visited the site with an average visit time of almost 14 minutes. This shows that the company puts a lot of effort in developing its website and filling it with content. Which makes users linger on it. 68% of the traffic comes directly, which can indirectly indicate a very good brand awareness in the domestic market. 28% of traffic comes organically. The company actively engages with referral traffic, which accounts for 6%. As mentioned above, there is a very active use of collaborations. Display/Online Advertising, paid traffic, social media are utilised by the company. 
+
+
+
+
+Figure 5. Huawei website traffic in China: March 2023 - February 2024
+Source: Similarweb (2024)
+
+However, despite the small percentage of paid traffic, the company is actively using SEA campaigns on Baidu – 2%. But there is small share of Display/Online Advertising. Also, social media is not very actively used. Mostly only Weibo - 43% and WeChat - 20% (Similarweb, 2024). The budget for the realisation of paid traffic was also calculated, which amounted to $8.6m USD in a year.
+	Thus, we can note that the company has a fairly good recognizability in the domestic market and does not make much use of tools that contribute to its increase. For the company, its website is critically important, on which it binds all its marketing. This is evidenced by a whopping 13% of website visits. In comparison, according to Zhuikov (2021) corporate websites have an average visit time of about 2 minutes.The company makes very active use of Online PR tools, which it links to its website. Also the company thanks to its influence tries to use Affiliate marketing, as well as Influencer marketing. And the latter at a very high level, using expensive celebrities. Below summrising table is located.
+
+Table 9
+Huawei digital marketing tools usage on domestic market
+
+
+Source: сompiled by the authors based on studies and reports: SimilarWeb (2024), Guanghui (2019), Alhassan et. al. (2019), Low (2022), Shastri (2022)
+
+Digital marketing tools used by Huawei on Russian Market 
+As already mentioned, the company itself considers the Russian market to be very important, both from an ideological point of view and from the point of view of resources. However, despite that fact, its brand awareness is not at a very high level. Therefore, the company tries to conduct information marketing campaigns on paid sources aimed at increasing brand awareness (Alai, 2018). The company, as well as in the Chinese market, makes quite a big emphasis on interaction with local influencers on various channels (Alhassan, Alajmi, 2019). Huawei makes an active cooperation with local brands, especially in the telecom market. For example, in 2019, the company actively sold its smartphones through the e-commerce platforms:  MTS, Megafon and Beeline. Huawei is also actively using its online PR to promote itself in a new market. It holds many events, which it actively covers on its website and in social networks. In general, the company is known for its "mature" and restrained promotion strategy in the Russian market. Researchers state that the company promotes its products very strongly for its relatively adult and serious target audience. (Zhen, 2018). 
+The website consumer.huawei.com, which is the official website for the sale of smartphones in Russia by Huawei will be used in the analysis of quantitative data. In 2022 the company, fearing repeated sanctions, stopped supplying products to the Russian market (Korolev, 2023). However, in July of the same year, the company resumed supplying gadgets to the Russian market and continued to maintain its website (Izvestia, 2022). Therefore, we can confidently assert that the company officially and fully operates in the Russian market.
+16.56 million customers visited the site, but this is down 12% from last year's traffic. The Russian site is visited by 56% of users organically and only 30% come there directly. This may suggest that the company does not have a very high brand awareness. The third largest source of traffic is Referrals - almost 8%. This feature of the company's marketing has been highlighted earlier and is further confirmed by the traffic sources. The company also relies on Email Marketing - 2% of traffic and Social Media - 2%. Display ads and Paid traffic are hardly utilised by the company. The page view depth is 2 minutes, which is in line with the market average.
+
+
+
+
+Figure 6. Huawei website traffic in Russia: March 2023 - February 2024
+Source: Similarweb (2024)
+
+At the moment 58% of all organic queries are branded, but their number has decreased by almost 20% over the past year. This may indicate that Russian users are losing touch with the brand. The budget for the realisation of paid traffic was also calculated, which amounted to $48k USD in a year.
+The company uses a certain set of instruments on the Russian market, which has shown itself positively on the domestic market. The quantitative and qualitative analysis did not reveal any strong divergences in the strategy. The company uses Affiliate marketing and Influencer marketing quite actively. The company also actively promotes its position on e-commerce platforms of partners in the Russian market. However, it hardly uses its website to promote its products.
+
+Table 10
+Huawei digital marketing tools usage on foreign market
+
+
+Source: сompiled by the authors based on studies and reports: SimilarWeb (2024), Zhen (2018), Alhassan et. al. (2019), Alai (2022), Korolev (2022)
+
+Huawei has its own approach to marketing. The company prioritises Affiliate marketing and relies heavily on Influencers who have not let it down yet. The company is also actively developing its social website and aligns all marketing channels in such a way that they increase its role in marketing. This is noticeable because the average viewing time is 10 minutes in China, which is an extremely high figure. In turn, in Russia, the company uses a very limited number of tools. However, it prioritises all the above-mentioned tools. According to the duration of browsing, we can understand that either it is not a priority tool for the company, or its prioritisation has failed in the foreign market. Instead, the company relies on partners' e-commerce platforms, with telecommunication companies in particular noted.
+
+Table 11
+Huawei digital marketing tools usage on domestic and foreign emerging markets
+
+
+Source: сompiled by the authors based on: Table 9 and Table 10
+
+Company's position according to the Seven Stages of Digital Marketing model, the company in China is in the Brag Modestly and Make Connection stages. These conclusions can be drawn in the course of analysing the digital marketing tools that the company prioritises in its home market of China. In Russia, the company is at the Make Connection stage. Since the company has been in the country for quite a long time, it rightly believes that its brand recognition is at a fairly high level. Also, the company in this case is in the Market challenge group in Russia and in the Market leader group in China.
+3. Findings and recommendations
+3.1 Research findings
+The analysis revealed that there are 15 main tools of digital marketing, which are listed in the table. However, the opinion of researchers about the main tools of digital marketing is divergent. It should be realised that the development of these tools is in real time. Therefore, we may see new tools in the future and stop noticing the old ones. Digital marketing tools not only differ in their objectives, but also in the applicability of use to certain stages of the funnel. There are 5 goals and they are the stages of converting a potential customer into a loyal customer: Awareness, Consideration, Purchase, Service and Loyalty. Each of the tools can fit one goal or multiple goals. ECPS companies, as such, use all possible digital marketing tools and there are no inhibitions for them. Researchers have not identified any digital marketing tools that are ignored by ECPS. Market Leader Group or Market Focus Group among ECPS generally invented new digital marketing tools in the Taiwan market and were not afraid to experiment with new ones. There are also digital mrekting stages where companies tend to use certain set of tools more. This consists of several meshed stages. 3 of 7 are the engagement stages: Tell Stories, Make a Connection, Brag Modestly. Being at a certain stage can force a company to prioritise certain tools in their strategy.
+	ECPS companies have their own peculiarities of using digital marketing tools. First of all, they rely on their own resources as well as on digital marketing tools that generate traffic. Companies of the same BBK holding - Vivo and Realme (OPPO left the holding) used different tools in both domestic and foreign emerging markets. Lava and Infinix, entering the new emerging markets of Egypt and Russia, prioritised Affiliate marketing and E-commerce tools a bit more than others, which implies the use of other people's experience. 
+The analysis of 7 companies revealed similarities and differences in the use of digital marketing tools in domestic and foreign emerging markets. Primarily used in both markets foundational pillars in their digital marketing strategies, enabling them to enhance brand visibility, engage with consumers, and drive traffic to their online platforms. These tools are often used in conjunction with other tools. They can be landing pages for advertising and point of sale. Display/Online Advertising are used less frequently, but are the same priority for ECPS in both markets. They can bring traffic and raise awareness, but are much more expensive for companies. Therefore, their prioritisation can be limited.  Video marketing, Email marketing and Mobile marketing can also be attributed to these tools. Email marketing is a niche tool that has been given a relatively small role in marketing strategies everywhere. E-learning has hardly been utilised by companies in any market.
+Of course, there are differences in ECPS strategies in foreign and domestic emerging markets. For example, on domestic markets companies gave priority to such tools as: SEO (Search Engine Optimization), Content marketing. These tools help to attract attention to their products inexpensively and are often linked to other tools. This suggests a stronger emphasis on better brand knowledge and reputation within their home countries, possibly due to higher brand awareness and market penetration. The situation is more interesting in the foreign market, where more often than not the company has less awareness of the company by the audience. Companies were slightly more likely to use Display/Online Advertising, SEA (Search Engine Advertising). These tools generate traffic and increase brand awareness. Also, companies in the foreign emerging market were more likely to seek help from local Ecommerce platforms and Affiliate marketing partners. This allowed them to get a more ready audience, get expertise from a local player and more competent promotion within their platform. And also the audience became more loyal to the foreign brand as they saw that they were being sold by a well-known brand. Also ECPS, which tended to use Viral marketing in the home market, almost did not use it in the foreign market. This is most likely due to the aggressiveness of this approach and the possibility of incurring the wrath of the local audience based on misunderstandings on both sides. 
+
+Table 12
+Huawei and Xiaomi digital marketing tools usage on domestic and foreign emerging markets
+
+Source: сompiled by the authors based on: Table 8 and Table 11
+
+Companies, on average, used 1 more tool in the home market. It is noticeable that ECPS most often avoid E-learning and Email marketing. Content marketing is also not often used. Viral marketing, Mobile marketing are also among others. The rest of the tools are used by ECPS in one way or another. The only question is the prioritisation of these tools.
+
+Table 13
+ECPS digital marketing tools usage on domestic and foreign emerging markets
+
+
+Source: сompiled by the authors based on: Table 4 and Table 12
+
+Also during the budget analysis it was revealed that ECPS in the home market had 87% more budget for paid traffic. This is most likely due to the fact that the home market is more prioritised for the company, and that typically the home market had a superior population. Therefore, the budget for it had to be expanded. However, as part of their budget, ECPS in developed markets directed the majority of their entire budget specifically into tools that raise Awareness. The larger a company's budget for paid traffic tools was, the more tools it could prioritise in general. This is because a potentially larger budget allowed other tools to be connected to a greater extent. 
+
+Table 14
+All observed ECPS approximate budget for paid media
+
+
+Source: сompiled by the authors based on authors calculations
+
+The study also revealed differences in the peculiarities of application of ECPS digital marketing tools. In PR tools companies try to drive traffic to social networks in the domestic market, while in the foreign market - to their website. In the foreign market, companies run more Display/Online Advertising with news content (new device, new feature) and in the domestic market more emphasis on promotions, promos and discounts. Viral marketing is used very cautiously in the foreign market, more often avoided altogether, but in the domestic market it is used quite straightforwardly. Also on the foreign market companies in SMM rely on local influencers within the platform. In their own market, they try to avoid it. Also in the domestic market, companies try to transfer even from the platforms of users to their own resources to close everything on themselves. But in the foreign market, companies actively interact with e-commerce platforms. The study also revealed another peculiarity of ECPS - companies tried to use on the foreign market the same instruments that have proved themselves on the domestic market. The difference was only in the prioritisation of certain instruments, depending on the company's goals.
+
+Table 15
+All observed ECPS approximate budget for paid media
+
+
+Source: сompiled by the authors based on 2.2 and 2.3
+
+Regarding the Seven Digital marketing stages by Van Laer - ECPS in the domestic emerging market were most often in the stages: Make Connection - Brag Modestly. While emerging foreign markets: Tell Stories – Make Connections. Marketing group on domestic markets is usually a leader group. Foreign markets – focus group or challenge group.
+	The analysis identified similarities and differences of digital marketing tools for ECPS in domestic and foreign markets. All conclusions of 1.3 were confirmed during the analysis in the second chapter and also supplemented with new data. The application specifics that were also mentioned in 1.3 were also complemented. A specific ECPS may not use the entire list of instruments. However, an ECPS as a whole, may use all of them. This was further confirmed on a sample of 7 companies. We also determined the approximate budget of companies to use paid traffic. It can vary greatly both in the home market and in the foreign market. But the tendency to have larger budgets at home is traceable. 
+
+
+Table 16
+Similarities and differences of digital marketing tools used by electronics companies on domestic and foreign emerging markets
+
+
+Source: сompiled by the authors based on 3.1 
+
+
+
+
+
+
+
+
+
+
+
+
+
+3.2 Recommendations for the international electronics companies
+
+In the course of the analysis, several recommendations could be highlighted that can apply to ECPS. It should be recognized that ECPS strategies in foreign markets that prioritise Affiliate marketing and Ecommerce tools are correct strategies. They not only allow you to leverage local expertise, but also minimise your costs. Careful use of viral marketing tools is also recommended. As the case of Xiaomi in Russia in 2019 showed - this can lead to high costs. If companies want to promote their product in a foreign market on their own, they should study more thoroughly the specifics of the application of tools and their effectiveness. It is even better to rely on the experience of local players and partners.  If a company has several websites at its disposal. For example: a company website and a website that sells products (the case of Xiaomi in Russia). If SEA is used, duplicate words should be avoided as it increases the cost of the targeted action and bloats the budget. And you should also lead to the site that sells only using keywords that contain the action “buy”.
+If a company has a small budget, it should first of all develop owned-media tools: website, SMM, Online PR, Content marketing, SEO, and then connect paid media tools (SEA, Video marketing and others). This will maximise efficiency. It is also recommended to use E-learning more actively. Smartphones are a technically complex product. There is more to tell the consumer about it than companies realise. It is important for companies in foreign markets to focus on creating content that conveys the brand's story, values, and history. By captivating potential customers and forging an emotional bond with the brand, businesses can enhance conversion rates and foster customer loyalty.
+Also, companies should not forget that digital marketing tools that serve as pillars (Website, SMM, SEO) are the key tools to start with. And then other tools should be connected afterwards. It is recommended to use Influencer marketing more often in foreign markets, as it is an opportunity to show an unfamiliar and foreign product in a good light. As people often know the local celebrities. Also this tool is great to link to others, which allows you to direct traffic to your resources more effectively. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3.3 Limitations and recommendations for the further research
+
+This study only used a small sample of smartphone companies. Including more companies in the sample could give a better understanding of the differences and similarities between domestic and international markets. The findings of the study could be heavily influenced by the specific geographic locations of the markets. The landscape of digital marketing is constantly changing, with tools that are currently overlooked potentially becoming vital in the future. It is essential to conduct thorough research that considers both the latest trends and developments within the industry.
+Over longer time periods, studies will monitor how companies in various markets evolve their preferences and marketing tactics. Further investigation can delve into the specific strategies of individual companies to grasp their successful methods and challenges across markets. Comparisons can also be made between the digital marketing approaches of smartphone companies and other electronic or related industries to pinpoint distinct characteristics and shared patterns. With technology advancing rapidly, ongoing research should explore new tools and trends in digital marketing like augmented reality, voice search, and other innovative developments.
+
+
+
+
+
+
+
+
+
+
+
+Conclusion
+
+The study analysed the complex landscape of digital marketing tools used by ECPS companies, revealing their strategies and nuances in domestic and foreign emergin markets. Fifteen main tools were identified and analyzed among the companies. Although foundational tools such as Website, SMM and SEO remain ubiquitous. Tool usage still reflects different patterns in different markets. In the domestic market, ECPS show a trend towards tools to power up brand recognition, engagement and increase visibility. On foreign emerging markets we may observe a strategic shift towards Affiliate marketing and E-commerce which indicates a reliance on local knowledge. Although companies try to raise their brand awareness on foreign markets utilizing paid media tools, whike using Viral marketing tool caution is exercised. Budget allocations also reflect strategic nuances, with larger amounts in domestic markets, highlighting home regions' priority and smaller budgetary allocation in foreign markets. The peculiarities of application of some instruments that are present in both foreign and domestic emerging markets have also been highlighted.
+It should be noted that it is crucial for ECPS to consider local specificities not only for the selection of tools but also for a more correct application. By doing so, it is possible to achieve a better connection with the audience in both the domestic and foreign emerging market.
+Thus, all the objectives of the study have been fulfilled: review of digital marketing tools, as well as the specifics of their application by ECPS in general and in foreign emerging markets. A review of the industry and in-depth case studies were made, which allowed to find similarities and differences in the application of digital marketing tools by electronics companies in domestic and foreign emerging markets. The goal of the study was achieved. 
+
+References
+
+Research papers and articles
+Alai, Е. (2018). Featuer of Huawei development in Russia. Cyclicity in development of social systems at different levels (pp. 289-293).
+Alhassan, S., & Alajmi, D. (2019). Huawei. Journal of The Community Development in Asia, 2(3), 37-44.
+American Marketing Association (n.d.). Digital Marketing. AMA Retrived February 14 2023 from https://www.ama.org/what-is-digital-marketing/
+André, R. (2020). THE APPLE OF CHINA.
+Asian Business Review (2022) Infinix’s ZERO X Series bags Marketing & Brand Initiative of the Year – China award for marketing initiative. Asian Business Review Website. Retrieved May 1, from https://asianbusinessreview.com/co-written-partner/event-news/infinixs-zero-x-series-bags-marketing-brand-initiative-year-china-award-marketing-initiative
+Avdokushin, E.F., Wei, C. & Kostromin, P.A. (2023). Xiaomi's marketing strategy in the smartphone market. Innovation and Investment, (4), 55-58.
+Batyrov, T. (2024). Huawei smartphones have overtaken the iPhone in terms of sales in the Chinese market. Forbes Official Website. Retrieved 31 March, 2024 from https://www.forbes.ru/tekhnologii/507489-smartfony-huawei-obognali-iphone-po-prodazam-na-rynke-kitaa
+Bhandari, A., Rama, K., Seth, N., Niranjan, N., Chitalia, P., & Berg, S. (2017). Towards an efficient method of modeling “Next Best Action” for Digital Buyer’s journey in B2B. In Machine Learning and Data Mining in Pattern Recognition: 13th International Conference, MLDM 2017, New York, NY, USA, July 15-20, 2017, Proceedings 13 (pp. 107-116). Springer International Publishing.
+Cha, Y. J., Lee, J. H., Choi, J. E., & Kim, H. W. (2015). A Topic Modeling Approach to Marketing Strategies for Smartphone Companies. Knowledge Management Research, 16(4), 69-87.
+Chaffey, D. (2015). Definitions of Emarketing vs Internet vs Digital marketing. Smart Insights.
+Chaffey, D., & Ellis-Chadwick, F. (2019). Digital marketing. Pearson uk.
+Chatfield, E. (2023). State of customer marketing report. Customer marketing alliance 
+Chen, X. (2020). A research about promotion strategy of OPPO Thailand
+Cheng, A., Feng, E. (2019). China's Tech Giant Huawei Spans Much Of The Globe Despite U.S. Efforts To Ban It. NPR Website. Retrieved 31 March, 2024 from https://www.npr.org/2019/10/24/759902041/chinas-tech-giant-huawei-spans-much-of-the-globe-despite-u-s-efforts-to-ban-it
+Chernousov, I. (2023) Progerssive return: Xiaomi and Honor resume activeity in Russia. Izvestia Website. Retrieved March 24, 2024 from https://iz.ru/1459409/ivan-chernousov/vozvrat-postupatelno-xiaomi-i-honor-vozobnovliaiut-aktivnost-v-rossii
+Chung, M., & Mascitelli, B. (2015). Strategic positioning of Huawei on the International political stage. International Journal of Asian Business and Information Management (IJABIM), 6(4), 1-13.
+Cnews (2017). How Xiaomi is conquering the Russian market. Cnews Website. Retrieved March 22, 2024 from https://www.cnews.ru/articles/2017-11-02_kak_xiaomi_zavoevyvaet_rossijskij_rynok
+Cnews (2023).Xiaomi hit by Western sanctions, its smartphones banned from sale. It's all Russia's fault. Cnews Website. Retrieved March 31, 2024 from https://www.cnews.ru/news/top/2023-09-21_xiaomi_narvalas_na_sanktsii
+Coughlan, A. T. (2012). Marketing Channel Design and Management. Kellogg on Marketing, 232-257.
+Dann, S. (2011). The marketing mix matrix. In Proceedings Academy of Marketing Conference (pp. 5-7).
+Fan, Y., & Yang, C. (2020). Competition, product proliferation, and welfare: A study of the US smartphone market. American Economic Journal: Microeconomics, 12(2), 99-134.
+Fernandez, P., & McCarthy, I. P. (2002, April). An evolutionary classification of electronics manufacturers. In Manufacturing Network Complexity Conference (pp. 1-10).
+Fifield, P. (2012). Marketing strategy. Routledge
+Fortune Business Insights (2024). Smartphone market size & COVID-19 impact analysis. Fortune Business Insights Official Website. Retrieved March 4, 2024 from https://www.fortunebusinessinsights.com/industry-reports/smartphone-market-100308
+Fortune India. (2022) Brand Realme: A story of Setting Digital Milestones. Fortune India Website. Retrieved May 1, 2024 from https://www.fortuneindia.com/enterprise/brand-realme-a-story-of-setting-digital-milestones/11
+Grigan N. (2021). Marketing research of chinese companies Xiaomi and Huawei in the Russian market: findings and conclusions. Sciences of Europe, (72-2), 17-22. doi: 10.24412/3162-2364-2021-72-2-17-22
+Guanghui, G. (2019). Research on Marketing Strategy of Huawei’s High-end Smartphones. Siam University.
+Hardy, E. (2021). The Smartphone Market.
+Hill, C. (2008). International business: Competing in the global market place. Strategic Direction, 24(9).
+Hsu, Y. (2011). Design innovation and marketing strategy in successful product competition. Journal of business & industrial marketing, 26(4), 223-236.
+Huawei (n.d.) About Huawei Consumer Business Group. Huawei Official Website. Retrieved 31 March, 2024 from https://consumer.huawei.com/my/about-us/
+IDC (2022). Worldwide Quarterly Mobile Phone Tracker. IDC Website. Retrieved 31 March, 2024 from https://www.idc.com/getdoc.jsp?containerId=IDC_P8397
+Izvestia. (2022) Huawei resumed shipments of smartphones and other gadgets to Russia. Izvestia Website. Retrieved April 4, 2024 from https://iz.ru/1364413/2022-07-13/huawei-vozobnovila-postavki-smartfonov-i-drugikh-gadzhetov-v-rossiiu
+Kahn, Philippe. "International Companies." J. World Trade L. 3 (1969): 498.
+Kan, M. (2014). Why are Xiaomi phones so cheap?. Computerworld Website. Retrieved 22 March, 2024 from https://www.computerworld.com/article/1386750/why-are-xiaomi-phones-so-cheap.html
+Karthikeyan, A., Bajj, A. (2023) Oppo's Marketing Strategy: Redefining Mobile Innovation. Startup Talky Website. Retreived May 1, 2024 from https://startuptalky.com/oppo-marketing-strategies/
+Kingsnorth, S. (2022). Digital marketing strategy: an integrated approach to online marketing. Kogan Page Publishers.
+Korolev, P. (2023) Huawei received a stable 1.3% of global revenue in Russia. Comnews Website. Retrieved April 4, 2024 from https://clck.ru/3AYnrr https://iz.ru/1364413/2022-07-13/huawei-vozobnovila-postavki-smartfonov-i-drugikh-gadzhetov-v-rossiiu
+Kotler, P., Keller, K. L., Koshy, A., & Jha, M. (2013). Marketing management: a South Asian perspectives. Pearson.
+Krasova Elena Viktorovna (2016). Consumer and competitive environment of the global smartphone market: features and characteristics. The azimuth of scientific research: economics and management, 5 (4 (17)), 196-199.
+Labbrand (n.d.) A Battle in the Red Ocean: The Positioning Strategies of Chinese Smartphone Brands. Labbrand Website. Retrieved 1 April, 2024 from https://www.labbrand.com/insights/article/a-battle-in-the-red-ocean-the-positioning-strategies-of-chinese-smartphone-brands.html
+Leppäniemi, M., & Karjaluoto, H. (2008). Mobile marketing: From marketing strategy to mobile marketing campaign implementation. International Journal of Mobile Marketing, 3(1).
+Low, B. (2007). Huawei Technologies Corporation: from local dominance to global challenge?. Journal of Business & Industrial Marketing, 22(2), 138-144.
+Luan, Z. (2022). The Marketing Strategy of Xiaomi Company from the Perspective of Brand Value Research (Doctoral dissertation, SIAM UNIVERSITY).
+MarketMeChina (2016) How Xiaomi uses social media marketing in China to save millions. MarketMeChina Website. Retrieved March 22, 2024 from https://www.marketmechina.com/how-xiaomi-uses-social-media-marketing-in-china-to-save-millions/
+McStay, A. (2017). Digital advertising. Bloomsbury Publishing.
+O'sullivan, A., Sheffrin, S. M., & Swan, K. (2003). Economics: Principles in action.
+Panigrahi, C. M. A. (2019). A Case Study on Marketing Strategy of Xiaomi. International Journal of Management, Technology, and Social Sciences (IJMTS), ISSN, 2581-6012.
+Peter, M. K., & Dalla Vecchia, M. (2021). The digital marketing toolkit: a literature review for the identification of digital marketing channels and platforms. New trends in business information systems and technology: Digital innovation and digital business transformation, 251-265.
+Putri, A. V. Marketing and advertising strategy in achieving the top mind (Samsung brand case study). Profetik: Jurnal Komunikasi, 13(2), 290-309.
+Rafiq, M., & Ahmed, P. K. (1995). Using the 7Ps as a generic marketing mix: an exploratory survey of UK and European marketing academics. marketing intelligence & planning, 13(9), 4-15.
+Reddy, S. V., Nalamalapu, S. R., Reddy, R. R., & KV, R. K. The Role of AI in Decision Making—Marketing Strategies and How Brands Use IPL as a Marketing Platform. In The Business of the Metaverse (pp. 245-258). Productivity Press.
+Roncevic, A., Lukcic, T., & Spoljaric, P. (2019). Impact of traditional and digital marketing on consumer perception. Economic and Social Development: Book of Proceedings, 330-340.
+Rosokhata, A. S., Rybina, O. I., Derykolenko, A. O., & Makerska, V. (2020). Improving the classification of digital marketing tools for the promotion of industrial goods promotion in the globalization context.
+Rownd, M., & Heath, C. (2008). The American Marketing Association releases new definition for marketing. Chicago IL: AMA, 1-3.
+Saif, N. M. A., & Aimin, W. (2015). Analysis of Huawei’s Smartphone Marketing Strategies in Arab World. Asian journal of management sciences & education, 4(1), 51-57.
+Sanford, J. E. (2003). Developing countries: definitions, concepts and comparisons. Nova Publishers.
+Semenovykh, O. (2021) Xiaomi has become the largest smartphone seller in Russia. Kommersant Website. Retrieved March 22, 2024 from https://www.kommersant.ru/doc/4801647
+Sharma, H. (2021). Effectiveness of Online Marketing Tools: A Case Study. Paradigm, 25(1), 77-86.
+Shastri, A. (2022) Exploring Huawei’s Millennial-Centric Marketing Approach: An In-Depth Case Study. IIDE Website. Retrieved 1 April, 2024 from https://iide.co/case-studies/marketing-strategy-of-huawei/
+Shevchenko, D. A. (2019). Digital marketing: a review of channels and tools. Practical Marketing, (10 (272)), 29-37.
+Shih, C. C., Lin, T. M., & Luarn, P. (2014). Fan-centric social media: The Xiaomi phenomenon in China. Business Horizons, 57(3), 349-358.
+Silk, A. J. (2006). What is marketing?. Harvard Business Press.
+Štimac, H., Vajda, T., & Franjković, J. Lifecycle of smartphones: brand representation and their marketing strategy
+Strumpf, D. (2022) Chinese Tech Giants Quietly Retreat From Doing Business With Russia. Wall Street Journal Website. Retrieved March 24, 2024 from https://www.wsj.com/articles/chinese-tech-giants-quietly-stop-doing-business-with-russia-11651845795
+Su, H. (2021). Internet Marketing in Xiaomi Technology
+Thuy, T. T. T., & Klymova, E. (2022). Assessment of marketing costs on the example of Apple and Samsung companies. Technology audit and production reserves, 4(4/66), 14-17.
+Tien, N. H., Thoi, B. V., & Chi, D. T. P. (2020). Comparative analysis of international marketing strategies of Apple and Oppo. International Journal of Research in Marketing Management and Sales.
+van Laer, T., & Lurie, I. (2018). The seven stages of the digital marketing cycle. Contemporary Issues in Digital Marketing: New Paradigms, Perspectives and Practices (2018).
+Varadarajan, R. (2010). Strategic marketing and marketing strategy: domain, definition, fundamental issues and foundational premises. Journal of the academy of marketing science, 38, 119-140.
+Vera Dmitrievna Markova, Qingling Mei, & Guo Zhao (2017). Marketing strategies of manufacturers in the smartphone market. The World of Economics and Management, 17 (4), 158-167.
+Xi, W. (2021). Changes in marketing strategy structure based on smartphones. In E3S Web of Conferences (Vol. 251, p. 01019). EDP Sciences.
+Yuan, Y. (2021) Market Strategy of Vivo 
+Z. Dze. (2018) Popularization of Chinese brand in the Russian media space. ST. PETERSBURG STATE UNIVERSITY
+Zhuikov, I. (2021). Time on site in Yandex.Metric: what is this indicator and how to increase it? Adblogger Website. Retrieved April 3, 2024 from https://adblogger.ru/vremya-na-sajte-metrika.html
+Zlobin, A. (2022). Huawei increases smartphone shipments to Russia for the first time since 2019. Forbes Official Website. Retrieved March 31, 2024 from https://www.forbes.ru/tekhnologii/481082-huawei-vpervye-s-2019-goda-uvelicila-postavki-smartfonov-v-rossiu
+
+
+Statistical resources and official reports 
+Barry, E. (2024). Huawei Statistics By Market Share, Countries, Region, Customer Group, Operating System, Industry, Demographics, Category Distribution and Social Media. Enterprise Apps Today Website. Retrieved 4 March, 2024 from https://www.enterpriseappstoday.com/stats/huawei-statistics.html
+Business Research (2024) Smartphone Market Size, Share, Growth, and Global Industry Analysis. Business Research Official Website. Retrieved March 4, 2024 from https://www.businessresearchinsights.com/market-reports/smartphone-market-101537
+Counterpoint (2024). Counterpoint quarterly Q1 2024. Counterpoint Research Official Website. Retrieved 4 March, 2024 from https://www.counterpointresearch.com/insights/global-smartphone-share/
+European Public Health Conference. (2022). World Bank Classification of Low and Middle Income Countries (LMICs). EPH
+Ingate Group (n.d.). Xiaomi. How the use of technology increases sales. Ingate group Website. Retrieved March 31, 2024 from https://ingate.ru/cases/xiaomi/
+Samsung (2020). 2020 Half-year Business Report. Samsung Official Website. Retrieved January 20, 2024 from https://images.samsung.com/is/content/samsung/p5/global/ir/docs/2020_Half_Year_Report.pdf
+Similarweb (2024). Website performance consumer.huawei.com. Region: China. Similarweb Official Website. Retrieved March 25, 2024 from https://pro.similarweb.com
+Similarweb (2024). Website performance consumer.huawei.com. Region: Russia. Similarweb Official Website. Retrieved March 25, 2024 from https://pro.similarweb.com
+Similarweb (2024). Website performance infinixmobility.com. Region: China. Similarweb Official Website. Retrieved May 1, 2024 from https://pro.similarweb.com
+Similarweb (2024). Website performance infinixmobility.com. Region: Russia. Similarweb Official Website. Retrieved May 1, 2024 from https://pro.similarweb.com
+Similarweb (2024). Website performance lavamobiles.com. Region: Egypt. Similarweb Official Website. Retrieved May 1, 2024 from https://pro.similarweb.com
+Similarweb (2024). Website performance lavamobiles.com. Region: India. Similarweb Official Website. Retrieved May 1, 2024 from https://pro.similarweb.com
+Similarweb (2024). Website performance mi.com. Region: China. Similarweb Official Website. Retrieved March 22, 2024 from https://pro.similarweb.com
+Similarweb (2024). Website performance mi.com. Region: Russia. Similarweb Official Website. Retrieved March 22, 2024 from https://pro.similarweb.com
+Similarweb (2024). Website performance oppo.com. Region: China. Similarweb Official Website. Retrieved May 1, 2024 from https://pro.similarweb.com
+Similarweb (2024). Website performance oppo.com. Region: Thailand. Similarweb Official Website. Retrieved May 1, 2024 from https://pro.similarweb.com
+Similarweb (2024). Website performance realme.com. Region: China. Similarweb Official Website. Retrieved May 1, 2024 from https://pro.similarweb.com
+Similarweb (2024). Website performance realme.com. Region: Indonesia. Similarweb Official Website. Retrieved May 1, 2024 from https://pro.similarweb.com
+Similarweb (2024). Website performance ru-mi.com. Region: Russia. Similarweb Official Website. Retrieved March 22, 2024 from https://pro.similarweb.com
+Similarweb (2024). Website performance vivo.com. Region: China. Similarweb Official Website. Retrieved May 1, 2024 from https://pro.similarweb.com
+Similarweb (2024). Website performance vivo.com. Region: India. Similarweb Official Website. Retrieved May 1, 2024 from https://pro.similarweb.com
+Technavio (2023). Smartphone Market Analysis APAC,E urope, North America, Middle East and Africa, South America - US, China, India, Germany, Brazil - Size and Forecast  2023-2027. Technavio Website. Retrieved March 10, 2024 from https://www.technavio.com/report/smartphone-market-industry-analysis
+UN Trade & Development. (2021). UN Trade & Development Official Website. Retrieved January 25, 2024 from https://unctad.org/publication/trade-and-development-report-2021
+
+Dictionaries 
+Camdridge Dictionary (n.d.). Domestic market. Cambridge dictionary. Retrieved February 5, 2024 from
+https://dictionary.cambridge.org/dictionary/english/domestic-market
+Collins Dictionary (n.d.). Electronics Company. Collins Dictionary. Retrieved January 19, 2024 from
+https://www.collinsdictionary.com/dictionary/english/electronics-company
+Merriam-Webster Dictionary (n.d.). Marketing. Merriam-Webster Dictionary. Retrieved February 14 2023 from https://www.merriam-webster.com/dictionary/marketing
+NASDAQ (n.d.) Foreign market. NASDAQ Glossary. Retrieved February 5, 2024 from https://www.nasdaq.com/glossary/f/foreign-market
+Vocabulary (n.d.) Electronics Company. Vocabulary. Retrieved January 19, 2024 from https://www.vocabulary.com/dictionary/electronics%20company
+

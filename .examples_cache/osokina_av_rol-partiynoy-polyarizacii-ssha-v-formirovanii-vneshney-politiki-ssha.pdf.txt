@@ -1,0 +1,3705 @@
+THE GOVERNMENT OF RUSSIAN FEDERATION 
+
+STATE BUDGETARY HIGHER EDUCATION UNIT 
+
+NATIONAL RESEARCH UNIVERSITY 
+
+          «HIGHER SCHOOL OF ECONOMICS» 
+
+ FACULTY OF WORLD ECONOMY AND WORLD POLITICS 
+
+                   International Program 'International Relations and Global Studies' 
+
+Thesis Paper 
+
+On the topic : 
+
+«The Role of the U.S. Party Polarisation in the U.S. Foreign Policy Formation in 
+
+Relation to Russia within the Context of the 2022-2024 Ukraine Crisis» 
+
+By the student 
+
+of the 4th year, 
+
+                                      group 215 
+
+ Anna Osokina 
+
+Academic supervisor: 
+
+Denis Stukal,  
+
+Assistant Professor, 
+
+School of Politics and Governance 
+
+Moscow 2025 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+2 
+
+Table of Contents 
+
+Table of Contents...............................................................................................2 
+1.  Introduction.................................................................................................. 3 
+1.1. Contextualisation & Topic Outline........................................................3 
+1.2. Literature Review.................................................................................. 6 
+1.2.1. U.S. Party Polarisation.................................................................. 6 
+1.2.2. U.S.-Russia relations & U.S. Foreign Policy vis-à-vis Russia......9 
+1.3. Research Question & Hypothesis........................................................16 
+1.4. Methodology & Conceptualisation..................................................... 17 
+1.4.1. Theoretical Framework............................................................... 17 
+1.4.2. Methods.......................................................................................18 
+1.4.3. Conceptualization........................................................................21 
+1.4.4. Scope of the Paper.......................................................................23 
+1.4.5. Potential Shortcomings & Limitations........................................23 
+1.4.6. Paper Outline...............................................................................24 
+2. Historical & Theoretical Background......................................................... 25 
+2.1. U.S. Party Polarisation as a Divisive Political Force.......................... 25 
+2.2. U.S. Party Polarisation as an Intervening Variable in the U.S. Foreign 
+Policy..........................................................................................................29 
+2.3. Evolution of U.S.-Russia relations & U.S. Foreign Policy vis-à-vis 
+Russia......................................................................................................... 32 
+3. U.S. Party Polarisation with regard to Ukraine Crisis & Russia................. 39 
+3.1. Democratic Perspective on 2022-2024 Ukraine Crisis & Russia........40 
+3.2. Republican Perspective on 2022-2024 Ukraine Crisis & Russia........ 42 
+3.3. 2022-2024 Ukraine Crisis as a Polarising Factor in U.S. Foreign 
+Policy towards Russia................................................................................ 45 
+4.Research Results & Concluding Remarks....................................................49 
+4.1. Research Results..................................................................................49 
+4.2. Discussion........................................................................................... 51 
+4.3. Shortcomings & Limitations............................................................... 52 
+5. Conclusion...................................................................................................54 
+References....................................................................................................... 59 
+
+ 
+ 
+ 
+ 
+ 
+ 
+1.  Introduction 
+
+1.1. Contextualisation & Topic Outline   
+
+3 
+
+It  is  quite  conspicuous  that  the  international  system  has  undergone  seismic 
+
+shifts over the past several years. From the tense geopolitical landscape to the 
+
+rapidly  changing  world  order,  the  international  arena  is  splitting  into  two 
+
+separate  political  camps,  driven,  among  other  things,  by  the  Ukraine  crisis. 
+
+The  geopolitical crisis has reignited hostilities between the United States and 
+
+Russia,  with  the  former  undertaking  harsh measures vis-à-vis the latter since 
+
+2022  with  a  view  to  ending  the  Ukraine  crisis.  With  an  arguable  New  Cold 
+
+War  presently  unfolding  between  the  West  and  the  East  (Achcar,  2023),  the 
+
+world  is  largely  divided  between  those  supporting  Russia  and  those 
+
+supporting  the  West’s  efforts  to  suppress  Russia.  The  domestic  political 
+
+landscape  of  the  U.S.  is  no  exception  in  this  regard,  with  the  polarisation 
+
+between  the Democratic Party and the Republican Party dividing the country 
+
+alongside two divergent lines of reasoning, which has substantial implications 
+
+for how the question of Ukraine is approached. It is only prudent, therefore, to 
+
+delve  into  the  polarised  political scene of the U.S. in order to understand the 
+
+significance  of  its  impact  on  the  foreign  policy  vis-à-vis  Russia  within  the 
+
+context of the Ukraine crisis.  
+
+Firstly,  it  is  notable  that  the  relations  between  the  United  States  and  Russia 
+
+have undergone numerous shifts over the course of history, particularly, since 
+
+the  dissolution of the USSR in 1991. Ranging from attempting a full-fledged 
+
+integration  of  Russia  into  the  Western-led  world  order  to  being  completely 
+
+unable  to  find  common  ground  on  which  to  build  cooperative  relations,  the 
+
+U.S.  and  Russia  share  a  complex  history  that  is  filled  with  certain  points  of 
+
+contention  that  seem  to  resurface  time  and  again.  One  of  such  contested 
+
+points is the North Atlantic Treaty Organisation that dates back to the signing 
+
+of the North Atlantic Treaty on April 4th, 1949 (Henrikson, 1980) and which 
+
+emerged  as  a  response  of  the  U.S.  to  the  perceived  communist threat within 
+
+ 
+ 
+4 
+
+the  context  of  the Cold War. While decades have passed since its origination 
+
+(during  which  the  Cold  War  ended  and  the  USSR  dissolved),  NATO  has 
+
+continued  to  influence  the  U.S.-Russia  relations  well  into  the  21st  century. 
+
+Inability  to  find  common  ground  and  to  reconcile  their  markedly  different 
+
+stances  on  the  post-Soviet  space  makes  Russia  and  the  U.S.  locked  in  a 
+
+conflict  that  underpins  their  relations  as  a  whole. Not long after the dawn of 
+
+the  21st  century,  the  terrorist  attacks  of  September  11th,  2001  fell  upon  the 
+
+United  States.  With  the  Bush  administration  launching  the  War  on  Terror, 
+
+Russia  was  initially eager to cooperate with the U.S. in fighting international 
+
+terrorism.  Yet,  the  U.S.  foreign  policy  approach  during  these  years  became 
+
+irreconcilable with Russia’s perception of the way things ought to be done in 
+
+the  international  system. Hence, such a discrepancy prompted a deterioration 
+
+of relations between the U.S. and Russia that would largely come to define the 
+
+nature  of  their  relations  for  decades  to  come.  As  such,  from  the  2008 
+
+Bucharest  Summit  that  signified  a  drastic  divergence  in  their  respective 
+
+stances  on  the  post-Soviet  space  to  the  2009  -  2012  policy  of  “reset”  that 
+
+indicated  an  attempt  to  ameliorate  the  relations,  the  U.S.  and  Russia 
+
+ultimately  clashed  in  their  interests  with  regard  to  the  post-Soviet space and 
+
+NATO, leaving little room for cooperation.  
+
+Secondly,  with  regard  to  the  expansion  of  NATO  into  the post-Soviet space, 
+
+Ukraine has emerged as an overarching concern for both Russia and the U.S. 
+
+(with  the  latter  willing  to  support  Ukraine’s  accession  to  NATO  and  the 
+
+former  aiming  to  maintain  its  dominance  in  the  region).  This  particular 
+
+tug-of-war  dates  back  to  the  2003-2004  Colour  Revolutions,  with  the  2004 
+
+Orange Revolution being of specific relevance to this paper, as it represented 
+
+a  clash  of  interests  between  the  U.S  and  Russia  over  the  government  in 
+
+Ukraine.  Having  won  the  elections,  which  were  considered  to  be  fraudulent 
+
+(Karatnycky,  2005),  pro-Russian  V.  Yanukovich  was  not  accepted  as  a 
+
+legitimate  president  of  Ukraine,  leading  to  the  ultimate  installation  of  the 
+
+ 
+ 
+5 
+
+pro-Western V. Yushchenko, which Russia considered to be as an interference 
+
+of the West in its near abroad. Similarly, the 2013 Euromaidan, which resulted 
+
+in the installation of the pro-Western government and increased the likelihood 
+
+of  Ukraine 
+
+joining  NATO,  aggravated  Russia,  culminating 
+
+in 
+
+the 
+
+incorporation of Crimea into the Russian Federation in 2014. The apex of the 
+
+conflict, however, would not be reached until February of 2022, when Russia 
+
+began undertaking measures to prevent further spread of the Western alliance 
+
+in  the  region  which  Russia  considers  as  its  sphere  of  influence.  The  2022 
+
+Ukraine  crisis,  as  such,  would  set  in  motion  a  cascade  of  events  that  would 
+
+provoke  major  shifts  in  international  relations,  ultimately  defining  the  new 
+
+international order.  
+
+Particularly,  as  the  Ukraine  crisis  of  2022  reignited  hostilities  between  the 
+
+U.S.  and  Russia,  the  former  has  swiftly  reformulated  its  foreign  policy 
+
+vis-à-vis the latter. While it might seem as a mere response to a systemic shift, 
+
+other  variables,  such  as  the  U.S.  party  polarisation,  may  have  accounted  for 
+
+the  way  the  U.S.  foreign  policy  has  been  redesigned.  Being  a  powerful, 
+
+multifaceted  phenomenon  in  politics,  the  consequences  of  polarisation  do, 
+
+indeed,  extend  way beyond the domestic political scene of the United States. 
+
+Notably,  the  ideological  divergence  that  drives the Democratic Party and the 
+
+Republican  Party  is,  in  turn,  driving  the  U.S.  foreign  policy,  influencing  the 
+
+U.S. approach to both Russia and Ukraine. The extent to which it is doing so, 
+
+however,  is  not  so  transparent  and  requires  thorough  research  on  the  topic. 
+
+This  paper  addresses the role of party polarisation on the U.S. foreign policy 
+
+formation in order to shed light on the extent to which polarisation drives the 
+
+U.S.  foreign  policy  towards  Russia.  As  Ikenberry  (2022,  p.69)  has  put  it,  
+
+“...the outside world has a greater stake in what happens in the United States”, 
+
+meaning 
+
+that 
+
+the 
+
+internal  dynamics  of 
+
+the  U.S.  have  far-reaching 
+
+consequences  for  the  world,  making  it vital to understand the precise way in 
+
+which it exudes influence on the conduct of foreign affairs.  
+
+ 
+ 
+6 
+
+Therefore, the aforementioned events serve as a testimony to the fact that the 
+
+world  is  living  through  a  significant,  course-altering  period  in  history.  The 
+
+current  Ukraine  crisis  has  once  again  led  to  a  clash  of  interests  between the 
+
+U.S.  (alongside  its  Western  allies)  and  Russia,  with  the  U.S.  having 
+
+undertaken numerous measures in its foreign policy to suppress Russia. While 
+
+this period bears resemblance to the period of the Cold War in that the world 
+
+has  once  more  become  divided  along  two  divergent  lines of reasoning (with 
+
+those  supporting  Ukraine  and  those  supporting  Russia),  this  period  is  still 
+
+markedly  different  in  some  respects.  Notably,  the  unprecedented  level  of 
+
+domestic party polarisation in the U.S. has to be taken into account as it may 
+
+have  exerted  significant  influence  on  the  way  the  U.S. conducted its foreign 
+
+policy in relation to Russia within the context of the Ukraine crisis.  
+
+1.2. Literature Review  
+
+1.2.1. U.S. Party Polarisation  
+
+The notion of polarisation is far from being new on the political landscape of 
+
+the  United  States,  which  accounts  for  a  myriad  of  studies  that  have  been 
+
+conducted  on  this  topic.  The  U.S.  party  polarisation,  in  particular,  has 
+
+attracted  substantial  attention  from  scholars,  largely  owing to an exponential 
+
+increase  in the divergence between Democrats and Republicans over the past 
+
+years.  Due  to  it  being  influenced  by  numerous  external  and  internal  factors, 
+
+different  aspects  of  polarisation  have  been  widely  researched  by  scholars, 
+
+some of whose works are outlined below.  
+
+Prior to delving into party polarisation in the U.S., it is worth looking at how 
+
+the  issue  of  polarisation  per  se  has  been  approached  by  scholars  so  far. 
+
+Hetherington  (2009),  for  example,  distinguishes  between  elite  and  mass 
+
+polarisation,  stating  that  the  former  does not necessarily correspond with the 
+
+latter.  Alternatively,  Van  Der  Veen  (2021)  cautions  against  using  a  narrow 
+
+ 
+ 
+ 
+ 
+7 
+
+definition  of  polarisation,  offering,  instead,  a  four-dimensional  view  of 
+
+polarisation.  The  author  explores  an interplay between affective, ideological, 
+
+mass  and  elite  polarisation,  stating  that  all  of  them  have  to  be considered to 
+
+render  a  comprehensive  understanding of polarisation (Van Der Veen, 2021). 
+
+One inference that can be made from this is that polarisation is a multifaceted 
+
+phenomenon,  interpretation  of  which  is  dependent  upon  the  nature  of  study 
+
+and research.  
+
+Moving  on  to  the  party  polarisation  in  the  United  States,  scholars  tend  to 
+
+research  both  the  causes  and  the  consequences  of  polarisation  within  U.S. 
+
+politics. In their study of polarisation, Hare & Poole (2014) find that the U.S. 
+
+political  scene  is  highly  polarised,  attributing  this  to  the  growing  partisan 
+
+divergence in terms of ideology and to the exposure to new social and cultural 
+
+issues.  More  particularly,  Caro  (2016)  explores  the  causes  of  polarisation  in 
+
+the  U.S.,  stating  that  it  is  the  long-term  trends  that  have  shaped  the  current 
+
+accelerating  polarisation,  replacing  bipartisan  consensus  that  is  essential  for 
+
+laws to be swiftly passed. One reason behind this lies in voters moving away 
+
+from  the  political  center,  making  it  less  feasible  to  reach  consensus  (Caro, 
+
+2016).  Similarly,  Pildes  (2011)  researches  the  causes  of  hyperpolarisation  in 
+
+the  U.S.,  claiming  that  the  political  center  is  dissipating  both  among 
+
+politicians  and  voters.  The  author  aims  to  identify  whether  polarisation  is 
+
+inherent  in  the  U.S.  democracy  or  it  has  a  fleeting  nature,  ultimately 
+
+concluding 
+
+that,  being  caused  by  deeply-rooted  structural  problems, 
+
+polarisation  is,  indeed,  inherent  in  American  politics  (Pildes,  2011). 
+
+Therefore,  it  is  evident  that  the notion of polarisation permeates the political 
+
+scene  of  the  U.S.,  with  the  party polarisation being driven by a disappearing 
+
+political center and the emergence of novel cultural and social issues. 
+
+Being such a key feature of contemporary U.S. politics, party polarisation has 
+
+a significant impact on how the government functions. In the seminal work on 
+
+ 
+ 
+ 
+8 
+
+polarisation,  Lee  (2015) traces the implications of the U.S. party polarisation 
+
+on  the  efficiency  of  the  U.S. government and the ways in which polarisation 
+
+negatively  affects  the  executive,  the  legislative  and  the  judicial  branches  of 
+
+the  government.  More  specifically,  Jones  (2001)  cited  polarisation  as  a  key 
+
+factor  in  the  production  of  a  legislative  gridlock,  which  represents  a  policy 
+
+stalemate with the legislative process being suspended and the Congress being 
+
+unable  to  pass  policies.  This  is  closely  related  to  the  way  polarisation 
+
+influences  the  U.S.  foreign  policy  formation.  Particularly,  Kalėda  (2023) 
+
+states  that  the  U.S.  domestic  polarisation  is  detrimental  to  the  U.S.  foreign 
+
+policy  as  it  damages  its  credibility  and  divides  Republicans  and  Democrats 
+
+over  such  issues  as  aid  to Ukraine, while preserving bipartisan consensus on 
+
+the  phenomenon  “rise  of  China”.  Similarly,  Tama  (2024)  claims  that  while 
+
+democrats  and  republicans  are  polarised,  bipartisan consensus is still present 
+
+as  the  parties  cooperate  in  a  myriad  of  ways,  most  prominently  on  certain 
+
+international  issues.  Notably,  the  aforementioned  authors  have  focused  on 
+
+polarisation  as  a  predominantly  negative  phenomenon  that  affects  the 
+
+efficiency  of  the  U.S.  government.  An  alternate  view  on  polarisation, 
+
+however,  was  proposed  by  Abramovitz  (2010),  who  claims  that  polarisation 
+
+need  not  be  an  inherently  negative force. The author, on the contrary, claims 
+
+that the greater the polarisation between the elites (and, consequently, parties), 
+
+the  clearer  the  ideological  choice  presented  to  people  (Abramovitz,  2010). 
+
+Thus, while the U.S. party polarisation can be viewed in either a positive or a 
+
+negative  light,  the  latter  view  presumably  dominates  in  academia,  with 
+
+polarisation  being  often  cited  as  a  cause  of  legislative  impasse  and  foreign 
+
+policy that lacks credibility. 
+
+To  conclude, polarisation is a concept that can be utilised in various contexts 
+
+due  to  its  multidimensional  nature.  Yet,  a  large  pool of work on polarisation 
+
+particularly  concerns  the  U.S.  political  scene,  where  polarisation  between 
+
+Democrats  and  Republicans has dominated the political agenda over the past 
+
+ 
+ 
+9 
+
+several decades. The causes and the implications of the U.S. party polarisation 
+
+on the efficiency of the legislative branch of the U.S. government, particularly 
+
+with regard to the U.S. foreign policy, have been studied plentifully. However, 
+
+what has not been studied in such intricate detail is the way polarisation plays 
+
+a  role  in  the  formation  of  the  U.S.  foreign  policy  towards  Russia  within the 
+
+Ukraine crisis. Considering the omnipresent nature of polarisation in the U.S., 
+
+it can be presumed that it exudes considerable influence on the way the issue 
+
+is approached.  
+
+1.2.2. U.S.-Russia relations & U.S. Foreign Policy vis-à-vis Russia  
+
+The  United  States  and  Russia  share  a  complex  history  that  is  rich  in  events 
+
+which,  at  times,  drastically  altered  the  following course of their interactions. 
+
+Below  are  some  of  the  works  and  studies  that  delve  into  the  U.S.-Russia 
+
+relations,  ranging,  notably,  from  the  consequences  of  the  dissolution  of  the 
+
+USSR  in  1991  to  the  role  of  NATO  in  the  U.S.-Russia  relations,  with  a 
+
+specific focus on the Cold War legacy that continues to influence the bilateral 
+
+relations  between  the  two  states.  Notably,  the  post-Cold  War relations (from 
+
+1991 up to the 2022-2024 Ukraine crisis) between the U.S. and Russia can be 
+
+divided  into  several  stages  that  have  been  widely  researched  in  academia, 
+
+namely:  cooperation  and  optimistic  outlook  on  the  bilateral  relations  with  a 
+
+subsequent  gradual  deterioration  (1991-1999),  the  relations  oscillating 
+
+between  cooperation  and  confrontation  (2000-2008),  the  ‘reset’  of  relations 
+
+(2009-2012),  deterioration  of  the  relations  (2012-2021),  and  ultimate 
+
+decoupling (2022-2024).  
+
+Firstly, the dissolution of the USSR in 1991 served as a catalyst behind a new 
+
+strand  of  the  U.S.-Russia  relations,  initially  considered  to  be  imbued  with 
+
+optimism  about  the  future  of  their  relations.  The  hopes  of  this  period, 
+
+however,  gradually  gave  way  to  tensions  and  confrontation.  According  to 
+
+Smeltz et al. (2016), this period was, indeed, viewed by many as a prospect of 
+
+ 
+ 
+ 
+10 
+
+improvement in the U.S.-Russia relations, which ultimately failed to manifest. 
+
+Numerous  studies,  as  such,  explore  this  new  strand  of  bilateral  U.S.-Russia 
+
+relations  with  a  specific  focus  on  why  sustainable  cooperation  was not fully 
+
+achieved between the two states. This view is largely supported by Bugayova 
+
+(2019),  who  stated  that,  becoming  the  first  president  of  the  newly  born 
+
+Russian  state,  Boris  Yeltsin  aimed at promoting democracy and ameliorating 
+
+the  relations  between  the  U.S.  and  Russia.  Still,  the  Russian  foreign  policy 
+
+was  gradually  becoming  more  assertive  and  less  conducive  to  cooperation 
+
+with the U.S. over the mid-1990s, with the largest blow to the relations being 
+
+dealt  by  NATO’s  decision  to  intervene  in  Yugoslavia  in  1999  (Bugayova, 
+
+2019).  Zelikow  (1994),  while  sharing  the  initial  hopes  for  the  U.S.-Russia 
+
+cooperation,  supported  both  by  president  George  H.  W.  Bush  and  president 
+
+Bill Clinton, also stressed how quickly this optimism had dissipated. Focusing 
+
+on  the  U.S.  foreign  policy  specifically,  Zelikow  (1994)  states that, while the 
+
+Clinton  administration  took  pride  in  their  successful  foreign  policy  towards 
+
+Russia, the emphasis on an internal Russian reform was quite precarious, with 
+
+the  clash  of  interests  between  the  U.S.  and  Russia  ultimately  prevailing. 
+
+Furthermore, by starting with a sequential history of the turbulent U.S.-Russia 
+
+relations  in  the  post-Cold  War  period,  Rumer  &  Sokolsky  (2019)  go  on  to 
+
+argue  that  the  U.S.  foreign  policy  towards  Russia  exemplified  rigid 
+
+consistency  since  1991,  leaving  little  hope  for  durable  cooperation.  The 
+
+authors  claim  that  despite  a  change  of  several  U.S. administrations over this 
+
+period,  the  U.S.  consistently  refused  to  fully  accept  Russia  and  its  domestic 
+
+affairs, emphasising democracy promotion and the primacy of NATO, causing 
+
+the  deterioration  of  relations  (Rumer  &  Sokolsky,  2019).  By  contrast,  for 
+
+Rostow  (1992), who emphasised the congruence between the structure of the 
+
+international  system  after  the  collapse  of  the  USSR  and  the  U.S.  foreign 
+
+policy goals, it was evident that the U.S. would achieve those goals swiftly if 
+
+it  were  to  adopt  an  active  foreign  policy  stance.  Moreover,  Katz  (2014) 
+
+highlights  the  fact  that  each  of  the  post-Cold  War  U.S.  administrations  has 
+
+ 
+11 
+
+attempted  to  ameliorate  relations  and  partner  with  Russia.  Instead,  however, 
+
+despite  adopting  active  stances, neither American nor Russian foreign policy 
+
+goals vis-à-vis each other were fully achieved after the collapse of the Soviet 
+
+Union.  One  of  the reasons was an inability to agree on the post-Soviet space 
+
+and the role of NATO in a post-Cold war world.  
+
+Secondly,  between  2000  and  2008  the  nature  of  the  U.S.-Russia  relations 
+
+tended to alternate between confrontation and cooperation. Tsygankov (2007) 
+
+distinguishes  this  period  into  two  separate  policies,  pursued  by  Russian 
+
+president  Vladimir  Putin,  the  first  one  focusing  on  pragmatism  and 
+
+maintaining  great  power  status,  the  second,  starting  around  the  mid-2000s, 
+
+focusing  on  an  assertive  stance of Russia in the world and a growing critical 
+
+stance towards the U.S. foreign policy. As the start of the 21st century brought 
+
+the  terrorist  attacks  of  September  11th,  2001,  Gladkyy  (2003)  states  that  it 
+
+prompted  an  intensification  of  the  U.S.-Russia  relations,  with  the  two 
+
+countries  agreeing  to cooperate in fighting international terrorism. Moreover, 
+
+the Joint Declaration, signed by George W. Bush and Vladimir Putin in 2002, 
+
+highlighted  the  nations’  dedication  to  reciprocal,  open,  and  trustworthy 
+
+relations,  contributing  to  the  establishment  of the NATO-Russia Council and 
+
+ameliorating  the  NATO-Russia  relations  to  a  previously  unseen  degree 
+
+(Gladkyy, 2003). While this improvement in the U.S.-Russia relations seemed 
+
+to  eliminate  the  remnants  of  the  Cold  War  logic,  this  notion  was  soon 
+
+disproved  by  the  events  that  followed.  Particularly,  Lynch  (2018)  states  that 
+
+the  U.S.-Russia  relations  have  been  experiencing  gradual  deterioration 
+
+approximately  since  2003,  with  a  strong  bipartisan  consensus  in  the  U.S. 
+
+about the impossibility of ameliorating relations with Russia. Several reasons 
+
+may account for neither Russia nor the U.S. willing to cooperate, with one of 
+
+the  most  cited  ones  in  academia  being  the  Orange  Revolution,  which, 
+
+according to Herd (2005), was perceived by Russia as a revolution instigated 
+
+by the West. This notion strengthened to such an extent that it started shaping 
+
+ 
+ 
+12 
+
+Russia’s  foreign  policy,  particularly  with  regard  to  the  post-Soviet  space 
+
+(Herd,  2005).  As  such,  the  tensions  over  the  post-Soviet  space,  widely 
+
+researched in academia, have started to dominate in the U.S.-Russia relations. 
+
+Particularly,  Matsaberidze  (2015)  focuses  on  the  Russian  emphasis  on  the 
+
+primacy  in  the  ‘near  abroad’  with the tensions over the prospects of Georgia 
+
+and  Ukraine  entering  NATO  being  at  the  heart  of  confrontation between the 
+
+West  and  Russia  in  2008.  Similarly,  Lazarević  (2009)  focuses  on the role of 
+
+NATO  and  the  potential  membership  of  Georgia  and  Ukraine  in  the 
+
+U.S.-Russia  relations,  with  a  particular  focus  on  the  geopolitical  position  of 
+
+the organisation. One inference that can be made from these studies is that in 
+
+spite of attempts to ameliorate relations between 2000 and 2008, the relations 
+
+were still imbued with the remnants of the Cold War and its legacy.  
+
+In  a  stark  departure  from  the  previous  course  of  action,  the  U.S. and Russia 
+
+launched  a  policy  of  ‘reset’  in  2009-2012,  promoted  by  the  Obama 
+
+administration and Russian president Dmitry Medvedev. This period aimed at 
+
+increasing  cooperation  between  the  U.S.  and  Russia,  alongside  eliminating 
+
+hostilities  between  the  two  states.  By  stating  that  the  improvement  of  the 
+
+U.S.-Russia relations is directly related to the emergence of novel agreements 
+
+and  cooperation  on  global  issues,  Charap  (2013)  notes  that  the  period  of 
+
+‘reset’  was  one  of the most productive ones in the history of the U.S.-Russia 
+
+relations.  Particularly,  Charap  (2013)  cites  numerous  joint  achievements  of 
+
+the  two  states,  among  which  are  the  New  START  treaty,  cooperation  on the 
+
+question  of  Afghanistan  and  the  installation  of  the  Bilateral  Presidential 
+
+Commission  to  foster  cooperation  on  a  myriad  of  matters.  What  is  more, 
+
+Roberts (in Tsygankov, 2018, p.245) states that the period of ‘reset’ promoted 
+
+better  ties  between  Russia  and  NATO,  in  addition  to  president  Obama 
+
+recognising  Russia’s  importance  to  the  U.S.  and  its  goals.  While  this  period 
+
+was,  indeed,  viewed  as  an  opportunity  to  improve  the  U.S.-Russia relations, 
+
+scholars  such  as  Ratti  (2013)  were  sceptical of the true intentions of the two 
+
+ 
+ 
+13 
+
+states.  More  particularly,  Ratti  (2013) stated that while certain goals, such as 
+
+the New START Treaty and the operations of the NATO-Russia Council, were 
+
+attained,  a  genuine  attempt  to cooperate was present neither on the U.S. side 
+
+nor  on  the  Russian  side.  Having  started  with  renewed  hopes  for  the 
+
+U.S.-Russia  cooperation,  the  policy  of  ‘reset’,  as  such,  had  a  relatively 
+
+fleeting,  unsustainable  nature,  as  is  evident  from  the  next  period  in  the 
+
+U.S.-Russia relations.  
+
+With  the  return  of  Vladimir  Putin  to  the  presidency  in  2012  the  bilateral 
+
+relations  between  the  U.S.  and  Russia  started  to  deteriorate  further,  mostly, 
+
+according  to  Charap  (2013),  due  to  president  Putin’s  non-acceptance  of  the 
+
+U.S. foreign policy trajectory and, hence, his reluctance to cooperate with the 
+
+U.S.  More  particularly,  Roberts  (in  Tsygankov,  2018,  p.247)  states  that  the 
+
+tensions  over  NATO  have  once  again  reemerged  as  a  point  of  contention 
+
+between  the  U.S.  and  Russia,  with  virtually  no  cooperation  having  been 
+
+achieved  between  the  two  states  since  Vladimir  Putin’s  return  to  power  in 
+
+2012. One of the most seminal moments in the U.S.-Russia relations came in 
+
+2014  with  Russia  incorporating  Crimea,  which,  according  to  Matsaberidze 
+
+(2015),  was  a  manifestation  of  Russia’s  security concerns over the prospects 
+
+of  Ukraine  joining  NATO.  Furthermore,  Katz  (2020)  states  that  it  was  the 
+
+incorporation  of  Crimea  in  2014  by Russia that has effectively put an end to 
+
+the  policy  of  ‘reset’  and any attempts at cooperation, arguably leading to the 
+
+revival  of  the  Cold  War  rivalry.  What  is  more,  the  relations  were  further 
+
+aggravated by the alleged interference of Russia into the 2016 elections in the 
+
+United States, making it virtually impossible to manage the relations amicably 
+
+(Lynch,  2018).  While  searching  for  the  key  causes  behind  such  a  negative 
+
+chain of events, scholars such as Smeltz et al. (2016) focus on the perception 
+
+as one of the key determinants of the relations’ deterioration, citing distrust as 
+
+one  of  the  most  fundamental  reasons  behind  an  inability  of  the  U.S.  and 
+
+Russia to achieve long-lasting cooperation. Such distrust is, once again, most 
+
+ 
+ 
+14 
+
+likely  a  remnant  of  the  tense  Cold  War  ideological  rivalry,  which  is  also 
+
+plentifully researched in academia. Scholars such as Newlin et al. (2020) and 
+
+Avdaliani  (2017),  for  example,  use  the  Cold  War  as  a  point  of  reference  in 
+
+their  research,  stating  that  in  2020  and  2017,  respectively,  relations between 
+
+Russia and the U.S. have been at their nadir since the end of the Cold War in 
+
+1991. Notably, Sümer (2020) states that even though the Cold War ended, its 
+
+legacy proved to be long-lasting, impacting the future of relations between the 
+
+U.S.  and  Russia.  Therefore,  it  is  evident  that  the  period  between  2012  and 
+
+2021  was  filled  with  numerous  obstacles  that  prevent  the  U.S.  and  Russia 
+
+from  achieving  durable  and  mutually-beneficial  cooperation, not least owing 
+
+to the legacy of the Cold War that continues to influence their relations. 
+
+Finally,  while  the  U.S. and Russia have been at odds for the most part of the 
+
+21st  century,  the  ultimate  decoupling  between  them  did  not  occur  until  the 
+
+2022  Ukraine  crisis.  Having  provoked  major  shifts  in  the  post-Cold  War 
+
+order,  the  2022  Ukraine  crisis  attracted  substantial  attention  from  scholars 
+
+who have been studying the U.S.-Russia relations for decades. Notably, these 
+
+scholars  can  be  divided  into  two  separate  lines  of  reasoning,  the  first  one 
+
+adhering  to  the  realist  principles  and  the  second  one  adhering  to  the  liberal 
+
+principles.  Notably,  in  discussing  the  2022  Ukraine  crisis,  one  of  the  most 
+
+prominent  proponents  of  the  realist  paradigm,  Mearsheimer  (2022),  reviews 
+
+the  causes  of the crisis. By contradicting the prevalent Western narrative that 
+
+Vladimir  Putin  is  to  blame  for  the  start  of  the  crisis,  Mearsheimer  (2022) 
+
+claims  that,  instead,  the  West  largely  bears  responsibility  for  the  crisis, with 
+
+the  expansion  of  NATO  being  at  the  heart  of  the  problem.  A  year  later, 
+
+Mearsheimer  (2023)  further  researched  the  ongoing  crisis,  stating  that  the 
+
+possibility  of  a  peace agreement is non-existent between Russia and Ukraine 
+
+(alongside the West), due to the existential nature of the crisis, where losing is 
+
+not  an  acceptable  option  for either of the sides. Similarly, by juxtaposing the 
+
+views of realists and the views of liberals on NATO and Ukraine, Walt (2022) 
+
+ 
+ 
+15 
+
+takes  a  realist  stance  on  the  crisis, claiming that the expansion of NATO has 
+
+inevitably  generated  the  crisis  in the first place. According to Walt (2022), it 
+
+is  an  inability  of  liberals  to  acknowledge  the  realist  paradigm  (in  this  case 
+
+Russia’s  security  concerns  over  NATO  enlargement)  that  spurs  the  crisis.  In 
+
+stark  contrast  to  this  view  and  adhering  to  the  liberal  paradigm,  Kramer 
+
+(2022)  criticises  Russia  for  having  started  the  2022 Ukraine crisis, centering 
+
+his  argument  around  democratic  values,  emphasising  how  vital  it  is  that  the 
+
+West  defeats  Russia  so  as  to  preserve  the  ideals  of  democracy.  In  a  similar 
+
+liberal fashion, Fukuyama (2022) positions the 2022 Ukraine conflict within a 
+
+broader  crisis  of  the  liberal  world  order,  stating  that  even  if  the  conflict  is 
+
+resolved  in  favour  of  the  West,  the  Western  order  will  still  face  substantial 
+
+hardships,  overcoming  which  is  an  everlasting  process.  Therefore,  it  is 
+
+evident  that  the  2022  Ukraine  crisis  drastically  divides  scholars  in  their 
+
+stances on the crisis, with some adhering to the realist paradigm and others to 
+
+the liberal strand of thought.  
+
+Overall,  the  U.S.-Russia  relations  after  the  collapse  of  the  USSR  can  be 
+
+categorised  into  five  distinct  stages,  ranging  from  the  initial  hopes  of 
+
+cooperation  and  mutually  beneficial  relations  to  the  ultimate  decoupling 
+
+between  the  two  states.  Most  of  the  studies  that  research  the  U.S.-Russia 
+
+relations,  however,  primarily  focus  on  the  reasons  that  prevented  the  two 
+
+states  from  bettering  their  relations  in  the  post-Cold  War  world.  The 
+
+post-Soviet  space  and  the  role  of  NATO  are  the  most  cited  factors  in  the 
+
+deterioration  of  the  bilateral  relations  between  the  U.S.  and  Russia.  Despite 
+
+widely  researched  attempts  to  cooperate (fighting international terrorism and 
+
+the policy of ‘reset’), the feelings of mutual mistrust have ultimately pervaded 
+
+the  relations.  The  recent  2022  Ukraine  crisis  has  further  aggravated  the 
+
+U.S.-Russia  relations,  leaving  the  two  states unable to achieve a long-lasting 
+
+cooperation.   
+
+ 
+ 
+1.3. Research Question & Hypothesis 
+
+16 
+
+The  literature  review  highlights  the  fact  that  while  an  extensive  pool  of 
+
+research  has  been  conducted  on  the  U.S.  party  polarisation  and  the  U.S. 
+
+foreign  policy  towards  Russia  (including  the  context  of  the  2022-2024 
+
+Ukraine  crisis),  a  gap  exists  between  the  extensively  researched  U.S.  party 
+
+polarisation  and  the  consequent  U.S.  approach  to  the  2022-2024  Ukraine 
+
+crisis.  
+
+Particularly,  it  is  not  clear  how,  if  at  all,  the  U.S.  polarisation influences the 
+
+way the U.S. approaches Russia and the Ukraine crisis, with the U.S. arguably 
+
+targeting  Russia  as  a  way  of  easing  the  pressure  on  Ukraine.  What  is  more, 
+
+most  studies that cover the recent crisis in detail are relatively outdated, with 
+
+little  research  having  been  conducted  on  the  period between 2022 and 2024. 
+
+Thus, taking into account the available debates on the U.S. party polarisation 
+
+and  the  U.S.  foreign  policy  vis-à-vis  Russia,  alongside  the  discovered 
+
+research gap, the following research question was formulated: To what extent 
+
+do  the  views  of  the  Democratic Party and the Republican Party diverge with 
+
+regard to the Ukraine crisis and how, if at all, did it influence the formation of 
+
+the  U.S.  foreign  policy  towards  Russia  within  the  context  of  the  current 
+
+Ukraine  crisis  in  2022-2024?  To  answer  this  question,  the  following 
+
+hypothesis  will  be  tested:  The  views  of  the  Democratic  Party  and  the 
+
+Republican Party diverge significantly with regard to the Ukraine crisis, with 
+
+this  discrepancy  having  been  a  prominent  intervening  variable  in  the 
+
+formation  of  the  U.S  foreign policy towards Russia within the context of the 
+
+Ukraine crisis between 2022-2024. 
+
+The  paper,  therefore,  will  aim  at  filling  the  research  gap  by  identifying  the 
+
+views of the Democratic Party and the Republican Party on the Ukraine crisis 
+
+alongside  determining  the  ways  in  which  this  could  have  impacted  the 
+
+ 
+ 
+ 
+formation  of  the  U.S.  foreign  policy  initiatives  vis-à-vis  Russia  over  the 
+
+period of 2022-2024.  
+
+17 
+
+1.4. Methodology & Conceptualisation  
+
+In  order  to  trace  the  influence  of  the  U.S.  party  polarisation  on  the  U.S. 
+
+foreign  policy  vis-à-vis  Russia  within  the  context  of  the  Ukraine  crisis,  the 
+
+methods,  alongside  theoretical  and  chronological  frameworks,  are  outlined 
+
+below. In addition, this section aims at conceptualising the key notions used in 
+
+this  paper,  primarily  concerning  polarisation  and  its  various  definitions  as 
+
+well as the core ideas from neoclassical realism, as this theory aims at taking 
+
+into account both systemic factors and internal dynamics of a state to explain 
+
+the formulation of foreign policy.  
+
+1.4.1. Theoretical Framework  
+
+For  the  purposes  of  this  paper,  the  primary  theoretical  framework  applied is 
+
+neoclassical  realism,  which,  apart  from  considering  the  international  system 
+
+and  its  incentives,  helps  in  identifying  the  way  domestic  variables  of a state 
+
+influence this state’s foreign policy.  
+
+Initially  introduced  by  Rose  (1998),  this  theory  is  generally  viewed  as  a 
+
+modified version of structural realism, whereby it takes some of the premises 
+
+of  structural  realism  and  ameliorates  it  in  order  to  render  a  comprehensive 
+
+understanding of what drives foreign policy decisions of states in response to 
+
+external  obstacles  and  incentives.  Among  four  theories  of  foreign  policy 
+
+identified by Rose (1998), innenpolitik theories that view domestic affairs of a 
+
+state as the sole determinant of its foreign policy are, according to the author, 
+
+largely 
+
+oversimplified 
+
+and  misguided.  The 
+
+reason  behind 
+
+this 
+
+oversimplification  is  the  neglect  of the international system and its influence 
+
+on a state’s foreign policy. What Rose (1998) proposed, instead, is to take into 
+
+consideration  both  the  international  system  and  the  systemic  incentives 
+
+ 
+ 
+ 
+ 
+18 
+
+(independent  variable)  and  the  internal  factors  (intervening  variable)  when 
+
+researching the foreign policy of a state. This approach to foreign policy was 
+
+termed  “neoclassical  realism”  (Rose,  1998).  Notably,  some  scholars  divide 
+
+neoclassical  realism  into  two  distinct  subtypes. In their research, Ripsman et 
+
+al.  (2016) identified Type I neoclassical realism that merely aims at bettering 
+
+structural  realism  via  the  introduction  of  domestic  variables  and  type  II 
+
+neoclassical  realism  that  focuses  on  systemic  incentives  alongside  domestic 
+
+variables,  with  the  latter  being  associated  with  what  Rose  (1998)  initially 
+
+proposed.  
+
+This  paper  primarily  focused  on  Type  II  neoclassical  realism  as  it  aids  in 
+
+explaining the ways in which the U.S. foreign policy has been influenced both 
+
+by systemic incentives of the international environment of 2022-2024 and by 
+
+an  intervening  variable  of  domestic  party  polarisation  within  the  United 
+
+States.  
+
+Figure 1 
+
+Key Aspects of the Paper Through the Prism of Neoclassical Realism of Rose 
+
+(1998)  
+
+Note: Adapted from Rose (1998)  
+
+This figure illustrates the relationship between the variables proposed by Rose 
+
+(1998) in neoclassical realism and the aspects of the thesis. This was done to 
+
+showcase the topic of the thesis through the prism of neoclassical realism and 
+
+to prove the theory’s applicability to the topic and the research question. 
+
+ 
+ 
+ 
+ 
+1.4.2. Methods  
+
+19 
+
+For  the  purposes  of  collecting  and  analysing  data,  relevant  to  the  research 
+
+paper,  qualitative  methods  have  been  implemented  throughout  the  paper.  In 
+
+particular,  information  and  data  were  collected  from  secondary  and  primary 
+
+sources. To provide an example of primary sources, think tanks, such as Pew 
+
+Research  Center,  were  used  to  collect  statistics  and  raw  data  on  the  topic, 
+
+alongside  speeches  and  debates  of  the  U.S.  politicians.  With  regard  to  the 
+
+secondary  sources,  a  wide  array  of  books  and  scholarly  articles  have  been 
+
+researched to introduce an academic debate on the research topic as well as to 
+
+provide  a  thorough  historical  and  theoretical  background.  The  primary 
+
+method  used  in  this  paper  is  a  qualitative  method  of narrative analysis. This 
+
+method, according to Oppermann & Spencer in Mello & Ostermann (2023), is 
+
+widely  implemented  in  the  realm  of  Foreign  Policy  Analysis  as  it  aids  in 
+
+identifying  the  views  and  attitudes of politicians with regard to issues within 
+
+the  realm  of  foreign  policy.  By  focusing  on  organising  and  constructing  a 
+
+certain  narrative,  this  method  can  render  a  comprehensive  understanding  of 
+
+the  views  of  decision-makers,  who  are,  in  most  cases,  interpret  events  and 
+
+their  context  through  the  prism  of  a  particular  narrative.  Being applicable to 
+
+the research question, narrative analysis has been implemented with a view to 
+
+researching  polarisation  between  the  Democratic and the Republican Parties, 
+
+comparing the contrasting narratives of the Democrats and the Republicans on 
+
+the Ukraine crisis and Russia, tracing how, if at all, polarisation between them 
+
+influences the production of foreign policy decisions.  
+
+Figure 2 
+
+Coding Scheme for the Narratives within The Research Paper       
+
+ 
+20 
+
+Note: Adapted from Oppermann & Spencer in Mello & Ostermann (2023) 
+
+Figure  2  illustrates  a  coding  scheme,  where  the  interplay  of  three  key 
+
+components,  namely,  setting,  characterization,  and  emplotment,  produces  a 
+
+narrative.  Each  component  is  filled  with  the  data  relevant  to  the  research 
+
+question,  focusing  on  Democrats  and  Republicans  within  the  context  of  the 
+
+Ukraine  crisis  as well as the presidential and vice presidential debates within 
+
+the  2024  U.S.  presidential  elections,  alongside  convention  speeches.  By 
+
+constructing  and  comparing  the  narrative  of  Democrats  and  the  narrative  of 
+
+Republicans  with  regard  to  the crisis and Russia, via the presidential and the 
+
+vice presidential debates and speeches, the approach to the Ukraine crisis and 
+
+the consequent foreign policy towards Russia can be determined.  
+
+What is more, a mixture of inductive and deductive reasoning is used to form 
+
+a  general understanding of how specific nuances of party polarisation impact 
+
+the  broader  tendencies  of  the  U.S.  foreign  policy  (particularly  in  relation  to 
+
+Russia  in  the  context  of  the  current  Ukraine  crisis  in  2022-2024)  and  to 
+
+understand  how  the  application  of  a  theoretical  framework  (neoclassical 
+
+realism)  can  enhance  the  understanding  of  the  nuances  of  the  topic  at  large. 
+
+ 
+ 
+ 
+21 
+
+The  aforementioned  methods  allowed  to  thoroughly  analyse  the  existing 
+
+literature  on  the  topic  and  to  produce  a  cohesive  answer  to  the  stated above 
+
+research  question  by  tracing  the  correlation  between  the  U.S.  party 
+
+polarisation and the U.S. foreign policy decisions. 
+
+1.4.3. Conceptualization 
+
+Next, a pool of concepts will be identified that have been used throughout this 
+
+paper.  Considering  the  fact  that  the  research  mainly  revolves  around  the 
+
+concept of polarisation, most of the concepts are related specifically to it, with 
+
+a  few  notions  regarding  the  theoretical  framework  and  the  Ukraine  crisis 
+
+having also been introduced.  
+
+Firstly,  polarisation  can  be  defined  as  an  ideological  divide  between  two 
+
+particular  groups  that  hold  polar  opposite,  extreme  views  on  specific  issues. 
+
+Being deeply rooted in spatial theory by Downs (1957), who posits that voters 
+
+are  positioned  alongside  a  one-dimensional  left-right  spectrum,  it  is  quite 
+
+common  to  view  polarisation  in the form of this spectrum, where the greater 
+
+the  distance  between  two  opposite  poles,  the  greater  the  polarisation  is. 
+
+Additionally,  apart  from  ideological  polarisation,  there  is  also  a  notion  of 
+
+affective polarisation, introduced by Iyengar et al. (2012), and which refers to 
+
+an emotional divide between the in-party group and out-party group, where a 
+
+positive  feeling  towards  one’s  own  party  goes  hand-in-hand  with  a  negative 
+
+feeling  towards  an  opposing  party.  Here,  partisanship  plays  a  vital  role  on 
+
+which  people  tend  to  build  their  social  identities  (McCarty,  2019).  A 
+
+distinction  should  be  made,  however,  between  polarisation  and  partisanship, 
+
+in  order  not  to  confuse  these  two  terms,  as  the  former refers to extremity of 
+
+views, while the latter refers to a strong party loyalty and is closely related to 
+
+affective  polarisation.  While  this  paper  primarily  focuses  on  ideological 
+
+polarisation, partisanship and affective polarisation are also taken into account 
+
+as contributing to party polarisation factors. Additionally, a similar concept of 
+
+ 
+ 
+ 
+22 
+
+bipartisanship (or bipartisan consensus) is referred to in this paper and, in the 
+
+context of this paper, it can be defined as a consensus between the Democratic 
+
+Party and the Republican Party on a specific issue. Polarisation may be found 
+
+in  a  plethora  of  various  contexts,  however,  for  the  purposes  of  this  paper, 
+
+polarisation  is  viewed  specifically  in  the  political  context  of  the  U.S.  party 
+
+politics.  Party  polarisation,  therefore,  can  be  defined  as  “situations  where 
+
+polarisation  is  organised  around  parties”  (McCarty,  2019).  In  the case of the 
+
+U.S.,  in  particular,  these  parties  are  the  Democratic  Party,  associated  with 
+
+liberal values, and the Republican Party, associated with conservative values, 
+
+that tend to take contrasting stances on the issues. Thus, this paper looks into 
+
+the  U.S.  party  polarisation  as  an  ideological  divergence  between  the 
+
+Democratic  Party  and  the  Republican  Party,  with  this  divergence  being 
+
+exacerbated via affective polarisation and partisanship.  
+
+Secondly, when it comes to the theoretical framework of neoclassical realism 
+
+(Rose,  1998),  certain  key  concepts,  relevant  to  this  paper,  are  outlined  in 
+
+Figure  1.  Of  particular  importance  to  this  paper  are  the  systemic  incentives 
+
+(that  serve  as  an  independent  variable)  in  the  form  of  the  2022-2024 
+
+international  environment  and  internal  factors  (that  serve  as  an  intervening 
+
+variable)  in  the  form  of  the  U.S.  party  polarisation.  The  application  of 
+
+neoclassical  realism,  as  such,  presupposes  viewing such an internal factor as 
+
+polarisation as an intervening variable in the production of a foreign policy of 
+
+a state.  
+
+In  addition,  several  concepts  have  to  be  outlined  with  regard  to  the Ukraine 
+
+crisis  and  the  U.S.-Russia  relations  within  the  context  of  this  crisis. 
+
+Particularly,  this  research  paper  uses  a  concept  by  Hoffman  (2007),  termed 
+
+hybrid warfare, to describe the characteristics of the nature of a confrontation 
+
+between  the  U.S.  and  Russia  with  regard  to  the  Ukraine  crisis.  Hybrid 
+
+warfare, according to Hoffman (2007), is essentially an amalgamation of both 
+
+ 
+ 
+ 
+23 
+
+conventional and non-conventional components of warfare. What is more, the 
+
+nature  of  the  U.S.-Russia  confrontation  within  the  context  of  the  Ukraine 
+
+crisis  is  described  by  the  concept  of  a  proxy  war,  which,  in  this  case,  is 
+
+characterised  by  an  absence  of  a  direct  military  confrontation  between  the 
+
+U.S. and Russia and a presence of the U.S. support for Ukraine.  
+
+1.4.4. Scope of the Paper  
+
+Within  the  scope  of this paper is party polarisation in the U.S. between 2022 
+
+and 2024, and its influence on the foreign policy decisions over this period in 
+
+relation  to  Russia  within  the  context  of  the  Ukraine  crisis.  While  the  paper 
+
+briefly  discusses  the  nuances  of  polarisation  itself,  the  origins  and  causes of 
+
+polarisation  are  largely  beyond  the  scope  of  this  research  and  will  not  be 
+
+considered in detail. What is discussed in detail is the way in which divergent 
+
+views  of  Democrats  and  Republicans,  expressed  in  the  polarisation  between 
+
+the Democratic Party and the Republican Party in the U.S., influence the U.S. 
+
+foreign policy stance towards Russia in 2022-2024, considering the context of 
+
+the  Ukraine  crisis.  Additionally,  for  the  purposes  of  providing  a  thorough 
+
+historical  background,  the  U.S.-Russia  relations  themselves  are  considered 
+
+with  a  specific  focus  on the period between the collapse of the Soviet Union 
+
+in 1991 and the start of the Ukraine crisis in 2022.  
+
+1.4.5. Potential Shortcomings & Limitations 
+
+As for potential shortcomings, it is possible that, even if established, a causal 
+
+relationship  between  the  U.S.  polarisation  and  the  alterations  in  the  U.S. 
+
+foreign  policy  decisions  towards  Russia  may  not  be  directly proven as other 
+
+factors  may  also  be  at  play  here.  In  addition,  due  to  the  chronological 
+
+framework that spans recent years, a further potential problem may be that of 
+
+a lack of data and thorough research on the U.S. foreign policy decisions and 
+
+tactics in relation to Russia.  
+
+ 
+ 
+ 
+ 
+1.4.6. Paper Outline  
+
+24 
+
+The  rest  of  the paper is organised as follows. Section two provides historical 
+
+and  theoretical  background  of  the  subtopics to set the backbone of the topic. 
+
+Democratic  and  Republican  narratives  with  regard  to  the  Ukraine  crisis  and 
+
+Russia are coded, constructed, compared and analysed in Section three via the 
+
+application of the method of narrative analysis. Research results are presented 
+
+and  analysed  in  Section four, alongside discussion, limitations, shortcomings 
+
+and  concluding  remarks  on  the  conducted  research,  followed  by  the  final 
+
+conclusion in Section five.  
+
+ 
+ 
+ 
+2. Historical & Theoretical Background 
+
+2.1. U.S. Party Polarisation as a Divisive Political Force  
+
+25 
+
+Few  notions  within  the  political  scene  of  the  United  States  have  had  such  a 
+
+divisive  effect  on  politics  as  party  polarisation.  Historically,  the  structure  of 
+
+the U.S. political landscape presupposed a dichotomy that manifested itself in 
+
+a 
+
+two-party  system.  This  non-proportional  system,  composed  of  the 
+
+Democratic  Party  and  the  Republican  Party,  inherently  juxtaposes  the  views 
+
+of  Democrats  and  Republicans,  putting  them  in  a  situation  of  a  nearly 
+
+permanent ideological confrontation. Being one of the key features of the U.S. 
+
+politics  and  having  been  increasing  in  intensity  over  the  past  decades,  party 
+
+polarisation  largely  came  to  define  not  only  the domestic policy of the U.S., 
+
+but also its foreign policy. As such, party polarisation is a somewhat powerful 
+
+phenomenon,  whose  intricacies  have  to  be  closely  examined  in  order  to 
+
+understand the way in which it exudes influence on foreign policy decisions. 
+
+Firstly,  to  reiterate  what  has  been  stated  above,  polarisation  implies  an 
+
+ideological  divide  between  two  particular  groups  who  hold  polar  opposite 
+
+views  on  the  issues,  and,  in  accordance  with  the  spatial  theory  by  Downs 
+
+(1957),  can  be  positioned  alongside  a  left-right  spectrum.  In  the  case  of  the 
+
+U.S.  political  landscape,  the  left  side  of  the  spectrum  is  represented  by  the 
+
+Democratic Party, while the right side is represented by the Republican Party, 
+
+with  a  substantial  divergence  existing  between  them.  This  divergence, 
+
+manifesting  itself  in  the  notion  of  party  polarisation,  can  be  attributed  to  a 
+
+plethora of factors, including the diverse ideologies and values, the concept of 
+
+affective  polarisation  (Iyengar  et  al.,  2012),  which  generates  both  positive 
+
+feelings  towards  one’s  own  party  and  negative  sentiments  towards  the 
+
+opposing  party,  as  well  as  the  notion  of  partisanship,  which  is  driven  by 
+
+people’s  strong  bias  towards  one’s  own  party  and  a  prejudiced  view  of  the 
+
+opposing  party  (McCarty,  2019).  While  polarisation  may,  indeed,  be 
+
+subdivided  into  ideological  and  affective one, this paper primarily looks into 
+
+ 
+ 
+26 
+
+ideological  polarisation  with  a  minor  emphasis  on  affective polarisation as a 
+
+contributing 
+
+factor.  Being  closely 
+
+related 
+
+to  affective  polarisation, 
+
+partisanship is also within the scope of this paper as it is a crucial component 
+
+of  party  polarisation.  To  sum  up, the U.S. party polarisation is an expression 
+
+of  the  ideological  divide  between  the  left-wing  Democratic  Party  and  the 
+
+right-wing  Republican  Party,  which  may  also  be  aggravated  by  partisanship 
+
+and affective polarisation. 
+
+Secondly,  the  recent  trend  has  been  that  of  an  exponentially  rising  party 
+
+polarisation  within  the  United  States,  largely  splitting  the  country  into  two 
+
+political  camps.  Starting  from  the  1970s,  both  Pew  Research  Center  (2022) 
+
+and  McCarty  (2019)  indicate  a  rise  in  party  polarisation  in  the  U.S.,  with  a 
+
+particular  example  of  the  polarised  U.S.  Congress,  where  both  parties 
+
+consistently  deviated  from  the  ideological  center.  By  2014,  92%  of 
+
+Republicans were to the right of the median Democrat and 94% of Democrats 
+
+were  to  the  left  of  the  median  Republican,  indicating  an  exponential  gap 
+
+between  the  two  parties  (Pew  Research  Center,  2014).  What  is  more,  Pew 
+
+Research  Center  (2014)  indicated  a  rise  in  partisan  antipathy,  with  mutual 
+
+hostilities increasing between the Democratic Party and the Republican Party, 
+
+exacerbating the degree of polarisation. While the U.S. party polarisation has 
+
+not  always  been  high,  with  McCarty  (2019)  stating  that  the  20th  century 
+
+witnessed  a  rather  low  level  of  polarisation  mostly  due  to  a  post-WWII 
+
+bipartisan  consensus  and an absence of certain issues that are now polarising 
+
+politics, it has evidently been accelerating over the past years, culminating in 
+
+a  rather  tense  and  divisive  U.S.  presidential  race  of 2024. What can account 
+
+for this dynamic is a complex interplay of factors, including, apart from a rise 
+
+in affective polarisation and partisanship, the emergence of social and cultural 
+
+issues  on  which  the  stances  of  Democrats  and  Republicans  diverge.  To 
+
+provide  an  example,  Vail  (2014)  found  an  explicit  correlation  between  an 
+
+increasing  presence  of  cultural  issues,  such  as  abortion  rights,  within  the 
+
+ 
+ 
+27 
+
+political discourse and a rise in polarisation in the United States. Specifically, 
+
+Vail  (2014)  finds  that  the  Democratic  Party  and  the  Republican  Party  have 
+
+been  experiencing  a  rising polarisation between 1952 and 2012 in relation to 
+
+issues concerning women. Currently, the more culturally and socially divisive 
+
+issues  surface  in  the  modern  world,  the  more  the  parties  are  drifting  apart, 
+
+which  has  substantial  implications  for  the  governance  of  the  country  as  the 
+
+paper will further discuss. 
+
+Finally,  party  polarisation  has  far-reaching  consequences  for  a  myriad  of 
+
+issues  and  entities,  including  all  three  branches  of  the  government,  namely, 
+
+executive,  legislative  and  judicial  (Lee,  2015).  As  such,  the  president,  the 
+
+Congress,  with  its  House  of  Representatives  and  the  Senate,  as  well  as  the 
+
+Supreme  Court  are  all,  in  one  way  or  another,  influenced  by  party 
+
+polarisation.  One  of  the  most  common  manifestations  of  such  party 
+
+polarisation is a legislative gridlock, which represents a policy stalemate with 
+
+the legislative process being suspended and the Congress being unable to pass 
+
+policies,  and  which  Jones  (2001)  closely  associated  with  party  polarisation. 
+
+Similarly, Blackman (2016) argued that the Congress loses its power to solve 
+
+major  issues  as  its  internal  polarisation  intensifies.  These  “unfavourable 
+
+political  winds”,  as  stated  by  Young  (2014,  p.992),  have  significant 
+
+consequences for both domestic policies of the U.S. and its. foreign policy. Of 
+
+particular  importance  to  this  paper,  however,  is  the  effect  of  such  party 
+
+polarisation on the U.S. foreign policy formation specifically. As parties tend 
+
+to  take  contradictory  stances  on a wide array of issues, ranging from climate 
+
+change  to  the  view  of  NATO  and  Ukraine,  the  party  in  power  largely 
+
+determines the course of the U.S. foreign policy as it sees fit. One of the most 
+
+striking  examples  of  this  is  the  Paris  Agreement  which  was  unilaterally 
+
+ratified  by  Barack  Obama  (the  Democratic  Party)  in  2016,  with  Donald 
+
+Trump  (the  Republican  Party)  unilaterally  withdrawing  from  it  in  2017 
+
+(Durney,  2017).  On  the  first  day  of  the  Democratic  Party  return to power in 
+
+ 
+ 
+28 
+
+2021,  however,  Joseph  Biden  returned  the  United  States  to  the  Paris 
+
+Agreement.  This  is,  however,  a  rare  case  of  where  an  executive  was  able to 
+
+unilaterally enact a policy. In most cases, per contra, foreign policy is devised 
+
+under  the  influence  of  both  legislative  and  executive  branches.  The  Ukraine 
+
+crisis,  for  example,  is  one  such  case,  with  Pew  Research  Center  (2024) 
+
+finding  an  increasing  partisan  divergence  between  the  Democratic Party and 
+
+the  Republican  Party  with  regard  to  NATO  and  Ukraine.  Particularly, 
+
+Republicans  view  the  U.S.  membership  in  NATO  more  negatively  than 
+
+Democrats, in addition to being more negatively inclined towards giving more 
+
+aid  to  Ukraine  than  the  democrats  (Pew  Research  Center,  2024).  This 
+
+exemplifies  the  impediment  to  the  production  of  a  coherent,  unilateral 
+
+response to the Ukraine crisis, dividing Democrats and Republicans as to how 
+
+it  should  be  handled  as  well  as  to  what  foreign  policy  approach  should  be 
+
+applied vis-à-vis Russia, as the paper discusses in more detail below.  
+
+To conclude, party polarisation is a complex phenomenon that has essentially 
+
+pervaded  the  political  scene  of  the  U.S.  for  years,  dividing  it  into  two 
+
+ideologically  diverse  political  camps.  In  recent  years,  however,  party 
+
+polarisation  in  the  U.S.  has  intensified,  with  bipartisanship,  which  is  a 
+
+consensus  between  two  opposing  parties,  becoming  a  virtually  non-existent 
+
+concept  as  little  to  no  consensus  can  be  reached  between  Democrats  and 
+
+Republicans neither on domestic nor on foreign issues. Such an intensification 
+
+of  party  polarisation  influences  the  operations  of  the  government’s  three 
+
+branches  and  is  prone  to  producing  a  legislative  gridlock,  leaving  the 
+
+Congress  suspended  and  unable  to  function  properly.  What  is  more, 
+
+polarisation  leads  to  contrasting  foreign  policy  approaches,  depending  on 
+
+which  of  the  two  parties  is  presently  in  power,  as  exemplified  by  the  Paris 
+
+Agreement  and  the  Ukraine  crisis.  Therefore,  it can be inferred that the U.S. 
+
+party  polarisation  has  become  a  truly  divisive  force  that  is  determining  the 
+
+United States’ course of action in many respects, including its foreign policy.  
+
+ 
+ 
+29 
+
+2.2.  U.S.  Party  Polarisation  as  an  Intervening  Variable  in  the  U.S. 
+
+Foreign Policy 
+
+Having  looked  at  the notion of polarisation broadly, it became evident that it 
+
+represents  a powerful political force that is able to influence various political 
+
+agenda.  More  specifically,  however,  the  ability of the U.S. party polarisation 
+
+to  influence  the  U.S.  foreign  policy  decisions  should  be  outlined  so  as  to 
+
+prove  its  applicability  to  the  topic  of  foreign  policy.  By  rendering  an 
+
+understanding  of  the  precise  way  in  which  polarisation  influences  foreign 
+
+policy decisions, this will aid in the further conduction of the research on the 
+
+topic. To assist with this, the theory of neoclassical realism, which, in addition 
+
+to  looking  at  systemic  incentives,  takes  into  account  domestic  factors  as 
+
+intervening  variables  in  the  formulation  of  foreign  policy  of  a  state,  will  be 
+
+applied.  
+
+Firstly, it might appear counterintuitive to take the U.S. party polarisation as a 
+
+variable  in  the  U.S.  foreign  policy  formation  due  to  it  being  a  matter  of 
+
+domestic affairs. In spite of this fact, the U.S. party polarisation does, indeed, 
+
+act  as  an  intervening  variable  in  formulation  of  the  U.S.  foreign  policy  if 
+
+looked at through the prism of neoclassical realism of Rose (1998). By taking 
+
+into  account  both  systemic  incentives  (independent  variable)  and  internal 
+
+factors  (intervening  variable),  neoclassical  realism  renders  a  comprehensive 
+
+understanding of how the foreign policy of a state is shaped by both domestic 
+
+and  foreign  state  of  affairs.  As  is  evident  in  figure  1,  this  paper  implements 
+
+neoclassical realism by taking into consideration the 2022- 2024 international 
+
+environment  of  2022-2024 as systemic incentives (independent variable) and 
+
+the  U.S.  party  polarisation  as  an  internal  factor  (intervening variable) with a 
+
+view  to  seeing  how  the  latter  impacts  the  formulation  of  the  U.S.  foreign 
+
+policy  in  relation  to  Russia  within  the  context  of  the  former.  Of  particular 
+
+importance is the type II neoclassical realism (Ripsman et al., 2016), which is 
+
+ 
+ 
+ 
+30 
+
+usually  associated  with  neoclassical  realism  of  Rose  (1998)  and  which 
+
+highlights  the cruciality of considering both internal and external factors of a 
+
+state  in  the  formulation  of  its  foreign  policy.  The  U.S.  party  polarisation, 
+
+therefore,  can  be  considered  as  an  essential  factor  in  the  way  the  U.S. 
+
+approaches its foreign policy.  
+
+Secondly, to showcase the role of polarisation in shaping foreign policy, it can 
+
+be  of  great  use  to  juxtapose  the  U.S.  party  polarisation  with  the  U.S. 
+
+bipartisan  consensus  in  order  to  see  the  strikingly  different  effects  the  two 
+
+notions  have  on  the U.S. foreign policy. To do so, two periods from the U.S. 
+
+history  can  be  compared,  with  one  being  characterised  by  a  bipartisan 
+
+consensus  and  the  other  being  characterised  by  polarisation  between parties. 
+
+Starting  with  an  example of the former, post-WWII bipartisan consensus can 
+
+be taken into consideration. As mentioned by McCarty (2019), the U.S. party 
+
+polarisation  was  rather  low in the aftermath of the Second World War owing 
+
+to a consensus between two major U.S. parties (bipartisan consensus) on how 
+
+affairs  of  the  state  should  be  approached.  Similarly,  according  to  Lynch 
+
+(2018),  the  U.S.  foreign  policy  stance  on  Russia  in  2003-2004  exemplified 
+
+bipartisan consensus as both Democrats and Republicans were equally hostile 
+
+in  relation  to  Russia,  most  prominently  exemplified  by  their  unwilligness  to 
+
+cooperate  with  the  Russian  president.  In  this  case,  the  U.S.  could  produce 
+
+foreign  policy  that  was  supported  both  by  the  Democratic  Party  and  the 
+
+Republican  Party,  without  experiencing  major  disagreements  between  one 
+
+another on which course of action to take.  
+
+By contrast, once parties disagree on a particular issue, holding polar opposite 
+
+views  on  it,  this  polarisation  impedes  the  decision-making  process,  making 
+
+foreign  policy  either  tough  to  implement  or  simply  inconsistent  and 
+
+discontinuous.  Such  polarisation in the U.S. can be exemplified by the realm 
+
+of  environmental  policy  and  the  strikingly  different  views of Democrats and 
+
+ 
+ 
+ 
+31 
+
+Republicans on how it should be approached by the U.S. As has been briefly 
+
+mentioned  above,  the  Paris  Agreement  of  2015  is  one  of  the  most  vivid 
+
+examples of discontinuity in the U.S. foreign policy as a result of polarisation 
+
+between  Republicans  and  Democrats  on  the  importance  of  climate  change. 
+
+Having  been  adopted  by  Barack  Obama  (the  Democratic  Party) in 2016, the 
+
+Paris  Agreement  was  left  by  the  U.S.  in  2016  as  a  result  of  an  executive 
+
+decree of Donald Trump (Republican Party) (Durney, 2017). While Joe Biden 
+
+(the  Democratic  Party)  later  returned  the  U.S.  to  the  Paris  Agreement,  it  is 
+
+evident that the U.S. party polarisation on crucial global issues indeed acts as 
+
+an  intervening  variable  in  shaping  the  U.S.  foreign  policy.  As  such,  one 
+
+inference  that  can  be  made  from  this  comparison  is  that  the  U.S.  bipartisan 
+
+consensus  (consensus  between  the  Democratic  Party  and  the  Republican 
+
+Party)   is  more  favourable  to  a  coherent  and  rapidly-enacted  foreign  policy 
+
+rather than polarisation between parties. While polarisation divides the parties 
+
+along  two  divergent  lines  of  reasoning,  stalling  decision-making  process, 
+
+bipartisan consensus offers a common ground for foreign policy formulation. 
+
+To conclude, while it might, indeed, appear that the U.S. party polarisation is 
+
+a  matter  of  domestic  affairs  only and, as such, should not be considered as a 
+
+variable  in  the  U.S.  foreign  policy  formation,  neoclassical  realism  of  Rose 
+
+(1998)  posits  otherwise.  Being  a  prominent  domestic  force,  the  U.S.  party 
+
+polarisation  acts  as  an  intervening  variable  in  the  formation  of  the  U.S. 
+
+foreign  policy,  which  renders  novel  insights  into  what  domestic  factors may 
+
+influence  the  formulation  of  the  foreign  policy  of  a  state.  While  bipartisan 
+
+consensus  provides  favourable  conditions  for  a  unanimous  decision-making 
+
+process  on  foreign  policy  issues,  polarisation  between  parties  can  severely 
+
+hinder 
+
+this  process,  making  foreign  policy  quite  discontinuous  and 
+
+problematic in the long-term. 
+
+ 
+ 
+ 
+2.3.  Evolution  of  U.S.-Russia  relations  &  U.S.  Foreign  Policy  vis-à-vis 
+
+32 
+
+Russia 
+
+While not always enjoying relations of mutual trust and amiability, the United 
+
+States and Russia have paid particular attention to one another over the course 
+
+of  history  for  a  number  of  reasons.  At  times  out  of  fear  (as  during the Cold 
+
+War) and at times out of a genuine desire to cooperate (as during the policy of 
+
+the “reset”), the U.S. and Russia have been both historical allies and historical 
+
+opponents, closely watching each other at all times. With the end of the Cold 
+
+War rivalry and the collapse of the Soviet Union in 1991, it was supposed that 
+
+Russia  would  integrate  into  the  Western-led  world  order,  effectively  ending 
+
+confrontational  relations  between  the  two  states.  This  would  not,  however, 
+
+prove to be as smooth of a transition as expected. Since the dissolution of the 
+
+USSR,  the  nature  of  the  relations  between  the  U.S.  and  Russia  had  been 
+
+alternating  between  confrontation  and  cooperation,  with  the  confrontation 
+
+ultimately  prevailing  in  2022  as  a  result  of  the  Ukraine  crisis.  This  crisis 
+
+provoked  a  drastic  shift  in  the  U.S.  foreign  policy  towards  Russia,  with  the 
+
+U.S.-Russia  relations  suffering  irreparable  damage,  leaving  the  future  of  the 
+
+U.S.-Russia relations uncertain.  
+
+Firstly, the 20th century has been instrumental in laying the foundation for the 
+
+future  of  the  U.S.-Russia  relations and, as such, it is worth briefly reviewing 
+
+it.   While  being  allies  during  WWII  that  jointly defeated the Axis powers in 
+
+1945, the United States. and Russia soon ceased being partners, with the seeds 
+
+of  ideological  rivalry  having  been  planted  not  long  after  the  Second  World 
+
+War ended. In the aftermath of WWII, tensions between the United States and 
+
+the  Soviet  Union,  with  their  respective  ideologies  of  capitalism  and 
+
+communism,  started  to  dominate  their  relations.  In  a  stark  departure  to  its 
+
+previous policy of isolationism, the U.S. quickly recognised the Soviet Union 
+
+(and the potential spread of communism) as a threat not only to the U.S. itself, 
+
+but  also  to  the  rest  of  the  world.  This  culminated  in  president  Truman’s 
+
+ 
+ 
+33 
+
+proclamation of the launch of the policy of containment in 1947 in the form of 
+
+the  Truman  Doctrine  (Nagar  et  al.,  2014).  From  that  point  forward,  the  key 
+
+foreign  policy  goal  of the United States was to contain the Soviet Union and 
+
+to  prevent  the  spread  of  the  communist  ideology.  As  such,  for  nearly  the 
+
+whole  second  part  of  the  20th  century,  the  U.S.-Russian  relations  were 
+
+characterised  by  an  ideological  confrontation  and  mutual  hostilities  within  a 
+
+bipolar  world  order.  Of  particular  importance  to  this  paper  is the creation of 
+
+NATO  during  this  period  in  response  to  the  communist  threat.  From  its 
+
+foundation  in  1949,  NATO  represented  a  military  alliance  of  the  Western 
+
+states  aimed  at  achieving  collective  security  and  containing  the  potential 
+
+threat  from  the  Soviet  Union.  Despite  its  initial  goal  having  ceased  to  exist 
+
+with  the  collapse  of the USSR, NATO has modified its goals and operations, 
+
+continuing  to  exist  even with the birth of a new Russian state. Consequently, 
+
+the  creation  of  NATO  would  largely  determine the nature of the U.S.-Russia 
+
+relations for decades to come.  
+
+Secondly, the dissolution of the USSR in 1991 and the overall end of the Cold 
+
+War  marked  a  significant  geopolitical  shift  and  a  novel  stage  in  the 
+
+U.S.-Russia  relations,  according  to  Roberts  (in  Tsygankov,  2018,  p.237).  It 
+
+terminated the hostilities and the ideological rivalry between the U.S. and the 
+
+Soviet  Union  that  had  permeated  the  international  system  since  the  end  of 
+
+WWII  up  until  1991.  At  the  time,  it was proposed by Fukuyama (1992) that 
+
+the  world  had  reached  the  “end  of  history”,  where  the  notion  of  liberal 
+
+democracy  had  supposedly emerged as the superior form of governance with 
+
+no  other  regime  being  able  to  challenge  it.  In  line  with  this  reasoning,  both 
+
+being  pro-Western,  the  new  president  of  Russia,  Boris  Yeltsin,  and  the  new 
+
+Minister of Foreign Affairs, Andrei Kozyrev, started charting a new course for 
+
+Russia,  one  where  Russia  would  supposedly  integrate  into  the  Western-led 
+
+world  order,  adopting  democratic  and  liberal  principles.  Initially  having 
+
+started  with hopes on both sides, this period of cooperation largely proved to 
+
+ 
+ 
+34 
+
+be  unsustainable.  This  happened  mostly  due  to  a  certain  mismatch  between 
+
+the intentions and interests of Russia and the West, consequently leading to an 
+
+ultimate  failure  of  the  Russian  attempt  to  integrate  into  the  West,  indicating 
+
+that  the  world  was  not,  in  fact,  at  “the  end of history”. In short, the Western 
+
+hopes  were  that  Russia  would  undergo  an  internal  transformation,  while 
+
+Russian hopes were that the West would accept Russia as an equal partner as 
+
+it  is.  Yet,  the  key  turning  point  became  the  potential  enlargement  of  NATO, 
+
+which emerged as a significant point of contention and an arguable tug of war 
+
+between  the  United  States  and Russia over the post-Soviet space. One of the 
+
+key reasons behind this is that, according to Lynch (2016), Russia believes in 
+
+its regional primacy in the post-Soviet space, with the West refusing to accept 
+
+this  notion.  Therefore,  NATO  as  a  point  of  contention  has been solidified in 
+
+the U.S.-Russia relations, making their cooperation problematic. 
+
+Nevertheless,  as  the  hopes  that  Russia  would  integrate  into  the  Western-led 
+
+world order have been shattered on both sides, Russia and the West, partially 
+
+out of willingness and partially out of necessity, entered the 21st century with 
+
+pragmatic  cooperation.  This  manifested  itself  in  cooperation  of  the U.S. and 
+
+Russia  in  certain  areas,  such  as  counter-terrorism  agenda.  One  of  the  key 
+
+reasons behind this was the unprecedented terrorist attacks of September 11th, 
+
+2001  that  targeted  the  Twin  Towers  in  New  York  by  a  terrorist  group 
+
+al-Qaeda.  By  expressing  sympathy  with  the  U.S.,  Russia  was  determined  to 
+
+cooperate  with  it on fighting terrorism in the international system, marking a 
+
+new  stage  in  the  U.S.-Russia  relations.  What  is  more,  in  an  unparalleled 
+
+move,  NATO-Russia  Council  was  created  in  May 2002 as a sign of both the 
+
+recognition  of  Russia  by  the  West  as  a  strategic  partner and the readiness of 
+
+Russia  to  loosen  its  opposition  to  the  enlargement  of  NATO,  ultimately 
+
+leading  to the amelioration of relations (Franekova, 2002). At the same time, 
+
+the turn that the U.S. foreign policy took with the launch of the War on Terror 
+
+was at odds with Russia’s view of the world order, not only effectively ending 
+
+ 
+ 
+35 
+
+the  cooperation  between  the  two  states  on  the  counter-terrorist  agenda,  but 
+
+also  planting  the  seeds of future conflicts and confrontation (German, 2024). 
+
+According to German (2024), the U.S.-Russia relations had been significantly 
+
+impacted by the U.S. foreign policy under the George W. Bush administration 
+
+that 
+
+emphasised  unilateralism, 
+
+spread  of  democracy  and 
+
+liberal 
+
+interventionism,  which  would  ultimately  contribute  to  the  Ukraine  crisis  of 
+
+2024.  Prior  to  this,  NATO  emerged  as  a  point  of contention once more. The 
+
+statement  during  the  Bucharest  Summit  of  April  2008  about  Georgia  and 
+
+Ukraine  eventually  becoming  members  of  NATO  further  complicated  the 
+
+relations  between  the  U.S.  and  Russia,  with  the  latter  launching  an  invasion 
+
+into  Georgia  (German,  2024).  The  U.S.  and  Russia  attempted  to  reset  their 
+
+relationship  in  2009-2012,  with  Barack  Obama,  president  of  the  U.S.,  and 
+
+Dmitry  Medveded,  president  of  Russia,  focusing  on  bettering  the  relations, 
+
+albeit,  to  little  avail  in  the  long-run,  according  to  Roberts  (in  Tsygankov, 
+
+2018, p.247). With the return of Vladimir Putin to the presidency of Russia in 
+
+2012  and  the  renewed  hostilities  between  the  U.S.  and  Russia  over  the 
+
+post-Soviet  space,  there  was  little  hope  for  improvement  in  their  relations. 
+
+Therefore,  with the clash of interests over the expansion of NATO remaining 
+
+at the heart of the tensions between the U.S. and Russia, the relations between 
+
+the  two  states  ultimately  soured  due  to  the  inability  to  resolve,  among other 
+
+things,  the  Ukraine  crisis on mutually acceptable terms, leaving the U.S. and 
+
+Russia locked in confrontational relations.  
+
+Distantly originating from the 2008 Bucharest Summit (and the proclamations 
+
+of  Ukraine  potentially  joining  NATO), as well as from the 2013 Euromaidan 
+
+(which  culminated  in  the  installation  of  a  pro-Western  government,  making 
+
+Ukraine  joining  NATO  ever  more  likely),  the  question  of  Ukraine  has  long 
+
+been  a  point  of  contention  in  the  U.S.-Russia  relations.  As  the  Russian 
+
+incorporation of Crimea took place in 2014, it has once again put the U.S. and 
+
+Russia  at  loggerheads.  Notably,  Ukraine  emerged  as  a  polarising  factor  not 
+
+ 
+ 
+36 
+
+only  in  the  U.S.-Russia  relations,  but  also  within  the  U.S.  itself.  American 
+
+scholars  differ  in  their  views  on  the  crisis,  with  realists,  such  as  John  J. 
+
+Mearshimer,  and  liberals,  such as Michael McFaul and Stephen Sestanovich, 
+
+taking  polar  opposite  views  on  the  roots  of  the  crisis.  Particularly, 
+
+Mearsheimer (2014) claims that the crisis was initially generated by a number 
+
+of  actions  by  the  West,  namely,  the  expansion  of  NATO  and  the  European 
+
+Union to the east, as well as the promotion of democracy outside of the West. 
+
+Essentially  representing  a  clash  between  the  Russian  proponents  of  realism 
+
+and  the  Western  proponents  of  liberalism,  the  Ukraine  crisis,  according  to 
+
+Mearsheimer  (2014),  had  been  generated  by  a  reluctance  of  the  latter  to 
+
+acknowledge  the  security  concerns  of  the  former.  McFaul  &  Sestanovich 
+
+(2014),  however,  in  response  to  Mearsheimer  (2014),  take  a  polar  opposite 
+
+view, stating that the enlargement of NATO cannot possibly be considered as 
+
+a reason behind the crisis due to it having happened a long time ago. Instead, 
+
+McFaul  &  Sestanovich  (2014)  propose  that  it  was  the  Russian  leader’s 
+
+personal  choice  to  show  the  U.S.  in  a  bad  light,  so  as  to  boost  popularity 
+
+domestically,  that  generated  the  crisis  in  the  first  place.  In  response  to  this 
+
+critique,  Mearsheimer  (2014)  points  to  the  fact  that  it  was  this  particular 
+
+liberal  logic  that  omitted  the  security  concerns  of  Russia  that  initiated  the 
+
+crisis,  making  Russia  operate  out of fear. Considering such distinct views on 
+
+the  same  crisis  in  academia  and,  as  has  been  briefly  mentioned  above,  the 
+
+U.S. politicians are no less polarised with regard to the Ukraine crisis than the 
+
+scholars, which has implications for how the U.S. approaches Russia.  
+
+It is notable that with the U.S. further intending on welcoming the post-Soviet 
+
+states  into  NATO  and  Russia  striving  to  protect  its  dominance  in  the 
+
+post-Soviet  space,  the  peak  of  this  conflict  has  been  reached  in  2022  with 
+
+Russia  declaring  a  special  military  operation  in  Ukraine.  Representing  a 
+
+culmination  of  decades-long  tensions  between  the U.S. and Russia, the 2022 
+
+Ukraine  crisis  has  provoked  drastic  changes  in  their  respective  foreign 
+
+ 
+ 
+37 
+
+policies  towards  one  another,  significantly  impacting  the  nature  of  the 
+
+U.S.-Russia relations. By effectively putting to a halt all previous attempts to 
+
+cooperate as well as destroying any hopes of potential cooperation in the near 
+
+future,  mutually  beneficial  relations  became  a  virtually  unattainable  goal for 
+
+the  two  states.  Essentially  being  locked  in  a  confrontation,  the  U.S.  and 
+
+Russia  are  waging  a  proxy  war,  characterised  by  hybrid warfare (defined by 
+
+Hoffman  (2007)  as  a  combination  of  non-conventional  and  conventional 
+
+elements  of  warfare)  and  by 
+
+the  existential  nature  of  the  conflict 
+
+(Mearsheimer,  2023).  According  to  German  (2024),  the  2022  Ukraine  crisis 
+
+has  prompted  an  alteration  in  the  U.S.  foreign  policy  approach  towards 
+
+Russia,  effectively  ending  all  of  the  previous  strategies,  embarking,  instead, 
+
+upon  a  strategy  of  directly  diminishing  the  strategic  power  of  Russia.  Once 
+
+again,  however,  the  U.S.  stance  on  the  crisis  differs  due  to  the  party 
+
+polarisation  over  the  Ukraine  crisis.  According  to  Pew  Research  Center 
+
+(2024), the majority of Republicans state that it is not the responsibility of the 
+
+U.S.  to  provide aid to Ukraine and support it in the crisis, while the majority 
+
+of  Democrats  believe  that  the  U.S.  either  provides  sufficient  support  or  not 
+
+enough  of  it.  Whether  such  polarisation,  however,  exudes  influence  on  the 
+
+U.S.  foreign  policy  formation  in  relation  to  Russia  is  the  subject  of  the 
+
+following chapter.  
+
+In  conclusion,  the  United  States  and  Russia  have  shared  a  long,  complex 
+
+history, with their relations being fuelled, among other things, by the remnants 
+
+of the Cold War rivalry. The dissolution of the USSR in 1991 supposedly had 
+
+to put an end to the confrontation between the U.S. and Russia, with the latter 
+
+willing  to  integrate  into  the  Western-led  world  order.  Yet, while this attempt 
+
+of  integration  was  genuinely  made,  a  clash  of  interests  prevailed  in  their 
+
+relations,  leading, ultimately, to the deterioration of the relations between the 
+
+U.S.  and  Russia.  One  of  the  most  prominent  factors  that  contributed  to  this 
+
+deterioration  on  numerous  occasions  were  the  strikingly  divergent  views  of 
+
+ 
+ 
+38 
+
+NATO  and  its  enlargement  into  the  post-Soviet  space.  While  some  attempts 
+
+were  made  to  reconcile  these  differences  (e.g.  the  NATO-Russia  Council  of 
+
+2002),  the  U.S.  and  Russia  were  essentially  unable  to  reach  a  consensus, 
+
+culminating in the 2022 Ukraine crisis.  
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+39 
+
+3. U.S. Party Polarisation with regard to Ukraine Crisis & Russia 
+
+Having thoroughly analysed the concept of polarisation within the U.S. party 
+
+politics and the evolution of the U.S.-Russia relations, this chapter will focus 
+
+on  analysing  the  specifics  of  attitudes  and  mentions  by  Democrats  and 
+
+Republicans  of  the  2022-2024  Ukraine  crisis  and  Russia  in  order  to 
+
+understand  the  extent  of  their  polarisation  over  the  issues  and  the  extent  to 
+
+which it exudes influence on the U.S. foreign policy towards Russia. Below is 
+
+the table of foreign policy objectives and measures, mentioned by Democrats 
+
+and  Republicans,  that  was  generated  via  coding  of  the  2024  presidential 
+
+debate  of  Kamala  Harris  and  Donald Trump, vice presidential debate of Tim 
+
+Walz  and  JD  Vance,  Democratic  convention  speech  of  Kamala  Harris  and 
+
+Republican  convention  speech  of  Donald  Trump.  Prior  to  delving  into  the 
+
+nuanced discussion of the results, it should be noted that while the talk of the 
+
+Ukraine  crisis  and  Russia  is  present  on  both  Democratic  and  Republican 
+
+sides,  the  rhetoric  employed  by  them  with  regard  to  this  topic  is  highly 
+
+polarised. Notably, neither of the parties would like for the conflict to persist. 
+
+Thus,  while  employing  polar  opposite  rhetoric  with  regard  to  Ukraine  and 
+
+Russia,  Democrats and Republicans share an implicit notion that the Ukraine 
+
+crisis has to be put to a halt, albeit via different tactics. This, in turn, signifies 
+
+that  whether  Democrats  or  Republicans  are  in  power  will  produce  different 
+
+implications for the U.S. foreign policy towards Russia.  
+
+Foreign Policy Objectives & Measures                 
+
+Figure 3 
+
+ 
+40 
+
+Note:  the  numbers  in  the  table  represent  the  number  of  times  particular 
+
+foreign policy objectives and measures were mentioned during the speeches. 
+
+3.1. Democratic Perspective on 2022-2024 Ukraine Crisis & Russia 
+
+Having coded the 2024 presidential and vice presidential debates in the U.S., 
+
+as  well  as  the  convention  speeches  of  Democratic  and Republican nominees 
+
+(figure  3, appendix A), it is now possible, as such, to proceed with analysing 
+
+the  way  Democrats  view  the  2022-2024  Ukraine  crisis and the way they see 
+
+Russia  should  be  approached  within  this  context.  In  order  to  do  this,  the 
+
+method  of  narrative  analysis,  outlined  in  the  methodological section, will be 
+
+employed  here  to  construct  the  narrative  of  Democrats  with  regard  to  the 
+
+Ukraine crisis and how they see the way Russia should be approached in U.S. 
+
+foreign policy.  
+
+Firstly, to briefly reiterate what has been stated above, the construction of the 
+
+Democratic  narrative  has  been  done  via  coding  the  2024  presidential  debate 
+
+of Kamala Harris and Donald Trump, the 2024 vice presidential debate of Tim 
+
+Walz and JD Vance and the primary convention speech of Kamala Harris. The 
+
+findings  from  figure  3  illustrate  that  Kamala  Harris  is  both  promoting  and 
+
+ 
+ 
+ 
+ 
+41 
+
+supporting  the  provision  of  aid  to  Ukraine,  with  an  overall  positive  view  of 
+
+NATO  allies and Europe at large. While she does talk about the stakes of the 
+
+crisis,  which,  according  to  her,  lie  in  America's  ability  to  maintain 
+
+international rules and the position of the U.S. as a global leader of the liberal, 
+
+democratic  world,  she  neither  explicitly  mentions  the  resolution of the crisis 
+
+nor the need to constrain Russia. Her stance on the Ukraine crisis and Russia, 
+
+as  such,  is  rather  consistent  and  subtle.  Notably,  Harris  is  highly  consistent 
+
+when  it  comes  to  talking  about  the  Ukraine  crisis  and  Russia.  Figure  3 
+
+showcases  the  number  of  times  certain  topics  have  been  mentioned  by 
+
+Kamala Harris  in both her debate and her convention speech, with her talking 
+
+equally about aid to Ukraine, NATO allies and the stakes of the crisis. When it 
+
+comes  to  the  2024  vice  presidential  debate,  however,  Tim  Walz  mentioned 
+
+neither  the  Ukraine  crisis  nor  Russia  in  his  speech,  focusing,  rather,  on 
+
+domestic issues and the U.S. foreign policy with regard to the Middle East. It 
+
+can be stated, therefore, that while Democrats do have a stance on the Ukraine 
+
+crisis  and  Russia,  believing  that  the  former  has  to  be  supported  and  that the 
+
+U.S. should emerge as a global leader in the crisis, they are not aggressive in 
+
+their approach to the topic, avoiding overly harsh measures within the context 
+
+of the U.S. presidential and vice presidential elections. 
+
+Secondly, it is now possible to construct the Democratic narrative with regard 
+
+to  the  Ukraine  crisis  and  Russia,  based  on  the  aforementioned  findings, 
+
+employing  the  narrative  method  outlined  in  the  methodological  section. It is 
+
+quite clear that Democrats take the Ukraine crisis seriously, stressing the need 
+
+to continue providing support to Ukraine so as not to let it fall. Their ultimate 
+
+goals  are,  as  such,  defending  democratic  and  liberal  values,  with  the  U.S. 
+
+protecting international norms in the international system as a global leader of 
+
+the  democratic  world.  None  of  the  Democrats,  however,  talk  about  concrete 
+
+measures that they wish to take in relation to Russia so as to end the crisis that 
+
+they  deem  to  be  unlawful  and  morally  wrong.  This  can  potentially  be 
+
+ 
+ 
+42 
+
+explained by the emplotment of the context (figure 2) with a win-lose setting 
+
+of  the  U.S.  presidential  elections,  where  each  leader  bases  their  line  of 
+
+reasoning  on  appealing  to  the  civil  society.  Democrats,  as  such,  are  not 
+
+incentivised to talk about ending the crisis. Rather, they emerge as democratic 
+
+leaders,  defending  democratic  and  liberal  values,  as  their  supporters  would 
+
+expect  them  to.  While  Democrats  have  applied  sanctions  and  international 
+
+pressure on Russia so as to weaken its ability to influence Ukraine previously, 
+
+they  have  avoided  mentioning  any  steps  they  wish  to  take  against  Russia  in 
+
+the  future.  Therefore,  the  Democratic  narrative  with  regard  to  the  Ukraine 
+
+crisis  and  Russia  represents  a  rigid  commitment  to  supporting  Ukraine, 
+
+thereby  defending  democratic  and liberal ideals, while avoiding overly harsh 
+
+measures due to the 2024 U.S. presidential elections being at stake. 
+
+To  conclude,  construction  of  the  Democratic  narrative  via  coding  the  2024 
+
+U.S.  presidential  and  vice  presidential  elections,  alongside  a  Democratic 
+
+convention speech of Kamala Harris, allowed to get an understanding of how 
+
+Democrats view the Ukraine crisis and Russia. While taking a rigid stance on 
+
+supporting Ukraine and providing aid, Democrats mentioned neither the steps 
+
+to  potentially  resolve  the  crisis  nor  their  foreign  policy  objectives  towards 
+
+Russia.  All  of  these have to be considered within the win-lose context of the 
+
+U.S.  presidential  elections,  where  Democrats’  key  goals  are  to  defend 
+
+democratic values and, ultimately, get elected. 
+
+3.2. Republican Perspective on 2022-2024 Ukraine Crisis & Russia 
+
+Having  constructed  and  analysed  the  Democratic  narrative  with  regard  to 
+
+Russia and the Ukraine crisis, this section will proceed with constructing and 
+
+analysing  the  Republican  narrative  on  the  same  issues.  In  particular,  this 
+
+section  will  use  the  results  of  coding  the  2024  presidential  and  vice 
+
+presidential  debates  in  the  U.S.  as well as the Republican convention speech 
+
+ 
+ 
+ 
+of  Donald  Trump,  presented  in  figure  3  and  appendix  A,  in  order  to  outline 
+
+the Republican narrative. 
+
+43 
+
+Firstly,  when  looking  at  the  Republican  stance  on  the  Ukraine  crisis  and 
+
+Russia,  the  findings  from  figure  3  showcase  that  not  only  was both Ukraine 
+
+and  Russia  mentioned  by  Trump  in  his  convention  speech  and  during  the 
+
+debate  with  the  Democratic  nominee  Kamala  Harris,  but  that they were also 
+
+mentioned numerous times by him. Notably, Trump’s convention speech was 
+
+quite  mild  in  this  sense,  mentioning  a  reduction  of  aid  to  Ukraine  once, 
+
+stressing  the  need  to  resolve  the  crisis  once  and  highlighting  the  stakes 
+
+involved  once.  During the debate with Harris, however, Trump demonstrated 
+
+a  more  aggressive  and  thorough approach to the conflict, stating alike points 
+
+up  to  four  times.  Not  only  did  Trump  express  his  unwillingness  to  keep 
+
+sponsoring  Ukraine  (claiming  that,  instead,  Europe  and  NATO  allies  should 
+
+invest  more,  viewing  NATO  as  underinvesting  in  the  conflict),  but  he  also 
+
+mentioned  the  need  to  negotiate  with  Russia  in  order to resolve the conflict, 
+
+blaming  Democrats  for  not  starting  negotiations  with  Vladimir  Putin. 
+
+Additionally, Donald Trump has made it crystal clear that his primary goal in 
+
+this conflict is to put it to an end, emphasising both his willingness as well as 
+
+his ability to do so. On top of that, Trump has raised a point about the stakes 
+
+involved  in  this  conflict  multiple  times,  stating  that it can potentially lead to 
+
+WWIII  and  a  nuclear  catastrophe if mishandled. Similarly to the Democratic 
+
+vice presidential nominee Tim Walz, however, neither the topic of the Ukraine 
+
+crisis  nor  Russia’s  involvement  in  it  was  mentioned  by  JD Vance during the 
+
+vice presidential debates. Still, it is evident from the key line of Republicans’ 
+
+reasoning,  laid  out  by  Trump  during  the  debate  and  the  Republican 
+
+Convention  speech,  that  the  Ukraine  crisis  and  Russia  are,  indeed,  on  the 
+
+agenda of Republicans, who deem it crucial to resolve the conflict as soon as 
+
+possible. 
+
+ 
+ 
+ 
+44 
+
+Secondly,  based  on  the  aforementioned  findings  it  is not possible to proceed 
+
+with  revealing  the Republican narrative with regard to the Ukraine crisis and 
+
+Russia  via  the  implementation  of  the  narrative  analysis,  laid  out  in  the 
+
+methodological  section.  As  is  evident  from  the  findings,  Republicans  take  a 
+
+relatively  harsh  approach  to the crisis, emphasising both the need to put it to 
+
+an  end  as  well  as  the  need  to  reduce  the  role  the  U.S.  plays  in  supporting 
+
+Ukraine.  Both  of  these  goals  correspond with Republicans’ ultimate stake of 
+
+winning  the  U.S.  presidential elections, as both the former and the latter will 
+
+aid in freeing up resources and reorienting them to what Republicans view as 
+
+top foreign policy concerns (such as illegal immigration and a trade war with 
+
+China),  as  well  as  in  preventing  a  potential  WWIII  and  nuclear  disaster. 
+
+Republicans  are  willing  to  do  so  via  conducting  negotiations  with  Vladimir 
+
+Putin of Russia, emphasising that Democrats were not prone to doing so since 
+
+the very start of the conflict. Thus, the Republican narrative with regard to the 
+
+Ukraine crisis and Russia highlights the need to resolve the conflict as soon as 
+
+possible,  both  engaging  Russia  in  a  diplomatic  dialogue  as  well  as  reducing 
+
+the provision of the U.S. support to Ukraine, with an ultimate goal of shifting 
+
+the  U.S.  focus  on  other foreign policy concerns that Republicans deem to be 
+
+more crucial.  
+
+In  conclusion,  the  aforementioned reconstruction of the Republican narrative 
+
+with  regard  to the Ukraine crisis and Russia via coding the 2024 presidential 
+
+and vice presidential debates, as well as the Republican Convention speech of 
+
+Donald  Trump  rendered  a  nuanced  understanding  of  the  way  Republicans 
+
+view the issues at hand. In particular, Republicans take the need to resolve the 
+
+Ukraine crisis seriously. Believing it to be in the best interest of the U.S. and 
+
+the world at large, they stress the need to negotiate with Russia in reaching a 
+
+deal to settle the crisis, cautioning against a potential eruption of WWII and a 
+
+nuclear catastrophe. Once settled, however, Republicans believe that the U.S. 
+
+ 
+ 
+will  be  able  to  reorient  its  resources  to  other  foreign policy concerns, which 
+
+Republicans deem to be more vital to the national interest of the U.S. 
+
+45 
+
+3.3.  2022-2024  Ukraine  Crisis  as  a  Polarising  Factor  in  U.S.  Foreign 
+
+Policy towards Russia  
+
+Taking  into  consideration  all  of  the  aforementioned  findings,  including  the 
+
+Democratic and the Republican narratives, it is now possible to proceed with 
+
+analysing them via juxtaposing the two narratives. Such juxtaposition will aid 
+
+in  answering  the  research  question  of  “to  what  extent  do  the  views  of  the 
+
+Democratic Party and the Republican Party diverge with regard to the current 
+
+Ukraine  crisis  and  how,  if  at  all,  did  it  influence  the  formation  of  the  U.S. 
+
+foreign  policy  towards  Russia  within  the  context  of  the  Ukraine  crisis  in 
+
+2022-2024?”  as  well  as  to  test  the  initial  hypothesis  of  “the  views  of  the 
+
+Democratic  Party  and  the  Republican Party diverge significantly with regard 
+
+to  the  Ukraine  crisis,  with  this  discrepancy  being  a  prominent  intervening 
+
+variable in the formation of the U.S foreign policy towards Russia within the 
+
+context of the 2022-2024 Ukraine crisis.” 
+
+Firstly,  in  comparing  the  Democratic  and  the Republican narratives vis-à-vis 
+
+the Ukraine crisis and Russia, it is evident that they differ in their approach to 
+
+both  Ukraine  and  Russia. The Democratic narrative expresses full support of 
+
+Ukraine,  advocating  for  provision  of  aid to Ukraine and viewing NATO as a 
+
+key ally with which the U.S. should jointly work when it comes to the crisis. 
+
+What is essentially at stake here, from the point of view of Democrats, is the 
+
+image  of  the  U.S.  as  a  leader  of  the  democratic,  liberal  world that is able to 
+
+protect  these  values  around the globe. The Republican narrative, by contrast, 
+
+disregards  the  provision  of  aid  to  Ukraine and deems it necessary for NATO 
+
+to  invest  more  in  the  crisis,  with  the  U.S.  reorienting  its  resources  to  other 
+
+foreign  policy  concerns,  such  as  illegal  immigration  and  a  trade  war  with 
+
+China.  Republicans  believe  that  the  stakes  of  the  crisis  are  rather  high, 
+
+ 
+ 
+ 
+46 
+
+pointing  to  a  potential  WWIII  and  a  nuclear  disaster.  When  it  comes  to  the 
+
+U.S.  foreign  policy  towards  Russia  in  this  context,  the  Democratic  and  the 
+
+Republican  narratives  diverge  once  more.  While  they  were  not  mentioning 
+
+Russia during the presidential race, Democrats omit the possibility of holding 
+
+talks  with  Russia  to  resolve  the  crisis.  While  not  explicitly  stated,  it  can  be 
+
+presumed  that  the  Democratic  narrative  does  not  allow  for  negotiations  to 
+
+take  place  when  the  crisis  has  already  greatly  escalated.  The  Republican 
+
+narrative, however, emphasises negotiations with Russia as a key to resolving 
+
+the  crisis.  In addition to being willing to hold talks with Russia, Republicans 
+
+stress  their  resolve  to  end  the  crisis  as  soon  as  possible.  It  should  be 
+
+acknowledged that these differences present in the rhetoric influence the U.S. 
+
+foreign  policy.  One  inference  that  can  be  made  from  this  is  that the rhetoric 
+
+used  by  Democrats  and  Republicans  with  regard  to  the  Ukraine  crisis  and 
+
+Russia  differs  substantially,  pointing  to  their  polar  opposite  stances  on  the 
+
+way  the  crisis  should  be  approached  which  influences  the  foreign  policy  of 
+
+the U.S. 
+
+Secondly,  such  a  striking  difference  between  the  two  narratives  corresponds 
+
+with  what  Oppermann  &  Spencer  in  Mello  &  Ostermann  (2023)  classify  as 
+
+competing  narratives.  According  to  Oppermann  &  Spencer  in  Mello  & 
+
+Ostermann (2023), competing narratives presuppose distinct interpretations of 
+
+a  foreign  policy  of  a  state,  locking  the  two  sides  not only in a confrontation 
+
+but  also  in  a  competition  for  superior  influence  in  the  foreign  policy 
+
+discourse.  In  addition to the aforementioned clashes between the Democratic 
+
+and  the  Republican  narrative,  a  lot  of  mutual  accusations  and  a  constant 
+
+blame  game  (as  mentioned  in  figure  2,  emplotment)  were  found  during  the 
+
+coding  of 
+
+the  speeches  of  Democrats  and  Republicans.  Ideological 
+
+polarisation,  as  such,  is  quite  prevalent  between  the  Democratic  and  the 
+
+Republican  parties,  with  affective  polarisation also contributing to the divide 
+
+between  them.  On  top  of  that,  partisanship  plays  a  crucial  role  in  the 
+
+ 
+ 
+47 
+
+contemporary  U.S.  party  polarisation,  where  elections  themselves  are 
+
+becoming more of an attack on the opposing party rather than being a chance 
+
+to showcase the party’s own positions, interests and objectives.  
+
+Finally,  it  is  now  possible  to  provide  an  answer  to  the  proposed  research 
+
+question  and  to  test  the  initial  hypothesis.  Taking  all  of  the  aforementioned 
+
+findings  into  consideration,  it  can  be  concluded  that  the  views  of  the 
+
+Democratic  Party  and  the  Republican Party diverge significantly with regard 
+
+to  the  Ukraine  crisis  and  this  has  major  implications  for  how  the  U.S. 
+
+approaches  Russia  in  its  foreign  policy.  Thus,  as  the  Democratic  and  the 
+
+Republican  narratives  differ  with  regard  to  Russia,  with  the  latter  being 
+
+willing  to  negotiate  with  it  and  the  former  refraining  from  negotiations,  this 
+
+has an impact on the course of the foreign policy of the U.S. towards Russia. 
+
+The hypothesis, therefore, is proven as the views of the Democratic Party and 
+
+the  Republican  Party  do  diverge  significantly  with  regard  to  the  Ukraine 
+
+crisis,  with  this  discrepancy  being  a  prominent  intervening  variable  in  the 
+
+formation  of  the  U.S  foreign policy towards Russia within the context of the 
+
+2022-2024  Ukraine  crisis.  It  should  be  acknowledged,  however,  that  even  if 
+
+Republicans  do  decide  to  embark  upon  negotiations  with  Russia  concerning 
+
+the  Ukraine  crisis,  it  is  highly  doubtful that the economic sanctions imposed 
+
+on  Russia  will  be  lifted.  As  such,  it  may  be  said  that  the  tone  with  which 
+
+Democrats  and  Republicans  approach  Russia  within  the  context  of  the 
+
+Ukraine  crisis  does  differ  and  that  this  changes  the  substance  of  the  U.S. 
+
+foreign policy towards Russia.  
+
+To  conclude,  when  compared,  the  Democratic  and the Republican narratives 
+
+differ  substantially  when  it  comes  to  the  Ukraine  crisis  and  the  approach  to 
+
+Russia.  While  Democrats  are  in  favour  of  supporting  Ukraine  and  working 
+
+closely  with  NATO  to  provide  help,  Republicans  are  more  averse  to  the 
+
+provision  of  aid,  stressing,  on  the  other  hand,  the  need  to  negotiate  with 
+
+ 
+ 
+ 
+48 
+
+Russia  to  reach  a  deal.  As  such  competing  narratives  encompass  polar 
+
+opposite  views,  fueled,  among  other  things,  by  mutual  animosity  and 
+
+partisanship,  this  has  major  influence  on  the  formation  of  the  U.S.  foreign 
+
+policy towards Russia. Still, it should be noted that while Republicans may be 
+
+more  prone  to  negotiations  with  Russia  than  Democrats,  Russia  still  faces  a 
+
+plethora of sanctions and a general exclusion from the Western world.  
+
+ 
+ 
+ 
+ 
+4.Research Results & Concluding Remarks 
+
+4.1. Research Results 
+
+49 
+
+This paper had set out to trace the influence of the U.S. party polarisation on 
+
+the  U.S.  foreign  policy  formation  in  relation  to  Russia  within  the  context of 
+
+the  2022-2024  Ukraine  crisis.  This  was  primarily done via applying the lens 
+
+of  neoclassical  realism  (Rose,  1998)  and  the  method  of  narrative analysis in 
+
+order  to  understand  the  way  the  U.S.  party  polarisation  could  shift  the  U.S. 
+
+approach  to  Russia.  As  a  result  of  the research, it was found that Democrats 
+
+and  Republicans  do,  indeed,  view  the  approach  to  both  Ukraine  and  Russia 
+
+differently,  which  has  implications  for  the  way  the  U.S.  foreign  policy 
+
+towards Russia is implemented. 
+
+Initially,  having  conducted  a  nuanced  overview  of  the  previous  literature  on 
+
+the  topic,  the following research question was formulated: To what extent do 
+
+the views of the Democratic Party and the Republican Party with regard to the 
+
+Ukraine  crisis  diverge and how, if at all, did it influence the formation of the 
+
+U.S.  foreign  policy  towards  Russia within the context of the current Ukraine 
+
+crisis  in  2022-2024?  With  the  hypothesis  being  that  the  views  of  the 
+
+Democratic  Party  and  the  Republican Party diverge significantly with regard 
+
+to  the  Ukraine  crisis,  with  this  discrepancy  having  been  a  prominent 
+
+intervening variable in the formation of the U.S foreign policy towards Russia 
+
+within  the  context  of  the  Ukraine  crisis  between  2022-2024.  In  order  to 
+
+answer the proposed research question and to test the hypothesis, the method 
+
+of  narrative  analysis  was  used  to  reconstruct  the  Democratic  and  the 
+
+Republican  narratives  with  regard  to  the  Ukraine  crisis  and  Russia.  It  was 
+
+found  that  the  Democratic  narrative  presupposes  a  constant  flow  of  aid  to 
+
+Ukraine and the U.S. working closely with NATO to help Ukraine as a leader 
+
+of  the  liberal,  democratic  world.  The  Republican  narrative,  by  contrast, 
+
+criticises  the  U.S.  involvement  in  the  crisis,  stating  that,  instead,  NATO 
+
+countries should be responsible for providing aid to Ukraine, not the U.S. As 
+
+ 
+ 
+50 
+
+for  the  foreign  policy  approach  to  Russia,  Republicans  advocate  for holding 
+
+negotiations  with  the  Russian  president  in  order  to  resolve the crisis that the 
+
+Republicans deem to be rather dangerous. While it was, indeed, found that the 
+
+Democratic and the Republican narratives diverge significantly with regard to 
+
+both  Russia  and  Ukraine,  this  divergence  goes  beyond pure rhetoric used by 
+
+both Republicans and Democrats, influencing the U.S. foreign policy towards 
+
+Russia. 
+
+In  answering  the  research  question,  taking  all  of  the  aforementioned  points 
+
+into consideration, it can be stated that the views of the Democratic Party and 
+
+the  Republican  Party  diverge  significantly  with  regard  to  the  Ukraine  crisis, 
+
+yet  this  has  little  implications  for  how  the  U.S.  approaches  Russia  in  its 
+
+foreign  policy.  The  hypothesis,  as  such,  was  proven  as  the  views  of  the 
+
+Democratic  Party  and  the  Republican Party diverge significantly with regard 
+
+to  the  Ukraine  crisis,  with  this  discrepancy  being  a  prominent  intervening 
+
+variable in the formation of the U.S foreign policy towards Russia within the 
+
+context  of  the  2022-2024  Ukraine  crisis.  For  now, as such, Ukraine does act 
+
+as  a  polarising  factor  within  the  U.S.  political  scene,  influencing  the  U.S. 
+
+approach  to Russia. While Republicans express their willingness to negotiate 
+
+with  Russia, 
+
+they  do  not,  however,  mention  revoking  sanctions  or 
+
+ameliorating  bilateral  relations  with  Russia.  One  inference  that  can  be made 
+
+from  this  is  that  the  case  of  Russia  leads  to  polarisation between Democrats 
+
+and  Republicans,  producing  different  foreign  policy  initiatives,  yet,  some 
+
+aspects, such as those concerning sanctions, remain the same. 
+
+To  conclude,  it  was  initially  hypothesised  that  the  polar  opposite  views  of 
+
+Democrats  and  Republicans  on  the  Ukraine  crisis  and  Russia  influence  the 
+
+U.S. foreign policy to a significant extent. The research that was subsequently 
+
+conducted  to  test  this  hypothesis  proved  it  to  be  true.  In  particular,  it  was 
+
+found  that  as  the  Democratic  and  the  Republican  narratives  do  diverge, 
+
+ 
+ 
+ 
+presenting  competing  narratives,  this  influences  the  U.S.  foreign  policy 
+
+towards Russia within the context of the 2022-2024 Ukraine crisis. 
+
+51 
+
+4.2. Discussion 
+
+When it comes to further relevance and applicability, this study is intended to 
+
+contribute  to  the  existing  literature  on  the  U.S.  party  polarisation,  the  U.S. 
+
+foreign policy towards Russia and the Ukraine crisis in 2022-2024, to advance 
+
+understanding  of  the  U.S.  party  polarisation’s  influence  on  the  U.S.  foreign 
+
+policy  towards  Russia  as  well  as  to  generate  further  research  on  the 
+
+aforementioned topics.  
+
+Taking  into  account  the  fact  that  this  paper  contains  an  extensive  literature 
+
+review on the components of the research topic and a nuanced research of the 
+
+U.S.  party  polarisation,  this  paper  may  shed  light  on  some  aspects  of  the 
+
+concept  of  polarisation  and  its  multifaceted  nature.  When  it  comes  to  the 
+
+U.S.-Russia  relations,  this  paper  incorporates  a  broad  historical  overview  of 
+
+the  U.S.-Russia  relations,  highlighting  the  economic,  political  and  cultural 
+
+decoupling  of  the  U.S.  and  Russia  as  well  as an end to the cyclical relations 
+
+that the two states previously experienced. When combined, the research into 
+
+the U.S. party polarisation and the U.S.-Russia relations may render a greater 
+
+comprehension  of  how  the  U.S.  approaches  Russia  within  the context of the 
+
+Ukraine  crisis.  Particularly,  this  paper  draws  attention  to  the  importance  of 
+
+rhetoric  and  its  potential  to  shift  paradigms  and  to  translate  into  the  foreign 
+
+policy  of  a  state.  The  paper,  as  such,  contributes  not  only  to  the  body  of 
+
+literature  on  polarisation  per  se,  but  also  to  the  literature  on  the  relations 
+
+between  the  U.S.  and  Russia  and  the  way  the  U.S.  party  polarisation  may 
+
+influence them.  
+
+What  is  more,  this  paper  highlights  the  fact  that  while  Democrats  and 
+
+Republicans  are,  indeed,  polarised  over  the  Ukraine  crisis,  none  of the sides 
+
+ 
+ 
+ 
+ 
+52 
+
+wish  to  prolong  this  conflict.  On  the  contrary,  both  Republicans  and 
+
+Democrats  view  tackling  the  crisis  as  being  existential  to  the  core  national 
+
+interest of the U.S., albeit for different reasons. Nonetheless, the superior aim 
+
+of  this  study  is  to  prompt  Republicans  and  Democrats  to  see  past  their 
+
+differences  and  reach  a  bipartisan  consensus  on  tackling  the  Ukraine  crisis.  
+
+As history shows, it is a bipartisan consensus in the U.S. that usually produces 
+
+the most efficient results. By combining their powers, tactiques and measures, 
+
+as such, Democrats and Republicans may produce an effective response to the 
+
+crisis.  
+
+In conclusion, not only does this study at contributing to the existing literature 
+
+on  the  topic  and  generating  further  discussion  in  the  academic  world,  but  it 
+
+also hopes to highlight the fact that Democrats and Republicans are closer to a 
+
+unanimous  stance  on  the  Ukraine  crisis  than  it  appears.  While  employing 
+
+polar  opposite  rhetoric,  neither  Democrats  nor  Republicans wish to continue 
+
+with the crisis as it is. 
+
+4.3. Shortcomings & Limitations  
+
+To  expand  on 
+
+the  shortcomings  and 
+
+limitations  mentioned 
+
+in 
+
+the 
+
+methodological part, this section will outline key drawbacks of the study that 
+
+have  emerged  while  conducting  the  research,  as  well  as  those  that  have 
+
+become  apparent  after  its  completion.  Among  such  limitations  are  the 
+
+inability  to  directly  establish  a  causal  relationship  between  the  researched 
+
+variables and a lack of data on some of the aspects of the research.  
+
+Firstly,  as  was  mentioned  in  the  methodological  part,  a  causal  relationship 
+
+between the U.S. party polarisation and the changes in the U.S. foreign policy 
+
+towards  Russia  may  not  be  directly  established  due  to  a  plethora  of  other 
+
+factors that may be at play here. While it was concluded that the polarisation 
+
+between  parties  does  influence  the  U.S.  foreign  policy  towards  Russia,  this 
+
+ 
+ 
+ 
+ 
+53 
+
+limitation still proves to be true for the way rhetoric may or may not influence 
+
+the  U.S.  foreign  policy  in  general.  Considering  the  fact  that  the  Democratic 
+
+narrative and the Republican narrative are strikingly different from each other, 
+
+holding  polar  opposite  views on both the Ukraine crisis and Russia, it would 
+
+still  be  problematic  to  trace  the  effect  of  such  rhetoric  on  the  U.S.  foreign 
+
+policy initiatives in detail.  
+
+Secondly, it was presupposed that a potential problem of the study would be a 
+
+lack  of  data  due  to  the  chronological  framework  that  spans  recent  years 
+
+(2022-2024).  While  the  2024  presidential  elections  in  the  U.S.  provided 
+
+abundant  resources  for  conducting  research  on  the  U.S. party polarisation, it 
+
+was,  indeed,  challenging  to  find  information  on  the  U.S.  foreign  policy 
+
+decisions and tactics in relation to Russia in the public domain. On top of that, 
+
+it is yet to be seen how the difference between Republicans and Democrats in 
+
+power  influences  the  approach  to  both  Russia  and  Ukraine  in  the  coming 
+
+years, with the current research providing a theoretical background.  
+
+Finally,  another  limitation  of  this  study  lies  in  presenting  the  views  of  the 
+
+Democratic  Party  and  the  Republican  Party  on  the  basis  of only four people 
+
+who delivered speeches, representing their respective parties. While it may be 
+
+argued that the presidential elections present the most vivid agglomeration of 
+
+views  of  each  party  in  the  U.S.,  it can still be said that such a generalisation 
+
+may limit the scope and depth of the study.  
+
+To conclude, the research paper does face some limitations which involve the 
+
+inability to directly establish a causal relationship between the key researched 
+
+variables (namely, between the U.S. party polarisation and the changes in the 
+
+U.S.  foreign  policy  towards  Russia),  a  general  lack  of  data  on  the  concrete 
+
+foreign  policy  initiatives  of  the  U.S.  in  relation  to  Russia  due  to  the 
+
+researched  crisis  being  a  recent  and  ongoing  one  as  well  as  a  certain 
+
+ 
+ 
+ 
+ 
+generalisation  of  Democratic  and  Republican  views on the basis of speeches 
+
+only four people who represent these parties. 
+
+54 
+
+ 
+ 
+ 
+ 
+ 
+ 
+5. Conclusion  
+
+55 
+
+To sum it all up, the U.S. and Russia share a rich, eventful history, going from 
+
+being  allies  during  WWII  to  being  primary  opponents  during  the  Cold  War 
+
+that spanned nearly half of the 20th century. The subsequent dissolution of the 
+
+USSR  in  1991  ushered  in  a  seemingly  new  era  of  the  U.S.-Russia relations, 
+
+with  the  latter  being  eager  to  integrate into the Western-led order. Yet, while 
+
+initial  hopes  were  high,  the  following  period  of  the  U.S.-Russia  relations 
+
+would become filled with tensions and numerous points of contention, such as 
+
+the role of NATO, the dominance over the post-Soviet space and, of particular 
+
+importance  to  this  paper,  Ukraine.  The  2022  Ukraine  crisis  would become a 
+
+true watershed moment in the U.S.-Russia relations, marking their economic, 
+
+political and cultural decoupling, and laying the foundation for a novel world 
+
+order.  Notably,  the  crisis  has  divided  not only Russia and the U.S. on a state 
+
+level,  but  also  Democrats  and  Republicans  within  the  U.S.  on  a  domestic 
+
+level.  This  paper  is  dedicated  to  such  polarisation  between  the  Democratic 
+
+Party  and  the  Republican  Party,  and  its  influence  on  the  U.S.  foreign policy 
+
+towards Russia within the context of the 2022 Ukraine crisis.  
+
+Starting from the dissolution of the USSR in 1991, the U.S. and Russia shared 
+
+mutually  amicable  relations  for  a  period  of time. Yet, by the turn of the 21st 
+
+century  the  relations  gradually  started  to  sour  as  both  sides  were  diverging 
+
+rapidly  in  their  stances  on  numerous  issues.  One  of  the  key  points  of 
+
+contention  between  the  U.S.  and  Russia  that  would  resurface  time  and  time 
+
+again  was  NATO  and  its  role  in  the  new  geopolitical  reality  in  which  the 
+
+communist threat from the Soviet Union was absent, yet in which Russia was 
+
+not  fully  accepted  by the West. While the NATO-Russia Council, founded in 
+
+2002,  implied  an  unprecedented  degree  of  cooperation  between  Russia, 
+
+NATO  and  the  U.S.,  this  period  of  cooperation would not last for long, with 
+
+NATO  and  the  post-Soviet  space  reemerging  as  points  of  contention. 
+
+Particularly,  the  Bucharest  Summit  of  April  2008  and  the  proclamation  of 
+
+ 
+ 
+56 
+
+Georgia  and  Ukraine becoming members of NATO at some point aggravated 
+
+Russia.  While  the  U.S.  and  Russia  attempted  to  ameliorate  their  bilateral 
+
+relations  with  the  policy  of  ‘reset’  in  2009-2012  under  the  Obama 
+
+administration in the U.S. and Dmitry Medvedev of Russia, this policy would 
+
+ultimately fail in the following years. Yet, with the return of Vladimir Putin in 
+
+2012 as the head of Russia, tensions over NATO reemerged in the U.S.-Russia 
+
+relations, with the Russian occupation of Crimea in 2014 becoming a turning 
+
+point in their relations. Still, the 2022 Ukraine crisis would be an even greater 
+
+turning point in the bilateral relations of the U.S. and Russia, setting them on 
+
+a  course  to  an  economic,  political  and  cultural  decoupling  that had arguably 
+
+not  been  seen  since  the  end  of the Cold War. The relations between the U.S. 
+
+and  Russia,  as  such,  have  undergone  numerous  transformations  in  their 
+
+respective  foreign  policies  towards  one  another  since  the  dissolution  of  the 
+
+USSR  in  1991,  ultimately  resulting  in  a  clash  of  interests  over  the  2022 
+
+Ukraine crisis. 
+
+Considering  the  fact  that  the  ideological  gap  between  the  Democratic  Party 
+
+and  the  Republican  Party  has  been  increasing  rapidly  in  the  past  years,  the 
+
+recent  surge  in  the  U.S.  polarisation  between  the  Democratic  party  and  the 
+
+Republican  Party  has  implications  for  the  U.S.-Russia  relations,  yet,  even 
+
+more  so,  for  the  2022  Ukraine  crisis.  As  the  relations  between  the  U.S.  and 
+
+Russia  deteriorated  after  the  start  of  the  2022  Ukraine crisis, Democrats and 
+
+Republicans  took  opposing  stances  on  the  crisis,  further  complicating  the 
+
+already  strenuous  relations  between  the U.S. and Russia. The paper, as such, 
+
+aimed  not only at researching polarisation between the Democratic party and 
+
+the  Republican  party  in  the  U.S.  per  se,  but  also  at  tracing  the  influence  of 
+
+their polarisation on the U.S. foreign policy towards Russia within the context 
+
+of  the  2022  Ukraine  crisis.  To  do  this,  the  theoretical  framework  of 
+
+neoclassical  realism  by  Rose  (1998)  was  applied,  where  the  U.S.  party 
+
+polarisation  acted  as  an  intervening  variable  in  the  U.S.  foreign  policy 
+
+ 
+ 
+57 
+
+formation  in  relation  to  Russia.  On  top  of  that,  the  method  of  narrative 
+
+analysis  was  implemented  in  order  to  reconstruct  the  Democratic  narrative 
+
+and the Republican narrative with the subsequent juxtaposition of them to one 
+
+another.  Ultimately,  it  was  found  that  the  Democratic  and  Republican 
+
+narratives  do  diverge  in  relation  to  the  Ukraine  crisis  and  Russia,  as 
+
+exemplified  by  the coding of a number of speeches and debates, and so does 
+
+the  approach  that  Democrats  and Republicans take vis-à-vis both Russia and 
+
+Ukraine. In particular, the Democratic narrative presupposes a commitment to 
+
+supporting  Ukraine  and  working  alongside  NATO  to  help  Ukraine  in  the 
+
+crisis.  Such an approach, as is evident from the research, is mostly driven by 
+
+the  need  to  defend  the  U.S.  as  a  global  leader  of  the  democratic  and  liberal 
+
+world  and  to  not  let  Ukraine  fall.  By  contrast,  the  Republican  narrative 
+
+emphasises the need to stop providing support to Ukraine, urging both Europe 
+
+and NATO to invest in the crisis. Simultaneously, however, Republicans stress 
+
+the  cruciality  of  resolving  the crisis as soon as possible, pointing to the need 
+
+to negotiate with Russia to resolve the crisis, with both of these notions being 
+
+absent from the Democratic narrative. This Republican approach is driven by 
+
+their  eagerness  to  reorient  the  resources from the Ukraine crisis to the issues 
+
+that  they  view  to  be  more  vital  to  the  U.S.  national  interest  such  as  illegal 
+
+immigration  and  a  trade  war  with  China.  It  is  evident,  as  such,  that 
+
+Republicans  and  Democrats  hold  polar  opposite  views  on  the  Ukraine  crisis 
+
+and  how  it  should  be  approached.  Moreover,  they  differ  on  their  view  of 
+
+Russia  and  the  way  it  should  be  approached  within  the  context of the crisis. 
+
+While  Democrats  omit  mentioning negotiations with Russia or any measures 
+
+that they wish to take in relation to it, Republicans highlight the importance of 
+
+holding  negotiations  to  resolve  the  crisis.  As  such, one inference that can be 
+
+made  from  this is that the U.S. party polarisation plays a key role in the way 
+
+the  U.S.  approaches  Russia in its foreign policy. While sanctions may not be 
+
+lifted  under  either  Democrats  or  Republicans,  it  is  evident  that  under  the 
+
+Republican  leadership  the  U.S.  and  Russia  will  start  a  dialogue  about 
+
+ 
+58 
+
+resolving  the  crisis,  while  under  the  Democratic  leadership Russia will most 
+
+likely  not  be  included in the negotiations. Whichever scenario plays out, this 
+
+paper  aims  at  highlighting  the  fact  that  neither  Democrats  nor  Republicans 
+
+wish  to  continue  with  the  crisis  as  it  is.  If  both  sides  are  willigning  to 
+
+acknowledge  this,  they  will be able to see past their differences. In doing so, 
+
+they  may pool their resources to produce a joint effort in resolving the crisis, 
+
+which will bring everyone closer to peace.  
+
+On  a  final  note,  it  can  be  stated  that  the  bilateral  relations  between the U.S. 
+
+and  Russia  have  undergone  numerous  changes  over  the  past  couple  of 
+
+decades,  alternating  between  confrontation  and  cooperation  time  and  time 
+
+again. While both states were willing to ameliorate their relations on multiple 
+
+occasions,  from  the  foundation  of  the  NATO-Russia  Council  in  2002  to  the 
+
+policy  of  ‘reset’  between  2009  and  2012,  these  attempts  ultimately  failed  to 
+
+produce durable and sustainable cooperative relations. Instead, such points of 
+
+contention  as  the  role  of  NATO,  the  post-Soviet  space,  and  Ukraine  in 
+
+particular, have permeated their relations, leading to a rapid deterioration after 
+
+the start of the 2022 Ukraine crisis. Not only did the crisis divide the U.S. and 
+
+Russia, however, as the U.S. domestic political landscape also became divided 
+
+with  regard  to  this  topic.  Particularly,  the  Democratic  Party  and  the 
+
+Republican  Party  took  opposing  stances  on  Ukraine  and  Russia,  further 
+
+aggravating  the  bilateral  relations  between  the  U.S.  and  Russia.  While  the 
+
+U.S.-Russia  relations  suffered  seemingly  irreparable  damage  under  the 
+
+Democratic  leadership  within  the context of the 2022 Ukraine crisis, it is yet 
+
+to  be  seen  how  the  story will unfold under the Republican leadership. While 
+
+the  Republican  narrative  points  to  a  softer  approach  towards  Russia,  being 
+
+willing  to  negotiate  the  details  of  the  Ukraine  crisis  and  its  resolution,  only 
+
+time  will  show  if  this  manifests.  Nonetheless,  whether  the  U.S.  and  Russia 
+
+manage  to  repair  their  bilateral  relations  or  not,  and  whether  this  will 
+
+contribute  to  the  resolution  of  the  Ukraine  crisis  or  not,  one  thing  that  is 
+
+ 
+ 
+59 
+
+mostly  certain  is  that  the  world  is  arguably  as  divided  as  it  has  never  been 
+
+before  and  that  polarisation,  be  it  between  different  parties  or  between 
+
+different  states,  is  proliferating,  and,  as  such,  is  worth  the  attention  of  the 
+
+academia.  
+
+ 
+ 
+ 
+ 
+ 
+ 
+References  
+
+60 
+
+Abramowitz,  A.  I.  (2010).  The  disappearing  center:  Engaged  citizens, 
+
+polarization, and American democracy. Yale University Press. 
+
+Achcar,  G.  (2023).  The  New  Cold  War:  The  United  States,  Russia  and 
+
+China-From Kosovo to Ukraine. Saqi Books. 
+
+Avdaliani,  E.  (2017).  US-Russia  Relations  Plunge  Still Further. Begin-Sadat 
+
+Center for Strategic Studies.  
+
+Blackman, J. (2016). Gridlock. Harvard Law Review, 130(1), 241–305. 
+
+Bugayova, N. (2019). 1991 — 1999: The Yeltsin Period. In How We Got Here 
+
+With  Russia:  The  Kremlin’s  Worldview  (pp.  12–13).  Institute  for  the 
+
+Study of War.  
+
+Caro,  C.-A.  (2016).  Trump  is  Simply  the  End  Product:  The  Polarisation  of 
+
+U.S.  Politics  Is  the Culmination of Long-Term Trends. In G. Wahlers 
+
+(Ed.),  Climate.  Energy.  Security.  (pp.  88–106).  Konrad  Adenauer 
+
+Stiftung.  
+
+Charap,  S.  (2013).  Beyond  the  Russian  Reset.  The  National  Interest,  126, 
+
+39–48. 
+
+Downs,  A.  (1957).  An  economic  theory  of  democracy.  New  York:  Harper, 
+
+115. 
+
+Durney,  J.  (2017).  Defining  the  Paris  Agreement:  A  Study  of  Executive 
+
+Power  and  Political  Commitments.  Carbon  &  Climate  Law  Review, 
+
+11(3), 234–242.  
+
+ 
+Franekova,  A.  (2002).  Uneasy  Expansion:  NATO  and  Russia.  Harvard 
+
+61 
+
+International Review, 24(3), 10–11.  
+
+Fukuyama, F. (1992). The end of history and the last man. The Free Press. 
+
+Fukuyama,  F.  (2022)  Francis  Fukuyama:  Putin's  war  on  the  liberal  order. 
+
+Financial Times. 
+
+German,  T.  (2024).  From  cooperation  to  confrontation:  US-Russia  relations 
+
+since 9/11. International Politics, 61(3), 567-586. 
+
+Gladkyy, O. (2003). American Foreign Policy and U.S. Relations with Russia 
+
+and China after 11 September. World Affairs, 166(1), 3–23.  
+
+Hare, C., & Poole, K. T. (2014). The Polarization of Contemporary American 
+
+Politics. Polity, 46(3), 411–429.  
+
+Henrikson,  A.  K.  (1980).  The  Creation  of  the  North  Atlantic  Alliance, 
+
+1948-1952. Naval War College Review, 33(3), 4–39.  
+
+Herd, G. P. (2005). Russia and the “Orange Revolution”: Response, Rhetoric, 
+
+Reality? Connections, 4(2), 15–28.  
+
+Hetherington,  M.  J.  (2009).  Putting  polarization  in  perspective.  British 
+
+Journal of Political Science, 39(2), 413-448. 
+
+Hoffman, F. G. (2007). Conflict in the 21st Century: The Rise of Hybrid Wars. 
+
+Potomac Institute for Policy Studies. 
+
+Ikenberry,  G.  J.  (2022).  Why  American  Power  Endures:  The  US-Led  Order 
+
+Isn't in Decline. Foreign Aff., 101, 69. 
+
+ 
+62 
+
+Iyengar,  S.,  Sood,  G.,  &  Lelkes,  Y.  (2012).  Affect,  Not  Ideology:  A  Social 
+
+Identity  Perspective  on  Polarization.  The  Public  Opinion  Quarterly, 
+
+76(3), 405–431.  
+
+Jones,  D.  R.  (2001).  Party  Polarization  and  Legislative  Gridlock.  Political 
+
+Research Quarterly, 54(1), 125–141.  
+
+Kalėda, A. (2023). The impact of political polarization on US foreign policy: 
+
+analyzing the growing divide between Republicans and Democrats on 
+
+the Israeli-Palestinian conflict. (Doctoral dissertation). 
+
+Karatnycky,  A.  (2005). Ukraine’s Orange Revolution. Foreign Affairs, 84(2), 
+
+35–52.  
+
+Katz,  M.  N.  (2014).  Can  Russian-US  Relations  Improve?  Strategic  Studies 
+
+Quarterly, 8(2), 129–141. 
+
+Kramer,  D.  J.  (2022).  Defeating  Putin  in  Ukraine  is  vital  to  the  future  of 
+
+democracy. Journal of Democracy. 
+
+Lazarević, D. (2009). NATO Enlargement to Ukraine and Georgia: Old Wine 
+
+in New Bottles? Connections, 9(1), 29–66.  
+
+Lee,  F.  E.  (2015).  How  party polarization affects governance. Annual review 
+
+of political science, 18(1), 261-282. 
+
+Lynch, A. C. (2016). The influence of regime type on Russian foreign policy 
+
+toward  “the  West,”  1992–2015.  Communist  and  Post-Communist 
+
+Studies, 49(1), 101-111. 
+
+Lynch, A. C. (2018). Russia’s foreign policy. Great Decisions, 23–34.  
+
+ 
+Matsaberidze,  D.  (2015).  Russia  vs.  EU/US  through  Georgia  and  Ukraine. 
+
+63 
+
+Connections, 14(2), 77–86.  
+
+McCarty,  N.  (2019).  Polarization:  What  everyone  needs  to  know.  Oxford 
+
+University Press. 
+
+McFaul,  M.,  Sestanovich,  S.,  &  Mearsheimer,  J.  J.  (2014).  Faulty  powers: 
+
+Who started the Ukraine crisis?. Foreign Affairs, 93(6), 167-178. 
+
+Mearsheimer,  J.  (2022).  John  Mearsheimer  on  why  the  West  is  principally 
+
+responsible for the Ukrainian crisis. The Economist. 
+
+Mearsheimer,  J.  (2023).  The  Darkness  Ahead:  Where  The  Ukraine  War  Is 
+
+Headed. Substack. 
+
+Mearsheimer,  J.  J.  (2014).  Why  the  Ukraine  crisis  is  the  West's  fault:  the 
+
+liberal delusions that provoked Putin. Foreign Aff., 93, 77. 
+
+Mello,  P.  A., & Ostermann, F. (Eds.). (2023). Routledge handbook of foreign 
+
+policy analysis methods. Routledge. 
+
+Nagar,  C.  B.,  Helberg,  P.,  &  Potkin,  F.  (2014).  Introduction to Objectives of 
+
+the  United  States  Foreign  Policy.  Politikon:  The  IAPSS  Journal  of 
+
+Political Science, 22, 5-15. 
+
+Newlin, C., Conley, H. A., Viakhireva, N., & Timofeev, I. (2020). U.S.-Russia 
+
+Relations  at  a  Crossroads.  Center  for  Strategic  and  International 
+
+Studies (CSIS).  
+
+Pew  Research  Center.  (2014).  Political  polarization  in  the  American  public. 
+
+Retrieved 
+
+from 
+
+ 
+https://www.pewresearch.org/politics/2014/06/12/political-polarizatio
+
+64 
+
+n-in-the-american-public/ (April 10th, 2025) 
+
+Pew  Research Center. (2022). The polarization in today’s Congress has roots 
+
+that 
+
+go 
+
+back 
+
+decades. 
+
+Retrieved 
+
+from 
+
+https://www.pewresearch.org/short-reads/2022/03/10/the-polarization-
+
+in-todays-congress-has-roots-that-go-back-decades/ (April 9th, 2025) 
+
+Pew  Research  Center.  (2024).  Growing  partisan  divisions  over  NATO  and 
+
+Ukraine. 
+
+Retrieved 
+
+from 
+
+https://www.pewresearch.org/global/2024/05/08/growing-partisan-divi
+
+sions-over-nato-and-ukraine/ (April 9th, 2025) 
+
+Pew  Research  Center.  (2024).  War  in  Ukraine:  Wide  partisan  differences on 
+
+U.S. 
+
+responsibility 
+
+and 
+
+support. 
+
+Retrived 
+
+from 
+
+https://www.pewresearch.org/politics/2024/07/29/war-in-ukraine-wide
+
+-partisan-differences-on-u-s-responsibility-and-support/ 
+
+(April  9th, 
+
+2025) 
+
+Pildes,  R.  H.  (2011).  Why  the  Center  Does  Not  Hold:  The  Causes  of 
+
+Hyperpolarized  Democracy  in  America.  California  Law  Review, 
+
+99(2), 273–333.  
+
+Ratti,  L.  (2013).  ‘Resetting’NATO–Russia  relations:  a  realist  appraisal  two 
+
+decades after the USSR. The Journal of Slavic Military Studies, 26(2), 
+
+141-161. 
+
+ 
+65 
+
+Ratti,  L.  (2013).  ‘Resetting’  NATO–Russia  Relations:  A  Realist  Appraisal 
+
+Two  Decades  after the USSR. The Journal of Slavic Military Studies, 
+
+26(2), 141–161.  
+
+Ripsman, N. M., Taliaferro, J. W., & Lobell, S. E. (2016). Neoclassical Realist 
+
+Theory  and  the  Limits  of  Structural  Realism.  Neoclassical  Realist 
+
+Theory of International Politics, 16-32. 
+
+Rose,  G.  (1998).  Neoclassical  Realism  and  Theories  of  Foreign  Policy 
+
+[Review  of  The  Perils  of  Anarchy:  Contemporary  Realism  and 
+
+International Security; Useful Adversaries: Grand Strategy, Domestic 
+
+Mobilization,  and  Sino-American  Conflict,  1947-1958;  Deadly 
+
+Imbalances: Tripolarity and Hitler’s Strategy of World Conquest; The 
+
+Elusive  Balance:  Power  and  Perceptions during the Cold War; From 
+
+Wealth  to  Power:  The  Unusual  Origins  of  America’s  World  Role,  by 
+
+M.  E.  Brown, T. J. Christensen, R. L. Schweller, W. C. Wohlforth, & 
+
+F. Zakaria]. World Politics, 51(1), 144–172.  
+
+Rostow,  E.V. (1992). United States Foreign Policy After the Soviet Collapse. 
+
+SAIS Review 12(2), 1-21. 
+
+Rumer,  E.,  &  Sokolsky,  R. 
+
+(2019).  Post–Cold  War  U.S.-Russian 
+
+Relations—What Went Wrong? In Thirty Years of U.S. Policy Toward 
+
+Russia:  Can  the  Vicious  Circle  Be  Broken?  (pp.  5–18).  Carnegie 
+
+Endowment for International Peace.  
+
+ 
+66 
+
+Smeltz,  D.,  Goncharov,  S.,  &  Wojtowicz,  L.  (2016).  US  and  Russia: 
+
+Insecurity  and  Mistrust  shape  Mutual  Perceptions.  Chicago  Council 
+
+on Global Affairs. 
+
+Sümer, G. (2020). The Impact of the Cold War Legacy on US-Russia Bilateral 
+
+Relation. Bölgesel Araştırmalar Dergisi, 4(1), 116-142. 
+
+Tama,  J.  (2024).  Bipartisanship  and  US  foreign  policy:  cooperation  in  a 
+
+polarized age. Oxford University Press. 
+
+Tsygankov,  A.  P.  (2007).  Two  faces  of  Putin's  great  power  pragmatism.  The 
+
+Soviet and Post-Soviet Review, 34(1), 103-119. 
+
+Tsygankov,  A.  P.  (Ed.).  (2018).  Routledge  handbook  of  Russian  foreign 
+
+policy. Abingdon: Routledge, 237-253. 
+
+Vail, H. (2014). Polarizing Issues in the American Political Parties: Women In 
+
+Party Platforms. Honors College. 
+
+Van  Der  Veen,  O.  (2021).  Political  Polarisation  Compared:  Creating  a 
+
+Comprehensive Index of Political Polarisation.  
+
+Walt,  S.  M.  (2022).  Liberal  Illusions  Caused  the  Ukraine  Crisis.  Foreign 
+
+Policy. 
+
+Young,  K.  G.  (2014).  American  exceptionalism  and  government  shutdowns: 
+
+A  comparative  constitutional  reflection  on  the  2013  lapse  in 
+
+appropriations. BUL Rev., 94, 992. 
+
+Zelikow, P. (1994). Beyond Boris Yeltsin. Foreign Affairs, 73(1), 44–55.  
+
+ 
+ 
+ 
+67 
+
+ 
+ 
+ 
+ 
+ 
+

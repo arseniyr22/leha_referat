@@ -1,0 +1,2415 @@
+правительство российской федерации
+федеральное государственное автономное образовательное
+учреждение высшего образования
+"Национальный исследовательский университет
+"Высшая школа экономики"
+
+негосударственное образовательное учреждение
+высшего образования
+"российская экономическая школа"(институт)
+
+выпускная квалификационная работа
+
+Волнения и оппозиционные СМИ при
+автократии: свидетельства из царской
+России
+
+Программа Бакалавр экономики
+
+Совместная программа по экономике НИУ ВШЭ и РЭШ
+
+Автор:
+К.А. Безденежнов
+
+Руководитель ВКР:
+В.В. Добрынская
+
+Соруководитель ВКР:
+А.М. Маркевич
+
+Москва, 2024 г.
+
+Unrest and Opposition Media in
+Autocracy: Evidence from Tsarist
+Russia
+
+Аннотация
+
+Последние 20 лет существования Российской империи характеризовались со-
+
+циальным и политическим внутренними кризисами. Радикальные левые движе-
+
+ния набирали все большую популярность, а крестьянские восстания и стачки
+
+рабочих значительно участились. В своей выпускной работе я анализирую вза-
+
+имосвязь между радикальными политически левыми изданиями и народными
+
+волнениями того периода. Используя гравитационную модель, я обнаружил ста-
+
+тистически и экономически значимую положительную корреляцию между стач-
+
+ками рабочих и левой прессой, в то время как для крестьянских восстаний такая
+
+корреляция отсутствовала. Также мной были найдены доказательства в пользу
+
+гипотезы о том, что наличие корреляции в случае рабочих было обусловлено
+
+их более высоким уровнем грамотности по сравнению с крестьянами. Таким об-
+
+разом, пропаганда левых партий либо не оказывала на неграмотных крестьян
+
+эффекта, либо, мысля стратегически, левые партии могли не распространяли
+
+свою периодику среди крестьян вовсе.
+
+Abstract
+
+The last 20 years of the Russian Empire were characterized by social and political
+
+internal crises. Radical leftist movements were gaining popularity, while peasant
+
+uprisings and worker strikes were becoming much more frequent. In my thesis, I
+
+analyze the relationship between radical political leftist periodicals and the popular
+
+unrest of the period. Using gravity model, I found a statistically and economically
+
+significant positive correlation between worker strikes and the leftist press, while
+
+there was no such correlation for peasant revolts. I also found evidence in favor of
+
+the hypothesis that the presence of correlation in the case of workers was due to
+
+their higher literacy rate compared to peasants. Thus, the propaganda of the leftist
+
+parties either had no effect on the illiterate peasants or, thinking strategically, the
+
+leftist parties did not distribute their periodicals among peasants at all.
+
+1
+
+Contents
+
+1 Introduction
+
+2 Literature review
+
+3 Data
+
+3
+
+4
+
+7
+
+4 Hypothesis and main results
+
+10
+4.1 Hypothesis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+. . . . . . . . . . . . . . . . . . . . . . . . . 10
+4.2 Main models: Peasant revolts
+4.3 Main models: Worker strikes . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+
+5 Instrumental variable
+
+6 Testing the literacy hypothesis
+
+7 Conclusion
+
+8 Appendix
+
+19
+
+21
+
+23
+
+25
+
+2
+
+1
+
+Introduction
+
+At the beginning of the 20th century the Russian Empire was in a state of social turmoil.
+In its last years, the country experienced three revolutions; peasant uprisings and worker
+strikes became much more frequent. Left-wing party agitators took an active part in these
+events by distributing their periodicals. The agitators got more leeway after 1905, when
+censorship was relaxed during the First Russian Revolution and left-wing parties were able
+to legally print their publications. The question arises here: what was the association be-
+tween the popular unrest and the leftist periodicals? It is important to emphasize that
+the issue will be examined within the framework of an authoritarian semi-agrarian state
+of the early 20th century. The regime of the Russian Empire can indeed be described as
+tsarist autocracy (samoderzhaviye), in which the entirety of actual power belonged to the
+emperor. The emperor appointed the highest officials, commanded the army, controlled
+all three branches of government and had the exclusive right to pardon. I also consider
+the Russian Empire a semi-agrarian country, as the main economic sector at that time
+was still agriculture, although the country had embarked on the path of industrialization
+of its economy. In my opinion the study of the correlation between left media and popular
+unrest of the time is important, since it will help researchers better understand the social
+processes taking place not only in the Russian Empire, but also in other authoritarian
+semi-agrarian countries of the time: Bulgaria, Serbia, Romania, Portugal, etc. Moreover,
+this question is of interest within the framework of media economics as well. The major
+motivation for my research is the new autocratic setting. Many modern media economic
+studies are conducted on the examples of democratic states, such as the United States, due
+to the greater availability of data. Thus, with my research, I will try to expand the scope
+of media economic analysis to include autocratic regimes and their unique challenges. In
+addition, the object of my research is traditional media, particularly newspapers, so my
+results may be useful for analyzing the media of contemporary impoverished countries
+with low internet and telephone coverage, where newspapers may still be a key source of
+information. In my work, I examine this correlation for two types of popular discontent:
+peasant revolts and worker strikes. As a leftist press, I will consider publications affiliated
+with labor parties: Russian Social Democratic Labor Party (RSDLP), Socialist Revolu-
+tionary Party (SRs), Trudoviks, Anarchists, etc. The Constitutional Democratic Party,
+for example, though moderately leftist, were not a labor party, so I don’t consider their
+press leftist. It should be noted that not all the newspapers in my source had a clear party
+affiliation: a large proportion of them were labeled as either “bourgeois” publications or
+“labor” publications. Therefore, I do the analysis specifically for aggregate press metrics
+of all left-wing labor parties together to avoid biased estimations.
+
+3
+
+2 Literature review
+
+The main focus of my research is to study the correlation of the politically leftist press
+in the gubernias of the Russian Empire with the number of peasant revolts and worker
+strikes. To begin with, a few articles on media economics should be mentioned to under-
+stand how media can influence its audience. In Political Talk Radio and Public Opinion
+(Barker & Knight, 2000) the researchers found that listening to political Limbaugh radio
+talk show had a significant effect on listeners’ political views. The magnitude of the effect
+was directly related to the amount of time devoted in the radio broadcast to a particular
+topic. Interestingly, radio was much more effective in creating opposition than in build-
+ing support for particular views. Thus, people were more willing to listen to negative
+statements about groups, people and ideas than to positive ones. This reinforces the mo-
+tivation for my research, for if the mechanisms of media influence on public consciousness
+are indeed arranged in this way, then leftist labor parties openly criticizing the tsarist
+regime may have been successful in inciting popular discontent. In addition, in Surprise
+me if you can: The influence of newspaper endorsements in U.S. presidential elections
+(Casas & Fawaz, 2016) the authors of the article evaluated the effect of endorsement of
+presidential candidates in 2008 and 2012 by print newspapers on public opinion. It was
+shown that print media had a significant effect on readers’ opinion. The effect was greater
+when the candidate endorsed by the newspaper was both consistent and unexpected. In
+other words, a candidate received the most promotion if his or her figure did not con-
+tradict the political views of the newspaper’ audience, while the candidate’s party itself
+had not been previously endorsed by the newspaper. The authors used prediction-market
+data (the pricing of future contracts on a candidate’s victory) to analyze the probabilities
+of candidates winning. As a part of their identification strategy, they made an assump-
+tion that endorsements of newspapers and their timing didn’t depend on the candidate’s
+winning probability. Thus, they aren’t concerned with the endogeneity problem, saying
+that they have daily observations. Unfortunately, this approach does not work for my
+research, as I operate with annual data. Considering the topic of media economics, the
+paper Media Bias and Influence: Evidence from Newspaper Endorsements (Chiang and
+Knight, 2011) is important for my research as well. The researches found similar effect
+that voters rely on the media during election campaigns but that the extent of this re-
+liance depends on the credibility of the endorsement. Moreover, the group most heavily
+exposed to the media were moderate voters with no strict political stance. According to
+the researchers, people understand the political bias of periodicals and tend to discount
+the information they receive on it. Thus, endorsement of a Democratic candidate from
+a left-wing newspaper will be less credible than endorsement of a Republican candidate
+from the same newspaper. In my data, there is no such precise differentiation of news-
+papers by partisanship and endorsement of candidates from other parties. Because of
+
+4
+
+this limitation, I will have to neglect source credibility as an element of my analysis. To
+address the problem of endogeneity, researchers use ”the fraction of readers supporting
+the Democrat prior to the publication of the endorsement.” 1 This approach would also
+be a poor fit for my study due to the lack of data on newspaper audience support for
+a particular party, as well as the use of panel data with annual observations. However,
+together with the paper of Casas & Fawaz researchers prove that traditional media, like
+newspapers, do have an impact on behavior of people even these days, let alone in the
+early 20th century when it was practically the only media resource available, enhancing
+my motivation. Also, it is important to note that both of these studies were conducted
+within the framework of a democratic state (the USA). Thus, my study will well com-
+plement the findings of these authors, considering the fact that Russian Empire was an
+autocratic state. Similarly, Enikolopov, Petrova, and Zhuravskaya in Media and Political
+Persuasion: Evidence from Russia (2010) showed that the access of audience to the inde-
+pendent media (TV channels) decreased the aggregate vote for the government party in
+Russian 1999 Parliamentary Election. As in previous researches, the degree of the influ-
+ence depended on the credibility of the media source. Complementing these studies, the
+researcher in News and Public Opinion: Which Comes First? (Wlezein, 2023) showed the
+inverse effect of audience on media. The author concluded that public opinion influences
+news covers. Reverse effect is also present, but the media effects were less frequent and
+relatively smaller than those that flow from the public to the news. The magnitude of
+both the effect of the media on the behavior of its audience and the audience on news
+covers is directly related to whether new information about the agent was disclosed. For
+example, news with exclusive political information had a comparatively greater impact
+on the audience. Thus, from these studies it can be concluded that media can indeed
+influence the actions of its audience, but there may be a reverse effect where the audience
+shapes media trends. This is why the potential finding of a statistically significant cor-
+relation between popular unrest and the left-wing press should not be taken as a causal
+relationship, because the effect could be in the other direction.
+
+It is crucial for my research to consider the literature related to popular discontent as well.
+There are several scientific researches directly touching upon the problematic of the causes
+of popular discontent in the Russian Empire of the early 20th century. Among them it
+is necessary to highlight the study Career incentives in political hierarchy: evidence from
+Imperial Russia (Gokmen and Kofanov, 2020). One of the main results obtained by the
+authors is that there is no effect of career incentives on governors’ performance in the
+gubernias. A statistically significant effect was found only for oblasts: regions which were
+distant from the center and poorly developed. Thus, the state had no mechanism of
+
+1Chiang, C.-F. and B. Knight (2011). Media bias and influence: Evidence from newspaper endorse-
+
+ments. The Review of economic studies 78 (3), 795–820.
+
+5
+
+rewards and punishments, which could lead to mismanagement of governors over their
+gubernias manifested in popular unrest. I have no data on the personal qualities of gov-
+ernors, but the differences in the levels of their responsibility in my regressions implicitly
+will be accounted for using gubernia and year fixed effects as well as linear gubernia
+trends. The data of researchers on peasant revolts also is used in my work. One more
+extremely important work in this field is the article (Good) Land and Freedom (for For-
+mer Serfs): Determinants of Peasant Unrest in European Russia, March-October 1917
+(Finkel, Gehlbach, and Kofanov, 2017). The authors of this study tried to identify the
+main determinants of peasant revolts in the period from March to October 1917, con-
+cluding that the quality of the soil and the historical prevalence of serfdom in the region
+had the great impact on the popular uprisings. In their study, they did not analyze po-
+litical determinants, like the correlation between media resources and popular unrest, so
+my research may add to their findings. This research also underlines the importance of
+using fixed effects in my regressions, to clear the variation in popular discontent from
+historically and geographically determined causes.
+In addition, it’s worth mentioning
+the study Collective Action and Representation in Autocracies: Evidence from Russia’s
+Great Reforms (Castaneda Dower, Finkel, Gehlbach, and Nafziger, 2017), in which the
+authors analyzed the consistency of the results of the Acemoglu-Robinson model on the
+example of peasant uprisings in the Russian Empire under Alexander 2. The researchers
+found that peasants had relatively lower representation in regions with a high historical
+probability of revolts. Presumably, this may have been because the authorities either
+wanted to punish peasants for disobedience or were unwilling to conduct liberalization in
+dangerous regions, fearing only to give the rioters more opportunities. The results of the
+study Famine, Inequality, and Conflict (Meril¨ainen & Mitrunen, 2022) are also important
+for my paper. The researchers showed that the 1866-1868 famine in Finland was a sig-
+nificant determinant of the redistribution of wealth to large landowners. This led to the
+regions most affected by the famine being the most actively involved in the Finnish Civil
+War. Complementing the results of this study, I should mention the paper “Let Them Eat
+Cake”: Drought, Peasant Uprisings, and Demand for Institutional Change in the French
+Revolution (Waldinger, 2023). This study demonstrated that peasants in areas of France
+most severely affected by drought in 1788 exhibited comparatively higher levels of popular
+discontent (rebellion) during the Great French Revolution of 1789. It was found that the
+demand for change in social and economic institutions was comparatively higher in the
+most drought-affected areas. This was measured through complaints filed by peasants.
+Thus, the level of agricultural yields have a significant impact on violent uprisings. These
+researches on French and Finnish data emphasize the importance of controlling for yield
+in my specifications. In my paper, I will control for the productivity of the agricultural
+sector and worker wages, which reflect people’s standard of living, as one of the most
+important time-varying variables that can affect popular discontent.
+
+6
+
+3 Data
+
+In my work I analyze 49 gubernias located in European part of Russian Empire. I use data
+on periodicals from 1901 to 1913 using the reference book by Cherepakhov and Ingerit
+(1957), namely information on the number of unique left-wing periodicals in the gubernia
+per year, the dates of the beginning and end of the publication, the party affiliation of
+the publication and its circulation. It’s important to note that these data are new and
+they were classified and digitised for the very first time by me manually. A periodical was
+considered left-wing if it was affiliated with labor parties such as the RSDLP, Left SRs,
+Trudoviks, Anarchists, etc. As it was already mentioned, moderately leftist non labor
+parties, like the Constitutional Democratic Party, aren’t considered leftist in my work.
+The source did not always accurately indicate the newspaper’s affiliation with a particu-
+lar party. Often researchers noted that periodical was “bourgeois”, “labor”, or controlled
+by the “tsarist government”.
+It
+is worth nothing that this source was compiled in the USSR, which creates grounds for
+political bias. The Soviet government could influence the scientists gathering this data
+not to include some periodicals in the collection. I assume that Soviet scholars tried to
+document leftist labor parties periodicals in the most complete way possible (which is
+partially confirmed by the presence in the source of a large amount of illegal leftist press
+printed on hectographs). Hence, when studying the correlation between the leftist labor
+press and popular discontent, the under-registration issue is unlikely.
+
+In such cases, I considered only ”labor” periodicals.
+
+The main dependent variables in my study are peasant revolts and worker strikes. The
+data on peasant revolts from 1901 to 1913 were taken from the database of Dmitriy Ko-
+fanov used in the research Career incentives in political hierarchy: evidence from Imperial
+Russia (Gokmen & Kofanov, 2020). I took data on number of workers, worker strikes,
+the number of workers participated in strikes, and workers wages from the Reports of
+factory inspectors. All these data were also collected, classified and digitised manually by
+me from the scans of the reports of factory inspections. It is important to note that the
+inspectors’ reports do not include data on the strikes of 1905-1908, since during the First
+Russian Revolution it was difficult to count strikes and number of workers participated in
+them due to the mass scale nature of those strikes. Thus, in this research I used the data
+on worker strikes from 1901-1904 and 1909-1913. Also, in the calculation of number of
+workers per gubernia the inspection took into account only the workers who were imposed
+to pay fines. Thus, the parameter of average wage per worker, obtained by dividing the
+total of all workers’ incomes by their number, is noisy. This is a limitation of my dataset
+that could potentially bias the estimate of the correlation of interest, but there is no better
+quality data for worker wages.
+
+7
+
+Wageit =
+
+Total earningsit
+Number of workersit
+
+I also use agricultural productivity in the gubernias in my work as a control variable, fol-
+lowing the bachelor thesis The Effect of Economic Shocks on Peasant Uprisings: Evidence
+from the Russian Empire by Ilya Gilyov (2021). Data on the amount of crops sown and
+harvested up to 1900 were taken from the article The economic effects of the abolition of
+serfdom: Evidence from the Russian empire (Markevich and Zhuravskaya, 2018). I used
+this data from 1890-1899 to calculate yield (the number of poods harvested divided by
+the poods sown) constant trend for each gubernia.
+
+Productivity trendi =
+
+harvest1890
+seeds1890
+
++ . . . + harvest1899
+seeds1899
+
+10
+
+,
+
+i − gubernia identifier
+
+Data on yield from 1900 to 1913 are taken from the New Russian economic history
+(Guriev, Markevich, and Zhuravskaya, 2021). Thus, I construct the agricultural pro-
+ductivity parameter as follows:
+
+Productivityit =
+
+harvestit
+seedsit
+
+− Productivity trendi
+
+A also used data on the number of printing houses for 1904 in each gubernia from the
+master’s thesis of Andrey Kolyadenko How Media Contributes to Unrest in Autocracy: a
+Case of Imperial Russia (2016). In addition, I used data from the 1897 census of the Rus-
+sian Empire for urban and rural populations with their division into literate and illiterate.
+
+I will analyze the peasant revolts in the 1901-1913 time period, with drop of 1905 and 1906
+years. I removed these years from the sample because it was the active phase of the First
+Russian Revolution. I consider these years as outliers, since the sharp increase in peasant
+revolts and worker strikes during the revolution was due to complex economic and political
+reasons: failures in the Russo-Japanese War, the shooting of peaceful demonstrators by
+the imperial guard during Bloody Sunday, the lack of political representation for the
+majority of the population, harsh working conditions in the industrial sector. Therefore,
+I believe that it would be misleading to study the correlation between the leftist press
+and popular unrest in these years, because they are not representative and the correlation
+would include effects from other uncontrolled sources. For workers strike I will analyze
+1901-1904 and 1909-1913 time interval, due to the absence of data on strikes for 1905-1908.
+
+8
+
+Peasant revolts: Summary statistics
+
+sum
+
+mean
+
+sd
+
+min
+
+max
+
+count
+
+Revolts rural
+Left rural
+Productivity
+Wage
+Gravity volume rural
+Local volume rural
+Printing house
+Literate share rural
+
+1.638904
+.1100383
+451.0088
+110143.5
+52.34537
+904.2745
+8456
+118.3467
+
+.0030406
+.0002042
+.8367511
+204.3478
+.0971157
+1.677689
+15.68831
+.2195672
+
+.0092852
+.0016842
+1.404919
+77.39163
+.2547768
+13.01002
+20.912
+.1395503
+
+0
+0
+-3.751171
+62.8971
+0
+0
+0
+.1004122
+
+.1788618
+.0362172
+6.224155
+447.6711
+3.770528
+237.0662
+143
+.692866
+
+539
+539
+539
+539
+539
+539
+539
+539
+
+Observations
+
+539
+
+Worker strikes: Summary statistics
+
+sum
+
+mean
+
+sd
+
+min
+
+max
+
+count
+
+12.71634
+Strikes urban
+4362.075
+Strikes part urban
+.1247171
+Left urban
+422.2047
+Productivity
+Wage
+88844.89
+Gravity volume urban 182.2618
+902.3308
+Local volume urban
+6040
+Printing house
+211.83
+Literate share urban
+
+.0288352
+9.891326
+.0002828
+.9573804
+201.4623
+.4132921
+2.046102
+13.69615
+.4803401
+
+.0775
+34.74157
+.0017815
+1.439679
+76.81616
+.789534
+16.35461
+20.23079
+.0948552
+
+0
+0
+0
+-3.751171
+62.8971
+0
+0
+0
+.3284435
+
+.8043487
+317.8284
+.0293738
+6.224155
+447.6711
+8.508294
+245.5653
+143
+.8030924
+
+441
+441
+441
+441
+441
+441
+441
+441
+441
+
+Observations
+
+441
+
+9
+
+4 Hypothesis and main results
+
+4.1 Hypothesis
+
+In my research, I am going to explore the correlation between labor leftist media (pe-
+riodical print media) and popular unrest (peasant uprisings and worker strikes). There
+are several theoretically possible directions of the link between these variables. Positive
+direction: agitators, by distributing the leftist press, might intensify the emerging social
+conflict between workers (or peasants) and the state. Also, as it was already discussed,
+there might be a reverse causality. For example, agitators could spread the leftist press
+in gubernias with high levels of discontent in order to destabilize the situation even more.
+These two situations under consideration may be the reason for the positive relation-
+ship between the above variables. On the other hand, the link might be negative: if the
+left press adopted an extremely confrontational tone towards the tsarist regime, it may
+have alienated more moderate or cautious peasants and workers. In the case of reverse
+causality, the leftist parties could spread their media in the relatively peaceful gubernias
+to provide the initial impetus for the beginning of popular discontent. These options
+may explain the negative relationship between the variables. I hypothesize that the dis-
+tribution of politically left-wing periodicals took place near the place of printing, since
+the movement of agitators over long distances leads to more costs: increased risk to be
+caught by the police, costs on train tickets, time costs, etc. Therefore, I assume that the
+correlation between the left press and popular unrest will be stronger the closer it is to the
+analyzed gubernia. Further, I will apply the gravity model method, which will discount
+the correlation between left-wing press and popular unrest by the distance between the
+analyzed region and the print region of the periodical.
+
+4.2 Main models: Peasant revolts
+
+My basic model for studying the correlation of the leftist press and peasant revolts is as
+follows:
+
+Revolts ruralit = α+β1 ·Left ruralit +β2 ·Productivityi,t−1 +β3 ·Wageit +γi +δt +
+
+49
+(cid:88)
+
+i=1
+
+ζi ·Di ·t
+
+Revolts ruralit is the number of peasant revolts in gubernia i in year t divided by the
+rural population of that gubernia in year 1897 in thousands of people. Left ruralit is the
+number of unique titles of left-wing periodicals in gubernia i in year t divided by the
+rural population of that gubernia in year 1897 in thousands. γi - is the gubernia fixed
+effect. δt - is the year fixed effect. Di - is the dummy of gubernia i, so ζi is a linear time
+trend for gubernia i. I use fixed effects by gubernia to isolate variation in peasant revolts
+
+10
+
+associated with the geographic and historical characteristics of a particular province (e.g.,
+soil quality and historical prevalence of serfdom (Finkel, Gehlbach, and Kofanov, 2017)2,
+cultural characteristics, and national composition). Fixed effects for the year are used
+to isolate the effects of any global historical events that may affect popular discontent.
+Linear trends were included to estimate long-run trends in popular discontent by province.
+For example, due to population growth, the number of peasant revolts may have increased
+over the long-run, or growing level of urbanization might lead to more worker strikes. For
+normalization I use the rural population in a fixed 1897 year to avoid endogeneity, since
+the number of revolts and number of population can hypothetically directly influence each
+other.
+
+Revolts ruralit =
+
+Revolts numberit
+Rural populi,1897
+
+Left ruralit =
+
+Left outlet numberit
+Rural populi,1897
+
+Also, I included control variables. The main metric that changes over time and needs
+to be controlled is people’s standard of living. Of course, there are many other factors:
+morbidity rates, military conscription, price level, taxation level, etc. All of these metrics
+can affect the level of popular discontent, but it is hard to extract data on them. That is
+why I focus primarily on the economic well-being of citizens. In the case of peasants, this
+metric is crop yields, in the case of workers, wages. Here Productivityi,t−1 - is the level
+of agricultural productivity deviation from its trend. As it was mentioned above, this
+metric was constructed following the logic of the thesis by Gilyov3. At first I calculated
+the sum of poods of harvest divided by the sum of poods of seed inputs. For 1890-1899,
+I calculated the average level of this productivity for each of the gubernias. I considered
+it as a constant trend, which I subtracted from subsequent productivity indicators to
+calculate the deviation of yields from their normal historical values.
+
+Productivity trendi =
+
+,
+
+i − gubernia identifier
+
+harvest1890
+seeds1890
+
++ . . . + harvest1899
+seeds1899
+
+10
+
+harvestit
+seedsit
+
+Productivityit =
+
+− Productivity trendi
+
+Following the ideas from the research of Waldinger (2023)4, where it was discovered that
+the previous year crop failure was a significant determinant of peasant participation in the
+
+2Finkel, E., S. Gehlbach, and D. Kofanov (2017). (good) land and freedom (for former serfs): Deter-
+
+minants of peasant unrest in european russia, march–october 1917. Slavic Review 76 (3), 710–721.
+
+3Gilyov, I. (2021). ”The Effect of Economic Shocks on Peasant Uprisings: Evidence from the Russian
+
+Empire.” Bachelor’s thesis, New Economic School & Higher School of Economics
+
+4Waldinger, M. (2024). “let them eat cake”: drought, peasant uprisings, and demand for institutional
+
+change in the french revolution. Journal of Economic Growth 29 (1), 41–77
+
+11
+
+French Revolution, I considered lag of the productivity as a control, since peasants eat
+their crops throughout the year. Hence, if the harvest turns out to be bad, it should not
+immediately affect popular discontent. They must first run out of food, which will prob-
+ably happen after winter by next year. Wagei,t is the average wage of an urban worker
+in rubles. I include this indicator as a control, considering it as an opportunity cost for
+peasants who might prefer to go to work in the city at a sufficiently high wage rather
+than start revolting. In this and in all of the following specifications I use the clustering
+of errors by gubernias.
+
+Revolts rural
+
+Left rural
+
+Productivityt−1
+
+Wage
+
+Constant
+
+(1)
+OLS
+
+(2)
+OLS+Controls
+
+(3)
+OLS
+
+(4)
+OLS + Controls
+
+-0.0855
+(-1.20)
+
+-0.0964
+(-1.21)
+
+-0.0716
+(-1.02)
+
+-0.000294
+(-1.11)
+
+-0.00000968
+(-0.72)
+
+-0.0854
+(-1.09)
+
+-0.000192
+(-0.65)
+
+-0.00000875
+(-0.44)
+
+-0.00107∗
+(-1.99)
+
+-0.000310
+(-0.12)
+
+0.107∗∗∗
+(9.95)
+
+0.0487
+(0.35)
+
+FE Year
+FE Gubernia
+Gubernia Trend
+Observations
+
+Yes
+Yes
+No
+539
+
+t statistics in parentheses
+
+∗ p < 0.1, ∗∗ p < 0.05, ∗∗∗ p < 0.01
+
+Yes
+Yes
+No
+539
+
+Yes
+Yes
+Yes
+539
+
+Yes
+Yes
+Yes
+539
+
+It can be seen, that there is no statistically significant correlation between peasant revolts
+and left periodical press in specifications without linear gubernia trends (1,2) and with
+them (3,4).
+
+In addition to the basic OLS regressions, I consider the following gravity model:
+
+Revolts ruralit = α + β1 · Gravity volume ruralit + β2 · Local volume ruralit+
+
++β3 · Productivityi,t−1 + β4 · Wageit + γi + δt +
+
+49
+(cid:88)
+
+i=1
+
+ζi · Di · t
+
+12
+
+My gravity model is organized as follows.
+In my work I consider 49 gubernias of the
+I have identified the latitudes and longitudes
+European part of the Russian Empire.
+for the centroids of each of these gubernias. Then for each gubernia in each year I
+determined the total circulation of the leftist press published in that gubernia. Thus, the
+variable Gravity volume ruralit is the sum of the circulation of the leftist press issued in
+other gubernias divided by the distance between the centroids of the gubernias. Also,
+I normalized this metric to the rural population in thousands of people in 1897 for this
+gubernia.
+
+Gravity volume ruralit =
+
+Total circulationjt
+distanceij
+
+49
+(cid:80)
+j=1
+j̸=i
+
+Rural populi,1897
+
+The total circulation of leftist press issued directly in the considered gubernia is recorded
+in a separate variable Local volume rural to avoid division on zero distance. This metric
+is also divided by the rural population of this gubernia in thousands of people in 1897.
+
+Local volume ruralit =
+
+Total circulationit
+Rural populi,1897
+
+It is important to note that circulation data are not known for all periodicals. Therefore, I
+made an approximation with similar outlets, grouping them by general type (newspapers,
+magazines, leaflets) and considered that in the missing data the circulations will be equal
+to the average value for their group.
+
+Again, none of the variables considered were found to be statistically significant in the re-
+gressions without linear trends (1,2) and with them (3,4). The same results were obtained
+using the regressions in logarithms (Appendix, table 1). One possible explanation for the
+lack of correlation is that peasants were massively illiterate. They simply could not read
+newspapers, so the politically leftist press had no influence on their behavior or these press
+were not even distributed in villages, since agitators, thinking strategically, knew it was
+useless. I will examine this hypothesis in more detail when the correlation between left
+press and worker strikes is analyzed. Another possible reason for the lack of correlation
+is that I use the number of peasant revolts in these specifications. Revolts could have
+been both large and small, but I do not have data on the number of participants in the
+revolts and consider all of them to be equal entities. Thus, this limitation due to the lack
+of necessary data may introduce noise in the estimation of the real correlation between
+the leftist press and peasant revolts, leading to a lack of statistical significance.
+
+13
+
+Revolts rural
+
+Gravity volume rural
+
+(1)
+Gravity
+
+-0.00123
+(-1.23)
+
+(2)
+Gravity+Controls
+
+(3)
+Gravity
+
+(4)
+Gravity + Controls
+
+-0.00117
+(-1.27)
+
+-0.00164
+(-1.45)
+
+-0.00164
+(-1.52)
+
+Local volume rural
+
+-0.00000969
+(-1.13)
+
+-0.00000762
+(-0.86)
+
+-0.0000103
+(-1.09)
+
+-0.00000848
+(-0.84)
+
+Productivityt−1
+
+Wage
+
+Constant
+
+FE Year
+FE Gubernia
+Gubernia Trend
+Observations
+
+-0.000276
+(-1.07)
+
+-0.0000101
+(-0.75)
+
+-0.0000444
+(-0.02)
+
+Yes
+Yes
+No
+539
+
+0.0929∗∗∗
+(11.43)
+
+Yes
+Yes
+Yes
+539
+
+-0.000170
+(-0.59)
+
+-0.00000953
+(-0.48)
+
+0.0294
+(0.21)
+
+Yes
+Yes
+Yes
+539
+
+-0.000972∗
+(-1.72)
+
+Yes
+Yes
+No
+539
+
+t statistics in parentheses
+
+∗ p < 0.1, ∗∗ p < 0.05, ∗∗∗ p < 0.01
+
+14
+
+4.3 Main models: Worker strikes
+
+The basic model for worker strikes is quite similar to the case with peasants:
+
+Strikes urbanit = α+β1·Left urbanit+β2·Productivityi,t−1+β3·Wageit++γi+δt+
+
+49
+(cid:88)
+
+i=1
+
+ζi·Di·t
+
+Strikes urbanit =
+
+Strikes numberit
+Urban populi,1897
+
+Left urbanit =
+
+Left outlet numberit
+Urban populi,1897
+
+Here, the variable Strikes urbanit is the number of strikes, divided by urban population
+of gubernia i in year 1897 in thousands of people. Left urbanit is the number of unique
+titles of left-wing periodicals in gubernia i in year t divided by the urban population
+of that gubernia in year 1897 in thousands. Again, I used fixed urban population for
+each gubernia to avoid endogeneity problem.
+It is important to note that the factory
+inspectorate did not report data on worker strikes from 1905 to 1908 due to their massive
+scale. Therefore, in this regression I consider data for 1901-1904 and 1909-1913. This
+specification, both without (1,2) and with (3,4) linear trends, showed no statistically
+significant correlations.
+
+4.547
+(0.88)
+
+0.00383
+(1.61)
+
+0.0000982
+(0.70)
+
+Strikes urban
+
+(1)
+OLS OLS+Controls
+
+(2)
+
+Left urban
+
+4.401
+(0.85)
+
+Productivityt−1
+
+(3)
+OLS
+
+1.918
+(0.75)
+
+Wage
+
+Constant
+
+0.0115
+(0.58)
+
+0.00765
+(0.19)
+
+-12.56∗∗∗
+(-4.23)
+
+FE Year
+FE Gubernia
+Gubernia Trend
+Observations
+
+Yes
+Yes
+No
+441
+
+t statistics in parentheses
+
+∗ p < 0.01, ∗∗ p < 0.05, ∗∗∗ p < 0.01
+
+Yes
+Yes
+No
+441
+
+15
+
+Yes
+Yes
+Yes
+441
+
+(4)
+OLS + Controls
+
+2.068
+(0.79)
+
+0.00151
+(0.57)
+
+0.000128
+(0.57)
+
+-11.86∗∗∗
+(-4.66)
+
+Yes
+Yes
+Yes
+441
+
+Further I estimate the gravity model, the same way I did for peasant revolts. However,
+here I normalized volumes of left press on the urban population.
+
+Strikes urbanit = α + β1 · Gravity volume urbanit + β2 · Local volume urbanit+
+
++β3 · Productivityi,t−1 + β4 · Wageit + γi + δt +
+
+49
+(cid:88)
+
+i=1
+
+ζi · Di · t
+
+Gravity volume urbanit =
+
+Local volume urbanit =
+
+Total circulationjt
+distanceij
+
+49
+(cid:80)
+j=1
+j̸=i
+
+Urban populi,1897
+
+Total circulationit
+Urban populi,1897
+
+(2)
+
+(3)
+Gravity+Controls Gravity Gravity + Controls
+
+(4)
+
+Strikes urban
+
+Gravity volume urban
+
+(1)
+Gravity
+
+0.0146
+(0.74)
+
+0.0153
+(0.77)
+
+Local volume urban
+
+0.000986∗∗
+(2.34)
+
+0.000978∗∗
+(2.34)
+
+Productivityi,t−1
+
+Wage
+
+Constant
+
+FE Year
+FE Gubernia
+Gubernia Trend
+Observations
+
+0.0128
+(1.09)
+
+Yes
+Yes
+No
+441
+
+t statistics in parentheses
+
+∗ p < 0.1, ∗∗ p < 0.05, ∗∗∗ p < 0.01
+
+0.00284
+(1.32)
+
+0.000133
+(0.89)
+
+-0.00324
+(-0.08)
+
+Yes
+Yes
+No
+441
+
+16
+
+0.00623
+(0.39)
+
+0.000535∗
+(1.99)
+
+-12.29∗∗∗
+(-4.40)
+
+Yes
+Yes
+Yes
+441
+
+0.00657
+(0.40)
+
+0.000535∗
+(1.98)
+
+0.00108
+(0.37)
+
+0.000131
+(0.59)
+
+-11.36∗∗∗
+(-3.36)
+
+Yes
+Yes
+Yes
+441
+
+As it can be seen from the gravity model results, the correlation between Local volume urbanit
+and Strikes urbanit is positive and statistically significant at the 5% significance level with-
+out linear trends (1,2) and at the 10% level with linear trends (3,4). Economically speak-
+ing, the increase in Local volume urbanit by 1 SD is associated with increase in number of
+strikes in gubernia by almost 4 for regressions (1,2) and by 2 for regressions (3,4), which are
+substantial numbers. Interestingly, the results obtained fit well into the hypothesis that
+for the left-wing press to have significant correlation with popular unrest, it is necessary
+that these people can read. Thus, the workers, being much more literate people than the
+peasants, had the opportunity to read newspapers, which is why we observe a statistically
+significant positive correlation here and none for peasants. I will test this hypothesis later.
+
+For worker strikes, just as it was for the peasant revolts, there is a risk that the estimate
+obtained above is biased because in the previous regressions all strikes, both small and
+large, were considered identical entities. Also, in additional regressions in logarithms
+(Appendix, table 3) no statistically significant correlation was found for worker strikes.
+Unlike the peasant revolts, the data on the number of workers who participated in strikes
+is known. In order to make sure that the results obtained are robust, I made regressions
+with Strikes part urban = Strikes participantsit
+Urban populi,1897
+
+as the dependent variable.
+
+Strikes part urbanit = α+β1·Left urbanit+β2·Productivityi,t−1+β3·Wageit++γi+δt+
+
+49
+(cid:88)
+
+ζi·Di·t
+
+(3)
+OLS
+
+826.9
+(0.89)
+
+i=1
+
+(4)
+OLS + controls
+
+929.6
+(1.00)
+
+0.218
+(0.19)
+
+0.0976
+(1.15)
+
+-2357.3∗∗
+(-2.19)
+
+-1813.4∗
+(-1.95)
+
+Yes
+Yes
+Yes
+441
+
+Yes
+Yes
+Yes
+441
+
+Strikes part urban
+
+(1)
+OLS OLS+Controls
+
+(2)
+
+Left urban
+
+Productivityt−1
+
+1776.2
+(0.98)
+
+Wage
+
+Constant
+
+FE Year
+FE Gubernia
+Gubernia Trend
+Observations
+
+-0.428
+(-0.06)
+
+Yes
+Yes
+No
+441
+
+t statistics in parentheses
+
+∗ p < 0.1, ∗∗ p < 0.05, ∗∗∗ p < 0.01
+
+1859.7
+(1.03)
+
+1.038
+(1.19)
+
+0.0594
+(1.06)
+
+-8.828
+(-0.54)
+
+Yes
+Yes
+No
+441
+
+17
+
+As in the specifications with the number of strikes, no statistically significant correlation
+was found. Let us turn to the gravity model.
+
+Strikes part urbanit = α + β1 · Gravity volume urbanit + β2 · Local volume urbanit+
+
++β3 · Productivityi,t−1 + β4 · Wageit + γi + δt +
+
+49
+(cid:88)
+
+i=1
+
+ζi · Di · t
+
+Strikes part urban
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+Gravity Gravity+Controls Gravity Gravity + controls
+
+Gravity volume urban
+
+Local volume urban
+
+Productivityt−1
+
+Wage
+
+Constant
+
+FE Year
+FE Gubernia
+Gubernia Trend
+Observations
+
+4.541
+(0.67)
+
+0.404∗∗
+(2.68)
+
+0.640
+(0.17)
+
+Yes
+Yes
+No
+441
+
+t statistics in parentheses
+
+∗ p < 0.1, ∗∗ p < 0.05, ∗∗∗ p < 0.01
+
+4.897
+(0.72)
+
+0.404∗∗
+(2.66)
+
+0.646
+(0.77)
+
+0.0702
+(1.23)
+
+-11.90
+(-0.76)
+
+Yes
+Yes
+No
+441
+
+2.840
+(0.49)
+
+0.237∗∗
+(2.06)
+
+-2256.4∗
+(-1.80)
+
+Yes
+Yes
+Yes
+441
+
+3.214
+(0.54)
+
+0.238∗∗
+(2.06)
+
+0.0187
+(0.02)
+
+0.0992
+(1.22)
+
+-1538.1
+(-1.06)
+
+Yes
+Yes
+Yes
+441
+
+The results of the gravity model for the number of strike participants also show posi-
+tive and statistically significant correlation for Local volume urban, but now after adding
+linear trends to the regression, the coefficient at Local volume urban is still statistically
+significant at the 5% level. Economically this result is also significant. The increase
+in Local volume urban by 1 SD is associated with the increase in the number of strike
+participants by 1600 people without linear trends (1,2) and by 950 people with linear
+trends (3,4). It is also worth noting that the additional regressions in logarithms in this
+case also show a statistically significant positive correlation at the 5% level (Appendix,
+
+18
+
+table 3). Thus, implementing additional regressions for the number of strike participants
+gave greater robustness to the results obtained for worker strikes. The statistically and
+economically significant correlation is indeed observed in this case. However, why was it
+absent in the case of peasants? In what follows, I will test the literacy hypothesis I have
+outlined above.
+
+5
+
+Instrumental variable
+
+Before addressing the issue of literacy, I try to consider the causal relationship between the
+left-wing press and popular unrest. For this, I’m using the instrumental variable method.
+As an instrumental variable, I use the number of printing houses in the gubernia in 1904,
+following the logic from master thesis of Andrey Kolyadenko5. Due to the First Russian
+Revolution, the censorship was relaxed in 1905 which led to a significant increase in leftist
+press. The variable proposed by Kolyadenko6 represents the number of printing houses,
+which is taken to be zero until 1905, and then take as a constant value thereafter. This
+variable construction is motivated by the fact that it is very difficult to change printing
+capacity quickly and the figure for 1904 may well approximate the value for subsequent
+years. The value equal to 0 before 1905 since left parties could not use these printing
+capacities because of censorship. I think that this variable may be used as an instrument,
+because is should be correlated with leftist press, while at the same time the number of
+printing houses in each gubernia should be exogenous towards peasant revolts and strikes.
+
+Printing houseit =
+
+
+
+
+0,
+
+t < 1905
+
+
+
+ni,
+
+t ≥ 1905
+
+, ni − Printing houses in gubernia i
+
+I instrumented only basic OLS models for peasant revolts, worker strikes and worker
+strikes participants, since in gravity model there are two potentially endogenous variables,
+but I have only one instrument. First stage regressions for strikes and strikes participants
+are the same. As it can be seen, the first-stage F value is very low (F < 10), indicating low
+correlation between the instrument and the variable of interest. I used LIML estimator
+(Limited-information maximum likelihood), since it has been found to be more resistant to
+weak instruments problems. However, the problem with weak instrument still persists. I
+also did the calculation for regressions without linear trends, but the low F value problem
+remained (Appendix, table 4). Thus, it was not possible to resolve the issue of the
+endogeneity of the relationship between the left-wing press and popular unrest with the
+data I have. Therefore, I return to the correlation analysis between those metrics. In
+the next block of work, I will consider the hypothesis of literacy as the reason for the
+
+5Kolyadenko, A. (2016). ”Media, Printing Capacities and Unrest: a Case of Imperial Russia.” Master
+
+thesis, New Economic School
+
+6Kolyadenko (2016)
+
+19
+
+statistical significance of the correlation in the gravity model for workers and insignificance
+for peasants.
+
+First stage
+
+(1)
+
+(2)
+
+Printing house
+
+Constant
+
+OLS+Controls OLS+Controls
+
+Left rural
+
+Left urban
+
+-0.000016
+(-1.09)
+
+0.2047499
+(0.64)
+
+0.0000339
+(1.23)
+
+1.00204∗∗∗
+(2.65)
+
+Controls
+FE Year
+FE Gubernia
+Gubernia Trend
+First stage F-value
+Observations
+
+Yes
+Yes
+Yes
+Yes
+1.19
+539
+
+z statistics in parentheses
+
+∗ p < 0.1, ∗∗ p < 0.05, ∗∗∗ p < 0.01
+
+Yes
+Yes
+Yes
+Yes
+1.5
+441
+
+Second stage
+
+(1)
+
+(2)
+
+OLS+Controls OLS+Controls
+Strikes urban
+Revolts rural
+
+(3)
+OLS+Controls
+Strikes part urban
+
+Left rural
+
+Left urban
+
+Productivityt−1
+
+Wage
+
+Constant
+
+1.927972
+(0.39)
+
+-0.0002918
+(-0.66)
+
+-0.000016
+(-0.61)
+
+-0.2679498
+(-0.14)
+
+FE Year
+FE Gubernia
+Gubernia Trend
+First stage F-value
+Observations
+
+Yes
+Yes
+Yes
+1.19
+539
+
+z statistics in parentheses
+
+∗ p < 0.1, ∗∗ p < 0.05, ∗∗∗ p < 0.01
+
+20
+
+-34.86105
+(-1.02)
+
+0.0003717
+(0.09)
+
+-0.0002093
+(-0.55)
+
+28.78858
+(0.71)
+
+Yes
+Yes
+Yes
+1.5
+441
+
+-18856.72
+(-1.08)
+
+-0.3933197
+(-0.2)
+
+-0.083133
+(-0.43)
+
+19968.2
+(0.96)
+
+Yes
+Yes
+Yes
+1.5
+441
+
+6 Testing the literacy hypothesis
+
+Based on the 1897 census data, I calculated the number of people who can read for
+each gubernia in rural and urban areas. In order to test the hypothesis that left-wing
+publications had an insignificant correlation with peasant revolts and statistically signif-
+icant correlation with worker strikes because of different literacy levels, I added to the
+basic gravity model the interaction of the left-wing press variables (Gravity volumeit and
+Local volumeit) with the share of the literate population in rural and urban areas, respec-
+tively.
+
+As it can be seen, with the addition of the interaction on the share of the literate urban
+population, the statistical significance of Local volume urbanit for worker strikes (2) and
+worker strikes participants (3) disappeared. It is important to note that in the case of
+worker strikes (2) the interaction of urban literacy level with the Local volume variable is
+positive and statistically significant at 10% level. This evidence supports the hypothesis
+of literacy as the channel that provided the significance of the relationship between the
+leftist press and popular unrest. In the case of worker strikes participants (3) this interac-
+tion itself is not statistically significant. However, the sign of the coefficient of the variable
+Local volume urban decreased but still remained positive. The sign of the interaction of
+this variable with the share of literate urban population is also positive. Despite the fact
+that the interaction turned out to be statistically insignificant, jointly the variables of
+left volume with their interactions on literacy are statistically significant at the 1% level
+(F = 7.16). This result also partially supports the hypothesis put forward about literacy
+rates. Although my specifications include fixed effects and linear trends, so the literacy
+rate variation across provinces and its growth are already implicitly accounted for in my
+models, for a more rigorous confirmation of this hypothesis it is necessary to obtain an-
+nual data on the literacy of the population in the Russian Empire. Unfortunately, no
+such data is available at this time.
+
+The results obtained support the idea that leftist press did have a statistically significant
+positive correlation with workers’ strikes because workers were literate people and could
+read the propaganda disseminated by the leftist parties. For peasants we do not observe
+such an significance, probably because they were mostly illiterate. Therefore, there might
+be two options: either left-wing press had no effect on peasants because of that or left
+parties thinking strategically didn’t distribute left press among peasants, knowing it would
+have no effect on their behaviour.
+
+21
+
+(1)
+Gravity
+Revolts rural
+
+(2)
+Gravity
+
+(3)
+Gravity
+
+Strikes urban Strikes part urban
+
+Gravity volume rural
+
+Local volume rural
+
+Gravity volume rural *Lit % rural
+
+Local volume rural *Lit % rural
+
+Productivityt−1
+
+Wage
+
+Gravity volume urban
+
+Local volume urban
+
+Gravity volume urban*Lit % urban
+
+Local volume urban*Lit % urban
+
+Constant
+
+FE Year
+FE Gubernia
+Gubernia Trend
+Observations
+
+t statistics in parentheses
+
+∗ p < 0.1, ∗∗ p < 0.05, ∗∗∗ p < 0.01
+
+0.00111
+(0.32)
+
+-0.000116
+(-0.77)
+
+-0.00660
+(-1.28)
+
+0.000288
+(0.77)
+
+-0.000173
+(-0.61)
+
+-0.00000859
+(-0.42)
+
+0.0819
+(0.50)
+
+Yes
+Yes
+Yes
+539
+
+22
+
+0.00132
+(0.47)
+
+0.000122
+(0.53)
+
+-0.0553
+(-0.85)
+
+-0.00214
+(-1.59)
+
+0.0891
+(0.76)
+
+0.00441∗
+(1.69)
+
+-12.79∗∗∗
+(-3.90)
+
+Yes
+Yes
+Yes
+441
+
+0.0613
+(0.05)
+
+0.101
+(1.17)
+
+-13.02
+(-0.46)
+
+0.126
+(0.17)
+
+25.81
+(0.53)
+
+0.155
+(0.12)
+
+-2186.7
+(-1.34)
+
+Yes
+Yes
+Yes
+441
+
+7 Conclusion
+
+The goal of my work is to examine the relationship between the leftist press in early
+20th century Tsarist Russia and popular unrest.
+In this paper, I found a statistically
+significant positive correlation between the number of worker strikes (as well as for strikes
+participants) and left-wing political periodicals. In the case of peasant revolts, no such
+correlation was observed. I hypothesized that the presence of the correlation in the case
+of workers and its absence in the case of peasants is due to the different literacy levels of
+these social groups. Analyzing this hypothesis by adding the interaction of the left press
+variables with the shares of literate population in rural and urban areas, it was found that
+statistical significance of correlation in the case of worker strikes disappears. Interaction
+with literacy rate in case of worker strike was also found to be positive and statistically
+significant. This fact partially supports the hypothesis. Workers were much more likely to
+be able to read than peasants, so the leftist press either had no effect on peasant revolts,
+or the leftist parties did not distribute the press in the villages.
+
+This finding is an important historical result in the context of Tsarist Russia. Workers, be-
+ing more literate people, were more easily influenced by printed propaganda and therefore
+were (or at least were seen by leftist parties) the main driving class of revolutionary-leftist
+movements. Peasants, on the other hand, were not exposed to propaganda to the same
+extent, due to their illiteracy. In addition, this fact is important for historical economics
+in general, as these results give us deeper understanding of semi-agrarian autocratic soci-
+eties of the time (Portugal, Bulgaria, Serbia, Romania, etc.) and the political processes
+that took place in them. Also, finding a statistically significant correlation in the case
+of worker strikes is an important result within the field of media economic studies. As
+mentioned earlier, most studies in this area are conducted on data from democratic states,
+due to their greater availability. In turn, my research is conducted on data from authori-
+tarian state. I found that, even with state censorship, there is some connection between
+opposition media and their audiences.
+
+Of course, my paper does not cover the topic of leftist media in Tsarist Russia in its
+entirety.
+I see several possible ways to further develop this research. First of all, the
+resolution of causality problem is crucial for the understanding whether the opposition
+leftist media had the effect on the action of people or not. Secondly, the database I use
+has serious limitations: the number of worker strikes and their participants from 1907
+to 1908 is unknown, since the factory inspectors did not keep records, and there is no
+decomposition of data at the uezd level. Also, there is no data on Siberian and Central
+Asian gubernias of the Russian Empire, the sampling is limited to the early 20th century,
+and literacy levels are known only for 1897. In addition, it might be interesting to analyze
+
+23
+
+other media resources, such as public speeches of agitators, possibly based on the data on
+political crimes. This line of analysis is of additional interest because in the case of public
+speeches, the literacy of the people the propaganda is trying to influence is not required.
+
+24
+
+8 Appendix
+
+Table 1: Peasant revolts: logarithms
+
+(1)
+ln(Revolts rural )
+
+(2)
+ln(Revolts rural )
+
+(3)
+ln(Revolts rural )
+
+(4)
+ln(Revolts rural )
+
+0.122
+(0.67)
+
+ln(Left rural)
+
+Productivityt−1
+
+Wage
+
+2
+5
+
+ln(Gravity volume rural)
+
+ln(Local volume rural)
+
+Constant
+
+FE Year
+FE Gubernia
+Gubernia Trend
+Observations
+
+t statistics in parentheses
+
+∗ p < 0.1, ∗∗ p < 0.05, ∗∗∗ p < 0.01
+
+56.72∗∗∗
+(5.45)
+
+Yes
+Yes
+Yes
+539
+
+0.132
+(0.74)
+
+-0.0178
+(-0.66)
+
+-0.00252
+(-1.25)
+
+39.37∗∗
+(2.11)
+
+Yes
+Yes
+Yes
+539
+
+-0.0186
+(-0.70)
+
+-0.00256
+(-1.28)
+
+-0.0881
+(-1.02)
+
+0.00741
+(0.32)
+
+38.21∗∗
+(2.15)
+
+Yes
+Yes
+Yes
+539
+
+-0.0790
+(-0.86)
+
+0.00742
+(0.32)
+
+55.70∗∗∗
+(4.68)
+
+Yes
+Yes
+Yes
+539
+
+2
+6
+
+Table 2: Worker strikes: logarithms
+
+(1)
+ln(Strikes urban)
+
+(2)
+ln(Strikes urban)
+
+(3)
+ln(Strikes urban)
+
+(4)
+ln(Strikes urban)
+
+ln(Left urban)
+
+Productivityt−1
+
+Wage
+
+0.149
+(0.99)
+
+0.170
+(1.22)
+
+0.0809
+(1.23)
+
+0.00417
+(1.00)
+
+ln(Gravity volume rural)
+
+ln(Local volume rural)
+
+Constant
+
+FE Year
+FE Gubernia
+Gubernia Trend
+Observations
+
+t statistics in parentheses
+
+∗ p < 0.1, ∗∗ p < 0.05, ∗∗∗ p < 0.01
+
+-152.2∗∗∗
+(-6.63)
+
+-127.2∗∗∗
+(-3.82)
+
+Yes
+Yes
+Yes
+441
+
+Yes
+Yes
+Yes
+441
+
+0.0830
+(1.27)
+
+0.00424
+(1.00)
+
+0.0600
+(0.52)
+
+0.0557
+(1.58)
+
+-128.7∗∗∗
+(-3.90)
+
+Yes
+Yes
+Yes
+441
+
+0.0175
+(0.15)
+
+0.0488
+(1.30)
+
+-157.7∗∗∗
+(-8.24)
+
+Yes
+Yes
+Yes
+441
+
+Table 3: Worker strikes participants: logarithms
+
+(1)
+ln(Strikes part urban)
+
+(2)
+ln(Strikes part urban)
+
+(3)
+ln(Strikes part urban)
+
+(4)
+ln(Strikes part urban)
+
+ln(Left urban)
+
+Productivityt−1
+
+Wage
+
+2
+7
+
+ln(Gravity volume rural)
+
+ln(Local volume rural)
+
+Constant
+
+FE Year
+FE Gubernia
+Gubernia Trend
+Observations
+
+t statistics in parentheses
+
+∗ p < 0.05, ∗∗ p < 0.01, ∗∗∗ p < 0.001
+
+0.629
+(1.49)
+
+-91.07
+(-1.41)
+
+Yes
+Yes
+Yes
+441
+
+0.677
+(1.68)
+
+0.172
+(1.07)
+
+0.00994
+(1.08)
+
+-31.12
+(-0.35)
+
+Yes
+Yes
+Yes
+441
+
+0.169
+(1.08)
+
+0.00967
+(1.05)
+
+0.0122
+(0.04)
+
+0.168∗∗
+(2.64)
+
+-31.83
+(-0.44)
+
+Yes
+Yes
+Yes
+441
+
+-0.0784
+(-0.28)
+
+0.153∗∗
+(2.23)
+
+-97.81∗
+(-2.19)
+
+Yes
+Yes
+Yes
+441
+
+Table 4: IV regressions without linear trends
+
+First stage
+
+(1)
+
+(2)
+
+Printing house
+
+Constant
+
+OLS+Controls OLS+Controls
+
+Left rural
+
+Left urban
+
+-0.00000451
+(-0.72)
+
+-0.0001211
+(-0.14)
+
+0.00000734
+(0.93)
+
+0.0048749∗∗∗
+(4.25)
+
+Controls
+FE Year
+FE Gubernia
+Gubernia Trend
+First stage F-value
+Observations
+
+Yes
+Yes
+Yes
+No
+0.52
+539
+
+z statistics in parentheses
+
+∗ p < 0.1, ∗∗ p < 0.05, ∗∗∗ p < 0.01
+
+Yes
+Yes
+Yes
+No
+0.86
+441
+
+Second stage
+
+(1)
+
+(2)
+
+OLS+Controls OLS+Controls
+Strikes urban
+Revolts rural
+
+(3)
+OLS+Controls
+Strikes part urban
+
+Left rural
+
+Left urban
+
+Productivityt−1
+
+Wage
+
+Constant
+
+-3.29409
+(-0.37)
+
+-0.000123
+(-0.20)
+
+-0.00000361
+(-0.15)
+
+-0.0004857
+(-0.09)
+
+FE Year
+FE Gubernia
+Gubernia Trend
+First stage F-value
+Observations
+
+Yes
+Yes
+No
+0.52
+539
+
+z statistics in parentheses
+
+∗ p < 0.1, ∗∗ p < 0.05, ∗∗∗ p < 0.01
+
+28
+
+-0.1988905
+(-0.01)
+
+0.003834
+(1.27)
+
+0.0000634
+(0.2)
+
+0.0303049
+(0.16)
+
+Yes
+Yes
+No
+0.86
+441
+
+14822.23
+(0.69)
+
+1.030958
+(0.61)
+
+0.1542245
+(0.89)
+
+-70.6972
+(-0.67)
+
+Yes
+Yes
+No
+0.86
+441
+
+References
+
+Barker, D. and K. Knight (2000). Political talk radio and public opinion. Public opinion
+
+quarterly 64 (2), 149–170.
+
+Blattman, C. and E. Miguel (2010). Civil war. Journal of Economic literature 48 (1),
+
+3–57.
+
+Borodkin, L., S. Glazunov, and I. e. a. Pushkareva (2011). Labor conflicts and the la-
+bor movement in russia at the turn of the 19th-20th centuries. Journal of Economic
+literature.
+
+Casas, A., Y. Fawaz, and A. Trindade (2016). Surprise me if you can: The influence of
+newspaper endorsements in us presidential elections. Economic Inquiry 54 (3), 1484–
+1498.
+
+Casta˜neda Dower, P., E. Finkel, S. Gehlbach, and S. Nafziger (2018). Collective action
+and representation in autocracies: Evidence from russia’s great reforms. American
+Political Science Review 112 (1), 125–147.
+
+Casta˜neda Dower, P. and A. Markevich (2019). The stolypin reform and agricultural
+productivity in late imperial russia. European Review of Economic History 23 (3), 241–
+267.
+
+Cherepakhov, M. and E. Fingerit (1957). Russian periodical press (1895 - october 1917).
+
+State Publishing House of Political Literature.
+
+Chernina, E., P. C. Dower, and A. Markevich (2014). Property rights, land liquidity, and
+
+internal migration. Journal of Development Economics 110, 191–215.
+
+Chiang, C.-F. and B. Knight (2011). Media bias and influence: Evidence from newspaper
+
+endorsements. The Review of economic studies 78 (3), 795–820.
+
+Egorov, G. and K. Sonin (2020). The political economics of non-democracy. Technical
+
+report, National Bureau of Economic Research.
+
+Enikolopov, R., M. Petrova, and E. Zhuravskaya (2011). Media and political persuasion:
+
+Evidence from russia. American economic review 101 (7), 3253–3285.
+
+Finkel, E., S. Gehlbach, and D. Kofanov (2017). (good) land and freedom (for former
+serfs): Determinants of peasant unrest in european russia, march–october 1917. Slavic
+Review 76 (3), 710–721.
+
+Gilyov, I. (2021). The effect of economic shocks on peasant uprisings: Evidence from the
+
+russian empire. Bachelor’s thesis.
+
+29
+
+Gokmen, G. and D. Kofanov (2020). Career incentives in political hierarchy: evidence
+
+from imperial russia. European Review of Economic History 24 (2), 264–287.
+
+Kolyadenko, A. (2016). How media contributes to unrest in autocracy: a case of imperial
+
+russia. Master thesis.
+
+Markevich, A. and E. Zhuravskaya (2018). The economic effects of the abolition of serf-
+dom: Evidence from the russian empire. American Economic Review 108 (4-5), 1074–
+1117.
+
+Meril¨ainen, J., M. Mitrunen, and T. Virkola (2023). Famine, inequality, and conflict.
+
+Journal of the European Economic Association 21 (4), 1478–1509.
+
+Waldinger, M. (2024). “let them eat cake”: drought, peasant uprisings, and demand
+for institutional change in the french revolution. Journal of Economic Growth 29 (1),
+41–77.
+
+Wlezien, C. (2024). News and public opinion: Which comes first? The Journal of
+
+Politics 86 (1), 1–17.
+
+Zhuravskaya, E., S. Guriev, and A. Markevich (2024). New russian economic history.
+
+Journal of Economic Literature 62 (1), 47–114.
+
+30
+
+

@@ -1,0 +1,3837 @@
+National Research University Higher School of Economics
+
+Faculty of Computer Science
+Programme: Data Science and Business
+Analytics
+
+BACHELOR’S THESIS
+
+Research Project
+
+Uplift Modeling in Recommender Systems
+
+Prepared by the student of Group 212, Year 4,
+
+Gorelskii Roman Evgenievich
+
+Thesis Supervisor:
+
+JSC "TBank", Senior Research Developer of RecSys E-commerce,
+
+Lashinin Oleg Andreevich
+
+Moscow 2025
+
+Annotation
+
+The topic of recommender systems (RecSys) is popular nowadays as it allows businesses to
+
+customize the experience of each of their users individually. Realisation with standard approaches
+
+like content- or collaborative-based filtering allows to identify the suggestions appropriate in the
+
+context of relevance. However, such selected proposals are subject to various biases due to the
+
+fact that algorithms overlook the causality effect. A set of techniques that allow to estimate
+
+how impactful recommendations are on user’s actions is called uplift modeling. The current paper
+
+presents a research aimed at the study of topic’s nuances. Through the implemetation of PropCare
+
+and DLCE algorithms the analysis of the relevance factor of formed uplift recommendations is
+
+performed. In particular, how it relates to algorithm’s performance and whether its effect can be
+
+incorporated.
+
+Keywords
+
+ML, DL, RecSys, Uplift Modeling
+
+2
+
+Contents
+
+Annotation
+
+1 Introduction
+
+2 Literature review
+
+2.1 Existing approaches . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+2.2 Selected approaches . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+2.3 Related works . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+3 Problem statement
+
+3.1 Basic notations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+3.2 PropCare
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+2
+
+4
+
+5
+
+5
+
+6
+
+6
+
+7
+
+7
+
+8
+
+3.3 DLCE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+10
+
+4 Experiment setup and results
+
+4.1 Setup description . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+4.2 Results description . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+5 Conclusions and future prospects
+
+References
+
+A Appendix
+
+11
+
+11
+
+13
+
+23
+
+25
+
+29
+
+3
+
+1 Introduction
+
+Recommender systems (RecSys) have become an important part of the modern data-driven
+
+approach to service personalisation enhancement. The general formulation of the task is to recog-
+
+nize the patterns of user behavior and preferences. Then the algorithm selects the most appropriate
+
+user-item pair from the pool of available variants and provides a personalized recommendation.
+
+The interactions are updated through the feedback loop, which enhances the overall quality of
+
+algorithm’s future proposals.
+
+The implementation is usually done through either collaborative filtering or content-based
+
+methods. The former assumes that there exists a positive correlation in interactions between
+
+users with similar features. One of the most popular approaches from this field is the Matrix
+
+Factorization (MF) algorithm [13]. The latter mentioned approach is aimed at the prediction and
+
+maximization of the click-through rate by providing a user with similar items [26, 28].
+
+Each method discussed overlooks an important part that correlation does not imply cau-
+
+sation. The statement refers to the fact that the activity with an item (whether it is click, rating,
+
+purchase, etc.) might have been realised even without the algorithm’s proposal. Therefore, the
+
+introduced potential bias [9] tends to weaken the quality of results produced. Thus, a discus-
+
+sion of uplift modeling, which is a causal approach to RecSys, is needed to estimate the impact
+
+recommendations have on user actions.
+
+Through the incorporation of causality into the process, uplift modeling helps to achieve
+
+several potential benefits. To begin with, the pesonalization is enhanced as the recommendations
+
+are now characterised by greater user dedicated. In addition, the increase in efficiency is featured
+
+as the computational resources are aimed at the results with most impact. Finally, in order to
+
+capture the causality effect of recommendations, the new metrics are introduced to evaluate the
+
+success of different approaches in this field.
+
+The research on the topic was performed as a part of the group work which was to col-
+
+lectively study methods and challenges related to uplift. The current paper is aimed at the
+
+accomplishment of two goals with reference to which further theory and material will be pre-
+
+sented. First and foremost, through the implementation of selected approaches and their various
+
+modifications perform simulations to study the differences and similarities in uplift and relevance
+
+maximisation recommendations. Furhtemore, examine the opportunities to balance the tradeoff
+
+of uplift-relevance relation identified.
+
+The current paper is structured in the following way.
+
+In the following Section (2) the
+
+overview of existing methods for uplift modeling is presented with the justification of selected
+
+4
+
+methods. Then in Section (3) the mathematical formulation of the problem is described as well
+
+as the modifications proposed with the specifity of formalised goals. After this in Section (4)
+
+the description of used data and conducted experiments is presented. The Section (5) serves as
+
+the closing one formalizing the conclusions from the results obtained at the current stage and
+
+providing ideas for future development.
+
+2 Literature review
+
+The research on causality-aware RecSys emerged from the ideas of uplift modeling applica-
+
+tions. The key advantage of causal effect account is that it helps to decrease the effect of various
+
+biases (popularity, noise, etc.) [9]. Most important derivation from it in the scope of the current
+
+paper is that it provides with an opportunity to measure the effect produced recommendations
+
+have on users.
+
+2.1 Existing approaches
+
+As stated in the Section (1) one of the most renowned approaches for RecSys is MF [13].
+
+Nevertheless, its most basic version assumes that the observed data is the true preference of a user
+
+and introduces selection bias [25].
+
+The growing interest in causal RecSys [27] has provided with numerous approaches each
+
+based on different assumptions trying to eliminate potential biases. For example, one of the
+
+algorithms called CausE [2] builds upon the ideas of MF but aims to eliminate confounding factors
+
+by introducing two training datasets of large and small. The former contains observations obtained
+
+from some selected recommender policy and the latter from unbiased algorithm (e.g. random).
+
+Leveraging the multi-stage learning the approach leads to the separation of environment’s effects
+
+on user recommendations.
+
+Another approach named CausalNeighborhood [23] provides with an alternative assump-
+
+tions and uses the idea of k-nearest neighbors (kNN) to calculate the similarity of interactions
+
+between users and items. The produced ranked lists are then evaluated in terms of causal effect
+
+and final recommendations are formed.
+
+For the mentioned approaches to work the exposure data is necessary. One of the possible
+
+methods for its estimation is CJBPR [34]. This unbiased approach is aimed at the learning of
+
+user-item relevance and propensity. However, its own training requires the full data collection
+
+containing information about recommendation provision.
+
+5
+
+2.2 Selected approaches
+
+As stated in the Subsection (2.2) the most prominent challenge to exist is the provision
+
+of algorithms with exposure data and its estimation. For this reason the current paper focuses
+
+on the PropCare approach [16]. Its main advantage is that it estimates the propensity utilising
+
+user-item interactions only. In addition, alike CJBPR it also allows to estimate the probability
+
+of relevance of an item for a user. This information will be used for modifications described in
+
+Section (3) with the motivation and results presented in Section (4).
+
+Considering the causal approach for recommendations generation, the DLCE [24] algo-
+
+rithm was selected. Unlike CausE that requires two datasets and correlation influence present in
+
+CausalNeighborhood, it continues to elevate the ideas of MF calculating the causal effect directly
+
+by leveraging estimation propositions of
+
+[10, 20, 24]. Besides, the comparison of performance of
+
+DLCE to previously discussed approaches is done as a separate part of the group work.
+
+2.3 Related works
+
+With the references to selected approaches described in Subsection (2.2) the existing related
+
+papers were analysed to verify the necessity and uniqueness of the identified goal to study the
+
+relevance factor of produced recommedations.
+
+Considering the methodologies linked to PropCare, several can be discussed. One of the
+
+papers discusses an approach named "CausalX" [14] aimed at the use of LLM for increased trans-
+
+parency and debiasing of the recommendations. Despite the causal consistency enforced by the
+
+incorporation of explanations, this methodology does not directly estimate the exposure data and
+
+requires substantial computational resources. Another technique described in [11] intorduces a
+
+multifactorial bias correction with alternated gradient descent. The handling of more complex
+
+interactions comes with the need for explicit ratings data, which is usually unavailable in many
+
+real-life cases. Last related research discussed in [1] is aimed at stochastic session modeling to
+
+capture temporal dynamics. Nevertheless, its narrow scope causes dependence on time lengths
+
+and limited scalability.
+
+The collection of related researches for DLCE is more extensive and can be classified into
+
+a number of discussed fields. The first one is connected to the topic of causal inference techniques
+
+[17, 30, 31] with various studies in modeling of causal graphs [32] to capture more complex
+
+relationships or exploration of more consistent estimators [21]. The increase in robustness is
+
+obtained with increased complexity in implementation and computation and greater reliance on
+
+data specifity. The goal of alternative debiasing is discussed by [12, 22] or solved through neural
+
+6
+
+networks leverage [7] which both risk overfitting. Studies in unlearning biased user preferences
+
+[8, 33] or increase of algorithm’s fairness in recommendations proposal [4, 6] have narrow causal
+
+scope. Other researches like targeting specific niches (e.g. news [18], cloud services [5]), using
+
+knowledge distillation techniques [3] and simulating counterfactual scenarios [29] are prone to
+
+have dependencies from contextual data, loss of causal interpretability and training instabilities.
+
+All the mentioned works highlight the DLCE benefit as an introductory universal framework for
+
+uplift-specific challenges exploration.
+
+3 Problem statement
+
+3.1 Basic notations
+
+For the purpose of inutitive explanation provision alongside the mathematical formulation
+
+of the selected approaches described in Subsection (2.2), Table 3.1 contains basic notations that
+
+will be used to provide further interpretations.
+
+Notation
+
+Definition
+
+u ∈ {1, ..., U }
+
+specific user from a set of users
+
+Xu
+
+feature vector of user u
+
+i ∈ {1, ..., I}
+
+specific item from a set of items
+
+Xi
+
+popi
+
+XF
+
+feature vector of item i
+
+popularity of item i
+
+feature vector of frequency interactions (users-items)
+
+XF (u), XF (i)
+
+feature vector of frequency interactions (user-items or users-item)
+
+Zu,i ∈ {0, 1}
+
+pu,i ∈ [0, 1]
+
+Y T
+u,i ∈ {0, 1}
+
+Y C
+u,i ∈ {0, 1}
+
+Yu,i
+
+indication whether user u was recommended with item i / belongingness to the
+
+treatment group
+
+probability that user u was recommended with item i / propensity
+
+outcome from the interaction of user u with item i under treatment group
+
+outcome from the interaction of user u with item i under control group
+
+outcome (rating, purchase, etc.)
+
+from the interaction of user u with item i
+
+(Zu,iY T
+
+u,i + (1 − Zu,i)Y C
+u,i)
+
+Ru,i ∈ {0, 1}
+
+indication wherher item i is relevant for user u
+
+ru,i ∈ {0, 1}
+
+probability that item i is relevant for user u
+
+Table 3.1: Basic notations used in the paper
+
+7
+
+Refering to the introduced notations, the first definition that is necessary to be presented
+
+is how the causal effect is formulated and measured. It is defined as [20]
+
+τu,i = Y T
+
+u,i − Y C
+u,i.
+
+(1)
+
+Due to the binary nature of outcomes τ ∈ {−1, 0, 1}. The trivial case is described by the τ = 0
+
+concluding that with or without the recommendation the item is not appealing for the user.
+
+In the case of a positive effect (τ = 1) models’ suggestion boosted user’s interest in the item
+
+which wouldn’t be possible without it. The opposite situation of τ = −1 suggests that the
+
+recommendation prevented user-item interaction appearance. However, the counterfactual nature
+
+of causal effect prevents from computing it directly. For this reason the inverse propensity score
+
+(IPS) estimator [10, 24] is introduced defined as
+
+ˆτu,i =
+
+Zu,iYu,i
+pu,i
+
+−
+
+(1 − Zu,i)Yu,i
+(1 − pu,i)
+
+,
+
+(2)
+
+where the first and second term are weighted to balance the distribution of underrepresented
+
+treatment assignments thus eliminating the bias introduced.
+
+Another important relation [19] to be formalised and used in the definition for PropCare
+
+method is defined by the following equation
+
+yu,i = pu,iru,i,
+
+(3)
+
+where yu,i = P (Yu,i = 1) is the probability of interaction between the user u and item i and
+
+ru,i = P (Ru,i = 1) is the probability that item i is relevant for user u.
+
+3.2 PropCare
+
+For the convenience of step-by-step explanation let’s formalize the mathematical problem
+
+for the PropCare algorithm first. Its final loss function is constructed with several separate ones.
+
+The fisrt component is defined as
+
+Lnave = −Yu,i log(fp(xu,i; θp)fr(xu,i; θr)) − (1 − Yu,i) log(1 − fp(xu,i; θp)fr(xu,i; θr)),
+
+(4)
+
+where xu,i = fe(Xu, Xi; θe) is the user-item embedding; f∗ is trainable MLP with corresponding
+
+vector of weights θ∗ for either user, propensity or relevance embedding. The intuition behind this
+
+term is to reflect the binary cross-entropy relation with the eq. (3). However, the multiplication
+
+8
+
+of propensity and relevance respective output embeddings prevents from differentiation of their
+
+individual effects. Thus, the validated approach of popularity introduction [16] helps to formulate
+
+the second term defined as following
+
+Lpop = −κu,i,j log(σ(sgni,j · (fp(xu,i) − fp(xu,j))) + σ(sgni,j · (fr(xu,i) − fr(xu,j)))),
+
+(5)
+
+where κu,i,j = eψ(yu,i−yu,j ) for hyperparameter ψ < 0 is a weighting function, σ is the sigmoid
+
+activation function, sgni,j ∈ {−1, 1} is the sign of (popi − popj). The two functions are used to
+
+produce the final form of PropCare loss defined as
+
+LP ropCare =
+
+(cid:88)
+
+u,i,j
+
+(Lnave + λLpop) + µKL(Q||Beta(α, β)),
+
+(6)
+
+where KL(·||·) is the Kullback-Leibler divergence between the distribution of estimated ˆpu,i re-
+
+treived from Q and the beta distribution with hyperparameters α and β; λ and µ are hyperpa-
+
+rameters balancing the influence of popularity and regularization. The loss function is minimized
+to obtain the estimated propensities ˆpu,i and predict ˆZu,i through Norm(ˆpu,i) ≥ ϵ with ϵ being a
+
+threshold parameter and Norm a Z−score normalization function.
+
+Considering the modifications introduced to the final loss of PropCare represented by the
+
+eq.(6), it was transformed and formalised as
+
+LM od
+
+P ropCare = LP ropCare + λ2Lprop + λ3Lrel + νKL(W ||Beta(α, β)),
+
+(7)
+
+where Lprop, Lrel are binary cross-entropy functions for greater separation of influence derived for
+
+more precise estimation of propensity and relevance respectively (these two additional terms were
+
+realised and incorporated into the discussed modification by another member of the group work);
+
+KL(·||·) is the Kullback-Leibler divergence between the distribution of estimated ˆru,i retreived
+
+from W and the beta distribution with hyperparameters α and β; λ2, λ3, ν are hyperparameters
+
+controlling the influence of different terms. The addition of the second KL divergence regulariza-
+
+tion term was done in order to fight the distribution of relevance obtained from the realisation
+
+of the initial PropCare algorithm which resembled a distribution with values concentrated either
+
+around 0 or 1. The reasoning and results obtained from training of this algorithm are presented
+
+in Subsection (4.2).
+
+9
+
+3.3 DLCE
+
+After the propensities are trained and exposure data is estimated it is passed to the DLCE
+
+algorithm to produce recommendations. For each pair of item i and user u the score is estimated
+
+defined as
+
+ˆsu,i = fM (Xu, Xi; θM ),
+
+(8)
+
+where fM (∗) is a trainable MLP. Items are then sorted by ˆsu,i for each user and ranked producing
+
+a vector r(ˆsu,i). From eq. (8) the average metric function is derived presented as
+
+R(M ) =
+
+1
+U I
+
+(cid:88)
+
+(cid:88)
+
+u
+
+i
+
+λ(r(ˆsu,i))τu,i,
+
+(9)
+
+where λ(r(ˆsu,i)) = λu,i = −r(ˆsu,i) is a weighting function and M denotes model. From it the
+
+empirical risk minimization (ERM) function becomes argmin M (−R(M )) containing the counter-
+
+factual parameter τ . By substituting it with IPS estimation from eq. (2) and introducing capping
+
+for propensity deviation constraint [24], the capped IPS version is derived as
+
+RCIP S(M ) = λu,i(
+
+Zu,iYu,i
+max(pu,i, χT )
+
+−
+
+(1 − Zu,i)Yu,i
+max((1 − pu,i), χC)
+
+) = λu,i˜τu,i,
+
+(10)
+
+where χT , χC are capping parameters bounding the denominators.
+
+The final step is to estimate the weightning function λu,i, otherwise called as causal average
+
+rank (CAR). To perform it the local loss is introduced as
+
+δu,i = −λu,i˜τu,i = r(ˆsu,i)˜τu,i,
+
+(11)
+
+where r(ˆsu,i) = (1+(cid:80)
+
+j̸=i 1(ˆsu,j > ˆsu,i)). By introducing the approximation of the non-differentiable
+
+indicator function [15] and applying some transformational changes the final loss is describes as
+
+δu,i = r(ˆsu,i)˜τu,i
+
+u,i − (I − r(ˆsu,i)) ˜Y C
+
+u,i − I ˜Y C
+
+u,i
+Zu,iYu,i
+max(pu,i, χT )
+
+log(1 + exp(−ωˆsu,i,j)))
+
+−
+
+(12)
+
+log(1 + exp(ωˆsu,i,j)))
+
+(1 − Zu,i)Yu,i
+max((1 − pu,i), χC)
+
+= r(ˆsu,i) ˜Y T
+(cid:88)
+
+≤ (
+
+j̸=i
+
+(cid:88)
+
+− (
+
+j̸=i
+
+= LDLCE,
+
+where I = 1 + (cid:80)
+
+j̸=i 1(ˆsu,j > ˆsu,i) + (cid:80)
+
+j̸=i 1(ˆsu,i > ˆsu,j); ˆsu,i,j = ˆsu,i − ˆsu,j; ω is a hyperparameter
+
+10
+
+for approximation. The obtained loss function is then used to produce the ranking and provide
+
+recommendations for the user based on it.
+
+Considering the modifications introduced to the DLCE, there were two major transfor-
+
+mations applied. The first one is the altered loss function represented by the eq.(12) which was
+
+formalised as
+
+DLCE = ˆr(ˆsu,i)˜τ ′
+LM od
+
+u,i
+
+= ˆr(ˆsu,i)(˜τu,i + ϕ˜τ rel
+u,i )
+
+= ˆr(ˆsu,i)(˜τu,i + ϕ(
+
+Ru,iYu,i
+max(ru,i, χT )
+
+−
+
+(1 − Ru,i)Yu,i
+max((1 − ru,i), χC)
+
+)),
+
+(13)
+
+where ˜τ rel
+
+u,i measures ITE of item i relevance on the user u and ϕ regulates the effect it has on the
+
+total loss. The second modification done with the rank prediction of recommendation suggests
+
+to incorporate the frequency of user-item positive interactions based on history. Three different
+
+variants of such transformations are represented as
+
+ˆsF
+u,i = fM (Xu, Xi; θM ) + XF ,
+
+ˆsF U
+u,i = fM (Xu + XF (u), Xi; θM ),
+
+ˆsF I
+u,i = fM (Xu, Xi + XF (i); θM ) + XF
+
+(14)
+
+The results obtained from training of this algorithm and its modifications are presented and
+
+discussed in Subsection (4.2).
+
+4 Experiment setup and results
+
+4.1 Setup description
+
+For the evaluation of PropCare and DLCE of their base and modified versions two datasets
+
+were used. The first one is DunnHumby "The Complete Journey"1. The data contains information
+
+about purchases of 2500 users and promotional logs at a physical retailer for 93 weeks. Information
+
+is used to generate synthetic data of two types [23, 24]. The first version named DHoriginal utilises
+
+the empirical estimate of propensity dividing the number of times a user bought an item during
+the weekly mailer ((cid:80)
+
+t 1(Yu,i,t = 1)) that recommended the particular item by the total number
+
+1https://www.dunnhumby.com/careers/engineering/sourcefiles
+
+11
+
+of users purchases. The second DHpersonalised was generated using the setting as following
+
+pu,i = min(1, α(
+
+1
+rank
+
+)β),
+
+(15)
+
+where rank is the order in which item for user was placed in terms of purchase probability P (Yu,i =
+
+1). In addition to the initial preprocessing during the research the titles of items and their average
+
+prices were retrieved that were lost in the beginning.
+
+The data was generated both for one week [24] and for ten weeks [23]. The results presented
+
+in Subsection (4.2) in will be displayed only for the former generation. However, for the frequency
+
+information retrieval, the latter dataset was used as well. Also, the division of products based on
+
+category was selected. This was done due to the fact that in order to evaluate the results and
+
+investigate relevance influence the data requiring less training time was chosen.
+
+The second dataset is based on "FINN.no Slate Dataset for Recommender Systems"2. The
+
+dataset contains information about users interaction with marketplace products both based on
+
+their own search or recommendation. Such variant was chosen to mitigate the effect of synthetic
+
+generation and make possible to compare different methods on real information. However, much
+
+smaller size of the dataset made must be taken into account and will be addressed further.
+
+The basic princpiples of the training that comprises both exposure data estimation and
+
+recommendation generation is described by the Algorithm 1. The base realisation of DLCE was
+
+taken from the files that are attached to [24]. The base realisation of PropCare algorithm was taken
+
+from open GitHub repository3 performed by Zhongzhou Liu. The code was modified and corrected
+
+with some inaccuracies relating to the description in [16] and overall mistakes noticed. In addition,
+
+some of the hyperparameters were changed. The code is stored at the GitHub repository4.
+
+Two sets of metrics were selected for evaluation. The first one consists of recall, precision
+
+and NDCG versions calculated for the first top 10 ranked generated suggestions:
+
+NDCG@k =
+
+DCG@k
+IDCG@k
+
+=
+
+(cid:80)
+u
+
+(cid:80)krank
+i=1
+
+(cid:80)
+
+(cid:80)kideal
+i=1
+
+u
+
+Yu,i
+log2 i + 1
+Yu,i
+log2 i + 1
+
+,
+
+Recall @k =
+
+Precision@k =
+
+(cid:80)
+u
+(cid:80)
+u
+(cid:80)k
+
+(cid:80)k
+i=1 Yu,i
+(cid:80)
+i Yu,i
+i=1 Yu,i
+k
+
+(cid:80)
+u
+
+,
+
+.
+
+2https://github.com/finn-no/recsys_slates_dataset
+3https://github.com/mediumboat/PropCare/tree/main
+4https://github.com/RomanGorelsky/Uplift-Modelling-in-Recommender-Systems
+
+12
+
+Such metrics were chosen as they measure standard performance without uplift. The causal effect
+
+is evaluated differently for two datasets, as only DunnHumby possesses the semi-synthesized causal
+
+effect values. They are formalised as following:
+
+CP @k =
+
+CDCG =
+
+1
+U
+
+1
+U
+
+(cid:88)
+
+(cid:88)
+
+u
+(cid:88)
+
+i
+(cid:88)
+
+u
+
+i
+
+1(rank u(ˆsu,i ≤ k))τu,i
+k
+
+τu,i
+log2(1 + rank u(ˆsu,i))
+
+Uplift@k =
+
+Weighted Average Uplift =
+
+(cid:80)
+
+i Y T
+i
+k
+
+−
+
+(cid:80)
+
+i Y C
+i
+k
+
+(cid:80)
+
+k nT
+k Uplift@k
+(cid:80)
+k nT
+k
+
+.
+
+The left part denotes metrics used with DunnHumby aimed at measuring the reward coming
+
+from the ranking of items in the first top-k list of recommendations that have positive effect on
+
+user-item interaction. The right ones help to evaluate causal performance in the Finn.no setting.
+
+To conclude, the comparison in metrics of Algorithm 1 and its modifications was done
+
+with the recommendation ranking based on the probability of relevance produced by PropCare
+
+(row "Relevance (R)") and two baselines ranking based on popularity and its modified version
+
+named personal popularity calculated the train dataset (rows "Popularity (P)" and "Personal
+
+Popular (PP)"). The relevance sorting is not utilised in Finn.no setting as it doesn’t require to
+
+estimate propensity values and is rather used to verify the conclusions made based on results from
+
+DunnHumby.
+
+4.2 Results description
+
+The selected approaches were realised in their initial form and their performance was firstly
+
+measured on two semi-synthesised DunnHumby datasets. Tables 4.1 and 4.2 depict the results
+
+obtained after training both PropCare and DLCE 3 consecutive times.
+
+Discussing the DHoriginal setting with emprical estimation of the causal effect, several things
+
+can be noticed. First of all, the performance of non-modified version of DLCE is worse than the
+
+baseline of popularity ranking. The assumption for this part is that such an outcome is dictated
+
+by the approach of data generation in DHoriginal. In addition, a clear conclusion that personal
+
+popularity model outperformed all other rankings. Nevertheless, it can also be noticed that DLCE
+
+(ˆsF
+
+u,i) version results are quite similar (even better for CP@10) and exceed the basic popularity
+
+ones. Finally, relevance sorting displays worse results among all approaches.
+
+13
+
+Table 4.1: Metrics with LP ropCare on DHoriginal (Mean ± Std. Error)
+
+Method
+
+NDCG@10
+
+Recall@10
+
+Precision@10
+
+Relevance (R)
+
+0.0014 ± 0.0005
+
+0.0010 ± 0.0003
+
+0.0013 ± 0.0005
+
+Popularity (P)
+
+0.2223 ± 0.0
+
+0.1202 ± 0.0
+
+0.1755 ± 0.0
+
+Personal Popular (PP)
+
+0.2477 ± 0.0
+
+0.1395 ± 0.0
+
+0.2049 ± 0.0
+
+DLCE (ˆsu,i)
+DLCE (ˆsF
+
+u,i)
+DLCE (ˆsF I
+u,i)
+DLCE (ˆsF U
+u,i )
+
+0.1952 ± 0.0046
+
+0.1106 ± 0.0018
+
+0.1631 ± 0.0024
+
+0.2434 ± 0.0013
+
+0.1365 ± 0.0010
+
+0.2011 ± 0.0016
+
+0.1148 ± 0.0215
+
+0.0678 ± 0.0113
+
+0.0981 ± 0.0175
+
+0.0960 ± 0.0183
+
+0.0545 ± 0.0100
+
+0.0826 ± 0.0149
+
+Method
+
+CP@10
+
+CP@100
+
+CDCG
+
+Relevance (R)
+
+Popularity (P)
+
+0.0022 ± 0.0003
+
+0.0024 ± 0.0003
+
+0.6677 ± 0.0021
+
+0.0293 ± 0.0
+
+0.0155 ± 0.0
+
+0.9251 ± 0.0
+
+Personal Popular (PP)
+
+0.0315 ± 0.0
+
+0.0164 ± 0.0
+
+0.9396 ± 0.0
+
+DLCE (ˆsu,i)
+DLCE (ˆsF
+
+u,i)
+DLCE (ˆsF I
+u,i)
+DLCE (ˆsF U
+u,i )
+
+0.0284 ± 0.0014
+
+0.0147 ± 0.0006
+
+0.8928 ± 0.0097
+
+0.0349 ± 0.0001
+
+0.0158 ± 0.0002
+
+0.9187 ± 0.0069
+
+0.0167 ± 0.0018
+
+0.0112 ± 0.0005
+
+0.8185 ± 0.0123
+
+0.0155 ± 0.0029
+
+0.0108 ± 0.0009
+
+0.8155 ± 0.0158
+
+For the DHpersonalised case the situation differs quite substantially. To begin with, the
+
+statistics for base DLCE version are enhanced compared to popularity in the case of causal metrics.
+
+Furthermore, personal popularity approach once again dominates across all metrics. But for this
+
+case the values for DLCE (ˆsF
+
+u,i) differ quite a lot. Considering relevance scores, they again remain
+
+low.
+
+Table 4.2: Metrics with LP ropCare on DHpersonalised (Mean ± Std. Error)
+
+Method
+
+NDCG@10
+
+Recall@10
+
+Prec@10
+
+Relevance (R)
+
+0.0012 ± 0.0004
+
+0.0008 ± 0.0001
+
+0.0012 ± 0.0002
+
+Popularity (P)
+
+0.2316 ± 0.0
+
+0.1150 ± 0.0
+
+0.1870 ± 0.0
+
+Personal Popular (PP)
+
+0.3431 ± 0.0
+
+0.1826 ± 0.0
+
+0.2938 ± 0.0
+
+DLCE (ˆsu,i)
+DLCE (ˆsF
+
+u,i)
+DLCE (ˆsF I
+u,i)
+DLCE (ˆsF U
+u,i )
+
+0.1816 ± 0.0004
+
+0.1052 ± 0.0010
+
+0.1699 ± 0.0012
+
+0.2892 ± 0.0014
+
+0.1495 ± 0.0008
+
+0.2449 ± 0.0013
+
+0.1400 ± 0.0270
+
+0.0764 ± 0.0138
+
+0.1228 ± 0.0225
+
+0.1602 ± 0.0026
+
+0.0819 ± 0.0046
+
+0.1361 ± 0.0066
+
+Method
+
+CP@10
+
+CP@100
+
+CDCG
+
+Relevance (R)
+
+0.0015 ± 0.0002
+
+0.0019 ± 0.0002
+
+0.6128 ± 0.0018
+
+Popularity (P)
+
+0.0275 ± 0.0
+
+0.0157 ± 0.0
+
+0.8646 ± 0.0
+
+Personal Popular (PP)
+
+0.1387 ± 0.0
+
+0.0392 ± 0.0
+
+1.4728 ± 0.0
+
+DLCE (ˆsu,i)
+DLCE (ˆsF
+
+u,i)
+DLCE (ˆsF I
+u,i)
+DLCE (ˆsF U
+u,i )
+
+0.0569 ± 0.0003
+
+0.0172 ± 0.0002
+
+0.9438 ± 0.0018
+
+0.0959 ± 0.0003
+
+0.0271 ± 0.0001
+
+1.2195 ± 0.0003
+
+0.0407 ± 0.0113
+
+0.0127 ± 0.0032
+
+0.8616 ± 0.0701
+
+0.0657 ± 0.0090
+
+0.0144 ± 0.0012
+
+0.9889 ± 0.0340
+
+14
+
+For the purpose of uplift-relevance relationship study, statistics for all discussed cases were
+
+collected to investigate changing dynamics and improvements. To be clear, the comparison was
+
+done between the DLCE rankings from (ˆsu,i), DLCE (ˆsF
+
+u,i) and personal popular prediction ap-
+
+proaches and the relevance estimates received by the PropCare. Thus, results are prone to deviate
+
+and complex study with multiple metrics is needed.
+
+For this reason the ranking approaches were studied through the analysis of average rank
+
+differences, Kendall tau correlation coefficient calculation and top-k overlap scores comparison. In
+
+the case of relevance estimates with LP ropCare the statistics are depicted in the Tables 4.3 and 4.4.
+
+Table 4.3: Comparison on DHoriginal with LP ropCare
+
+Method
+
+Avg. Rank Diff. Kendall Tau Top 10 Overlap Top 100 Overlap
+
+DLCE (ˆsu,i)
+DLCE (ˆsF
+
+u,i)
+Personal Popular (PP)
+
+486.4081
+
+495.9260
+
+674.2838
+
+-0.0255
+
+-0.0256
+
+-0.0300
+
+0.000000
+
+0.000087
+
+0.001732
+
+0.000030
+
+0.000260
+
+0.007371
+
+Table 4.4: Comparison on DHpersonalised with LP ropCare
+
+Method
+
+Avg. Rank Diff. Kendall Tau Top 10 Overlap Top 100 Overlap
+
+DLCE (ˆsu,i)
+DLCE (ˆsF
+
+u,i)
+Personal Popular (PP)
+
+498.1515
+
+503.2412
+
+667.7532
+
+-0.0776
+
+-0.0776
+
+-0.0782
+
+0.000000
+
+0.000087
+
+0.001732
+
+0.000013
+
+0.000329
+
+0.009593
+
+For both settings it can be observed the situation that there is negative relationship between
+
+all approaches and relevance ranking. This is also supported by the fact that produced recommen-
+
+dation lists overlap quite rarely in first 10 items with only personal popular methodology yielding
+
+at least noticeable non-zero results.
+
+After the completion of the base models implementation and their evaluation it was noticed
+
+that the distribution of estimated relevance probabilities for recommended items derived from
+
+PropCare was subject to concentration either around 0 or 0.8 (as it was scaled by this value). The
+
+example of such effect is depicted on the Figure 4.1. Thus, it was decided to make modifications
+
+to the basic PropCare loss function in eq. (6) described in Subsection (3.2).
+
+15
+
+Figure 4.1: Distribution of ˆru,i with LP ropCare for DHoriginal (left) and DHpersonalised (right)
+
+The introduced terms in eq. (7) are aimed both at greater regularization of parameters and
+
+more efficient separation of effects propensity and relevance have on the outcome. Considering
+
+the parameters λ2 and λ3 were set to 0.1 and ν was set equal to µ. The new simulations were
+
+performed with the effect modifications implementation brought on relevance estimation depicted
+
+on Figure 4.2. The dispersion of the right-hand peak denotes more accurate and diverse values
+
+for ˆru,i
+
+Figure 4.2: Distribution of ˆru,i with LM od
+
+P ropCare for DHoriginal (left) and DHpersonalised (right)
+
+New simulations performed to study the effect of modifications on metrics for all ranking
+
+approaches. The results are contained in Tables 4.5 and 4.6.
+
+Considering the DHoriginal setting, the results are to be analysed from different perspec-
+
+tives. First and foremost, it can be observed that the relevance metrics improved suggesting that
+
+LM od
+
+P ropCare tends to produce more accurate estimates. However, it must be mentioned that stan-
+
+dard deviation increased as well which affects the stability of algorithm. In the meantime, DLCE
+
+results depict changes that are similar to standard deviation recorded in Table 4.1. Thus, the
+
+16
+
+introduced changes do not negatively alter the statistics in the discussed settings for the models
+
+reinforcing their idea.
+
+Table 4.5: Metrics with LM od
+
+P ropCare on DHoriginal (Mean ± Std. Error)
+
+Method
+
+NDCG@10
+
+Recall@10
+
+Precision@10
+
+Relevance (R)
+
+0.0117 ± 0.0008
+
+0.0072 ± 0.0007
+
+0.0109 ± 0.0011
+
+Popularity (P)
+
+0.2223 ± 0.0
+
+0.1202 ± 0.0
+
+0.1755 ± 0.0
+
+Personal Popular (PP)
+
+0.2477 ± 0.0
+
+0.1395 ± 0.0
+
+0.2049 ± 0.0
+
+DLCE (ˆsu,i)
+DLCE (ˆsF
+
+u,i)
+DLCE (ˆsF I
+u,i)
+DLCE (ˆsF U
+u,i )
+
+0.1982 ± 0.0017
+
+0.1097 ± 0.0005
+
+0.1618 ± 0.0008
+
+0.2455 ± 0.0006
+
+0.1381 ± 0.0004
+
+0.2035 ± 0.0006
+
+0.1533 ± 0.0313
+
+0.0887 ± 0.0164
+
+0.1292 ± 0.0243
+
+0.1272 ± 0.0476
+
+0.0741 ± 0.0274
+
+0.1112 ± 0.0389
+
+Method
+
+CP@10
+
+CP@100
+
+CDCG
+
+Relevance (R)
+
+Popularity (P)
+
+0.0130 ± 0.0038
+
+0.0045 ± 0.0006
+
+0.7492 ± 0.0216
+
+0.0293 ± 0.0
+
+0.0155 ± 0.0
+
+0.9251 ± 0.0
+
+Personal Popular (PP)
+
+0.0315 ± 0.0
+
+0.0164 ± 0.0
+
+0.9396 ± 0.0
+
+DLCE (ˆsu,i)
+DLCE (ˆsF
+
+u,i)
+DLCE (ˆsF I
+u,i)
+DLCE (ˆsF U
+u,i )
+
+0.0289 ± 0.0016
+
+0.0143 ± 0.0007
+
+0.9042 ± 0.0028
+
+0.0328 ± 0.0006
+
+0.0161 ± 0.0004
+
+0.9254 ± 0.0048
+
+0.0230 ± 0.0022
+
+0.0133 ± 0.0013
+
+0.8644 ± 0.0173
+
+0.0197 ± 0.0042
+
+0.0126 ± 0.0015
+
+0.8475 ± 0.0321
+
+For the DHpersonalised case conclusions are similar for the relevance case. However, it can
+
+also be observed that results for DLCE in the causal metrics improved quite significantly with the
+
+values of standard ones remaining in acceptable range.
+
+Table 4.6: Metrics with LM od
+
+P ropCare on DHpersonalised (Mean ± Std. Error)
+
+Method
+
+NDCG@10
+
+Recall@10
+
+Precision@10
+
+Relevance (R)
+
+0.0145 ± 0.0032
+
+0.0090 ± 0.0014
+
+0.0146 ± 0.0022
+
+Popularity (P)
+
+0.2316 ± 0.0
+
+0.1150 ± 0.0
+
+0.1870 ± 0.0
+
+Personal Popular (PP)
+
+0.3431 ± 0.0
+
+0.1826 ± 0.0
+
+0.2938 ± 0.0
+
+DLCE (ˆsu,i)
+DLCE (ˆsF
+
+u,i)
+DLCE (ˆsF I
+u,i)
+DLCE (ˆsF U
+u,i )
+
+0.1800 ± 0.0023
+
+0.1042 ± 0.0010
+
+0.1686 ± 0.0018
+
+0.2946 ± 0.0028
+
+0.1513 ± 0.0016
+
+0.2480 ± 0.0023
+
+0.1582 ± 0.0100
+
+0.0859 ± 0.0053
+
+0.1377 ± 0.0084
+
+0.1843 ± 0.0215
+
+0.0990 ± 0.0140
+
+0.1626 ± 0.0221
+
+Method
+
+CP@10
+
+CP@100
+
+CDCG
+
+Relevance (R)
+
+0.0049 ± 0.0024
+
+0.0044 ± 0.0008
+
+0.6613 ± 0.0135
+
+Popularity (P)
+
+0.0275 ± 0.0
+
+0.0157 ± 0.0
+
+0.8646 ± 0.0
+
+Personal Popular (PP)
+
+0.1387 ± 0.0
+
+0.0392 ± 0.0
+
+1.4728 ± 0.0
+
+DLCE (ˆsu,i)
+DLCE (ˆsF
+
+u,i)
+DLCE (ˆsF I
+u,i)
+DLCE (ˆsF U
+u,i )
+
+0.0591 ± 0.0010
+
+0.0185 ± 0.0003
+
+0.9572 ± 0.0048
+
+0.1030 ± 0.0027
+
+0.0294 ± 0.0003
+
+1.2695 ± 0.0084
+
+0.0513 ± 0.0040
+
+0.0165 ± 0.0015
+
+0.9302 ± 0.0284
+
+0.0700 ± 0.0086
+
+0.0175 ± 0.0021
+
+1.0161 ± 0.0477
+
+17
+
+Concluding the results for the simulations with LM od
+
+P ropCare, exploration of changes in uplift-
+
+relevance relationship is performed. The results contained in Tables 4.7 and 4.8. The statistics
+
+show a considerable increase across all metrics and denotes a positive association between relevance
+
+and studied approaches rankings.
+
+Table 4.7: Comparison on DHoriginal with LM od
+
+P ropCare
+
+Method
+
+Avg. Rank Diff. Kendall Tau Top 10 Overlap Top 100 Overlap
+
+DLCE (ˆsu,i)
+DLCE (ˆsF
+
+u,i)
+Personal Popular (PP)
+
+354.0053
+
+359.7100
+
+494.1870
+
+0.2345
+
+0.2345
+
+0.2344
+
+0.008012
+
+0.009225
+
+0.009441
+
+0.121360
+
+0.121828
+
+0.112663
+
+Table 4.8: Comparison on DHpersonalised with LM od
+
+P ropCare
+
+Method
+
+Avg. Rank Diff. Kendall Tau Top 10 Overlap Top 100 Overlap
+
+DLCE (ˆsu,i)
+DLCE (ˆsF
+
+u,i)
+Personal Popular (PP)
+
+414.7630
+
+418.0750
+
+542.6320
+
+0.1269
+
+0.1269
+
+0.1268
+
+0.011000
+
+0.013339
+
+0.012776
+
+0.060788
+
+0.059450
+
+0.055071
+
+Due to the availability of more diversified estimates of relevance probability the idea of
+
+Ru,i evaluation and usage similar to Zu,i through IPS was derived. The intuition is that apart
+
+from measuring the causal effect the model should also take into account the treatment effect
+
+coming from the item’s relevance. However, the abscence of its true values stimulate the metrics
+collection for various values of ϕ from eq. (13) and the threshold parameter for N orm(ˆru,i) ≥ ϵ′.
+
+Such simulations were performed only once on validation dataset for different combinations of
+
+hyperparameters and their statistics were recorded and reflected in Tables A.1 and A.2 for both
+
+settings. This was done as the first step to initialise the trends and select variants yielding best
+
+results.
+
+Regarding the former results, the variant with ϕ = 0.1 and ϵ′ = 0.5 should be chosen as it
+
+produces higher results in five out of six metrics. It can be noticed that with the increase of ˜τ ′
+u,i
+
+weight in the loss function the performance worsens.
+
+For the chosen hyperparameters in the case of DHoriginal the performance was recorded
+
+and its results are represented by Table 4.9. For the DLCE (ˆsu,i) approach the metrics signifi-
+
+cantly decreased. However, DLCE (ˆsF
+
+u,i) yields around the same statistics showing more stable
+
+performance overall.
+
+18
+
+Table 4.9: Metrics with LM od
+
+P ropCare and LM od
+
+DLCE on DHoriginal (Mean ± Std. Error)
+
+Method
+
+NDCG@10
+
+Recall@10
+
+Precision@10
+
+Relevance (R)
+
+0.0237 ± 0.0144
+
+0.0106 ± 0.0041
+
+0.0159 ± 0.0062
+
+Popularity (P)
+
+0.2223 ± 0.0
+
+0.1202 ± 0.0
+
+0.1755 ± 0.0
+
+Personal Popular (PP)
+
+0.2477 ± 0.0
+
+0.1395 ± 0.0
+
+0.2049 ± 0.0
+
+DLCE (ˆsu,i)
+DLCE (ˆsF
+
+u,i)
+DLCE (ˆsF I
+u,i)
+DLCE (ˆsF U
+u,i )
+
+0.1693 ± 0.0175
+
+0.0961 ± 0.0030
+
+0.1408 ± 0.0044
+
+0.2436 ± 0.0010
+
+0.1371 ± 0.0004
+
+0.2019 ± 0.0006
+
+0.1188 ± 0.0298
+
+0.0693 ± 0.0161
+
+0.1012 ± 0.0242
+
+0.0877 ± 0.0226
+
+0.0506 ± 0.0125
+
+0.0771 ± 0.0195
+
+Method
+
+CP@10
+
+CP@100
+
+CDCG
+
+Relevance (R)
+
+Popularity (P)
+
+0.0071 ± 0.0028
+
+0.0044 ± 0.0008
+
+0.7247 ± 0.0140
+
+0.0293 ± 0.0
+
+0.0155 ± 0.0
+
+0.9251 ± 0.0
+
+Personal Popular (PP)
+
+0.0315 ± 0.0
+
+0.0164 ± 0.0
+
+0.9396 ± 0.0
+
+DLCE (ˆsu,i)
+DLCE (ˆsF
+
+u,i)
+DLCE (ˆsF I
+u,i)
+DLCE (ˆsF U
+u,i )
+
+0.0223 ± 0.0039
+
+0.0135 ± 0.0001
+
+0.8915 ± 0.0147
+
+0.0327 ± 0.0012
+
+0.0162 ± 0.0001
+
+0.9269 ± 0.0033
+
+0.0184 ± 0.0066
+
+0.0115 ± 0.0012
+
+0.8413 ± 0.0360
+
+0.0159 ± 0.0049
+
+0.0118 ± 0.0012
+
+0.8286 ± 0.0282
+
+The results of the simulations done for DHpersonalised depict that parameters ϕ = 0.1 and
+ϵ′ = 0.6 should be picked as they dominate in 3 out of 6 cases. Similar to previous case, parameter
+
+ϕ negatively correlates with performance overall.
+
+Simulations results from Table 4.10 are similar to DHoriginal setting in the scope of DLCE
+
+(ˆsu,i) (except for improved CDCG). However, in relation to DLCE (ˆsF
+
+u,i), its results improved
+
+noticeably providing with better and closer performance to personal popular.
+
+Table 4.10: Metrics with LM od
+
+P ropCare and LM od
+
+DLCE on DHpersonalised (Mean ± Std. Error)
+
+Method
+
+NDCG@10
+
+Recall@10
+
+Precision@10
+
+Relevance (R)
+
+0.0172 ± 0.0014
+
+0.0094 ± 0.0012
+
+0.0154 ± 0.0024
+
+Popularity (P)
+
+0.2316 ± 0.0
+
+0.1150 ± 0.0
+
+0.1870 ± 0.0
+
+Personal Popular (PP)
+
+0.3431 ± 0.0
+
+0.1826 ± 0.0
+
+0.2938 ± 0.0
+
+DLCE (ˆsu,i)
+DLCE (ˆsF
+
+u,i)
+DLCE (ˆsF I
+u,i)
+DLCE (ˆsF U
+u,i )
+
+0.1642 ± 0.0119
+
+0.0964 ± 0.0037
+
+0.1544 ± 0.0063
+
+0.3028 ± 0.0027
+
+0.1584 ± 0.0011
+
+0.2575 ± 0.0022
+
+0.1654 ± 0.0035
+
+0.0884 ± 0.0019
+
+0.1441 ± 0.0030
+
+0.1815 ± 0.0129
+
+0.0934 ± 0.0055
+
+0.1552 ± 0.0095
+
+Method
+
+CP@10
+
+CP@100
+
+CDCG
+
+Relevance (R)
+
+0.0084 ± 0.0012
+
+0.0041 ± 0.0005
+
+0.6814 ± 0.0159
+
+Popularity (P)
+
+0.0275 ± 0.0
+
+0.0157 ± 0.0
+
+0.8646 ± 0.0
+
+Personal Popular (PP)
+
+0.1387 ± 0.0
+
+0.0392 ± 0.0
+
+1.4728 ± 0.0
+
+DLCE (ˆsu,i)
+DLCE (ˆsF
+
+u,i)
+DLCE (ˆsF I
+u,i)
+DLCE (ˆsF U
+u,i )
+
+0.0617 ± 0.0037
+
+0.0172 ± 0.0004
+
+0.9648 ± 0.0162
+
+0.1151 ± 0.0015
+
+0.0336 ± 0.0002
+
+1.3391 ± 0.0034
+
+0.0575 ± 0.0023
+
+0.0172 ± 0.0004
+
+0.9607 ± 0.0111
+
+0.0727 ± 0.0021
+
+0.0183 ± 0.0006
+
+1.0365 ± 0.0043
+
+19
+
+Considering the relationship between relevance and studied approaches the statistics from
+
+Tables 4.11 and 4.12 show that in comparison with Tables 4.7 and 4.8 the respective difference in
+
+lists content increased (based on average rank difference and Kendall tau) but the top-10 overlap
+
+seems to improve for both cases and top-100 for DHpersonalised. Such results accompanied by
+
+metrics suggest that LM od
+
+DLCE version of algorithm is not a universal solution for uplift-relevance
+
+relation balancing.
+
+Table 4.11: Comparison on DHoriginal with LM od
+
+P ropCare and LM od
+
+DLCE
+
+Method
+
+Avg. Rank Diff. Kendall Tau Top 10 Overlap Top 100 Overlap
+
+DLCE (ˆsu,i)
+DLCE (ˆsF
+
+u,i)
+Personal Popular (PP)
+
+428.5228
+
+435.1803
+
+568.9789
+
+0.0987
+
+0.0986
+
+0.0985
+
+0.056431
+
+0.021221
+
+0.013859
+
+0.054396
+
+0.052239
+
+0.040260
+
+Table 4.12: Comparison on DHpersonalised with LM od
+
+P ropCare and LM od
+
+DLCE
+
+Method
+
+Avg. Rank Diff. Kendall Tau Top 10 Overlap Top 100 Overlap
+
+DLCE (ˆsu,i)
+DLCE (ˆsF
+
+u,i)
+Personal Popular (PP)
+
+419.0561
+
+425.6132
+
+529.4819
+
+0.1114
+
+0.1113
+
+0.1105
+
+0.095193
+
+0.065743
+
+0.033954
+
+0.116709
+
+0.102620
+
+0.075639
+
+Final comparison for DH settings was done to differentiate the performance of compared
+
+approaches in terms of average price of items recommended and level of their personalisation.
+
+The comparison of average price for top-k items is done based on the results presented at
+
+Tables 4.13 and 4.14. Overall, it can be said that personal popular tends to recommend items
+
+that have greater price. In addition, the statistical difference between the values obtained from
+
+the respective lists produced from DLCE variations was verified with the t-test for all cases except
+
+for top-100 case with ˆsu,i and ˆsF
+
+u,i with LM od
+
+DLCE on DHpersonalised.
+
+Table 4.13: Price Comparison on DHoriginal
+
+Method
+
+Avg. Price Top-10 Avg. Price Top-100
+
+DLCE (ˆsu,i) (LDLCE )
+DLCE (ˆsF
+
+u,i) (LDLCE )
+DLCE )
+DLCE )
+Personal Popular (PP)
+
+DLCE (ˆsu,i) (LM od
+u,i) (LM od
+DLCE (ˆsF
+
+2.5052 ± 0.4057
+
+2.6563 ± 0.1025
+
+2.5822 ± 0.4676
+
+2.6892 ± 0.1223
+
+2.5188 ± 0.3945
+
+2.6904 ± 0.1184
+
+2.5980 ± 0.4906
+
+2.7350 ± 0.1417
+
+2.6257 ± 0.5204
+
+2.8584 ± 0.2056
+
+20
+
+Table 4.14: Price Comparison on DHpersonalised
+
+Method
+
+Avg. Price Top-10 Avg. Price Top-100
+
+DLCE (ˆsu,i) (LDLCE )
+DLCE (ˆsF
+
+u,i) (LDLCE )
+DLCE )
+DLCE )
+Personal Popular (PP)
+
+DLCE (ˆsu,i)(LM od
+u,i) (LM od
+DLCE (ˆsF
+
+2.6172 ± 0.4908
+
+2.6419 ± 0.1346
+
+2.5351 ± 0.4895
+
+2.6551 ± 0.1380
+
+2.7478 ± 0.5435
+
+2.7659 ± 0.1511
+
+2.6229 ± 0.5312
+
+2.7628 ± 0.1614
+
+2.5991 ± 0.5645
+
+2.8618 ± 0.2027
+
+Algorithms were also tested based on how personalised they are are using Jaccard score
+
+with values close to one meaning more unique recommendations for users. Table 4.15 suggests
+
+that on average DLCE (ˆsF
+
+u,i) with either version of loss function outperforms other approaches.
+
+Table 4.15: Personalization Score Comparison
+
+Method
+
+DHoriginal DHpersonalised
+
+DLCE (ˆsu,i) (LDLCE )
+DLCE (ˆsF
+
+u,i) (LDLCE )
+DLCE )
+DLCE )
+Personal Popular (PP)
+
+DLCE (ˆsu,i) (LM od
+u,i) (LM od
+DLCE (ˆsF
+
+0.820
+
+0.870
+
+0.769
+
+0.877
+
+0.879
+
+0.943
+
+0.912
+
+0.928
+
+0.912
+
+0.910
+
+As a final part of the research it was decided to perform simulation of algorithms on
+
+non-synthesised dataset FINN.no. This was done to verify the positive influence of frequency
+
+incoporation into prediction of DLCE as well as too confirm whether or not it is capable to
+
+outperform personal popular approach.
+
+An important remark should be made considering the specifity of the utilised dataset. To
+
+begin with, it must be mentioned that FINN.no is considerably smaller than both versions of
+
+DunnHumby. In addition, it is quite sparse making the popularity scores concentrate around 0
+
+(Figure 4.3 depicts min-max scaled values distribution).
+
+Both points result in inability of DLCE to properly train resulting in performance worse
+
+than randomization (supported by the Figure A.1). The popularity approach in its nature re-
+
+sembles the randomization and is perceived in this formulation. However, the goal of FINN.no
+
+utilisation is to rather focus on the comparison of DLCE and PP performance in a different setting.
+
+21
+
+Figure 4.3: Distribution of popularity in FINN.no dataset
+
+Taking into consideration mentioned reasoning, the analysis of simulations, that were per-
+
+formed 10 consecutive times (to mitigate the effect of datasets size), begins with the approaches
+
+results depicted in Table 4.16.
+
+Table 4.16: Results of Metrics on FINN.no
+
+Method
+
+NDCG@10
+
+Recall@10
+
+Precision@10 Weighted Average Uplift
+
+DLCE (ˆsu,i)
+DLCE (ˆsF
+
+u,i)
+DLCE (ˆsF I
+u,i)
+DLCE (ˆsF U
+u,i )
+Personal Popular (PP)
+
+0.2468 ± 0.0093
+
+0.4165 ± 0.0104
+
+0.0982 ± 0.0020
+
+0.2194 ± 0.0014
+
+0.4028 ± 0.0022
+
+0.0937 ± 0.0005
+
+0.2626 ± 0.0041
+
+0.4372 ± 0.0055
+
+0.1032 ± 0.0009
+
+0.2521 ± 0.0084
+
+0.4284 ± 0.0116
+
+0.0996 ± 0.0027
+
+0.2193 ± 0.0019
+
+0.4024 ± 0.0029
+
+0.0936 ± 0.0006
+
+Popularity (P)
+
+0.2709 ± 0.0043
+
+0.4380 ± 0.0088
+
+0.1036 ± 0.0019
+
+-0.0475
+
+-0.0465
+
+-0.0473
+
+-0.0474
+
+-0.0464
+
+-0.0480
+
+The analysis of standard metrics allows to make several conclusions. First and foremost,
+
+even though popularity outperforms all of the approaches its standard deviation is one of the
+
+heighest across all statistics. This reinforces the idea to perceive it as randomized output. Sec-
+
+ondly, it can be observed that DLCE (ˆsF
+
+u,i) has close but slightly higher metrics than PP in the
+
+current setting.
+
+In addition, its deviation is the smallest compared to others which reaffirmes
+
+in the assumption that addition of frequency to model’s prediction makes its performance more
+
+stable. Finally, across DLCE approaches the (ˆsF I
+
+u,i) modification provides with the best metrics.
+
+Considering the causal metric of weighted uplift, PP tends to provide with the best average
+
+performance followed closely by DLCE (ˆsF
+
+u,i). This could signal that in the long-run provision of
+
+more data could have improved the results. To provide with the analysis based on the current
+
+setting the Uplift@k metric was calculated and visualised which is depicted on Figure 4.4.
+
+22
+
+Figure 4.4: Distribution of popularity in FINN.no dataset
+
+Based on the provided statistics popularity approach seems to perform the worst among
+
+all. In addition, Most of DLCE approaches tend to provide better results than the randomisation.
+
+What is interesting in this case is that the DLCE (ˆsF I
+
+u,i) method which provides best metrics,
+
+excluding popularity, seems to converge for a random performance more than others do. Thus,
+
+it cannot be fully suggested that this approach would definitely outperform DLCE (ˆsF
+
+u,i) version
+
+provided more data. Lastly, a strong relationship between PP and DLCE (ˆsF
+
+u,i) can be observed
+
+with them alternately changing leadership.
+
+5 Conclusions and future prospects
+
+The current paper presents the idea behind the uplift modeling setting and provides with
+
+an evaluation of potential modifications that can be made for the purpose of attempts to account
+
+for the effect of item’s relevance on user’s interaction with it.
+
+The description of obtained results in both DunnHumby settings suggests that usage of
+
+DLCE (ˆsF
+
+u,i) should be prioritised. First of all, its performance in comparison with the DLCE
+
+(ˆsu,i) is noticeably better and is more stable in various simulation settings. In addition, in the
+
+case of LM od
+
+DLCE implementation, the derived method shows non-worse results almost for all met-
+
+rics for DHoriginal setting compared to initial realisation and substantially enhanced onced for
+
+DHpersonalised. Considering its relationship with relevance, DLCE (ˆsF
+
+u,i) allows one to provide
+
+around the same or even better statistics compared to DLCE (ˆsu,i) and substantially better with
+
+regard to personal popular approach. Furthermore, the discussed method also excels in the pro-
+
+23
+
+vision of more individual recommendations.
+
+Acknowledging the limited scope of FINN.no setting, the analysis performed on it still
+
+allowed to derive some useful considerations. The received metrics indicate more stable long-term
+
+potential performance, suggesting as well that personal popular approach is not the best fit for
+
+all cases.
+
+However, an important assumption is made in the research of the availability of user-item
+
+frequency interaction data. As a result, the derived approach is subject to cold start problem due
+
+to lack of such available information for new users or items.
+
+Considering the future prospects of the work, several ideas could be realised and tested.
+
+Firstly, the research would benefit to be complemented with a large non-synthetic dataset which
+
+would allow to make more definite considerations. Secondly, the solutions for the mitigation of
+
+cold start problem could be tested with the leverage of popularity intial usage for new users and
+
+other items features used. In addition, the new ideas for creation of a more versatile and much
+
+better performing approach that incorporates the item’s relevance should probably be considered.
+
+24
+
+References
+
+[1] Klaudia Balcer and Piotr Lipinski. “Session-based Recommender Systems: User Interest as
+
+a Stochastic Process in the Latent Space”. In: arXiv preprint arXiv:2504.10005 (2025).
+
+[2] Stephen Bonner and Flavian Vasile. “Causal embeddings for recommendation”. In: Proceed-
+
+ings of the 12th ACM conference on recommender systems. 2018, pp. 104–112.
+
+[3] Gang Chen, Jiawei Chen, Fuli Feng, Sheng Zhou, and Xiangnan He. “Unbiased knowledge
+
+distillation for recommendation”. In: Proceedings of the sixteenth ACM international confer-
+
+ence on web search and data mining. 2023, pp. 976–984.
+
+[4] Jiawei Chen, Hande Dong, Xiang Wang, Fuli Feng, Meng Wang, and Xiangnan He. “Bias
+
+and debias in recommender system: A survey and future directions”. In: ACM Transactions
+
+on Information Systems 41.3 (2023), pp. 1–39.
+
+[5] Suming J Chen, Zhen Qin, Zac Wilson, Brian Calaci, Michael Rose, Ryan Evans, Sean Abra-
+
+ham, Donald Metzler, Sandeep Tata, and Michael Colagrosso. “Improving recommendation
+
+quality in google drive”. In: Proceedings of the 26th ACM SIGKDD international conference
+
+on knowledge discovery & data mining. 2020, pp. 2900–2908.
+
+[6] Weixin Chen, Li Chen, Yongxin Ni, and Yuhan Zhao. “Causality-Inspired Fair Represen-
+
+tation Learning for Multimodal Recommendation”. In: arXiv preprint arXiv:2310.17373
+
+(2023).
+
+[7] Quanyu Dai, Zhenhua Dong, and Xu Chen. “Debiased recommendation with neural strati-
+
+fication”. In: AI Open 3 (2022), pp. 213–217.
+
+[8] Yizhou Dang, Yuting Liu, Enneng Yang, Guibing Guo, Linying Jiang, Jianzhe Zhao, and
+
+Xingwei Wang. “Efficient and Adaptive Recommendation Unlearning: A Guided Filtering
+
+Framework to Erase Outdated Preferences”. In: ACM Transactions on Information Systems
+
+43.2 (2025), pp. 1–25.
+
+[9] Chen Gao, Yu Zheng, Wenjie Wang, Fuli Feng, Xiangnan He, and Yong Li. “Causal infer-
+
+ence in recommender systems: A survey and future directions”. In: ACM Transactions on
+
+Information Systems 42.4 (2024), pp. 1–32.
+
+[10] Keisuke Hirano, Guido W Imbens, and Geert Ridder. “Efficient estimation of average treat-
+
+ment effects using the estimated propensity score”. In: Econometrica 71.4 (2003), pp. 1161–
+
+1189.
+
+25
+
+[11] Jin Huang, Harrie Oosterhuis, Masoud Mansoury, Herke Van Hoof, and Maarten de Ri-
+
+jke. “Going beyond popularity and positivity bias: Correcting for multifactorial bias in rec-
+
+ommender systems”. In: Proceedings of the 47th International ACM SIGIR Conference on
+
+Research and Development in Information Retrieval. 2024, pp. 416–426.
+
+[12] Thorsten Joachims, Adith Swaminathan, and Tobias Schnabel. “Unbiased learning-to-rank
+
+with biased feedback”. In: Proceedings of the tenth ACM international conference on web
+
+search and data mining. 2017, pp. 781–789.
+
+[13] Yehuda Koren, Robert Bell, and Chris Volinsky. “Matrix factorization techniques for recom-
+
+mender systems”. In: Computer 42.8 (2009), pp. 30–37.
+
+[14] Guanrong Li, Haolin Yang, Xinyu Liu, Zhen Wu, and Xinyu Dai. “Counterfactual Language
+
+Reasoning for Explainable Recommendation Systems”. In: arXiv preprint arXiv:2503.08051
+
+(2025).
+
+[15] Tie-Yan Liu et al. “Learning to rank for information retrieval”. In: Foundations and Trends®
+
+in Information Retrieval 3.3 (2009), pp. 225–331.
+
+[16] Zhongzhou Liu, Yuan Fang, and Min Wu. “Estimating propensity for causality-based recom-
+
+mendation without exposure data”. In: Advances in Neural Information Processing Systems
+
+36 (2023), pp. 51688–51705.
+
+[17] Huishi Luo, Fuzhen Zhuang, Ruobing Xie, Hengshu Zhu, Deqing Wang, Zhulin An, and
+
+Yongjun Xu. “A survey on causal inference for recommendation”. In: The Innovation 5.2
+
+(2024).
+
+[18] Lucas Möller and Sebastian Padó. “Explaining Neural News Recommendation with Attribu-
+
+tions onto Reading Histories”. In: ACM Transactions on Intelligent Systems and Technology
+
+16.1 (2025), pp. 1–25.
+
+[19] Zhen Qin, Suming J Chen, Donald Metzler, Yongwoo Noh, Jingzheng Qin, and Xuanhui
+
+Wang. “Attribute-based propensity for unbiased learning in recommender systems: Algo-
+
+rithm and case studies”. In: Proceedings of the 26th ACM SIGKDD International Conference
+
+on Knowledge Discovery & Data Mining. 2020, pp. 2359–2367.
+
+[20] Donald B Rubin. “Estimating causal effects of treatments in randomized and nonrandomized
+
+studies.” In: Journal of educational Psychology 66.5 (1974), p. 688.
+
+[21] Yuta Saito. “Doubly robust estimator for ranking metrics with post-click conversions”. In:
+
+Proceedings of the 14th ACM Conference on Recommender Systems. 2020, pp. 92–100.
+
+26
+
+[22] Yuta Saito, Suguru Yaginuma, Yuta Nishino, Hayato Sakata, and Kazuhide Nakata. “Unbi-
+
+ased recommender learning from missing-not-at-random implicit feedback”. In: Proceedings
+
+of the 13th international conference on web search and data mining. 2020, pp. 501–509.
+
+[23] Masahiro Sato, Janmajay Singh, Sho Takemori, and Qian Zhang. “Causality-aware neigh-
+
+borhood methods for recommender systems”. In: Advances in Information Retrieval: 43rd
+
+European Conference on IR Research, ECIR 2021, Virtual Event, March 28–April 1, 2021,
+
+Proceedings, Part I 43. Springer. 2021, pp. 603–618.
+
+[24] Masahiro Sato, Sho Takemori, Janmajay Singh, and Tomoko Ohkuma. “Unbiased learning
+
+for the causal effect of recommendation”. In: Proceedings of the 14th ACM conference on
+
+recommender systems. 2020, pp. 378–387.
+
+[25] Tobias Schnabel, Adith Swaminathan, Ashudeep Singh, Navin Chandak, and Thorsten
+
+Joachims. “Recommendations as treatments: Debiasing learning and evaluation”. In: in-
+
+ternational conference on machine learning. PMLR. 2016, pp. 1670–1679.
+
+[26] Weiping Song, Chence Shi, Zhiping Xiao, Zhijian Duan, Yewen Xu, Ming Zhang, and Jian
+
+Tang. “Autoint: Automatic feature interaction learning via self-attentive neural networks”.
+
+In: Proceedings of the 28th ACM international conference on information and knowledge
+
+management. 2019, pp. 1161–1170.
+
+[27] Wenjie Wang, Yang Zhang, Haoxuan Li, Peng Wu, Fuli Feng, and Xiangnan He. “Causal
+
+recommendation: Progresses and future directions”. In: Proceedings of the 46th Interna-
+
+tional ACM SIGIR Conference on Research and Development in Information Retrieval.
+
+2023, pp. 3432–3435.
+
+[28] Jun Xiao, Hao Ye, Xiangnan He, Hanwang Zhang, Fei Wu, and Tat-Seng Chua. “Attentional
+
+factorization machines: Learning the weight of feature interactions via attention networks”.
+
+In: arXiv preprint arXiv:1708.04617 (2017).
+
+[29] Da Xu, Chuanwei Ruan, Evren Korpeoglu, Sushant Kumar, and Kannan Achan. “Adversarial
+
+counterfactual learning and evaluation for recommender system”. In: Advances in Neural
+
+Information Processing Systems 33 (2020), pp. 13515–13526.
+
+[30] Shuyuan Xu, Yingqiang Ge, Yunqi Li, Zuohui Fu, Xu Chen, and Yongfeng Zhang. “Causal
+
+collaborative filtering”. In: Proceedings of the 2023 ACM SIGIR International Conference
+
+on Theory of Information Retrieval. 2023, pp. 235–245.
+
+27
+
+[31] Shuyuan Xu, Jianchao Ji, Yunqi Li, Yingqiang Ge, Juntao Tan, and Yongfeng Zhang. “Causal
+
+Inference for Recommendation: Foundations, Methods, and Applications”. In: ACM Trans-
+
+actions on Intelligent Systems and Technology 16.3 (2025), pp. 1–51.
+
+[32] Shuyuan Xu, Da Xu, Evren Korpeoglu, Sushant Kumar, Stephen Guo, Kannan Achan,
+
+and Yongfeng Zhang. “Causal structure learning with recommendation system”. In: arXiv
+
+preprint arXiv:2210.10256 (2022).
+
+[33] Yang Zhang, Zhiyu Hu, Yimeng Bai, Jiancan Wu, Qifan Wang, and Fuli Feng. “Recommen-
+
+dation unlearning via influence function”. In: ACM Transactions on Recommender Systems
+
+3.2 (2024), pp. 1–23.
+
+[34] Ziwei Zhu, Yun He, Yin Zhang, and James Caverlee. “Unbiased implicit recommendation
+
+and propensity estimation via combinational joint learning”. In: Proceedings of the 14th ACM
+
+conference on recommender systems. 2020, pp. 551–556.
+
+28
+
+A Appendix
+
+Algorithm 1 PropCare and DLCE Training
+1: Input: Observed training data D, η, γ, ω, χT , χC
+
+2: Output: Weights DLCE (θDLCE)
+
+3:
+
+4: Initialize PropCare weights: θPropCare
+
+5: for e = 1 to E do
+
+6:
+
+7:
+
+8:
+
+9:
+
+10:
+
+11:
+
+12:
+
+for pair (u, i) in D do
+
+Compute Lnaive from eq. (4)
+
+Sample an item j for each pair from I \ {i}
+
+Compute Lpop from eq. (5)
+
+Compute LPropCare from eq. (6)
+
+end for
+
+Update θPropCare with backpropagation
+
+13: end for
+
+14: Obtain exposure data from θP ropCare
+
+15: Initialize DLCE weights: θDLCE
+
+16: for n = 1 to N do
+
+17:
+
+18:
+
+19:
+
+20:
+
+21:
+
+22:
+
+23:
+
+Sample a pair (u, i) from D
+
+Sample an item j for each pair from I \ {i}
+
+if Zu,i = 1 then
+
+θDLCE = θDLCE + η(−
+
+1
+max(pu,i, χT )
+
+else
+
+∂
+∂t (log(1 + exp(ωˆsu,i,j))) − γθDLCE)
+
+θDLCE = θDLCE + η(−
+
+1
+max((1 − pu,i), χC)
+
+∂
+∂t (log(1 + exp(−ωˆsu,i,j))) − γθDLCE)
+
+end if
+
+24: end for
+
+25:
+
+26: Return:
+
+θDLCE
+
+29
+
+Table A.1: Metrics for DLCE (ˆsu,i) with LM od
+
+DLCE on DHoriginal
+
+ϕ
+
+Threshold NDCG@10 Recall@10 Precision@10
+
+0.1
+
+0.2
+
+0.3
+
+0.1
+
+0.2
+
+0.3
+
+0.1
+
+0.2
+
+0.3
+
+0.5
+
+0.5
+
+0.5
+
+0.6
+
+0.6
+
+0.6
+
+0.7
+
+0.7
+
+0.7
+
+0.1398
+
+0.0911
+
+0.1341
+
+0.1190
+
+0.1118
+
+0.1384
+
+0.1154
+
+0.1115
+
+0.1329
+
+0.1150
+
+0.1095
+
+0.0744
+
+0.0687
+
+0.0901
+
+0.0694
+
+0.0678
+
+0.0851
+
+0.0699
+
+0.0664
+
+0.1089
+
+0.1013
+
+0.1319
+
+0.1036
+
+0.1000
+
+0.1258
+
+0.1036
+
+0.0983
+
+ϕ
+
+Threshold CP@10 CP@100 CDCG
+
+0.1
+
+0.2
+
+0.3
+
+0.1
+
+0.2
+
+0.3
+
+0.1
+
+0.2
+
+0.3
+
+0.5
+
+0.5
+
+0.5
+
+0.6
+
+0.6
+
+0.6
+
+0.7
+
+0.7
+
+0.7
+
+0.0239
+
+0.0222
+
+0.0220
+
+0.0224
+
+0.0217
+
+0.0223
+
+0.0213
+
+0.0224
+
+0.0232
+
+0.0129
+
+0.0118
+
+0.0120
+
+0.0128
+
+0.0124
+
+0.0123
+
+0.0129
+
+0.0130
+
+0.0121
+
+0.8584
+
+0.8354
+
+0.8346
+
+0.8458
+
+0.8485
+
+0.8503
+
+0.8531
+
+0.8581
+
+0.8438
+
+Table A.2: Metrics for DLCE (ˆsu,i) with LM od
+
+DLCE on DHpersonalised
+
+ϕ
+
+Threshold NDCG@10 Recall@10 Precision@10
+
+0.1
+
+0.2
+
+0.3
+
+0.1
+
+0.2
+
+0.3
+
+0.1
+
+0.2
+
+0.3
+
+0.5
+
+0.5
+
+0.5
+
+0.6
+
+0.6
+
+0.6
+
+0.7
+
+0.7
+
+0.7
+
+0.1834
+
+0.1755
+
+0.1693
+
+0.1843
+
+0.1740
+
+0.1685
+
+0.1831
+
+0.1735
+
+0.1677
+
+0.1010
+
+0.0954
+
+0.0886
+
+0.1011
+
+0.0938
+
+0.0881
+
+0.1015
+
+0.0938
+
+0.0891
+
+0.1655
+
+0.1558
+
+0.1461
+
+0.1647
+
+0.1547
+
+0.1465
+
+0.1654
+
+0.1548
+
+0.1469
+
+ϕ
+
+Threshold CP@10 CP@100 CDCG
+
+0.1
+
+0.2
+
+0.3
+
+0.1
+
+0.2
+
+0.3
+
+0.1
+
+0.2
+
+0.3
+
+0.5
+
+0.5
+
+0.5
+
+0.6
+
+0.6
+
+0.6
+
+0.7
+
+0.7
+
+0.7
+
+0.0197
+
+0.0189
+
+0.0187
+
+1.0317
+
+1.0066
+
+1.0025
+
+0.0197
+
+1.0357
+
+0.0180
+
+0.0181
+
+0.0193
+
+0.0187
+
+0.0188
+
+1.0032
+
+0.9911
+
+1.0315
+
+1.0040
+
+0.9873
+
+0.0615
+
+0.0554
+
+0.0507
+
+0.0613
+
+0.0551
+
+0.0515
+
+0.0623
+
+0.0542
+
+0.0511
+
+30
+
+Table A.3: Mean Results for DHoriginal
+
+Method
+
+CP@10 CP@100 CDCG NDCG@10 Recall@10 Precision@10
+
+DLCE (ˆsu,i)
+
+DLCE (ˆsF
+
+u,i)
+DLCE (ˆsF I
+u,i)
+DLCE (ˆsF U
+u,i )
+
+0.0328
+
+0.0161
+
+0.9254
+
+0.2455
+
+0.1381
+
+0.2035
+
+0.0230
+
+0.0133
+
+0.8644
+
+0.0197
+
+0.0126
+
+0.8475
+
+0.2223
+
+0.2477
+
+0.0014
+
+0.1952
+
+0.2434
+
+0.1148
+
+0.0960
+
+0.0117
+
+0.1982
+
+0.1202
+
+0.1395
+
+0.0010
+
+0.1106
+
+0.1365
+
+0.0678
+
+0.0545
+
+0.0072
+
+0.1097
+
+0.1755
+
+0.2049
+
+0.0013
+
+0.1631
+
+0.2011
+
+0.0981
+
+0.0826
+
+0.0109
+
+0.1618
+
+0.1533
+
+0.1272
+
+0.0237
+
+0.1693
+
+0.2436
+
+0.1188
+
+0.0877
+
+0.0887
+
+0.0741
+
+0.0106
+
+0.0961
+
+0.1371
+
+0.0693
+
+0.0506
+
+0.1292
+
+0.1112
+
+0.0159
+
+0.1408
+
+0.2019
+
+0.1012
+
+0.0771
+
+Category
+
+Baselines
+
+LPropCare and LDLCE
+
+LMod
+
+PropCare and LDLCE
+
+Popularity
+
+0.0293
+
+0.0155
+
+0.9251
+
+Personal Popularity
+
+0.0315
+
+0.0164
+
+0.9396
+
+Relevance PropCare
+
+0.0022
+
+0.0024
+
+0.6677
+
+DLCE (ˆsu,i)
+
+DLCE (ˆsF
+
+u,i)
+DLCE (ˆsF I
+u,i)
+DLCE (ˆsF U
+u,i )
+
+0.0284
+
+0.0147
+
+0.8928
+
+0.0349
+
+0.0158
+
+0.9187
+
+0.0167
+
+0.0112
+
+0.8185
+
+0.0155
+
+0.0108
+
+0.8155
+
+Relevance PropCare
+
+0.0130
+
+0.0045
+
+0.7492
+
+0.0289
+
+0.0143
+
+0.9042
+
+LMod
+
+PropCare and LMod
+DLCE
+
+Relevance PropCare
+
+0.0071
+
+0.0044
+
+0.7247
+
+DLCE (ˆsu,i)
+
+DLCE (ˆsF
+
+u,i)
+DLCE (ˆsF I
+u,i)
+DLCE (ˆsF U
+u,i )
+
+0.0223
+
+0.0135
+
+0.8915
+
+0.0327
+
+0.0162
+
+0.9269
+
+0.0184
+
+0.0115
+
+0.8413
+
+0.0159
+
+0.0118
+
+0.8286
+
+Bold values indicate the best DLCE Ranking performance for each metric.
+
+31
+
+Category
+
+Baselines
+
+LPropCare and LDLCE
+
+LMod
+
+PropCare and LDLCE
+
+LMod
+
+PropCare and LMod
+DLCE
+
+Table A.4: Mean Results for DHpersonalised
+
+Method
+
+CP@10 CP@100 CDCG NDCG@10 Recall@10 Precision@10
+
+Popularity
+
+0.0275
+
+0.0157
+
+0.8646
+
+Personal Popularity
+
+0.1387
+
+0.0392
+
+1.4728
+
+Relevance PropCare
+
+0.0015
+
+0.0019
+
+0.6128
+
+DLCE (ˆsu,i)
+
+DLCE (ˆsF
+
+u,i)
+DLCE (ˆsF I
+u,i)
+DLCE (ˆsF U
+u,i )
+
+0.0569
+
+0.0172
+
+0.9438
+
+0.0959
+
+0.0271
+
+1.2195
+
+0.0407
+
+0.0127
+
+0.8616
+
+0.0657
+
+0.0144
+
+0.9889
+
+Relevance PropCare
+
+0.0049
+
+0.0044
+
+0.6613
+
+DLCE (ˆsu,i)
+
+DLCE (ˆsF
+
+u,i)
+DLCE (ˆsF I
+u,i)
+DLCE (ˆsF U
+u,i )
+
+0.0591
+
+0.0185
+
+0.9572
+
+0.1030
+
+0.0294
+
+1.2695
+
+0.0513
+
+0.0165
+
+0.9302
+
+0.0700
+
+0.0175
+
+1.0161
+
+Relevance PropCare
+
+0.0084
+
+0.0041
+
+0.6814
+
+0.0617
+
+0.0172
+
+0.9648
+
+0.2316
+
+0.3431
+
+0.0012
+
+0.1816
+
+0.2892
+
+0.1400
+
+0.1602
+
+0.0145
+
+0.1800
+
+0.2946
+
+0.1582
+
+0.1843
+
+0.0172
+
+0.1642
+
+0.1150
+
+0.1826
+
+0.0008
+
+0.1052
+
+0.1495
+
+0.0764
+
+0.0819
+
+0.0090
+
+0.1042
+
+0.1513
+
+0.0859
+
+0.0990
+
+0.0094
+
+0.0964
+
+0.1870
+
+0.2938
+
+0.0012
+
+0.1699
+
+0.2449
+
+0.1228
+
+0.1361
+
+0.0146
+
+0.1686
+
+0.2480
+
+0.1377
+
+0.1626
+
+0.0154
+
+0.1544
+
+0.1151
+
+0.0336
+
+1.3391
+
+0.3028
+
+0.1584
+
+0.2575
+
+0.0575
+
+0.0172
+
+0.9607
+
+0.0727
+
+0.0183
+
+1.0365
+
+0.1654
+
+0.1815
+
+0.0884
+
+0.0934
+
+0.1441
+
+0.1552
+
+DLCE (ˆsu,i)
+
+DLCE (ˆsF
+
+u,i)
+DLCE (ˆsF I
+u,i)
+DLCE (ˆsF U
+u,i )
+
+Bold values indicate the best DLCE Ranking performance for each metric.
+
+32
+
+t
+e
+s
+a
+t
+a
+d
+
+o
+n
+.
+N
+N
+I
+F
+
+n
+o
+
+s
+e
+v
+r
+u
+C
+
+i
+n
+i
+Q
+d
+n
+a
+
+t
+f
+i
+l
+p
+U
+
+:
+1
+.
+A
+e
+r
+u
+g
+i
+F
+
+33
+
+
